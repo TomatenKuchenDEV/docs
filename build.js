@@ -20,7 +20,7 @@ fs.readFile("./template.html", "utf8", (err, template) => {
 				const converted = converter.makeHtml(data)
 				const meta = converter.getMetadata()
 
-				const output = file.replace(".md", "") + ".html"
+				const output = file.replace(".md", "")
 				pages.push({
 					title: meta?.title || "Dokumentation",
 					//description: meta?.description,
@@ -28,7 +28,7 @@ fs.readFile("./template.html", "utf8", (err, template) => {
 					url: output
 				})
 
-				fs.writeFile("dist/" + output, template.replace(/{TITLE}/g, meta?.title || "Dokumentation").replace("{CONTENT}", converted), err => {
+				fs.writeFile("dist/" + output + ".html", template.replace(/{TITLE}/g, meta?.title || "Dokumentation").replace("{CONTENT}", converted), err => {
 					if (err) throw err
 					console.log("File " + file + " written successfully")
 				})
@@ -40,17 +40,11 @@ fs.readFile("./template.html", "utf8", (err, template) => {
 })
 
 function generateStartpage() {
-	var generated = "<h1>Startseite der Dokumentation</h1><ul>"
-	pages.forEach(page => {
-		generated += "<li><a href='" + page.url + "'>" + page.title + "</a></li>"
-	})
-	generated += "</ul>"
+	var generated = "<h1>Startseite der Dokumentation</h1>"
 
 	generated += "<br><br><div class='grid'>"
 	pages.forEach(page => {
-		generated += "<div style='padding: 30px;'><a href='" + page.url + "'>" + page.title + "</a><p>keeeek</p></div>"
-		generated += "<div style='padding: 30px;'><a href='" + page.url + "'>" + page.title + "</a><p>keeeek</p></div>"
-		generated += "<div style='padding: 30px;'><a href='" + page.url + "'>" + page.title + "</a><p>keeeek</p></div>"
+		generated += "<div class='grid-item'><h3><a href='" + page.url + "'>" + page.title + "</a></h3><p>keeeek</p></div>"
 	})
 	generated += "</div>"
 
