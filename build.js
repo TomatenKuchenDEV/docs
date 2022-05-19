@@ -52,5 +52,5 @@ function generateStartpage() {
 	})
 	generated += "</div>"
 
-	fs.writeFile("dist/index.html", template.replace(/{TITLE}/g, "Startseite").replace("{CONTENT}", generated))
+	fs.writeFile("dist/index.html", templatecopy.replace(/{TITLE}/g, "Startseite").replace("{CONTENT}", generated))
 }
