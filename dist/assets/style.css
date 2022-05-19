@@ -4,7 +4,7 @@
 	font-family: "Be Vietnam Pro", Arial, Helvetica, sans-serif;
 }
 body {
-	margin: 0 5%;
+	margin: 0 3%;
 }
 
 .grid {
@@ -44,9 +44,9 @@ body {
 
 code {
 	font-family: monospace;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	background-color: #ebebeb;
-	padding: 0.5rem;
-	margin: 0.5rem;
+	padding: 0.4rem;
+	margin: 0.7rem;
 	border-radius: 5px;
 }
