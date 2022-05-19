@@ -5,10 +5,9 @@
 }
 
 .grid {
-	width: auto;
 	display: grid;
 	grid-template-areas: ". . . . .";
-	overflow: hidden;
+	gap: 50px 100px;
 }
 @media (max-width: 1300px) {
 	.grid {
