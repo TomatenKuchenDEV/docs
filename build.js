@@ -1,6 +1,6 @@
 const fs = require("fs")
 const showdown = require("showdown")
-const converter = new showdown.Converter({ghCompatibleHeaderId: true, parseImgDimensions: true, strikethrough: true, tables: true, tablesHeaderId: true, tasklists: true, simpleLineBreaks: true, ghMentions: true, openLinksInNewWindow: true, emoji: true, underline: true, metadata: true})
+const converter = new showdown.Converter({ghCompatibleHeaderId: true, parseImgDimensions: true, strikethrough: true, tables: true, tasklists: true, simpleLineBreaks: true, ghMentions: true, openLinksInNewWindow: true, emoji: true, underline: true, metadata: true})
 var pages = []
 var templatecopy = ""
 

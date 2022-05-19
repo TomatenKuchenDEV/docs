@@ -36,4 +36,4 @@ lang: de
 
 # Tickets & Transcripte anzeigen
 
-`tickets [<Ersteller>]`
+`tickets [<Nutzer>]`
