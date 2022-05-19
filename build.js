@@ -1,6 +1,6 @@
 const fs = require("fs")
 const showdown = require("showdown")
-converter = new showdown.Converter()
+converter = new showdown.Converter({ghCompatibleHeaderId: true, parseImgDimensions: true, strikethrough: true, tables: true, tablesHeaderId: true, tasklists: true, simpleLineBreaks: true, ghMentions: true, openLinksInNewWindow: true, emoji: true, underline: true})
 
 fs.readdir(__dirname, (err, files) => {
   if (err) return console.log(err)
