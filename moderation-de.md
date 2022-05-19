@@ -3,57 +3,57 @@ title: Moderation
 lang: de
 ---
 
-## Befehle
+# Befehle
 
-### Nutzer bannen
+## Nutzer bannen
 
 `ban <Nutzer> [Grund]`
 
-### Nutzer entbannen
+## Nutzer entbannen
 
 `unban <Nutzer> [Grund]`
 
-### Gebannte Nutzer anzeigen
+## Gebannte Nutzer anzeigen
 
 `banlist`
 
-### Modlogs eines Benutzers anzeigen
+## Modlogs eines Benutzers anzeigen
 
 `modlogs <Nutzer>`
 
-### Nutzer kicken
+## Nutzer kicken
 
 `kick <Nutzer> [Grund]`
 
-### Sperre einen Kanal oder den ganzen Server
+## Sperre einen Kanal oder den ganzen Server
 
 `lock server|channel an|aus`
 
-### Lösche bis zu 100 Nachrichten
+## Lösche bis zu 100 Nachrichten
 
 `purge <Anzahl> [<Nutzer>|<Filter>]`
 
-### Text ausgeben
+## Text ausgeben
 
 `say <Nachricht>`
 
-### Ändere den Slowmode vom aktuellen Kanal
+## Ändere den Slowmode vom aktuellen Kanal
 
 `slowmode <Dauer>`
 
-### Mute einen Nutzer
+## Mute einen Nutzer
 
 `mute <Nutzer> <Zeit> <Grund>`
 
-### Entmute einen Nutzer
+## Entmute einen Nutzer
 
 `unmute <Nutzer> <Grund>`
 
-### Verwarne einen Nutzer
+## Verwarne einen Nutzer
 
 `warn <Nutzer> <Grund>`
 
-## Nachrichten mithilfe von RegEx filtern
+# Nachrichten mithilfe von RegEx filtern
 
 Du kannst mit einer Einstellung im Dashboard Nachrichten filtern und, wenn der Filter etwas findet, die Nachricht löschen.
 Auch kannst du dort RegExps nutzen, auch wenn es dort einige [Einschränkungen](https://npmjs.com/package/re2#limitations-things-re2-does-not-support) gibt.

@@ -1,6 +1,6 @@
 const fs = require("fs")
 const showdown = require("showdown")
-const converter = new showdown.Converter({ghCompatibleHeaderId: true, parseImgDimensions: true, strikethrough: true, tables: true, tasklists: true, simpleLineBreaks: true, ghMentions: true, openLinksInNewWindow: true, emoji: true, underline: true, metadata: true})
+const converter = new showdown.Converter({ghCompatibleHeaderId: true, parseImgDimensions: true, headerLevelStart: 2, strikethrough: true, tables: true, tasklists: true, simpleLineBreaks: true, ghMentions: true, openLinksInNewWindow: true, emoji: true, underline: true, metadata: true})
 var pages = []
 var templatecopy = ""
 
@@ -43,7 +43,7 @@ function generateStartpage() {
 	var generated = "<center><h1 style='padding: 10px;'>Startseite der Dokumentation</h1><div class='grid'>"
 
 	pages.forEach(page => {
-		generated += "<div class='grid-item'><h3><a href='" + page.url + "'>" + page.title + "</a></h3><p>keeeek</p></div>"
+		generated += "<div class='grid-item'><h3><a href='" + page.url + "'>" + page.title + "</a></h3><p>" + (page.lang == "de" ? "🇩🇪 Deutsch" : "🇺🇸 English") + "</p></div>"
 	})
 	generated += "</div></center>"
 

@@ -3,12 +3,15 @@
 * {
 	font-family: "Be Vietnam Pro", Arial, Helvetica, sans-serif;
 }
+body {
+	margin: 0 5%;
+}
 
 .grid {
 	display: grid;
 	grid-template-areas: ". . . . .";
-	gap: 50px 70px;
-	padding: 30px;
+	gap: 40px 60px;
+	padding: 20px;
 }
 @media (max-width: 1300px) {
 	.grid {
@@ -41,8 +44,9 @@
 
 code {
 	font-family: monospace;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	background-color: #ebebeb;
 	padding: 0.5rem;
+	margin: 0.5rem;
 	border-radius: 5px;
 }
