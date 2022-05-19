@@ -7,7 +7,7 @@
 .grid {
 	display: grid;
 	grid-template-areas: ". . . . .";
-	gap: 50px 100px;
+	gap: 50px 70px;
 	padding: 30px;
 }
 @media (max-width: 1300px) {
@@ -33,7 +33,7 @@
 
 .grid-item {
 	text-align: center;
-	padding: 5px;
+	padding: 10px;
 }
 .grid-item:hover {
 	background-color: #ebf8fa;
