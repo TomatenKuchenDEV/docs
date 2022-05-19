@@ -1,34 +1,34 @@
 ---
 title: Customcommands
-lang: de
+lang: en
 ---
 
 Um eigene Befehle zu erstellen brauchst du mindestens die Berechtigung "Server verwalten".
 
-# Erstellen
+# Create
 
 `customcommand <Name> <Text>`
 
-Beispiel:
+Example:
 `customcommand hi Hey ^^`
 
-# Bearbeiten
+# Edit
 
 `customcommand <Name> <Neuer Text>`
 
-Beispiel:
+Example:
 `customcommand hi Hallo!`
 
-# Löschen
+# Delete
 
 `customcommand <Name> del`
 
-Beispiel:
+Example:
 `customcommand hi del`
 
-# Testen
+# Test code
 
 `customcommand test <Customcommand-Code>`
 
-Beispiel:
+Example:
 `customcommand test Hallo **{author.name}**! :D`

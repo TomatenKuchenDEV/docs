@@ -36,5 +36,13 @@
 	padding: 10px;
 }
 .grid-item:hover {
-	background-color: #ebf8fa;
+	background-color: #e3ecee;
+}
+
+code {
+	font-family: monospace;
+	font-size: 1.2rem;
+	background-color: #ebebeb;
+	padding: 0.5rem;
+	border-radius: 5px;
 }
