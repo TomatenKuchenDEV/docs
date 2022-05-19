@@ -23,7 +23,7 @@ fs.readFile("./template.html", "utf8", (err, template) => {
 				const output = file.replace(".md", "")
 				pages.push({
 					title: meta?.title || "Dokumentation",
-					//description: meta?.description,
+					description: meta?.description,
 					lang: meta?.lang || "de",
 					url: output
 				})
@@ -40,13 +40,12 @@ fs.readFile("./template.html", "utf8", (err, template) => {
 })
 
 function generateStartpage() {
-	var generated = "<h1>Startseite der Dokumentation</h1>"
+	var generated = "<center><h1 style='padding: 10px;'>Startseite der Dokumentation</h1><div class='grid'>"
 
-	generated += "<br><br><div class='grid'>"
 	pages.forEach(page => {
 		generated += "<div class='grid-item'><h3><a href='" + page.url + "'>" + page.title + "</a></h3><p>keeeek</p></div>"
 	})
-	generated += "</div>"
+	generated += "</div></center>"
 
 	fs.writeFile("dist/index.html", templatecopy.replace(/{TITLE}/g, "Startseite").replace("{CONTENT}", generated), err => {
 		if (err) throw err
