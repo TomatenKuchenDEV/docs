@@ -8,6 +8,7 @@
 	display: grid;
 	grid-template-areas: ". . . . .";
 	gap: 50px 100px;
+	padding: 50px;
 }
 @media (max-width: 1300px) {
 	.grid {
@@ -28,4 +29,12 @@
 	.grid {
 		grid-template-areas: ".";
 	}
+}
+
+.grid-item {
+	text-align: center;
+	padding: 30px;
+}
+.grid-item:hover {
+	background-color: #f5f5f5;
 }
