@@ -46,11 +46,11 @@ function generateStartpage() {
 	})
 	generated += "</ul>"
 
-	generated += "<br><br><br><br><div class='grid'>"
+	generated += "<br><br><div class='grid'>"
 	pages.forEach(page => {
-		generated += "<a href='" + page.url + "'>" + page.title + "</a><p>keeeek</p>"
+		generated += "<div style='padding: 30px;'><a href='" + page.url + "'>" + page.title + "</a><p>keeeek</p></div>"
 	})
-	generated += "</div>"
+	generated += "<br><br>" + generated + "<br><br>" + generated + "</div>"
 
 	fs.writeFile("dist/index.html", templatecopy.replace(/{TITLE}/g, "Startseite").replace("{CONTENT}", generated), err => {
 		if (err) throw err
