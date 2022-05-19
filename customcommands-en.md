@@ -14,10 +14,10 @@ Example:
 
 # Edit
 
-`customcommand <Name> <Neuer Text>`
+`customcommand <Name> <New text>`
 
 Example:
-`customcommand hi Hallo!`
+`customcommand hi Hello!`
 
 # Delete
 
@@ -26,9 +26,16 @@ Example:
 Example:
 `customcommand hi del`
 
+# Display raw code
+
+`customcommand <Name> raw`
+
+Example:
+`customcommand hi raw`
+
 # Test code
 
 `customcommand test <Customcommand-Code>`
 
 Example:
-`customcommand test Hallo **{author.name}**! :D`
+`customcommand test Hello **{author.name}**! :D`

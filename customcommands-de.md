@@ -26,6 +26,15 @@ Beispiel:
 Beispiel:
 `customcommand hi del`
 
+# Raw-Code anzeigen
+
+`customcommand <Name> raw`
+
+Beispiel:
+`customcommand hi raw`
+-->
+`Hallo!`
+
 # Testen
 
 `customcommand test <Customcommand-Code>`
