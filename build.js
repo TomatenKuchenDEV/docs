@@ -55,4 +55,13 @@ function generateStartpage() {
 		if (err) throw err
 		console.log("File index.html written successfully")
 	})
+
+	fs.readFile("./dist/assets/search.js", "utf8", (err, search) => {
+		if (err) throw err
+
+		fs.writeFile("dist/assets/search.js", "const pages = " + JSON.stringify(pages) + "\n\n" + search, err => {
+			if (err) throw err
+			console.log("File assets/search.js written successfully")
+		})
+	})
 }
