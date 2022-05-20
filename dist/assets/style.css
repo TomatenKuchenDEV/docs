@@ -41,6 +41,7 @@ body {
 .grid-item:hover {
 	transform: translateY(-5px);
 	transition: .3s;
+	display: inline-block;
 }
 .grid-item a {
 	color: black;
