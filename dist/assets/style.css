@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;400&display=swap");
 
 * {
 	font-family: "Be Vietnam Pro", Arial, Helvetica, sans-serif;
@@ -39,9 +39,11 @@ body {
 	padding: 10px;
 }
 .grid-item:hover {
-	/*background-color: #e3ecee;*/
 	transform: translateY(-5px);
-	transition: .5;
+	transition: .3s;
+}
+.grid-item a {
+	color: black;
 }
 
 code {
@@ -52,7 +54,6 @@ code {
 	margin: 0.8rem;
 	border-radius: 5px;
 }
-
-a .nohighlight {
+.nohighlight {
 	text-decoration: none;
 }

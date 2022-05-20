@@ -23,8 +23,7 @@ lang: de
 
 `delete`
 
-| :exclamation: | Hinweis: Um Tickets zu löschen brauchst du mindestens die Berechtigung "Server verwalten". |
-|---------------|:-------------------------------------------------------------------------------------------|
+:exclamation: Um Tickets zu löschen braucht man mindestens die Berechtigung "Server verwalten".
 
 # Ticket wieder öffnen
 

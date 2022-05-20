@@ -23,7 +23,7 @@ lang: en
 
 `delete`
 
-Hinweis: Um Tickets zu löschen brauchst du mindestens die Berechtigung "Server verwalten".
+:exclamation: To delete a ticket you need the "Manage Server" permission.
 
 # Ticket wieder öffnen
 
