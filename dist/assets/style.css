@@ -39,14 +39,20 @@ body {
 	padding: 10px;
 }
 .grid-item:hover {
-	background-color: #e3ecee;
+	/*background-color: #e3ecee;*/
+	transform: translateY(-5px);
+	transition: .5;
 }
 
 code {
 	font-family: monospace;
-	font-size: 1rem;
+	font-size: 0.9rem;
 	background-color: #ebebeb;
 	padding: 0.4rem;
-	margin: 0.7rem;
+	margin: 0.8rem;
 	border-radius: 5px;
+}
+
+a .nohighlight {
+	text-decoration: none;
 }

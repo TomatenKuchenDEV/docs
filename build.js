@@ -42,8 +42,12 @@ fs.readFile("./template.html", "utf8", (err, template) => {
 function generateStartpage() {
 	var generated = "<center><h1 style='padding: 10px;'>Startseite der Dokumentation</h1><div class='grid'>"
 
-	pages.forEach(page => {
-		generated += "<div class='grid-item'><h3><a href='" + page.url + "'>" + page.title + "</a></h3><p>" + (page.lang == "de" ? "🇩🇪 Deutsch" : "🇺🇸 English") + "</p></div>"
+	pages.sort((a, b) => {
+		if (a.lang == "de") return -1
+		if (b.lang == "de") return 1
+		return 0
+	}).forEach(page => {
+		generated += "<div class='grid-item'><a class='nohighlight' href='" + page.url + "'><h3>" + page.title + "</h3><p>" + (page.lang == "de" ? "🇩🇪 Deutsch" : "🇺🇸 English") + "</p></a></div>"
 	})
 	generated += "</div></center>"
 

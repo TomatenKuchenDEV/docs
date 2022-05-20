@@ -17,7 +17,7 @@ Play tic tac toe against another user.
 
 ## Hangman
 
-Lasse andere Nutzer den angegebenen Text erraten, bevor das Galgenmännchen vollständig ist.
+Let other members guess your text before the animation is dead.
 
 `game hangman <Text>`
 
