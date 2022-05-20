@@ -5,37 +5,37 @@ lang: en
 
 Erstelle einen Sprachkanal mit dem Namen "Privaten Kanal erstellen". Sobald ein Nutzer den Kanal betritt, wird ein neuer privater Sprachkanal erstellt. Die Rechte für diesen Kanal lassen sich mit dem Befehl `permission` einstellen.
 
-### Open
+## Open
 
 Gib jedem die Berechtigung, deinen Sprachkanal zu betreten.
 
 `permission open`
 
-### Close
+## Close
 
 Entnehme jedem außer dir die Berechtigungen, auf den Sprachkanal zuzugreifen.
 
 `permission close`
 
-### Kick all
+## Kick all users
 
 Kicke jeden außer dich aus deinem Sprachkanal.
 
 `permission reset`
 
-### Add user
+## Add user
 
 Gib einem bestimmten Nutzer Rechte, in deinen Sprachkanal zu gehen.
 
 `permission add <Nutzer>`
 
-### Remove user
+## Remove user
 
 Entferne und kicke den angegeben Nutzer aus deinem Sprachkanal.
 
 `permission remove <Nutzer>`
 
-### Set a user limit
+## Set a user limit
 
 Setzt ein Limit, wie viele Nutzer dem Sprachkanal beitreten können.
 
