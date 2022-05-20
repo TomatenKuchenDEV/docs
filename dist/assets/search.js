@@ -1,14 +1,8 @@
 function search(query) {
-	if (!query) query = document.getElementById("search").value.toLowerCase()
+	for (var i = 0; i < pages.length; i++) {
+		var page = pages[i]
 
-	var categories = {}
-	for (var i = 0; i < cmddiv.length; i++) {
-		var cmd = cmddiv[i]
-		if (!categories[cmd.getAttribute("data-category")]) categories[cmd.getAttribute("data-category")] = 0
-
-		if (cmd.innerText.toLowerCase().includes(query) || cmd.getAttribute("data-category").includes(query)) {
-			cmd.style.display = ""
-			categories[cmd.getAttribute("data-category")]++
-		} else cmd.style.display = "none"
+		if (page.title.toLowerCase().includes(query)) page.style.display = ""
+		else page.style.display = "none"
 	}
 }

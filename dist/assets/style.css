@@ -37,7 +37,6 @@ body {
 .grid-item {
 	text-align: center;
 	padding: 10px;
-	display: inline-block;
 }
 .grid-item:hover {
 	transform: translateY(-5px);
@@ -63,8 +62,6 @@ code {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	width: 100%;
-	float: right;
 }
 .nav-ul li a {
 	color: black;
@@ -78,4 +75,9 @@ code {
 .nav-ul li a:hover {
 	background-color: #ebebeb;
 	transition: .3s;
+}
+#search {
+	width: 30%;
+	font-size: 1em;
+	border-radius: 5px;
 }
