@@ -78,6 +78,7 @@ code {
 }
 #search {
 	width: 30%;
-	font-size: 1em;
-	border-radius: 5px;
+	font-size: 1rem;
+	border-radius: 7px;
+	padding: 5px;
 }
