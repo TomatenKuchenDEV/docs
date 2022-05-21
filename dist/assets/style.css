@@ -64,14 +64,17 @@ code {
 	padding: 7px;
 }
 
+nav img {
+	padding-right: 8px;
+}
 .nav-ul {
 	list-style: none;
+	position: absolute;
+	top: 20px;
+	right: 20px;
 	padding: 0;
 	margin: 0;
 	float: right;
-}
-nav img {
-	padding-right: 8px;
 }
 .nav-ul li a {
 	color: black;
@@ -87,6 +90,14 @@ nav img {
 	transition: .3s;
 }
 
+#dropdown {
+	border: 1px solid black;
+	border-radius: 5px;
+}
+#dropdown a:hover {
+	text-decoration: none;
+	padding: 5px;
+}
 #dropdown a:hover {
 	background-color: #dbfdff;
 }
