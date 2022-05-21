@@ -77,7 +77,7 @@ nav img {
 	color: black;
 	text-decoration: none;
 	padding: 5px;
-	margin: 5px 15px;
+	margin: 10px 15px;
 	border-radius: 8px;
 	font-size: 1.3rem;
 	transition: .3s;
@@ -88,5 +88,5 @@ nav img {
 }
 
 #dropdown a:hover {
-	color: #ebebeb;
+	background-color: #dbfdff;
 }
