@@ -39,7 +39,7 @@ body {
 	padding: 10px;
 }
 .grid-item:hover {
-	transform: translateY(-5px);
+	transform: translateY(-4px);
 	transition: .3s;
 }
 .grid-item a {
@@ -74,7 +74,9 @@ nav img {
 	right: 20px;
 	padding: 0;
 	margin: 0;
-	float: right;
+}
+.nav-ul li {
+	display: inline;
 }
 .nav-ul li a {
 	color: black;
@@ -94,8 +96,7 @@ nav img {
 	border: 1px solid black;
 	border-radius: 5px;
 }
-#dropdown a:hover {
-	text-decoration: none;
+#dropdown a {
 	padding: 5px;
 }
 #dropdown a:hover {

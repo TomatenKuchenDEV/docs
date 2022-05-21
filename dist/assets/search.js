@@ -18,5 +18,5 @@ window.onload = () => {
 		document.getElementById("dropdown").style.display = "none"
 	})
 
-	document.getElementById("dropdown").innerHTML = pages.map(page => "<a href='" + page.url + "'>" + page.title + "</a><br>").join("")
+	document.getElementById("dropdown").innerHTML = pages.map(page => "<a class='nohighlight' href='" + page.url + "'>" + page.title + "</a>").join("")
 }
