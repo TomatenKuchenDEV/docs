@@ -91,13 +91,23 @@ nav img {
 	background-color: #ebebeb;
 	transition: .3s;
 }
+.nav-ul li button {
+	background-color: #ebebeb;
+	border: none;
+	border-radius: 8px;
+	padding: 5px;
+	font-size: 1.3rem;
+	transition: .3s;
+}
 
 #dropdown {
+	width: 30%;
 	border: 1px solid black;
 	border-radius: 5px;
 }
 #dropdown a {
-	padding: 5px;
+	margin: 5px;
+	padding: 2px;
 }
 #dropdown a:hover {
 	background-color: #dbfdff;
