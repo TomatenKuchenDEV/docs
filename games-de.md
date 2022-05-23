@@ -21,7 +21,7 @@ Lasse andere Nutzer den angegebenen Text erraten, bevor das Galgenmännchen voll
 
 `game hangman <Text>`
 
-## Connect four (C4)
+## Connect four/C4
 
 Spiele Connect4 gegen einen anderen Spieler.
 
@@ -29,12 +29,12 @@ Spiele Connect4 gegen einen anderen Spieler.
 
 ## Among Us
 
-Spielt eine Art Among Us mit anderen Spielern.
+Spielt ein eigenes Among Us gegen andere Spieler.
 
 `game amongus [<Startzeit>]`
 
 ## Snake
 
-Spiele Snake mit den Bot.
+Erstellt ein Snake-Spiel.
 
 `game snake`

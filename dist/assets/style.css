@@ -77,27 +77,27 @@ nav img {
 }
 .nav-ul li {
 	display: inline;
+	border-radius: 8px;
+	font-size: 1.3rem;
 }
 .nav-ul li a {
 	color: black;
 	text-decoration: none;
 	padding: 5px;
 	margin: 10px 15px;
-	border-radius: 8px;
-	font-size: 1.3rem;
 	transition: .3s;
 }
 .nav-ul li a:hover {
 	background-color: #ebebeb;
-	transition: .3s;
 }
 .nav-ul li button {
-	background-color: #ebebeb;
 	border: none;
-	border-radius: 8px;
 	padding: 5px;
-	font-size: 1.3rem;
+	margin: 10px 15px;
 	transition: .3s;
+}
+.nav-ul li button:hover {
+	background-color: #ebebeb;
 }
 
 #dropdown {

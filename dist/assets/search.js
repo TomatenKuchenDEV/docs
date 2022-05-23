@@ -15,7 +15,9 @@ window.onload = () => {
 		document.getElementById("dropdown").style.display = ""
 	})
 	document.getElementById("search").addEventListener("blur", () => {
-		document.getElementById("dropdown").style.display = "none"
+		setTimeout(() => {
+			document.getElementById("dropdown").style.display = "none"
+		}, 1)
 	})
 
 	document.getElementById("dropdown").innerHTML = pages.map(page => "<a class='nohighlight' href='" + page.url + "'>" + page.title + "</a>").join("")
