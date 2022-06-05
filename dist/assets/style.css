@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;400&display=swap");
 
+.light-theme {
+	--none: #FFF;
+}
+.dark-theme {
+	--none: #000;
+}
+
 * {
 	font-family: "Be Vietnam Pro", Arial, Helvetica, sans-serif;
 }
@@ -57,12 +64,6 @@ code {
 .nohighlight {
 	text-decoration: none;
 }
-#search {
-	width: 30%;
-	font-size: 1rem;
-	border-radius: 7px;
-	padding: 7px;
-}
 
 nav img {
 	padding-right: 8px;
@@ -96,19 +97,27 @@ nav img {
 	font-size: 1.3rem;
 	padding: 5px;
 	margin: 10px 15px;
-	background-color: none;
+	background-color: var(--none);
 	transition: .3s;
 }
 .nav-ul li button:hover {
 	background-color: #ebebeb;
+	cursor: pointer;
 }
 
+#search {
+	width: 30%;
+	font-size: 1rem;
+	border-radius: 7px;
+	padding: 7px;
+}
 #dropdown {
 	width: 30%;
 	border: 1px solid black;
 	border-radius: 5px;
 }
 #dropdown a {
+	display: block;
 	margin: 5px;
 	padding: 2px;
 }
