@@ -3,11 +3,12 @@ title: Private voicechannels
 lang: en
 ---
 
-Erstelle einen Sprachkanal mit dem Namen "Privaten Kanal erstellen". Sobald ein Nutzer den Kanal betritt, wird ein neuer privater Sprachkanal erstellt. Die Rechte für diesen Kanal lassen sich mit dem Befehl `permission` einstellen.
+Sobald ein Nutzer den im Dashboard ausgewählten Kanal betritt, wird ein neuer privater Sprachkanal erstellt.
+Die Rechte für diesen Kanal lassen sich mit dem Befehl `permission` einstellen.
 
 ## Open
 
-Gib jedem die Berechtigung, deinen Sprachkanal zu betreten.
+Allows everyone to join your voice channel.
 
 `permission open`
 
@@ -19,24 +20,24 @@ Entnehme jedem außer dir die Berechtigungen, auf den Sprachkanal zuzugreifen.
 
 ## Kick all users
 
-Kicke jeden außer dich aus deinem Sprachkanal.
+Kicks everyone exept you out of your voice channel.
 
 `permission reset`
 
 ## Add user
 
-Gib einem bestimmten Nutzer Rechte, in deinen Sprachkanal zu gehen.
+Allows the specified user to join your voice channel.
 
 `permission add <Nutzer>`
 
 ## Remove user
 
-Entferne und kicke den angegeben Nutzer aus deinem Sprachkanal.
+Removes the specified user from your voice channel.
 
 `permission remove <Nutzer>`
 
-## Set a user limit
+## Set the user limit
 
-Setzt ein Limit, wie viele Nutzer dem Sprachkanal beitreten können.
+Sets a limit how many users can join your voice channel.
 
 `permission setlimit <Limit>`

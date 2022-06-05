@@ -3,7 +3,8 @@ title: Private Sprachkanäle
 lang: de
 ---
 
-Erstelle einen Sprachkanal mit dem Namen "Privaten Kanal erstellen". Sobald ein Nutzer den Kanal betritt, wird ein neuer privater Sprachkanal erstellt. Die Rechte für diesen Kanal lassen sich mit dem Befehl `permission` einstellen.
+Sobald ein Nutzer den im Dashboard ausgewählten Kanal betritt, wird ein neuer privater Sprachkanal erstellt.
+Die Rechte für diesen Kanal lassen sich mit dem Befehl `permission` einstellen.
 
 ## Öffnen
 
