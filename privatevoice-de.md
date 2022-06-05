@@ -14,7 +14,8 @@ Gib jedem die Berechtigung, deinen Sprachkanal zu betreten.
 
 ## Schließen
 
-Entnehme jedem außer dir die Berechtigungen, auf den Sprachkanal zuzugreifen.
+Entferne jedem außer dir die Rechte für den Sprachkanal.
+Die Nutzer können noch im Sprachkanal bleiben und auch sprechen, aber nicht erneut beitreten.
 
 `permission close`
 

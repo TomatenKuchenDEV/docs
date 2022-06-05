@@ -8,31 +8,32 @@ Die Rechte für diesen Kanal lassen sich mit dem Befehl `permission` einstellen.
 
 ## Open
 
-Allows everyone to join your voice channel.
+Allow everyone to join your voice channel.
 
 `permission open`
 
 ## Close
 
-Entnehme jedem außer dir die Berechtigungen, auf den Sprachkanal zuzugreifen.
+Entferne jedem außer dir die Rechte für den Sprachkanal.
+Die Nutzer können noch im Sprachkanal bleiben und auch sprechen, aber nicht erneut beitreten.
 
 `permission close`
 
 ## Kick all users
 
-Kicks everyone exept you out of your voice channel.
+Kick everyone except you out of your voice channel.
 
 `permission reset`
 
 ## Add user
 
-Allows the specified user to join your voice channel.
+Allow the specified user to join your voice channel.
 
 `permission add <Nutzer>`
 
 ## Remove user
 
-Removes the specified user from your voice channel.
+Remove the specified user from your voice channel and remove their perms to rejoin.
 
 `permission remove <Nutzer>`
 
