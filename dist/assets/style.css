@@ -43,11 +43,11 @@ body {
 
 code {
 	font-family: monospace;
-	font-size: 0.85rem;
+	font-size: 0.8rem;
 	background-color: #ebebeb;
 	padding: 3px;
-	margin: 17px 5px;
-	border-radius: 5px;
+	margin: 20px 3px;
+	border-radius: 3px;
 }
 .nohighlight {
 	text-decoration: none;

@@ -1,57 +1,57 @@
 ---
 title: Moderation
-lang: de
+lang: en
 ---
 
-# Befehle
+# Commands
 
-## Nutzer bannen
+## Ban user
 
-`ban <Nutzer> [<Grund>]`
+`ban <User> [<Reason>]`
 
-## Nutzer entbannen
+## Unban user
 
-`unban <Nutzer> [<Grund>]`
+`unban <User> [<Reason>]`
 
-## Gebannte Nutzer anzeigen
+## Show banned users
 
 `banlist`
 
-## Modlogs eines Benutzers anzeigen
+## Show modlogs of a user
 
-`modlogs <Nutzer>`
+`modlogs <User>`
 
-## Nutzer kicken
+## Kick user
 
-`kick <Nutzer> [<Grund>]`
+`kick <User> [<Reason>]`
 
 ## Sperre einen Kanal oder den ganzen Server
 
-`lock server|channel an|aus`
+`lock server|channel on|off`
 
-## Lösche bis zu 100 Nachrichten
+## Delete up to 100 messages
 
-`purge <Anzahl> [<Nutzer>|<Filter>]`
+`purge <Amoung> [<User>|<Filter>]`
 
-## Text ausgeben
+## Display a text
 
-`say <Nachricht>`
+`say <Message>`
 
 ## Ändere den Slowmode vom aktuellen Kanal
 
-`slowmode <Dauer>`
+`slowmode <Amount in seconds>`
 
-## Mute einen Nutzer
+## Mute a User
 
-`mute <Nutzer> <Zeit> <Grund>`
+`mute <User> <Time> <Reason>`
 
-## Entmute einen Nutzer
+## Unmute a user
 
-`unmute <Nutzer> <Grund>`
+`unmute <User> <Reason>`
 
-## Verwarne einen Nutzer
+## Warn a user
 
-`warn <Nutzer> <Grund>`
+`warn <User> <Reason>`
 
 # Nachrichten mithilfe von RegEx filtern
 
