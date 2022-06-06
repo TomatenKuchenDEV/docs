@@ -47,11 +47,12 @@ lang: de
 
 ## Entmute einen Nutzer
 
-`unmute <Nutzer> <Grund>`
+`unmute <Nutzer> [<Grund>]`
 
 ## Verwarne einen Nutzer
 
 `warn <Nutzer> <Grund>`
+
 
 # Nachrichten mithilfe von RegEx filtern
 

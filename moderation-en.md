@@ -25,19 +25,19 @@ lang: en
 
 `kick <User> [<Reason>]`
 
-## Sperre einen Kanal oder den ganzen Server
+## Lock a channel or the whole server
 
 `lock server|channel on|off`
 
 ## Delete up to 100 messages
 
-`purge <Amoung> [<User>|<Filter>]`
+`purge <Amount> [<User>|<Filter>]`
 
 ## Display a text
 
 `say <Message>`
 
-## Ändere den Slowmode vom aktuellen Kanal
+## Change the slowmode of the current channel
 
 `slowmode <Amount in seconds>`
 
@@ -47,22 +47,23 @@ lang: en
 
 ## Unmute a user
 
-`unmute <User> <Reason>`
+`unmute <User> [<Reason>]`
 
 ## Warn a user
 
 `warn <User> <Reason>`
 
-# Nachrichten mithilfe von RegEx filtern
+
+# Filter messages using a RegEx
 
 Du kannst mit einer Einstellung im Dashboard Nachrichten filtern und, wenn der Filter etwas findet, die Nachricht löschen.
 Auch kannst du dort RegExps nutzen, auch wenn es dort einige [Einschränkungen](https://npmjs.com/package/re2#limitations-things-re2-does-not-support) gibt.
 
-**Nutzer mit der Berechtigung "Server verwalten" sind hiervon ausgenommen!**
+**Users with the permission "Manage Server" are excluded from this!**
 
 ## Ratelimits
 Diese Filter haben ein eigenes Ratelimit vom Bot aus, wenn zu viele Nachrichten in kurzer Zeit gesendet werden oder viele Nachrichten vom Bot gelöscht werden, wird kurzzeitig der Filter deaktiviert, um Spam zu vermeiden und wichtigere Aktionen nicht zu blockieren.
 
-## Beispiele
-`sus|lol` löscht alle Nachrichten, welche irgendwo "sus" oder "lol" enthalten.
-`si?u` löscht alle Nachrichten, welche "siu" oder "su" enthalten.
+## Examples
+`sus|lol` deletes all messages which contain "sus" or "lol".
+`si?u` deletes all messages which contain "siu" or "su".

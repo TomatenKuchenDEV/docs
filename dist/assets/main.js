@@ -22,3 +22,17 @@ window.onload = () => {
 
 	document.getElementById("dropdown").innerHTML = pages.map(page => "<a class='nohighlight' href='" + page.url + "'>" + page.title + "</a>").join("")
 }
+
+function toggleTheme() {
+	document.body.classList.toggle("light-theme")
+	document.body.classList.toggle("dark-theme")
+
+	const oldtheme = getCookie("theme")
+	if (oldtheme == "light") setCookie("theme", "dark", 60, true)
+	else setCookie("theme", "light", 60, true)
+}
+function toggleLang() {
+	const oldtheme = getCookie("lang")
+	if (oldtheme == "de") setCookie("lang", "en", 60, true)
+	else setCookie("lang", "de", 60, true)
+}
