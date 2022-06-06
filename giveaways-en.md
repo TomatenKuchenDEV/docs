@@ -7,16 +7,20 @@ To manage giveaways you need the "Manage Messages" permission.
 
 ## Create
 
-`giveaway start <Time> <Winners> <Prize>`
+`giveaway start`
 
 ## Edit
 
-`giveaway edit <Nachrichten-ID> <Time> <Winners> <Prize>`
+`giveaway edit <message ID> <Time> <Winners> <Prize>`
 
 ## Reroll winners
 
-`giveaway reroll <Nachrichten-ID>`
+`giveaway reroll <message ID>`
+
+## End
+
+`giveway end <message ID>`
 
 ## Delete
 
-`giveway delete <Nachrichten-ID>`
+`giveway delete <message ID>`

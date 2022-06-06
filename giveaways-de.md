@@ -7,7 +7,7 @@ Um Giveaways zu verwalten braucht man die mindestens die Berechtigung "Nachricht
 
 ## Erstellen
 
-`giveaway start <Zeit> <Gewinner> <Preis>`
+`giveaway start`
 
 ## Bearbeiten
 
@@ -16,6 +16,10 @@ Um Giveaways zu verwalten braucht man die mindestens die Berechtigung "Nachricht
 ## Neue(n) Gewinner aussuchen
 
 `giveaway reroll <Nachrichten-ID>`
+
+## Beenden
+
+`giveway end <Nachrichten-ID>`
 
 ## Löschen
 
