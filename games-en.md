@@ -31,7 +31,7 @@ Play Connect4 with another user.
 
 Play a game which is similar to Among Us with other users.
 
-`game amongus [<Start-time>]`
+`game amongus [<Start time>]`
 
 ## Snake
 
