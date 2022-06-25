@@ -17,7 +17,7 @@ lang: en
 
 `banlist`
 
-## Show modlogs of an user
+## Show modlogs of a user
 
 `modlogs <User>`
 
@@ -41,15 +41,15 @@ lang: en
 
 `slowmode <Amount in seconds>`
 
-## Mute an user
+## Mute a user
 
 `mute <User> <Time> <Reason>`
 
-## Unmute an user
+## Unmute a user
 
 `unmute <User> [<Reason>]`
 
-## Warn an user
+## Warn a user
 
 `warn <User> <Reason>`
 
