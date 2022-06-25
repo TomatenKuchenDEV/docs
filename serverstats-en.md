@@ -12,7 +12,7 @@ Creates a category called "Stats" or "Statistics". In it you can create voice ch
 * Bots
 * Emoji
 * Roles
-* Channels
+* Channel
 * Boosts
 
 The stats are automatically updated after 15 minutes.
