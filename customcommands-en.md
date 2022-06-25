@@ -3,7 +3,7 @@ title: Customcommands
 lang: en
 ---
 
-In order to create new customcommands you need the permission "Manage Servers" at least.
+In order to create new customcommands you need the permission "Manage Server" at least.
 
 # Create
 
