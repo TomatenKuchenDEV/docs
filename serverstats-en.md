@@ -5,14 +5,14 @@ lang: en
 
 ![](https://tomatenkuchen.eu/assets/images/stats_light.png)
 
-Create a category with the name "Stats". In it you can create voice channels which include a number and one of the following:
+Creates a category called "Statistics". In it you can create voice channels that contain a value and one of the following:
 
-* Mitglieder / Member
-* Nutzer / User
+* Members
+* User
 * Bots
 * Emoji
-* Rollen
-* Kanal / Kanäle
-* Boost
+* Roles
+* Channels
+* Boosts
 
-The stats will automatically update after 15 minutes.
+The stats are automatically updated after 15 minutes.
