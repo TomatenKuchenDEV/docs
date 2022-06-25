@@ -5,7 +5,7 @@ lang: en
 
 ## Rock paper scissors
 
-Play rock paper scissors against an user or the bot.
+Play rock paper scissors against a user or the bot.
 
 `game scheresteinpapier [<User>]`
 
