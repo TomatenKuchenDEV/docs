@@ -7,7 +7,7 @@ lang: en
 
 Creates a category called "Stats" or "Statistics". In it you can create voice channels that contain a value and one of the following:
 
-* Members
+* Member
 * User
 * Bots
 * Emoji
