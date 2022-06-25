@@ -5,7 +5,7 @@ lang: en
 
 ![](https://tomatenkuchen.eu/assets/images/stats_light.png)
 
-Creates a category called "Statistics". In it you can create voice channels that contain a value and one of the following:
+Creates a category called "Stats" or "Statistics". In it you can create voice channels that contain a value and one of the following:
 
 * Members
 * User
