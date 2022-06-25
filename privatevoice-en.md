@@ -3,8 +3,8 @@ title: Private voicechannels
 lang: en
 ---
 
-Sobald ein Nutzer den im Dashboard ausgewählten Kanal betritt, wird ein neuer privater Sprachkanal erstellt.
-Die Rechte für diesen Kanal lassen sich mit dem Befehl `permission` einstellen.
+As soon as a user enters the channel selected in the dashboard, a new private voice channel is created.
+The permissions for this channel can be set with the `permission` command.
 
 ## Open
 
@@ -14,14 +14,14 @@ Allow everyone to join your voice channel.
 
 ## Close
 
-Entferne jedem außer dir die Rechte für den Sprachkanal.
-Die Nutzer können noch im Sprachkanal bleiben und auch sprechen, aber nicht erneut beitreten.
+Remove voice channel permissions from everyone but you.
+Users who joined before can still stay in the voice channel and speak as well, but cannot rejoin.
 
 `permission close`
 
 ## Kick all users
 
-Kick everyone except you out of your voice channel.
+Kick everyone out of your voice channel except you.
 
 `permission reset`
 
@@ -29,16 +29,16 @@ Kick everyone except you out of your voice channel.
 
 Allow the specified user to join your voice channel.
 
-`permission add <Nutzer>`
+`permission add <User>`
 
 ## Remove user
 
 Remove the specified user from your voice channel and remove their perms to rejoin.
 
-`permission remove <Nutzer>`
+`permission remove <User>`
 
 ## Set the user limit
 
-Sets a limit how many users can join your voice channel.
+Set how many users can join your voice channel.
 
 `permission setlimit <Limit>`
