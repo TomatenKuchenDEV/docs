@@ -43,7 +43,7 @@
 
 code {
 	font-family: monospace;
-	font-size: 0.8rem;
+	font-size: 0.75rem;
 	background-color: #ebebeb;
 	padding: 3px;
 	margin: 20px 3px;
@@ -122,4 +122,8 @@ nav img {
 }
 #dropdown a:hover {
 	background-color: #dbfdff;
+}
+
+h2, h3 {
+	margin: 5px 0;
 }
