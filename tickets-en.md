@@ -23,7 +23,7 @@ lang: en
 
 `delete`
 
-:exclamation: In order to delete a ticket you need the "Manage Server" permission.
+In order to delete a ticket you need the "Manage Server" permission.
 
 # Reopen a closed ticket
 

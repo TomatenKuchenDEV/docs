@@ -51,7 +51,7 @@ function generateStartpage() {
 	})
 	generated += "</div></center>"
 
-	fs.writeFile("dist/index.html", templatecopy.replace(/{TITLE}/g, "Startseite").replace("{CONTENT}", generated), err => {
+	fs.writeFile("dist/index.html", templatecopy.replace(/{TITLE}/g, "Startseite").replace("{LANG}", "de").replace("{CONTENT}", generated), err => {
 		if (err) throw err
 		console.log("File index.html written successfully")
 	})

@@ -5,7 +5,7 @@ function search(query) {
 		var page = pages[i]
 		var element = elements[i]
 
-		if (page.title.toLowerCase().includes(query.toLowerCase())) element.style.display = ""
+		if (page.title.toLowerCase().includes(query.toLowerCase()) && page.lang == getCookie("lang")) element.style.display = ""
 		else element.style.display = "none"
 	}
 }
@@ -32,7 +32,7 @@ function toggleTheme() {
 	else setCookie("theme", "light", 60, true)
 }
 function toggleLang() {
-	const oldtheme = getCookie("lang")
-	if (oldtheme == "de") setCookie("lang", "en", 60, true)
+	const oldlang = getCookie("lang")
+	if (oldlang == "de") setCookie("lang", "en", 60, true)
 	else setCookie("lang", "de", 60, true)
 }
