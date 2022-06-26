@@ -35,6 +35,6 @@ Spielt ein eigenes Among Us gegen andere Spieler.
 
 ## Snake
 
-Erstellt ein Snake-Spiel.
+Spielt Snake.
 
 `game snake`
