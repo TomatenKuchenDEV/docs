@@ -3,18 +3,18 @@ title: Customcommands
 lang: en
 ---
 
-Um eigene Befehle zu erstellen brauchst du mindestens die Berechtigung "Server verwalten".
+In order to create new customcommands you need the permission "Manage Server" at least.
 
 # Create
 
-`customcommand <Name> <Text>`
+`customcommand <Name> <Reply>`
 
 Example:
 `customcommand hi Hey ^^`
 
 # Edit
 
-`customcommand <Name> <New text>`
+`customcommand <Name> <New reply>`
 
 Example:
 `customcommand hi Hello!`

@@ -17,7 +17,7 @@ Play tic tac toe against another user.
 
 ## Hangman
 
-Let other members guess your text before the animation is dead.
+Let other members guess your text before the stickman is dead.
 
 `game hangman <Text>`
 
@@ -25,16 +25,16 @@ Let other members guess your text before the animation is dead.
 
 Play Connect4 against another user.
 
-`game snake`
+`game connect4 <User>`
 
 ## Among Us
 
-Play a game which is similar to Among Us with other users.
+Play a game similar to Among Us with other users.
 
-`game amongus [<Startzeit>]`
+`game amongus [<Starting time>]`
 
 ## Snake
 
-Play snake with the bot.
+Play snake.
 
 `game snake`
