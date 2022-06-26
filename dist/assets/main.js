@@ -1,4 +1,5 @@
-function search(query) {
+function search() {
+	const query = document.getElementById("search").value
 	const elements = document.getElementById("dropdown").children
 
 	for (var i = 0; i < pages.length; i++) {
@@ -11,6 +12,12 @@ function search(query) {
 }
 
 window.onload = () => {
+	const theme = getCookie("theme")
+	if (theme == "light") {
+		document.body.classList.toggle("light-theme")
+		document.body.classList.toggle("dark-theme")
+	}
+
 	document.getElementById("search").addEventListener("focus", () => {
 		document.getElementById("dropdown").style.display = ""
 	})
@@ -32,6 +39,7 @@ function toggleTheme() {
 	else setCookie("theme", "light", 60, true)
 }
 function toggleLang() {
+	search()
 	const oldlang = getCookie("lang")
 	if (oldlang == "de") setCookie("lang", "en", 60, true)
 	else setCookie("lang", "de", 60, true)

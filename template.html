@@ -28,7 +28,7 @@
 				<li><a class="nohighlight" href="https://tomatenkuchen.eu/discord">Support</a></li>
 			</ul>
 			<center>
-				<input type="text" id="search" placeholder="Suche..." onkeyup="search(this.value)" />
+				<input type="text" id="search" placeholder="Suche..." onkeyup="search()" />
 				<div id="dropdown" style="display: none;"></div>
 			</center>
 			<br>
@@ -36,12 +36,5 @@
 		<div class="content">
 			{CONTENT}
 		</div>
-		<script>
-			const theme = getCookie("theme")
-			if (theme == "light") {
-				document.body.classList.toggle("light-theme")
-				document.body.classList.toggle("dark-theme")
-			}
-		</script>
 	</body>
 </html>

@@ -21,11 +21,11 @@ Lasse andere Nutzer den angegebenen Text erraten, bevor das Galgenmännchen voll
 
 `game hangman <Text>`
 
-## Connect four/C4
+## Vier Gewinnt/Connect four
 
 Spiele Connect4 gegen einen anderen Spieler.
 
-`game snake`
+`game connect4 <Nutzer>`
 
 ## Among Us
 

@@ -21,7 +21,7 @@ Let other members guess your text before the stickman is dead.
 
 `game hangman <Text>`
 
-## Connect four (C4)
+## Connect four
 
 Play Connect4 against another user.
 
