@@ -43,3 +43,7 @@ function toggleLang() {
 	if (oldlang == "de") setCookie("lang", "en", 60, true)
 	else setCookie("lang", "de", 60, true)
 }
+
+function filterCards() {
+	
+}
