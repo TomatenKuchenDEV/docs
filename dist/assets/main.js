@@ -43,3 +43,11 @@ function toggleLang() {
 	if (oldlang == "de") setCookie("lang", "en", 60, true)
 	else setCookie("lang", "de", 60, true)
 }
+
+function filterCards() {
+	var generated = ""
+	pages.filter(page => page.lang == getCookie("lang")).forEach(page => {
+		generated += "<div class='grid-item'><a class='nohighlight' href='" + page.url + "'><h3>" + page.title + "</h3><p>" + (page.lang == "de" ? "🇩🇪 Deutsch" : "🇺🇸 English") + "</p></a></div>"
+	})
+	document.getElementsByClassName("grid")[0].innerHTML = generated
+}
