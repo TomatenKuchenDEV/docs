@@ -44,6 +44,7 @@ function toggleLang() {
 	const oldlang = getCookie("lang")
 	if (oldlang == "de") setCookie("lang", "en", 60, true)
 	else setCookie("lang", "de", 60, true)
+	filterCards()
 }
 
 function filterCards() {
