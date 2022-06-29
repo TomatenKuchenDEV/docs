@@ -1,6 +1,10 @@
 function search() {
 	const query = document.getElementById("search").value
-	const elements = document.getElementById("dropdown").children
+	var elements = document.getElementById("dropdown").children
+	if (!elements) {
+		document.getElementById("dropdown").innerHTML = pages.map(page => "<a class='nohighlight' href='" + page.url + "'>" + page.title + "</a>").join("")
+		elements = document.getElementById("dropdown").children
+	}
 
 	for (var i = 0; i < pages.length; i++) {
 		var page = pages[i]
@@ -26,8 +30,6 @@ window.onload = () => {
 			document.getElementById("dropdown").style.display = "none"
 		}, 150)
 	})
-
-	document.getElementById("dropdown").innerHTML = pages.map(page => "<a class='nohighlight' href='" + page.url + "'>" + page.title + "</a>").join("")
 }
 
 function toggleTheme() {
