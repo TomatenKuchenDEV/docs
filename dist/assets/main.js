@@ -49,6 +49,7 @@ function toggleLang() {
 
 function filterCards() {
 	var generated = ""
+	if (!getCookie("lang")) setCookie("lang", "en", 60, true)
 	pages.filter(page => page.lang == getCookie("lang")).forEach(page => {
 		generated += "<div class='grid-item'><a class='nohighlight' href='" + page.url + "'><h3>" + page.title + "</h3><p>" + (page.lang == "de" ? "🇩🇪 Deutsch" : "🇺🇸 English") + "</p></a></div>"
 	})
