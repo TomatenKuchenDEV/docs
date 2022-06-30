@@ -51,7 +51,7 @@ code {
 }
 .nohighlight {
 	text-decoration: none;
-	color: var(--primary-text-color);
+	color: var(--secondary-text-color);
 }
 
 nav img {
