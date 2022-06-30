@@ -1,7 +1,7 @@
 function search() {
 	const query = document.getElementById("search").value
 	var elements = document.getElementById("dropdown").children
-	if (!elements) {
+	if (elements.length == 0) {
 		document.getElementById("dropdown").innerHTML = pages.map(page => "<a class='nohighlight' href='" + page.url + "'>" + page.title + "</a>").join("")
 		elements = document.getElementById("dropdown").children
 	}
