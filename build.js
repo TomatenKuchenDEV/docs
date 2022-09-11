@@ -28,7 +28,7 @@ fs.readFile("./template.html", "utf8", (err, template) => {
 					url: output
 				})
 
-				fs.writeFile("dist/" + output + ".html", template.replace(/{TITLE}/g, meta?.title || "Dokumentation").replace("{CONTENT}", converted), err => {
+				fs.writeFile("dist/" + output + ".html", template.replace(/{TITLE}/g, meta?.title || "Dokumentation").replace("{BODYDATA}", "").replace("{LANG}", meta?.lang || "de").replace("{CONTENT}", converted), err => {
 					if (err) throw err
 					console.log("File " + file + " written successfully")
 				})
@@ -40,18 +40,9 @@ fs.readFile("./template.html", "utf8", (err, template) => {
 })
 
 function generateStartpage() {
-	var generated = "<center><h1 style='padding: 10px;'>Startseite der Dokumentation</h1><div class='grid'>"
+	var generated = "<center><h1 style='padding: 10px;'>Startseite der Dokumentation</h1><div class='grid'></div></center>"
 
-	pages.sort((a, b) => {
-		if (a.lang == "de") return -1
-		if (b.lang == "de") return 1
-		return 0
-	}).forEach(page => {
-		generated += "<div class='grid-item'><a class='nohighlight' href='" + page.url + "'><h3>" + page.title + "</h3><p>" + (page.lang == "de" ? "🇩🇪 Deutsch" : "🇺🇸 English") + "</p></a></div>"
-	})
-	generated += "</div></center>"
-
-	fs.writeFile("dist/index.html", templatecopy.replace(/{TITLE}/g, "Startseite").replace("{CONTENT}", generated), err => {
+	fs.writeFile("dist/index.html", templatecopy.replace(/{TITLE}/g, "Startseite").replace("{BODYDATA}", "onload='filterCards()'").replace("{LANG}", "de").replace("{CONTENT}", generated), err => {
 		if (err) throw err
 		console.log("File index.html written successfully")
 	})

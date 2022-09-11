@@ -33,7 +33,7 @@ lang: en
 
 `purge <Amount> [<User>|<Filter>]`
 
-## Display a text
+## Let the bot send a custom message
 
 `say <Message>`
 
@@ -41,7 +41,7 @@ lang: en
 
 `slowmode <Amount in seconds>`
 
-## Mute a User
+## Mute a user
 
 `mute <User> <Time> <Reason>`
 
@@ -56,13 +56,13 @@ lang: en
 
 # Filter messages using a RegEx
 
-Du kannst mit einer Einstellung im Dashboard Nachrichten filtern und, wenn der Filter etwas findet, die Nachricht löschen.
-Auch kannst du dort RegExps nutzen, auch wenn es dort einige [Einschränkungen](https://npmjs.com/package/re2#limitations-things-re2-does-not-support) gibt.
+You can filter messages with a setting in the dashboard and, if the filter finds something, have the message deleted.
+Also you can use there RegExps, although there are some [restrictions](https://npmjs.com/package/re2#limitations-things-re2-does-not-support).
 
-**Users with the permission "Manage Server" are excluded from this!**
+**Users with the permission "Manage Server" are excluded from the message filter!**
 
 ## Ratelimits
-Diese Filter haben ein eigenes Ratelimit vom Bot aus, wenn zu viele Nachrichten in kurzer Zeit gesendet werden oder viele Nachrichten vom Bot gelöscht werden, wird kurzzeitig der Filter deaktiviert, um Spam zu vermeiden und wichtigere Aktionen nicht zu blockieren.
+These filters have their own rate limit; if too many messages are sent in a short time or many messages are deleted from the bot, the filter is briefly disabled to avoid spam and not block more important actions.
 
 ## Examples
 `sus|lol` deletes all messages which contain "sus" or "lol".

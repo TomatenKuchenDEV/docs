@@ -1,7 +1,7 @@
 {
   "name": "build-tk-docs",
   "version": "1.0.0",
-  "homepage": "https://tomatenkuchen.eu",
+  "homepage": "https://tomatenkuchen.eu/docs",
   "repository": {
     "type": "git",
     "url": "https://github.com/DEVTomatoCake/tk-docs"

@@ -34,7 +34,7 @@
 	padding: 10px;
 }
 .grid-item:hover {
-	transform: translateY(-4px);
+	transform: translateY(-2px);
 	transition: .3s;
 }
 .grid-item a {
@@ -43,7 +43,7 @@
 
 code {
 	font-family: monospace;
-	font-size: 0.8rem;
+	font-size: 0.75rem;
 	background-color: #ebebeb;
 	padding: 3px;
 	margin: 20px 3px;
@@ -51,6 +51,7 @@ code {
 }
 .nohighlight {
 	text-decoration: none;
+	color: var(--secondary-text-color);
 }
 
 nav img {
@@ -122,4 +123,8 @@ nav img {
 }
 #dropdown a:hover {
 	background-color: #dbfdff;
+}
+
+h2, h3 {
+	margin: 5px 0;
 }

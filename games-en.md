@@ -17,24 +17,24 @@ Play tic tac toe with another user.
 
 ## Hangman
 
-Let other members guess your text before the drawing is completed.
+Let other members guess your text before the stickman is dead.
 
 `game hangman <Text>`
 
-## Connect four (C4)
+## Connect four
 
 Play Connect4 with another user.
 
-`game snake`
+`game connect4 <User>`
 
 ## Among Us
 
-Play a game which is similar to Among Us with other users.
+Play a game similar to Among Us with other users.
 
-`game amongus [<Start time>]`
+`game amongus`
 
 ## Snake
 
-Play snake with the bot.
+Play snake.
 
 `game snake`

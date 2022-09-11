@@ -24,3 +24,7 @@ To manage giveaways you need the "Manage Messages" permission.
 ## Delete
 
 `giveway delete <message ID>`
+
+## List giveaways
+
+`giveway list`

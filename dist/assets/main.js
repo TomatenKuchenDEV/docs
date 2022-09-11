@@ -1,16 +1,48 @@
-function search(query) {
-	const elements = document.getElementById("dropdown").children
+function setCookie(name, value, days, global) {
+	let cookie = name + "=" + (value || "") + ';path=/;'
+	if (days) {
+		const date = new Date()
+		date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000))
+		cookie += "expires=" + date.toUTCString() + ";"
+	}
+	if (global) cookie += "domain=.tomatenkuchen.eu;"
+	document.cookie = cookie
+}
+function getCookie(name) {
+	const cookies = document.cookie.split(";")
+	for (let i = 0; i < cookies.length; i++) {
+		let cookie = cookies[i].trim()
+		if (cookie.split("=")[0] == name) return cookie.substring(name.length + 1, cookie.length)
+	}
+	return undefined
+}
+
+function redirect(url) {
+	window.location = url
+}
+
+function search() {
+	const query = document.getElementById("search").value
+	var elements = document.getElementById("dropdown").children
+	if (elements.length == 0) {
+		document.getElementById("dropdown").innerHTML = pages.map(page => "<a class='nohighlight' href='" + page.url + "'>" + page.title + "</a>").join("")
+		elements = document.getElementById("dropdown").children
+	}
 
 	for (var i = 0; i < pages.length; i++) {
 		var page = pages[i]
 		var element = elements[i]
 
-		if (page.title.toLowerCase().includes(query.toLowerCase())) element.style.display = ""
+		if (page.title.toLowerCase().includes(query.toLowerCase()) && page.lang == getCookie("lang")) element.style.display = ""
 		else element.style.display = "none"
 	}
 }
 
 window.onload = () => {
+	const theme = getCookie("theme")
+	console.log(theme)
+	if (theme == "light") document.body.classList.replace("dark-theme", "light-theme")
+
 	document.getElementById("search").addEventListener("focus", () => {
 		document.getElementById("dropdown").style.display = ""
 	})
@@ -19,8 +51,6 @@ window.onload = () => {
 			document.getElementById("dropdown").style.display = "none"
 		}, 150)
 	})
-
-	document.getElementById("dropdown").innerHTML = pages.map(page => "<a class='nohighlight' href='" + page.url + "'>" + page.title + "</a>").join("")
 }
 
 function toggleTheme() {
@@ -32,7 +62,17 @@ function toggleTheme() {
 	else setCookie("theme", "light", 60, true)
 }
 function toggleLang() {
-	const oldtheme = getCookie("lang")
-	if (oldtheme == "de") setCookie("lang", "en", 60, true)
+	const oldlang = getCookie("lang")
+	if (oldlang == "de") setCookie("lang", "en", 60, true)
 	else setCookie("lang", "de", 60, true)
+	filterCards()
+}
+
+function filterCards() {
+	var generated = ""
+	if (!getCookie("lang")) setCookie("lang", "en", 60, true)
+	pages.filter(page => page.lang == getCookie("lang")).forEach(page => {
+		generated += "<a class='nohighlight' href='" + page.url + "'><div class='grid-item'><h3>" + page.title + "</h3></div></a>"
+	})
+	document.getElementsByClassName("grid")[0].innerHTML = generated
 }
