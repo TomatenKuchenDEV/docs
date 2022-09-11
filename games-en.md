@@ -5,13 +5,13 @@ lang: en
 
 ## Rock paper scissors
 
-Play rock paper scissors against a user or the bot.
+Play rock paper scissors with a user or the bot.
 
 `game scheresteinpapier [<User>]`
 
 ## TicTacToe
 
-Play tic tac toe against another user.
+Play tic tac toe with another user.
 
 `game ttt <User>`
 
@@ -23,7 +23,7 @@ Let other members guess your text before the stickman is dead.
 
 ## Connect four
 
-Play Connect4 against another user.
+Play Connect4 with another user.
 
 `game connect4 <User>`
 
@@ -31,7 +31,7 @@ Play Connect4 against another user.
 
 Play a game similar to Among Us with other users.
 
-`game amongus [<Starting time>]`
+`game amongus`
 
 ## Snake
 
