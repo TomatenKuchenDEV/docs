@@ -40,16 +40,7 @@ fs.readFile("./template.html", "utf8", (err, template) => {
 })
 
 function generateStartpage() {
-	var generated = "<center><h1 style='padding: 10px;'>Startseite der Dokumentation</h1><div class='grid'>"
-
-	pages.sort((a, b) => {
-		if (a.lang == "de") return -1
-		if (b.lang == "de") return 1
-		return 0
-	}).forEach(page => {
-		generated += "<a class='nohighlight' href='" + page.url + "'><div class='grid-item'><h3>" + page.title + "</h3></div></a>"
-	})
-	generated += "</div></center>"
+	var generated = "<center><h1 style='padding: 10px;'>Startseite der Dokumentation</h1><div class='grid'></div></center>"
 
 	fs.writeFile("dist/index.html", templatecopy.replace(/{TITLE}/g, "Startseite").replace("{BODYDATA}", "onload='filterCards()'").replace("{LANG}", "de").replace("{CONTENT}", generated), err => {
 		if (err) throw err

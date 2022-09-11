@@ -40,6 +40,7 @@ function search() {
 
 window.onload = () => {
 	const theme = getCookie("theme")
+	console.log(theme)
 	if (theme == "light") document.body.classList.replace("dark-theme", "light-theme")
 
 	document.getElementById("search").addEventListener("focus", () => {
@@ -71,7 +72,7 @@ function filterCards() {
 	var generated = ""
 	if (!getCookie("lang")) setCookie("lang", "en", 60, true)
 	pages.filter(page => page.lang == getCookie("lang")).forEach(page => {
-		generated += "<div class='grid-item'><a class='nohighlight' href='" + page.url + "'><h3>" + page.title + "</h3><p>" + (page.lang == "de" ? "🇩🇪 Deutsch" : "🇺🇸 English") + "</p></a></div>"
+		generated += "<a class='nohighlight' href='" + page.url + "'><div class='grid-item'><h3>" + page.title + "</h3></div></a>"
 	})
 	document.getElementsByClassName("grid")[0].innerHTML = generated
 }
