@@ -47,7 +47,7 @@ function generateStartpage() {
 		if (b.lang == "de") return 1
 		return 0
 	}).forEach(page => {
-		generated += "<div class='grid-item'><a class='nohighlight' href='" + page.url + "'><h3>" + page.title + "</h3><p>" + (page.lang == "de" ? "🇩🇪 Deutsch" : "🇺🇸 English") + "</p></a></div>"
+		generated += "<a class='nohighlight' href='" + page.url + "'><div class='grid-item'><h3>" + page.title + "</h3></div></a>"
 	})
 	generated += "</div></center>"
 

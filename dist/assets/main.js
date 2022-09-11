@@ -1,3 +1,26 @@
+function setCookie(name, value, days, global) {
+	let cookie = name + "=" + (value || "") + ';path=/;'
+	if (days) {
+		const date = new Date()
+		date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000))
+		cookie += "expires=" + date.toUTCString() + ";"
+	}
+	if (global) cookie += "domain=.tomatenkuchen.eu;"
+	document.cookie = cookie
+}
+function getCookie(name) {
+	const cookies = document.cookie.split(";")
+	for (let i = 0; i < cookies.length; i++) {
+		let cookie = cookies[i].trim()
+		if (cookie.split("=")[0] == name) return cookie.substring(name.length + 1, cookie.length)
+	}
+	return undefined
+}
+
+function redirect(url) {
+	window.location = url
+}
+
 function search() {
 	const query = document.getElementById("search").value
 	var elements = document.getElementById("dropdown").children
@@ -17,10 +40,7 @@ function search() {
 
 window.onload = () => {
 	const theme = getCookie("theme")
-	if (theme == "light") {
-		document.body.classList.toggle("light-theme")
-		document.body.classList.toggle("dark-theme")
-	}
+	if (theme == "light") document.body.classList.replace("dark-theme", "light-theme")
 
 	document.getElementById("search").addEventListener("focus", () => {
 		document.getElementById("dropdown").style.display = ""
