@@ -50,6 +50,7 @@ window.onload = () => {
 			document.getElementById("dropdown").style.display = "none"
 		}, 150)
 	})
+	filterCards()
 }
 
 function toggleTheme() {
@@ -68,6 +69,7 @@ function toggleLang() {
 }
 
 function filterCards() {
+	if (location.pathname != "/") return
 	var generated = ""
 	if (!getCookie("lang")) setCookie("lang", "en", 60, true)
 	pages.filter(page => page.lang == getCookie("lang")).forEach(page => {
