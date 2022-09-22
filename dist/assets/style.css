@@ -1,5 +1,11 @@
 .content {
 	margin: 0 15%;
+	padding-bottom: 50px;
+}
+@media (max-width: 800px) {
+	.content {
+		margin: 0 5%;
+	}
 }
 
 .grid {
@@ -126,5 +132,5 @@ nav img {
 }
 
 h2, h3 {
-	margin: 10px 0 5px;
+	margin: 15px 0 5px;
 }
