@@ -1,5 +1,5 @@
 .content {
-	margin: 0 10%;
+	margin: 0 15%;
 }
 
 .grid {
@@ -85,7 +85,7 @@ nav img {
 	border-radius: 8px;
 	font-size: 1.3rem;
 	padding: 5px;
-	margin: 10px 15px;
+	margin: 10px;
 	color: var(--primary-text-color);
 	background-color: var(--primary-color);
 	transition: .3s;
@@ -101,7 +101,7 @@ nav img {
 }
 
 #search {
-	width: 30%;
+	width: 25%;
 	min-width: 100px;
 	max-width: 500px;
 	font-size: 1rem;
@@ -109,7 +109,7 @@ nav img {
 	padding: 7px;
 }
 #dropdown {
-	width: 30%;
+	width: 25%;
 	max-height: 150px;
 	border: 1px solid black;
 	border-radius: 5px;
@@ -126,5 +126,5 @@ nav img {
 }
 
 h2, h3 {
-	margin: 5px 0 10px;
+	margin: 10px 0 5px;
 }
