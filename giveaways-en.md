@@ -11,7 +11,7 @@ To manage giveaways you need the "Manage Messages" permission.
 
 ## Edit
 
-`giveaway edit <message ID> <Time> <Winners> <Prize>`
+Button under the giveaway
 
 ## Reroll winners
 

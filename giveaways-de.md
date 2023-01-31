@@ -11,7 +11,7 @@ Um Giveaways zu verwalten braucht man die mindestens die Berechtigung "Nachricht
 
 ## Bearbeiten
 
-`giveaway edit <Nachrichten-ID> <Zeit> <Gewinner> <Preis>`
+Button unter dem Giveaway
 
 ## Neue(n) Gewinner aussuchen
 

@@ -19,7 +19,7 @@ lang: en
 
 ## Close ticket
 
-`close [<Reason>]`
+`close`
 
 ## Delete ticket
 
@@ -46,16 +46,13 @@ In order to delete a ticket you need the "Manage Server" permission.
 ## Setup ticket categories
 
 `setup`
-See below for detailed explanition.
 
-# Other features
-
-## Ticket categories
 Mit dem Befehl `setup` lassen sich mehrere Ticketkategorien erstellen, in denen Texte des Tickets sowie die Kategorie, unter welcher das Ticket erstellt wird, ändern.
 
-The command uses the following syntax:
-* Create: `setup add <Ticketembed-Nachrichten-ID> <Ticket-Ziel-Kategorie-ID> [<Ticketnachricht> | <Embedtitel> | <Embedbeschreibung> | <Embedfooter>]`
-* Remove: `setup del <Ticketembed-Nachrichten-ID>`
+The command has the following syntax:
+* Create: `setup add <Ticketembed message ID> <Ticket-Ziel-Kategorie-ID> [<Ticketnachricht> | <Embedtitle> | <Embeddescription> | <Embedfooter>]`
+* Delete: `setup del <Ticketembed message ID>`
+* List/Edit: `setup [list]`
 
-## Automatic transcript creation
+# Automatic transcript creation
 By default the bot will automatically create a transcript when a ticket is closed. This setting can be changed on the [dashboard](https://tomatenkuchen.eu/dashboard).

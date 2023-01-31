@@ -19,7 +19,7 @@ lang: de
 
 ## Ticket schließen
 
-`close [<Grund>]`
+`close`
 
 ## Ticket löschen
 
@@ -46,16 +46,12 @@ Um Tickets zu löschen braucht man mindestens die Berechtigung "Server verwalten
 ## Ticketkategorien erstellen
 
 `setup`
-Siehe unten für genauere Erklärung.
 
-# Sonstige Funktionen
-
-## Ticketkategorien
 Mit dem Befehl `setup` lassen sich mehrere Ticketkategorien erstellen, in denen Texte des Tickets sowie die Kategorie, unter welcher das Ticket erstellt wird, ändern.
 
 Der Befehl nutzt folgende Syntax:
 * Erstellen: `setup add <Ticketembed-Nachrichten-ID> <Ticket-Ziel-Kategorie-ID> [<Ticketnachricht> | <Embedtitel> | <Embedbeschreibung> | <Embedfooter>]`
 * Entfernen: `setup del <Ticketembed-Nachrichten-ID>`
 
-## Automatische Transcripterstellung
+# Automatische Transcripterstellung
 Standardmäßig erstellt der Bot beim Schließen eines Tickets ein Transcript. Diese Einstellung kann im [Dashboard](https://tomatenkuchen.eu/dashboard) geändert werden.

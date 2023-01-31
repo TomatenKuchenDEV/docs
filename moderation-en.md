@@ -52,18 +52,3 @@ lang: en
 ## Warn a user
 
 `warn <User> <Reason>`
-
-
-# Filter messages using a RegEx
-
-You can filter messages with a setting in the dashboard and, if the filter finds something, have the message deleted.
-Also you can use there RegExps, although there are some [restrictions](https://npmjs.com/package/re2#limitations-things-re2-does-not-support).
-
-**Users with the permission "Manage Server" are excluded from the message filter!**
-
-## Ratelimits
-These filters have their own rate limit; if too many messages are sent in a short time or many messages are deleted from the bot, the filter is briefly disabled to avoid spam and not block more important actions.
-
-## Examples
-`sus|lol` deletes all messages which contain "sus" or "lol".
-`si?u` deletes all messages which contain "siu" or "su".
