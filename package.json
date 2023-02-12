@@ -10,7 +10,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "latest",
@@ -20,9 +21,7 @@
     "showdown": "^2.1.0"
   },
   "devDependencies": {
-    "eslint": "^8.33.0",
-    "eslint-plugin-html": "^7.1.0",
-    "@html-eslint/parser": "^0.16.0",
-    "@html-eslint/eslint-plugin": "^0.16.0"
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6"
   }
 }

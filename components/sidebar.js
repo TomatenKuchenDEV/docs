@@ -2,7 +2,7 @@ import Link from "next/link"
 import styles from "../styles/Sidebar.module.css"
 import { useRouter } from "next/router"
 
-export default function(props) {
+export default function Sidebar(props) {
 	const router = useRouter()
 
 	return (

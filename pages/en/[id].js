@@ -1,7 +1,7 @@
 import { getAllPostIds, getPostData } from "../../libraries/docs"
 import Sidebar from "../../components/sidebar"
 
-export default function({ postData }) {
+export default function post({ postData }) {
 	return (
 		<Sidebar data={postData} />
 	)

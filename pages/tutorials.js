@@ -1,7 +1,7 @@
 import Link from "next/link"
 import styles from "../styles/Tutorials.module.css"
 
-export default function() {
+export default function Tutorials() {
 	return (
 		<div className={styles.container}>
 			{process.env.menu.map(item => (

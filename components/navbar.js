@@ -4,7 +4,7 @@ import styles from "../styles/Navbar.module.css"
 import { useTheme } from "next-themes"
 import { useState, useEffect } from "react"
 
-export default function(props) {
+export default function Navbar(props) {
 	return (
 		<div className={styles.container}>
 			<Head>
