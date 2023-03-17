@@ -4,6 +4,7 @@ lang: en
 ---
 
 In order to manage customcommands you need the permission "Manage Server".
+We suggest you to use our [Dashboard](https://tomatenkuchen.eu/dashboard/customcommands) to manage your customcommands.
 
 # Commands
 
@@ -44,4 +45,43 @@ Example:
 
 # Variables
 
-* `{author.username}`: Displays the username of the message author
+* Mention: `{author}`
+* User ID: `{author.id}`
+* Nickname: `{author.name}`
+* Username: `{author.username}`
+* Discriminator: `{author.discrim}`
+* Avatar: `{author.avatar}`
+* Account created: `{author.created}`
+* Joined: `{author.joined}`
+* Server name: `{server.name}`
+* Server ID: `{server.id}`
+* Server icon: `{server.icon}`
+* Server owner: `{server.owner}`
+* Members on the server: `{server.members}`
+* Bots: `{server.members.bots}`
+* Users: `{server.members.humans}`
+* Channel mention: `{channel}`
+* Channel name: `{channel.name}`
+* Channel ID: `{channel.id}`
+* Channel topic: `{channel.topic}`
+* Channel category: `{channel.category}`
+* Channel category ID: `{channel.category.id}`
+* Prefix: `{prefix}`
+* Unix timestamp: `{unix}`
+* Unix timestamp in seconds: `{unixsec}`
+
+* Add alias for another customcommand: `{alias:<Name>}`
+* Force role on author: `{requirerole:<ID>}`
+
+* Arguments: `{1} {2} {3} ... {args}`
+* Force arguments: `{!1} {!2} {!3} ...`
+* Run bot command: `{run:<Befehl>}`
+* JSON API: `{jsonapi:<URL> <Property|RANDOM>}`
+* Dont delete invoke message: `{nodel}`
+
+**Embeds:**
+* Enable embed: `[embed]`
+* Set title: `[title:<Text>]`
+* Set description: `[description:<Text>]`
+* Set image: `[image:<Bild-URL>]`
+* Set footer: `[footer:<Text>]`

@@ -13,9 +13,9 @@ lang: en
 
 `unban <User> [<Reason>]`
 
-## Show banned users
+## List banned or muted users
 
-`banlist`
+`banlist [<User>]`
 
 ## Show modlogs of a user
 
@@ -31,11 +31,24 @@ lang: en
 
 ## Delete up to 100 messages
 
-`purge <Amount> [<User>|<Filter>]`
+`purge <Amount> [<Filter>] [pinned]`
+
+`<Filter>` can be one of the following:
+* <Nutzer>: Deletes all messages from a user
+* bot: Deletes all messages from bots
+* nobot: Deletes all messages from humans
+* embed: Deletes all messages with embeds
+* file: Deletes all messages with attachments
+* mention: Deletes all messages with mentions
+* link: Deletes all messages with links
+* emoji: Deletes all messages with emojis
+* contains <Text>: Deletes all messages that contain a certain text
 
 ## Let the bot send a custom message
 
 `say <Message>`
+
+You can also use attachments, e.g. images.
 
 ## Change the slowmode of the current channel
 

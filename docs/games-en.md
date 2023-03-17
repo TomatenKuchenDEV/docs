@@ -21,9 +21,9 @@ Let other members guess your text before the stickman is dead.
 
 `game hangman <Text>`
 
-## Connect four
+## Connect Four
 
-Play Connect4 with another user.
+Play Connect Four against a user.
 
 `game connect4 <User>`
 
@@ -38,3 +38,9 @@ Play a game similar to Among Us with other users.
 Play snake.
 
 `game snake`
+
+## Uno
+
+Play Uno with other users.
+
+`game uno`

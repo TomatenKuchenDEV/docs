@@ -21,9 +21,9 @@ Lasse andere Nutzer den angegebenen Text erraten, bevor das Galgenmännchen voll
 
 `game hangman <Text>`
 
-## Vier Gewinnt/Connect four
+## Vier gewinnt
 
-Spiele Connect4 gegen einen anderen Spieler.
+Spiele Vier gewinnt gegen einen anderen Spieler.
 
 `game connect4 <Nutzer>`
 
@@ -38,3 +38,9 @@ Spielt ein eigenes Among Us gegen andere Spieler.
 Spielt Snake.
 
 `game snake`
+
+## Uno
+
+Spielt Uno mit anderen Nutzern.
+
+`game uno`
