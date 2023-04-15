@@ -13,10 +13,7 @@ export default function Navbar(props) {
 			</Head>
 			<nav>
 				<Link href="/">Home</Link>
-				<Link href="/tutorials">List of Tutorials</Link>
 				<a href="https://tomatenkuchen.eu">Website</a>
-
-				<input type="search" />
 				<ThemeSwitch />
 			</nav>
 		</div>
@@ -34,7 +31,7 @@ const ThemeSwitch = () => {
   	if (!mounted) return null
 
   	return (
-		<svg onClick={() => setTheme(theme == "light" ? "dark" : "light")} xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+		<svg onClick={() => setTheme(theme == "light" ? "dark" : "light")} style={{cursor: "pointer"}} xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
 			<path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
 		</svg>
   	)

@@ -4,7 +4,7 @@ lang: en
 ---
 
 In order to manage customcommands you need the permission "Manage Server".
-We suggest you to use our [Dashboard](https://tomatenkuchen.eu/dashboard/customcommands) to manage your customcommands.
+We suggest you to use our [Dashboard](https://tomatenkuchen.eu/dashboard/customcommands/) to manage customcommands.
 
 # Commands
 

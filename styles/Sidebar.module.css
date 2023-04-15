@@ -12,6 +12,13 @@
 	}
 }
 
+.container code {
+	background: var(--headerbg);
+	padding: 2px;
+	border-radius: 5px;
+	font-size: 18px;
+}
+
 .container .side {
 	display: flex;
 	flex-direction: column;

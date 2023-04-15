@@ -43,15 +43,18 @@ Um Tickets zu löschen braucht man mindestens die Berechtigung "Server verwalten
 
 `ticketembed [<Title> <Beschreibung> <Buttontext>]`
 
-## Ticketkategorien erstellen
+# Ticketkategorien erstellen
 
-`setup`
+Im Dashboard lassen sich Ticketkategorien erstellen, mit denen, je nachdem welches Ticketembed für die Erstellung genutzt wurde, ein unterschiedliches Ticket erstellt wird.
+Du kannst die Kategorie, den Transcriptkanal und die Nachricht für jede Ticketkategorie einzeln einstellen.
 
-Mit dem Befehl `setup` lassen sich mehrere Ticketkategorien erstellen, in denen Texte des Tickets sowie die Kategorie, unter welcher das Ticket erstellt wird, ändern.
+Öffne die Einstellungsseite deines Servers und finde die Einstellung für Ticketkategorien. Klicke auf den Button "Hinzufügen" und fülle die Werte entsprechend aus.
+<code>message</code> entspricht der Nachrichten-ID eines Ticketembeds.
 
-Der Befehl nutzt folgende Syntax:
-* Erstellen: `setup add <Ticketembed-Nachrichten-ID> <Ticket-Ziel-Kategorie-ID> [<Ticketnachricht> | <Embedtitel> | <Embedbeschreibung> | <Embedfooter>]`
-* Entfernen: `setup del <Ticketembed-Nachrichten-ID>`
+# Sonstiges
+## Automatische Transcripterstellung
+Standardmäßig erstellt der Bot beim Schließen eines Tickets ein Transcript. Diese Einstellung kann im [Dashboard](https://tomatenkuchen.eu/dashboard/settings/) geändert werden.
 
-# Automatische Transcripterstellung
-Standardmäßig erstellt der Bot beim Schließen eines Tickets ein Transcript. Diese Einstellung kann im [Dashboard](https://tomatenkuchen.eu/dashboard) geändert werden.
+## Automatisches Speichern von Anhängen
+Standardmäßig werden Anhänge in einem anderen Discord-Kanal gespeichert, um diese auch nach dem Löschen eines Tickets im Transcript noch abrufbar zu machen.
+Diese Einstellung kann jeder Nutzer individuell mithilfe von dem Befehl <code>/usersettings</code> ändern.

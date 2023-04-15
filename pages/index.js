@@ -17,7 +17,7 @@ export default function Home() {
 					{process.env.menu.map(item => (
 						<Link href={item.link} key={item.link} className={styles.card}>
 							<h3>{item.name.charAt(0).toUpperCase() + item.name.slice(1)}</h3>
-							<p>.-. <i>description soonTM</i></p>
+							<p>{item.lang == "de" ? "German" : "English"}</p>
 						</Link>
 					))}
 				</div>

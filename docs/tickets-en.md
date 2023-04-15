@@ -43,16 +43,18 @@ In order to delete a ticket you need the "Manage Server" permission.
 
 `ticketembed [<Title> <Description> <Button text>]`
 
-## Setup ticket categories
+# Setting up ticket categories
 
-`setup`
+In the dashboard you can create ticket categories, with which, depending on which ticketembed was used for the creation, a different ticket is created.
+You can set the category, the transcript channel and the message for each ticket category individually.
 
-Mit dem Befehl `setup` lassen sich mehrere Ticketkategorien erstellen, in denen Texte des Tickets sowie die Kategorie, unter welcher das Ticket erstellt wird, ändern.
+Open the settings page of your server and find the setting for ticket categories. Click on the "Add" button and fill in the values accordingly.
+<code>message</code> equals the message id of a ticket embed message.
 
-The command has the following syntax:
-* Create: `setup add <Ticketembed message ID> <Ticket-Ziel-Kategorie-ID> [<Ticketnachricht> | <Embedtitle> | <Embeddescription> | <Embedfooter>]`
-* Delete: `setup del <Ticketembed message ID>`
-* List/Edit: `setup [list]`
+# Other
+## Automatic transcript creation
+By default, the bot creates a transcript when a ticket is closed. This setting can be changed in the [Dashboard](https://tomatenkuchen.eu/dashboard/settings/).
 
-# Automatic transcript creation
-By default the bot will automatically create a transcript when a ticket is closed. This setting can be changed on the [dashboard](https://tomatenkuchen.eu/dashboard).
+## Saving of attachments in tickets
+By default, attachments are saved in another Discord channel to make them still retrievable after deleting a ticket in the transcript.
+Every user can change this setting by using the command <code>/usersettings</code>.

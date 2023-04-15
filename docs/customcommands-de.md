@@ -4,7 +4,7 @@ lang: de
 ---
 
 Um Customcommands zu verwalten brauchst du die Berechtigung "Server verwalten".
-Es wird empfohlen, die Customcommands vom [Dashboard](https://tomatenkuchen.eu/dashboard/customcommands) zu verwalten.
+Es wird empfohlen, dafür unser [Dashboard](https://tomatenkuchen.eu/dashboard/customcommands/) zu nutzen.
 
 # Befehle
 
