@@ -31,14 +31,16 @@ Allow the specified user to join your voice channel.
 
 `permission add <User>`
 
+Alternatively, you can use the select menu in your voice channel.
+
 ## Remove user
 
-Remove the specified user from your voice channel and remove their perms to rejoin.
+Remove the specified user from your voice channel and remove their permissions to rejoin.
 
 `permission remove <User>`
 
 ## Set the user limit
 
-Set how many users can join your voice channel.
+Limit how many users can join your voice channel.
 
 `permission setlimit <Limit>`

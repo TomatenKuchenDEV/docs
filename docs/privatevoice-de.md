@@ -31,6 +31,8 @@ Gib einem bestimmten Nutzer Rechte, in deinen Sprachkanal zu gehen.
 
 `permission add <Nutzer>`
 
+Alternativ kannst du auch das Selectmenü in deinem Sprachkanal verwenden.
+
 ## Nutzer entfernen
 
 Entferne und kicke den angegeben Nutzer aus deinem Sprachkanal.

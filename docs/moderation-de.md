@@ -47,6 +47,7 @@ lang: de
 ## Text ausgeben
 
 `say <Nachricht>`
+`embed [<Kanal>]`
 
 Du kannst auch Anhänge, z.B. Bilder, verwenden.
 
@@ -65,3 +66,13 @@ Du kannst auch Anhänge, z.B. Bilder, verwenden.
 ## Verwarne einen Nutzer
 
 `warn <Nutzer> <Grund>`
+
+# Massenaktionen
+
+## Nutzer bannen
+
+`mass ban <Grund> <Liste von Nutzern>`
+
+## Nutzer kicken
+
+`mass kick <Grund> <Liste von Nutzern>`

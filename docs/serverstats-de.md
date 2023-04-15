@@ -3,9 +3,9 @@ title: Serverstatistiken einrichten
 lang: de
 ---
 
-![](https://tomatenkuchen.eu/assets/images/stats_light.png)
+![](https://tomatenkuchen.eu/assets/images/stats_dark.png)
 
-Du kannst die Kanäle, in denen Statistiken angezeigt werden, im [Dashboard](https://tomatenkuchen.eu/dashboard) einstellen.
+Du kannst die Kanäle, in denen Statistiken angezeigt werden, und wie sie angezeigt werden, in den [Einstellungen](https://tomatenkuchen.eu/dashboard/settings) einstellen.
 Mögliche Variablen:
 * {members} Anzahl aller Mitglieder auf dem Server
 * {members.humans} Anzahl der nicht-Bots auf dem Server
@@ -18,6 +18,6 @@ Mögliche Variablen:
 * {voicechannels} Anzahl der Sprachkanäle
 * {textchannels} Anzahl der Textkanäle
 * {categories} Anzahl der Kategorien
-* {usersWithRole:<id>} Anzahl der Mitglieder mit einer bestimmten Rolle. Ersetze `<id>` mit einer Rollen-ID.
+* {usersWithRole:&lt;id&gt;} Anzahl der Mitglieder mit einer bestimmten Rolle. Ersetze `<id>` mit einer Rollen-ID.
 
 Die Statistiken werden automatisch alle **10 Minuten** aktualisiert.

@@ -3,9 +3,9 @@ title: Setup up serverstats
 lang: en
 ---
 
-![](https://tomatenkuchen.eu/assets/images/stats_light.png)
+![](https://tomatenkuchen.eu/assets/images/stats_dark.png)
 
-You can set the channels in which the statistics are displayed in the [Dashboard](https://tomatenkuchen.eu/dashboard).
+You can set the channels in which and how the statistics are displayed in the [settings](https://tomatenkuchen.eu/dashboard/settings/).
 Possible variables:
 * {members} Amount of all members on the server
 * {members.humans} Amount of non-bots on the server
@@ -18,6 +18,6 @@ Possible variables:
 * {voicechannels} Amount of voice channels
 * {textchannels} Amount of text channels
 * {categories} Amount of categories
-* {usersWithRole:<id>} Amount of members with a specific role. Replace `<id>` with a role ID.
+* {usersWithRole:&lt;id&gt;} Amount of members with a specific role. Replace `<id>` with a role ID.
 
 The stats are automatically updated every **10 minutes**.

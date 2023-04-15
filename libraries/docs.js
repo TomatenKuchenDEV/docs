@@ -18,12 +18,9 @@ export function getAllPostIds(lang = "en") {
 export function getPostData(id, lang = "en") {
 	const data = fs.readFileSync(path.join("docs", id + "-" + lang + ".md"), "utf8")
 
-	const converted = converter.makeHtml(data)
-	const meta = converter.getMetadata()
-
 	return {
 		id,
-		meta,
-		converted
+		meta: converter.getMetadata(),
+		converted: converter.makeHtml(data)
 	}
 }

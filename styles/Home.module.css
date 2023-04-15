@@ -8,7 +8,7 @@
 }
 
 .title a {
-	color: #0070f3;
+	color: #0566d4;
 	text-decoration: none;
 }
 .title a:hover, .title a:focus, .title a:active {
@@ -20,12 +20,12 @@
 }
 
 .title {
-	margin: 0 0 1rem;
-	line-height: 1.15;
-	font-size: 3.4rem;
+	margin: 0 0 .7rem;
+	line-height: 1.1;
+	font-size: 3.3rem;
 }
 .container p {
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 }
 
 .grid {
@@ -33,7 +33,7 @@
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
-	max-width: 900px;
+	max-width: 950px;
 	margin-top: 3rem;
 }
 

@@ -47,6 +47,7 @@ lang: en
 ## Let the bot send a custom message
 
 `say <Message>`
+`embed [<Channel>]`
 
 You can also use attachments, e.g. images.
 
@@ -65,3 +66,13 @@ You can also use attachments, e.g. images.
 ## Warn a user
 
 `warn <User> <Reason>`
+
+# Mass actions
+
+## Ban users
+
+`mass ban <Reason> <List of users>`
+
+## Kick users
+
+`mass kick <Reason> <List of users>`
