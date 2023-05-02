@@ -27,9 +27,9 @@ lang: en
 
 ## Lock a channel or the whole server
 
-`lock server|channel on|off`
+`lock on|off`
 
-## Delete up to 100 messages
+## Delete up to 99 messages
 
 `purge <Amount> [<Filter>] [pinned]`
 
@@ -43,6 +43,7 @@ lang: en
 * link: Deletes all messages with links
 * emoji: Deletes all messages with emojis
 * contains <Text>: Deletes all messages that contain a certain text
+* notcontains <Text>: Deletes all messages that **not** contain a certain text
 
 ## Let the bot send a custom message
 

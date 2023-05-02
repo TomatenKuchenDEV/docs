@@ -7,7 +7,7 @@ lang: de
 
 Spielt Schere Stein Papier gegen den Bot oder andere Spieler.
 
-`game scheresteinpapier [<Nutzer>]`
+`game ssp [<Nutzer>]`
 
 ## TicTacToe
 

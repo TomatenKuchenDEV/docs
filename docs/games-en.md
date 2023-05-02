@@ -7,7 +7,7 @@ lang: en
 
 Play rock paper scissors with a user or the bot.
 
-`game scheresteinpapier [<User>]`
+`game rps [<User>]`
 
 ## TicTacToe
 

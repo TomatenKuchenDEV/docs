@@ -27,9 +27,9 @@ lang: de
 
 ## Sperre einen Kanal oder den ganzen Server
 
-`lock server|channel an|aus`
+`lock on|off`
 
-## Lösche bis zu 100 Nachrichten
+## Lösche bis zu 99 Nachrichten
 
 `purge <Anzahl> [<Filter>] [pinned]`
 
@@ -43,6 +43,7 @@ lang: de
 * link: Löscht alle Nachrichten mit Links
 * emoji: Löscht alle Nachrichten mit Emojis
 * contains <Text>: Löscht alle Nachrichten, die einen bestimmten Text enthalten
+* notcontains <Text>: Löscht alle Nachrichten, die einen bestimmten Text **nicht** enthalten
 
 ## Text ausgeben
 
