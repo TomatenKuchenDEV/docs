@@ -1,2 +1,2 @@
 # Docs for [TomatenKuchen](https://tomatenkuchen.eu)
-Deployed by Cloudflare Pages on https://help.tomatenkuchen.eu
+Deployed using Cloudflare Pages on [docs.tomatenkuchen.eu](https://docs.tomatenkuchen.eu)
