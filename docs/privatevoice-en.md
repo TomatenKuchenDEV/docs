@@ -6,16 +6,23 @@ lang: en
 As soon as a user enters the channel selected in the dashboard, a new private voice channel is created.
 The permissions for this channel can be set with the `permission` command.
 
+# Settings
+
+You can set different voice channels in the dashboard, and select for each of them a category for the channel to be created in.
+The name can be configured too using the user- or nickname, or an incrementing ID.
+
+# Commands
+
 ## Open
 
-Allow everyone to join your voice channel.
+Allow everyone to join and speak in your private channel.
 
 `permission open`
 
 ## Close
 
-Remove voice channel permissions from everyone but you.
-Users who joined before can still stay in the voice channel and speak as well, but cannot rejoin.
+Remove private channel permissions from everyone but you.
+Users who joined before can stay and still speak in the voice channel, but cannot rejoin.
 
 `permission close`
 
@@ -31,13 +38,24 @@ Allow the specified user to join your voice channel.
 
 `permission add <User>`
 
-Alternatively, you can use the select menu in your voice channel.
+Alternatively, you can use the select menu in your private channel.
 
 ## Remove user
 
-Remove the specified user from your voice channel and remove their permissions to rejoin.
+Kicks the specified user from your voice channel and remove their permissions to rejoin.
 
 `permission remove <User>`
+
+## Add a moderator
+
+Moderators can, like the owner, use all private channel commands.
+They also have Stream permissions.
+
+`permission addmod <User>`
+
+## Remove a moderator
+
+`permission removemod <User>`
 
 ## Set the user limit
 

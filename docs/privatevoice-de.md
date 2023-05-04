@@ -6,6 +6,12 @@ lang: de
 Sobald ein Nutzer den im Dashboard ausgewählten Kanal betritt, wird ein neuer privater Sprachkanal erstellt.
 Die Rechte für diesen Kanal lassen sich mit dem Befehl `permission` einstellen.
 
+# Einstellungen
+
+
+
+# Befehle
+
 ## Öffnen
 
 Gib jedem die Berechtigung, deinen Sprachkanal zu betreten.
@@ -15,7 +21,7 @@ Gib jedem die Berechtigung, deinen Sprachkanal zu betreten.
 ## Schließen
 
 Entferne jedem außer dir die Rechte für den Sprachkanal.
-Die Nutzer können noch im Sprachkanal bleiben und auch sprechen, aber nicht erneut beitreten.
+Die Nutzer bleiben noch im Sprachkanal und können weiterhin sprechen, aber nicht erneut beitreten.
 
 `permission close`
 
@@ -38,6 +44,17 @@ Alternativ kannst du auch das Selectmenü in deinem Sprachkanal verwenden.
 Entferne und kicke den angegeben Nutzer aus deinem Sprachkanal.
 
 `permission remove <Nutzer>`
+
+## Moderator hinzufügen
+
+Moderatoren können, wie der Ersteller, alle permission-Befehle verwenden.
+Sie haben auch Stream-Berechtigungen im privaten Kanal.
+
+`permission addmod <Nutzer>`
+
+## Moderator entfernen
+
+`permission removemod <Nutzer>`
 
 ## Nutzerlimit festlegen
 
