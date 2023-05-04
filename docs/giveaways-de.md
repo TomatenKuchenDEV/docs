@@ -3,7 +3,7 @@ title: Giveaways
 lang: de
 ---
 
-Um Giveaways zu verwalten braucht man die mindestens die Berechtigung "Nachrichten verwalten".
+Um Giveaways zu verwalten braucht man eine der im Dashhoard festgelegten Giveaway-Rollen oder die Berechtigung "Server verwalten".
 
 ## Erstellen
 

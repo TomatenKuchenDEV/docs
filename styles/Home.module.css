@@ -15,7 +15,7 @@
   	text-decoration: underline;
 }
 
-.title, .container p {
+.title, .container h2 {
   	text-align: center;
 }
 
@@ -24,8 +24,8 @@
 	line-height: 1.1;
 	font-size: 3.3rem;
 }
-.container p {
-	font-size: 1.3rem;
+.container h2 {
+	font-size: 1.4rem;
 }
 
 .grid {
@@ -46,7 +46,7 @@
 	text-decoration: none;
 	border: 1px solid #eaeaea;
 	border-radius: 10px;
-	transition: color 0.15s ease, border-color 0.15s ease;
+	transition: color .2s ease, border-color .2s ease;
 }
 
 .card:hover, .card:focus, .card:active {

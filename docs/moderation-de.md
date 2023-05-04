@@ -5,6 +5,8 @@ lang: de
 
 # Befehle
 
+Wenn die Einstellung "Grund erzwingen" aktiviert ist, ist das Argument `<Grund>` nicht mehr optional.
+
 ## Nutzer bannen
 
 `ban <Nutzer> [<Grund>]`
@@ -39,18 +41,20 @@ lang: de
 * nobot: Löscht alle Nachrichten von Menschen
 * embed: Löscht alle Nachrichten mit Embeds
 * file: Löscht alle Nachrichten mit Anhängen
-* mention: Löscht alle Nachrichten mit Mentions
+* mention: Löscht alle Nachrichten mit Erwähnungen
 * link: Löscht alle Nachrichten mit Links
 * emoji: Löscht alle Nachrichten mit Emojis
 * contains <Text>: Löscht alle Nachrichten, die einen bestimmten Text enthalten
-* notcontains <Text>: Löscht alle Nachrichten, die einen bestimmten Text **nicht** enthalten
+* notcontains <Text>: Löscht alle Nachrichten, die einen bestimmten Text *nicht* enthalten
+
+Wenn `pinned` angegeben wird werden auch angepinnte Nachrichten gelöscht.
 
 ## Text ausgeben
 
 `say <Nachricht>`
 `embed [<Kanal>]`
 
-Du kannst auch Anhänge, z.B. Bilder, verwenden.
+Du kannst auch Anhänge, z. B. Bilder, verwenden.
 
 ## Ändere den Slowmode vom aktuellen Kanal
 

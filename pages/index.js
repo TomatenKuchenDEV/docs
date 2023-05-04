@@ -8,10 +8,9 @@ export default function Home() {
 				<h1 className={styles.title}>
 					<a href="https://tomatenkuchen.eu">TomatenKuchen</a> Docs
 				</h1>
-
-				<p>
-					Something is unclear? Join our <a href="https://tomatenkuchen.eu/support/">Discord Server</a>!
-				</p>
+				<h2>
+					Something is unclear? Join our <a href="https://tomatenkuchen.eu/support" target="_blank" rel="noopener">Discord server</a>!
+				</h2>
 
 				<div className={styles.grid}>
 					{process.env.menu.map(item => (

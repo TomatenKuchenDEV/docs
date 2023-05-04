@@ -5,6 +5,8 @@ lang: en
 
 # Commands
 
+If the setting "Force reason" is enabled, the argument `<Reason>` is not optional anymore.
+
 ## Ban user
 
 `ban <User> [<Reason>]`
@@ -43,7 +45,9 @@ lang: en
 * link: Deletes all messages with links
 * emoji: Deletes all messages with emojis
 * contains <Text>: Deletes all messages that contain a certain text
-* notcontains <Text>: Deletes all messages that **not** contain a certain text
+* notcontains <Text>: Deletes all messages that *not* contain a certain text
+
+If you include `pinned`, pinned messages will be deleted too.
 
 ## Let the bot send a custom message
 

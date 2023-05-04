@@ -3,7 +3,7 @@ title: Giveaways
 lang: en
 ---
 
-To manage giveaways you need the "Manage Messages" permission.
+To manage giveaways you need one of the giveaway roles set in the dashboard or the "Manage Guild" permission.
 
 ## Create
 
