@@ -35,8 +35,6 @@ Play a game similar to Among Us with other users.
 
 ## Snake
 
-Play snake.
-
 `game snake`
 
 ## Uno
@@ -44,3 +42,21 @@ Play snake.
 Play Uno with other users.
 
 `game uno`
+
+## Chemical equations
+
+Specifies a chemistry equation that must be balanced using factors.
+
+`game chemie [leicht|mittel|schwer]`
+
+## Wordsearch
+
+Displays a grid of letters in which words are hidden. The words can be distributed vertically, horizontally and diagonally in all directions.
+
+`game wordsearch`
+
+## Anagram
+
+Outputs a long word from which shorter words must be formed.
+
+`game anagram`

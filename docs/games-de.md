@@ -29,13 +29,11 @@ Spiele Vier gewinnt gegen einen anderen Spieler.
 
 ## Among Us
 
-Spielt ein eigenes Among Us gegen andere Spieler.
+Spielt eine Art Among Us gegen andere Spieler.
 
 `game amongus [<Startzeit>]`
 
 ## Snake
-
-Spielt Snake.
 
 `game snake`
 
@@ -44,3 +42,21 @@ Spielt Snake.
 Spielt Uno mit anderen Nutzern.
 
 `game uno`
+
+## Chemiegleichungen
+
+Gibt eine Chemiegleichung an, die mithilfe von Faktoren ausgeglichen werden muss.
+
+`game chemie [leicht|mittel|schwer]`
+
+## Wordsearch
+
+Zeigt ein Raster an Buchstaben an, in dem Wörter versteckt sind. Die Wörter können senkrecht, waagerecht und diagonal in allen Richtungen verteilt sein.
+
+`game wordsearch`
+
+## Anagram
+
+Gibt ein langes Wort aus, aus dem kürzere (englische) Wörter gebildet werden müssen.
+
+`game anagram`
