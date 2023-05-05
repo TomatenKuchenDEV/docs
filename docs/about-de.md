@@ -5,16 +5,6 @@ lang: de
 
 Der Discord-Bot wurde im Jahr 2020 von TomatoCake erstellt und wird seitdem stetig weiterentwickelt. Fast täglich werden ~~Fehler~~ Features behoben und neue Funktionen hinzugefügt oder vorhandene ergänzt.
 
-Auch wenn der Bot selbst alleinig von TomatoCake entwickelt wird, so haben viele verschiedene Nutzer auf Discord zur Entwicklung beigetragen:
-* chaosbe
-	* Motivator .-.
-* booky10
-	* Komplette Überarbeitung des Dashboards
-	* Verwaltung des Servers, auf dem der Bot läuft
-* Funty_
-	* Dashboard-Design, vor allem der Userdaten
-* Benonardo
-* Ell1ana
-	* Cute tomatoes on the home page <3
-* ItsJan
-... und viele weitere Nutzer, die auch nur einzelne Vorschläge gemacht haben
+Der Bot wird alleinig von TomatoCake entwickelt - auch, wenn einige Nutzer auf Discord am Dashboard, einzelnen Befehlen und den Übersetzungen mitgeholfen haben, siehe [Credits](https://tomatenkuchen.eu/credits/)
+
+[![Übersetzungsstatus](http://translate.tomatenkuchen.eu/widgets/tomatenkuchen/-/287x66-grey.png)](http://translate.tomatenkuchen.eu/engage/tomatenkuchen/)
