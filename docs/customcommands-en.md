@@ -10,14 +10,14 @@ We suggest you to use our [Dashboard](https://tomatenkuchen.eu/dashboard/customc
 
 ## Create
 
-`customcommand <Name> <Reply>`
+`customcommand <Name> <Content>`
 
 Example:
 `customcommand hi Hey ^^`
 
 ## Edit
 
-`customcommand <Name> <New reply>`
+`customcommand <Name> <New content>`
 
 Example:
 `customcommand hi Hello!`
@@ -38,7 +38,7 @@ Example:
 
 ## Test code
 
-`customcommand test <Customcommand-Code>`
+`customcommand test <Customcommand code>`
 
 Example:
 `customcommand test Hello **{author.name}**! :D`

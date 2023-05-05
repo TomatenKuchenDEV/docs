@@ -26,10 +26,11 @@ If the feed contains any more properties, you can use them as well. The bot will
 
 ### YouTube
 While there is a dedicated YouTube feed, you can also use the RSS feed of a channel.
-Feed url: `https://www.youtube.com/feeds/videos.xml?channel_id=UC...` where `UC...` is the channel id. You can get the channel id using the `/youtube` command.
+
+Feed url: `https://www.youtube.com/feeds/videos.xml?channel_id=UC...` where `UC...` is the channel id. You can get the channel id using the `youtube` command.
 
 `content`: `**{user}** uploaded a new video! Check it out now: {link}`
-Other fields should be empty as you can't embed videos in custom embeds.
+Embed fields should be empty as you can't embed videos in custom embeds.
 
 ### Nitter (Twitter)
 Feed url: `https://nitter.net/{user}/rss`

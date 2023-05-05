@@ -10,14 +10,14 @@ Es wird empfohlen, dafür unser [Dashboard](https://tomatenkuchen.eu/dashboard/c
 
 ## Erstellen
 
-`customcommand <Name> <Text>`
+`customcommand <Name> <Inhalt>`
 
 Beispiel:
 `customcommand hi Hey ^^`
 
 ## Bearbeiten
 
-`customcommand <Name> <Neuer Text>`
+`customcommand <Name> <Neuer Inhalt>`
 
 Beispiel:
 `customcommand hi Hallo!`
