@@ -44,11 +44,11 @@ Mögliche Bedingungen:
 * `roles`: Erfordert alle dieser Rollen für die Teilnahme
 	* `roles:123456789123456789`
 	* `roles:123456789123456789,987654321987654321`
-* `anyroles`: Erfordert irgendeiner dieser Rollen für die Teilnahme
-* `notroles`: Der Nutzer darf keine dieser Rollen haben, um teilnehmen zu dürfen
-* `minage`: Der Account des Nutzers muss mindestens so alt sein
-	* `minage:3mo`
-	* `minmemberage:1 week 2 days`
-* `minmemberage`: Der Nutzer muss mindestens so lange auf dem Server sein
-* `minleaderboardpoints`: Der Nutzer muss mindestens so viele Punkte auf dem Leaderboard haben
-	* `minleaderboardpoints:1000`
+* `anyRoles`: Erfordert irgendeiner dieser Rollen für die Teilnahme
+* `notRoles`: Der Nutzer darf keine dieser Rollen haben, um teilnehmen zu dürfen
+* `minAge`: Der Account des Nutzers muss mindestens so alt sein
+	* `minAge:3mo`
+	* `minAge:1 week 2 days`
+* `minMemberAge`: Der Nutzer muss mindestens so lange auf dem Server sein
+* `minLeaderboardPoints`: Der Nutzer muss mindestens so viele Punkte auf dem Leaderboard haben
+	* `minLeaderboardPoints:1000`
