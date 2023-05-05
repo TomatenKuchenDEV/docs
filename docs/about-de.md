@@ -14,5 +14,7 @@ Auch wenn der Bot selbst alleinig von TomatoCake entwickelt wird, so haben viele
 * Funty_
 	* Dashboard-Design, vor allem der Userdaten
 * Benonardo
+* Ell1ana
+	* Cute tomatoes on the home page <3
 * ItsJan
 ... und viele weitere Nutzer, die auch nur einzelne Vorschläge gemacht haben
