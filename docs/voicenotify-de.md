@@ -3,7 +3,7 @@ title: Voicenotify
 lang: de
 ---
 
-Mithilfe der Voicenotify-Einstellungen kannst du eine Nachricht senden lassen, sobald ein Nutzer einen festgelegten Sprachkanal betritt.
+Mithilfe der Voicenotify-Einstellungen kannst du eine Nachricht senden lassen, sobald ein Nutzer festgelegten Sprachkanälen betritt.
 
 # Einstellungen
 

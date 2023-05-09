@@ -25,3 +25,5 @@ Nutzer erhalten diese Rolle automatisch beim Voten. Nachdem die festgelegte Zeit
   - Server
 - Discords.com: `discords`
   - Bots
+
+Dir fehlt eine Seite? Schlage sie einfach auf unserem [Support-Server](https://tomatenkuchen.eu/discord) vor.
