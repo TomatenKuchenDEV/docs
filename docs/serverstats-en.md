@@ -1,5 +1,5 @@
 ---
-title: Setup up serverstats
+title: Server statistics
 lang: en
 ---
 

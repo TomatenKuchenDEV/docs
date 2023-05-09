@@ -1,5 +1,5 @@
 ---
-title: Serverstatistiken einrichten
+title: Serverstatistiken
 lang: de
 ---
 

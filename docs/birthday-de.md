@@ -5,7 +5,6 @@ lang: de
 
 Geburtstage werden täglich um 0 Uhr in der festgelegten Serverzeitzone geprüft.
 
-
 # Reale Nutzer
 
 ## Geburtstag setzen/bearbeiten
