@@ -2,7 +2,6 @@
 Deployed using Cloudflare Pages on [docs.tomatenkuchen.eu](https://docs.tomatenkuchen.eu)
 
 Todo:
-- `{members} {members.humans} {members.bots} {emojis} {stickers} {roles} {boosts} {channels} {voicechannels} {textchannels} {categories}<br>{leaderboard} {boosters} {afk} {todo} {birthday}` autoupdate
 - counting
 	```json
 		{
@@ -19,7 +18,6 @@ Todo:
 			failRoleRemove: "0"
 		}
 	```
-- mc release feed
 - afk + rolle
 - mcupdate beschreibung/name/nachricht, `{ONLINE} {MAX} {VERSION} {IP} {PORT}` args
 - starboard starboardExcludedChannels starboardEmoji starboardStars starboardSelf starboardChannel

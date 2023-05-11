@@ -40,3 +40,8 @@ Feed-URL: `https://{instance}/users/{user}.atom`
 
 ### Reddit
 Feed-URL: `https://www.reddit.com/r/{subreddit}/new/.rss`
+
+# Minecraft-Versionen
+Es können Feeds erstellt werden, um Snapshots, Prereleases, Release Candidates und Vollversionen von Minecraft anzukündigen. Für jeden dieser Typen kann ein Kanal festgelegt werden.
+
+Die Nachricht erscheint meist innerhalb einer Minute nach der Veröffentlichung und ist damit deutlich schneller als Minecraft-Blogposts oder Discord-Changelogs selbst.
