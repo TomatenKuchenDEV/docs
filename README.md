@@ -2,7 +2,6 @@
 Deployed using Cloudflare Pages on [docs.tomatenkuchen.eu](https://docs.tomatenkuchen.eu)
 
 ## Todo
-- afk + rolle
 - mcupdate beschreibung/name/nachricht, `{ONLINE} {MAX} {VERSION} {IP} {PORT}` args
 - starboard starboardExcludedChannels starboardEmoji starboardStars starboardSelf starboardChannel
 - botsetup: invite link, developer mode https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-
