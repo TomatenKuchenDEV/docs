@@ -81,3 +81,15 @@ You can also use attachments, e.g. images.
 ## Kick users
 
 `mass kick <Reason> <List of users>`
+
+# Settings
+
+## Enforce reason
+Enforces a reason for moderation actions.
+
+## Presets for moderation reasons
+You can create presets for moderation reasons to allow the use of shortcuts for longer reasons.
+
+- Example:
+	- `name`: "r1"
+	- `value`: "You violated rule 1: Advertising is forbidden!"

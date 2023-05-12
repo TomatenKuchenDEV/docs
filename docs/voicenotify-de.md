@@ -19,3 +19,6 @@ Diese Einstellung kann verwendet werden, um Ping-Spam zu reduzieren. Der Mindest
 
 - `user` regelt den Cooldown pro Nutzer: Wenn ein Nutzer eine Nachricht auslöst wird keine Nachricht mehr gesendet, wenn er innerhalb dieser Zeitspanne den Kanal nochmal oder einen anderen betritt. Standard: Drei Minuten (`3m`)
 - `channel` regelt den Cooldown pro Kanal: Wenn eine Nachricht in dem Kanal ausgelöst worden ist, wird innerhalb dieser Zeit keine Nachricht mehr gesendet, wenn derselbe oder ein anderer Nutzer den Kanal betritt. Standard: Eine Minute (`1m`)
+
+## Nachricht löschen nach
+Es kann eine Zeit festgelegt werden, nach welcher die Notify-Nachricht gelöscht werden soll. Diese Option ist standardmäßig deaktiviert.

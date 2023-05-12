@@ -28,10 +28,7 @@ Deployed using Cloudflare Pages on [docs.tomatenkuchen.eu](https://docs.tomatenk
 - stats seite im dashboard
 - sticky: channel respondtobot embedzeug
 - vorschläge: new approved denied replied - pending kanal - buttons oder reactions - grund preset - grund enforce
-- autorole bot & user
-- moderation grund preset
 - rollen nicknamen - max rollen im nicknamen - format `[{roles}] {name}` möglich `{roles} {name} {username}` - `role format`
-- voice notify zeit nachdem die nachricht gelöscht werden soll
 
 ## Rewrite
 - https://instant.page/ http://instantclick.io/
