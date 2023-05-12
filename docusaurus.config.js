@@ -21,6 +21,7 @@ const config = {
 		  	require.resolve("@cmfcmf/docusaurus-search-local"),
 			{
 				language: ["en", "de"],
+				indexDocSidebarParentCategories: 2,
 				indexBlog: false
 			}
 		]
