@@ -3,7 +3,7 @@ title: Reaction-, Button- und Selectroles
 description: Hilft beim Setup von Reaction-, Button- und Selectroles
 ---
 
-![](../public/de_add_reactionrole.png)
+![](/img/de_add_reactionrole.png)
 
 Um Reactionroles zu verwalten brauchst du die Berechtigung "Server verwalten".
 Zum Erstellen, Bearbeiten und Löschen von Reaction-, Button- und Selectroles kannst du unser [Dashboard](https://tomatenkuchen.eu/dashboard/reactionroles/) verwenden.
@@ -28,4 +28,4 @@ Unterstützt bis zu 25 Rollen pro Nachricht.
 Ähnlich wie eine Buttonrole, aber unterstützt das gleichzeitige Hinzufügen bzw. Entfernen von mehreren Rollen.
 Es werden bis zu 25 Rollen pro Nachricht unterstützt.
 
-![](../public/button_selectrole.png)
+![](/img/button_selectrole.png)

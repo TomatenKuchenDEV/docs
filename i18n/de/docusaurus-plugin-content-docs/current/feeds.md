@@ -11,7 +11,7 @@ Der Bot wird dann automatisch neue Feedinhalte in den festgelegten Kanal senden.
 Feeds are checked for new content every 10 minutes, and up to 10 embeds are displayed.
 
 ## Standardkonfiguration
-![](../public/rss_feeds_default.png)
+![](/img/rss_feeds_default.png)
 Die Felder sollten für die optimale Erfahrung so ausgefüllt sein. Du kannst sie aber natürlich nach Belieben bearbeiten oder verschieben.
 
 * `{author}`: Der Autor des Posts, wenn vorhanden

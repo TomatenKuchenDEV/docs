@@ -3,7 +3,7 @@ title: Reaction, button and select roles
 description: Explains how to use reaction, button and select roles
 ---
 
-![](../public/de_add_reactionrole.png)
+![](/img/de_add_reactionrole.png)
 
 To manage reactionroles, you need the permission "Manage server".
 To create, edit and delete reaction-, button- and selectroles, you can use our [Dashboard](https://tomatenkuchen.eu/dashboard/reactionroles/).
@@ -27,4 +27,4 @@ Up to 25 roles per message are supported.
 Similar to a buttonrole, but supports the simultaneous addition and removal of multiple roles.
 Up to 25 roles per message are supported.
 
-![](../public/button_selectrole.png)
+![](/img/button_selectrole.png)

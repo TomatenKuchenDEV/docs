@@ -11,7 +11,7 @@ The bot will then automatically post new entries to the channel you selected.
 Feeds are checked for new content every 10 minutes, and up to 10 embeds are displayed.
 
 ## Default configuration
-![](../public/rss_feeds_default.png)
+![](/img/rss_feeds_default.png)
 The fields should be set to this for an optimal experience, but you can of course edit or move them to your liking.
 
 * `{author}`: The author of the post, if any
