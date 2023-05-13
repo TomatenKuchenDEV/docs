@@ -7,7 +7,6 @@ const config = {
 	favicon: "img/favicon.ico",
 	url: "https://docs.tomatenkuchen.eu",
 	baseUrl: "/",
-
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
 

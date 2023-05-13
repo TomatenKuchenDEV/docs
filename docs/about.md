@@ -1,6 +1,7 @@
 ---
 title: About the bot
 description: Tells you about the bot
+slug: /
 ---
 
 The Discord bot was created by TomatoCake in 2020 and is contiontiosly developed since then. Almost daily ~~bugs~~ features are fixed and new features added or existing ones improved.
