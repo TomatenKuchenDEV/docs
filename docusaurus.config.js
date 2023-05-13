@@ -7,7 +7,6 @@ const config = {
 	favicon: "img/favicon.ico",
 	url: "https://docs.tomatenkuchen.eu",
 	baseUrl: "/",
-	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
 
 	i18n: {
@@ -34,7 +33,9 @@ const config = {
 				docs: {
 					sidebarPath: require.resolve("./sidebars.js"),
 					routeBasePath: "/",
-					editUrl: "https://github.com/DEVTomatoCake/tk-docs/tree/master"
+					editUrl: "https://github.com/DEVTomatoCake/tk-docs/tree/master",
+					editLocalizedFiles: true,
+					showLastUpdateTime: true
 				},
 				blog: false,
 				theme: {
@@ -47,24 +48,26 @@ const config = {
 	themeConfig:
 		/** @type {import("@docusaurus/preset-classic").ThemeConfig} */
 		({
-		image: "img/docusaurus-social-card.jpg",
+		//image: "img/docusaurus-social-card.jpg",
 		navbar: {
 			title: "TomatenKuchen Docs",
 			logo: {
 				alt: "TomatenKuchen Logo",
 				src: "img/favicon.ico"
 			},
+			hideOnScroll: true,
 			items: [
 				{
-					type: "docSidebar",
-					sidebarId: "docs",
-					position: "left",
-					label: "Docs"
+					href: "https://tomatenkuchen.eu",
+					"aria-label": "Bot website"
 				},{
 					type: "localeDropdown",
 					position: "right"
 				}
 			]
+		},
+		colorMode: {
+			respectPrefersColorScheme: true
 		},
 		footer: {
 			style: "dark",
@@ -89,6 +92,9 @@ const config = {
 						},{
 							label: "GitHub",
 							href: "https://github.com/DEVTomatoCake/tk-docs"
+						},{
+							label: "Weblate",
+							href: "https://translate.tomatenkuchen.eu/engage/tomatenkuchen/"
 						}
 					]
 				}
@@ -96,6 +102,7 @@ const config = {
 			copyright: "Copyright © " + new Date().getFullYear() + " TomatenKuchen. Built with Docusaurus."
 		},
 		prism: {
+			defaultLanguage: "javascript",
 			theme: lightCodeTheme,
 			darkTheme: darkCodeTheme
 		}
