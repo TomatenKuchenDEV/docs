@@ -22,6 +22,47 @@ const config = {
 				indexDocSidebarParentCategories: 2,
 				indexBlog: false
 			}
+		],
+		[
+			"@docusaurus/plugin-pwa",
+			{
+				pwaHead: [
+					{
+						tagName: "link",
+						rel: "icon",
+						href: "/img/icon-192x192.png"
+					},{
+						tagName: "link",
+						rel: "manifest",
+						href: "/manifest.json"
+					},{
+						tagName: "meta",
+						name: "apple-mobile-web-app-capable",
+						content: "yes"
+					},{
+						tagName: "meta",
+						name: "apple-mobile-web-app-status-bar-style",
+						content: "#ED8721"
+					},{
+						tagName: "link",
+						rel: "apple-touch-icon",
+						href: "/img/icon-152x152.png"
+					},{
+						tagName: "link",
+						rel: "mask-icon",
+						href: "/img/icon-192x192.png",
+						color: "#ED8721"
+					},{
+						tagName: "meta",
+						name: "msapplication-TileImage",
+						content: "/img/icon-192x192.png"
+					},{
+						tagName: "meta",
+						name: "msapplication-TileColor",
+						content: "#ED8721"
+					}
+				]
+			}
 		]
 	],
 
