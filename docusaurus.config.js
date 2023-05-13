@@ -41,6 +41,10 @@ const config = {
 						content: "yes"
 					},{
 						tagName: "meta",
+						name: "theme-color",
+						content: "#ED8721"
+					},{
+						tagName: "meta",
 						name: "apple-mobile-web-app-status-bar-style",
 						content: "#ED8721"
 					},{

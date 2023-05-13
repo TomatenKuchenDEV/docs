@@ -3,6 +3,7 @@
 	"name": "TomatenKuchen Docs - Multipurpose Discord bot",
 	"description": "Documentation of the TomatenKuchen Discord bot",
 	"id": "/?source=pwa",
+	"start_url": "/?source=pwa",
 	"background_color": "#ED8721",
 	"display_override": ["window-control-overlay", "minimal-ui"],
 	"display": "standalone",
@@ -10,6 +11,11 @@
 	"theme_color": "#ED8721",
 	"icons": [
 		{
+			"src": "img/favicon.ico",
+			"type": "image/x-icon",
+			"sizes": "128x128",
+			"purpose": "maskable"
+		},{
 			"src": "img/icon-72x72.png",
 			"sizes": "72x72",
 			"type": "image/png"
