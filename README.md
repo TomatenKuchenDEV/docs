@@ -12,7 +12,3 @@ Deployed using Cloudflare Pages on [docs.tomatenkuchen.eu](https://docs.tomatenk
 - sticky: channel respondtobot embedzeug
 - vorschläge: new approved denied replied - pending kanal - buttons oder reactions - grund preset - grund enforce
 - rollen nicknamen - max rollen im nicknamen - format `[{roles}] {name}` möglich `{roles} {name} {username}` - `role format`
-
-## Rewrite
-- https://instant.page/ http://instantclick.io/
-- kategorien für customcommand docs und manage bot
