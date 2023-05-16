@@ -17,7 +17,7 @@ Select the channel in which members can count.
 The start number, used on first message in a counting channel and after reset. Default 1.
 
 ## Step
-Wie weit Zahlen voneinander entfernt liegen. Default 1.
+The steps/difference between the current and the next number. Default 1.
 
 Example:
 - `1`: 1, 2, 3
@@ -29,7 +29,7 @@ Example:
 If the current run is reset if a user makes a mistake. A mistake is counting two times in a row and counting a wrong number.
 
 ## Reset on message delete
-Stellt ein, ob der aktuelle Stand zurückgesetzt wird, wenn ein Nutzer seine Nachricht löscht. Wenn eine Zahl oder mehreren Zahlen fehlen, kann das andere Nutzer im Kanal verwirren.
+Resets the run if a user deletes their message. Members can get confused if a number is missing.
 
 ## Reset on message edit
 If the current run is reset if a user edits their message *and* changes it's number or add normal text while chatting is disabled.
@@ -46,10 +46,10 @@ Wether the bot should react on correct counting messages. Disabled if "Use webho
 Reacts with "✅" and "☑" on every correct message. Reactions on special numbers, e.g. 42 and 100, can only be disabled by removing the Add Reactions permission from the bot.
 
 ## Role on fail
-Ob und wenn ja, welche Rolle Nutzer erhalten, wenn sie einen Fehler beim Zählen machen. Possible mistakes:
+If and if yes, which role users receive when making a mistake. Possible mistakes:
 - Counting two times in a row
 - Wrong number
 - Chatting while chatting is disabled
 
 ## Remove fail role after
-Nach welcher Zeit die Fehlerrolle wieder entfernt wird. Standardmäßig gar nicht.
+After which time the fail role is removed. By default, it's permanent.

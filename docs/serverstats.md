@@ -3,7 +3,9 @@ title: Server statistics
 description: Explains on how to set up server statistics
 ---
 
-![](https://tomatenkuchen.eu/assets/images/stats_dark.png)
+# Stats in channel names
+
+![](https://tomatenkuchen.eu/assets/images/stats.webp)
 
 You can set the channels in which and how the statistics are displayed in the [settings](https://tomatenkuchen.eu/dashboard/settings/).
 Possible variables:
@@ -21,3 +23,26 @@ Possible variables:
 * {usersWithRole:&lt;id&gt;} Amount of members with a specific role. Replace `<id>` with a role ID.
 
 The stats are automatically updated every **10 minutes**.
+
+# Stats on the bot website and `stats`
+
+Example: [Vanilla Minigames statistics](https://tomatenkuchen.eu/stats/?guild=608640398595719170)
+
+TomatenKuchen collects daily statistics of your server. These include:
+- Member count
+- Messages per day
+- Boost count
+- Active chatter amount (how many unique users sent a message on your server that day)
+
+## Possible filters
+Filter werden als Query-Parameter an die URL angehängt: `https://tomatenkuchen.eu/stats/?guild=608640398595719170?type=messages&time=2w`. Die Verwendung der `?` und `&` in dieser Form ist wichtig.
+
+- `type`: Only shows the specified stat type.
+	- `?type=members`: Mitgliederzahl
+	- `?type=messages`: Nachrichten pro Tag
+	- `?type=boosts`: Boostanzahl
+	- `?type=chatters`: Anzahl aktiver Chatter
+- `time`: Zeigt nur Statistiken innerhalb des angegebenen Zeitraums an:
+	- `?time=1mo`: Zeigt nur Statistiken innerhalb des letzten Monats an.
+
+Diese Optionen können auch beim `stats`-Befehl verwendet werden. Dieser generiert auch eine entsprechende URL, welche geteilt werden kann.

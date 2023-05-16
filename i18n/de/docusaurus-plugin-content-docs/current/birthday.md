@@ -15,7 +15,7 @@ Das Jahr ist optional, wenn angegeben ist bei Geburtstagsnachrichten und [automa
 Mit der Option `public` wird festgelegt, ob der Geburtstag beim `user`-Befehl und beim `{birthday}`-Argument von Autoupdate-Nachrichten angezeigt wird. Geburtstagsankündigungen sind hiervon nicht betroffen.
 
 - `birthday set 29 2 2000 public`
-  - Legt einen öffentlichen Geburtstag fest, der jedes Jahr 29.02. angekündigt wird. Wenn das Jahr kein Schaltjahr ist, so erscheint die Nachricht am 01.03.
+	- Legt einen öffentlichen Geburtstag fest, der jedes Jahr am 29.02. angekündigt wird. Wenn das Jahr kein Schaltjahr ist, so erscheint die Nachricht am 01.03.
 - `birthday set 1 4`
 
 ## Geburtstag löschen
