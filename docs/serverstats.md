@@ -38,11 +38,11 @@ TomatenKuchen collects daily statistics of your server. These include:
 Filter werden als Query-Parameter an die URL angehängt: `https://tomatenkuchen.eu/stats/?guild=608640398595719170?type=messages&time=2w`. Die Verwendung der `?` und `&` in dieser Form ist wichtig.
 
 - `type`: Only shows the specified stat type.
-	- `?type=members`: Mitgliederzahl
-	- `?type=messages`: Nachrichten pro Tag
-	- `?type=boosts`: Boostanzahl
-	- `?type=chatters`: Anzahl aktiver Chatter
-- `time`: Zeigt nur Statistiken innerhalb des angegebenen Zeitraums an:
-	- `?time=1mo`: Zeigt nur Statistiken innerhalb des letzten Monats an.
+	- `?type=members`: Member count
+	- `?type=messages`: Messages per day
+	- `?type=boosts`: Boost count
+	- `?type=chatters`: Active chatter amount
+- `time`: Only shows statistics within the given time span:
+	- `?time=1mo`: Only shows statistics of the last months.
 
-Diese Optionen können auch beim `stats`-Befehl verwendet werden. Dieser generiert auch eine entsprechende URL, welche geteilt werden kann.
+Those options can also be used for the `stats` command. The command also generates an URL for easier sharing.
