@@ -14,14 +14,16 @@ Mit dem Counting-System können Nutzer auf dem Server zählen. Zwar langweilig, 
 Hier kann der Counting-Kanal festgelegt werden.
 
 ## Start
-Hier wird der Startwert festgelegt. Standardmäßig 1.
+Hier wird der Startwert festgelegt, welcher beim ersten Zählen in einem Kanal und bei einem Fehler verwendet wird. Standardmäßig 1.
 
 ## Step
 Wie weit Zahlen voneinander entfernt liegen. Standardmäßig 1.
 
-Bei `1`: 1, 2, 3
-Bei `5` und Startwert `0`: 0, 5, 10
-Bei `0.01`: 1, 1.01, 1.02
+Beispiel:
+- `1`: 1, 2, 3
+- `5` und Startwert `0`: 0, 5, 10
+- `0.01`: 1, 1.01, 1.02
+- `-2`: 1, -1, -3
 
 ## Zurücksetzen bei Fehler
 Ob der aktuelle Stand zurückgesetzt wird, wenn ein Nutzer einen Fehler macht, also zählt, obwohl er nicht dran ist, oder eine falsche Zahl zählt.
@@ -30,7 +32,7 @@ Ob der aktuelle Stand zurückgesetzt wird, wenn ein Nutzer einen Fehler macht, a
 Stellt ein, ob der aktuelle Stand zurückgesetzt wird, wenn ein Nutzer seine Nachricht löscht. Wenn eine Zahl oder mehreren Zahlen fehlen, kann das andere Nutzer im Kanal verwirren.
 
 ## Zurücksetzen bei Nachrichtenbearbeitung
-Ob der aktuelle Stand verloren geht, wenn ein Nutzer seine Nachricht bearbeitet *und* sich die Zahl dabei verändert *oder* die Nachricht normalen Text enthält.
+Ob der aktuelle Stand verloren geht, wenn ein Nutzer seine Nachricht bearbeitet *und* sich die Zahl dabei verändert oder die Nachricht normalen Text enthält.
 
 ## Unterhaltung erlauben
 Ob nach der Zahl noch normaler Text erlaubt ist: "42 Hallo :D"
@@ -45,7 +47,7 @@ Reagiert mit "✅" und "☑" auf jede zugelassene Nachricht. Reaktionen auf beso
 
 ## Rolle bei Fehlern
 Ob und wenn ja, welche Rolle Nutzer erhalten, wenn sie einen Fehler beim Zählen machen. Als Fehler zählt:
-- Zählen, obwohl man  nicht dran ist
+- Zweimal hintereinander zählen
 - Falsche Zahl
 - Unterhaltung, obwohl Unterhaltungen nicht erlaubt sind
 
