@@ -79,8 +79,7 @@ const config = {
 					sidebarPath: require.resolve("./sidebars.js"),
 					routeBasePath: "/",
 					editUrl: "https://github.com/DEVTomatoCake/tk-docs/tree/master",
-					editLocalizedFiles: true,
-					disableVersioning: true
+					editLocalizedFiles: true
 				},
 				blog: false,
 				theme: {
