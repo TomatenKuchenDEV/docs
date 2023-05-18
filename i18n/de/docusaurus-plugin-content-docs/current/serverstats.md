@@ -7,20 +7,20 @@ description: Erklärt die Verwendung von Serverstatistiken
 
 ![](https://tomatenkuchen.eu/assets/images/stats.webp)
 
-Du kannst die Kanäle, in denen Statistiken angezeigt werden, und wie sie angezeigt werden, in den [Einstellungen](https://tomatenkuchen.eu/dashboard/settings) einstellen.
+Du kannst die Kanäle, in denen Statistiken angezeigt werden, und wie sie angezeigt werden, in den [Einstellungen](https://tomatenkuchen.eu/dashboard/settings/) einstellen.
 Mögliche Variablen:
-* {members} Anzahl aller Mitglieder auf dem Server
-* {members.humans} Anzahl der nicht-Bots auf dem Server
-* {members.bots} Anzahl der Bots auf dem Server
-* {emojis} Anzahl der Emojis auf dem Server
-* {stickers} Anzahl der Sticker auf dem Server
-* {roles} Anzahl der Rollen
-* {boosts} Anzahl der Boosts
-* {channels} Anzahl aller Kanäle
-* {voicechannels} Anzahl der Sprachkanäle
-* {textchannels} Anzahl der Textkanäle
-* {categories} Anzahl der Kategorien
-* {usersWithRole:&lt;id&gt;} Anzahl der Mitglieder mit einer bestimmten Rolle. Ersetze `<id>` mit einer Rollen-ID.
+- `{members}`: Anzahl aller Mitglieder auf dem Server
+- `{members.humans}`; Anzahl der nicht-Bots auf dem Server
+- `{members.bots}`; Anzahl der Bots auf dem Server
+- `{emojis}`; Anzahl der Emojis auf dem Server
+- `{stickers}`; Anzahl der Sticker auf dem Server
+- `{roles}`; Anzahl der Rollen
+- `{boosts}`; Anzahl der Boosts
+- `{channels}`; Anzahl aller Kanäle
+- `{voicechannels}`; Anzahl der Sprachkanäle
+- `{textchannels}`; Anzahl der Textkanäle
+- `{categories}`; Anzahl der Kategorien
+- `{usersWithRole:<id>}`; Anzahl der Mitglieder mit einer bestimmten Rolle. Ersetze `<id>` mit einer Rollen-ID.
 
 Die Statistiken werden automatisch alle **10 Minuten** aktualisiert.
 
@@ -46,3 +46,11 @@ Filter werden als Query-Parameter an die URL angehängt: `https://tomatenkuchen.
 	- `?time=1mo`: Zeigt nur Statistiken innerhalb des letzten Monats an.
 
 Diese Optionen können auch beim `stats`-Befehl verwendet werden. Dieser generiert auch eine entsprechende URL, welche geteilt werden kann.
+
+# Einstellungen
+
+## Sichtbarkeit
+Du kannst die Sichtbarkeit der Statistiken ändern. Du kannst zwischen "öffentlich", "Nur für Mitglieder des Servers" und "deaktiviert" wählen.
+
+## Kanäle ausschließen
+Hier können Kanälen ausgewählt werden, in denen keine Nachrichtenstatistiken gesammelt werden, z. B. für Botspam-Kanäle.

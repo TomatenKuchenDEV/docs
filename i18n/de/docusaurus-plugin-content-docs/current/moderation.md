@@ -9,7 +9,9 @@ Wenn die Einstellung "Grund erzwingen" aktiviert ist, ist das Argument `<Grund>`
 
 ## Nutzer bannen
 
-`ban <Nutzer> [<Grund>]`
+`ban <Nutzer> [<Grund>] [forceban]`
+
+Wenn `forceban` verwendet wird überprüft der Bot nicht, ob der Nutzer bereits gebannt ist.
 
 ## Nutzer entbannen
 

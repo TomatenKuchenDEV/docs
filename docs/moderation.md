@@ -9,7 +9,9 @@ If the setting "Force reason" is enabled, the argument `<Reason>` is not optiona
 
 ## Ban user
 
-`ban <User> [<Reason>]`
+`ban <User> [<Reason>] [forceban]`
+
+If `forceban` is used, the bot won't check if the user is already banned.
 
 ## Unban user
 

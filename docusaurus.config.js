@@ -80,7 +80,7 @@ const config = {
 					routeBasePath: "/",
 					editUrl: "https://github.com/DEVTomatoCake/tk-docs/tree/master",
 					editLocalizedFiles: true,
-					showLastUpdateTime: true
+					disableVersioning: true
 				},
 				blog: false,
 				theme: {
