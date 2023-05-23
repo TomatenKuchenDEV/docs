@@ -1,6 +1,6 @@
 ---
 title: Reaction, button and select roles
-description: Explains how to use reaction, button and select roles
+description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains how to use reaction, button and select roles
 ---
 
 ![](/img/de_add_reactionrole.png)

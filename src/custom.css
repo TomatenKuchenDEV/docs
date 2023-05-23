@@ -10,6 +10,8 @@
 	--ifm-h1-font-size: 2.4rem;
 	--ifm-h2-font-size: 1.8rem;
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+	--aa-primary-color-rgb: 100,49,255;
+	--aa-muted-color-alpha: 0.8;
 }
 
 [data-theme='dark'] {

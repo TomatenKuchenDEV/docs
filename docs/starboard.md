@@ -1,6 +1,6 @@
 ---
 title: Starboard
-description: Explains the starboard feature and it's settings
+description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains the starboard feature and it's settings
 ---
 
 Using the starboard members can save funny or otherwise interesting messages forever: Every user on the server can react with the set emoji onto a message, and if the set star amount is reached the message is sent to the starboard channel.

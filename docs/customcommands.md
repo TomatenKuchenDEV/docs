@@ -1,6 +1,6 @@
 ---
 title: Customcommands
-description: Explains custom commands and their variables
+description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains custom commands and their variables
 ---
 
 In order to manage customcommands you need the permission "Manage Server".

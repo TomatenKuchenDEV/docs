@@ -1,6 +1,6 @@
 ---
 title: About the bot
-description: Tells you about the bot
+description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Tells you about the bot
 slug: /
 ---
 

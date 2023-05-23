@@ -83,7 +83,7 @@ const config = {
 				},
 				blog: false,
 				theme: {
-					customCss: require.resolve("./src/css/custom.css")
+					customCss: require.resolve("./src/custom.css")
 				}
 			})
 		]
@@ -121,24 +121,24 @@ const config = {
 					items: [
 						{
 							label: "Website",
-							href: "https://tomatenkuchen.eu",
+							href: "https://tomatenkuchen.eu"
 						},{
 							label: "Invite",
-							href: "https://tomatenkuchen.eu/invite",
+							href: "https://tomatenkuchen.eu/invite"
 						}
 					]
 				},{
 					title: "Community",
 					items: [
 						{
-							label: "Discord",
-							href: "https://tomatenkuchen.eu/discord",
+							label: "Supportserver",
+							href: "https://tomatenkuchen.eu/discord"
 						},{
-							label: "GitHub",
-							href: "https://github.com/DEVTomatoCake/tk-docs"
-						},{
-							label: "Weblate",
+							label: "Translation",
 							href: "https://translate.tomatenkuchen.eu/engage/tomatenkuchen/"
+						},{
+							label: "Docs GitHub",
+							href: "https://github.com/DEVTomatoCake/tk-docs"
 						}
 					]
 				}

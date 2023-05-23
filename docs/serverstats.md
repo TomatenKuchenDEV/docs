@@ -1,6 +1,6 @@
 ---
 title: Server statistics
-description: Explains on how to set up server statistics
+description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains on how to set up server statistics
 ---
 
 # Stats in channel names

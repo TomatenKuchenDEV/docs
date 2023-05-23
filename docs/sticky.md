@@ -1,6 +1,6 @@
 ---
 title: Sticky
-description: Explains sticky messages and their setup
+description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains sticky messages and their setup
 ---
 
 You can create sticky message which are always at the end of a channel. This feature can be used if the channel topic isn't enough for explaining the channel rules or for another reason a message should always be stickied to the bottom of the channel.

@@ -1,6 +1,6 @@
 ---
 title: Private voicechannels
-description: Explains private channels and their commands
+description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains private channels and their commands
 ---
 
 As soon as a user enters the channel selected in the dashboard, a new private voice channel is created.
