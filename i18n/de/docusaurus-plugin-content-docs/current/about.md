@@ -1,6 +1,6 @@
 ---
 title: Über den Bot
-description: Erzählt etwas über den Bot
+description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Diese Seite erzählt allgemeine Informationen über den Bot.
 slug: /
 ---
 

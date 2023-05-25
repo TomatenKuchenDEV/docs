@@ -1,6 +1,6 @@
 ---
 title: Log- & Bansync
-description: Log- und Bansync-Erklärung
+description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Hilft beim Setup von Log- und Bansync.
 ---
 
 # Logsync

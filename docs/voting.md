@@ -21,7 +21,7 @@ Here you can select a role users will receive after voting. It will be automatic
 - Top.gg: `topgg`
   - Servers & Bots
 - Discordbotlist.com: `dbl`
-  - Servers
+  - Bots
 - Discords.com: `discords`
   - Bots
 

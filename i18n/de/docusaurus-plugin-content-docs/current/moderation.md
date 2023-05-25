@@ -1,6 +1,6 @@
 ---
 title: Moderation
-description: Erklärungen zu den Moderationsbefehlen
+description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärungen zu den Moderationsbefehlen
 ---
 
 # Befehle

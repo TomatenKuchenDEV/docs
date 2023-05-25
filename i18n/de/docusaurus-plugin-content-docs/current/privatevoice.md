@@ -1,6 +1,6 @@
 ---
 title: Private Sprachkanäle
-description: Informationen über die Verwendung und die Befehle privater Sprachkanäle
+description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Informationen über die Verwendung und die Befehle privater Sprachkanäle.
 ---
 
 Sobald ein Nutzer den im Dashboard ausgewählten Kanal betritt, wird ein neuer privater Sprachkanal erstellt.

@@ -1,6 +1,6 @@
 ---
 title: Customcommands
-description: Erklärt Customcommands und listet mögliche Parameter auf
+description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt Customcommands und listet mögliche Parameter auf
 ---
 
 Um Customcommands zu verwalten brauchst du die Berechtigung "Server verwalten".

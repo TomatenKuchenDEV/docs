@@ -1,6 +1,36 @@
 ---
 title: Level & Leaderboard
-description: Erklärt das Levelsystem und Leaderboards von TomatenKuchen
+description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt das Levelsystem und Leaderboards von TomatenKuchen
 ---
 
-- level & leaderboard mit vanity url und leaderboard seite - level excluded roles & kanäle - level nachricht kanal - level rollen stackbar - cooldown - multiplier pro kanal
+- level & leaderboard mit vanity url und leaderboard seite - level nachricht kanal - level rollen stackbar - multiplier pro kanal
+
+# Befehle
+
+## Leaderboard anzeigen
+Mit dem Befehl `leaderboard` kann das Leaderboard des Servers angezeigt werden.
+
+Dieser Befehl verlinkt auch auf die Leaderboard-Website des Servers. Die URL wird automatisch angepasst, wenn der Server eine Vanity-URL für das Leaderboard verwendet.
+
+## Punkte eines Nutzers anzeigen
+Der Befehl `rank` zeigt die aktuellen Punkte und den Level-Fortschritt eines Nutzers an.
+
+Der Bildhintergrund kann mithilfe des Befehls `usersettings` angepasst werden.
+
+# Einstellungen
+
+## Kanäle und Rollen ausschließen
+Es können einzelne oder Gruppierungen von Kanälen bzw. Rollen vom Sammeln von Levelpunkten ausgenommen werden, z. B. für einen `bot-spam`-Kanal.
+
+## Cooldown
+Hier kann der Cooldown festgelegt werden, in dem Nutzer keine Punkte erhalten. Dient dazu, Spam zu verhindern.
+
+Wenn alle Nachrichten der Nutzer gezählt werden sollen, setze diesen Wert auf `0`.
+
+## Vanity-URL
+Hier kann die Vanity-URL für die Leaderboardwebsite angepasst werden.
+Diese gilt für `levels.cf` und `lboard.tk`.
+
+Beispiel:
+- https://levels.cf/tk
+- https://lboard.tk/chaoshosting

@@ -1,6 +1,6 @@
 ---
 title: Starboard
-description: Erklärt die Funktionen und Einstellungen des Starboards
+description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt die Funktionen und Einstellungen des Starboards
 ---
 
 Mit dem Starboard können lustige oder anderweitig interessante Nachrichten für die Ewigkeit gespeichert werden: Jeder Nutzer auf dem Server kann auf eine Nachricht mit dem festgelegten Emoji reagieren und wenn die festgelegte Mindestanzahl überschritten wurde, wird die Nachricht in den Starboard-Kanal gesendet.

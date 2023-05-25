@@ -1,6 +1,6 @@
 ---
 title: Reaction-, Button- und Selectroles
-description: Hilft beim Setup von Reaction-, Button- und Selectroles
+description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Diese Seite hilft beim Setup von Reaction-, Button- und Selectroles.
 ---
 
 ![](/img/de_add_reactionrole.png)

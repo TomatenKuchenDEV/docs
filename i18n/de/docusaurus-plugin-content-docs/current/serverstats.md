@@ -1,6 +1,6 @@
 ---
 title: Serverstatistiken
-description: Erklärt die Verwendung von Serverstatistiken
+description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt die Verwendung von Serverstatistiken
 ---
 
 # Statistiken in Kanalnamen

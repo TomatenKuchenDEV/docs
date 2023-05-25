@@ -1,6 +1,6 @@
 ---
 title: Vote-Announcements
-description: Erklärt die Funktionen der Vote-Announcements
+description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt das Setup der Vote-Announcements.
 ---
 
 Mithilfe der Vote-Announcements kannst du eine Nachricht senden lassen, wenn jemand für deinen Server bzw. Bot voted.
@@ -22,7 +22,7 @@ Nutzer erhalten diese Rolle automatisch beim Voten. Nachdem die festgelegte Zeit
 - Top.gg: `topgg`
   - Server & Bots
 - Discordbotlist.com: `dbl`
-  - Server
+  - Bots
 - Discords.com: `discords`
   - Bots
 

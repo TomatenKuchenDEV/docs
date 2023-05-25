@@ -1,6 +1,6 @@
 ---
 title: Spiele
-description: Listet die Spiele des Bots auf
+description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Listet die Spiele des Bots auf
 ---
 
 ## Schere Stein Papier
