@@ -3,8 +3,6 @@ title: Level & Leaderboard
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt das Levelsystem und Leaderboards von TomatenKuchen
 ---
 
-- level & leaderboard mit vanity url und leaderboard seite - level nachricht kanal - level rollen stackbar - multiplier pro kanal
-
 # Befehle
 
 ## Leaderboard anzeigen
@@ -19,8 +17,22 @@ Der Bildhintergrund kann mithilfe des Befehls `usersettings` angepasst werden.
 
 # Einstellungen
 
+## Levelnachricht und Levelrollen
+Legt eine Levelnachricht und dazugehörige Levelrollen fest.
+
+Es kann für jedes Level eine Nachricht und eine Rolle festgelegt werden. Wenn für ein Level keine Einstellung gefunden wird, wird die nächsttiefere verwendet.
+
+## Levelrollen stackbar
+Stellt ein, ob Nutzer vorherige Levelrollen behalten oder immer nur die höchste erhalten.
+
+## Kanal für Levelnachrichten
+Hier kann der Kanal ausgewählt werden, in dem Level-up-Nachrichten gesendet werden. Es kann entweder ein Kanal oder "Current channel" ausgewählt werden, um die Nachricht in den aktuellen Kanal zu senden.
+
 ## Kanäle und Rollen ausschließen
 Es können einzelne oder Gruppierungen von Kanälen bzw. Rollen vom Sammeln von Levelpunkten ausgenommen werden, z. B. für einen `bot-spam`-Kanal.
+
+## Multiplier pro Kanal
+Legt einen Multiplier pro Kanal fest. Kann verwendet werden, um in Botkanälen weniger Punkte zu verteilen und in VIP-/Booster-/...-Kanälen mehr.
 
 ## Cooldown
 Hier kann der Cooldown festgelegt werden, in dem Nutzer keine Punkte erhalten. Dient dazu, Spam zu verhindern.

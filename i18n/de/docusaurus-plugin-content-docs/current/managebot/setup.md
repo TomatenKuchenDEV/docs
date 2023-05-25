@@ -1,20 +1,20 @@
 ---
 title: Setup
-description: Erklärt, wie man den Manage Bot einrichtet
+description: Der Manage Bot erlaubt die von Pterodactyl-Servern
 ---
 
-With this bot, you can manage your Pterodactyl (https://pterodactyl.io) panel servers from Discord.
+Mit diesem Bot kannst du deine Pterodactyl (https://pterodactyl.io)-Server von Discord aus verwalten.
 
-# Setup:
+# Einrichtung
 
 ![](https://cdn.discordapp.com/attachments/856211013162893352/1103019459305799821/image.png)
 
-`/setup <Panel URL main/server list url> <API Key> [<Alias>] [default]`
+`/setup <Panel-Haupt-URL> <API-Key> [<Alias>] [default]`
 
 An "alias" refers to a single panel. With aliases you can use multiple Pterodactyl panels at the same time.
-If you don't use an alias, the bot will auto generate one for you.
+Wenn kein Alias angegeben wird generiert der Bot automatisch einen.
 
-# How to use (`/manage`):
+# `/manage` verwenden
 
 ![](https://cdn.discordapp.com/attachments/856211013162893352/1026119789900464189/2022-10-02_15_10_48.png)
 
@@ -26,7 +26,7 @@ Der Bot kann auch schnelle Aktionen auf dem Server ausführen:
 ![](https://cdn.discordapp.com/attachments/856211013162893352/1026119790563176488/2022-10-02_15_11_53.png)
 
 
-# Customcommands verwenden (`/ccmc`):
+# Customcommands verwenden (`/ccmc`)
 
 ![](https://cdn.discordapp.com/attachments/856211013162893352/1026124675576766524/2022-10-02_15_28_48.png)
 
