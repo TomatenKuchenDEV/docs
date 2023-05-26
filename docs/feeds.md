@@ -14,11 +14,11 @@ Feeds are checked for new content every 10 minutes, and up to 10 embeds are disp
 ![](/img/rss_feeds_default.png)
 The fields should be set to this for an optimal experience, but you can of course edit or move them to your liking.
 
-* `{author}`: The author of the post, if any
-* `{title}`: The title of the post
-* `{content}`: The main content of the post, usually from the `description` property. HTML tags will be transformed to Discord markdown.
-* `{image}`: The image of the post, if any
-* `{domain}`: The domain of the feed
+- `{author}`: The author of the post, if any
+- `{title}`: The title of the post
+- `{content}`: The main content of the post, usually from the `description` property. HTML tags will be transformed to Discord markdown.
+- `{image}`: The image of the post, if any
+- `{domain}`: The domain of the feed
 
 If the feed contains any more properties, you can use them as well. The bot will automatically replace them with the correct value, e.g. `{link}` if the feed contains `"link": "https://tomatenkuchen.eu/post/42"`.
 

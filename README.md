@@ -8,4 +8,3 @@ Deployed using Cloudflare Pages on [docs.tomatenkuchen.eu](https://docs.tomatenk
 - logs mit kategorien
 - vorschläge: new approved denied replied - pending kanal - buttons oder reactions - grund preset - grund enforce
 - rollen nicknamen - max rollen im nicknamen - format `[{roles}] {name}` möglich `{roles} {name} {username}` - `role format`
-- welcome/leave

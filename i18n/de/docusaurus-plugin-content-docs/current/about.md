@@ -10,6 +10,7 @@ Der Bot wird alleinig von TomatoCake entwickelt - auch, wenn einige Nutzer auf D
 
 [![Übersetzungsstatus](https://translate.tomatenkuchen.eu/widgets/tomatenkuchen/-/287x66-grey.png)](https://translate.tomatenkuchen.eu/engage/tomatenkuchen/)
 
+<!--
 :::note
 
 Some **content** with _Markdown_ `syntax`.
@@ -39,3 +40,4 @@ Some **content** with _Markdown_ `syntax`.
 Some **content** with _Markdown_ `syntax`.
 
 :::
+-->

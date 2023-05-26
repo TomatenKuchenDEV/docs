@@ -32,7 +32,7 @@ Hier kann der Kanal ausgewählt werden, in dem Level-up-Nachrichten gesendet wer
 Es können einzelne oder Gruppierungen von Kanälen bzw. Rollen vom Sammeln von Levelpunkten ausgenommen werden, z. B. für einen `bot-spam`-Kanal.
 
 ## Multiplier pro Kanal
-Legt einen Multiplier pro Kanal fest. Kann verwendet werden, um in Botkanälen weniger Punkte zu verteilen und in VIP-/Booster-/...-Kanälen mehr.
+Legt einen Multiplier pro Kanal fest. Kann z. B. verwendet werden, um in Botkanälen weniger Punkte zu verteilen und in VIP-/Booster-/...-Kanälen mehr.
 
 ## Cooldown
 Hier kann der Cooldown festgelegt werden, in dem Nutzer keine Punkte erhalten. Dient dazu, Spam zu verhindern.

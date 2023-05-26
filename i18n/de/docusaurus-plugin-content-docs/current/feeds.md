@@ -14,11 +14,11 @@ Feeds are checked for new content every 10 minutes, and up to 10 embeds are disp
 ![](/img/rss_feeds_default.png)
 Die Felder sollten für die optimale Erfahrung so ausgefüllt sein. Du kannst sie aber natürlich nach Belieben bearbeiten oder verschieben.
 
-* `{author}`: Der Autor des Posts, wenn vorhanden
-* `{title}`: Der Titel des Posts, wenn vorhanden
-* `{content}`: Der Hauptinhalt des Posts, meist vom `description`-Feld. HTML-Tags werden in Discord-Markdown umgewandelt.
-* `{image}`: Das Bild des Posts, wenn vorhanden
-* `{domain}`: Die Domain des Feeds
+- `{author}`: Der Autor des Posts, wenn vorhanden
+- `{title}`: Der Titel des Posts, wenn vorhanden
+- `{content}`: Der Inhalt/Text des Posts, meist vom `description`-Feld. HTML-Tags werden in Discord-Markdown umgewandelt.
+- `{image}`: Das Bild des Posts, wenn vorhanden
+- `{domain}`: Die Domain des Feeds
 
 Wenn der Feed weitere Werte enthält, kannst du sie ebenfalls nutzen. Der Bot wird sie automatisch mit dem entsprechenden Wert ersetzen, z. B. `{link}` wenn der Feed `"link": "https://tomatenkuchen.eu/post/42"` enthält.
 

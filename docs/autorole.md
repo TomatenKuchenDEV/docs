@@ -1,6 +1,6 @@
 ---
 title: Auto- & Rejoinroles
-description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains auto and rejoin roles
+description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains auto join and rejoin roles.
 ---
 
 # Autoroles
