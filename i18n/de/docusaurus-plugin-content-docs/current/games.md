@@ -37,6 +37,8 @@ Spielt eine Art Among Us gegen andere Spieler.
 
 `game snake`
 
+![](/img/game_snake.png)
+
 ## Uno
 
 Spielt Uno mit anderen Nutzern.

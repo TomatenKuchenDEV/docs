@@ -37,6 +37,8 @@ Play a game similar to Among Us with other users.
 
 `game snake`
 
+![](/img/game_snake.png)
+
 ## Uno
 
 Play Uno with other users.
