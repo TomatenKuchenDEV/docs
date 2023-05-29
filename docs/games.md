@@ -47,7 +47,7 @@ Play Uno with other users.
 
 Specifies a chemistry equation that must be balanced using factors.
 
-`game chemie [leicht|mittel|schwer]`
+`game chemie [easy|normal|hard]`
 
 ## Wordsearch
 
