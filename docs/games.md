@@ -51,6 +51,8 @@ Specifies a chemistry equation that must be balanced using factors.
 
 `game chemie [easy|normal|hard]`
 
+![](/img/game_chemie.png)
+
 ## Wordsearch
 
 Displays a grid of letters in which words are hidden. The words can be distributed vertically, horizontally and diagonally in all directions.

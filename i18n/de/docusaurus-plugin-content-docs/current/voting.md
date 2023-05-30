@@ -5,6 +5,8 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 
 Mithilfe der Vote-Announcements kannst du eine Nachricht senden lassen, wenn jemand für deinen Server bzw. Bot voted.
 
+![Vote-Announcements](/img/voteannouncements.png)
+
 # Einstellungen
 
 ## Kanal

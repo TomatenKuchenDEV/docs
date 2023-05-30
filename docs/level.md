@@ -10,6 +10,8 @@ The command `leaderboard` shows the leaderboard of the server.
 
 This command also links to the leaderboard website of the server. The URL automatically changes if the server has a vanity URL set.
 
+![Leaderboard command](/img/leaderboard.png)
+
 ## Displays points of a user
 The command `rank` shows the current points and the level progress of a user.
 

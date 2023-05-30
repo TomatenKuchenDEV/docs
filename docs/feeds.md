@@ -5,6 +5,8 @@ description: TomatenKuchen is a multipurpose Discord bot with many common and in
 
 This page will help you to setup RSS and other feeds using the Discord bot.
 
+![Discord status feed](/img/feed_example.png)
+
 # RSS/Atom feeds
 The bot supports all types of RSS and atom feeds. You can add a new feed by creating the "Add" button in the dashboard and filling in the feed url.
 The bot will then automatically post new entries to the channel you selected.

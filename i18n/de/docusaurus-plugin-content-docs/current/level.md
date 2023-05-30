@@ -10,6 +10,8 @@ Mit dem Befehl `leaderboard` kann das Leaderboard des Servers angezeigt werden.
 
 Dieser Befehl verlinkt auch auf die Leaderboard-Website des Servers. Die URL wird automatisch angepasst, wenn der Server eine Vanity-URL für das Leaderboard verwendet.
 
+![Leaderboard-Befehl](/img/leaderboard.png)
+
 ## Punkte eines Nutzers anzeigen
 Der Befehl `rank` zeigt die aktuellen Punkte und den Level-Fortschritt eines Nutzers an.
 

@@ -51,6 +51,8 @@ Gibt eine Chemiegleichung an, die mithilfe von Faktoren ausgeglichen werden muss
 
 `game chemie [leicht|mittel|schwer]`
 
+![](/img/game_chemie.png)
+
 ## Wordsearch
 
 Zeigt ein Raster an Buchstaben an, in dem Wörter versteckt sind. Die Wörter können senkrecht, waagerecht und diagonal in allen Richtungen verteilt sein.

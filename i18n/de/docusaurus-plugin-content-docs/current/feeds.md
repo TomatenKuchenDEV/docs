@@ -5,6 +5,8 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 
 Diese Seite wird dir beim Einrichten von Feeds mit dem Bot helfen.
 
+![Feed vom Discord-Status](/img/feed_example.png)
+
 # RSS-/Atom-Feeds
 Der Bot unterstützt alle Arten von RSS- und Atom-Feeds. Du kannst einen Feed erstellen, indem du den "Add"-Button im Dashboard nutzt und die Feed-URL einfügst.
 Der Bot wird dann automatisch neue Feedinhalte in den festgelegten Kanal senden.

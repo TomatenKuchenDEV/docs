@@ -8,6 +8,8 @@ Mit dem Counting-System können Nutzer auf dem Server zählen. Zwar langweilig, 
 # Befehle
 `countingleaderboard` zeigt das Counting-Leaderboard des Servers an. Es zeigt an, wie viele Zahlen ein Nutzer insgesamt und im aktuellen Versuch gezählt hat.
 
+![/countingleaderboard](/img/countingleaderboard.png)
+
 # Einstellungen
 
 ## Kanal
