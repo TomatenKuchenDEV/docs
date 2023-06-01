@@ -6,7 +6,7 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 Du hast einen Fehler entdeckt, z. B. eine "Es ist ein Fehler bei der Ausführung des Befehls `...` aufgetreten"-Nachricht erhalten oder etwas funktioniert nicht wie erwartet?
 Auch Fehler wie "Interaktion fehlgeschlagen" sollten nicht vorkommen - aufgrund der hohen Featureanzahl ist das Testen aller Funktionen leider nicht immer möglich.
 
-Solltest du doch einen Fehler gefunden haben, melde ihn gerne auf dem [Support-Server](https://tomatenkuchen.eu/discord) oder mithilfe des "Feedback"-Buttons von `help` und `bot`.
+Solltest du doch einen Fehler gefunden haben, melde ihn gerne auf dem [Support-Server](https://tomatenkuchen.eu/discord) oder mithilfe des "Feedback"-Buttons von den Befehlen `help` oder `bot`.
 
 # Logs
 

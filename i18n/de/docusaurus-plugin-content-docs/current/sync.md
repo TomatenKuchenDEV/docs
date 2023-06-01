@@ -9,7 +9,7 @@ Mithilfe der Logsync-Funktion des Bots kannst du die Logs eines Servers auf eine
 ## Setup
 `sync logs <Server-ID>`
 
-Die Server-ID bekommst du entweder über den Entwicklermodus von Discord, durch `server` oder aus der Dashboard-URL.
+Die Server-ID bekommst du entweder über den Entwicklermodus von Discord, durch den `server`-Befehl oder aus der Dashboard-URL.
 
 Wenn du den Befehl mit der Server-ID eingegeben hast erhältst du einen Code, den du dann bei `sync verify <Code>` auf dem anderen Server eingeben musst. Ab dann werden die Logs des ersten Servers auf den zweiten gesendet.
 
