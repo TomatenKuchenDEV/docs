@@ -1,6 +1,6 @@
 ---
-title: Fehler aufgetreten?
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt, was bei einem Fehler zu tun ist.
+title: An error occurred?
+description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains what to do on errors.
 ---
 
 Du hast einen Fehler entdeckt, z. B. eine "Es ist ein Fehler bei der Ausführung des Befehls `...` aufgetreten"-Nachricht erhalten oder etwas funktioniert nicht wie erwartet?
@@ -10,7 +10,7 @@ Solltest du doch einen Fehler gefunden haben, melde ihn gerne auf dem [Support-S
 
 # Logs
 
-Viele Systeme, vor allem intervallbasierte (Feeds) und eventbasierte abgesehen von Befehlen (Willkommens-/Leavenachrichten) unterstützen Logs.
+Many systems, especially interval (feeds) and event (welcome/leave messages) based ones, support logs.
 
 Das Logsystem sammelt Fehler und andere wichtige Ereignisse des Servers. Du kannst auf https://tomatenkuchen.eu/dashboard/logs den betreffenden Server auswählen, wenn z. B. keine Willkommensnachricht gesendet wird und du wissen möchtest, warum. Auf der Seite kannst du die Logs durchsuchen und Informationen zu diesen anzeigen lassen.
 
