@@ -17,6 +17,8 @@ The command `rank` shows the current points and the level progress of a user.
 
 The image background can be changed using the command `usersettings`.
 
+![Rank command](/img/rank.png)
+
 # Settings
 
 ## Level message and level roles

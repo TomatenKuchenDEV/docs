@@ -12,6 +12,6 @@ Logs sind in verschiedene Kategorien zusammengefasst. Für jede Kategorie kann e
 - channelThread: Kanal oder Thread erstellt/bearbeitet/gelöscht
 - emojiSticker: Emoji oder Sticker erstellt/bearbeitet/gelöscht
 - guild: Sonstige Serveränderungen, z. B. Name oder Icon
-- member: Sonstige Nutzeränderungen, z. B. Name oder Rollen
+- member: Sonstige Nutzeränderungen, z. B. Name, Avatar oder Rollen
 - ban: Nutzer gekickt, gebannt oder entbannt
 - voice: Aktionen im Sprachkanal

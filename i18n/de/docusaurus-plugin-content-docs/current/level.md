@@ -17,6 +17,8 @@ Der Befehl `rank` zeigt die aktuellen Punkte und den Level-Fortschritt eines Nut
 
 Der Bildhintergrund kann mithilfe des Befehls `usersettings` angepasst werden.
 
+![Rank-Befehl](/img/rank.png)
+
 # Einstellungen
 
 ## Levelnachricht und Levelrollen
