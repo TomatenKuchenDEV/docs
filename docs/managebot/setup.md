@@ -26,7 +26,7 @@ The bot can also run quick actions on the server:
 ![](https://cdn.discordapp.com/attachments/856211013162893352/1026119790563176488/2022-10-02_15_11_53.png)
 
 
-# How to use Customcommands (`/ccmc`):
+# How to use Customcommands (`/customcommand`):
 
 ![](https://cdn.discordapp.com/attachments/856211013162893352/1026124675576766524/2022-10-02_15_28_48.png)
 
