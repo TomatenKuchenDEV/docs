@@ -90,8 +90,9 @@ Du kannst auch Anhänge, z. B. Bilder, verwenden.
 Erzwingt einen Grund bei Moderationsaktionen.
 
 ## Vorlagen für Moderationsgründe
-Es können Vorlagen für Moderationsgründe erstellt werden, um mit einem Shortcut einen längeren Grund verwenden zu können.
+Es können Vorlagen für Moderationsgründe erstellt werden, um mit einem Shortcut einen längeren Grund schnell und einfach verwenden zu können.
 
-- Beispiel:
-	- `name`: "r1"
-	- `value`: "Du hast gegen Regel 1 verstoßen: Werbung ist verboten!"
+### Beispiel
+
+- `name`: "r1"
+- `value`: "Du hast gegen Regel 1 verstoßen: Werbung ist verboten!"

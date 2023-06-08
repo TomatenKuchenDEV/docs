@@ -90,8 +90,9 @@ You can also use attachments, e.g. images.
 Enforces a reason for moderation actions.
 
 ## Presets for moderation reasons
-You can create presets for moderation reasons to allow the use of shortcuts for longer reasons.
+You can create presets for moderation reasons to allow the use of shortcuts fast and easy for longer reasons.
 
-- Example:
-	- `name`: "r1"
-	- `value`: "You violated rule 1: Advertising is forbidden!"
+### Example
+
+- `name`: "r1"
+- `value`: "You violated rule 1: Advertising is forbidden!"

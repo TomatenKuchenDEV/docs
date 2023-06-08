@@ -1,37 +1,43 @@
 ---
 title: Customcommands
-description: Der Manage Bot erlaubt die Kontrolle von Pterodactyl-Servern von Discord aus. Diese Seite erklärt, wie du den Bot einrichten und verwenden kannst.
+description: Der Manage Bot erlaubt die Kontrolle von Pterodactyl-Servern von Discord aus. Diese Seite erklärt die Verwendung von Customcommands zur Serverkontrolle.
 ---
 
-Mit dem Manage Bot kannst du deine Pterodactyl (https://pterodactyl.io)-Server von Discord aus verwalten.
+Der Manage Bot erlaubt die Verwendung von Customcommands zur Verwaltung eines Servers.
 
-# Einrichtung
+# Befehle
 
-![](https://cdn.discordapp.com/attachments/856211013162893352/1103019459305799821/image.png)
+## `/customcommand add <Name> <Panel-Alias> <Server-ID> <Befehl> [<Antwort>]`
 
-`/setup <Panel-Haupt-URL> <API-Key> [<Alias>] [default]`
+Erstellt einen Customcommand auf dem Server, verlinkt mit deinen Panel-Zugangsdaten.
 
-Ein "Alias" steht für ein Pterodactyl-Panel. Mithilfe von Aliasen kannst du mehrere Panel gleichzeitig verwenden.
-Wenn kein Alias angegeben wird generiert der Bot automatisch einen.
+Den Panel-Alias findest du bei `/list`.
+Wenn keine Antwort angegeben wird antwortet der Bot mit "Der Befehl wurde im Panel ... ausgeführt: ..."
 
-# `/manage` verwenden
+## `/customcommand delete <Name>`
 
-![](https://cdn.discordapp.com/attachments/856211013162893352/1026119789900464189/2022-10-02_15_10_48.png)
+Löscht einen Customcommand.
 
-![](https://cdn.discordapp.com/attachments/856211013162893352/1026119790215053433/2022-10-02_15_11_09.png)
+## `/customcommand list`
 
+Listet alle Customcommands des Servers auf.
 
-Der Bot kann auch schnelle Aktionen auf dem Server ausführen:
+# Variablen
 
-![](https://cdn.discordapp.com/attachments/856211013162893352/1026119790563176488/2022-10-02_15_11_53.png)
+- `{args}`: Eine Liste aller Argumente
+- `{1}` `{2}` `{3}`: Die ersten drei Argumente, optional
+- `{!1}` `{!2}` `{!3}`: Die ersten drei Argumente, erzwungen
 
+# Beispiele
 
-# Customcommands verwenden (`/customcommand`)
+## Server starten
 
-![](https://cdn.discordapp.com/attachments/856211013162893352/1026124675576766524/2022-10-02_15_28_48.png)
+- `command`: `start`
+- `response`: `Der Server wird gestartet!`
 
-Eine Liste aller möglichen Variablen findest du bei `/help`.
-Nach der Erstellung können die Befehle als normale Slashcommands verwendet werden.
+Du kannst auch `stop`, `restart` und `kill` verwenden.
 
+## Minecraft Whitelist
 
-Vorschläge und Feedback kann mithilfe von `/suggest` oder auf dem Support-Server gegeben werden.
+- `command`: `whitelist add {!1}`
+- `response`: `Der Spieler **{1}** wurde gewhitelisted!`
