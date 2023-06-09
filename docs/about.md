@@ -6,7 +6,11 @@ slug: /
 
 :::tip German docs
 
-Du verstehst Deutsch? Dann verwende [die deutsche Version dieser Docs](/de).
+Du verstehst Deutsch? Dann verwende [die deutsche Version dieser Docs](https://docs.tomatenkuchen.eu/de).
+
+:::
+
+:::info
 
 You can change the version of the docs anytime using the navbar.
 
