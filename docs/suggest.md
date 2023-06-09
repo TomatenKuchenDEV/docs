@@ -7,13 +7,13 @@ description: TomatenKuchen is a multipurpose Discord bot with many common and in
 
 ## `suggest`
 
-Macht einen neuen Vorschlag. Dasselbe kann durch das Senden einer Nachricht im Vorschlagskanal erzielt werden.
+Makes a new suggestion. The same can be achieved by sending a message in the suggestion channel.
 
-Mit `suggest top` können die Vorschläge mit den meisten Votes angezeigt werden.
+The command `suggest top` lists the most voted suggestions.
 
 ## `approve` and `deny`
 
-Akzeptiert einen Vorschlag bzw. lehnt ihn ab. Entfernt je nach Modus die Reaktionen bzw. die Buttons der Nachricht, d. h. dass die Stimmen nicht mehr verändert werden können.
+Approves or denies a suggestion. Depending on the mode it removes the reactions or buttons of the message, which means that the votes cannot be changed anymore.
 
 ## `reply`
 
@@ -21,7 +21,7 @@ Replies to a suggestion.
 
 ## `editsuggest`
 
-Bearbeitet einen deiner Vorschlag oder, wenn du die Berechtigung "Nachrichten verwalten" hast, auch die Vorschläge anderer Nutzer.
+Edits one of your suggestions or, if you have the permission "Manage messages", also the suggestions of other users.
 
 # Settings
 
@@ -29,7 +29,7 @@ Bearbeitet einen deiner Vorschlag oder, wenn du die Berechtigung "Nachrichten ve
 
 ### `new`
 
-In diesen Kanal werden neue Vorschläge gesendet. In den meisten Fällen reicht diese Einstellung aus.
+In this channel new suggestions will be sent. In most cases using this setting is what you want.
 
 ### `approved` and `denied`
 
@@ -41,22 +41,22 @@ Replied suggestions will be sent to this channel.
 
 :::caution
 
-Nutzer können nicht mehr auf einem Vorschlag abstimmen, wenn dieser Kanal gesetzt ist und dieser mit `reply` beantwortet wird!
+Users cannot vote on a suggestion if this channel is set and the suggestion is replied to using the `reply` command.
 
 :::
 
 ## Pending
 
-Legt einen Kanal fest, in welchem neue Vorschläge gesammelt werden. Alle Nutzer, die Zugriff auf den Kanal haben, können die Vorschläge annehmen oder ablehnen.
+Sets a channel in which new suggestions are collected to be allowed by moderators. All users which have access to the channel can accept or deny them.
 
 ## Buttons or reactions
 
-Du kannst auswählen, ob man mit Buttons oder mit Reaktionen abstimmt. Buttons haben den Vorteil, dass Nutzer nur einmal abstimmen können.
+You can select if users vote using buttons or reactions. Buttons have the advantage that users can vote only once.
 
-## Force reason
+## Enforce reason
 
-Erzwingt einen Grund bei Vorschlagsaktionen, z. B. beim Annehmen oder Ablehnen. Standardmäßig deaktiviert.
+Enforce a reason for suggestion actions, e.g. when approving or denying. Disabled by default.
 
-## Vorlagen für Gründe
+## Reason presets
 
-Wie auch bei [Moderationsgründen](./moderation) kann man Vorlage für Gründe erstellen.
+Like with [moderation reasons](./moderation) you can create preset reasons.
