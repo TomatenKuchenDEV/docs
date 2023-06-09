@@ -5,21 +5,21 @@ description: TomatenKuchen is a multipurpose Discord bot with many common and in
 
 # Commands
 
-## `suggest`
+## `suggest [<Text> <Image>]`
 
 Makes a new suggestion. The same can be achieved by sending a message in the suggestion channel.
 
 The command `suggest top` lists the most voted suggestions.
 
-## `approve` and `deny`
+## `approve <ID> [<Reason>]` and `deny <ID> [<Reason>]`
 
 Approves or denies a suggestion. Depending on the mode it removes the reactions or buttons of the message, which means that the votes cannot be changed anymore.
 
-## `reply`
+## `reply <ID> [<Text>]`
 
 Replies to a suggestion.
 
-## `editsuggest`
+## `editsuggest <ID> [<New text>]`
 
 Edits one of your suggestions or, if you have the permission "Manage messages", also the suggestions of other users.
 
