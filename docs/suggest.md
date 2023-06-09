@@ -1,9 +1,9 @@
 ---
-title: Vorschläge
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Gibt Hinweise zur Verwendung des Vorschlagssystems
+title: Suggestions
+description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Helps with the suggestion system.
 ---
 
-# Befehle
+# Commands
 
 ## `suggest`
 
@@ -11,33 +11,33 @@ Macht einen neuen Vorschlag. Dasselbe kann durch das Senden einer Nachricht im V
 
 Mit `suggest top` können die Vorschläge mit den meisten Votes angezeigt werden.
 
-## `approve` und `deny`
+## `approve` and `deny`
 
 Akzeptiert einen Vorschlag bzw. lehnt ihn ab. Entfernt je nach Modus die Reaktionen bzw. die Buttons der Nachricht, d. h. dass die Stimmen nicht mehr verändert werden können.
 
 ## `reply`
 
-Antwortet auf einen Vorschlag.
+Replies to a suggestion.
 
 ## `editsuggest`
 
 Bearbeitet einen deiner Vorschlag oder, wenn du die Berechtigung "Nachrichten verwalten" hast, auch die Vorschläge anderer Nutzer.
 
-# Einstellungen
+# Settings
 
-## Vorschlägekanäle
+## Suggestion channels
 
 ### `new`
 
 In diesen Kanal werden neue Vorschläge gesendet. In den meisten Fällen reicht diese Einstellung aus.
 
-### `approved` und `denied`
+### `approved` and `denied`
 
-In diesen Kanal werden angenommene und abgelehnte Vorschläge gesendet.
+Approved and denied suggestions will be sent to these channels.
 
 ### `replied`
 
-In diesen Kanal werden beantwortete Vorschläge gesendet.
+Replied suggestions will be sent to this channel.
 
 :::caution
 
@@ -49,11 +49,11 @@ Nutzer können nicht mehr auf einem Vorschlag abstimmen, wenn dieser Kanal geset
 
 Legt einen Kanal fest, in welchem neue Vorschläge gesammelt werden. Alle Nutzer, die Zugriff auf den Kanal haben, können die Vorschläge annehmen oder ablehnen.
 
-## Buttons oder Reaktionen
+## Buttons or reactions
 
 Du kannst auswählen, ob man mit Buttons oder mit Reaktionen abstimmt. Buttons haben den Vorteil, dass Nutzer nur einmal abstimmen können.
 
-## Grund erzwingen
+## Force reason
 
 Erzwingt einen Grund bei Vorschlagsaktionen, z. B. beim Annehmen oder Ablehnen. Standardmäßig deaktiviert.
 
