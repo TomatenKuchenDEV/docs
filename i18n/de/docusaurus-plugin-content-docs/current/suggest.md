@@ -11,15 +11,15 @@ Macht einen neuen Vorschlag. Dasselbe kann durch das Senden einer Nachricht im V
 
 Mit dem Befehl `suggest top` können die Vorschläge mit den meisten Votes angezeigt werden.
 
-## `approve <ID> [<Reason>]` und `deny <ID> [<Reason>]`
+## `approve <ID> [<Grund>]` und `deny <ID> [<Grund>]`
 
 Akzeptiert einen Vorschlag bzw. lehnt ihn ab. Entfernt je nach Modus die Reaktionen bzw. die Buttons der Nachricht, d. h. dass die Stimmen nicht mehr verändert werden können.
 
-## `reply`
+## `reply <ID> [<Text>]`
 
 Antwortet auf einen Vorschlag.
 
-## `editsuggest`
+## `editsuggest <ID> [<Neuer Text>]`
 
 Bearbeitet einen deiner Vorschlag oder, wenn du die Berechtigung "Nachrichten verwalten" hast, auch die Vorschläge anderer Nutzer.
 
