@@ -5,6 +5,8 @@ description: Der Manage Bot erlaubt die Kontrolle von Pterodactyl-Servern von Di
 
 Der Manage Bot erlaubt die Verwendung von Customcommands zur Verwaltung eines Servers.
 
+![Hinweis: Der Befehl wurde inzwischen umbenannt.](https://cdn.discordapp.com/attachments/856211013162893352/1026124675576766524/2022-10-02_15_28_48.png)
+
 # Befehle
 
 ## `/customcommand add <Name> <Panel-Alias> <Server-ID> <Befehl> [<Antwort>]`

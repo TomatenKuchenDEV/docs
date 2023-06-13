@@ -1,6 +1,6 @@
 ---
 title: Setup
-description: Explains how to setup the Manage Bot
+description: The Manage Bot allows you to control Pterodactyl servers using Discord. This page explains on how to setup and use the bot.
 ---
 
 With this bot, you can manage your Pterodactyl (https://pterodactyl.io) panel servers from Discord.
@@ -25,13 +25,6 @@ The bot can also run quick actions on the server:
 
 ![](https://cdn.discordapp.com/attachments/856211013162893352/1026119790563176488/2022-10-02_15_11_53.png)
 
+# `/console` and `/command`
 
-# How to use Customcommands (`/customcommand`):
-
-![](https://cdn.discordapp.com/attachments/856211013162893352/1026124675576766524/2022-10-02_15_28_48.png)
-
-You can see a list of all possible arguments at `/help`.
-After creation, the commands can be used as regular slash commands.
-
-
-Suggestions and feedback can be given using `/suggest` or by joining the support server.
+Those commands can be used to view the server console of a server and running commands on them. Note that a server has to be online to be able to execute commands on it.

@@ -25,13 +25,6 @@ Der Bot kann auch schnelle Aktionen auf dem Server ausführen:
 
 ![](https://cdn.discordapp.com/attachments/856211013162893352/1026119790563176488/2022-10-02_15_11_53.png)
 
+# `/console` und `/command`
 
-# Customcommands verwenden (`/customcommand`)
-
-![](https://cdn.discordapp.com/attachments/856211013162893352/1026124675576766524/2022-10-02_15_28_48.png)
-
-Eine Liste aller möglichen Variablen findest du bei `/help`.
-Nach der Erstellung können die Befehle als normale Slashcommands verwendet werden.
-
-
-Vorschläge und Feedback kann mithilfe von `/suggest` oder auf dem Support-Server gegeben werden.
+Diese Befehle werden verwendet, um die Konsole eines Servers anzuzeigen bzw. Befehle auf diesem auszuführen. Beachte, dass der Server zum Ausführen von Befehlen online sein muss.
