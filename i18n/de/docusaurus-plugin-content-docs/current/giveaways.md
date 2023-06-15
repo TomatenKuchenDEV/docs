@@ -31,11 +31,14 @@ Button unter dem Giveaway
 
 # Einstellungen
 
+## Giveaway-Nachricht
+Hier kann der Text der Giveaway-Nachricht verändert werden, z. B. um eine Giveaway-Rolle zu erwähnen.
+
 ## Rolle zum Erstellen/Verwalten von Giveaways
 Es können Rollen ausgewählt werden, welche Giveaways erstellen, bearbeiten und löschen können.
 
-## Rollen, welche nicht an Giveaways teilnehmen dürfen
-Ausgewählte Rollen können nicht an Giveaways teilnehmen. Diese Einstellung gilt im Gegensatz zur `notroles`-Bedingung für alle Giveaways.
+## Rollen, welche immer an Giveaways teilnehmen dürfen
+Die ausgewählten Rollen können immer an Giveaways teilnehmen, unabhängig davon, welche Bedingungen beim Setup eines Giveaways festgelegt worden sind.
 
 # Bedingungen
 Es können verschiedene Bedingungen für die Teilnahme an Giveaways festgelegt werden.

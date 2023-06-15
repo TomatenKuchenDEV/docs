@@ -1,5 +1,5 @@
 ---
-title: Sticky
+title: Sticky messages
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains sticky messages and their setup
 ---
 

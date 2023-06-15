@@ -8,7 +8,8 @@ Die Rechte für diesen Kanal lassen sich mit dem Befehl `permission` einstellen.
 
 # Einstellungen
 
-
+You can set different voice channels in the dashboard, and select for each of them a category for the channel to be created in.
+The name can be configured too using the user- or nickname, or an incrementing ID.
 
 # Befehle
 

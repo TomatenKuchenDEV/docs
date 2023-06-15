@@ -1,7 +1,20 @@
 ---
 title: Bot setup
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. This doc helps you with the general setup of the bot.
+slug: /
 ---
+
+:::tip German docs
+
+Du verstehst Deutsch? Dann verwende [die deutsche Version dieser Docs](https://docs.tomatenkuchen.eu/de).
+
+:::
+
+:::info
+
+You can change the version of the docs anytime using the navbar.
+
+:::
 
 # [Invite TomatenKuchen](https://tomatenkuchen.eu/invite)
 
