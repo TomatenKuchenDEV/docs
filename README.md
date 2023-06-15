@@ -4,7 +4,6 @@ Deployed using Cloudflare Pages on https://docs.tomatenkuchen.eu.
 
 ## Todo
 - mc feeds paper
-- private voice de übersetzen
 - giveaway einstellungen de übersetzen
 - moderation
 	- header blocken

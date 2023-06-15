@@ -9,7 +9,7 @@ The permissions for this channel can be set with the `permission` command.
 # Settings
 
 You can set different voice channels in the dashboard, and select for each of them a category for the channel to be created in.
-The name can be configured too using the user- or nickname, or an incrementing ID.
+The name can be configured too using the user- or nickname and/or an incrementing ID.
 
 # Commands
 

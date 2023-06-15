@@ -8,14 +8,14 @@ Birthdays are sent daily in the set server timezone at 0 o'clock.
 # Real users
 
 ## Set/edit birthday
-Every user can set their global birthday using `birthday set <Tag> <Month> [<Year>] [public]`.
+Every user can set their global birthday using `birthday set <Day> <Month> [<Year>] [public]`.
 
-Das Jahr ist optional, wenn angegeben ist bei Geburtstagsnachrichten und [automatisch updatenden Nachrichten](./autoupdate) der Parameter `{age}` verfügbar, womit das neue Alter angezeigt werden kann. Wenn das Jahr nicht angegeben wird ist der Alters-Parameter leer.
+The year is optional, if used the birthday messages and [auto updating messages](./autoupdate) can use the variable `{age}`, which displays the new age. If the age is not set, the age variable is left empty.
 
 Using the `public` option you can toggle whether the birthday is shown on the `user` command and the `{birthday}` argument for autoupdating messages. Birthday announcements aren't affected by that.
 
 - `birthday set 29 2 2000 public`
-	- Sets a publich birthday which is announced every year on 02/29. If the year is not a leap year, the message will appear on 03/01.
+	- Sets a public birthday which is announced every year on 02/29. If the year is not a leap year, the message will appear on 03/01.
 - `birthday set 1 4`
 
 ## Delete birthday
