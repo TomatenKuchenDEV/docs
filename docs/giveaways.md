@@ -35,11 +35,14 @@ Button under the giveaway
 
 # Settings
 
+## Giveaway message
+Change the text of the giveaway message. Can be used for e.g. pinging a giveaway role.
+
 ## Role for creating/managing giveaways
 Users with this role can create, edit and delete giveaways.
 
-## Roles which can't join giveaways
-Users with this role cannot participate in giveaways. This setting applies, unlike the `notroles` requirement, to all giveaways.
+## Roles which always can participate
+Users with this role can always participate in giveaways, ignoring any requirements that have been set when creating the giveaway.
 
 # Requirements
 You can add different requirements for participating in a giveaway.

@@ -15,3 +15,7 @@ Logs are grouped into different categories. For each category you can select a c
 - member: Other user changes, e.g. name, avatar	or roles
 - ban: User kicked, banned or unbanned
 - voice: Actions in voice channels
+
+## Channels from which logs are ignored
+
+You can select channels here of which logs won't be shown.

@@ -42,3 +42,11 @@ Feed url: `https://{instance}/users/{user}.atom`
 
 ### Reddit
 Feed url: `https://www.reddit.com/r/{subreddit}/new/.rss`
+
+# Minecraft versions
+
+You create feeds to announce new Minecraft snapshots, pre-releases, release candicates and full releases. You can select a channel for each type.
+
+The message is usually shown within a minute of publication which means it's much faster than Minecraft blog posts or changelogs on Discord.
+
+You can also let the bot send a message once the first paper build for a new full release is published.
