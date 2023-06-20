@@ -11,7 +11,7 @@ Der Manage Bot kann mithilfe der Statusupdate-Funktion den Status, die Konfigura
 
 2. Nachricht bearbeiten
 
-	Mit den Buttons kannst du die Nachricht so anpassen wie du willst. Genauere Informationen zur Verwendung der Variablen folgt noch, aber zusätzlich zu den Variablen der TomatenKuchen-Actions existiert `{node;<ID>[;<Wert>]}`, um einen bestimmten Wert einer Node anzuzeigen, und `{nodeconfig;<ID>[;<Wert>]}`, um Informationen über die Konfiguration einer Node anzuzeigen. Ebenfalls ist `{nextUpdate}` verfügbar, um den Zeitraum bis zur nächsten Aktualisierung der Nachricht anzugeben.
+	Mit den Buttons kannst du die Nachricht so anpassen wie du willst. Genauere Informationen zur Verwendung der Variablen folgen noch, aber zusätzlich zu den Variablen der TomatenKuchen-Actions existiert `{node;<ID>[;<Wert>]}`, um einen bestimmten Wert einer Node anzuzeigen, und `{nodeconfig;<ID>[;<Wert>]}`, um Informationen über die Konfiguration einer Node anzuzeigen. Ebenfalls ist `{nextUpdate}` verfügbar, um den Zeitraum bis zur nächsten Aktualisierung der Nachricht anzugeben.
 
 3. Nachricht senden
 4. Fertig!
@@ -20,4 +20,4 @@ Stelle sicher, dass der Bot alle benötigten Berechtigungen in dem Kanal und im 
 
 Einige Informationen zu TomatenKuchen-Actions:
 - Groß- und Kleinschreibung wird bei Namen von Actions nicht beachtet
-- Am wichtigsten dürfte die Funktion `{formatBytes;<Bytes>[;<Anzahl Nachkommastellen>]}` und die mathematischen Funktionen für Mal- und Geteiltrechnung `{*}` `{/}` sein
+- Am wichtigsten dürfte die Funktion `{formatBytes;<Bytes>[;<Nachkommastellen, Standard 2>]}` und die mathematischen Funktionen für Mal- und Geteiltrechnung `{*}` `{/}` sein
