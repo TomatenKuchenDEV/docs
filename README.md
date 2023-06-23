@@ -13,7 +13,3 @@ Deployed using Cloudflare Pages on https://docs.tomatenkuchen.eu.
 - botsetup prefix + msg cmd delete + timezone https://en.wikipedia.org/wiki/List_of_tz_database_time_zones https://xske.github.io/tz/
 - autopublish & nitroverify auf misc settings?
 - boost msgs: {usermention} {username} {displayname} {boosts} {level}
-- tickets aufteilen in befehle und sonstiges
-	- erstellt msg: {usermention} {username} {displayname} {id} {servername} {servericon} {supporterroles} {managerroles}
-	- ticketkategorien: {username} {usermention} {displayname} {id} {servername} {servericon}
-	- ticket inactive rmd: {username} {usermention} {useravatar} {allmention} {id} {servername} {servericon} {timestamp}

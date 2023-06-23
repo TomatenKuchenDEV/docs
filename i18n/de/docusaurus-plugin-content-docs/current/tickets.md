@@ -1,49 +1,7 @@
 ---
 title: Ticketbefehle
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt das Ticketsystem und die Befehle davon.
+description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt die Funktionen und Einstellungen des Ticketsystems.
 ---
-
-# Befehle
-
-## Ticket erstellen
-
-`ticket [<Grund>]`
-
-## Nutzer oder Rolle zum aktuellen Ticket hinzufügen
-
-`add <Nutzer>`
-
-## Nutzer oder Rolle vom aktuellen Ticket entfernen
-
-`remove <Nutzer>`
-
-## Ticket schließen
-
-`close [<Grund>]`
-
-## Ticket löschen
-
-`delete`
-
-Um Tickets zu löschen braucht man eine der Ticket-Manager-Rollen oder die Berechtigung "Server verwalten".
-
-## Geschlossenes Ticket wieder öffnen
-
-`reopen`
-
-## Transcript speichern
-
-`transcript`
-
-## Tickets & Transcripte anzeigen
-
-`tickets [<Nutzer>] [<Filter>]`
-
-## Ticketembed erstellen
-
-Bereitet ein Ticketembed vor. Es können weitere Buttons für verschiedene Ticketkategorien hinzugefügt werden.
-
-`ticketembed [<Titel> <Beschreibung> <Buttontext>]`
 
 # Ticketkategorien erstellen
 
@@ -72,3 +30,23 @@ Jeder, sowohl der zugewiesene Nutzer als auch die Supporterrollen, kann der Tick
 # Automatisches Speichern von Benutzeravataren und Anhängen
 Standardmäßig werden Anhänge in einem anderen Discord-Kanal gespeichert, um diese auch nach dem Löschen eines Tickets im Transcript noch abrufbar zu machen.
 Diese Einstellung kann jeder Nutzer individuell mithilfe von dem Befehl <code>/usersettings</code> ändern.
+
+# Variablen für Ticketnachrichten
+
+## Ticket-erstellt-Nachrichten
+
+- `{usermention}`
+- `{username}`
+- `{displayname}`
+- `{id}`: Die Ticket-ID
+- `{servername}`
+- `{servericon}`
+- `{supporterroles}`
+- `{managerroles}`
+
+## Erinnerung für inaktive tickets
+
+Zusätzlich zu den Variablen oben:
+
+- `{allmention}`: Erwähnt den Ticketersteller und alle Nutzer, die zum Ticket hinzugefügt worden sind
+- `{timestamp}`: Ein Discord-Timestamp der zeigt, wann das Ticket automatisch geschlossen wird.
