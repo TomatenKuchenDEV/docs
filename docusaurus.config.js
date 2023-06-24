@@ -15,6 +15,16 @@ const config = {
 	},
 
 	plugins: [
+		"docusaurus-plugin-pagemove",
+        [
+            "docusaurus-plugin-remote-content",
+            {
+                name: "integration-functions",
+                sourceBaseUrl: "https://api.tomatenkuchen.eu/integration-docs/",
+                outDir: "docs/functions",
+                documents: ["user.md", "guild.md"]
+            }
+        ],
 		[
 		  	require.resolve("@cmfcmf/docusaurus-search-local"),
 			{
