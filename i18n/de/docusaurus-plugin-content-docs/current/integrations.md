@@ -5,7 +5,7 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 
 :::info
 
-Eine Liste aller Funktionen findest du auf der [Funktionen-Seite](./functions/)
+Eine Liste aller Funktionen findest du auf der [Funktionen-Seite](./functions)
 
 :::
 
