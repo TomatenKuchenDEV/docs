@@ -5,7 +5,7 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 
 :::info
 
-Eine Liste aller Funktionen findest du auf der [Funktionen-Seite](./category/action-functions)
+Eine Liste aller Funktionen findest du auf der [Funktionen-Seite](/category/action-functions)
 
 :::
 
@@ -32,3 +32,31 @@ Integrationen können im [Dashboard](https://tomatenkuchen.eu/dashboard/integrat
 - Thread (or post) create/delete
 - Nickname updated
 - Server boost/boostend
+
+# Synchronisations-Modi
+
+Es gibt verschiedene Sync-Modi, die beim Importieren einer Integration auf einen anderen Server ausgewählt werden können:
+
+## Keine Synchronisation
+
+Deaktiviert jegliche Synchronisation und entfernt den Hinweis, von welcher Integration die aktuelle ursprünglich stammt.
+
+## Manuelle Synchronisation
+
+Änderungen können manuell mit einem Button im Dashboard synchronisiert werden. Die Inhalte können normal bearbeitet werden, werden beim Synchronisieren aber überschrieben.
+
+## Automatische Synchronisation
+
+Synchronisiert alle Änderungen am Original automatisch, sobald dieses bearbeitet wird. Wird empfohlen, wenn du dem Besitzer bzw. Server der Integration vertraust. Inhalte können nicht bearbeitet werden.
+
+## Sichere Synchronisation
+
+Eine Mischung zwischen manueller und automatischer Synchronisation. Die Inhalte können nicht bearbeitet werden. Bei einer Änderung muss entweder - wie bei der manuellen Synchronisation - ein Teammitglied der Servers die Änderung annehmen, oder ein TomatenKuchen-Teamler. Durch diese Kombination können Änderungen schneller zugelassen werden.
+
+# Beispiele
+
+Diese Integrationen wurden von unserem Team erstellt oder von diesem verifiziert.
+
+- [FiveM-Server-Info anzeigen](https://tomatenkuchen.eu/dashboard/integrations?info=fivem), zeigt die Verwendung von `{jsonAPI}`
+- [Wetterinfo eines Ortes anzeigen](https://tomatenkuchen.eu/dashboard/integrations?info=weather), zeigt die Verwendung von `{jsonAPI}` und Argumenten
+- [Vote-Reminder für TomatenKuchen](https://tomatenkuchen.eu/dashboard/integrations?info=vote-reminder), zeigt, wie mehrere Befehle in einer Aktion ausgeführt werden können
