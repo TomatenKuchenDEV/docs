@@ -7,8 +7,7 @@ const config = {
 	favicon: "img/favicon.ico",
 	url: "https://docs.tomatenkuchen.eu",
 	baseUrl: "/",
-	onBrokenLinks: "warn",
-	onBrokenMarkdownLinks: "warn",
+	tagline: "TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server.",
 
 	i18n: {
 		defaultLocale: "en",

@@ -5,7 +5,7 @@ description: TomatenKuchen is a multipurpose Discord bot with many common and in
 
 :::info
 
-You can find a list of all functions on the [functions page](./functions)
+You can find a list of all functions on the [functions page](./category/action-functions)
 
 :::
 
