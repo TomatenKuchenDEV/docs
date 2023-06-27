@@ -15,6 +15,15 @@ Hier kann der Kanal festgelegt werden, in den die Votenachricht gesendet wird.
 ## Nachrichten
 Hier kannst du die Server- und Botvotenachricht einstellen.
 
+Folgende Variablen können verwendet werden:
+- `{usermention}`: Erwähnung des Nutzers, welcher gevoted hat
+- `{userid}`: ID des votenden Nutzers
+- `{username}`: Nutzername des votenden Nutzers
+- `{useravatar}`: Avatar-URL des votenden Nutzers
+- `{domain}`: Die Domain, auf der gevoted wurde
+- `{url}`: URL des Bots bzw. Servers
+- `{voteurl}`: URL, auf der Nutzer voten können
+
 ## Voterolle
 Hier kann eine Rolle festgelegt werden und wie lange Nutzer diese behalten.
 Nutzer erhalten diese Rolle automatisch beim Voten. Nachdem die festgelegte Zeit abgelaufen ist, wird sie wieder entfernt.

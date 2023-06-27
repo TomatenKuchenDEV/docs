@@ -6,7 +6,7 @@ description: The Manage Bot allows you to control Pterodactyl servers using Disc
 The Manage Bot can display the status, the configuration or the resource usage of one or multiple servers or nodes using the statusupdate feature.
 
 1. `/statusupdate`
-
+d
 	Zuerst führst du den Statusupdate-Befehl aus. Dabei kannst du optional den Kanal auswählen, standardmäßig wird der aktuelle Kanal verwendet. Du kannst auch den Panelalias eines Panels angeben, bei dem sowohl Client- als auch Application-API-Key angegeben worden sind.
 
 2. Edit message

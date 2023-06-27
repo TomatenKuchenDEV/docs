@@ -16,22 +16,22 @@ Integrationen können im [Dashboard](https://tomatenkuchen.eu/dashboard/integrat
 
 # Mögliche Auslöser
 
-- Message and slash commands
-- Message content contains
-- Message content matches RegEx
-- Button press
-- Select menu select
-- Modal submit
-- Discord AutoMod triggered (z. B. für eigene Bestrafungen, wenn eine bestimmte Regel ausgelöst wird)
-- Slash command uses of another bot (z. B. für /bump-Erinnerungen)
-- Member join/leave
-- Reaction add/remove
-- Role create/delete
-- Channel create/delete
-- Webhook create/delete
-- Thread (or post) create/delete
-- Nickname updated
-- Server boost/boostend
+- Nachrichten- oder Slashcommands
+- Nachrichteninhalt enthält
+- Nachrichteninhalt matcht RegEx
+- Button gedrückt
+- Selectmenü ausgewählt
+- Modal abgesendet
+- Discord-AutoMod ausgelöst (z. B. für eigene Bestrafungen, wenn eine bestimmte Regel ausgelöst wird)
+- Slashcommand eines anderen Bots verwendet (z. B. für /bump-Erinnerungen)
+- Mitglied beigetreten/verlassen
+- Reaktion hinzugefügt/entfernt
+- Rolle erstellt/gelöscht
+- Channel erstellt/gelöscht
+- Webhook erstellt/gelöscht
+- Thread (or post) erstellt/gelöscht
+- Nickname geändert
+- Server geboosted/Boosts entfernt
 
 # Synchronisations-Modi
 
