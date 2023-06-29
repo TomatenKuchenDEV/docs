@@ -5,10 +5,20 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 
 Mithilfe der Voicenotify-Einstellungen kannst du eine Nachricht senden lassen, sobald ein Nutzer einen festgelegten Sprachkanal betritt.
 
-# Einstellungen
+# Notify-Kanäle
 
-## Notify-Kanäle
 Hier kannst du die Sprachkanäle hinzufügen und für jeden eine eigene Nachricht festlegen.
+
+## Nachricht
+
+Mögliche Variablen:
+- `{username}`: Der Name des Nutzers
+- `{usermention}`: Die Erwähnung des Nutzers
+- `{displayname}`: Der Anzeigename des Nutzers
+- `{channel}`: Der Kanalname des Kanals, dem der Nutzer beigetreten ist
+- `{channelmention}`: Die Kanalerwähnung
+- `{servername}`: Der Servername
+- `{servericon}`: Das Servericon
 
 ## Nachrichtenkanal
 In diesen Kanal wird die festgelegte Nachricht gesendet.
