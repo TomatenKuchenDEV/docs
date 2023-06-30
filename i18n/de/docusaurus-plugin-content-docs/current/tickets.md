@@ -41,8 +41,8 @@ Diese Einstellung kann jeder Nutzer individuell mithilfe von dem Befehl <code>/u
 - `{id}`: Die Ticket-ID
 - `{servername}`
 - `{servericon}`
-- `{supporterroles}`
-- `{managerroles}`
+- `{supporterroles}`: Eine Erwähnung alle als Supporter markierten Rollen
+- `{managerroles}`: Eine Erwähnung alle als Moderator markierten Rollen
 
 ## Erinnerung für inaktive tickets
 

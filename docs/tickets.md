@@ -30,3 +30,23 @@ The claimer and users from the supporter roles can view and reply to the ticket.
 # Saving of user avatars and attachments in tickets
 By default, attachments are saved in another Discord channel to make them still retrievable after deleting a ticket in the transcript.
 Users can change this setting by using the command <code>/usersettings</code>.
+
+# Variables for ticket messages
+
+## Ticket created messages
+
+- `{usermention}`
+- `{username}`
+- `{displayname}`
+- `{id}`: The ticket ID
+- `{servername}`
+- `{servericon}`
+- `{supporterroles}`: A mention of all as supporter marked roles
+- `{managerroles}`: A mention of all as moderator marked roles
+
+## Reminder for inactive tickets
+
+In addition to the variables above:
+
+- `{allmention}`: Mentions the ticket creator and all to the ticket added users
+- `{timestamp}`: A Discord timestamp which shows when the ticket will be closed automatically
