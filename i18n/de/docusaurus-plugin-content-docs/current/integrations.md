@@ -59,4 +59,6 @@ Diese Integrationen wurden von unserem Team erstellt oder von diesem verifiziert
 
 - [FiveM-Server-Info anzeigen](https://tomatenkuchen.eu/dashboard/integrations?info=fivem), zeigt die Verwendung von `{jsonAPI}`
 - [Wetterinfo eines Ortes anzeigen](https://tomatenkuchen.eu/dashboard/integrations?info=weather), zeigt die Verwendung von `{jsonAPI}` und Argumenten
-- [Vote-Reminder für TomatenKuchen](https://tomatenkuchen.eu/dashboard/integrations?info=vote-reminder), zeigt, wie mehrere Befehle in einer Aktion ausgeführt werden können
+- [Vote-Reminder für TomatenKuchen](https://tomatenkuchen.eu/dashboard/integrations?info=vote-reminder)
+- [Zufälligen Comic von xkcd.com anzeigen](https://tomatenkuchen.eu/dashboard/integrations?info=xkcd)
+- [Automatische Übersetzung von Nachrichten in einem Kanal](https://tomatenkuchen.eu/dashboard/integrations?info=autotranslate), zeigt die Verwendung verschiedener Funktionen zur Aktionseinschränkung

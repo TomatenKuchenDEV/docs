@@ -7,7 +7,7 @@ description: TomatenKuchen is a multipurpose Discord bot with many common and in
 
 ![](https://tomatenkuchen.eu/assets/images/stats.webp)
 
-You can set the channels in which and how the statistics are displayed in the [settings](https://tomatenkuchen.eu/dashboard/settings/).
+You can set the channels in which and how the statistics are displayed in the [settings](https://tomatenkuchen.eu/dashboard/settings).
 Possible variables:
 - `{members}`: Amount of all members on the server
 - `{members.humans}`: Amount of non-bots on the server

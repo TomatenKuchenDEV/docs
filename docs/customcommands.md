@@ -3,8 +3,14 @@ title: Customcommands
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains custom commands and their variables
 ---
 
+:::caution
+
+Customcommands are deprecated and shouldn't be used anyone. They were replaced by [integrations](/integrations) - you can find more information there.
+
+:::
+
 In order to manage customcommands you need the permission "Manage Server".
-We suggest you to use our [Dashboard](https://tomatenkuchen.eu/dashboard/customcommands/) to manage customcommands.
+We suggest you to use our [Dashboard](https://tomatenkuchen.eu/dashboard/customcommands) to manage customcommands.
 
 # Commands
 

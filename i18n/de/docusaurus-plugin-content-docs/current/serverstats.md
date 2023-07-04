@@ -7,7 +7,7 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 
 ![](https://tomatenkuchen.eu/assets/images/stats.webp)
 
-Du kannst die Kanäle, in denen Statistiken angezeigt werden, und wie sie angezeigt werden, in den [Einstellungen](https://tomatenkuchen.eu/dashboard/settings/) einstellen.
+Du kannst die Kanäle, in denen Statistiken angezeigt werden, und wie sie angezeigt werden, in den [Einstellungen](https://tomatenkuchen.eu/dashboard/settings) einstellen.
 Mögliche Variablen:
 - `{members}`: Anzahl aller Mitglieder auf dem Server
 - `{members.humans}`; Anzahl der nicht-Bots auf dem Server
