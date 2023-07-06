@@ -8,6 +8,7 @@ const config = {
 	url: "https://docs.tomatenkuchen.eu",
 	baseUrl: "/",
 	tagline: "TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server.",
+	onBrokenLinks: "warn",
 
 	i18n: {
 		defaultLocale: "en",
