@@ -6,7 +6,7 @@ slug: /
 
 :::tip German docs
 
-Du verstehst Deutsch? Dann verwende [die deutsche Version dieser Docs](/de).
+Du verstehst Deutsch? Dann verwende [die deutsche Version dieser Docs](/de/).
 
 :::
 
