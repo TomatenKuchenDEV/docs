@@ -11,6 +11,10 @@ Mit dem Manage Bot kannst du deine Pterodactyl (https://pterodactyl.io)-Server v
 
 `/setup <Panel-Haupt-URL> <API-Key> [<Alias>] [default]`
 
+Die Panel-Haupt-URL ist die URL von der Startseite des Panels, also ohne Parameter wie `server/12345678` am Ende.
+
+Es werden sowohl HTTP- als auch HTTPS-Panel unterstützt - beachte nur, dass die Panel bei HTTPS ein gültiges Zertifikat benötigen. Solltest du dieses nicht haben, nutze HTTP ohne SSL.
+
 Ein "Alias" steht für ein Pterodactyl-Panel. Mithilfe von Aliasen kannst du mehrere Panel gleichzeitig verwenden.
 Wenn kein Alias angegeben wird generiert der Bot automatisch einen.
 

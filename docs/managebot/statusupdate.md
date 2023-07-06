@@ -6,12 +6,12 @@ description: The Manage Bot allows you to control Pterodactyl servers using Disc
 The Manage Bot can display the status, the configuration or the resource usage of one or multiple servers or nodes using the statusupdate feature.
 
 1. `/statusupdate`
-d
+
 	Zuerst führst du den Statusupdate-Befehl aus. Dabei kannst du optional den Kanal auswählen, standardmäßig wird der aktuelle Kanal verwendet. Du kannst auch den Panelalias eines Panels angeben, bei dem sowohl Client- als auch Application-API-Key angegeben worden sind.
 
 2. Edit message
 
-	Using the buttons you can edit the message to look like however you want. Genauere Informationen zur Verwendung der Variablen folgt noch, aber zusätzlich zu den Variablen der TomatenKuchen-Actions existiert `{node;<ID>[;<Wert>]}`, um einen bestimmten Wert einer Node anzuzeigen, und `{nodeconfig;<ID>[;<Wert>]}`, um Informationen über die Konfiguration einer Node anzuzeigen. Ebenfalls ist `{nextUpdate}` verfügbar, um den Zeitraum bis zur nächsten Aktualisierung der Nachricht anzugeben.
+	Using the buttons you can edit the message to look like however you want. There will be more information in the future, but in addition to the functions of the [TomatenKuchen actions](/functions) there are `{node;<ID>[;<Value>]}` to display statistics from a node, and `{nodeConfig;<ID>[;<Property>]}` to display configuration information from a node. There's also `{nextUpdate}` available for displaying the next scheduled update of the message. Using `{nodeStatus;<ID>[;<Online>;<Offline>]}` you can display a text depending on if the node is online or offline.
 
 3. Send message
 4. Done!
