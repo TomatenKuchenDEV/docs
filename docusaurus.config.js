@@ -23,7 +23,8 @@ const config = {
                 name: "integration-functions",
                 sourceBaseUrl: "https://api.tomatenkuchen.eu/integration-docs/",
                 outDir: "docs/functions",
-                documents: ["message.md", "user.md", "guild.md", "channel.md", "time.md", "stats.md", "misc.md", "control.md", "mention.md", "vars.md", "string.md", "args.md", "math.md", "embed.md"]
+				// From https://api.tomatenkuchen.eu/integration-docs
+                documents: ["args.md","math.md","mention.md","vars.md","time.md","string.md","misc.md","control.md","user.md","guild.md","stats.md","message.md","embed.md","components.md","managebot.md"]
             }
         ],
 		[
