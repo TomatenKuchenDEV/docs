@@ -7,12 +7,12 @@ By using the vote announcements you can send a custom message once someone votes
 
 ![Vote announcements](/img/voteannouncements.png)
 
-# Settings
+## Settings
 
-## Channel
+### Channel
 Select the channel in which the vote messages will be sent.
 
-## Messages
+### Messages
 You can customize the server and bot vote message here.
 
 You can use the following variables:
@@ -24,10 +24,10 @@ You can use the following variables:
 - `{url}`: URL of the bot or server
 - `{voteurl}`: Vote URL of the bot or server
 
-## Vote role
+### Vote role
 Here you can select a role users will receive after voting. It will be automatically removed after the set time.
 
-# Supported server and bot lists
+## Supported server and bot lists
 
 - Top.gg: `topgg`
   - Servers & Bots

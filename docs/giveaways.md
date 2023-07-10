@@ -5,46 +5,46 @@ description: TomatenKuchen is a multipurpose Discord bot with many common and in
 
 To manage giveaways you need one of the giveaway roles set in the dashboard or the "Manage Guild" permission.
 
-# Commands
+## Commands
 
-## Create
+### Create
 
 Interactive giveaway setup.
 
 `giveaway start`
 
-## Edit
+### Edit
 
 Button under the giveaway
 
-## Reroll winners
+### Reroll winners
 
 `giveaway reroll <message ID>`
 
-## End
+### End
 
 `giveway end <message ID>`
 
-## Delete
+### Delete
 
 `giveway delete <message ID>`
 
-## List giveaways
+### List giveaways
 
 `giveway list`
 
-# Settings
+## Settings
 
-## Giveaway message
+### Giveaway message
 Change the text of the giveaway message. Can be used for e.g. pinging a giveaway role.
 
-## Role for creating/managing giveaways
+### Role for creating/managing giveaways
 Users with this role can create, edit and delete giveaways.
 
-## Roles which always can participate
+### Roles which always can participate
 Users with this role can always participate in giveaways, ignoring any requirements that have been set when creating the giveaway.
 
-# Requirements
+## Requirements
 You can add different requirements for participating in a giveaway.
 
 Possible requirements:

@@ -1,0 +1,129 @@
+---
+title: Liste aller TomatenKuchen-Features
+description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Diese Seite listet alle zum aktuellen Zeitpunkt verfügbaren Features des Bots auf.
+---
+
+Beachte, dass meist täglich Updates durchgeführt werden und deswegen regelmäßig neue Features hinzukommen, die nicht sofort hier erwähnt werden.
+
+:::tip
+
+All diese Funktionen sind kostenlos verfügbar :D
+
+:::
+
+- Custom Bots (custom Branding)
+- [Integrationen](./integrations)
+	- Customcommands? Tags? Langweilig, Integrationen sind besser
+- [Moderation](./moderation)
+	- [Viele Standardmoderationsbefehle, z. B. Lockdown, Slowmode und Dehoist](./modcommands)
+	- Automoderation von Scamlinks und -einladungen
+	- Deaktivieren von Discordeinladungen anderer Server
+	- Deaktivieren von Markdown-Headern
+- [Feeds](./feeds)
+	- RSS/Atom
+	- YouTube
+	- Twitch
+	- neue Minecraft-Vanilla- und Paper-Versionen
+	- Minecraft-Serverstatus
+- [AFK](./afk)
+	- Liste aller AFK-Nutzer auf dem Server
+	- Liste aller Erwähnungen beim Beenden des AFK-Status
+- [Autorollen für Nutzer und Bots getrennt](./autorole)
+- [Autonickname beim Beitreten](./autorole)
+- [Rejoin-/Persistente Rollen, die man beim erneuten Beitreten zurückerhält](./autorole)
+- [Counting](./counting)
+	- Leaderboard
+- [Geburtstage](./birthday)
+	- auch fiktive Geburtstage unechter Nutzer
+	- Liste aller Geburtstage auf dem Server
+	- Einstellbare Rolle und Nachricht
+- [Level und Leaderboard](./level)
+- [Statistiken in Kanalnamen](./serverstats)
+- [Statistiken auf der Website ohne zeitliches Ablaufdatum](./serverstats)
+- [Tickets](./tickets)
+	- [Claiming](./ticketcommands)
+	- Supporter- und Moderatorrollen
+	- Vollständig konfigurierbares Ticketembed sowie Ticketstart-Nachricht
+	- Transkripte, die wie auf Discord aussehen
+- [Selbst zuweisbare Rollen/Reactionroles mit:](./reactionroles)
+	- Reaktionen
+	- Buttons
+	- Selectmenüs
+- [Synchronisieren über Server hinweg von:](./sync)
+	- Bans/Unbans
+	- Logs
+- [Votenachrichten für Server und Bots](./voting)
+- [Willkommens- und Leavenachrichten](./welcome-leave)
+- [Starboard](./starboard)
+- [Sticky-Nachrichten](./sticky)
+- [Private Sprachkanäle](./privatevoice)
+- [Giveaways](./giveaways)
+- [Viele verschiedene Spiele](./games)
+- [Automatisches Löschen von Nachrichten in einem Kanal](./autodelete)
+- [Vorschläge](./suggest)
+	- verschiedene Kanäle je nach Status oder alle in einem
+	- Reaktionen oder Buttons
+	- Nachrichten im Vorschlägekanal werden automatisch zu einem Vorschlag
+	- Modus, in dem Vorschläge erst vom Team zugelassen werden müssen
+- Economy
+- Informationen über:
+	- Minecraft:
+		- Spieler
+		- Server
+		- Rezepte
+		- Korrektheit eines oder mehrerer Minecraftbefehle
+	- ein [npm](https://npmjs.com)-Package
+	- ein Element aus dem Periodensystem
+	- einen [GitHub](https://github.com)-Nutzer
+	- die Verspätung der Deutschen Bahn
+	- einen JIRA-Bugreport (z. B. für Minecraft)
+	- eine Discordeinladung
+	- den aktuellen Bot
+	- den aktuellen Server
+	- einen Kanal
+	- einen Emoji
+	- eine Rolle
+	- einen Nutzer oder Bot
+	- ein Wort aus dem Duden
+	- die grammatikalische Korrektheit eines Textes (Duden Mentor)
+	- HTTP-Statuscodes und -Header
+	- Cloudflare-Statuscodes
+	- Discord-Berechtigungen
+	- einen YouTube-Kanal mit Suche
+	- gebannte und gemutete Nutzer
+	- Filme, Serien und Schauspieler
+	- Discord-Snowflakes
+	- DNS einer Domain
+	- Discord-Status
+	- Zeitraum, bis ein bestimmter Tag erreicht ist
+	- Zeitraum, bis das aktuelle Jahr vorbei ist
+	- angepinnte Nachrichten
+	- alle Threads eines Servers
+- Reminder (Erinnerungen) & Timer, auch für mehrere Nutzer
+- [shorter.cf](https://shorter.cf)
+	- Erstellen von Short-URLs
+	- Anzeigen von Statistiken
+- Massenhinzufügen bzw. -entfernen von Rollen mit Filtern
+- ChatGPT-Befehl
+- DALL-E-Befehl
+- Bilderstellung und -veränderung
+- Textübersetzung
+- Rechner (Calculator)
+- Unterschiede zwischen/Vergleich von zwei Texten
+- Backups erstellen und laden, kein Bot hat eine vergleichbare Anzahl an Backupfunktionen
+- Discord-Templates (discord.new) auf vorhandenen Servern laden
+- TODO-Liste
+- Umfragen
+- Alle Nutzer im Sprachkanal muten oder deafen
+- Automatisch updatende Nachrichten für z. B. Serverstatistiken
+- Modals (Forms) erstellen
+- Nutzern mit Nitro eine Rolle zuweisen
+- Umwandlung von Währungen und Maßeinheiten
+- Löschen von Nachrichten mit vielen Filtern
+- Kicken und Bannen von Nutzern mit Filtern
+- Senden von selbst erstellten Embeds und Komponenten, z. B. Buttons
+- Zufallsfunktionen, z. B. Würfel und Auswahl eines bestimmten Elements einer Liste
+- Erstellen und Lesen von QR-Codes
+- Kategorien mit darin enthaltenen Kanälen klonen
+- [Logs von aufgetretenen Fehlern und Dashboard-Änderungen](./error)
+- [Logging von allen möglichen Aktionen auf dem Server](./logs)

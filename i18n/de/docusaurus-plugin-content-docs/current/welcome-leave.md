@@ -3,16 +3,16 @@ title: Willkommens- und Leavenachrichten
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Hilft bei der Einrichtung von Willkommens- und Leavenachrichten.
 ---
 
-# Einstellungen
+## Einstellungen
 
-## Willkommensnachrichtenkanal
+### Willkommensnachrichtenkanal
 Legt den Kanal fest, in dem Willkommensnachrichten gesendet werden.
 Leer lassen, um diese Nachrichten zu deaktivieren.
 
-## Leave/Server-verlassen-Nachrichtenkanal
+### Leave/Server-verlassen-Nachrichtenkanal
 Legt den Kanal fest, in denen eine Nachricht gesendet wird, wenn ein Nutzer den Server verlässt.
 
-## Willkommensnachricht
+### Willkommensnachricht
 Ändert die Nachricht, die angezeigt wird, wenn ein Nutzer den Server betritt.
 
 Folgende Variablen sind verfügbar:
@@ -28,6 +28,6 @@ Folgende Variablen sind verfügbar:
 - `{invitermention}`: Erwähnung des einladenden Nutzers
 - `{inviteravatar}`: Avatar des einladenden Nutzers
 
-## Leavenachricht
+### Leavenachricht
 Ändert die Nachricht, die angezeigt wird, wenn ein Nutzer den Server verlässt.
 Alle Variablen abgesehen von `{inviter...}` sind verfügbar.

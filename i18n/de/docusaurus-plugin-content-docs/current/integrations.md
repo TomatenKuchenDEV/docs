@@ -14,7 +14,7 @@ Außerdem ist es möglich, erstellte Integrationen auf anderen Servern zu verwen
 
 Integrationen können im [Dashboard](https://tomatenkuchen.eu/dashboard/integrations) verwaltet werden.
 
-# Mögliche Auslöser
+## Mögliche Auslöser
 
 - Nachrichten- oder Slashcommands
 - Nachrichteninhalt enthält
@@ -33,27 +33,27 @@ Integrationen können im [Dashboard](https://tomatenkuchen.eu/dashboard/integrat
 - Nickname geändert
 - Server geboosted/Boosts entfernt
 
-# Synchronisations-Modi
+## Synchronisations-Modi
 
 Es gibt verschiedene Sync-Modi, die beim Importieren einer Integration auf einen anderen Server ausgewählt werden können:
 
-## Keine Synchronisation
+### Keine Synchronisation
 
 Deaktiviert jegliche Synchronisation und entfernt den Hinweis, von welcher Integration die aktuelle ursprünglich stammt.
 
-## Manuelle Synchronisation
+### Manuelle Synchronisation
 
 Änderungen können manuell mit einem Button im Dashboard synchronisiert werden. Die Inhalte können normal bearbeitet werden, werden beim Synchronisieren aber überschrieben.
 
-## Automatische Synchronisation
+### Automatische Synchronisation
 
 Synchronisiert alle Änderungen am Original automatisch, sobald dieses bearbeitet wird. Wird empfohlen, wenn du dem Besitzer bzw. Server der Integration vertraust. Inhalte können nicht bearbeitet werden.
 
-## Sichere Synchronisation
+### Sichere Synchronisation
 
 Eine Mischung zwischen manueller und automatischer Synchronisation. Die Inhalte können nicht bearbeitet werden. Bei einer Änderung muss entweder - wie bei der manuellen Synchronisation - ein Teammitglied der Servers die Änderung annehmen, oder ein TomatenKuchen-Teamler. Durch diese Kombination können Änderungen schneller zugelassen werden.
 
-# Beispiele
+## Beispiele
 
 Diese Integrationen wurden von unserem Team erstellt oder von diesem verifiziert.
 

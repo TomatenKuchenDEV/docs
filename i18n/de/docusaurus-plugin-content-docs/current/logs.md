@@ -3,9 +3,9 @@ title: Logs
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Diese Seite erklärt das Logsystem.
 ---
 
-# Einstellungen
+## Einstellungen
 
-## Logkanäle
+### Logkanäle
 
 Logs sind in verschiedene Kategorien zusammengefasst. Für jede Kategorie kann ein Kanal ausgewählt werden, in den die Logs gesendet werden sollen. Die Kategorien sind:
 
@@ -18,6 +18,6 @@ Logs sind in verschiedene Kategorien zusammengefasst. Für jede Kategorie kann e
 - ban: Nutzer gekickt, gebannt oder entbannt
 - voice: Aktionen im Sprachkanal
 
-## Kanäle, von denen keine Logs aufgezeichnet werden
+### Kanäle, von denen keine Logs aufgezeichnet werden
 
 Hier können Kanäle festgelegt werden, von denen keine Logs gesendet werden.

@@ -3,49 +3,49 @@ title: Spiele
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Listet die Spiele des Bots auf
 ---
 
-## Schere Stein Papier
+### Schere Stein Papier
 
 Spielt Schere Stein Papier gegen den Bot oder andere Spieler.
 
 `game ssp [<Nutzer>]`
 
-## TicTacToe
+### TicTacToe
 
 Spiele TicTacToe gegen den angegebenen Nutzer.
 
 `game ttt <Nutzer>`
 
-## Hangman
+### Hangman
 
 Lasse andere Nutzer den angegebenen Text erraten, bevor das Galgenmännchen vollständig ist.
 
 `game hangman <Text>`
 
-## Vier gewinnt
+### Vier gewinnt
 
 Spiele Vier gewinnt gegen einen anderen Spieler.
 
 `game connect4 <Nutzer>`
 
-## Among Us
+### Among Us
 
 Spielt eine Art Among Us gegen andere Spieler.
 
 `game amongus [<Startzeit>]`
 
-## Snake
+### Snake
 
 `game snake`
 
 ![](/img/game_snake.png)
 
-## Uno
+### Uno
 
 Spielt Uno mit anderen Nutzern.
 
 `game uno`
 
-## Chemiegleichungen
+### Chemiegleichungen
 
 Gibt eine Chemiegleichung an, die mithilfe von Faktoren ausgeglichen werden muss.
 
@@ -53,13 +53,13 @@ Gibt eine Chemiegleichung an, die mithilfe von Faktoren ausgeglichen werden muss
 
 ![](/img/game_chemie.png)
 
-## Wordsearch
+### Wordsearch
 
 Zeigt ein Raster an Buchstaben an, in dem Wörter versteckt sind. Die Wörter können senkrecht, waagerecht und diagonal in allen Richtungen verteilt sein.
 
 `game wordsearch`
 
-## Anagram
+### Anagram
 
 Gibt ein langes Wort aus, aus dem kürzere (englische) Wörter gebildet werden müssen.
 

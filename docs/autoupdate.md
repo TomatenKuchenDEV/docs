@@ -7,7 +7,7 @@ Autoupdate ("automatically updating messages") are messages which auto update **
 
 ![Autoupdate example](/img/autoupdate_example.png)
 
-# Possible arguments
+## Possible arguments
 
 - `{members}`: Member count
 - `{members.humans}`: Non bot count

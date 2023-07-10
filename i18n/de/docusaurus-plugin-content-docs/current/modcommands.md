@@ -5,33 +5,33 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 
 Wenn die Einstellung "Grund erzwingen" aktiviert ist, ist das Argument `<Grund>` nicht mehr optional.
 
-# Nutzer bannen
+## Nutzer bannen
 
 `ban <Nutzer> [<Zeit> <Grund>] [forceban]`
 
 Wenn `forceban` verwendet wird überprüft der Bot nicht, ob der Nutzer bereits gebannt ist.
 
-# Nutzer entbannen
+## Nutzer entbannen
 
 `unban <Nutzer> [<Grund>]`
 
-# Gebannte oder gemutete Nutzer anzeigen
+## Gebannte oder gemutete Nutzer anzeigen
 
 `banlist [<Nutzer>]`
 
-# Modlogs eines Benutzers anzeigen
+## Modlogs eines Benutzers anzeigen
 
 `modlogs <Nutzer>`
 
-# Nutzer kicken
+## Nutzer kicken
 
 `kick <Nutzer> [<Grund>]`
 
-# Sperre einen Kanal oder den ganzen Server
+## Sperre einen Kanal oder den ganzen Server
 
 `lock on|off`
 
-# Nachrichten löschen
+## Nachrichten löschen
 
 `purge <Anzahl> [<Filter>] [pinned]`
 
@@ -49,35 +49,35 @@ Wenn `forceban` verwendet wird überprüft der Bot nicht, ob der Nutzer bereits 
 
 Wenn `pinned` angegeben wird werden auch angepinnte Nachrichten gelöscht.
 
-# Text ausgeben
+## Text ausgeben
 
 `say <Nachricht>`
 `embed [<Inhalt> <Kanal>]`
 
 Du kannst auch Anhänge, z. B. Bilder, verwenden.
 
-# Ändere den Slowmode vom aktuellen Kanal
+## Ändere den Slowmode vom aktuellen Kanal
 
 `slowmode <Dauer>`
 
-# Mute einen Nutzer
+## Mute einen Nutzer
 
 `mute <Nutzer> <Zeit> <Grund>`
 
-# Entmute einen Nutzer
+## Entmute einen Nutzer
 
 `unmute <Nutzer> [<Grund>]`
 
-# Verwarne einen Nutzer
+## Verwarne einen Nutzer
 
 `warn <Nutzer> <Grund>`
 
-# Massenaktionen
+## Massenaktionen
 
-## Nutzer bannen
+### Nutzer bannen
 
 `mass ban <Grund> <Liste von Nutzern>`
 
-## Nutzer kicken
+### Nutzer kicken
 
 `mass kick <Grund> <Liste von Nutzern>`

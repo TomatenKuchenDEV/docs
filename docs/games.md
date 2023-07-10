@@ -3,49 +3,49 @@ title: Games
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Lists all games of the bot.
 ---
 
-## Rock paper scissors
+### Rock paper scissors
 
 Play rock paper scissors with a user or the bot.
 
 `game rps [<User>]`
 
-## TicTacToe
+### TicTacToe
 
 Play tic tac toe with another user.
 
 `game ttt <User>`
 
-## Hangman
+### Hangman
 
 Let other members guess your text before the stickman is dead.
 
 `game hangman <Text>`
 
-## Connect Four
+### Connect Four
 
 Play Connect Four against a user.
 
 `game connect4 <User>`
 
-## Among Us
+### Among Us
 
 Play a game similar to Among Us with other users.
 
 `game amongus`
 
-## Snake
+### Snake
 
 `game snake`
 
 ![](/img/game_snake.png)
 
-## Uno
+### Uno
 
 Play Uno with other users.
 
 `game uno`
 
-## Chemical equations
+### Chemical equations
 
 Specifies a chemistry equation that must be balanced using factors.
 
@@ -53,13 +53,13 @@ Specifies a chemistry equation that must be balanced using factors.
 
 ![](/img/game_chemie.png)
 
-## Wordsearch
+### Wordsearch
 
 Displays a grid of letters in which words are hidden. The words can be distributed vertically, horizontally and diagonally in all directions.
 
 `game wordsearch`
 
-## Anagram
+### Anagram
 
 Outputs a long word from which shorter words must be formed.
 

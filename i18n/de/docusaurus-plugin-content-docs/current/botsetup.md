@@ -4,11 +4,11 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 slug: /
 ---
 
-# [TomatenKuchen einladen](https://tomatenkuchen.eu/invite)
+## [TomatenKuchen einladen](https://tomatenkuchen.eu/invite)
 
 Den Bot kannst du mit [diesem Invite-Link](https://tomatenkuchen.eu/invite) einladen. Du wirst dann automatisch im Dashboard angemeldet, wo du allgemeine Servereinstellungen ändern kannst. Dazu gehört z. B. die Sprache und eventuelle Prefixe zusätzlich zu Slashcommands.
 
-# Wichtige Einstellungen ändern
+## Wichtige Einstellungen ändern
 
 Standardmäßig wird die Botsprache auf die Serversprache gesetzt, du kannst sie aber manuell ändern. Es können bis zu zehn Message-Prefixe festgelegt werden, aber auch alle gelöscht, wenn du Message-Befehle deaktivieren willst.
 
@@ -16,6 +16,6 @@ Die Zeitzone stellt ein, wann Geburtstagsnachrichten gesendet werden. Du kannst 
 
 Ebenfalls kannst du einstellen, ob Nachrichtenbefehle gelöscht werden sollen oder nicht.
 
-# Du musst eine "ID" angeben?
+## Du musst eine "ID" angeben?
 
 Um eine ID zu kopieren rechtsklickst du die entsprechende Nachricht, den Nutzer, den Kanal oder den Server. Wenn es keine Option zum Kopieren der ID gibt, stelle sicher, dass du den Entwicklermodus von Discord aktiviert hast. Folge dazu [dem Tutorial von Discord](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-).

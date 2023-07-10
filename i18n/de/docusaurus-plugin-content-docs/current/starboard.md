@@ -7,21 +7,21 @@ Mit dem Starboard können lustige oder anderweitig interessante Nachrichten für
 
 ![Starboard message](/img/starboard.png)
 
-# Einstellungen
+## Einstellungen
 
-## Kanal
+### Kanal
 Legt den Kanal fest, in dem Starboard-Nachrichten gesendet und aktualisiert werden.
 
-## Self-Star
+### Self-Star
 Ob Nutzer mit dem festgelegten Emoji auf ihre eigenen Nachrichten reagieren können.
 
-## Stars
+### Stars
 Wie viele Reaktionen benötigt werden, bis die Nachricht in den Starboard-Kanal gesendet wird.
 
-## Emoji
+### Emoji
 Welches Emoji für das Starboard verwendet wird.
 
-## Ausgeschlossene Kanäle
+### Ausgeschlossene Kanäle
 In welchen Kanälen Nachricht nicht auf das Starboard gesendet werden können. Kann verwendet werden, um Inhalte in Teamkanälen oder Tickets geheim zu halten.
 
 Nachrichten in NSFW-Kanälen werden nur in den Starboard-Kanal gesendet, wenn dieser auch als NSFW markiert ist.

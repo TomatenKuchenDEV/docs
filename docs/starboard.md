@@ -7,21 +7,21 @@ Using the starboard members can save funny or otherwise interesting messages for
 
 ![Starboard message](/img/starboard.png)
 
-# Settings
+## Settings
 
-## Channel
+### Channel
 Sets the channel in which the starboard messages are sent and updated.
 
-## Self star
+### Self star
 If users can react on their own messages.
 
-## Stars
+### Stars
 How many reactions of the set emoji are needed to send the starboard message.
 
-## Emoji
+### Emoji
 Which emoji is used for the starboard.
 
-## Excluded channels
+### Excluded channels
 Which channels are blacklisted from the starboard. Can be used to exclude team channels or tickets.
 
 Messages in nsfw channels are only sent to the starboard channel if the starboard channel is marked as nsfw too.

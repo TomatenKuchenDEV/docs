@@ -3,7 +3,7 @@ title: Serverstatistiken
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt die Verwendung von Serverstatistiken
 ---
 
-# Statistiken in Kanalnamen
+## Statistiken in Kanalnamen
 
 ![](https://tomatenkuchen.eu/assets/images/stats.webp)
 
@@ -24,7 +24,7 @@ Mögliche Variablen:
 
 Die Statistiken werden automatisch alle **10 Minuten** aktualisiert.
 
-# Statistiken auf der Botwebsite und `stats`
+## Statistiken auf der Botwebsite und `stats`
 
 Beispiel: [Vanilla Minigames Statistiken](https://tomatenkuchen.eu/stats/?guild=608640398595719170)
 
@@ -34,7 +34,7 @@ Der Bot sammelt täglich Statistiken über Server. Dazu gehören:
 - Boostanzahl
 - Anzahl aktiver Chatter (wie viele Nutzer an dem Tag eine Nachricht gesendet haben)
 
-## Mögliche Filter
+### Mögliche Filter
 Filter werden als Query-Parameter an die URL angehängt: `https://tomatenkuchen.eu/stats/?guild=608640398595719170?type=messages&time=2w`. Die Verwendung der `?` und `&` in dieser Form ist wichtig.
 
 - `type`: Zeigt nur den angegebenen Typ an:
@@ -47,10 +47,10 @@ Filter werden als Query-Parameter an die URL angehängt: `https://tomatenkuchen.
 
 Diese Optionen können auch beim `stats`-Befehl verwendet werden. Dieser generiert auch eine entsprechende URL, welche geteilt werden kann.
 
-# Einstellungen
+## Einstellungen
 
-## Sichtbarkeit
+### Sichtbarkeit
 Du kannst die Sichtbarkeit der Statistiken ändern. Du kannst zwischen "öffentlich", "Nur für Mitglieder des Servers" und "deaktiviert" wählen.
 
-## Kanäle ausschließen
+### Kanäle ausschließen
 Hier können Kanälen ausgewählt werden, in denen keine Nachrichtenstatistiken gesammelt werden, z. B. für Botspam-Kanäle.

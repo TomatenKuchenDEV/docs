@@ -7,39 +7,39 @@ Der Manage Bot erlaubt die Verwendung von Customcommands zur Verwaltung eines Se
 
 ![Hinweis: Der Befehl wurde inzwischen umbenannt.](https://cdn.discordapp.com/attachments/856211013162893352/1026124675576766524/2022-10-02_15_28_48.png)
 
-# Befehle
+## Befehle
 
-## `/customcommand add <Name> <Panel-Alias> <Server-ID> <Befehl> [<Antwort>]`
+### `/customcommand add <Name> <Panel-Alias> <Server-ID> <Befehl> [<Antwort>]`
 
 Erstellt einen Customcommand auf dem Server, verlinkt mit deinen Panel-Zugangsdaten.
 
 Den Panel-Alias findest du bei `/list`.
 Wenn keine Antwort angegeben wird antwortet der Bot mit "Der Befehl wurde im Panel ... ausgeführt: ..."
 
-## `/customcommand delete <Name>`
+### `/customcommand delete <Name>`
 
 Löscht einen Customcommand.
 
-## `/customcommand list`
+### `/customcommand list`
 
 Listet alle Customcommands des Servers auf.
 
-# Variablen
+## Variablen
 
 - `{args}`: Eine Liste aller Argumente
 - `{1}` `{2}` `{3}`: Die ersten drei Argumente, optional
 - `{!1}` `{!2}` `{!3}`: Die ersten drei Argumente, erzwungen
 
-# Beispiele
+## Beispiele
 
-## Server starten
+### Server starten
 
 - `command`: `start`
 - `response`: `Der Server wird gestartet!`
 
 Du kannst auch `stop`, `restart` und `kill` verwenden.
 
-## Minecraft Whitelist
+### Minecraft Whitelist
 
 - `command`: `whitelist add {!1}`
 - `response`: `Der Spieler **{1}** wurde gewhitelisted!`

@@ -12,30 +12,30 @@ Customcommands sind veraltet und sollten nicht mehr verwendet werden. Sie wurden
 Um Customcommands zu verwalten brauchst du die Berechtigung "Server verwalten".
 Es wird empfohlen, dafür unser [Dashboard](https://tomatenkuchen.eu/dashboard/customcommands) zu nutzen.
 
-# Befehle
+## Befehle
 
-## Erstellen
+### Erstellen
 
 `customcommand <Name> <Inhalt>`
 
 Beispiel:
 `customcommand hi Hey ^^`
 
-## Bearbeiten
+### Bearbeiten
 
 `customcommand <Name> <Neuer Inhalt>`
 
 Beispiel:
 `customcommand hi Hallo!`
 
-## Löschen
+### Löschen
 
 `customcommand <Name> del`
 
 Beispiel:
 `customcommand hi del`
 
-## Raw-Code anzeigen
+### Raw-Code anzeigen
 
 `customcommand <Name> raw`
 
@@ -44,14 +44,14 @@ Beispiel:
 -->
 `Hallo!`
 
-## Testen
+### Testen
 
 `customcommand test <Customcommand-Code>`
 
 Beispiel:
 `customcommand test Hallo **{author.name}**! :D`
 
-# Variablen
+## Variablen
 
 * Erwähnung: `{author}`
 * Nutzer-ID: `{author.id}`

@@ -12,44 +12,44 @@ Customcommands are deprecated and shouldn't be used anyone. They were replaced b
 In order to manage customcommands you need the permission "Manage Server".
 We suggest you to use our [Dashboard](https://tomatenkuchen.eu/dashboard/customcommands) to manage customcommands.
 
-# Commands
+## Commands
 
-## Create
+### Create
 
 `customcommand <Name> <Content>`
 
 Example:
 `customcommand hi Hey ^^`
 
-## Edit
+### Edit
 
 `customcommand <Name> <New content>`
 
 Example:
 `customcommand hi Hello!`
 
-## Delete
+### Delete
 
 `customcommand <Name> del`
 
 Example:
 `customcommand hi del`
 
-## Display raw code
+### Display raw code
 
 `customcommand <Name> raw`
 
 Example:
 `customcommand hi raw`
 
-## Test code
+### Test code
 
 `customcommand test <Customcommand code>`
 
 Example:
 `customcommand test Hello **{author.name}**! :D`
 
-# Variables
+## Variables
 
 * Mention: `{author}`
 * User ID: `{author.id}`

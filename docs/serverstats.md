@@ -3,7 +3,7 @@ title: Server statistics
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains on how to set up server statistics
 ---
 
-# Stats in channel names
+## Stats in channel names
 
 ![](https://tomatenkuchen.eu/assets/images/stats.webp)
 
@@ -24,7 +24,7 @@ Possible variables:
 
 The stats are automatically updated every **10 minutes**.
 
-# Stats on the bot website and `stats`
+## Stats on the bot website and `stats`
 
 Example: [Vanilla Minigames statistics](https://tomatenkuchen.eu/stats/?guild=608640398595719170)
 
@@ -34,7 +34,7 @@ TomatenKuchen collects daily statistics of your server. These include:
 - Boost count
 - Active chatter amount (how many unique users sent a message on your server that day)
 
-## Possible filters
+### Possible filters
 Filter werden als Query-Parameter an die URL angehängt: `https://tomatenkuchen.eu/stats/?guild=608640398595719170?type=messages&time=2w`. Die Verwendung der `?` und `&` in dieser Form ist wichtig.
 
 - `type`: Only shows the specified stat type.
@@ -47,10 +47,10 @@ Filter werden als Query-Parameter an die URL angehängt: `https://tomatenkuchen.
 
 Those options can also be used for the `stats` command. The command also generates an URL for easier sharing.
 
-# Settings
+## Settings
 
-## Visibility
+### Visibility
 You change change the visibility of the statistics. You can choose from `Public`, `Only Members` and `Disabled`.
 
-## Excluded channels
+### Excluded channels
 You can select channels which will be excluded from message statistic tracking, e.g. for bot spam channels.

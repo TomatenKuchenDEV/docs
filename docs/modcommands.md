@@ -5,33 +5,33 @@ description: TomatenKuchen is a multipurpose Discord bot with many common and in
 
 If the setting "Force reason" is enabled, the argument `<Reason>` is not optional anymore.
 
-# Ban user
+## Ban user
 
 `ban <User> [<Reason>] [forceban]`
 
 If `forceban` is used, the bot won't check if the user is already banned.
 
-# Unban user
+## Unban user
 
 `unban <User> [<Reason>]`
 
-# List banned or muted users
+## List banned or muted users
 
 `banlist [<User>]`
 
-# Show modlogs of a user
+## Show modlogs of a user
 
 `modlogs <User>`
 
-# Kick user
+## Kick user
 
 `kick <User> [<Reason>]`
 
-# Lock a channel or the whole server
+## Lock a channel or the whole server
 
 `lock on|off`
 
-# Delete messages
+## Delete messages
 
 `purge <Amount> [<Filter>] [pinned]`
 
@@ -49,35 +49,35 @@ If `forceban` is used, the bot won't check if the user is already banned.
 
 If you include `pinned`, pinned messages will be deleted too.
 
-# Let the bot send a custom message
+## Let the bot send a custom message
 
 `say <Message>`
 `embed [<Content> <Channel>]`
 
 You can also use attachments, e.g. images.
 
-# Change the slowmode of a channel
+## Change the slowmode of a channel
 
 `slowmode <Amount in seconds>`
 
-# Mute a user
+## Mute a user
 
 `mute <User> <Time> <Reason>`
 
-# Unmute a user
+## Unmute a user
 
 `unmute <User> [<Reason>]`
 
-# Warn a user
+## Warn a user
 
 `warn <User> <Reason>`
 
-# Mass actions
+## Mass actions
 
-## Ban users
+### Ban users
 
 `mass ban <Reason> <List of users>`
 
-## Kick users
+### Kick users
 
 `mass kick <Reason> <List of users>`

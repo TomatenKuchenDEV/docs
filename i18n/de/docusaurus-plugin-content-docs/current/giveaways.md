@@ -5,42 +5,42 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 
 Um Giveaways zu verwalten braucht man eine der im Dashhoard festgelegten Giveaway-Rollen oder die Berechtigung "Server verwalten".
 
-# Befehle
+## Befehle
 
-## Erstellen
+### Erstellen
 
 Interaktives Setup eines Giveaways.
 
 `giveaway start`
 
-## Bearbeiten
+### Bearbeiten
 
 Button unter dem Giveaway
 
-## Neue(n) Gewinner aussuchen
+### Neue(n) Gewinner aussuchen
 
 `giveaway reroll <Nachrichten-ID>`
 
-## Beenden
+### Beenden
 
 `giveway end <Nachrichten-ID>`
 
-## Löschen
+### Löschen
 
 `giveway delete <Nachrichten-ID>`
 
-# Einstellungen
+## Einstellungen
 
-## Giveaway-Nachricht
+### Giveaway-Nachricht
 Hier kann der Text der Giveaway-Nachricht verändert werden, z. B. um eine Giveaway-Rolle zu erwähnen.
 
-## Rolle zum Erstellen/Verwalten von Giveaways
+### Rolle zum Erstellen/Verwalten von Giveaways
 Es können Rollen ausgewählt werden, welche Giveaways erstellen, bearbeiten und löschen können.
 
-## Rollen, welche immer an Giveaways teilnehmen dürfen
+### Rollen, welche immer an Giveaways teilnehmen dürfen
 Die ausgewählten Rollen können immer an Giveaways teilnehmen, unabhängig davon, welche Bedingungen beim Setup eines Giveaways festgelegt worden sind.
 
-# Bedingungen
+## Bedingungen
 Es können verschiedene Bedingungen für die Teilnahme an Giveaways festgelegt werden.
 
 Mögliche Bedingungen:

@@ -14,7 +14,7 @@ It is additionally possible to use created integrations on other servers.
 
 Integrations can be managed in the [dashboard](https://tomatenkuchen.eu/dashboard/integrations).
 
-# Possible triggers
+## Possible triggers
 
 - Message and slash commands
 - Message content contains
@@ -33,27 +33,27 @@ Integrations can be managed in the [dashboard](https://tomatenkuchen.eu/dashboar
 - Nickname updated
 - Server boost/boostend
 
-# Synchronisation modes
+## Synchronisation modes
 
 There are different syncing modes that can be selected when importing an integration onto another server:
 
-## No syncing
+### No syncing
 
 Disables synchronisation and removes all mentions of the original source of the current integration.
 
-## Manual syncing
+### Manual syncing
 
 Changes can be synced using a button in the dashboard. Contents can be edited but will be replaced when syncing.
 
-## Automatic syncing
+### Automatic syncing
 
 Syncs all changes on the original automatically when it gets edited. Is suggested to be used when you trust the owner or server of the integration. Contents cannot be edited.
 
-## Safe syncing
+### Safe syncing
 
 A mixture of manual and automatic syncing. Contents cannot be edited. On changes either - like the manual syncing - a teamler of the server has to approve them, or a TomatenKuchen staff member. Using this combination, changes can be approved faster.
 
-# Examples
+## Examples
 
 These integrations were created by our team or are verified by them.
 

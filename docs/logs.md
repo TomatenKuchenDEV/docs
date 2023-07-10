@@ -3,7 +3,7 @@ title: Logging
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. This page explains the logging system.
 ---
 
-# Settings
+## Settings
 
 Logs are grouped into different categories. For each category you can select a channel in which the bot should send the logs to. The categories are:
 
@@ -16,6 +16,6 @@ Logs are grouped into different categories. For each category you can select a c
 - ban: User kicked, banned or unbanned
 - voice: Actions in voice channels
 
-## Channels from which logs are ignored
+### Channels from which logs are ignored
 
 You can select channels here of which logs won't be shown.
