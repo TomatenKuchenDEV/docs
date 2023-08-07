@@ -12,7 +12,7 @@ Eine Liste aller Funktionen findest du auf der [Funktionen-Seite](/category/acti
 Integrationen sind im Prinzip Customcommands 2.0 - du kannst auf Message- und Slashcommands antworten, aber du hast zusätzlich die Möglichkeit, viele weitere Auslöser für Aktionen zu nutzen.
 Außerdem ist es möglich, erstellte Integrationen auf anderen Servern zu verwenden.
 
-Integrationen können im [Dashboard](https://tomatenkuchen.eu/dashboard/integrations) verwaltet werden.
+Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integrations) verwaltet werden.
 
 ## Mögliche Auslöser
 
@@ -57,8 +57,8 @@ Eine Mischung zwischen manueller und automatischer Synchronisation. Die Inhalte 
 
 Diese Integrationen wurden von unserem Team erstellt oder von diesem verifiziert.
 
-- [FiveM-Server-Info anzeigen](https://tomatenkuchen.eu/dashboard/integrations?info=fivem), zeigt die Verwendung von `{jsonAPI}`
-- [Wetterinfo eines Ortes anzeigen](https://tomatenkuchen.eu/dashboard/integrations?info=weather), zeigt die Verwendung von `{jsonAPI}` und Argumenten
-- [Vote-Reminder für TomatenKuchen](https://tomatenkuchen.eu/dashboard/integrations?info=vote-reminder)
-- [Zufälligen Comic von xkcd.com anzeigen](https://tomatenkuchen.eu/dashboard/integrations?info=xkcd)
-- [Automatische Übersetzung von Nachrichten in einem Kanal](https://tomatenkuchen.eu/dashboard/integrations?info=autotranslate), zeigt die Verwendung verschiedener Funktionen zur Aktionseinschränkung
+- [FiveM-Server-Info anzeigen](https://tomatenkuchen.com/dashboard/integrations?info=fivem), zeigt die Verwendung von `{jsonAPI}`
+- [Wetterinfo eines Ortes anzeigen](https://tomatenkuchen.com/dashboard/integrations?info=weather), zeigt die Verwendung von `{jsonAPI}` und Argumenten
+- [Vote-Reminder für TomatenKuchen](https://tomatenkuchen.com/dashboard/integrations?info=vote-reminder)
+- [Zufälligen Comic von xkcd.com anzeigen](https://tomatenkuchen.com/dashboard/integrations?info=xkcd)
+- [Automatische Übersetzung von Nachrichten in einem Kanal](https://tomatenkuchen.com/dashboard/integrations?info=autotranslate), zeigt die Verwendung verschiedener Funktionen zur Aktionseinschränkung

@@ -6,7 +6,7 @@ description: TomatenKuchen is a multipurpose Discord bot with many common and in
 ![](/img/de_add_reactionrole.png)
 
 To manage reactionroles, you need the permission "Manage Guild".
-To create, edit and delete reaction, button and select roles, you can use our [reactionroles dashboard](https://tomatenkuchen.eu/dashboard/reactionroles).
+To create, edit and delete reaction, button and select roles, you can use our [reactionroles dashboard](https://tomatenkuchen.com/dashboard/reactionroles).
 
 ## Create
 

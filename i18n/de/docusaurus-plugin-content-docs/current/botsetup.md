@@ -4,9 +4,9 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 slug: /
 ---
 
-## [TomatenKuchen einladen](https://tomatenkuchen.eu/invite)
+## [TomatenKuchen einladen](https://tomatenkuchen.com/invite)
 
-Den Bot kannst du mit [diesem Invite-Link](https://tomatenkuchen.eu/invite) einladen. Du wirst dann automatisch im Dashboard angemeldet, wo du allgemeine Servereinstellungen ändern kannst. Dazu gehört z. B. die Sprache und eventuelle Prefixe zusätzlich zu Slashcommands.
+Den Bot kannst du mit [diesem Invite-Link](https://tomatenkuchen.com/invite) einladen. Du wirst dann automatisch im Dashboard angemeldet, wo du allgemeine Servereinstellungen ändern kannst. Dazu gehört z. B. die Sprache und eventuelle Prefixe zusätzlich zu Slashcommands.
 
 ## Wichtige Einstellungen ändern
 

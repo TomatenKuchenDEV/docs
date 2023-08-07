@@ -22,7 +22,7 @@ The fields should be set to this for an optimal experience, but you can of cours
 - `{image}`: The image of the post, if any
 - `{domain}`: The domain of the feed
 
-If the feed contains any more properties, you can use them as well. The bot will automatically replace them with the correct value, e.g. `{link}` if the feed contains `"link": "https://tomatenkuchen.eu/post/42"`.
+If the feed contains any more properties, you can use them as well. The bot will automatically replace them with the correct value, e.g. `{link}` if the feed contains `"link": "https://tomatenkuchen.com/post/42"`.
 
 ### Example feeds
 

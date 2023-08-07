@@ -12,7 +12,7 @@ You can find a list of all functions on the [functions page](/category/action-fu
 Integrations are pretty much customcommands 2.0 - you can still reply to message and slash commands, but you can also use many more triggers for actions.
 It is additionally possible to use created integrations on other servers.
 
-Integrations can be managed in the [dashboard](https://tomatenkuchen.eu/dashboard/integrations).
+Integrations can be managed in the [dashboard](https://tomatenkuchen.com/dashboard/integrations).
 
 ## Possible triggers
 
@@ -57,8 +57,8 @@ A mixture of manual and automatic syncing. Contents cannot be edited. On changes
 
 These integrations were created by our team or are verified by them.
 
-- [View FiveM server info](https://tomatenkuchen.eu/dashboard/integrations?info=fivem), shows the usage of `{jsonAPI}`
-- [Display weather info](https://tomatenkuchen.eu/dashboard/integrations?info=weather), shows the usage of `{jsonAPI}` and arguments
-- [Vote reminder for TomatenKuchen](https://tomatenkuchen.eu/dashboard/integrations?info=vote-reminder)
-- [Display a random comic from xkcd.com](https://tomatenkuchen.eu/dashboard/integrations?info=xkcd)
-- [Automatic translation of messages in a channel](https://tomatenkuchen.eu/dashboard/integrations?info=autotranslate), shows the usage of several functions for limiting the action execution
+- [View FiveM server info](https://tomatenkuchen.com/dashboard/integrations?info=fivem), shows the usage of `{jsonAPI}`
+- [Display weather info](https://tomatenkuchen.com/dashboard/integrations?info=weather), shows the usage of `{jsonAPI}` and arguments
+- [Vote reminder for TomatenKuchen](https://tomatenkuchen.com/dashboard/integrations?info=vote-reminder)
+- [Display a random comic from xkcd.com](https://tomatenkuchen.com/dashboard/integrations?info=xkcd)
+- [Automatic translation of messages in a channel](https://tomatenkuchen.com/dashboard/integrations?info=autotranslate), shows the usage of several functions for limiting the action execution

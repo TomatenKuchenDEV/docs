@@ -5,9 +5,9 @@ description: TomatenKuchen is a multipurpose Discord bot with many common and in
 
 ## Stats in channel names
 
-![](https://tomatenkuchen.eu/assets/images/stats.webp)
+![](https://tomatenkuchen.com/assets/images/stats.webp)
 
-You can set the channels in which and how the statistics are displayed in the [settings](https://tomatenkuchen.eu/dashboard/settings).
+You can set the channels in which and how the statistics are displayed in the [settings](https://tomatenkuchen.com/dashboard/settings).
 Possible variables:
 - `{members}`: Amount of all members on the server
 - `{members.humans}`: Amount of non-bots on the server
@@ -26,7 +26,7 @@ The stats are automatically updated every **10 minutes**.
 
 ## Stats on the bot website and `stats`
 
-Example: [Vanilla Minigames statistics](https://tomatenkuchen.eu/stats/?guild=608640398595719170)
+Example: [Vanilla Minigames statistics](https://tomatenkuchen.com/stats?guild=608640398595719170)
 
 TomatenKuchen collects daily statistics of your server. These include:
 - Member count
@@ -35,7 +35,7 @@ TomatenKuchen collects daily statistics of your server. These include:
 - Active chatter amount (how many unique users sent a message on your server that day)
 
 ### Possible filters
-Filter werden als Query-Parameter an die URL angehängt: `https://tomatenkuchen.eu/stats/?guild=608640398595719170?type=messages&time=2w`. Die Verwendung der `?` und `&` in dieser Form ist wichtig.
+Filter werden als Query-Parameter an die URL angehängt: `https://tomatenkuchen.com/stats?guild=608640398595719170?type=messages&time=2w`. Die Verwendung der `?` und `&` in dieser Form ist wichtig.
 
 - `type`: Only shows the specified stat type.
 	- `?type=members`: Member count

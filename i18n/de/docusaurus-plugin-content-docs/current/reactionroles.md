@@ -6,7 +6,7 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 ![](/img/de_add_reactionrole.png)
 
 Um Reactionroles zu verwalten brauchst du die Berechtigung "Server verwalten".
-Zum Erstellen, Bearbeiten und Löschen von Reaction-, Button- und Selectroles kannst du unser [Reactionroles-Dashboard](https://tomatenkuchen.eu/dashboard/reactionroles) verwenden.
+Zum Erstellen, Bearbeiten und Löschen von Reaction-, Button- und Selectroles kannst du unser [Reactionroles-Dashboard](https://tomatenkuchen.com/dashboard/reactionroles) verwenden.
 
 ## Erstellen
 

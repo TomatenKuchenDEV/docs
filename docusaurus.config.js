@@ -5,7 +5,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula")
 const config = {
 	title: "TomatenKuchen Docs",
 	favicon: "img/favicon.ico",
-	url: "https://docs.tomatenkuchen.eu",
+	url: "https://docs.tomatenkuchen.com",
 	baseUrl: "/",
 	trailingSlash: false,
 	tagline: "TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server.",
@@ -115,7 +115,7 @@ const config = {
 			hideOnScroll: true,
 			items: [
 				{
-					href: "https://tomatenkuchen.eu",
+					href: "https://tomatenkuchen.com",
 					"aria-label": "Bot website"
 				},{
 					type: "localeDropdown",
@@ -134,10 +134,10 @@ const config = {
 					items: [
 						{
 							label: "Website",
-							href: "https://tomatenkuchen.eu"
+							href: "https://tomatenkuchen.com"
 						},{
 							label: "Invite",
-							href: "https://tomatenkuchen.eu/invite"
+							href: "https://tomatenkuchen.com/invite"
 						}
 					]
 				},{
@@ -145,7 +145,7 @@ const config = {
 					items: [
 						{
 							label: "Supportserver",
-							href: "https://tomatenkuchen.eu/discord"
+							href: "https://tomatenkuchen.com/discord"
 						},{
 							label: "Translation",
 							href: "https://translate.tomatenkuchen.eu/engage/tomatenkuchen/"

@@ -36,4 +36,4 @@ Here you can select a role users will receive after voting. It will be automatic
 - Discords.com: `discords`
   - Bots
 
-Missing a site? Feel free to suggest it on our [support server](https://tomatenkuchen.eu/discord).
+Missing a site? Feel free to suggest it on our [support server](https://tomatenkuchen.com/discord).

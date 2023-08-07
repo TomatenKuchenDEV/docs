@@ -5,9 +5,9 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 
 ## Statistiken in Kanalnamen
 
-![](https://tomatenkuchen.eu/assets/images/stats.webp)
+![](https://tomatenkuchen.com/assets/images/stats.webp)
 
-Du kannst die Kanäle, in denen Statistiken angezeigt werden, und wie sie angezeigt werden, in den [Einstellungen](https://tomatenkuchen.eu/dashboard/settings) einstellen.
+Du kannst die Kanäle, in denen Statistiken angezeigt werden, und wie sie angezeigt werden, in den [Einstellungen](https://tomatenkuchen.com/dashboard/settings) einstellen.
 Mögliche Variablen:
 - `{members}`: Anzahl aller Mitglieder auf dem Server
 - `{members.humans}`; Anzahl der nicht-Bots auf dem Server
@@ -26,7 +26,7 @@ Die Statistiken werden automatisch alle **10 Minuten** aktualisiert.
 
 ## Statistiken auf der Botwebsite und `stats`
 
-Beispiel: [Vanilla Minigames Statistiken](https://tomatenkuchen.eu/stats/?guild=608640398595719170)
+Beispiel: [Vanilla Minigames Statistiken](https://tomatenkuchen.com/stats?guild=608640398595719170)
 
 Der Bot sammelt täglich Statistiken über Server. Dazu gehören:
 - Mitgliederanzahl
@@ -35,7 +35,7 @@ Der Bot sammelt täglich Statistiken über Server. Dazu gehören:
 - Anzahl aktiver Chatter (wie viele Nutzer an dem Tag eine Nachricht gesendet haben)
 
 ### Mögliche Filter
-Filter werden als Query-Parameter an die URL angehängt: `https://tomatenkuchen.eu/stats/?guild=608640398595719170?type=messages&time=2w`. Die Verwendung der `?` und `&` in dieser Form ist wichtig.
+Filter werden als Query-Parameter an die URL angehängt: `https://tomatenkuchen.com/stats?guild=608640398595719170?type=messages&time=2w`. Die Verwendung der `?` und `&` in dieser Form ist wichtig.
 
 - `type`: Zeigt nur den angegebenen Typ an:
 	- `?type=members`: Mitgliederzahl

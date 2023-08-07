@@ -10,7 +10,7 @@ Customcommands sind veraltet und sollten nicht mehr verwendet werden. Sie wurden
 :::
 
 Um Customcommands zu verwalten brauchst du die Berechtigung "Server verwalten".
-Es wird empfohlen, dafür unser [Dashboard](https://tomatenkuchen.eu/dashboard/customcommands) zu nutzen.
+Es wird empfohlen, dafür unser [Dashboard](https://tomatenkuchen.com/dashboard/customcommands) zu nutzen.
 
 ## Befehle
 

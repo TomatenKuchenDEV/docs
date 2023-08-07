@@ -1,6 +1,6 @@
-# Docusaurus docs for [TomatenKuchen](https://tomatenkuchen.eu) & Manage Bot
+# Docusaurus docs for [TomatenKuchen](https://tomatenkuchen.com) & Manage Bot
 
-Deployed using Cloudflare Pages on https://docs.tomatenkuchen.eu.
+Deployed using Cloudflare Pages on https://docs.tomatenkuchen.com.
 
 # Todo
 

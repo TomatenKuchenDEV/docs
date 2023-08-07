@@ -22,7 +22,7 @@ Die Felder sollten für die optimale Erfahrung so ausgefüllt sein. Du kannst si
 - `{image}`: Das Bild des Posts, wenn vorhanden
 - `{domain}`: Die Domain des Feeds
 
-Wenn der Feed weitere Werte enthält, kannst du sie ebenfalls nutzen. Der Bot wird sie automatisch mit dem entsprechenden Wert ersetzen, z. B. `{link}` wenn der Feed `"link": "https://tomatenkuchen.eu/post/42"` enthält.
+Wenn der Feed weitere Werte enthält, kannst du sie ebenfalls nutzen. Der Bot wird sie automatisch mit dem entsprechenden Wert ersetzen, z. B. `{link}` wenn der Feed `"link": "https://tomatenkuchen.com/post/42"` enthält.
 
 ### Beispielfeeds
 

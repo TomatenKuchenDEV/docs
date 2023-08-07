@@ -10,7 +10,7 @@ Customcommands are deprecated and shouldn't be used anyone. They were replaced b
 :::
 
 In order to manage customcommands you need the permission "Manage Server".
-We suggest you to use our [Dashboard](https://tomatenkuchen.eu/dashboard/customcommands) to manage customcommands.
+We suggest you to use our [Dashboard](https://tomatenkuchen.com/dashboard/customcommands) to manage customcommands.
 
 ## Commands
 
