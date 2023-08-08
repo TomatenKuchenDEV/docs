@@ -22,9 +22,9 @@ const config = {
             "docusaurus-plugin-remote-content",
             {
                 name: "integration-functions",
-                sourceBaseUrl: "https://api.tomatenkuchen.eu/integration-docs/",
+                sourceBaseUrl: "https://api.tomatenkuchen.com/integration-docs/",
                 outDir: "docs/functions",
-				// From https://api.tomatenkuchen.eu/integration-docs
+				// From https://api.tomatenkuchen.com/integration-docs
                 documents: ["args.md","math.md","mention.md","vars.md","time.md","string.md","misc.md","control.md","user.md","guild.md","stats.md","message.md","embed.md","components.md","managebot.md"]
             }
         ],
@@ -148,7 +148,7 @@ const config = {
 							href: "https://tomatenkuchen.com/discord"
 						},{
 							label: "Translation",
-							href: "https://translate.tomatenkuchen.eu/engage/tomatenkuchen/"
+							href: "https://translate.tomatenkuchen.com/engage/tomatenkuchen/"
 						},{
 							label: "Docs GitHub",
 							href: "https://github.com/DEVTomatoCake/tk-docs"

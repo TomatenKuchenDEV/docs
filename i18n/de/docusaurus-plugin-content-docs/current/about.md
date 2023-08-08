@@ -7,7 +7,7 @@ Der Discord-Bot wurde im Jahr 2020 von TomatoCake erstellt und wird seitdem stet
 
 Der Bot wird alleinig von TomatoCake entwickelt - auch, wenn einige Nutzer auf Discord am Dashboard, einzelnen Befehlen und den Übersetzungen mitgeholfen haben, siehe [Credits](https://tomatenkuchen.com/credits)
 
-[![Übersetzungsstatus](https://translate.tomatenkuchen.eu/widgets/tomatenkuchen/-/287x66-grey.png)](https://translate.tomatenkuchen.eu/engage/tomatenkuchen)
+[![Übersetzungsstatus](https://translate.tomatenkuchen.com/widgets/tomatenkuchen/-/287x66-grey.png)](https://translate.tomatenkuchen.com/engage/tomatenkuchen)
 
 <!--
 :::note
