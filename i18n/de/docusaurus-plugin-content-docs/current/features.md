@@ -21,8 +21,8 @@ All diese Funktionen sind kostenlos verfügbar :D
 	- Deaktivieren von Markdown-Headern
 - [Feeds](./feeds)
 	- RSS/Atom
-	- YouTube
-	- Twitch
+	- YouTube-Videos und -Livestreams
+	- Twitch-Livestreams
 	- neue Minecraft-Vanilla- und Paper-Versionen
 	- Minecraft-Serverstatus
 - [AFK](./afk)
@@ -89,7 +89,7 @@ All diese Funktionen sind kostenlos verfügbar :D
 	- HTTP-Statuscodes und -Header
 	- Cloudflare-Statuscodes
 	- Discord-Berechtigungen
-	- einen YouTube-Kanal mit Suche
+	- einen YouTube-Kanal mit Suchfunktion
 	- gebannte und gemutete Nutzer
 	- Filme, Serien und Schauspieler
 	- Discord-Snowflakes
@@ -116,7 +116,7 @@ All diese Funktionen sind kostenlos verfügbar :D
 - Umfragen
 - Alle Nutzer im Sprachkanal muten oder deafen
 - Automatisch updatende Nachrichten für z. B. Serverstatistiken
-- Modals (Forms) erstellen
+- Modals (Forms) für Discord erstellen
 - Nutzern mit Nitro eine Rolle zuweisen
 - Umwandlung von Währungen und Maßeinheiten
 - Löschen von Nachrichten mit vielen Filtern
@@ -127,3 +127,4 @@ All diese Funktionen sind kostenlos verfügbar :D
 - Kategorien mit darin enthaltenen Kanälen klonen
 - [Logs von aufgetretenen Fehlern und Dashboard-Änderungen](./error)
 - [Logging von allen möglichen Aktionen auf dem Server](./logs)
+- Onlineformulare erstellen
