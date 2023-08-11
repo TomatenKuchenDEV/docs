@@ -103,9 +103,10 @@ All diese Funktionen sind kostenlos verfügbar :D
 - [shorter.cf](https://shorter.cf)
 	- Erstellen von Short-URLs
 	- Anzeigen von Statistiken
+	- Folgen von Weiterleitungen
 - Massenhinzufügen bzw. -entfernen von Rollen mit Filtern
 - ChatGPT-Befehl
-- DALL-E-Befehl
+- Text-zu-Bild/DALL-E-Befehl
 - Bilderstellung und -veränderung
 - Textübersetzung
 - Rechner (Calculator)
@@ -115,7 +116,7 @@ All diese Funktionen sind kostenlos verfügbar :D
 - TODO-Liste
 - Umfragen
 - Alle Nutzer im Sprachkanal muten oder deafen
-- Automatisch updatende Nachrichten für z. B. Serverstatistiken
+- [Automatisch updatende Nachrichten für z. B. Serverstatistiken](./autoupdate)
 - Modals (Forms) für Discord erstellen
 - Nutzern mit Nitro eine Rolle zuweisen
 - Umwandlung von Währungen und Maßeinheiten

@@ -23,7 +23,7 @@ All of those features are available for free! :D
 	- RSS/Atom
 	- YouTube videos and livestreams
 	- Twitch livestreams
-	- new Minecraft-Vanilla- und Paper-Versionen
+	- New Minecraft-Vanilla- und Paper-Versionen
 	- Minecraft server status
 - [AFK](./afk)
 	- List of all AFK users on the server
@@ -34,11 +34,11 @@ All of those features are available for free! :D
 - [Counting](./counting)
 	- Leaderboard
 - [Birthdays](./birthday)
-	- fictive birthdays of unreal users
+	- Fictive birthdays of unreal users
 	- List of all birthdays on the server
 	- Configurable role and message
 - [Level and leaderboard](./level)
-- [Statistiken in Kanalnamen](./serverstats)
+- [Statistics in channel names](./serverstats)
 - [Statistiken auf der Website ohne zeitliches Ablaufdatum](./serverstats)
 - [Tickets](./tickets)
 	- [Claiming](./ticketcommands)
@@ -49,7 +49,7 @@ All of those features are available for free! :D
 	- Reactions
 	- Buttons
 	- Select menus
-- [Synchronisieren über Server hinweg von:](./sync)
+- [Syncing across servers of:](./sync)
 	- Bans/Unbans
 	- Logs
 - [Vote messages when voting for a server or bot](./voting)
@@ -58,25 +58,25 @@ All of those features are available for free! :D
 - [Sticky messages](./sticky)
 - [Private voice channels](./privatevoice)
 - [Giveaways](./giveaways)
-- [Many game](./games)
-- [Automatisches Löschen von Nachrichten in einem Kanal](./autodelete)
+- [Many games](./games)
+- [Automatic deleting of messages in a channel](./autodelete)
 - [Suggestions](./suggest)
 	- verschiedene Kanäle je nach Status oder alle in einem
-	- Reaktionen oder Buttons
+	- Reactions or buttons
 	- Nachrichten im Vorschlägekanal werden automatisch zu einem Vorschlag
 	- Modus, in dem Vorschläge erst vom Team zugelassen werden müssen
 - Economy
-- Informationen about:
+- Information on:
 	- Minecraft:
 		- Players
 		- Servers
 		- Recipes (using German names)
-		- Korrektheit eines oder mehrerer Minecraftbefehle
+		- Validation of one or more commands
 	- a [npm](https://npmjs.com) package
 	- ein Element aus dem Periodensystem
-	- einen [GitHub](https://github.com)-Nutzer
+	- a [GitHub](https://github.com) user
 	- die Verspätung der Deutschen Bahn
-	- einen JIRA-Bugreport (z. B. für Minecraft)
+	- a JIRA bug report (e.g. for Minecraft)
 	- a Discord invite
 	- the current bot
 	- the current server
@@ -84,47 +84,48 @@ All of those features are available for free! :D
 	- an emoji
 	- a role
 	- a user or bot
-	- ein Wort aus dem Duden
+	- a word from the German Duden site
 	- die grammatikalische Korrektheit eines Textes (Duden Mentor)
 	- HTTP status codes and HTTP header
 	- Cloudflare status codes
 	- Discord permissions
-	- a YouTube channel with search function
+	- a YouTube channel with search feature
 	- banned and muted users
-	- Filme, Serien und Schauspieler
+	- movies, series and actors
 	- Discord snowflake info
-	- DNS of a domain
+	- DNS records of a domain
 	- Discord status
-	- Zeitraum, bis ein bestimmter Tag erreicht ist
-	- Zeitraum, bis das aktuelle Jahr vorbei ist
-	- angepinnte Nachrichten
-	- alle Threads eines Servers
-- Reminder (Erinnerungen) & Timer, auch für mehrere Nutzer
+	- Time span until a specified day is reached
+	- Time span until the current year is over
+	- pinned messages
+	- all threads of a server
+- Reminders & timers, including using with other users
 - [shorter.cf](https://shorter.cf)
-	- Erstellen von Short-URLs
-	- Anzeigen von Statistiken
+	- Creation of short urls
+	- Displaying statistics
+	- Following redirects
 - Massenhinzufügen bzw. -entfernen von Rollen mit Filtern
-- ChatGPT-Befehl
-- DALL-E-Befehl
-- Bilderstellung und -veränderung
-- Textübersetzung
-- Rechner (Calculator)
-- Unterschiede zwischen/Vergleich von zwei Texten
-- Backups erstellen und laden, kein Bot hat eine vergleichbare Anzahl an Backupfunktionen
-- Discord-Templates (discord.new) auf vorhandenen Servern laden
-- TODO-Liste
-- Umfragen
-- Alle Nutzer im Sprachkanal muten oder deafen
-- Automatisch updatende Nachrichten für z. B. Serverstatistiken
-- Modals (Forms) für Discord erstellen
-- Nutzern mit Nitro eine Rolle zuweisen
-- Umwandlung von Währungen und Maßeinheiten
-- Löschen von Nachrichten mit vielen Filtern
-- Kicken und Bannen von Nutzern mit Filtern
+- ChatGPT command
+- Text to image/DALL-E command
+- Image generation and modification
+- Text translation
+- Calculator
+- Comparing two texts
+- Creating and loading backups, kein Bot hat eine vergleichbare Anzahl an Backupfunktionen
+- Loading Discord templates (discord.new) on existing servers
+- TODO list
+- Polls
+- Muting or deafening all users in a voice channel
+- [Automatic updating messages e.g. for server statistics](./autoupdate)
+- Creation of modals (forms) for Discord
+- Adding a role to nitro users
+- Converting currencies and other measuring units
+- Purging messages with many filters
+- Kicking and banning users with many filters
 - Senden von selbst erstellten Embeds und Komponenten, z. B. Buttons
 - Zufallsfunktionen, z. B. Würfel und Auswahl eines bestimmten Elements einer Liste
-- Erstellen und Lesen von QR-Codes
-- Kategorien mit darin enthaltenen Kanälen klonen
+- Creating and reading QR codes
+- Cloning a category with it's channels
 - [Logs von aufgetretenen Fehlern und Dashboard-Änderungen](./error)
-- [Logging von allen möglichen Aktionen auf dem Server](./logs)
-- Onlineformulare erstellen
+- [Logging of pretty much everything on the server](./logs)
+- Online forms
