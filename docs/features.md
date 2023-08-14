@@ -1,6 +1,6 @@
 ---
 title: List of all TomatenKuchen features
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Diese Seite listet alle zum aktuellen Zeitpunkt verfügbaren Features des Bots auf.
+description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. This page lists all features currently available.
 ---
 
 Note that there a daily updates usually containing new features, and those might not be reflected here instantly.
@@ -30,7 +30,7 @@ All of those features are available for free! :D
 	- List of all mentions while AFK after the AFK state ends
 - [Auto roles for bots and users separately](./autorole)
 - [Auto nickname on join](./autorole)
-- [Rejoin-/Persistente Rollen, die man beim erneuten Beitreten zurückerhält](./autorole)
+- [Rejoin/persistent roles which users receive back when rejoining](./autorole)
 - [Counting](./counting)
 	- Leaderboard
 - [Birthdays](./birthday)
@@ -41,10 +41,11 @@ All of those features are available for free! :D
 - [Statistics in channel names](./serverstats)
 - [Statistiken auf der Website ohne zeitliches Ablaufdatum](./serverstats)
 - [Tickets](./tickets)
+	- Ticket categories
 	- [Claiming](./ticketcommands)
-	- Supporter (Staff) and moderator roles
-	- Vollständig konfigurierbares Ticketembed sowie Ticketstart-Nachricht
-	- Transcripts which look the same as on Discord
+	- Supporter (staff) and moderator roles
+	- Fully customizable ticket embed and start message per category
+	- Transcripts which look very similar to Discord
 - [Self assignable roles/Reactionroles using:](./reactionroles)
 	- Reactions
 	- Buttons
@@ -61,10 +62,10 @@ All of those features are available for free! :D
 - [Many games](./games)
 - [Automatic deleting of messages in a channel](./autodelete)
 - [Suggestions](./suggest)
-	- verschiedene Kanäle je nach Status oder alle in einem
-	- Reactions or buttons
-	- Nachrichten im Vorschlägekanal werden automatisch zu einem Vorschlag
-	- Modus, in dem Vorschläge erst vom Team zugelassen werden müssen
+	- different channels depending on state or all in one
+	- Reactions or buttons for voting
+	- Messages in the suggestion channel will be automatically converted into a suggestion
+	- Mode which requires suggestions to be allowed by the team
 - Economy
 - Information on:
 	- Minecraft:
@@ -73,9 +74,9 @@ All of those features are available for free! :D
 		- Recipes (using German names)
 		- Validation of one or more commands
 	- a [npm](https://npmjs.com) package
-	- ein Element aus dem Periodensystem
+	- an element of the periodic table
 	- a [GitHub](https://github.com) user
-	- die Verspätung der Deutschen Bahn
+	- the train delay of the Deutsche Bahn per station
 	- a JIRA bug report (e.g. for Minecraft)
 	- a Discord invite
 	- the current bot
@@ -85,17 +86,17 @@ All of those features are available for free! :D
 	- a role
 	- a user or bot
 	- a word from the German Duden site
-	- die grammatikalische Korrektheit eines Textes (Duden Mentor)
+	- whether a German sentence is syntactically correct (Duden Mentor)
 	- HTTP status codes and HTTP header
 	- Cloudflare status codes
 	- Discord permissions
 	- a YouTube channel with search feature
 	- banned and muted users
 	- movies, series and actors
-	- Discord snowflake info
+	- Discord ID/snowflake info
 	- DNS records of a domain
 	- Discord status
-	- Time span until a specified day is reached
+	- Time span until a specified day/month is reached
 	- Time span until the current year is over
 	- pinned messages
 	- all threads of a server
@@ -106,12 +107,12 @@ All of those features are available for free! :D
 	- Following redirects
 - Massenhinzufügen bzw. -entfernen von Rollen mit Filtern
 - ChatGPT command
-- Text to image/DALL-E command
+- Text to image command
 - Image generation and modification
 - Text translation
 - Calculator
 - Comparing two texts
-- Creating and loading backups, kein Bot hat eine vergleichbare Anzahl an Backupfunktionen
+- Creating and loading backups, no other bot has a this high amount of backup features
 - Loading Discord templates (discord.new) on existing servers
 - TODO list
 - Polls
@@ -122,10 +123,10 @@ All of those features are available for free! :D
 - Converting currencies and other measuring units
 - Purging messages with many filters
 - Kicking and banning users with many filters
-- Senden von selbst erstellten Embeds und Komponenten, z. B. Buttons
-- Zufallsfunktionen, z. B. Würfel und Auswahl eines bestimmten Elements einer Liste
+- Sending embeds and components, for example buttons, created by you or someone else
+- Randomizer features, for example rolling a dice or selecting a random element out of a given list
 - Creating and reading QR codes
 - Cloning a category with it's channels
-- [Logs von aufgetretenen Fehlern und Dashboard-Änderungen](./error)
+- [Logs of occured errors and dashboard changes](./error)
 - [Logging of pretty much everything on the server](./logs)
 - Online forms

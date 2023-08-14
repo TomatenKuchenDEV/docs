@@ -9,7 +9,6 @@ Deployed using Cloudflare Pages on https://docs.tomatenkuchen.com.
 	- level: {usermention} {username} {displayname} {oldlevel} {newlevel}
 - autopublish & nitroverify auf misc settings?
 - boost msgs: {usermention} {username} {displayname} {globalname} {boosts} {level}
-- globalname
 - featureliste updaten & übersetzen
 - custom bots
 - formulare

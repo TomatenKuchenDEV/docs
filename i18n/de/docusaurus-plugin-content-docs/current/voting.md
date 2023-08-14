@@ -19,6 +19,7 @@ Folgende Variablen können verwendet werden:
 - `{usermention}`: Erwähnung des Nutzers, welcher gevoted hat
 - `{userid}`: ID des votenden Nutzers
 - `{username}`: Nutzername des votenden Nutzers
+- `{globalname}`: Globaler Nickname des votenden Nutzers
 - `{useravatar}`: Avatar-URL des votenden Nutzers
 - `{domain}`: Die Domain, auf der gevoted wurde
 - `{url}`: URL des Bots bzw. Servers

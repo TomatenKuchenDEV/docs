@@ -37,6 +37,7 @@ Users can change this setting by using the command <code>/usersettings</code>.
 
 - `{usermention}`
 - `{username}`
+- `{globalname}`
 - `{displayname}`
 - `{id}`: The ticket ID
 - `{servername}`

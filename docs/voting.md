@@ -19,6 +19,7 @@ You can use the following variables:
 - `{usermention}`: Mention of the user who voted
 - `{userid}`: ID of the voting user
 - `{username}`: Username of the voting user
+- `{globalname}`: Global nickname of the voting user
 - `{useravatar}`: Avatar URL of the voting user
 - `{domain}`: The domain the user voted on
 - `{url}`: URL of the bot or server

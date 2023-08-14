@@ -14,3 +14,4 @@ Rejoinrollen sind auswählbare Rollen, welche Nutzern erneut zugewiesen werden, 
 
 Es kann ein Nickname festgelegt werden, den Mitglieder beim Beitreten erhalten sollen. Das folgende Argument kann verwendet werden:
 - `{username}`: Der aktuelle Benutzername des Nutzers
+- `{globalname}`: Der globale Anzeigename des Nutzers

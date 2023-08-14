@@ -37,6 +37,7 @@ Diese Einstellung kann jeder Nutzer individuell mithilfe von dem Befehl <code>/u
 
 - `{usermention}`
 - `{username}`
+- `{globalname}`
 - `{displayname}`
 - `{id}`: Die Ticket-ID
 - `{servername}`

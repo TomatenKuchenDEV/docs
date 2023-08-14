@@ -41,9 +41,10 @@ All diese Funktionen sind kostenlos verfügbar :D
 - [Statistiken in Kanalnamen](./serverstats)
 - [Statistiken auf der Website ohne zeitliches Ablaufdatum](./serverstats)
 - [Tickets](./tickets)
+	- Ticketkategorien
 	- [Claiming](./ticketcommands)
 	- Supporter- und Moderatorrollen
-	- Vollständig konfigurierbares Ticketembed sowie Ticketstart-Nachricht
+	- Vollständig konfigurierbares Ticketembed sowie Ticketstart-Nachricht pro Kategorie
 	- Transkripte, die wie auf Discord aussehen
 - [Selbst zuweisbare Rollen/Reactionroles mit:](./reactionroles)
 	- Reaktionen
@@ -62,7 +63,7 @@ All diese Funktionen sind kostenlos verfügbar :D
 - [Automatisches Löschen von Nachrichten in einem Kanal](./autodelete)
 - [Vorschläge](./suggest)
 	- verschiedene Kanäle je nach Status oder alle in einem
-	- Reaktionen oder Buttons
+	- Reaktionen oder Buttons zum Abstimmen
 	- Nachrichten im Vorschlägekanal werden automatisch zu einem Vorschlag
 	- Modus, in dem Vorschläge erst vom Team zugelassen werden müssen
 - Economy
@@ -106,7 +107,7 @@ All diese Funktionen sind kostenlos verfügbar :D
 	- Folgen von Weiterleitungen
 - Massenhinzufügen bzw. -entfernen von Rollen mit Filtern
 - ChatGPT-Befehl
-- Text-zu-Bild/DALL-E-Befehl
+- Text-zu-Bild-Befehl
 - Bilderstellung und -veränderung
 - Textübersetzung
 - Rechner (Calculator)

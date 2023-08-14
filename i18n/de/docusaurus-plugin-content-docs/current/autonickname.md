@@ -7,7 +7,7 @@ TomatenKuchen kann den Nicknamen von Nutzern basierend auf Rollen des Nutzers an
 
 ## Format des Nicknamens
 
-Hier kann festgelegt werden, wie der Bot den Nicknamen aufbaut. Standardwert ist `[{roles}] {name}`, wo `{roles}` für eine oder mehrere Rollen - je nach Einstellung - steht, `{name}` für den vorherigen Anzeigenamen und `{username}` für den Nutzernamen des Nutzers.
+Hier kann festgelegt werden, wie der Bot den Nicknamen aufbaut. Standardwert ist `[{roles}] {name}`, wo `{roles}` für eine oder mehrere Rollen - je nach Einstellung - steht, `{name}` für den vorherigen Anzeigenamen und `{username}` bzw. `{globalname}` für den Nutzernamen des Nutzers.
 
 ## Maximale Rollen im Nicknamen
 

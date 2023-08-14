@@ -20,6 +20,7 @@ Folgende Variablen sind verfügbar:
 - `{servericon}`: Servericon
 - `{membercount}`: Mitgliederanzahl
 - `{username}`: Nutzername
+- `{globalname}`: Globaler Nickname
 - `{userid}`: Nutzer-ID
 - `{usermention}`: Erwähnung des Nutzers
 - `{useravatar}`: Nutzeravatar

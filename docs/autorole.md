@@ -14,3 +14,4 @@ Rejoinroles are selectable roles which users receive when they rejoin the server
 
 You can set a nickname which is set on newly joined users. The following variable can be used:
 - `{username}`: The current username of the user
+- `{globalname}`: The current global nickname of the user
