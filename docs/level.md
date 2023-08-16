@@ -26,6 +26,14 @@ Sets level messages and assigns a role to them.
 
 You can set a message and a role for every level. If no setting is found for a level, TomatenKuchen uses the lowest available.
 
+Possible variables:
+- `{usermention}`: Mention of the user
+- `{username}`: Username
+- `{globalname}`: Global display name
+- `{displayname}`: Display name
+- `{oldlevel}`: Old level
+- `{newlevel}`: New/current level
+
 ### Stackable level roles
 Toggles if user keep level roles they had before or if they only keep the highest one.
 

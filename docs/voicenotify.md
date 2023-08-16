@@ -10,6 +10,19 @@ By using the voice notify settings, you can send a message once someone joins se
 ### Notify channels
 Here you can add voice channels and modify the message for each of them.
 
+### Message
+
+Possible variables:
+- `{username}`: The name of the user
+- `{globalname}`: The global nickname of the user
+- `{usermention}`: The mention of the user
+- `{useravatar}`: The avatar url of the user
+- `{displayname}`: The display name of the user
+- `{channel}`: The channel name of the channel which the user joined
+- `{channelmention}`: The channel mention
+- `{servername}`: The server name
+- `{servericon}`: The server icon
+
 ### Message channel
 The set message above will be send to this channel.
 

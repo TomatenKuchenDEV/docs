@@ -15,7 +15,7 @@ Mögliche Variablen:
 - `{username}`: Der Name des Nutzers
 - `{globalname}`: Der globale Nickname des Nutzers
 - `{usermention}`: Die Erwähnung des Nutzers
-- `{useravatar}`: Der Name des Nutzers
+- `{useravatar}`: Die Avatar-URL des Nutzers
 - `{displayname}`: Der Anzeigename des Nutzers
 - `{channel}`: Der Kanalname des Kanals, dem der Nutzer beigetreten ist
 - `{channelmention}`: Die Kanalerwähnung

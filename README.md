@@ -3,14 +3,10 @@
 Deployed using Cloudflare Pages on https://docs.tomatenkuchen.com.
 
 # Todo
-
-- variablen erklären
-	- voicenotify: {username} {usermention} {displayname} {channel} {channelmention} {servername} {servericon}
-	- level: {usermention} {username} {displayname} {oldlevel} {newlevel}
 - autopublish & nitroverify auf misc settings?
 - boost msgs: {usermention} {username} {displayname} {globalname} {boosts} {level}
-- featureliste updaten & übersetzen
-- custom bots
+- verification
+- custom bots ergänzen + übersetzen
 - formulare
 
 # Integration RegEx trigger
@@ -20,7 +16,7 @@ Deployed using Cloudflare Pages on https://docs.tomatenkuchen.com.
 | .             | matches any character |
 | [abc]         | matches a, b, or c |
 | [^abc]        | matches any character except a, b, and c |
-| x\|y          | x or y (prefer x) |
+| a\|b          | a or b |
 | x*            | zero or more x |
 | x+            | one or more x |
 | x?            | zero or one x |

@@ -26,6 +26,14 @@ Legt eine Levelnachricht und dazugehörige Levelrollen fest.
 
 Es kann für jedes Level eine Nachricht und eine Rolle festgelegt werden. Wenn für ein Level keine Einstellung gefunden wird, wird die nächsttiefere verwendet.
 
+Mögliche Variablen:
+- `{usermention}`: Erwähnung des Nutzers
+- `{username}`: Nutzername
+- `{globalname}`: Globaler Anzeigename
+- `{displayname}`: Nickname
+- `{oldlevel}`: Altes Level
+- `{newlevel}`: Neues/aktuelles Level
+
 ### Levelrollen stackbar
 Stellt ein, ob Nutzer vorherige Levelrollen behalten oder immer nur die höchste erhalten.
 
