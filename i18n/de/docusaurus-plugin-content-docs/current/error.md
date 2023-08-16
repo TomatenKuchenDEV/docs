@@ -16,4 +16,4 @@ Das Logsystem sammelt Fehler und andere wichtige Ereignisse des Servers. Du kann
 
 Zu diesen Informationen gehört die Log-ID, die Fehlerzusammenfassung auf Englisch, die Anzahl der Fehler und ein Button, um interne Zusatzinformationen anzuzeigen. Logs, welche das letzte mal vor drei oder mehr Tagen aufgetreten sind, können gelöscht werden. Wenn du aus der Logmeldung nicht schlau wirst, tritt dem Support-Server bei und teile uns die Log-ID mit.
 
-![Logs overview](/img/logs_overview.png)
+![Logübersicht](/img/logs_overview.png)

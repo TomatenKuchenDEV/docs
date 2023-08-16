@@ -27,9 +27,9 @@ Wenn `forceban` verwendet wird überprüft der Bot nicht, ob der Nutzer bereits 
 
 `kick <Nutzer> [<Grund>]`
 
-## Sperre einen Kanal oder den ganzen Server
+## Sperre einen oder mehrere Kanäle
 
-`lock on|off`
+`lock lock|unlock [<Kanäle>]`
 
 ## Nachrichten löschen
 

@@ -27,9 +27,9 @@ If `forceban` is used, the bot won't check if the user is already banned.
 
 `kick <User> [<Reason>]`
 
-## Lock a channel or the whole server
+## Lock one or multiple channels
 
-`lock on|off`
+`lock lock|unlock [<channels>]`
 
 ## Delete messages
 

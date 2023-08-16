@@ -7,6 +7,8 @@ Using the starboard members can save funny or otherwise interesting messages for
 
 ![Starboard message](/img/starboard.png)
 
+Messages on the starboard also show images and replies. Images are saved to another Discord server to allow displaying the image even if the original source was deleted.
+
 ## Settings
 
 ### Channel
