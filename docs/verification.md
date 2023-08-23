@@ -1,34 +1,34 @@
 ---
 title: Verifikation
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Einrichten und Verwendung der Verifikation zur Botvermeidung.
+description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Setup and usage of verification to prevent bots.
 ---
 
-Die Verifikation kann verwendet werden, um potentielle Bots am Beitreten auf den Server zu hindern. Du kannst zwischen verschiedenen Modi wählen, die zur Verifikation verwendet werden.
+Verification can be used to prevent bots joining the server. You can select one of multiple modes to use for verification.
 
-## Befehle
+## Commands
 
-Der Befehl `verify` wird zum Setup einer Verifikationsnachricht verwendet. Es können unbegrenzt Nachrichten pro Server erstellt werden.
+The command `verify` can be used to send a verification message. There is no limit on created messages per server.
 
-## Einstellungen
+## Settings
 
-### Verifikationsmodus
+### Verification mode
 
-Du kannst aktuell zwischen den folgenden Modi auswählen:
-- Keine
+Currently you can select one of the following modes:
+- None
 - Captcha
-- Mathe-Aufgabe
+- Math task
 
-"Keine" weißt den Nutzern beim Klicken auf den Button direkt die ausgewählten Rollen zu.
+"None" adds the selected roles directly to the user when they click the verify button.
 
-### Verifikationsrollen
+### Verification roles
 
-Hier kannst du die Rollen auswählen, die Nutzer nach der Verifikation erhalten.
+You can select the roles which users will receive after verification here.
 
 ### Aktionen bei falschen Verifikationsantworten
 
 Hier können anhand der Anzahl der fehlgeschlagenen Verifikationsversuche entsprechende Strafen festgelegt werden.
 
-Mögliche Aktionen:
+Possible actions:
 - Ban
 - Kick
 - Mute
@@ -40,7 +40,7 @@ Bei "Mute" und "Wartezeit" kann zusätzlich noch eine Dauer angegeben werden, wi
 Beachte, dass die "Wartezeit" Nutzer nicht vom Senden von PN-Nachrichten abhält.
 Nutze stattdessen "Mute", was sowohl Buttons als auch PNs deaktiviert und dem Nutzer die Wartezeit schöner anzeigt, als der Bot es kann.
 
-### Schwierigkeitsstufe
+### Task difficulty
 
 Hier kann die Schwierigkeitsstufe der Modi (außer "Keine") festgelegt werden. Dadurch ändert sich die Beantwortungszeit und bei:
 - Captcha die Anzahl der Zeichen
