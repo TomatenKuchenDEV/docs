@@ -3,10 +3,9 @@
 Deployed using Cloudflare Pages on https://docs.tomatenkuchen.com.
 
 # Todo
-- autopublish & nitroverify auf misc settings?
+- autopublish
 - boost msgs: {usermention} {username} {displayname} {globalname} {boosts} {level}
-- verification
-- custom bots ergänzen + übersetzen
+- custom bots übersetzen
 - formulare
 
 # Integration RegEx trigger

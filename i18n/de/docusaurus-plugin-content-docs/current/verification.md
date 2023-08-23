@@ -33,7 +33,7 @@ Mögliche Aktionen:
 - Kick
 - Mute
 - Wartezeit, bis der Nutzer erneut die Verifizierung beginnen kann
-- Zurücksetzen des Zählers
+- Zurücksetzen des fehlgeschlagenen Verifikationszählers
 
 Bei "Mute" und "Wartezeit" kann zusätzlich noch eine Dauer angegeben werden, wie lange der Nutzer gemuted wird bzw. wie lange er/sie warten muss.
 
@@ -42,6 +42,6 @@ Nutze stattdessen "Mute", was sowohl Buttons als auch PNs deaktiviert und dem Nu
 
 ### Schwierigkeitsstufe
 
-Hier kann die Schwierigkeitsstufe der Modi (außer "Keine") festgelegt werden. Dadurch ändert sich die Beantwortungszeit und bei:
+Hier kann die Schwierigkeitsstufe der Modi (außer "Keine") festgelegt werden. Dadurch ändert sich die maximale Beantwortungszeit und bei:
 - Captcha die Anzahl der Zeichen
 - Mathe-Aufgaben die Komplexibität der Aufgaben

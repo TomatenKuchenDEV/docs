@@ -24,24 +24,24 @@ Currently you can select one of the following modes:
 
 You can select the roles which users will receive after verification here.
 
-### Aktionen bei falschen Verifikationsantworten
+### Actions on wrong verification answers
 
-Hier können anhand der Anzahl der fehlgeschlagenen Verifikationsversuche entsprechende Strafen festgelegt werden.
+You can set punishments depending on the amount of failed verification tries.
 
 Possible actions:
 - Ban
 - Kick
 - Mute
-- Wartezeit, bis der Nutzer erneut die Verifizierung beginnen kann
-- Zurücksetzen des Zählers
+- Cooldown until the user can start verification again
+- Reset of fail counter
 
-Bei "Mute" und "Wartezeit" kann zusätzlich noch eine Dauer angegeben werden, wie lange der Nutzer gemuted wird bzw. wie lange er/sie warten muss.
+When using "Mute" or "Cooldown" you have to add a duration how long the user gets muted / how long they have to wait.
 
-Beachte, dass die "Wartezeit" Nutzer nicht vom Senden von PN-Nachrichten abhält.
-Nutze stattdessen "Mute", was sowohl Buttons als auch PNs deaktiviert und dem Nutzer die Wartezeit schöner anzeigt, als der Bot es kann.
+Note that "cooldown" does not prevent users from sending DM messages.
+Use "Mute" instead which disables buttons as well as DMs and displays the wait time better than the bot can.
 
 ### Task difficulty
 
-Hier kann die Schwierigkeitsstufe der Modi (außer "Keine") festgelegt werden. Dadurch ändert sich die Beantwortungszeit und bei:
-- Captcha die Anzahl der Zeichen
-- Mathe-Aufgaben die Komplexibität der Aufgaben
+You can change the difficulty of the modes (except "None") here. This changes the maximum reply time and for:
+- Captcha the amount of characters
+- Math tasks the complexity of tasks
