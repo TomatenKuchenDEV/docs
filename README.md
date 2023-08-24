@@ -3,7 +3,6 @@
 Deployed using Cloudflare Pages on https://docs.tomatenkuchen.com.
 
 # Todo
-- autopublish
 - boost msgs: {usermention} {username} {displayname} {globalname} {boosts} {level}
 - custom bots übersetzen
 - formulare

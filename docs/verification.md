@@ -35,13 +35,13 @@ Possible actions:
 - Cooldown until the user can start verification again
 - Reset of fail counter
 
-When using "Mute" or "Cooldown" you have to add a duration how long the user gets muted / how long they have to wait.
+When using "mute" or "cooldown" you have to add a duration how long the user gets muted / how long they have to wait.
 
 Note that "cooldown" does not prevent users from sending DM messages.
-Use "Mute" instead which disables buttons as well as DMs and displays the wait time better than the bot can.
+Use "mute" instead which disables buttons as well as DMs and displays the wait time better than the bot can.
 
 ### Task difficulty
 
-You can change the difficulty of the modes (except "None") here. This changes the maximum reply time and for:
+You can change the difficulty of the modes (except "none") here. This changes the maximum reply time and for:
 - Captcha the amount of characters
 - Math tasks the complexity of tasks
