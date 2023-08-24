@@ -9,7 +9,6 @@ Wenn ein als AFK markierter Nutzer erwähnt wird, zeigt der Bot die vom Nutzer f
 
 Für [Autoupdate](./autoupdate)-Nachrichten kann der Parameter `{afk}` verwendet werden, um eine Liste der aktuellen AFK-Nutzer anzuzeigen.
 
-## Einstellungen
+## AFK-Rolle
 
-### AFK-Rolle
-Es kann eine Rolle ausgewählt werden, die als AFK markierte Nutzer erhalten.
+In den Servereinstellungen kann eine Rolle ausgewählt werden, die als AFK markierte Nutzer erhalten.

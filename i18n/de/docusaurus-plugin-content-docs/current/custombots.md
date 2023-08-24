@@ -5,7 +5,9 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 
 Mit TomatenKuchen kannst du deine eigene Version des Bots auf deinen Server holen, ohne, dass man diesen als TomatenKuchen erkennen kann.
 
-Die Bezahlung funktioniert mit Credits. Credits lassen sich hauptsächlich durch Voten verdienen, aber auch in Giveaways auf dem TomatenKuchen-Discord gewinnen.
+## Bezahlung
+
+Die Bezahlung funktioniert mit Credits. Credits lassen sich hauptsächlich durch Voten und mit dem Economy-System verdienen, aber auch in Giveaways auf dem TomatenKuchen-Discord gewinnen. Du kannst sie auch durch Mithilfe erhalten, z. B. durch das Übersetzen von Bots.
 
 Bei Custom-Bots kannst die folgenden Einstellungen des Bots frei ändern:
 - Name
@@ -18,9 +20,9 @@ Die aktuellen Preise anhand der Nutzerzahl und für zusätzliche Upgrades sind a
 
 Folgende Upgrades können aktiviert und im Dashboard konfiguriert werden:
 - Status
-	- Wenn aktiviert kann der Botstatus frei geändert werden. Dazu gehört der Text, die Aktivität (Spielt/Hört/Custom) und der Status (Online/Offline/AFK/Bitte nicht stören)
-- Antwort auf andere Bots
-	- Wenn aktiviert antwortet der Bot auf andere Bots. Dazu müssen die IDs der Bots angegeben haben. Bots können ggf. nicht alle Aktionen oder Befehle ausführen. Beachte auch, dass Bots einen höheren Befehlscooldown haben.
+	- Wenn aktiviert kann der Botstatus frei geändert werden. Dazu gehört der Text, die Aktivität (Spielt/Custom/...) und der Status (Online/Offline/AFK/Bitte nicht stören)
+- Antworten auf andere Bots
+	- Wenn aktiviert reagiert der Bot auf andere Bots. Dazu müssen die IDs der Bots angegeben haben. Bots können ggf. nicht alle Aktionen oder Befehle ausführen. Beachte auch, dass Bots einen höheren Befehlscooldown haben.
 
 ## Verwaltung
 

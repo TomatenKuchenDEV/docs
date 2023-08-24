@@ -9,7 +9,6 @@ When a user marked as AFK is mentioned, the bot will display the message set by 
 
 You can use the parameter `{afk}` in [Autoupdate](./autoupdate) messages to display a list of the currently AFK users.
 
-## Settings
+## AFK role
 
-### AFK role
-You can select an AFK role which will be given to users marked as AFK.
+You can select an AFK role in the server settings which will be given to users marked as AFK.
