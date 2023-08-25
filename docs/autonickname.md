@@ -7,7 +7,13 @@ TomatenKuchen can change the nickname of users based on their roles.
 
 ## Format of the nickname
 
-This value changes how the bot builds the nickname. Default value is `[{roles}] {name}` where `{roles}` stands for one or more roles - as configured - `{name}` for the old displayname and `{username}` and `{globalname}` for the username of the user.
+This value changes how the bot builds the nickname.
+
+The following variables can be used:
+- `{roles}`: One or more role abbreviations (depending on settings)
+- `{name}`: Previous displayname
+- `{username}`: Username
+- `{globalname}`: Global displayname of the user
 
 ## Maximum amount of roles in the nickname
 
