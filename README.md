@@ -3,8 +3,7 @@
 Deployed using Cloudflare Pages on https://docs.tomatenkuchen.com.
 
 # Todo
-- boost msgs übersetzen
-- custom bots übersetzen
+- boost msgs, custom bots, customroles übersetzen
 - twitch streams
 	- username
 	- trigger
