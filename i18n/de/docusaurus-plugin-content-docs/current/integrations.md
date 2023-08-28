@@ -90,24 +90,21 @@ Diese Integrationen wurden von unserem Team erstellt oder von diesem verifiziert
 
 ## RegEx-Cheatsheet
 
-| RegEx Pattern | Function |
-| :------------ | :--------------------------------------- |
-| .             | matches any character |
-| [abc]         | matches a, b, or c |
-| [^abc]        | matches any character except a, b, and c |
-| a\|b          | a or b |
-| x*            | zero or more x |
-| x+            | one or more x |
-| x?            | zero or one x |
-| x{n,m}        | n or any number in between or m x |
-| x{n,}         | n or more x |
-| x{n}          | exactly n x |
-| (re)          | numbered capturing group (submatch) |
-| \d            | digits (= [0-9]) |
-| \D            | non-digits (≠ [0-9]) |
-| \s            | whitespace (= [\t\n\f\r ]) |
-| \S            | non-whitespace (≠ [\t\n\f\r ]) |
-| \w            | word characters (= [0-9A-Za-z_]) |
-| \w            | non-word characters (≠ [0-9A-Za-z_]) |
-
-<sub>Inspired by <https://docs.archit.us/features/auto-responses#expressions></sub>
+| Character | Description                  | Example                   |
+|-----------|------------------------------|---------------------------|
+| `.`       | Any character except newline | `a.b` matches "axb"       |
+| `\d`      | Digit (0-9)                  | `\d{2}` matches "42"      |
+| `\w`      | Word char (a-z, A-Z, 0-9, _) | `\w+` matches "bot_1"     |
+| `\s`      | Whitespace character         | `a\sb` matches "a b"      |
+| `[abc]`   | Any character in set         | `[aeiou]` matches "i"     |
+| `[^abc]`  | Any character NOT in set     | `[^aeiou]` matches "b"    |
+| `a*`      | 0 or more occurrences of a   | `a*` matches "aaa"        |
+| `a+`      | 1 or more occurrences of a   | `a+` matches "aa"         |
+| `a?`      | 0 or 1 occurrence of a       | `a?` matches "a"          |
+| `a{3}`    | Exactly 3 occurrences of a   | `a{3}` matches "aaa"      |
+| `a{3,}`   | 3 or more occurrences of a   | `a{3,}` matches "aaaa"    |
+| `a{3,5}`  | 3 to 5 occurrences of a      | `a{3,5}` matches "aaa"    |
+| `^`       | Start of string              | `^abc` matches "abcxyz"   |
+| `$`       | End of string                | `xyz$` matches "abcxyz"   |
+| `\b`      | Word boundary                | `\bword\b` matches "word" |
+| `(...)`   | Capturing group              | `(abc)` captures "abc"    |
