@@ -17,21 +17,46 @@ Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integra
 ## Mögliche Auslöser
 
 - Nachrichten- oder Slashcommands
+	- Argument: Slash command description, if empty disables slash cmd
 - Nachrichteninhalt enthält
+	- Argument: Text content
 - Nachrichteninhalt matcht RegEx
+	- Argument: RegEx, mit dem geprüft werden soll, siehe [RegEx-Cheatsheet](#regex-cheatsheet)
 - Button gedrückt
+	- Argument: Button custom ID
 - Selectmenü ausgewählt
+	- Argument: Select menu custom ID
 - Modal abgesendet
+	- Argument: Modal custom ID
 - Discord-AutoMod ausgelöst (z. B. für eigene Bestrafungen, wenn eine bestimmte Regel ausgelöst wird)
+	- Argument (optional): ID einer Regel
 - Slashcommand eines anderen Bots verwendet (z. B. für /bump-Erinnerungen)
+	- Argument: Slashcommand-Name des anderen Bots
 - Mitglied beigetreten/verlassen
+	- Argument: <code>join</code>, <code>leave</code> oder <code>all</code>/leer
 - Reaktion hinzugefügt/entfernt
+	- Argument: <code>add</code>, <code>remove</code> oder <code>all</code>/leer
 - Rolle erstellt/gelöscht
-- Channel erstellt/gelöscht
+	- Argument: <code>create</code>, <code>delete</code> oder <code>all</code>/leer
+- Kanal erstellt/gelöscht
+	- Argument: <code>create</code>, <code>delete</code> oder <code>all</code>/leer
 - Webhook erstellt/gelöscht
-- Thread (or post) erstellt/gelöscht
+	- Argument: <code>create</code>, <code>delete</code> oder <code>all</code>/leer
+- Thread (oder Post) erstellt/gelöscht
+	- Argument: <code>create</code>, <code>delete</code> oder <code>all</code>/leer
 - Nickname geändert
 - Server geboosted/Boosts entfernt
+	- Argument: <code>boost</code>, <code>boostend</code> oder <code>all</code>/leer
+- Intervall
+	- Argument: Interval time like <code>45m</code>, can have random offsets after bot restarts, min 5 mins, max 2 days
+- Cronjob
+	- Argument: The cronjob, e.g. from <a href='https://crontab.guru' target='_blank' rel='noopener'>crontab.guru</a>, min 5 mins
+- Nutzer betritt/verlässt Sprachkanal
+	- Argument: <code>join</code>, <code>leave</code> oder <code>all</code>/leer
+- Nutzer ge- oder enttimeouted
+	- Argument: <code>timeout</code>, <code>timeoutend</code> oder <code>all</code>/leer
+- Discord-Systemnachricht
+	- Argument: <a href='https://discord.com/developers/docs/resources/channel#message-object-message-types' target='_blank' rel='noopener'>Internal system message ID</a>
 
 ## Synchronisations-Modi
 
@@ -62,3 +87,5 @@ Diese Integrationen wurden von unserem Team erstellt oder von diesem verifiziert
 - [Vote-Reminder für TomatenKuchen](https://tomatenkuchen.com/dashboard/integrations?info=vote-reminder)
 - [Zufälligen Comic von xkcd.com anzeigen](https://tomatenkuchen.com/dashboard/integrations?info=xkcd)
 - [Automatische Übersetzung von Nachrichten in einem Kanal](https://tomatenkuchen.com/dashboard/integrations?info=autotranslate), zeigt die Verwendung verschiedener Funktionen zur Aktionseinschränkung
+
+## RegEx-Cheatsheet
