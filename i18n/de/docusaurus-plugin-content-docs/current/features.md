@@ -130,3 +130,5 @@ All diese Funktionen sind kostenlos verfügbar :D
 - [Logs von aufgetretenen Fehlern und Dashboard-Änderungen](./error)
 - [Logging von allen möglichen Aktionen auf dem Server](./logs)
 - Onlineformulare erstellen
+- [Boostnachrichten](./boostmessages)
+- [Customrollen](./customroles)

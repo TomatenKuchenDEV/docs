@@ -130,3 +130,5 @@ All of those features are available for free! :D
 - [Logs of occured errors and dashboard changes](./error)
 - [Logging of pretty much everything on the server](./logs)
 - Online forms
+- [Boost messages](./boostmessages)
+- [Customroles](./customroles)

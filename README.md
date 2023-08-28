@@ -3,15 +3,7 @@
 Deployed using Cloudflare Pages on https://docs.tomatenkuchen.com.
 
 # Todo
-- boost msgs, custom bots, customroles übersetzen
-- twitch streams
-	- username
-	- trigger
-		- stream.online
-		- stream.offline
-		- channel.update
-		- channel.raid
-		- user.update
+- custom bots übersetzen
 
 ```
 command: "Message and/or slash command used<br><small>Argument: Slash command description, if empty disables slash cmd</small>",

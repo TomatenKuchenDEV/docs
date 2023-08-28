@@ -23,6 +23,6 @@ Du kannst hier z. B. eine Boosterrolle auswählen.
 
 ### Customrollen hoisten
 
-Diese Einstellung verändert, ob Customrollen standardmäßig gehoisted werden. Wenn aktiviert wird die Rolle in der Mitgliederliste an der rechten Seite getrennt von anderen Rollen angezeigt, wenn es die höchste ist. So ist auch der Name und das Rollenicon sichtbar.
+Diese Einstellung verändert, ob Customrollen standardmäßig gehoisted werden. Wenn aktiviert wird die Rolle in der Mitgliederliste an der rechten Seite getrennt von anderen Rollen angezeigt, wenn es die höchste des Nutzers ist. So ist auch der Name und das Rollenicon sichtbar.
 
 Wenn deaktiviert sind Name und Rollenicon nicht in der Mitgliederliste sichtbar.
