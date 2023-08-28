@@ -11,7 +11,8 @@ The Manage Bot can display the status, the configuration or the resource usage o
 
 2. Edit message
 
-	Using the buttons you can edit the message to look like however you want. There will be more information in the future, but in addition to the functions of the [TomatenKuchen actions](/functions) there are `{node;<ID>[;<Value>]}` to display statistics from a node, and `{nodeConfig;<ID>[;<Property>]}` to display configuration information from a node. There's also `{nextUpdate}` available for displaying the next scheduled update of the message. Using `{nodeStatus;<ID>[;<Online>;<Offline>]}` you can display a text depending on if the node is online or offline.
+	Using the buttons you can edit the message to look like however you want. There will be more information in the future, but in addition to the functions of the [TomatenKuchen actions](/category/action-functions) there are `{node;<ID>[;<Value>]}` to display statistics from a node, and `{nodeConfig;<ID>[;<Property>]}` to display configuration information from a node.
+	There's also `{nextUpdate}` available for displaying the next scheduled update of the message. Using `{nodeStatus;<ID>[;<Online>;<Offline>]}` you can display a text depending on if the node is online or offline.
 
 3. Send message
 4. Done!

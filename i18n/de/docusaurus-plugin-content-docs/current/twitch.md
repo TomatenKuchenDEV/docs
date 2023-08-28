@@ -13,6 +13,11 @@ Beachte, dass du dich zunächst mit dem in den Einstellungen verlinkten Link aut
 
 Hier kann der Benutzername, der Kanal, der Auslöser und die Nachricht festgelegt werden, welche beim Auslösen des Triggers in den festgelegten Kanal gesendet wird.
 
+## Mögliche Variablen
+
+- `{username}`: Der Benutzername
+- `{link}`: Der Kanallink
+
 ## Mögliche Trigger
 
 - `stream.online`: Wird ausgelöst, wenn der Nutzer seinen Livestream startet

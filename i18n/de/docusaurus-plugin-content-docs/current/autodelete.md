@@ -1,6 +1,6 @@
 ---
-title: AFK
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt die Einrichtung Kanälen, in denen Nachrichten nach einer bestimmten Zeit gelöscht werden.
+title: Autodelete
+description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt die Einrichtung von Kanälen, in denen Nachrichten nach einer bestimmten Zeit gelöscht werden.
 ---
 
 Es können Kanäle festgelegt werden, in denen die Nachrichten nach der festgelegten Zeit (± eine Minute) gelöscht werden.
