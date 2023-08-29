@@ -19,7 +19,7 @@ Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integra
 - Nachrichten- oder Slashcommands
 	- Argument: Slash command description, if empty disables slash cmd
 - Nachrichteninhalt enthält
-	- Argument: Text content
+	- Argument: Nachrichteninhalt, nach dem gesucht werden soll
 - Nachrichteninhalt matcht RegEx
 	- Argument: RegEx, mit dem geprüft werden soll, siehe [RegEx-Cheatsheet](#regex-cheatsheet)
 - Button gedrückt
@@ -30,7 +30,7 @@ Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integra
 	- Argument: Modal custom ID
 - Discord-AutoMod ausgelöst (z. B. für eigene Bestrafungen, wenn eine bestimmte Regel ausgelöst wird)
 	- Argument (optional): ID einer Regel
-- Slashcommand eines anderen Bots verwendet (z. B. für /bump-Erinnerungen)
+- Slashcommand eines anderen Bots verwendet (z. B. für `/bump`-Erinnerungen)
 	- Argument: Slashcommand-Name des anderen Bots
 - Mitglied beigetreten/verlassen
 	- Argument: <code>join</code>, <code>leave</code> oder <code>all</code>/leer
@@ -50,13 +50,13 @@ Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integra
 - Intervall
 	- Argument: Interval time like <code>45m</code>, can have random offsets after bot restarts, min 5 mins, max 2 days
 - Cronjob
-	- Argument: The cronjob, e.g. from <a href='https://crontab.guru' target='_blank' rel='noopener'>crontab.guru</a>, min 5 mins
+	- Argument: The cronjob, for example from https://crontab.guru, min 5 mins
 - Nutzer betritt/verlässt Sprachkanal
 	- Argument: <code>join</code>, <code>leave</code> oder <code>all</code>/leer
 - Nutzer ge- oder enttimeouted
 	- Argument: <code>timeout</code>, <code>timeoutend</code> oder <code>all</code>/leer
 - Discord-Systemnachricht
-	- Argument: <a href='https://discord.com/developers/docs/resources/channel#message-object-message-types' target='_blank' rel='noopener'>Internal system message ID</a>
+	- Argument: Discord internal system message type: https://discord.com/developers/docs/resources/channel#message-object-message-types
 
 ## Synchronisations-Modi
 
@@ -90,21 +90,21 @@ Diese Integrationen wurden von unserem Team erstellt oder von diesem verifiziert
 
 ## RegEx-Cheatsheet
 
-| Character | Description                  | Example                   |
-|-----------|------------------------------|---------------------------|
-| `.`       | Any character except newline | `a.b` matches "axb"       |
-| `\d`      | Digit (0-9)                  | `\d{2}` matches "42"      |
-| `\w`      | Word char (a-z, A-Z, 0-9, _) | `\w+` matches "bot_1"     |
-| `\s`      | Whitespace character         | `a\sb` matches "a b"      |
-| `[abc]`   | Any character in set         | `[aeiou]` matches "i"     |
-| `[^abc]`  | Any character NOT in set     | `[^aeiou]` matches "b"    |
-| `a*`      | 0 or more occurrences of a   | `a*` matches "aaa"        |
-| `a+`      | 1 or more occurrences of a   | `a+` matches "aa"         |
-| `a?`      | 0 or 1 occurrence of a       | `a?` matches "a"          |
-| `a{3}`    | Exactly 3 occurrences of a   | `a{3}` matches "aaa"      |
-| `a{3,}`   | 3 or more occurrences of a   | `a{3,}` matches "aaaa"    |
-| `a{3,5}`  | 3 to 5 occurrences of a      | `a{3,5}` matches "aaa"    |
-| `^`       | Start of string              | `^abc` matches "abcxyz"   |
-| `$`       | End of string                | `xyz$` matches "abcxyz"   |
-| `\b`      | Word boundary                | `\bword\b` matches "word" |
-| `(...)`   | Capturing group              | `(abc)` captures "abc"    |
+| Zeichen   | Beschreibung                   | Beispiel                 |
+|-----------|--------------------------------|--------------------------|
+| `.`       | Alle Zeichen außer neue Zeilen | `a.b` matcht "axb"       |
+| `\d`      | Ziffer (0-9)                   | `\d{2}` matcht "42"      |
+| `\w`      | Wortzeichen (a-z, A-Z, 0-9, _) | `\w+` matcht "bot_1"     |
+| `\s`      | Whitespace-Zeichen             | `a\sb` matcht "a b"      |
+| `[abc]`   | Irgendein dieser Zeichen       | `[aeiou]` matcht "i"     |
+| `[^abc]`  | Alle Zeichen außer diese       | `[^aeiou]` matcht "b"    |
+| `a*`      | 0 oder mehr Vorkommnisse von a | `a*` matcht "aaa"        |
+| `a+`      | 1 oder mehr Vorkommnisse von a | `a+` matcht "aa"         |
+| `a?`      | 0 oder 1 Vorkommnisse von a    | `a?` matcht "a"          |
+| `a{3}`    | Genau 3 Vorkommnisse von a     | `a{3}` matcht "aaa"      |
+| `a{3,}`   | 3 oder mehr Vorkommnisse von a | `a{3,}` matcht "aaaa"    |
+| `a{3,5}`  | 3 bis 5 Vorkommnisse von a     | `a{3,5}` matcht "aaa"    |
+| `^`       | Anfang der Zeichenkette        | `^abc` matcht "abcxyz"   |
+| `$`       | Ende der Zeichenkette          | `xyz$` matcht "abcxyz"   |
+| `\b`      | Word boundary                  | `\bword\b` matcht "word" |
+| `(...)`   | Capturing group                | `(abc)` matcht "abc"     |

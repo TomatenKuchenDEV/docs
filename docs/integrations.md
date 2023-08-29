@@ -17,21 +17,46 @@ Integrations can be managed in the [dashboard](https://tomatenkuchen.com/dashboa
 ## Possible triggers
 
 - Message and slash commands
+	- Argument: Slash command description, if empty disables slash cmd
 - Message content contains
+	- Argument: Text content to search for
 - Message content matches RegEx
+	- Argument: RegEx, mit dem geprüft werden soll, siehe [RegEx-Cheatsheet](#regex-cheatsheet)
 - Button press
+	- Argument: Button custom ID
 - Select menu select
+	- Argument: Select menu custom ID
 - Modal submit
+	- Argument: Modal custom ID
 - Discord AutoMod triggered (e.g. for custom punishments when triggering a specific rule)
-- Slash command uses of another bot (e.g. for /bump reminders)
+	- Argument (optional): ID einer Regel
+- Slash command uses of another bot (e.g. for `/bump` reminders)
+	- Argument: Slashcommand-Name des anderen Bots
 - Member join/leave
+	- Argument: <code>join</code>, <code>leave</code> oder <code>all</code>/empty
 - Reaction add/remove
-- Role create/delete
-- Channel create/delete
-- Webhook create/delete
-- Thread (or post) create/delete
+	- Argument: <code>add</code>, <code>remove</code> oder <code>all</code>/empty
+- Role created/deleted
+	- Argument: <code>create</code>, <code>delete</code> oder <code>all</code>/empty
+- Channel created/deleted
+	- Argument: <code>create</code>, <code>delete</code> oder <code>all</code>/empty
+- Webhook created/deleted
+	- Argument: <code>create</code>, <code>delete</code> oder <code>all</code>/empty
+- Thread (or post) created/deleted
+	- Argument: <code>create</code>, <code>delete</code> oder <code>all</code>/empty
 - Nickname updated
 - Server boost/boostend
+	- Argument: <code>boost</code>, <code>boostend</code> oder <code>all</code>/empty
+- Interval
+	- Argument: Interval time like <code>45m</code>, can have random offsets after bot restarts, min 5 mins, max 2 days
+- Cronjob
+	- Argument: The cronjob, for example from https://crontab.guru, min 5 mins
+- Nutzer betritt/verlässt Sprachkanal
+	- Argument: <code>join</code>, <code>leave</code> oder <code>all</code>/empty
+- Nutzer ge- oder enttimeouted
+	- Argument: <code>timeout</code>, <code>timeoutend</code> oder <code>all</code>/empty
+- Discord-Systemnachricht
+	- Argument: Discord internal system message type: https://discord.com/developers/docs/resources/channel#message-object-message-types
 
 ## Synchronisation modes
 
@@ -62,3 +87,24 @@ These integrations were created by our team or are verified by them.
 - [Vote reminder for TomatenKuchen](https://tomatenkuchen.com/dashboard/integrations?info=vote-reminder)
 - [Display a random comic from xkcd.com](https://tomatenkuchen.com/dashboard/integrations?info=xkcd)
 - [Automatic translation of messages in a channel](https://tomatenkuchen.com/dashboard/integrations?info=autotranslate), shows the usage of several functions for limiting the action execution
+
+## RegEx cheatsheet
+
+| Character | Description                  | Example                   |
+|-----------|------------------------------|---------------------------|
+| `.`       | Any character except newline | `a.b` matches "axb"       |
+| `\d`      | Digit (0-9)                  | `\d{2}` matches "42"      |
+| `\w`      | Word char (a-z, A-Z, 0-9, _) | `\w+` matches "bot_1"     |
+| `\s`      | Whitespace character         | `a\sb` matches "a b"      |
+| `[abc]`   | Any character in set         | `[aeiou]` matches "i"     |
+| `[^abc]`  | Any character NOT in set     | `[^aeiou]` matches "b"    |
+| `a*`      | 0 or more occurrences of a   | `a*` matches "aaa"        |
+| `a+`      | 1 or more occurrences of a   | `a+` matches "aa"         |
+| `a?`      | 0 or 1 occurrence of a       | `a?` matches "a"          |
+| `a{3}`    | Exactly 3 occurrences of a   | `a{3}` matches "aaa"      |
+| `a{3,}`   | 3 or more occurrences of a   | `a{3,}` matches "aaaa"    |
+| `a{3,5}`  | 3 to 5 occurrences of a      | `a{3,5}` matches "aaa"    |
+| `^`       | Start of string              | `^abc` matches "abcxyz"   |
+| `$`       | End of string                | `xyz$` matches "abcxyz"   |
+| `\b`      | Word boundary                | `\bword\b` matches "word" |
+| `(...)`   | Capturing group              | `(abc)` captures "abc"    |
