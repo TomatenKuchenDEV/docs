@@ -129,6 +129,6 @@ All diese Funktionen sind kostenlos verfügbar :D
 - Kategorien mit darin enthaltenen Kanälen klonen
 - [Logs von aufgetretenen Fehlern und Dashboard-Änderungen](./error)
 - [Logging von allen möglichen Aktionen auf dem Server](./logs)
-- Onlineformulare erstellen
+- [Onlineformulare erstellen](./forms)
 - [Boostnachrichten](./boostmessages)
 - [Customrollen](./customroles)

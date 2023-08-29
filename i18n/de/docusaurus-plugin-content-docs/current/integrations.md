@@ -56,7 +56,7 @@ Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integra
 - Nutzer ge- oder enttimeouted
 	- Argument: <code>timeout</code>, <code>timeoutend</code> oder <code>all</code>/leer
 - Discord-Systemnachricht
-	- Argument: Discord internal system message type: https://discord.com/developers/docs/resources/channel#message-object-message-types
+	- Argument: Interne Discord-System-Nachrichten-Typ-ID: https://discord.com/developers/docs/resources/channel#message-object-message-types
 
 ## Synchronisations-Modi
 
@@ -106,5 +106,5 @@ Diese Integrationen wurden von unserem Team erstellt oder von diesem verifiziert
 | `a{3,5}`  | 3 bis 5 Vorkommnisse von a     | `a{3,5}` matcht "aaa"    |
 | `^`       | Anfang der Zeichenkette        | `^abc` matcht "abcxyz"   |
 | `$`       | Ende der Zeichenkette          | `xyz$` matcht "abcxyz"   |
-| `\b`      | Word boundary                  | `\bword\b` matcht "word" |
-| `(...)`   | Capturing group                | `(abc)` matcht "abc"     |
+| `\b`      | Wortbegrenzung                 | `\bword\b` matcht "word" |
+| `(...)`   | Match-Gruppe                   | `(abc)` matcht "abc"     |

@@ -129,6 +129,6 @@ All of those features are available for free! :D
 - Cloning a category with it's channels
 - [Logs of occured errors and dashboard changes](./error)
 - [Logging of pretty much everything on the server](./logs)
-- Online forms
+- [Online forms](./forms)
 - [Boost messages](./boostmessages)
 - [Customroles](./customroles)

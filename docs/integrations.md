@@ -51,11 +51,11 @@ Integrations can be managed in the [dashboard](https://tomatenkuchen.com/dashboa
 	- Argument: Interval time like <code>45m</code>, can have random offsets after bot restarts, min 5 mins, max 2 days
 - Cronjob
 	- Argument: The cronjob, for example from https://crontab.guru, min 5 mins
-- Nutzer betritt/verlässt Sprachkanal
+- User joins/leave voice channel
 	- Argument: <code>join</code>, <code>leave</code> oder <code>all</code>/empty
-- Nutzer ge- oder enttimeouted
+- User timeouted or untimeouted
 	- Argument: <code>timeout</code>, <code>timeoutend</code> oder <code>all</code>/empty
-- Discord-Systemnachricht
+- Discord system message
 	- Argument: Discord internal system message type: https://discord.com/developers/docs/resources/channel#message-object-message-types
 
 ## Synchronisation modes
@@ -107,4 +107,4 @@ These integrations were created by our team or are verified by them.
 | `^`       | Start of string              | `^abc` matches "abcxyz"   |
 | `$`       | End of string                | `xyz$` matches "abcxyz"   |
 | `\b`      | Word boundary                | `\bword\b` matches "word" |
-| `(...)`   | Capturing group              | `(abc)` captures "abc"    |
+| `(...)`   | Capturing group              | `(abc)` matches "abc"     |

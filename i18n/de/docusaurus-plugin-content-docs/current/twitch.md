@@ -27,3 +27,10 @@ Hier kann der Benutzername, der Kanal, der Auslöser und die Nachricht festgeleg
 - `user.update`: Wenn der Nutzer seine öffentlichen Accountdaten aktualisiert
 
 Wenn für jeden Streamer jeweils `stream.online` und `stream.offline` erstellt wird kann jeder Server aktuell bis zu 5 Streamer hinzufügen.
+
+## Beispiel
+
+- Kanal (`channel`): Kanal auswählen, in den die Livenachricht gesendet werden soll
+- Trigger (`trigger`): Wenn eine Nachricht bei Streamstart gesendet werden soll: `stream.online`
+- Twitch-Benutzername (`username`): Der Nutzername des Streamers aus der URL
+- Nachrichteninhalt (`content`): `🔴 Der Streamer {username} ist live!`

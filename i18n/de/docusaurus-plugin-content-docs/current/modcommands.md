@@ -76,8 +76,16 @@ Du kannst auch Anhänge, z. B. Bilder, verwenden.
 
 ### Nutzer bannen
 
-`mass ban <Grund> <Liste von Nutzern>`
+`mass ban <Grund> <Liste von Nutzern, getrennt mit " ", "," oder ";">`
 
 ### Nutzer kicken
 
-`mass kick <Grund> <Liste von Nutzern>`
+`mass kick <Grund> <Liste von Nutzern, getrennt mit " ", "," oder ";">`
+
+### Rolle zu vielen Nutzern hinzufügen
+
+`role massadd <Rolle> [<Filter>]`
+
+### Rolle von vielen Nutzern entfernen
+
+`role massremove <Rolle> [<Filter>]`

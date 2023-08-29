@@ -76,8 +76,16 @@ You can also use attachments, e.g. images.
 
 ### Ban users
 
-`mass ban <Reason> <List of users>`
+`mass ban <Reason> <List of users, separated by " ", "," or ";">`
 
 ### Kick users
 
-`mass kick <Reason> <List of users>`
+`mass kick <Reason> <List of users, separated by " ", "," or ";">`
+
+### Add role to many users
+
+`role massadd <Role> [<Filter>]`
+
+### Remove role from many users
+
+`role massremove <Role> [<Filter>]`
