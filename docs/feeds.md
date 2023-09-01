@@ -24,9 +24,9 @@ The fields should be set to this for an optimal experience, but you can of cours
 
 If the feed contains any more properties, you can use them as well. The bot will automatically replace them with the correct value, e.g. `{link}` if the feed contains `"link": "https://tomatenkuchen.com/post/42"`.
 
-### Example feeds
+## Example feeds
 
-#### YouTube
+### YouTube
 While there is a dedicated YouTube feed, you can also use the RSS feed of a channel.
 
 Feed url: `https://www.youtube.com/feeds/videos.xml?channel_id=UC...` where `UC...` is the channel id. You can get the channel id using the `youtube` command.
@@ -34,13 +34,13 @@ Feed url: `https://www.youtube.com/feeds/videos.xml?channel_id=UC...` where `UC.
 `content`: `**{user}** uploaded a new video! Check it out now: {link}`
 Embed fields should be empty as you can't embed videos in custom embeds.
 
-#### Nitter (Twitter)
+### Nitter (Twitter)
 Feed url: `https://nitter.net/{user}/rss`
 
-#### Mastodon
+### Mastodon
 Feed url: `https://{instance}/users/{user}.atom`
 
-#### Reddit
+### Reddit
 Feed url: `https://www.reddit.com/r/{subreddit}/new/.rss`
 
 ## Minecraft versions
@@ -49,4 +49,4 @@ You create feeds to announce new Minecraft snapshots, pre-releases, release cand
 
 The message is usually shown within a minute of publication which means it's much faster than Minecraft blog posts or changelogs on Discord.
 
-You can also let the bot send a message once the first paper build for a new full release is published.
+You can also let the bot send a message once the first [PaperMC server software](https://papermc.io) build for a new full release is published.

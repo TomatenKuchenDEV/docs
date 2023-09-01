@@ -10,7 +10,7 @@ Geburtstage werden täglich um 0 Uhr in der festgelegten Serverzeitzone geprüft
 ### Geburtstag setzen/bearbeiten
 Jeder Nutzer kann seinen Geburtstag global mithilfe von dem Befehl `birthday set <Tag> <Monat> [<Jahr>] [public]` festlegen.
 
-Das Jahr ist optional, wenn angegeben ist bei Geburtstagsnachrichten und [automatisch updatenden Nachrichten](./autoupdate) der Parameter `{age}` verfügbar, womit das neue Alter angezeigt werden kann. Wenn das Jahr nicht angegeben wird ist der Alters-Parameter leer.
+Das Jahr ist optional, wenn angegeben ist bei Geburtstagsnachrichten und [automatisch updatenden Nachrichten](/autoupdate) der Parameter `{age}` verfügbar, womit das neue Alter angezeigt werden kann. Wenn das Jahr nicht angegeben wird ist der Alters-Parameter leer.
 
 Mit der Option `public` wird festgelegt, ob der Geburtstag beim `user`-Befehl und beim `{birthday}`-Argument von Autoupdate-Nachrichten angezeigt wird. Geburtstagsankündigungen sind hiervon nicht betroffen.
 

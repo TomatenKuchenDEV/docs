@@ -30,11 +30,14 @@ Here you can select a role users will receive after voting. It will be automatic
 
 ## Supported server and bot lists
 
+Depending on the server or bot list used, insert the url as webhook url and the in the dashboard mentioned secret as webhook secret.
+
 - Top.gg: `topgg`
-  - Servers & Bots
+  - Server: `https://api.tomatenkuchen.com/servervote/<Server-ID>/topgg`
+  - Bots: `https://api.tomatenkuchen.com/botvote/<Server-ID>/topgg`
 - Discordbotlist.com: `dbl`
-  - Bots
+  - Bots: `https://api.tomatenkuchen.com/botvote/<Server-ID>/dbl/<Bot-ID>`
 - Discords.com: `discords`
-  - Bots
+  - Bots: `https://api.tomatenkuchen.com/botvote/<Server-ID>/discords`
 
 Missing a site? Feel free to suggest it on our [support server](https://tomatenkuchen.com/discord).

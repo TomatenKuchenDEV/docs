@@ -59,4 +59,4 @@ Enforce a reason for suggestion actions, e.g. when approving or denying. Disable
 
 ### Reason presets
 
-Like with [moderation reasons](./moderation) you can create preset reasons.
+Like with [moderation reasons](/moderation) you can create preset reasons.

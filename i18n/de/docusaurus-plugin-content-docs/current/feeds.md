@@ -24,9 +24,9 @@ Die Felder sollten für die optimale Erfahrung so ausgefüllt sein. Du kannst si
 
 Wenn der Feed weitere Werte enthält, kannst du sie ebenfalls nutzen. Der Bot wird sie automatisch mit dem entsprechenden Wert ersetzen, z. B. `{link}` wenn der Feed `"link": "https://tomatenkuchen.com/post/42"` enthält.
 
-### Beispielfeeds
+## Beispielfeeds
 
-#### YouTube
+### YouTube
 Auch wenn es einen eigenen YouTube-Feed gibt kannst du auch RSS-Feeds dafür verwenden.
 
 Feed-URL: `https://www.youtube.com/feeds/videos.xml?channel_id=UC...`, wobei `UC...` die Kanal-ID ist. Die Kanal-ID erhältst du mithilfe des `youtube`-Befehls.
@@ -34,13 +34,13 @@ Feed-URL: `https://www.youtube.com/feeds/videos.xml?channel_id=UC...`, wobei `UC
 `content`: `**{user}** hat ein neues Video hochgeladen! {link}`
 Embedfelder sollten leer gelassen werden, da sich Videos nicht in benutzerdefinierten Embeds einfügen lassen.
 
-#### Nitter (Twitter)
+### Nitter (Twitter)
 Feed-URL: `https://nitter.net/{user}/rss`
 
-#### Mastodon
+### Mastodon
 Feed-URL: `https://{instance}/users/{user}.atom`
 
-#### Reddit
+### Reddit
 Feed-URL: `https://www.reddit.com/r/{subreddit}/new/.rss`
 
 ## Minecraft-Versionen
@@ -49,4 +49,4 @@ Es können Feeds erstellt werden, um Snapshots, Prereleases, Release Candidates 
 
 Die Nachricht erscheint meist innerhalb einer Minute nach der Veröffentlichung und ist damit deutlich schneller als die Minecraft-Blogposts oder Changelogs auf Discord.
 
-Auch kann eine Nachricht angezeigt werden, wenn für eine neue Vollversion der erste Paperbuild veröffentlicht wird.
+Auch kann eine Nachricht angezeigt werden, wenn für eine neue Vollversion der erste [PaperMC-Server-Software](https://papermc.io)-Build veröffentlicht wird.

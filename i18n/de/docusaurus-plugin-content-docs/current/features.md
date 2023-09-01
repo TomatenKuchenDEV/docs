@@ -12,56 +12,56 @@ All diese Funktionen sind kostenlos verfügbar :D
 :::
 
 - Custom Bots (custom Branding)
-- [Integrationen](./integrations)
+- [Integrationen](/integrations)
 	- Customcommands? Tags? Langweilig, Integrationen sind besser
-- [Moderation](./moderation)
-	- [Viele Standardmoderationsbefehle, z. B. Lockdown, Slowmode und Dehoist](./modcommands)
+- [Moderation](/moderation)
+	- [Viele Standardmoderationsbefehle, z. B. Lockdown, Slowmode und Dehoist](/modcommands)
 	- Automoderation von Scamlinks und -einladungen
 	- Deaktivieren von Discordeinladungen anderer Server
 	- Deaktivieren von Markdown-Headern
-- [Feeds](./feeds)
+- [Feeds](/feeds)
 	- RSS/Atom
 	- YouTube-Videos und -Livestreams
 	- Twitch-Livestreams
 	- neue Minecraft-Vanilla- und Paper-Versionen
 	- Minecraft-Serverstatus
-- [AFK](./afk)
+- [AFK](/afk)
 	- Liste aller AFK-Nutzer auf dem Server
 	- Liste aller Erwähnungen beim Beenden des AFK-Status
-- [Autorollen für Nutzer und Bots getrennt](./autorole)
-- [Autonickname beim Beitreten](./autorole)
-- [Rejoin-/Persistente Rollen, die man beim erneuten Beitreten zurückerhält](./autorole)
-- [Counting](./counting)
+- [Autorollen für Nutzer und Bots getrennt](/autorole)
+- [Autonickname beim Beitreten](/autorole)
+- [Rejoin-/Persistente Rollen, die man beim erneuten Beitreten zurückerhält](/autorole)
+- [Counting](/counting)
 	- Leaderboard
-- [Geburtstage](./birthday)
+- [Geburtstage](/birthday)
 	- auch fiktive Geburtstage unechter Nutzer
 	- Liste aller Geburtstage auf dem Server
 	- Einstellbare Rolle und Nachricht
-- [Level und Leaderboard](./level)
-- [Statistiken in Kanalnamen](./serverstats)
-- [Statistiken auf der Website ohne zeitliches Ablaufdatum](./serverstats)
-- [Tickets](./tickets)
+- [Level und Leaderboard](/level)
+- [Statistiken in Kanalnamen](/serverstats)
+- [Statistiken auf der Website ohne zeitliches Ablaufdatum](/serverstats)
+- [Tickets](/tickets)
 	- Ticketkategorien
-	- [Claiming](./ticketcommands)
+	- [Claiming](/ticketcommands)
 	- Supporter- und Moderatorrollen
 	- Vollständig konfigurierbares Ticketembed sowie Ticketstart-Nachricht pro Kategorie
 	- Transkripte, die wie auf Discord aussehen
-- [Selbst zuweisbare Rollen/Reactionroles mit:](./reactionroles)
+- [Selbst zuweisbare Rollen/Reactionroles mit:](/reactionroles)
 	- Reaktionen
 	- Buttons
 	- Selectmenüs
-- [Synchronisieren über Server hinweg von:](./sync)
+- [Synchronisieren über Server hinweg von:](/sync)
 	- Bans/Unbans
 	- Logs
-- [Votenachrichten für Server und Bots](./voting)
-- [Willkommens- und Leavenachrichten](./welcome-leave)
-- [Starboard](./starboard)
-- [Sticky-Nachrichten](./sticky)
-- [Private Sprachkanäle](./privatevoice)
-- [Giveaways](./giveaways)
-- [Viele verschiedene Spiele](./games)
-- [Automatisches Löschen von Nachrichten in einem Kanal](./autodelete)
-- [Vorschläge](./suggest)
+- [Votenachrichten für Server und Bots](/voting)
+- [Willkommens- und Leavenachrichten](/welcome-leave)
+- [Starboard](/starboard)
+- [Sticky-Nachrichten](/sticky)
+- [Private Sprachkanäle](/privatevoice)
+- [Giveaways](/giveaways)
+- [Viele verschiedene Spiele](/games)
+- [Automatisches Löschen von Nachrichten in einem Kanal](/autodelete)
+- [Vorschläge](/suggest)
 	- verschiedene Kanäle je nach Status oder alle in einem
 	- Reaktionen oder Buttons zum Abstimmen
 	- Nachrichten im Vorschlägekanal werden automatisch zu einem Vorschlag
@@ -117,7 +117,7 @@ All diese Funktionen sind kostenlos verfügbar :D
 - TODO-Liste
 - Umfragen
 - Alle Nutzer im Sprachkanal muten oder deafen
-- [Automatisch updatende Nachrichten für z. B. Serverstatistiken](./autoupdate)
+- [Automatisch updatende Nachrichten für z. B. Serverstatistiken](/autoupdate)
 - Modals (Forms) für Discord erstellen
 - Nutzern mit Nitro eine Rolle zuweisen
 - Umwandlung von Währungen und Maßeinheiten
@@ -127,8 +127,8 @@ All diese Funktionen sind kostenlos verfügbar :D
 - Zufallsfunktionen, z. B. Würfel und Auswahl eines bestimmten Elements einer Liste
 - Erstellen und Lesen von QR-Codes
 - Kategorien mit darin enthaltenen Kanälen klonen
-- [Logs von aufgetretenen Fehlern und Dashboard-Änderungen](./error)
-- [Logging von allen möglichen Aktionen auf dem Server](./logs)
-- [Onlineformulare erstellen](./forms)
-- [Boostnachrichten](./boostmessages)
-- [Customrollen](./customroles)
+- [Logs von aufgetretenen Fehlern und Dashboard-Änderungen](/error)
+- [Logging von allen möglichen Aktionen auf dem Server](/logs)
+- [Onlineformulare erstellen](/forms)
+- [Boostnachrichten](/boostmessages)
+- [Customrollen](/customroles)

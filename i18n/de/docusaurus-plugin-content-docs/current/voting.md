@@ -31,11 +31,14 @@ Nutzer erhalten diese Rolle automatisch beim Voten. Nachdem die festgelegte Zeit
 
 ## Unterstützte Server- und Botlisten
 
+Nutze je nach Server- bzw. Botliste die entsprechende URL als Webhook-URL und das im Dashboard erwähnte Secret als Webhook-Secret.
+
 - Top.gg: `topgg`
-  - Server & Bots
+  - Server: `https://api.tomatenkuchen.com/servervote/<Server-ID>/topgg`
+  - Bots: `https://api.tomatenkuchen.com/botvote/<Server-ID>/topgg`
 - Discordbotlist.com: `dbl`
-  - Bots
+  - Bots: `https://api.tomatenkuchen.com/botvote/<Server-ID>/dbl/<Bot-ID>`
 - Discords.com: `discords`
-  - Bots
+  - Bots: `https://api.tomatenkuchen.com/botvote/<Server-ID>/discords`
 
 Dir fehlt eine Seite? Schlage sie einfach auf unserem [Support-Server](https://tomatenkuchen.com/discord) vor.

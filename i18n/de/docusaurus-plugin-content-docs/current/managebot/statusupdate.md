@@ -11,7 +11,7 @@ Der Manage Bot kann mithilfe der Statusupdate-Funktion den Status, die Konfigura
 
 2. Nachricht bearbeiten
 
-	Mit den Buttons kannst du die Nachricht so anpassen wie du willst. Genauere Informationen zur Verwendung der Variablen folgen noch, aber zusätzlich zu den Funktionen der [TomatenKuchen-Aktionen](/category/action-functions)) existiert `{node;<ID>[;<Wert>]}`, um einen bestimmten Wert einer Node anzuzeigen, und `{nodeConfig;<ID>[;<Wert>]}`, um Informationen über die Konfiguration einer Node anzuzeigen.
+	Mit den Buttons kannst du die Nachricht so anpassen wie du willst. Genauere Informationen zur Verwendung der Variablen folgen noch, aber zusätzlich zu den Funktionen der [TomatenKuchen-Aktionen](/category/action-functions) existiert `{node;<ID>[;<Wert>]}`, um einen bestimmten Wert einer Node anzuzeigen, und `{nodeConfig;<ID>[;<Wert>]}`, um Informationen über die Konfiguration einer Node anzuzeigen.
 	Ebenfalls ist `{nextUpdate}` verfügbar, um den Zeitraum bis zur nächsten Aktualisierung der Nachricht anzugeben. Mit `{nodeStatus;<ID>[;<Online>;<Offline>]}` kann ein Text eingefügt werden, je nachdem, ob die Node online ist oder nicht.
 
 3. Nachricht senden

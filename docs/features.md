@@ -12,56 +12,56 @@ All of those features are available for free! :D
 :::
 
 - Custom bots (custom branding)
-- [Integrations](./integrations)
+- [Integrations](/integrations)
 	- Customcommands? Tags? Boooring, integrations can do much more :D
-- [Moderation](./moderation)
-	- [Many common moderation commands, like lockdown, slowmode and dehoist](./modcommands)
+- [Moderation](/moderation)
+	- [Many common moderation commands, like lockdown, slowmode and dehoist](/modcommands)
 	- Auto moderation of scam links and scam invites
 	- Disabling invite links from other servers
 	- Disabling markdown headers
-- [Feeds](./feeds)
+- [Feeds](/feeds)
 	- RSS/Atom
 	- YouTube videos and livestreams
 	- Twitch livestreams
 	- New Minecraft-Vanilla- und Paper-Versionen
 	- Minecraft server status
-- [AFK](./afk)
+- [AFK](/afk)
 	- List of all AFK users on the server
 	- List of all mentions while AFK after the AFK state ends
-- [Auto roles for bots and users separately](./autorole)
-- [Auto nickname on join](./autorole)
-- [Rejoin/persistent roles which users receive back when rejoining](./autorole)
-- [Counting](./counting)
+- [Auto roles for bots and users separately](/autorole)
+- [Auto nickname on join](/autorole)
+- [Rejoin/persistent roles which users receive back when rejoining](/autorole)
+- [Counting](/counting)
 	- Leaderboard
-- [Birthdays](./birthday)
+- [Birthdays](/birthday)
 	- Fictive birthdays of unreal users
 	- List of all birthdays on the server
 	- Configurable role and message
-- [Level and leaderboard](./level)
-- [Statistics in channel names](./serverstats)
-- [Statistiken auf der Website ohne zeitliches Ablaufdatum](./serverstats)
-- [Tickets](./tickets)
+- [Level and leaderboard](/level)
+- [Statistics in channel names](/serverstats)
+- [Statistiken auf der Website ohne zeitliches Ablaufdatum](/serverstats)
+- [Tickets](/tickets)
 	- Ticket categories
-	- [Claiming](./ticketcommands)
+	- [Claiming](/ticketcommands)
 	- Supporter (staff) and moderator roles
 	- Fully customizable ticket embed and start message per category
 	- Transcripts which look very similar to Discord
-- [Self assignable roles/Reactionroles using:](./reactionroles)
+- [Self assignable roles/Reactionroles using:](/reactionroles)
 	- Reactions
 	- Buttons
 	- Select menus
-- [Syncing across servers of:](./sync)
+- [Syncing across servers of:](/sync)
 	- Bans/Unbans
 	- Logs
-- [Vote messages when voting for a server or bot](./voting)
-- [Welcome and leave messages](./welcome-leave)
-- [Starboard](./starboard)
-- [Sticky messages](./sticky)
-- [Private voice channels](./privatevoice)
-- [Giveaways](./giveaways)
-- [Many games](./games)
-- [Automatic deleting of messages in a channel](./autodelete)
-- [Suggestions](./suggest)
+- [Vote messages when voting for a server or bot](/voting)
+- [Welcome and leave messages](/welcome-leave)
+- [Starboard](/starboard)
+- [Sticky messages](/sticky)
+- [Private voice channels](/privatevoice)
+- [Giveaways](/giveaways)
+- [Many games](/games)
+- [Automatic deleting of messages in a channel](/autodelete)
+- [Suggestions](/suggest)
 	- different channels depending on state or all in one
 	- Reactions or buttons for voting
 	- Messages in the suggestion channel will be automatically converted into a suggestion
@@ -117,7 +117,7 @@ All of those features are available for free! :D
 - TODO list
 - Polls
 - Muting or deafening all users in a voice channel
-- [Automatic updating messages e.g. for server statistics](./autoupdate)
+- [Automatic updating messages e.g. for server statistics](/autoupdate)
 - Creation of modals (forms) for Discord
 - Adding a role to nitro users
 - Converting currencies and other measuring units
@@ -127,8 +127,8 @@ All of those features are available for free! :D
 - Randomizer features, for example rolling a dice or selecting a random element out of a given list
 - Creating and reading QR codes
 - Cloning a category with it's channels
-- [Logs of occured errors and dashboard changes](./error)
-- [Logging of pretty much everything on the server](./logs)
-- [Online forms](./forms)
-- [Boost messages](./boostmessages)
-- [Customroles](./customroles)
+- [Logs of occured errors and dashboard changes](/error)
+- [Logging of pretty much everything on the server](/logs)
+- [Online forms](/forms)
+- [Boost messages](/boostmessages)
+- [Customroles](/customroles)
