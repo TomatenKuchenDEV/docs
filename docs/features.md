@@ -117,7 +117,7 @@ All of those features are available for free! :D
 - TODO list
 - Polls
 - Muting or deafening all users in a voice channel
-- [Automatic updating messages e.g. for server statistics](/autoupdate)
+- [Automatic updating messages e.g. for server statistics or birth calendars](/autoupdate)
 - Creation of modals (forms) for Discord
 - Adding a role to nitro users
 - Converting currencies and other measuring units

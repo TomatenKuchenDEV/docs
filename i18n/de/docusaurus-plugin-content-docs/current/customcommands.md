@@ -3,9 +3,9 @@ title: Customcommands
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt Customcommands und listet mögliche Parameter auf
 ---
 
-:::caution
+:::danger Customcommands sind veraltet
 
-Customcommands sind veraltet und sollten nicht mehr verwendet werden. Sie wurden durch [Integrationen](/integrations) ersetzt - weitere Informationen findest du dort.
+Customcommands sollten nicht mehr verwendet werden. Sie können vollständig durch [Integrationen](/integrations) ersetzt werden. Wenn du Hilfe beim Migrieren brauchst, melde dich auf dem Support-Server.
 
 :::
 

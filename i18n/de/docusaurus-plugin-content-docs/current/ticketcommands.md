@@ -7,6 +7,8 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 
 `ticket [<Grund>]`
 
+Anstelle eines Grundes können Moderatoren und Admins auch einen Nutzer angeben, für den das Ticket erstellt werden soll.
+
 ## Nutzer oder Rolle zum aktuellen Ticket hinzufügen
 
 `add <Nutzer>`

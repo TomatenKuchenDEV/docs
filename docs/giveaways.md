@@ -48,14 +48,14 @@ Users with this role can always participate in giveaways, ignoring any requireme
 You can add different requirements for participating in a giveaway.
 
 Possible requirements:
-* `roles`: Requires all of these roles for participating
-	* `roles:123456789123456789`
-	* `roles:123456789123456789,987654321987654321`
-* `anyRoles`: Requires any of these roles for participating
-* `notRoles`: The user must not have any roles to be able to participate
-* `minAge`: The account of the user must be at least this time old
-	* `minAge:3mo`
-	* `minAge:1 week 2 days`
-* `minMemberAge`: The user must be on the server for this time
-* `minLeaderboardPoints`: The user must have at least this amount of leaderboard points
-	* `minLeaderboardPoints:1000`
+- `roles`: Requires all of these roles for participating
+	- `roles:123456789123456789`
+	- `roles:123456789123456789,987654321987654321`
+- `anyRoles`: Requires any of these roles for participating
+- `notRoles`: The user must not have any roles to be able to participate
+- `minAge`: The account of the user must be at least this time old
+	- `minAge:3mo`
+	- `minAge:1 week 2 days`
+- `minMemberAge`: The user must be on the server for this time
+- `minLeaderboardPoints`: The user must have at least this amount of leaderboard points. Depending on the level cooldown setting one point corresponds to one or two messages.
+	- `minLeaderboardPoints:1000`

@@ -1,6 +1,6 @@
 ---
 title: Server statistics
-description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains on how to set up server statistics
+description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains the setup and usage of server statistics.
 ---
 
 ## Stats in channel names
@@ -12,8 +12,8 @@ Possible variables:
 - `{members}`: Amount of all members on the server
 - `{members.humans}`: Amount of non-bots on the server
 - `{members.bots}`: Amount of bots on the server
-- `{emojis}`: Amount of emojis on the server
-- `{stickers}`: Amount of stickers on the server
+- `{emojis}`: Amount of emojis
+- `{stickers}`: Amount of stickers
 - `{roles}`: Amount of roles
 - `{boosts}`: Amount of boosts
 - `{channels}`: Amount of all channels
@@ -30,27 +30,35 @@ Example: [Vanilla Minigames statistics](https://tomatenkuchen.com/stats?guild=60
 
 TomatenKuchen collects daily statistics of your server. These include:
 - Member count
-- Messages per day
 - Boost count
+- Messages per day
 - Active chatter amount (how many unique users sent a message on your server that day)
 
+The last two are only collected if the [visibility](#visibility) is set to "Public".
+
 ### Possible filters
-Filter werden als Query-Parameter an die URL angehängt: `https://tomatenkuchen.com/stats?guild=608640398595719170?type=messages&time=2w`. Die Verwendung der `?` und `&` in dieser Form ist wichtig.
+
+Filters are appended to the URL as query parameters: `https://tomatenkuchen.com/stats?guild=608640398595719170&type=messages&time=2w`.
 
 - `type`: Only shows the specified stat type.
-	- `?type=members`: Member count
-	- `?type=messages`: Messages per day
-	- `?type=boosts`: Boost count
-	- `?type=chatters`: Active chatter amount
+	- `&type=members`: Member count
+	- `&type=messages`: Messages per day
+	- `&type=boosts`: Boost count
+	- `&type=chatters`: Active chatter amount
 - `time`: Only shows statistics within the given time span:
-	- `?time=1mo`: Only shows statistics of the last months.
+	- `&time=1mo`: Only shows statistics of the last month.
+	- `&time=5d`: Only shows statistics of the last five days.
 
 Those options can also be used for the `stats` command. The command also generates an URL for easier sharing.
 
 ## Settings
 
 ### Visibility
+
 You change change the visibility of the statistics. You can choose from `Public`, `Only Members` and `Disabled`.
 
+Note that "Only Members" and "Disabled" will disable tracking of message and active chatter counts.
+
 ### Excluded channels
+
 You can select channels which will be excluded from message statistic tracking, e.g. for bot spam channels.

@@ -7,6 +7,8 @@ description: TomatenKuchen is a multipurpose Discord bot with many common and in
 
 `ticket [<Reason>]`
 
+Instead of a reason moderators and admins can also specify a user for whom the ticket should be created.
+
 ## Add a user or role to the current ticket
 
 `add <User>`

@@ -144,19 +144,19 @@ const config = {
 					title: "Community",
 					items: [
 						{
-							label: "Supportserver",
+							label: "Support server",
 							href: "https://tomatenkuchen.com/discord"
 						},{
 							label: "Translation",
 							href: "https://translate.tomatenkuchen.com/engage/tomatenkuchen/"
 						},{
-							label: "Docs GitHub",
+							label: "GitHub (Docs)",
 							href: "https://github.com/DEVTomatoCake/tk-docs"
 						}
 					]
 				}
 			],
-			copyright: "Copyright © " + new Date().getFullYear() + " TomatenKuchen. Built with Docusaurus."
+			copyright: "Copyright © " + new Date().getFullYear() + " TomatoCake. Built with Docusaurus."
 		},
 		prism: {
 			defaultLanguage: "javascript",

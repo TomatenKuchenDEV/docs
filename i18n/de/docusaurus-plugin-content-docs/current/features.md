@@ -110,14 +110,14 @@ All diese Funktionen sind kostenlos verfügbar :D
 - Text-zu-Bild-Befehl
 - Bilderstellung und -veränderung
 - Textübersetzung
-- Rechner (Calculator)
+- Taschenrechner
 - Unterschiede zwischen/Vergleich von zwei Texten
 - Backups erstellen und laden, kein Bot hat eine vergleichbare Anzahl an Backupfunktionen
 - Discord-Templates (discord.new) auf vorhandenen Servern laden
 - TODO-Liste
 - Umfragen
 - Alle Nutzer im Sprachkanal muten oder deafen
-- [Automatisch updatende Nachrichten für z. B. Serverstatistiken](/autoupdate)
+- [Automatisch updatende Nachrichten für z. B. Serverstatistiken oder Geburtstagskalender](/autoupdate)
 - Modals (Forms) für Discord erstellen
 - Nutzern mit Nitro eine Rolle zuweisen
 - Umwandlung von Währungen und Maßeinheiten

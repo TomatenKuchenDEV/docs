@@ -1,6 +1,6 @@
 ---
 title: Serverstatistiken
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt die Verwendung von Serverstatistiken
+description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt die Einrichtung und Verwendung von Serverstatistiken.
 ---
 
 ## Statistiken in Kanalnamen
@@ -10,17 +10,17 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 Du kannst die Kanäle, in denen Statistiken angezeigt werden, und wie sie angezeigt werden, in den [Einstellungen](https://tomatenkuchen.com/dashboard/settings) einstellen.
 Mögliche Variablen:
 - `{members}`: Anzahl aller Mitglieder auf dem Server
-- `{members.humans}`; Anzahl der nicht-Bots auf dem Server
-- `{members.bots}`; Anzahl der Bots auf dem Server
-- `{emojis}`; Anzahl der Emojis auf dem Server
-- `{stickers}`; Anzahl der Sticker auf dem Server
-- `{roles}`; Anzahl der Rollen
-- `{boosts}`; Anzahl der Boosts
-- `{channels}`; Anzahl aller Kanäle
-- `{voicechannels}`; Anzahl der Sprachkanäle
-- `{textchannels}`; Anzahl der Textkanäle
-- `{categories}`; Anzahl der Kategorien
-- `{usersWithRole:<id>}`; Anzahl der Mitglieder mit einer bestimmten Rolle. Ersetze `<id>` mit einer Rollen-ID.
+- `{members.humans}`: Anzahl der nicht-Bots auf dem Server
+- `{members.bots}`: Anzahl der Bots auf dem Server
+- `{emojis}`: Anzahl der Emojis
+- `{stickers}`: Anzahl der Sticker
+- `{roles}`: Anzahl der Rollen
+- `{boosts}`: Anzahl der Boosts
+- `{channels}`: Anzahl aller Kanäle
+- `{voicechannels}`: Anzahl der Sprachkanäle
+- `{textchannels}`: Anzahl der Textkanäle
+- `{categories}`: Anzahl der Kategorien
+- `{usersWithRole:<id>}`: Anzahl der Mitglieder mit einer bestimmten Rolle. Ersetze `<id>` mit einer Rollen-ID.
 
 Die Statistiken werden automatisch alle **10 Minuten** aktualisiert.
 
@@ -30,27 +30,35 @@ Beispiel: [Vanilla Minigames Statistiken](https://tomatenkuchen.com/stats?guild=
 
 Der Bot sammelt täglich Statistiken über Server. Dazu gehören:
 - Mitgliederanzahl
-- Nachrichten pro Tag
 - Boostanzahl
+- Nachrichten pro Tag
 - Anzahl aktiver Chatter (wie viele Nutzer an dem Tag eine Nachricht gesendet haben)
 
+Die beiden letzten werden nur gesammelt, wenn die [Sichtbarkeit](#sichtbarkeit) auf "Public" gesetzt ist.
+
 ### Mögliche Filter
-Filter werden als Query-Parameter an die URL angehängt: `https://tomatenkuchen.com/stats?guild=608640398595719170?type=messages&time=2w`. Die Verwendung der `?` und `&` in dieser Form ist wichtig.
+
+Filter werden als Query-Parameter an die URL angehängt: `https://tomatenkuchen.com/stats?guild=608640398595719170&type=messages&time=2w`.
 
 - `type`: Zeigt nur den angegebenen Typ an:
-	- `?type=members`: Mitgliederzahl
-	- `?type=messages`: Nachrichten pro Tag
-	- `?type=boosts`: Boostanzahl
-	- `?type=chatters`: Anzahl aktiver Chatter
+	- `&type=members`: Mitgliederzahl
+	- `&type=messages`: Nachrichten pro Tag
+	- `&type=boosts`: Boostanzahl
+	- `&type=chatters`: Anzahl aktiver Chatter
 - `time`: Zeigt nur Statistiken innerhalb des angegebenen Zeitraums an:
-	- `?time=1mo`: Zeigt nur Statistiken innerhalb des letzten Monats an.
+	- `&time=1mo`: Zeigt nur Statistiken des letzten Monats an.
+	- `&time=5d`: Zeigt nur Statistiken der letzten fünf Tage an.
 
 Diese Optionen können auch beim `stats`-Befehl verwendet werden. Dieser generiert auch eine entsprechende URL, welche geteilt werden kann.
 
 ## Einstellungen
 
 ### Sichtbarkeit
-Du kannst die Sichtbarkeit der Statistiken ändern. Du kannst zwischen "öffentlich", "Nur für Mitglieder des Servers" und "deaktiviert" wählen.
+
+Du kannst die Sichtbarkeit der Statistiken ändern. Du kannst zwischen "Public" ("öffentlich"), "Only Members" ("Nur für Mitglieder des Servers") und "Disabled" ("deaktiviert") wählen.
+
+Beachte, das "Only Members" und "Disabled" das Sammeln von Nachrichtenstatistiken deaktivieren.
 
 ### Kanäle ausschließen
+
 Hier können Kanälen ausgewählt werden, in denen keine Nachrichtenstatistiken gesammelt werden, z. B. für Botspam-Kanäle.
