@@ -1,13 +1,14 @@
 ---
 title: Verifikation
-description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Setup and usage of verification to prevent bots.
+description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Setup and usage of verification to prevent bots joining and raiding.
 ---
 
 Verification can be used to prevent bots joining the server. You can select one of multiple modes to use for verification.
 
 ## Commands
 
-The command `verify` can be used to send a verification message. There is no limit on created messages per server.
+The command `verify` can be used to send a verification message, the settings are configured using the [dashboard](https://tomatenkuchen.com/dashboard/settings).
+There is no limit of created messages per server.
 
 ## Settings
 
@@ -17,6 +18,7 @@ Currently you can select one of the following modes:
 - None
 - Captcha
 - Math task
+- Website captcha
 
 "None" adds the selected roles directly to the user when they click the verify button.
 

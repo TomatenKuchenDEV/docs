@@ -7,7 +7,7 @@ Mithilfe der Voicenotify-Einstellungen kannst du eine Nachricht senden lassen, s
 
 ## Notify-Kanäle
 
-Hier kannst du die Sprachkanäle hinzufügen und für jeden eine eigene Nachricht festlegen.
+Hier kannst du die Sprachkanäle hinzufügen und für jeden eine individuelle Nachricht festlegen.
 
 ### Nachricht
 

@@ -12,11 +12,11 @@ Formulare werden mit dem Befehl `form` erstellt und verwaltet.
 ## Einstellungen für jedes Formular
 
 Bei jedem Formular können die folgenden Einstellungen individuell angepasst werden:
-- Titel
-- Slug, der in der URL verwendet wird
-- Ob nur Mitglieder des Servers eine Antwort absenden können oder alle mit der URL
-- Ob die Antworten anonym in den Ergebniskanal gesendet werden oder nicht. Der Nutzer muss sich aufgrund der anderen Bedingungen trotzdem anmelden.
-- Ob der Bot einen Thread auf einer Ergebnisnachricht auf Discord zur Diskussion erstellt.
+- Titel, der über dem Formular angezeigt wird
+- Slug, der in der URL verwendet wird. Der Slug lässt sich einfacher merken als die zufällig generierte ID.
+- Ob nur Mitglieder des Servers eine Antwort absenden können oder alle mit der Form-URL
+- Ob die Antworten anonym in den Ergebniskanal gesendet werden oder nicht. Beachte, dass sich der Nutzer trotzdem noch anmelden muss, diese Einstellung ändert nur, ob Nutzerinformationen auf Discord angezeigt werden oder nicht.
+- Ob der Bot einen Thread auf einer Ergebnisnachricht auf Discord zur Diskussion erstellt
 - Ob ein Nutzer nur eine Antwort senden kann oder mehrere
 - Wie lange ein Nutzer zwischen zwei Antworten warten muss (Standard: fünf Minuten)
 
@@ -28,7 +28,7 @@ Es gibt verschiedene Feldtypen, welche beim Bearbeiten von Feldern geändert wer
 - Mehrzeiliges Textfeld
 - Passwortfeld
 - Zahlenfeld
-- Rangeauswahl für eine Rahl
+- Rangeauswahl für eine Zahl
 - Auswahl aus einer Liste von Optionen
 - Eine oder mehrere Checkboxen
 - Datumsauswahl
