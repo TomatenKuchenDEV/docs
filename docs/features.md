@@ -123,7 +123,7 @@ All of those features are available for free! :D
 - Converting currencies and other measuring units
 - Purging messages with many filters
 - Kicking and banning users with many filters
-- Sending embeds and components, for example buttons, created by you or someone else
+- [Sending messages with embeds and components, for example buttons](https://embed.tomatenkuchen.com)
 - Randomizer features, for example rolling a dice or selecting a random element out of a given list
 - Creating and reading QR codes
 - Cloning a category with it's channels

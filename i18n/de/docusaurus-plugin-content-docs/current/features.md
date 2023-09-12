@@ -123,7 +123,7 @@ All diese Funktionen sind kostenlos verfügbar :D
 - Umwandlung von Währungen und Maßeinheiten
 - Löschen von Nachrichten mit vielen Filtern
 - Kicken und Bannen von Nutzern mit Filtern
-- Senden von selbst erstellten Embeds und Komponenten, z. B. Buttons
+- [Senden von selbst erstellten Nachrichten mit Embeds und Komponenten, z. B. Buttons](https://embed.tomatenkuchen.com)
 - Zufallsfunktionen, z. B. Würfel und Auswahl eines bestimmten Elements einer Liste
 - Erstellen und Lesen von QR-Codes
 - Kategorien mit darin enthaltenen Kanälen klonen
