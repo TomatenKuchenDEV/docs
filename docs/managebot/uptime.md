@@ -11,4 +11,6 @@ For the bot to track a web page or a node you have to add it using the command `
 
 If the page or node is reachable when adding it'll be crawled - depending on the amount of trackers on the server - once a minute. Note that the first crawling may take a few minutes.
 
-Once the page or node has been crawled you can see the first stats using `/uptime list`.
+Once the page or node has been crawled the first time you can see stats using `/uptime list`.
+
+The bot checks every minute a web page or node per server, a minute later the next one and so on. If the server has only one URL or node set it's crawled every minute.

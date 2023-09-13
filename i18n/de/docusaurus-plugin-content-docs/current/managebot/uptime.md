@@ -11,4 +11,6 @@ Um eine Seite oder eine Node zu tracken, muss sie mit dem Befehl `/uptime add` h
 
 Wenn die Seite bzw. die Node zum Zeitpunkt des Hinzufügens erreichbar ist, wird sie ab jetzt - je nach Anzahl der auf dem Server vorhandenen Tracker - einmal pro Minute aufgerufen. Beachte, dass das erste Aufrufen einige Minuten länger dauern kann.
 
-Sobald die Seite aufgerufen worden ist sind die ersten Statistiken bei `/uptime list` sichtbar.
+Sobald die Seite vom Bot aufgerufen worden ist, sind die ersten Statistiken bei `/uptime list` sichtbar.
+
+Der Bot ruft jede Minute eine Seite oder Node pro Server ab, eine Minute später die nächste usw. Wenn auf dem Server nur eine URL oder Node hinzugefügt ist, wird diese jede Minute abgerufen.
