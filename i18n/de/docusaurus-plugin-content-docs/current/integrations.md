@@ -23,11 +23,11 @@ Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integra
 - Nachrichteninhalt matcht RegEx
 	- Argument: RegEx, mit dem geprüft werden soll, siehe [RegEx-Cheatsheet](#regex-cheatsheet)
 - Button gedrückt
-	- Argument: Button custom ID
+	- Argument: Button-Custom-ID
 - Selectmenü ausgewählt
-	- Argument: Select menu custom ID
+	- Argument: Selectmenü-Custom-ID
 - Modal abgesendet
-	- Argument: Modal custom ID
+	- Argument: Modal-Custom-ID
 - Discord-AutoMod ausgelöst (z. B. für eigene Bestrafungen, wenn eine bestimmte Regel ausgelöst wird)
 	- Argument (optional): ID einer Regel
 - Slashcommand eines anderen Bots verwendet (z. B. für `/bump`-Erinnerungen)
@@ -42,15 +42,15 @@ Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integra
 	- Argument: <code>create</code>, <code>delete</code> oder <code>all</code>/leer
 - Webhook erstellt/gelöscht
 	- Argument: <code>create</code>, <code>delete</code> oder <code>all</code>/leer
-- Thread (oder Post) erstellt/gelöscht
+- Thread (oder Forumpost) erstellt/gelöscht
 	- Argument: <code>create</code>, <code>delete</code> oder <code>all</code>/leer
 - Nickname geändert
 - Server geboosted/Boosts entfernt
 	- Argument: <code>boost</code>, <code>boostend</code> oder <code>all</code>/leer
 - Intervall
-	- Argument: Interval time like <code>45m</code>, can have random offsets after bot restarts, min 5 mins, max 2 days
+	- Argument: Intervall-Zeit wie z. B. <code>45m</code>, kann zufällige Verschiebungen nach Botneustarts haben, mindestens fünf Minuten, maximal zwei Tage
 - Cronjob
-	- Argument: The cronjob, for example from https://crontab.guru, min 5 mins
+	- Argument: Der Cronjob, z. B. von https://crontab.guru, maximal einmal alle fünf Minuten
 - Nutzer betritt/verlässt Sprachkanal
 	- Argument: <code>join</code>, <code>leave</code> oder <code>all</code>/leer
 - Nutzer ge- oder enttimeouted

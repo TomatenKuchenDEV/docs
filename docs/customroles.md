@@ -17,9 +17,9 @@ If no role is selected customroles cannot be created or edited.
 
 ### Roles which can create customroles
 
-You can select roles which can create customroles here. If a user has none of those roles, they can't use the command.
+You can select roles which can create customroles here. If a user has none of these roles, they can't use the command.
 
-You can for example select a booster role.
+You can select for example a booster or VIP role.
 
 ### Hoisting custom roles
 

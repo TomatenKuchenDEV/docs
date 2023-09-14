@@ -21,7 +21,7 @@ Integrations can be managed in the [dashboard](https://tomatenkuchen.com/dashboa
 - Message content contains
 	- Argument: Text content to search for
 - Message content matches RegEx
-	- Argument: RegEx, mit dem geprüft werden soll, siehe [RegEx-Cheatsheet](#regex-cheatsheet)
+	- Argument: RegEx to use for checking the content, ref. [RegEx cheatsheet](#regex-cheatsheet)
 - Button press
 	- Argument: Button custom ID
 - Select menu select
@@ -29,9 +29,9 @@ Integrations can be managed in the [dashboard](https://tomatenkuchen.com/dashboa
 - Modal submit
 	- Argument: Modal custom ID
 - Discord AutoMod triggered (e.g. for custom punishments when triggering a specific rule)
-	- Argument (optional): ID einer Regel
+	- Argument (optional): ID of a rule
 - Slash command uses of another bot (e.g. for `/bump` reminders)
-	- Argument: Slashcommand-Name des anderen Bots
+	- Argument: Slashcommand name of another bot
 - Member join/leave
 	- Argument: <code>join</code>, <code>leave</code> oder <code>all</code>/empty
 - Reaction add/remove
@@ -48,7 +48,7 @@ Integrations can be managed in the [dashboard](https://tomatenkuchen.com/dashboa
 - Server boost/boostend
 	- Argument: <code>boost</code>, <code>boostend</code> oder <code>all</code>/empty
 - Interval
-	- Argument: Interval time like <code>45m</code>, can have random offsets after bot restarts, min 5 mins, max 2 days
+	- Argument: Interval time like <code>45m</code>, may have random offsets after bot restarts, min 5 mins, max 2 days
 - Cronjob
 	- Argument: The cronjob, for example from https://crontab.guru, min 5 mins
 - User joins/leave voice channel

@@ -19,7 +19,7 @@ Wenn keine Rolle ausgewählt ist können Customrollen nicht erstellt und nicht b
 
 Hier können Rollen ausgewählt werden, welche Customrollen erstellen können. Wenn ein Nutzer keine dieser Rolle hat, kann er den Befehl nicht verwenden.
 
-Du kannst hier z. B. eine Boosterrolle auswählen.
+Du kannst hier z. B. eine Booster- oder VIP-Rolle auswählen.
 
 ### Customrollen hoisten
 
