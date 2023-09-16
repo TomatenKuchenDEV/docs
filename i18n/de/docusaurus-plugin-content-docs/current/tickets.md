@@ -1,5 +1,5 @@
 ---
-title: Ticketbefehle
+title: Ticketfunktionen
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt die Funktionen und Einstellungen des Ticketsystems.
 ---
 

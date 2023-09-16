@@ -1,5 +1,5 @@
 ---
-title: Ticketcommands
+title: Ticket commands
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Lists the ticket commands.
 ---
 
@@ -11,15 +11,17 @@ Instead of a reason moderators and admins can also specify a user for whom the t
 
 ## Add a user or role to the current ticket
 
-`add <User>`
+`add <User|Role>`
 
 ## Remove a user or role from the current ticket
 
-`remove <User>`
+`remove <User|Role>`
 
 ## Close ticket
 
 `close [<Reason>]`
+
+This will send the user a DM if this setting is enabled in the dashboard.
 
 ## Delete ticket
 
@@ -29,11 +31,8 @@ In order to delete a ticket you need one of the ticket manager roles or the "Man
 
 ## Claiming
 
-`claim`
-Claims the ticket.
-
-`claim <Other user>`
-Transfers the current ticket to the other user.
+- `claim`: Claims the current ticket.
+- `claim <Other user>`: Transfers the current ticket to the other user.
 
 ## Reopen a closed ticket
 

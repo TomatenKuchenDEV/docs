@@ -5,6 +5,8 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 
 Mit TomatenKuchen kannst du schnell und einfach Onlineformulare für alle möglichen Zwecke erstellen.
 
+![Formularbeispiel](/img/forms_example.png)
+
 ## Einrichtung
 
 Formulare werden mit dem Befehl `form` erstellt und verwaltet.

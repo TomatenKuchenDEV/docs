@@ -5,6 +5,8 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 
 Die Verifikation kann verwendet werden, um potentielle Bots am Beitreten auf den Server zu hindern. Du kannst zwischen verschiedenen Modi wählen, die zur Verifikation verwendet werden.
 
+![Website-Verifikations-Beispiel](/img/verification_website.png)
+
 ## Befehle
 
 Der Befehl `verify` wird zum Setup einer Verifikationsnachricht verwendet, die Einstellungen werden im [Dashboard](https://tomatenkuchen.com/dashboard/settings) durchgeführt.

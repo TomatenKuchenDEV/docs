@@ -1,9 +1,9 @@
 ---
-title: Twitchmodule for e.g. livestreams
+title: Twitch module for e.g. livestreams
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Using the bot you can send a message if a Twitch streamer goes live or something else changes.
 ---
 
-The twitch module has several options for sending messages on changes of a streamer.
+The Twitch module has several options for sending messages on changes of a streamer.
 
 Note that you have to authorize yourself first in the settings to be able to use the Twitch module.
 
@@ -21,4 +21,6 @@ You can set the username, the channel, the trigger and the message which is sent
 - `channel.raid`: When the channel is raided
 - `user.update`: When the user updates it's public account data
 
-If you create `stream.online` and `stream.offline` triggers for every streamer you want to be notified for, you can currently add up to 5 streamers per server.
+You can create up to 10 triggers per server.
+
+That means, if you create `stream.online` and `stream.offline` triggers for every streamer you want to be notified for, you can currently add up to 5 streamers per server.

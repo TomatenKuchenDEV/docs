@@ -5,7 +5,9 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 
 Mit Customrollen kannst du deinen Mitgliedern erlauben, sich eine eigene Rolle zu erstellen. Davon können sie den Namen, die Farbe und das Rollenicon (wenn durch Boostlevel freigeschaltet) ändern.
 
-Die Verwaltung einer Customrole funktioniert mit dem Befehl `customrole`.
+Die Verwaltung einer Customrolle funktioniert mit dem Befehl `customrole`.
+
+![Customrollen-Info](/img/customrole_info.png)
 
 ## Einstellungen
 

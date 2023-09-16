@@ -11,15 +11,17 @@ Anstelle eines Grundes können Moderatoren und Admins auch einen Nutzer angeben,
 
 ## Nutzer oder Rolle zum aktuellen Ticket hinzufügen
 
-`add <Nutzer>`
+`add <Nutzer|Rolle>`
 
 ## Nutzer oder Rolle vom aktuellen Ticket entfernen
 
-`remove <Nutzer>`
+`remove <Nutzer|Rolle>`
 
 ## Ticket schließen
 
 `close [<Grund>]`
+
+Dies wird dem Nutzer eine PN senden, wenn diese Einstellung im Dashboard aktiviert ist.
 
 ## Ticket löschen
 

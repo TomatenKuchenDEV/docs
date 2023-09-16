@@ -1,9 +1,11 @@
 ---
-title: Verifikation
+title: Verification
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Setup and usage of verification to prevent bots joining and raiding.
 ---
 
 Verification can be used to prevent bots joining the server. You can select one of multiple modes to use for verification.
+
+![Website verification example](/img/verification_website.png)
 
 ## Commands
 

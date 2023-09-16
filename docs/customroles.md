@@ -1,11 +1,13 @@
 ---
-title: Customrollen
+title: Customroles
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Customroles allow users to created their own customized role on the server.
 ---
 
 Using customroles you can allow your users to create their own role. They can change it's name, color and role icon (if unlocked through boost level).
 
 Customroles are configured using the command `customrole`.
+
+![Customrole info](/img/customrole_info.png)
 
 ## Settings
 

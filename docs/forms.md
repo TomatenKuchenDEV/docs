@@ -5,6 +5,8 @@ description: TomatenKuchen is a multipurpose Discord bot with many common and in
 
 Using TomatenKuchen you can create online forms for all kind of purposes fast and easy.
 
+![Forms example](/img/forms_example.png)
+
 ## Setup
 
 Forms are created and managed using the command `form`.

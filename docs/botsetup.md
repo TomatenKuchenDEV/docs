@@ -8,10 +8,6 @@ slug: /
 
 Du verstehst Deutsch? Dann verwende [die deutsche Version dieser Docs](https://docs.tomatenkuchen.com/de/).
 
-:::
-
-:::info
-
 You can change the language of the docs anytime using the navbar.
 
 :::

@@ -88,6 +88,8 @@ Diese Integrationen wurden von unserem Team erstellt oder von diesem verifiziert
 - [Zufälligen Comic von xkcd.com anzeigen](https://tomatenkuchen.com/dashboard/integrations?info=xkcd)
 - [Automatische Übersetzung von Nachrichten in einem Kanal](https://tomatenkuchen.com/dashboard/integrations?info=autotranslate), zeigt die Verwendung verschiedener Funktionen zur Aktionseinschränkung
 
+![Wetter-Integration-Beispiel](/img/integration_weather.png)
+
 ## RegEx-Cheatsheet
 
 | Zeichen   | Beschreibung                   | Beispiel                 |
