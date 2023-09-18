@@ -5,7 +5,7 @@ description: TomatenKuchen is a multipurpose Discord bot with many common and in
 
 ### Rock paper scissors
 
-Play rock paper scissors with a user or the bot.
+Play rock paper scissors against a user or the bot.
 
 `game rps [<User>]`
 
@@ -26,12 +26,6 @@ Let other members guess your text before the stickman is dead.
 Play Connect Four against a user.
 
 `game connect4 <User>`
-
-### Among Us
-
-Play a game similar to Among Us with other users.
-
-`game amongus`
 
 ### Snake
 

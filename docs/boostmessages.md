@@ -17,7 +17,7 @@ The bot will send a message into this message once a user boosts the server for 
 
 The bot will send a message into this channel once a user removes all it's boosts from the server.
 
-### Boost (end) message
+### Boost message & boost end message
 
 Setting for configuring the message which is sent once a user boosts the server for the first time or removes it's last boost.
 

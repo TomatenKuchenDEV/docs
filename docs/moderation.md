@@ -3,10 +3,10 @@ title: Moderation
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains all moderation settings.
 ---
 
-## Block headers
-Blocks the markdown headers `#`, `##` and `###`.
+## Block markdown headers
+Prevents users from sending messages starting with markdown headers (`#`, `##` and `###`). This can prevent flooding of channels by using big text.
 
-## Block invites
+## Delete invites
 Deletes Discord invites which aren't for the current server.
 
 ## Antispam

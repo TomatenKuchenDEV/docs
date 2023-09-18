@@ -3,14 +3,18 @@ title: Sticky-Nachrichten
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt die Funktion und das Setup von Sticky-Nachrichten
 ---
 
-Es können Sticky-Nachrichten festgelegt werden, die immer am Ende des festgelegten Kanals sind. Diese Funktion kann verwendet werden, wenn die Kanalbeschreibung nicht zum Erklären der Kanalregeln ausreicht oder aus einem anderen Grund eine Nachricht immer am Ende des Kanal sein sollte.
+Mit TomatenKuchen kannst du Sticky-Nachrichten erstellen, welche vom Bot immer am Ende des Kanals gehalten werden. Das heißt, dass der Bot seine alte Nachricht löscht und die festgelegte Nachricht erneut sendet, sobald jemand etwas in den Kanal schreibt.
+
+Diese Funktion kann verwendet werden, wenn die Kanalbeschreibung nicht zum Erklären der Kanalregeln ausreicht oder aus einem anderen Grund eine Nachricht immer am Ende des Kanal sein sollte.
 
 ## Einstellungen pro Sticky-Nachricht
 
 Der Inhalt und die Embeds der Nachricht können frei gewählt werden.
 
 ### Kanal
+
 In welchem Kanal die Sticky-Nachricht gesendet werden soll
 
 ### Antworten auf Bots
-Ob der Bot auf andere Bots reagieren soll, wenn diese eine Nachricht senden. Wenn deaktiviert reagiert TomatenKuchen nur auf Nutzer.
+
+Ob der Bot auf andere Bots reagieren soll, wenn diese eine Nachricht in den Kanal senden. Wenn deaktiviert reagiert TomatenKuchen nur auf Nutzer.

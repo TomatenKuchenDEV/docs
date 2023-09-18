@@ -17,7 +17,7 @@ In diesen Kanal wird eine Nachricht gesendet, wenn ein Nutzer das erste Mal den 
 
 In diesen Kanal wird eine Nachricht gesendet, wenn ein Nutzer alle seine Boosts vom Server entfernt hat.
 
-### Boost-(End)-Nachricht
+### Boost-(End-)Nachricht
 
 Hier kann die Nachricht, die beim Boosten bzw. Ende des Boostens gesendet wird, angepasst werden.
 

@@ -3,10 +3,10 @@ title: Moderationseinstellungen
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärungen zu den möglichen Moderationseinstellungen.
 ---
 
-## Header blockieren
-Blockiert die Markdown-Header `#`, `##` und `###`.
+## Markdown-Header blockieren
+Verhindert, dass Nutzer Nachrichten senden, die mit Markdown-Überschriften (`#`, `##` und `###`) beginnen. So kann das Flooden des Kanals mit großen Überschriften verhindert werden.
 
-## Einladungen blockieren
+## Fremdeinladungen löschen
 Löscht Discord-Einladungen, die nicht für den aktuellen Server sind.
 
 ## Antispam
@@ -22,7 +22,7 @@ Hier können die Nachrichten bearbeitet werden, die Nutzer per PN erhalten, wenn
 In diesen Kanälen können Nutzer nur Anhänge, z. B. Bilder oder Videos, senden. Nur Text ist nicht erlaubt, Nachrichten können aber einen optionalen Text beeinhalten.
 
 ## Mindestaccountalter
-Mindestalter für Discord-Nutzer, die dem Server neu beitreten. Wenn diese nicht alt genug sind werden sie gekickt.
+Mindestalter für Discord-Nutzer, die dem Server neu beitreten. Wenn diese nicht alt genug sind, werden sie gekickt.
 
 ## Grund erzwingen
 Erzwingt einen Grund bei Moderationsaktionen.

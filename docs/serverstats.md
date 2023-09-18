@@ -8,19 +8,7 @@ description: TomatenKuchen is a multipurpose Discord bot with many common and in
 ![](https://tomatenkuchen.com/assets/images/stats.webp)
 
 You can set the channels in which and how the statistics are displayed in the [settings](https://tomatenkuchen.com/dashboard/settings).
-Possible variables:
-- `{members}`: Amount of all members on the server
-- `{members.humans}`: Amount of non-bots on the server
-- `{members.bots}`: Amount of bots on the server
-- `{emojis}`: Amount of emojis
-- `{stickers}`: Amount of stickers
-- `{roles}`: Amount of roles
-- `{boosts}`: Amount of boosts
-- `{channels}`: Amount of all channels
-- `{voicechannels}`: Amount of voice channels
-- `{textchannels}`: Amount of text channels
-- `{categories}`: Amount of categories
-- `{usersWithRole:<id>}`: Amount of members with a specific role. Replace `<id>` with a role ID.
+Most [action functions](/category/action-functions) can be used here.
 
 The stats are automatically updated every **10 minutes**.
 

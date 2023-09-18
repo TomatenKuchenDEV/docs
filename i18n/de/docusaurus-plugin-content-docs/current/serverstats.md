@@ -8,19 +8,7 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 ![](https://tomatenkuchen.com/assets/images/stats.webp)
 
 Du kannst die Kanäle, in denen Statistiken angezeigt werden, und wie sie angezeigt werden, in den [Einstellungen](https://tomatenkuchen.com/dashboard/settings) einstellen.
-Mögliche Variablen:
-- `{members}`: Anzahl aller Mitglieder auf dem Server
-- `{members.humans}`: Anzahl der nicht-Bots auf dem Server
-- `{members.bots}`: Anzahl der Bots auf dem Server
-- `{emojis}`: Anzahl der Emojis
-- `{stickers}`: Anzahl der Sticker
-- `{roles}`: Anzahl der Rollen
-- `{boosts}`: Anzahl der Boosts
-- `{channels}`: Anzahl aller Kanäle
-- `{voicechannels}`: Anzahl der Sprachkanäle
-- `{textchannels}`: Anzahl der Textkanäle
-- `{categories}`: Anzahl der Kategorien
-- `{usersWithRole:<id>}`: Anzahl der Mitglieder mit einer bestimmten Rolle. Ersetze `<id>` mit einer Rollen-ID.
+Hier können die meisten [Aktions-Funktionen](/category/action-functions) verwendet werden.
 
 Die Statistiken werden automatisch alle **10 Minuten** aktualisiert.
 
