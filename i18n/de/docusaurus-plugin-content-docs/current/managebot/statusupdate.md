@@ -7,7 +7,7 @@ Der Manage Bot kann mithilfe der Statusupdate-Funktion den Status, die Konfigura
 
 1. `/statusupdate`
 
-	Zuerst führst du den Statusupdate-Befehl aus. Dabei kannst du optional den Kanal auswählen, standardmäßig wird der aktuelle Kanal verwendet. Du kannst auch den Panelalias eines Panels angeben, bei dem sowohl Client- als auch Application-API-Key angegeben worden sind.
+	Zuerst führst du den Statusupdate-Befehl aus. Dabei kannst du optional den Kanal auswählen, standardmäßig wird der aktuelle Kanal verwendet. Du kannst auch den Panelalias eines Panels angeben, bei dem **sowohl Client-** (`/setup`) **als auch Application-API-Key** (`/adminsetup`) angegeben worden sind.
 
 2. Nachricht bearbeiten
 

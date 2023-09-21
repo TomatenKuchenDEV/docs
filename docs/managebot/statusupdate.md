@@ -7,7 +7,8 @@ The Manage Bot can display the status, the configuration or the resource usage o
 
 1. `/statusupdate`
 
-	Zuerst führst du den Statusupdate-Befehl aus. Dabei kannst du optional den Kanal auswählen, standardmäßig wird der aktuelle Kanal verwendet. Du kannst auch den Panelalias eines Panels angeben, bei dem sowohl Client- als auch Application-API-Key angegeben worden sind.
+	First you execute the statusupdate command. You can optionally select a channel, by default the current channel is selected. You can also select a panel alias of a
+	panel which has **both client** (`/setup`) **as well as admin API keys** (`/adminsetup`) set.
 
 2. Edit message
 
