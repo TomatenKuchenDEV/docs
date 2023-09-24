@@ -1,5 +1,5 @@
 ---
-title: Liste aller TomatenKuchen-Features
+title: Featureliste
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Diese Seite listet alle zum aktuellen Zeitpunkt verfügbaren Features des Bots auf.
 ---
 

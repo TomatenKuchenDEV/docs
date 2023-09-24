@@ -1,5 +1,5 @@
 ---
-title: List of all TomatenKuchen features
+title: Feature list
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. This page lists all features currently available.
 ---
 
