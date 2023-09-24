@@ -36,18 +36,29 @@ Wenn `forceban` verwendet wird überprüft der Bot nicht, ob der Nutzer bereits 
 `purge <Anzahl> [<Filter>] [pinned]`
 
 `<Filter>` kann einer der folgenden sein:
-* `<Nutzer>`: Löscht alle Nachrichten von einem Nutzer
-* bot: Löscht alle Nachrichten von Bots
-* nobot: Löscht alle Nachrichten von Menschen
-* embed: Löscht alle Nachrichten mit Embeds
-* file: Löscht alle Nachrichten mit Anhängen
-* mention: Löscht alle Nachrichten mit Erwähnungen
-* link: Löscht alle Nachrichten mit Links
-* emoji: Löscht alle Nachrichten mit Emojis
-* `contains <Text>`: Löscht alle Nachrichten, die einen bestimmten Text enthalten
-* `notcontains <Text>`: Löscht alle Nachrichten, die einen bestimmten Text *nicht* enthalten
+- `<Nutzer>`: Löscht alle Nachrichten von einem Nutzer
+- bot: Löscht alle Nachrichten von Bots
+- nobot: Löscht alle Nachrichten von Menschen
+- embed: Löscht alle Nachrichten mit Embeds
+- file: Löscht alle Nachrichten mit Anhängen
+- mention: Löscht alle Nachrichten mit Erwähnungen
+- link: Löscht alle Nachrichten mit Links
+- emoji: Löscht alle Nachrichten mit Emojis
+- `contains <Text>`: Löscht alle Nachrichten, die einen bestimmten Text enthalten
+- `notcontains <Text>`: Löscht alle Nachrichten, die einen bestimmten Text *nicht- enthalten
 
 Wenn `pinned` angegeben wird werden auch angepinnte Nachrichten gelöscht.
+
+Du kannst auch mithilfe der Parameter `-after=<Nachrichten-ID>` und `-before=<Nachrichten-ID>` Nachrichten löschen, die zwischen zwei verschiedenen Nachrichten gesendet wurden.
+
+:::info Nicht alle Nachrichten wurden gelöscht?
+
+Wenn TomatenKuchen nicht die Anzahl an Nachrichten gelöscht hat, die du angegeben hast, kann das folgende Gründe haben:
+- Die Nachrichten sind älter als zwei Wochen
+- Die Nachrichten sind angepinnt und `pinned` wurde nicht als Argument angegeben
+- Die Nachrichten entsprechen nicht dem Filter
+
+:::
 
 ## Text ausgeben
 
