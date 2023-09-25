@@ -15,7 +15,7 @@ All diese Funktionen sind kostenlos verfügbar :D
 - [Integrationen](/integrations)
 	- Customcommands? Tags? Langweilig, Integrationen sind besser
 - [Moderation](/moderation)
-	- [Viele Standardmoderationsbefehle, z. B. Lockdown, Slowmode und Dehoist](/modcommands)
+	- [Viele Standardmoderationsbefehle, z. B. Lockdown, Slowmode und Dehoist](/category/modcommands)
 	- Automoderation von Scamlinks und -einladungen
 	- Deaktivieren von Discordeinladungen anderer Server
 	- Deaktivieren von Markdown-Headern
