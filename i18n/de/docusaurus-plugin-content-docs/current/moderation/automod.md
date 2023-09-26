@@ -1,5 +1,5 @@
 ---
-title: Moderationseinstellungen
+title: AutoMod-Einstellungen
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärungen zu den möglichen Moderationseinstellungen.
 ---
 

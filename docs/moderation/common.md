@@ -1,5 +1,5 @@
 ---
-title: Moderation commands
+title: Basic moderation commands
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Lists moderation commands
 ---
 

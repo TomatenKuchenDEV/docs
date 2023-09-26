@@ -1,6 +1,7 @@
 ---
 title: Fehler aufgetreten?
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt, was bei einem Fehler zu tun ist.
+image: /img/logs_overview.png
 ---
 
 Du hast einen Fehler entdeckt, z. B. eine "Es ist ein Fehler bei der Ausführung des Befehls `...` aufgetreten"-Nachricht erhalten oder etwas funktioniert nicht wie erwartet?

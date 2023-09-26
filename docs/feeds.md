@@ -1,6 +1,7 @@
 ---
 title: Feeds
-description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains how to set up RSS and other feeds
+description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains how to use RSS, Atom, Minecraft, YouTube and Twitch feeds.
+image: /img/feed_example.png
 ---
 
 This page will help you to setup RSS and other feeds using the Discord bot.

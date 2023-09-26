@@ -15,7 +15,7 @@ All of those features are available for free! :D
 - [Integrations](/integrations)
 	- Customcommands? Tags? Boooring, integrations can do much more :D
 - [Moderation](/moderation)
-	- [Many common moderation commands, like lockdown, slowmode and dehoist](/category/modcommands)
+	- [Many common moderation commands, like lockdown, slowmode and dehoist](/category/moderation)
 	- Auto moderation of scam links and scam invites
 	- Disabling invite links from other servers
 	- Disabling markdown headers

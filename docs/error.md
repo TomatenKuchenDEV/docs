@@ -1,6 +1,7 @@
 ---
 title: An error occurred?
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Here you can find information about errors and logs.
+image: /img/logs_overview.png
 ---
 
 You've encountered an error, e.g. a "An error occurred while executing the command `...`" message or something doesn't work as expected?

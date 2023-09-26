@@ -21,6 +21,8 @@ Button under the giveaway
 
 `giveaway reroll <message ID>`
 
+This will pick one or the configured amount of winners again after a giveaway has ended. Users can win multiple times.
+
 ### End
 
 `giveway end <message ID>`

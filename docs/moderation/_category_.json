@@ -1,0 +1,8 @@
+{
+	"position": 5,
+	"label": "Moderation",
+	"link": {
+		"type": "generated-index",
+		"title": "Lists moderation commands and other tools for keeping your server clean."
+	}
+}

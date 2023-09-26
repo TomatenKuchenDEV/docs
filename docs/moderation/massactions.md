@@ -1,6 +1,6 @@
 ---
 title: Mass actions
-description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Lists moderation commands
+description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains how to use mass actions like mass kicking and banning as well as adding and removing roles from many users.
 ---
 
 ## Ban users

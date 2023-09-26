@@ -21,6 +21,8 @@ Button unter dem Giveaway
 
 `giveaway reroll <Nachrichten-ID>`
 
+Diese Funktion wählt einen oder die eingestellte Anzahl an Gewinnern aus. Nutzer können auch mehrfach ausgewählt werden.
+
 ### Beenden
 
 `giveway end <Nachrichten-ID>`
