@@ -19,3 +19,7 @@ Ebenfalls kannst du einstellen, ob Nachrichtenbefehle gelöscht werden sollen od
 ## Du musst eine "ID" angeben?
 
 Um eine ID zu kopieren rechtsklickst du die entsprechende Nachricht, den Nutzer, den Kanal oder den Server. Wenn es keine Option zum Kopieren der ID gibt, stelle sicher, dass du den Entwicklermodus von Discord aktiviert hast. Folge dazu [dem Tutorial von Discord](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-).
+
+## Befehlssyntax
+
+Befehle werden immer mit der Syntax `befehl <Erforderliches Argument> [<Optionales Argument>] Erforderliches|Argument|mit|mehreren|Optionen`.

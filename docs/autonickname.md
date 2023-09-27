@@ -1,6 +1,7 @@
 ---
 title: Automatic nickname based on roles
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Hilft beim Einrichten der rollenbasierten Nicknamen.
+image: /img/autonick.png
 ---
 
 TomatenKuchen can change the nickname of users based on their roles.

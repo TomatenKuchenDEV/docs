@@ -1,6 +1,7 @@
 ---
 title: Reaction, button and select roles
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains how to use reaction, button and select roles
+image: /img/button_selectrole.png
 ---
 
 ![](/img/de_add_reactionrole.png)
@@ -16,7 +17,7 @@ You can then select the channel and whether your new role should be added to an 
 You can select the type below:
 
 ### Reactionrole
-Use a reaction to get the role. Removing the reaction will remove the role.
+Use a reaction to get the role. Removing the reaction will remove the role from the user.
 Up to 20 reactions per message are supported.
 
 ### Buttonrole

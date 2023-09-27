@@ -1,6 +1,7 @@
 ---
 title: Autoupdate
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains autoupdating message and lists possible variables
+image: /img/autoupdate_example.png
 ---
 
 Autoupdate ("automatically updating messages") are messages which auto update **every 10 minutes**. You can use them to display statistics in messages or to create a birthday calendar.

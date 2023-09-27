@@ -27,3 +27,7 @@ You can also configure whether the bot should delete message commands or not.
 ### You have to enter an "ID"?
 
 To copy an ID right click the message, the user, the channel or the server. If there's no option to copy the ID, make sure you have the developer mode enabled. To do that, follow [the tutorial by Discord](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-).
+
+## Command syntax
+
+Commands are always displayed as `command <Required argument> [<Optional argument>] Required|argument|with|multiple|options`.

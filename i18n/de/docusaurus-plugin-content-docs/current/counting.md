@@ -1,6 +1,7 @@
 ---
 title: Counting
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt die Einrichtung und die Verwendung vom Counting-System.
+image: /img/countingleaderboard.png
 ---
 
 Mit dem Counting-System können Nutzer auf dem Server zählen. Zwar langweilig, aber... warum nicht?

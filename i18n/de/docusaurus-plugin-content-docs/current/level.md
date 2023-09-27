@@ -1,6 +1,7 @@
 ---
 title: Level & Leaderboard
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt das Levelsystem und Leaderboards von TomatenKuchen
+image: /img/leaderboard.png
 ---
 
 ## Befehle

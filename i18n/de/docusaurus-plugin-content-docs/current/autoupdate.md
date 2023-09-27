@@ -1,6 +1,7 @@
 ---
 title: Autoupdate
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt automatisch aktualisierende Nachrichten und listet mögliche Parameter auf.
+image: /img/autoupdate_example.png
 ---
 
 Autoupdate ("automatisch updatende Nachrichten") steht für Nachrichten, die sich **alle 10 Minuten** automatisch aktualisieren. Damit können z. B. Statistiken als Nachricht oder ein Geburtstagskalender realisiert werden.

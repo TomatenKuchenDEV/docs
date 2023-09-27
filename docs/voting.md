@@ -1,6 +1,7 @@
 ---
 title: Vote announcements
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains vote announcements
+image: /img/voteannouncements.png
 ---
 
 By using the vote announcements you can send a custom message once someone votes for your server or bot.

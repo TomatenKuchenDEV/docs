@@ -1,6 +1,7 @@
 ---
 title: Games
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Lists all games of the bot.
+image: /img/game_snake.png
 ---
 
 ### Rock paper scissors

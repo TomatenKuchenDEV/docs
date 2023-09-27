@@ -3,7 +3,9 @@ title: AFK
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Diese Seite erklärt das AFK-System.
 ---
 
-Das AFK-/Away-from-keyboard-System kann verwendet werden, um die Abwesenheit eines Accounts kenntlich zu machen.
+Das AFK-/Away-from-keyboard-System kann verwendet werden, um die Abwesenheit eines Nutzers kenntlich zu machen.
+
+Nutzer können ihren AFK-Status mit dem Befehle `afk` festlegen.
 
 Wenn ein als AFK markierter Nutzer erwähnt wird, zeigt der Bot die vom Nutzer festgelegte Nachricht an. Sobald der AFK-Nutzer eine Nachricht sendet, wird diesem eine Liste aller Erwähnungen angezeigt.
 
