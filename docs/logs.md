@@ -12,8 +12,12 @@ Logs are grouped into different categories. For each category you can select a c
 - channelThread: Kanal or thread created/edited/deleted
 - emojiSticker: Emoji or sticker created/edited/deleted
 - guild: Other server changes, e.g. name or icon
+- event: Scheduled event created/edited/deleted
+- user: User changed username or avatar
 - member: Other user changes, e.g. name, avatar	or roles
-- ban: User kicked, banned or unbanned
+- timeout: User timeouted or untimeouted/timeout ended
+- kick: User kick
+- ban: User banned or unbanned
 - voice: Actions in voice channels
 
 ### Channels from which logs are ignored

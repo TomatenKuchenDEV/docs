@@ -14,10 +14,14 @@ Logs sind in verschiedene Kategorien zusammengefasst. Für jede Kategorie kann e
 - channelThread: Kanal oder Thread erstellt/bearbeitet/gelöscht
 - emojiSticker: Emoji oder Sticker erstellt/bearbeitet/gelöscht
 - guild: Sonstige Serveränderungen, z. B. Name oder Icon
+- event: Event erstellt/bearbeitet/gelöscht
+- user: Nutzer ändert Benutzernamen oder Avatar
 - member: Sonstige Nutzeränderungen, z. B. Name, Avatar oder Rollen
-- ban: Nutzer gekickt, gebannt oder entbannt
+- timeout: Nutzer getimeouted oder enttimeouted
+- kick: Nutzer gekickt
+- ban: Nutzer gebannt oder entbannt
 - voice: Aktionen im Sprachkanal
 
-### Kanäle, von denen keine Logs aufgezeichnet werden
+### Von Logs ignorierte Kanäle
 
 Hier können Kanäle festgelegt werden, von denen keine Logs gesendet werden.

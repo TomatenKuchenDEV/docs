@@ -45,7 +45,7 @@ Those options can also be used for the `stats` command. The command also generat
 
 You change change the visibility of the statistics. You can choose from `Public`, `Only Members` and `Disabled`.
 
-Note that "Only Members" and "Disabled" will disable tracking of message and active chatter counts.
+Note that "Only Members" and "Disabled" will disable tracking of message statistics (amount of messages per day & of active chatters).
 
 ### Excluded channels
 

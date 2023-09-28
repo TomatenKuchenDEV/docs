@@ -14,8 +14,8 @@ All of those features are available for free! :D
 - Custom bots (custom branding)
 - [Integrations](/integrations)
 	- Customcommands? Tags? Boooring, integrations can do much more :D
-- [Moderation](/moderation)
-	- [Many common moderation commands, like lockdown, slowmode and dehoist](/category/moderation)
+- [Moderation](/category/moderation)
+	- [Many common moderation commands, like lockdown, slowmode and dehoist](/moderation/common)
 	- Auto moderation of scam links and scam invites
 	- Disabling invite links from other servers
 	- Disabling markdown headers
@@ -40,9 +40,9 @@ All of those features are available for free! :D
 - [Level and leaderboard](/level)
 - [Statistics in channel names](/serverstats)
 - [Statistiken auf der Website ohne zeitliches Ablaufdatum](/serverstats)
-- [Tickets](/tickets)
-	- Ticket categories
-	- [Claiming](/ticketcommands)
+- [Tickets](/category/ticket)
+	- [Ticket categories](/ticket/general)
+	- [Claiming](/ticket/commands)
 	- Supporter (staff) and moderator roles
 	- Fully customizable ticket embed and start message per category
 	- Transcripts which look very similar to Discord

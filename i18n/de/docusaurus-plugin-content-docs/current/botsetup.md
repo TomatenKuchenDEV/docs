@@ -8,6 +8,10 @@ slug: /
 
 Den Bot kannst du mit [diesem Invite-Link](https://tomatenkuchen.com/invite) einladen. Du wirst dann automatisch im Dashboard angemeldet, wo du allgemeine Servereinstellungen ändern kannst. Dazu gehört z. B. die Sprache und eventuelle Prefixe zusätzlich zu Slashcommands.
 
+## Support-Server
+
+Wenn du Hilfe bei etwas brauchst, sei es bei einem Fehler, einer Einstellung oder der sonstigen Einrichtung - die Mitglieder unseres [Support-Servers](https://tomatenkuchen.com/discord) helfen dir jederzeit gerne weiter.
+
 ## Wichtige Einstellungen ändern
 
 Standardmäßig wird die Botsprache auf die Serversprache gesetzt, du kannst sie aber manuell ändern. Es können bis zu zehn Message-Prefixe festgelegt werden, aber auch alle gelöscht, wenn du Message-Befehle deaktivieren willst.
@@ -22,4 +26,4 @@ Um eine ID zu kopieren rechtsklickst du die entsprechende Nachricht, den Nutzer,
 
 ## Befehlssyntax
 
-Befehle werden immer mit der Syntax `befehl <Erforderliches Argument> [<Optionales Argument>] Erforderliches|Argument|mit|mehreren|Optionen`.
+Befehle werden immer mit der Syntax `befehl <Erforderliches Argument> [<Optionales Argument>] Erforderliches|Argument|mit|mehreren|Optionen` angegeben.

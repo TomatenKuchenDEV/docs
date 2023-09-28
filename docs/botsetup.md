@@ -6,15 +6,17 @@ slug: /
 
 :::tip German docs
 
-Du verstehst Deutsch? Dann verwende [die deutsche Version dieser Docs](https://docs.tomatenkuchen.com/de/).
-
-You can change the language of the docs anytime using the navbar.
+Du verstehst Deutsch? Dann verwende die [deutsche Version dieser Docs](https://docs.tomatenkuchen.com/de/).
 
 :::
 
 ## [Invite TomatenKuchen](https://tomatenkuchen.com/invite)
 
 You can invite the bot using [this invite link](https://tomatenkuchen.com/invite). You'll automatically be logged in into the dashboard which allows you to modify server settings. These settings include the language and prefixes in addition to slash commands.
+
+## Support server
+
+If you need help with something, let it be an error, a setting or other setup - the members on our [Support server](https://tomatenkuchen.com/discord) will be happy to help you with that.
 
 ## Changing important settings
 

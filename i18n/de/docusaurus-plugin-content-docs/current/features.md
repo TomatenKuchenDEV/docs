@@ -7,15 +7,15 @@ Beachte, dass meist t채glich Updates durchgef체hrt werden und deswegen regelm채�
 
 :::tip
 
-All diese Funktionen sind kostenlos verf체gbar :D
+Alle diese Funktionen sind kostenlos verf체gbar :D
 
 :::
 
 - Custom Bots (custom Branding)
 - [Integrationen](/integrations)
 	- Customcommands? Tags? Langweilig, Integrationen sind besser
-- [Moderation](/moderation)
-	- [Viele Standardmoderationsbefehle, z. B. Lockdown, Slowmode und Dehoist](/category/moderation)
+- [Moderation](/category/moderation)
+	- [Viele Standardmoderationsbefehle, z. B. Lockdown, Slowmode und Dehoist](/moderation/common)
 	- Automoderation von Scamlinks und -einladungen
 	- Deaktivieren von Discordeinladungen anderer Server
 	- Deaktivieren von Markdown-Headern
@@ -40,9 +40,9 @@ All diese Funktionen sind kostenlos verf체gbar :D
 - [Level und Leaderboard](/level)
 - [Statistiken in Kanalnamen](/serverstats)
 - [Statistiken auf der Website ohne zeitliches Ablaufdatum](/serverstats)
-- [Tickets](/tickets)
-	- Ticketkategorien
-	- [Claiming](/ticketcommands)
+- [Tickets](/category/ticket)
+	- [Ticketkategorien](/ticket/general)
+	- [Claimen](/ticket/commands)
 	- Supporter- und Moderatorrollen
 	- Vollst채ndig konfigurierbares Ticketembed sowie Ticketstart-Nachricht pro Kategorie
 	- Transkripte, die wie auf Discord aussehen

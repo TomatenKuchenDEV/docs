@@ -45,7 +45,7 @@ Diese Optionen können auch beim `stats`-Befehl verwendet werden. Dieser generie
 
 Du kannst die Sichtbarkeit der Statistiken ändern. Du kannst zwischen "Public" ("öffentlich"), "Only Members" ("Nur für Mitglieder des Servers") und "Disabled" ("deaktiviert") wählen.
 
-Beachte, das "Only Members" und "Disabled" das Sammeln von Nachrichtenstatistiken deaktivieren.
+Beachte, das "Only Members" und "Disabled" das Sammeln von Nachrichtenstatistiken (Anzahl Nachrichten pro Tag & aktiver Chatter) deaktivieren.
 
 ### Kanäle ausschließen
 

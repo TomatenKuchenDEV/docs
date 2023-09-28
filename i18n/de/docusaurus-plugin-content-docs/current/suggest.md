@@ -59,4 +59,4 @@ Erzwingt einen Grund bei Vorschlagsaktionen, z. B. beim Annehmen oder Ablehnen. 
 
 ### Vorlagen für Gründe
 
-Wie auch bei [Moderationsgründen](/moderation) kann man Vorlage für Gründe erstellen.
+Wie auch bei [Moderationsgründen](/category/moderation) kann man Vorlage für Gründe erstellen.
