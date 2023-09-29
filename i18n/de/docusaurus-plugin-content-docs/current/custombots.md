@@ -34,7 +34,7 @@ Wenn mehrere Nutzer Zugriff auf den Bot haben sollte, erstelle vor dem Hinzufüg
 
 Folgende Upgrades können aktiviert und im Dashboard konfiguriert werden:
 - Status
-	- Wenn aktiviert kann der Botstatus frei geändert werden. Dazu gehört der Text, die Aktivität (Spielt/Custom/...) und der Status (Online/Offline/AFK/Bitte nicht stören)
+	- Wenn aktiviert kann der Botstatus frei geändert werden. Dazu gehört der Text, die Aktivität (Spielt/Custom/...) und der Status (Online/Abwesend/Bitte nicht stören/Offline)
 	- Wenn "Streamen" ausgewählt ist muss zusätzlich ein Twitch.tv-Kanallink im Statustext stehen. Dieser wird auf Discord nicht im Text, sondern als Link mit Streamvorschau als Status angezeigt. Wenn der Streamer nicht live ist, führt der Link einfach normal zum Kanal des Streamers.
 - Antworten auf andere Bots
 	- Wenn aktiviert reagiert der Bot auf andere Bots. Dazu müssen die IDs der Bots angegeben haben. Bots können ggf. nicht alle Aktionen oder Befehle ausführen. Beachte auch, dass Bots einen höheren Befehlscooldown haben.
@@ -45,4 +45,4 @@ Bots, die dir gehören, auf die du Zugriff hast oder wofür du als zahlender Nut
 
 Wenn du nur als bezahlender Nutzer eingetragen bist kannst dich nur selber entfernen. Beachte, dass der Bot offline geht, wenn es keinen anderen bezahlenden Nutzer gibt oder die anderen keine Credits haben.
 
-Wenn dir die Bot-Applikation gehört oder diese in einem Team ist und du Zugriff auf das Team hast kannst du sämtliche Einstellungen des Bots ändern.
+Wenn dir die Bot-Applikation gehört oder diese in einem Team ist und du Zugriff auf das Team hast, kannst du sämtliche Einstellungen des Bots ändern.
