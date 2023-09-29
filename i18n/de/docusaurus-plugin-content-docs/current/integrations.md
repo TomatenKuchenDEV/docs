@@ -17,9 +17,13 @@ Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integra
 
 ## Mögliche Auslöser
 
-- Nachrichten- oder Slashcommands
-	- Argument: Slash command description, if empty disables slash cmd
+- Nachrichten- und Slashcommand
+	- Argument: Slashcommand-Beschreibung, deaktiviert Slashcommand wenn leer
 - Nachrichteninhalt enthält
+	- Argument: Nachrichteninhalt, nach dem gesucht werden soll
+- Nachrichteninhalt beginnt mit
+	- Argument: Nachrichteninhalt, nach dem gesucht werden soll
+- Nachrichteninhalt endet mit
 	- Argument: Nachrichteninhalt, nach dem gesucht werden soll
 - Nachrichteninhalt matcht RegEx
 	- Argument: RegEx, mit dem geprüft werden soll, siehe [RegEx-Cheatsheet](#regex-cheatsheet)

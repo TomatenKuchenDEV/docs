@@ -57,3 +57,7 @@ Du kannst auch Anhänge, z. B. Bilder, verwenden.
 ## Gebannte oder gemutete Nutzer anzeigen
 
 `banlist [<Nutzer>]`
+
+## Statistiken ansehen
+
+`stats moderation`

@@ -1,15 +1,23 @@
 ---
 title: Custom Bots
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt die kostenlose Custom-Branding-Funktion des Bots
+description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt die kostenlose Custom-Bots-Funktion des Multipurpose-Bots.
 ---
 
 Mit TomatenKuchen kannst du deine eigene Version des Bots auf deinen Server holen, ohne, dass man diesen als TomatenKuchen erkennen kann.
+
+## Was ist das?
+
+Custom Bots, von anderen Bots auch als "Custom Branding" oder "White-Label" bezeichnet, bedeutet, dass du einen von dir erstellten Bot mit den Funktionen von TomatenKuchen verwenden kannst. Der Vorteil davon ist, dass du alle tollen Features von TomatenKuchen nutzen kannst, deine Servermitglieder aber nicht TomatenKuchen, sondern deinen Bot sehen.
+
+Ein weiterer Vorteil ist, dass du zusätzlich zu TomatenKuchen noch andere Bots auf demselben Bot laufen lassen kannst. Beachte jedoch, dass diese Möglichkeit nicht unterstützt wird und Probleme mit Slashcommands auslösen kann.
 
 ## Bezahlung
 
 Die Bezahlung funktioniert mit Credits. Credits lassen sich hauptsächlich durch Voten und mit dem Economy-System verdienen, aber auch in Giveaways auf dem TomatenKuchen-Discord gewinnen. Du kannst sie auch durch Mithilfe erhalten, z. B. durch das Übersetzen von Bots.
 
-Die aktuellen Preise anhand der Nutzerzahl und für zusätzliche Upgrades sind auf der [Preisliste](https://tomatenkuchen.com/custom) einsehbar.
+Der Preis hängt von der Gesamtmitgliederzahl aller Server ab, auf denen du den Bot einlädst. Das heißt, dass du deinen Bot auf mehreren Servern gleichzeitig verwenden kannst - viele andere Custom Bot-Anbieter können das nicht. Wenn dein Bot online ist wird einmal täglich der aktuell berechnete Betrag abgebucht. Dein Bot sollte daher auf "Privat" im Discord-Developer-Portal sein, damit nicht andere Nutzer ihn einladen und dir so hohe Kosten verursachen können.
+
+Die aktuellen Credit-Preise sind auf der [Preisliste](https://tomatenkuchen.com/custom) einsehbar.
 
 Bei Custom-Bots kannst die folgenden Anzeigeeinstellungen des Bots frei ändern:
 - Name

@@ -24,3 +24,7 @@ You can set the username, the channel, the trigger and the message which is sent
 You can create up to 10 triggers per server.
 
 That means, if you create `stream.online` and `stream.offline` triggers for every streamer you want to be notified for, you can currently add up to 5 streamers per server.
+
+## Commands
+
+Using the message command `youtube twitch <Streamer name>` you can get information about a Twitch user and a currently running livestream.

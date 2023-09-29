@@ -34,3 +34,7 @@ Wenn für jeden Streamer jeweils `stream.online` und `stream.offline` erstellt w
 - Trigger (`trigger`): Wenn eine Nachricht bei Streamstart gesendet werden soll: `stream.online`
 - Twitch-Benutzername (`username`): Der Nutzername des Streamers aus der URL
 - Nachrichteninhalt (`content`): `🔴 Der Streamer {username} ist live!`
+
+## Befehle
+
+Mit dem Nachrichtenbefehl `youtube twitch <Streamername>` kannst du dir Informationen über einen Twitch-Benutzer und einen möglicherweise aktuell laufenden Livestream anzeigen lassen.

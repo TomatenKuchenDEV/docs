@@ -48,6 +48,12 @@ In order to delete a ticket you need one of the ticket manager roles or the "Man
 
 ## Create a ticketembed
 
-Prepares a ticket embed. You can add more buttons for different ticket categories.
+Prepares a ticket embed. You can add custom buttons for different ticket categories.
+
+After creation you can fully edit the message content and embed using https://embed.tomatenkuchen.com .
 
 `ticketembed [<Title> <Description> <Button text>]`
+
+## View statistics
+
+`stats tickets`

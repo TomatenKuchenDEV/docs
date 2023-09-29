@@ -3,7 +3,7 @@ title: Ticket-Tool
 description: TomatenKuchen ist einer der besten, kostenlosen Discord-all-in-one-Bots. Hier erfährst du, warum er besser ist als Ticket-Tool.
 ---
 
-:::info Nicht exklusiv für Ticket-Tool
+:::info Nicht nur Ticket-Tool
 
 Dieser Text trifft auch auf andere Ticket-Bots zu, z. B. Galaxy-Bot und Tickets.
 

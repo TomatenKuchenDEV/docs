@@ -53,3 +53,7 @@ You can also use attachments, e.g. images.
 ## Warn a user
 
 `warn <User> <Reason>`
+
+## View statistics
+
+`stats moderation`

@@ -21,6 +21,10 @@ Integrations can be managed in the [dashboard](https://tomatenkuchen.com/dashboa
 	- Argument: Slash command description, if empty disables slash cmd
 - Message content contains
 	- Argument: Text content to search for
+- Message content starts with
+	- Argument: Text content to search for
+- Message content ends with
+	- Argument: Text content to search for
 - Message content matches RegEx
 	- Argument: RegEx to use for checking the content, ref. [RegEx cheatsheet](#regex-cheatsheet)
 - Button press

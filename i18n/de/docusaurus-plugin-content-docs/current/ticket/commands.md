@@ -43,6 +43,12 @@ Um Tickets zu löschen braucht man eine der Ticket-Manager-Rollen oder die Berec
 
 ## Ticketembed erstellen
 
-Bereitet ein Ticketembed vor. Es können weitere Buttons für verschiedene Ticketkategorien hinzugefügt werden.
+Bereitet ein Ticketembed vor. Es können weitere, benutzerdefinierte Buttons für verschiedene Ticketkategorien hinzugefügt werden.
+
+Nach der Erstellung kannst du den Nachrichteninhalt und die Embeds mithilfe von https://embed.tomatenkuchen.com anpassen.
 
 `ticketembed [<Titel> <Beschreibung> <Buttontext>]`
+
+## Statistiken ansehen
+
+`stats tickets`

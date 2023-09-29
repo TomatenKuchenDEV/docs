@@ -14,3 +14,4 @@ TomatenKuchen ist besser als der Sapphire-Bot, weil:
 	wodurch jeder die Möglichkeit hat, das Design zu verbessern.
 - Übersetzungen werden zentral verwaltet und sind so auf allen Servern sofort verfügbar und müssen nicht aktualisiert werden. Jeder kann eine neue Sprache übersetzen
 	oder sogar seine eigene hinzufügen.
+- es kaum Downtimes gibt und deswegen die Uptime deutlich besser ist.
