@@ -1,6 +1,6 @@
 ---
-title: AutoMod settings
-description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains all moderation settings.
+title: Settings
+description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains all AutoMod settings.
 ---
 
 ## Block markdown headers

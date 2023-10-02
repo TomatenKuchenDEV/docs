@@ -17,7 +17,7 @@ Die Bezahlung funktioniert mit Credits. Credits lassen sich hauptsächlich durch
 
 Der Preis hängt von der Gesamtmitgliederzahl aller Server ab, auf denen du den Bot einlädst. Das heißt, dass du deinen Bot auf mehreren Servern gleichzeitig verwenden kannst - viele andere Custom Bot-Anbieter können das nicht. Wenn dein Bot online ist wird einmal täglich der aktuell berechnete Betrag abgebucht. Dein Bot sollte daher auf "Privat" im Discord-Developer-Portal sein, damit nicht andere Nutzer ihn einladen und dir so hohe Kosten verursachen können.
 
-Die aktuellen Credit-Preise sind auf der [Preisliste](https://tomatenkuchen.com/custom) einsehbar.
+Die aktuellen Credit-Preise sind inklusive einem automatischen Rechner und der Formel auf der [Preisliste](https://tomatenkuchen.com/custom) einsehbar.
 
 Bei Custom-Bots kannst die folgenden Anzeigeeinstellungen des Bots frei ändern:
 - Name
@@ -43,6 +43,7 @@ Folgende Upgrades können aktiviert und im Dashboard konfiguriert werden:
 
 Bots, die dir gehören, auf die du Zugriff hast oder wofür du als zahlender Nutzer kannst du auf https://tomatenkuchen.com/dashboard/custom einsehen und verwalten.
 
-Wenn du nur als bezahlender Nutzer eingetragen bist kannst dich nur selber entfernen. Beachte, dass der Bot offline geht, wenn es keinen anderen bezahlenden Nutzer gibt oder die anderen keine Credits haben.
+Wenn du als bezahlender Nutzer eingetragen bist kannst du dich nur selbst entfernen, andere Aktionen sind deaktiviert.
+Beachte, dass der Bot offline geht, wenn es keinen anderen bezahlenden Nutzer gibt oder keiner mehr Credits hat.
 
-Wenn dir die Bot-Applikation gehört oder diese in einem Team ist und du Zugriff auf das Team hast, kannst du sämtliche Einstellungen des Bots ändern.
+Wenn dir die Bot-Applikation gehört oder diese in einem Team ist und du Zugriff auf das Team hast, kannst du die Einstellungen des Bots ändern.
