@@ -24,7 +24,7 @@ Alle diese Funktionen sind kostenlos verfügbar :D
 	- YouTube-Videos und -Livestreams
 	- Twitch-Livestreams
 	- neue Minecraft-Vanilla- und Paper-Versionen
-	- Minecraft-Serverstatus
+	- [Minecraft-Serverstatus](/mcupdate)
 - [AFK](/afk)
 	- Liste aller AFK-Nutzer auf dem Server
 	- Liste aller Erwähnungen beim Beenden des AFK-Status

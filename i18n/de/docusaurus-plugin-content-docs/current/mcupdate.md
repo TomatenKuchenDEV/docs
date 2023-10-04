@@ -18,7 +18,7 @@ Um die Einrichtung zu starten musst du mit entsprechenden Berechtigungen den Bef
 
 Dort wirst du zunächst nach der Serverdomain gefragt, z. B. `vanillaminigames.net`.
 
-Anschließend der Port, wenn du sowieso eine eigene Domain besitzt ist es in der Regel der Port `25565`.
+Anschließend der Port, wenn der Server eine eigene Domain besitzt ist es in der Regel der Port `25565`.
 
 Wenn du den Query-Port aktiviert hast, gib ihn **zusätzlich** mit dem Argument `-query=<Port>` an, z. B. `25565 -query=25566`.
 Mit dem Query-Port können mehr Informationen angezeigt werden, z. B. die aktuellen Spielernamen, verwendete Plugins und noch einiges mehr.
@@ -26,4 +26,4 @@ Mit dem Query-Port können mehr Informationen angezeigt werden, z. B. die aktuel
 Dann kannst du den Typ auswählen, diese werden oben bereits erklärt.
 Auch wird der Kanal und das Format abgefragt, wie der Status dargestellt werden soll.
 
-Wenn das Setup abgeschlossen ist, warte einige Minuten, bis der Status angezeigt wird.
+Wenn du das Setup abgeschlossen hast, dauert es möglicherweise noch einige Minuten, bis der Status angezeigt wird.
