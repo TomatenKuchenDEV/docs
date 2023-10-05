@@ -101,11 +101,11 @@ All of those features are available for free! :D
 	- pinned messages
 	- all threads of a server
 - Reminders & timers, including using with other users
-- [shorter.cf](https://shorter.cf)
-	- Creation of short urls
+- [Shorter command](/short)
+	- Creation of short urls on [shorter.cf](https://shorter.cf)
 	- Displaying statistics
 	- Following redirects
-- Massenhinzufügen bzw. -entfernen von Rollen mit Filtern
+- [Mass adding and removing roles with filters](/moderation/massactions)
 - ChatGPT command
 - Text to image command
 - Image generation and modification
@@ -119,7 +119,7 @@ All of those features are available for free! :D
 - Muting or deafening all users in a voice channel
 - [Automatic updating messages e.g. for server statistics or birth calendars](/autoupdate)
 - Creation of modals (forms) for Discord
-- Adding a role to nitro users
+- [Adding a role to nitro users](/nitroverify)
 - Converting currencies and other measuring units
 - Purging messages with many filters
 - Kicking and banning users with many filters
@@ -128,7 +128,7 @@ All of those features are available for free! :D
 - Creating and reading QR codes
 - Cloning a category with it's channels
 - [Logs of occured errors and dashboard changes](/error)
-- [Logging of pretty much everything on the server](/logs)
+- [Logging of pretty much everything on the Discord server](/logs)
 - [Online forms](/forms)
 - [Boost messages](/boostmessages)
 - [Customroles](/customroles)
