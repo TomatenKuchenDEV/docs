@@ -51,7 +51,7 @@ All of those features are available for free! :D
 	- Buttons
 	- Select menus
 - [Syncing across servers of:](/sync)
-	- Bans/Unbans
+	- Bans & unbans
 	- Logs
 - [Vote messages when voting for a server or bot](/voting)
 - [Welcome and leave messages](/welcome-leave)
@@ -62,9 +62,9 @@ All of those features are available for free! :D
 - [Many games](/games)
 - [Automatic deleting of messages in a channel](/autodelete)
 - [Suggestions](/suggest)
-	- different channels depending on state or all in one
+	- optionally different channels depending on state
 	- Reactions or buttons for voting
-	- Messages in the suggestion channel will be automatically converted into a suggestion
+	- Messages in the suggestion channel will be automatically converted into suggestions
 	- Mode which requires suggestions to be allowed by the team
 - Economy
 - Information on:
@@ -126,7 +126,7 @@ All of those features are available for free! :D
 - [Sending messages with embeds and components, for example buttons](https://embed.tomatenkuchen.com)
 - Randomizer features, for example rolling a dice or selecting a random element out of a given list
 - Creating and reading QR codes
-- Cloning a category with it's channels
+- Cloning a category with its channels
 - [Logs of occured errors and dashboard changes](/error)
 - [Logging of pretty much everything on the Discord server](/logs)
 - [Online forms](/forms)

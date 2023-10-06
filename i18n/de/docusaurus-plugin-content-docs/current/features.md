@@ -62,9 +62,9 @@ Alle diese Funktionen sind kostenlos verfügbar :D
 - [Viele verschiedene Spiele](/games)
 - [Automatisches Löschen von Nachrichten in einem Kanal](/autodelete)
 - [Vorschläge](/suggest)
-	- verschiedene Kanäle je nach Status oder alle in einem
+	- optional verschiedene Kanäle je nach aktuellem Vorschlagsstatus
 	- Reaktionen oder Buttons zum Abstimmen
-	- Nachrichten im Vorschlägekanal werden automatisch zu einem Vorschlag
+	- Nachrichten im Vorschlägekanal werden automatisch zu Vorschlägen
 	- Modus, in dem Vorschläge erst vom Team zugelassen werden müssen
 - Economy
 - Informationen über:
