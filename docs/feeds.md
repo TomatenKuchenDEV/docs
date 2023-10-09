@@ -11,7 +11,7 @@ This page will help you to setup RSS and other feeds using the Discord bot.
 ## RSS/Atom feeds
 The bot supports all types of RSS and atom feeds. You can add a new feed by creating the "Add" button in the dashboard and filling in the feed url.
 The bot will then automatically post new entries to the channel you selected.
-Feeds are checked for new content every 10 minutes, and up to 10 embeds are displayed.
+Feeds are checked for new content every 10 minutes.
 
 ### Default configuration
 ![](/img/rss_feeds_default.png)
@@ -27,14 +27,6 @@ If the feed contains any more properties, you can use them as well. The bot will
 
 ## Example feeds
 
-### YouTube
-While there is a dedicated YouTube feed, you can also use the RSS feed of a channel.
-
-Feed url: `https://www.youtube.com/feeds/videos.xml?channel_id=UC...` where `UC...` is the channel id. You can get the channel id using the `youtube` command.
-
-`content`: `**{user}** uploaded a new video! Check it out now: {link}`
-Embed fields should be empty as you can't embed videos in custom embeds.
-
 ### Nitter (Twitter)
 Feed url: `https://nitter.net/{user}/rss`
 
@@ -43,6 +35,14 @@ Feed url: `https://{instance}/users/{user}.atom`
 
 ### Reddit
 Feed url: `https://www.reddit.com/r/{subreddit}/new/.rss`
+
+## YouTube
+
+YouTube notificiations allow configuring a message which is sent by the bot once a new video or short is uploaded.
+
+You can get the YouTube user ID using the `youtube` command or using the "Share" button on a channels info page.
+
+The bot checks for new items every 10 minutes, due to YouTube limiting the feeds it may take a bit longer though.
 
 ## Minecraft versions
 

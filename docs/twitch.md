@@ -21,9 +21,7 @@ You can set the username, the channel, the trigger and the message which is sent
 - `channel.raid`: When the channel is raided
 - `user.update`: When the user updates it's public account data
 
-You can create up to 10 triggers per server.
-
-That means, if you create `stream.online` and `stream.offline` triggers for every streamer you want to be notified for, you can currently add up to 5 streamers per server.
+You can create up to 10 elements per server, which equals 10 different streamers with a live notification each.
 
 ## Commands
 

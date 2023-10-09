@@ -13,7 +13,7 @@ The command `suggest top` lists the most voted suggestions.
 
 ### `approve <ID> [<Reason>]` and `deny <ID> [<Reason>]`
 
-Approves or denies a suggestion. Depending on the mode it removes the reactions or buttons of the message, which means that the votes cannot be changed anymore.
+Approves or denies a suggestion. It removes the reactions or buttons of the message, which disables changing the vote counts.
 
 ### `reply <ID> [<Text>]`
 
@@ -41,13 +41,15 @@ Replied suggestions will be sent to this channel.
 
 :::caution
 
-Users cannot vote on a suggestion if this channel is set and the suggestion is replied to using the `reply` command.
+Users cannot vote on a suggestion anymore if this channel is set and the suggestion is replied to using the `reply` command.
 
 :::
 
 ### Pending
 
-Sets a channel in which new suggestions are collected to be allowed by moderators. All users which have access to the channel can accept or deny them.
+Sets a channel in which new suggestions are collected to be allowed manually.
+
+All users which have access to the channel can accept or deny them.
 
 ### Buttons or reactions
 

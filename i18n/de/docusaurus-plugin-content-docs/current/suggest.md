@@ -13,7 +13,7 @@ Mit dem Befehl `suggest top` können die Vorschläge mit den meisten Votes angez
 
 ### `approve <ID> [<Grund>]` und `deny <ID> [<Grund>]`
 
-Akzeptiert einen Vorschlag bzw. lehnt ihn ab. Entfernt je nach Modus die Reaktionen bzw. die Buttons der Nachricht, d. h. dass die Stimmen nicht mehr verändert werden können.
+Akzeptiert einen Vorschlag bzw. lehnt ihn ab. Entfernt die Reaktionen bzw. Buttons der Nachricht, welches das nachträgliche Verändern der Stimmen verhindert.
 
 ### `reply <ID> [<Text>]`
 
@@ -41,13 +41,15 @@ In diesen Kanal werden beantwortete Vorschläge gesendet.
 
 :::caution
 
-Nutzer können nicht mehr auf einem Vorschlag abstimmen, wenn dieser Kanal gesetzt ist und dieser mit `reply` beantwortet wird!
+Nutzer können nicht mehr auf einem Vorschlag abstimmen, wenn dieser Kanal gesetzt ist und ein Vorschlag mit `reply` beantwortet wird.
 
 :::
 
 ### Pending
 
-Legt einen Kanal fest, in welchem neue Vorschläge gesammelt werden, um von Moderatoren zugelassen oder abgelehnt zu werden. Alle Nutzer, die Zugriff auf den Kanal haben, können die Vorschläge annehmen oder ablehnen.
+Legt einen Kanal fest, in welchem neue Vorschläge gesammelt werden, um manuell zugelassen oder abgelehnt zu werden.
+
+Alle Nutzer, die Zugriff auf den Kanal haben, können die Vorschläge annehmen oder ablehnen.
 
 ### Buttons oder Reaktionen
 

@@ -26,7 +26,7 @@ Hier kann der Benutzername, der Kanal, der Auslöser und die Nachricht festgeleg
 - `channel.raid`: Wenn ein Kanal geraidet wird
 - `user.update`: Wenn der Nutzer seine öffentlichen Accountdaten aktualisiert
 
-Wenn für jeden Streamer jeweils `stream.online` und `stream.offline` erstellt wird kann jeder Server aktuell bis zu 5 Streamer hinzufügen.
+Jeder Server kann bis zu zehn verschiedene Elemente hinzufügen - das entspricht zehn Streamern mit je einer Livenachricht.
 
 ## Beispiel
 

@@ -11,4 +11,4 @@ All AI commands can be used for free!
 
 Using the command `text2img` (as slash or message command) you can generate yourself an image from your prompt.
 
-The command uses the Stable Diffusion Model in version 1.5, the results are comparable with the over the API accessible DALL-E results by OpenAI.
+The command uses the Stable Diffusion Model 1.5, the results are comparable with the over the API generated images using DALL-E.

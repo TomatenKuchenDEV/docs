@@ -23,4 +23,4 @@ Eine Unterhaltung ist auf maximal 4096 Zeichen begrenzt, da Embedbeschreibungen 
 
 ## Einstellungen
 
-Mit dem Selectmenü beim Klick auf den Einstellungen-Button kannst du die Kreativität ändern - je höher der Wert, desto kreativer und innovativer antwortet die KI.
+Mit dem Selectmenü beim Klick auf den Einstellungen-Button kannst du die Temperatur der aktuellen Unterhaltung ändern - je höher der Wert, desto kreativer und innovativer antwortet die KI.

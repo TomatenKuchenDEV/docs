@@ -13,11 +13,11 @@ Ein weiterer Vorteil ist, dass du zusätzlich zu TomatenKuchen noch andere Bots 
 
 ## Bezahlung
 
-Die Bezahlung funktioniert mit Credits. Credits lassen sich hauptsächlich durch Voten und mit dem Economy-System verdienen, aber auch in Giveaways auf dem TomatenKuchen-Discord gewinnen. Du kannst sie auch durch Mithilfe erhalten, z. B. durch das Übersetzen von Bots.
+Die Bezahlung funktioniert mit Credits. Credits lassen sich hauptsächlich durch Voten, aber auch mit dem Economy-System, verdienen und in Giveaways auf dem TomatenKuchen-Discord gewinnen. Du kannst sie auch durch Mitwirkung bei den Bots erhalten, z. B. als Übersetzer.
 
 Der Preis hängt von der Gesamtmitgliederzahl aller Server ab, auf denen du den Bot einlädst. Das heißt, dass du deinen Bot auf mehreren Servern gleichzeitig verwenden kannst - viele andere Custom Bot-Anbieter können das nicht. Wenn dein Bot online ist wird einmal täglich der aktuell berechnete Betrag abgebucht. Dein Bot sollte daher auf "Privat" im Discord-Developer-Portal sein, damit nicht andere Nutzer ihn einladen und dir so hohe Kosten verursachen können.
 
-Die aktuellen Credit-Preise sind inklusive einem automatischen Rechner und der Formel auf der [Preisliste](https://tomatenkuchen.com/custom) einsehbar.
+Die aktuellen Credit-Preise sind inklusive einem automatischen Rechner auf der [Custom-Bot-Infoseite](https://tomatenkuchen.com/custom) einsehbar. Der Preis wird immer auf die nächste Ganzzahl abgerundet.
 
 Bei Custom-Bots kannst die folgenden Anzeigeeinstellungen des Bots frei ändern:
 - Name
@@ -35,9 +35,9 @@ Wenn mehrere Nutzer Zugriff auf den Bot haben sollte, erstelle vor dem Hinzufüg
 Folgende Upgrades können aktiviert und im Dashboard konfiguriert werden:
 - Status
 	- Wenn aktiviert kann der Botstatus frei geändert werden. Dazu gehört der Text, die Aktivität (Spielt/Custom/...) und der Status (Online/Abwesend/Bitte nicht stören/Offline)
-	- Wenn "Streamen" ausgewählt ist muss zusätzlich ein Twitch.tv-Kanallink im Statustext stehen. Dieser wird auf Discord nicht im Text, sondern als Link mit Streamvorschau als Status angezeigt. Wenn der Streamer nicht live ist, führt der Link einfach normal zum Kanal des Streamers.
+	- Wenn "Streamen" ausgewählt ist muss zusätzlich ein Twitch.tv-Kanallink im Statustext stehen. Dieser wird auf Discord nicht im Text, sondern als Link mit Streamvorschau als Status angezeigt. Wenn der Streamer nicht live ist, führt der Link nur zum Kanal des Streamers.
 - Antworten auf andere Bots
-	- Wenn aktiviert reagiert der Bot auf andere Bots. Dazu müssen die IDs der Bots angegeben haben. Bots können ggf. nicht alle Aktionen oder Befehle ausführen. Beachte auch, dass Bots einen höheren Befehlscooldown haben.
+	- Wenn aktiviert reagiert der Bot auf andere Bots. Je nachdem, wie viele Nachrichten von diesen Bots verarbeitet werden müssen, erhöht sich der tägliche Creditpreis. Bots können ggf. nicht alle Aktionen oder Befehle ausführen. Beachte auch, dass Bots einen höheren Befehlscooldown haben.
 
 ## Verwaltung
 

@@ -11,7 +11,7 @@ Diese Seite wird dir beim Einrichten von Feeds mit dem Bot helfen.
 ## RSS-/Atom-Feeds
 Der Bot unterstützt alle Arten von RSS- und Atom-Feeds. Du kannst einen Feed erstellen, indem du den "Add"-Button im Dashboard nutzt und die Feed-URL einfügst.
 Der Bot wird dann automatisch neue Feedinhalte in den festgelegten Kanal senden.
-Feeds are checked for new content every 10 minutes, and up to 10 embeds are displayed.
+Feeds werden alle zehn Minuten nach neuen Inhalten durchsucht.
 
 ### Standardkonfiguration
 ![](/img/rss_feeds_default.png)
@@ -27,14 +27,6 @@ Wenn der Feed weitere Werte enthält, kannst du sie ebenfalls nutzen. Der Bot wi
 
 ## Beispielfeeds
 
-### YouTube
-Auch wenn es einen eigenen YouTube-Feed gibt kannst du auch RSS-Feeds dafür verwenden.
-
-Feed-URL: `https://www.youtube.com/feeds/videos.xml?channel_id=UC...`, wobei `UC...` die Kanal-ID ist. Die Kanal-ID erhältst du mithilfe des `youtube`-Befehls.
-
-`content`: `**{user}** hat ein neues Video hochgeladen! {link}`
-Embedfelder sollten leer gelassen werden, da sich Videos nicht in benutzerdefinierten Embeds einfügen lassen.
-
 ### Nitter (Twitter)
 Feed-URL: `https://nitter.net/{user}/rss`
 
@@ -43,6 +35,14 @@ Feed-URL: `https://{instance}/users/{user}.atom`
 
 ### Reddit
 Feed-URL: `https://www.reddit.com/r/{subreddit}/new/.rss`
+
+## YouTube
+
+YouTube-Benachrichtigungen erlauben dir, eine Nachricht zu senden, wenn ein Nutzer ein neues Video oder Short hochlädt.
+
+Die YouTube-Nutzer-ID erhältst du mit dem `youtube`-Befehl oder mit dem "Teilen"-Button auf der Kanalinfoseite eines Kanals.
+
+Der Bot sucht alle zehn Minuten nach neuen Videos, da YouTube die Feeds aber limitiert kann es manchmal auch etwas länger dauern.
 
 ## Minecraft-Versionen
 

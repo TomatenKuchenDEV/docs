@@ -17,10 +17,10 @@ After OpenAI, the developer of the large language model, and ChatGPT responded s
 
 ## (No) Limits
 
-Every Discord server can generate 100 messages through ChatGPT per day - so far, no one ever reached this limit.
+Every Discord server can generate 100 messages through ChatGPT per day - yet, no one ever reached this limit.
 
-A conversation is limited to a maximum of 4096 characters as embed descriptions cannot be longer than that.
+A conversation is limited to a maximum of 4096 characters as that's the maximum embed description length.
 
 ## Settings
 
-Using the select menu when clicking on the settings button you can change the creativity - the higher the value, the more creative and innovative the AI responds.
+Using the select menu when clicking on the settings button you can change the temperature of the current conversation - the higher the value, the more creative and innovative the AI responds.
