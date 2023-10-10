@@ -47,7 +47,7 @@ Hier kann die Nachricht eingestellt werden, die gesendet wird, wenn ein realer o
 
 ### Kanal
 
-Hier kann der Kanal festgelegt werden, in dem Geburtstage angekündigt werden.
+In den hier ausgewählten Kanal werden Geburtstagsnachrichten gesendet.
 
 ### Rolle
 
