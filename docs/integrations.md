@@ -4,7 +4,7 @@ description: TomatenKuchen is a multipurpose Discord bot with many common and in
 image: /img/integration_weather.png
 ---
 
-:::info
+:::info Function list
 
 You can find a list of all functions on the [functions page](/category/action-functions)
 
@@ -38,28 +38,28 @@ Integrations can be managed in the [dashboard](https://tomatenkuchen.com/dashboa
 - Slash command uses of another bot (e.g. for `/bump` reminders)
 	- Argument: Slashcommand name of another bot
 - Member join/leave
-	- Argument: <code>join</code>, <code>leave</code> oder <code>all</code>/empty
+	- Argument: `join`, `leave` oder `all`/empty
 - Reaction add/remove
-	- Argument: <code>add</code>, <code>remove</code> oder <code>all</code>/empty
+	- Argument: `add`, `remove` oder `all`/empty
 - Role created/deleted
-	- Argument: <code>create</code>, <code>delete</code> oder <code>all</code>/empty
+	- Argument: `create`, `delete` oder `all`/empty
 - Channel created/deleted
-	- Argument: <code>create</code>, <code>delete</code> oder <code>all</code>/empty
+	- Argument: `create`, `delete` oder `all`/empty
 - Webhook created/deleted
-	- Argument: <code>create</code>, <code>delete</code> oder <code>all</code>/empty
+	- Argument: `create`, `delete` oder `all`/empty
 - Thread (or post) created/deleted
-	- Argument: <code>create</code>, <code>delete</code> oder <code>all</code>/empty
+	- Argument: `create`, `delete` oder `all`/empty
 - Nickname updated
 - Server boost/boostend
-	- Argument: <code>boost</code>, <code>boostend</code> oder <code>all</code>/empty
+	- Argument: `boost`, `boostend` oder `all`/empty
 - Interval
-	- Argument: Interval time like <code>45m</code>, may have random offsets after bot restarts, min 5 mins, max 2 days
+	- Argument: Interval time like `45m`, may have random offsets after bot restarts, min 5 mins, max 2 days
 - Cronjob
 	- Argument: The cronjob, for example from https://crontab.guru, min 5 mins
 - User joins/leave voice channel
-	- Argument: <code>join</code>, <code>leave</code> oder <code>all</code>/empty
+	- Argument: `join`, `leave` oder `all`/empty
 - User timeouted or untimeouted
-	- Argument: <code>timeout</code>, <code>timeoutend</code> oder <code>all</code>/empty
+	- Argument: `timeout`, `timeoutend` oder `all`/empty
 - Discord system message
 	- Argument: Discord internal system message type: https://discord.com/developers/docs/resources/channel#message-object-message-types
 

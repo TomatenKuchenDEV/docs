@@ -31,15 +31,17 @@ Um Tickets zu löschen braucht man eine der Ticket-Manager-Rollen oder die Berec
 
 ## Geschlossenes Ticket wieder öffnen
 
-`reopen`
-
-## Transcript speichern
-
-`transcript`
+Button auf der Ticket-geschlossen-Nachricht
 
 ## Tickets & Transcripte anzeigen
 
-`tickets [<Nutzer>] [<Filter>]`
+`tickets list [<Nutzer>] [<Filter>]`
+
+## Ticket in andere Kategorie verschieben
+
+`tickets move <Neue Kategorie>`
+
+Dies wird die Anfangsnachricht vom Ticket erneut senden und, wenn Kanäle für die Tickets verwendet werden, ggf. die Kategorie des Kanals.
 
 ## Ticketembed erstellen
 
@@ -52,3 +54,7 @@ Nach der Erstellung kannst du den Nachrichteninhalt und die Embeds mithilfe von 
 ## Statistiken ansehen
 
 `stats tickets`
+
+## Transcript speichern
+
+`transcript`

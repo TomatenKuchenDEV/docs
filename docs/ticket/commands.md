@@ -34,17 +34,19 @@ In order to delete a ticket you need one of the ticket manager roles or the "Man
 - `claim`: Claims the current ticket.
 - `claim <Other user>`: Transfers the current ticket to the other user.
 
-## Reopen a closed ticket
+## Reopening a closed ticket
 
-`reopen`
-
-## Save transcript
-
-`transcript`
+Button on the close ticket message
 
 ## Show tickets & transcripts
 
-`tickets [<User>] [<Filter>]`
+`tickets list [<User>] [<Filter>]`
+
+## Moving into another ticket category
+
+`tickets move <New category>`
+
+This sends the ticket start message again and, if you're using channels for tickets, move the channel category if needed.
 
 ## Create a ticketembed
 
@@ -57,3 +59,7 @@ After creation you can fully edit the message content and embed using https://em
 ## View statistics
 
 `stats tickets`
+
+## Save transcript
+
+`transcript`

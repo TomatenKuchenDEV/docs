@@ -10,7 +10,7 @@ Du kannst die Kategorie, den Transcriptkanal und die Nachricht für jede Ticketk
 
 Öffne die Einstellungsseite deines Servers und finde die Einstellung für Ticketkategorien. Klicke auf den Button "Hinzufügen" und fülle die Werte entsprechend aus.
 
-<code>name</code> ist der benutzerfreundliche Name/ID der Ticketkategorie. <code>message</code> ist veraltet und sollte leer gelassen werden.
+`name` ist der benutzerfreundliche Name/ID der Ticketkategorie. `message` ist veraltet und sollte leer gelassen werden.
 
 ## Claiming
 Es gibt verschiedene Modi für das Beanspruchen/Claimen von Tickets:
@@ -29,7 +29,7 @@ Jeder, sowohl der zugewiesene Nutzer als auch die Supporterrollen, kann der Tick
 
 ## Automatisches Speichern von Benutzeravataren und Anhängen
 Standardmäßig werden Anhänge in einem anderen Discord-Kanal gespeichert, um diese auch nach dem Löschen eines Tickets im Transcript noch abrufbar zu machen.
-Diese Einstellung kann jeder Nutzer individuell mithilfe von dem Befehl <code>/usersettings</code> ändern.
+Diese Einstellung kann jeder Nutzer individuell mithilfe von dem Befehl `usersettings` ändern.
 
 ## Variablen für Ticketnachrichten
 

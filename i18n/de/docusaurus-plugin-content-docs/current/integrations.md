@@ -4,7 +4,7 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 image: /img/integration_weather.png
 ---
 
-:::info
+:::info Funktionsliste
 
 Eine Liste aller Funktionen findest du auf der [Funktionen-Seite](/category/action-functions)
 
@@ -38,28 +38,28 @@ Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integra
 - Slashcommand eines anderen Bots verwendet (z. B. für `/bump`-Erinnerungen)
 	- Argument: Slashcommand-Name des anderen Bots
 - Mitglied beigetreten/verlassen
-	- Argument: <code>join</code>, <code>leave</code> oder <code>all</code>/leer
+	- Argument: `join`, `leave` oder `all`/leer
 - Reaktion hinzugefügt/entfernt
-	- Argument: <code>add</code>, <code>remove</code> oder <code>all</code>/leer
+	- Argument: `add`, `remove` oder `all`/leer
 - Rolle erstellt/gelöscht
-	- Argument: <code>create</code>, <code>delete</code> oder <code>all</code>/leer
+	- Argument: `create`, `delete` oder `all`/leer
 - Kanal erstellt/gelöscht
-	- Argument: <code>create</code>, <code>delete</code> oder <code>all</code>/leer
+	- Argument: `create`, `delete` oder `all`/leer
 - Webhook erstellt/gelöscht
-	- Argument: <code>create</code>, <code>delete</code> oder <code>all</code>/leer
+	- Argument: `create`, `delete` oder `all`/leer
 - Thread (oder Forumpost) erstellt/gelöscht
-	- Argument: <code>create</code>, <code>delete</code> oder <code>all</code>/leer
+	- Argument: `create`, `delete` oder `all`/leer
 - Nickname geändert
 - Server geboosted/Boosts entfernt
-	- Argument: <code>boost</code>, <code>boostend</code> oder <code>all</code>/leer
+	- Argument: `boost`, `boostend` oder `all`/leer
 - Intervall
-	- Argument: Intervall-Zeit wie z. B. <code>45m</code>, kann zufällige Verschiebungen nach Botneustarts haben, mindestens fünf Minuten, maximal zwei Tage
+	- Argument: Intervall-Zeit wie z. B. `45m`, kann zufällige Verschiebungen nach Botneustarts haben, mindestens fünf Minuten, maximal zwei Tage
 - Cronjob
 	- Argument: Der Cronjob, z. B. von https://crontab.guru, maximal einmal alle fünf Minuten
 - Nutzer betritt/verlässt Sprachkanal
-	- Argument: <code>join</code>, <code>leave</code> oder <code>all</code>/leer
+	- Argument: `join`, `leave` oder `all`/leer
 - Nutzer ge- oder enttimeouted
-	- Argument: <code>timeout</code>, <code>timeoutend</code> oder <code>all</code>/leer
+	- Argument: `timeout`, `timeoutend` oder `all`/leer
 - Discord-Systemnachricht
 	- Argument: Interne Discord-System-Nachrichten-Typ-ID: https://discord.com/developers/docs/resources/channel#message-object-message-types
 

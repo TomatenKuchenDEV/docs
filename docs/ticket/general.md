@@ -10,7 +10,7 @@ You can set the category, the transcript channel and the message for each ticket
 
 Open the settings page of your server and find the setting for ticket categories. Click on the "Add" button and fill in the values accordingly.
 
-<code>name</code> is the user friendly name/ID of the ticket category. <code>message</code> should be left empty as it's deprecated.
+`name` is the user friendly name/ID of the ticket category. `message` should be left empty as it's deprecated.
 
 ## Claiming
 You can choose different modes for ticket claiming:
@@ -29,7 +29,7 @@ The claimer and users from the supporter roles can view and reply to the ticket.
 
 ## Saving of user avatars and attachments in tickets
 By default, attachments are saved in another Discord channel to make them still retrievable after deleting a ticket in the transcript.
-Users can change this setting by using the command <code>/usersettings</code>.
+Users can change this setting by using the command `usersettings`.
 
 ## Variables for ticket messages
 
