@@ -58,7 +58,7 @@ After creation you can fully edit the message content and embed using https://em
 
 ## View statistics
 
-`stats tickets`
+`stats tickets [<Time since when ticket statistics should be displayed>]`
 
 ## Save transcript
 

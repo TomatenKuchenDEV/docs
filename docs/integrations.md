@@ -21,6 +21,8 @@ Integrations can be managed in the [dashboard](https://tomatenkuchen.com/dashboa
 	- Argument: Slash command description, if empty disables slash cmd
 - Message content contains
 	- Argument: Text content to search for
+- Message content exact match
+	- Argument: Text content to match with same casing
 - Message content starts with
 	- Argument: Text content to search for
 - Message content ends with

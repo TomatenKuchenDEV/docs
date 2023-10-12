@@ -53,7 +53,7 @@ Nach der Erstellung kannst du den Nachrichteninhalt und die Embeds mithilfe von 
 
 ## Statistiken ansehen
 
-`stats tickets`
+`stats tickets [<Zeitpunkt, ab dem Statistiken über Tickets gesammelt werden>]`
 
 ## Transcript speichern
 

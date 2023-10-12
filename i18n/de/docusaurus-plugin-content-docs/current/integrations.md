@@ -21,6 +21,8 @@ Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integra
 	- Argument: Slashcommand-Beschreibung, deaktiviert Slashcommand wenn leer
 - Nachrichteninhalt enthält
 	- Argument: Nachrichteninhalt, nach dem gesucht werden soll
+- Nachrichteninhalt ist gleich
+	- Argument: Exakter Nachrichteninhalt mit gleicher Groß- und Kleinschreibung
 - Nachrichteninhalt beginnt mit
 	- Argument: Nachrichteninhalt, nach dem gesucht werden soll
 - Nachrichteninhalt endet mit
