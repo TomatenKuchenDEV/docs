@@ -21,4 +21,8 @@ These statistics are collected anonmously by Cloudflare, shorter.cf itself doesn
 
 ## Create a short URL
 
-`shorter create <URL> [<Name>]` creates a short URL with the given name or a random one, if you didn't enter a name.
+`shorter create <URL> [<Name>]` creates a short URL with the given name.
+
+If you don't enter a name, it'll generate a few random characters.
+
+If created successfully, the bot responds with the URL, like https://shorter.cf/bundbot, and a QR code for easier sharing.
