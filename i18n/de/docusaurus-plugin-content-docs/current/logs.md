@@ -5,7 +5,7 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 
 ## Einstellungen
 
-### Logkanäle
+### Logkanäle mit Kategorien
 
 Logs sind in verschiedene Kategorien zusammengefasst. Für jede Kategorie kann ein Kanal ausgewählt werden, in den die Logs gesendet werden sollen. Die Kategorien sind:
 

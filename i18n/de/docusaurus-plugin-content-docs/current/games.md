@@ -12,9 +12,9 @@ Spielt Schere Stein Papier gegen den Bot oder andere Spieler.
 
 ### TicTacToe
 
-Spiele TicTacToe gegen den angegebenen Nutzer.
+Spiele TicTacToe gegen den angegebenen Nutzer oder gegen einen Algorithmus von TomatenKuchen.
 
-`game ttt <Nutzer>`
+`game ttt [<Nutzer>]`
 
 ### Hangman
 

@@ -5,11 +5,11 @@ description: The Manage Bot allows you to control Pterodactyl servers using Disc
 
 With this bot, you can manage your Pterodactyl (https://pterodactyl.io) panel servers from Discord.
 
-## Setup:
+## Setup
 
 ![](https://cdn.discordapp.com/attachments/856211013162893352/1103019459305799821/image.png)
 
-`/setup <Panel URL main/server list url> <API Key> [<Alias>] [default]`
+`/setup <Panel URL main/server list url> <API key> [<Alias name>]`
 
 The panel main URL is the URL of the homepage of the panel, as such without parameters like `server/12345678` at the end.
 
@@ -23,7 +23,7 @@ The bot supports HTTP as well as HTTPS panels - just make sure that the panels r
 An "alias" refers to a single panel. With aliases you can use multiple Pterodactyl panels at the same time.
 If you don't use an alias, the bot will auto generate one for you.
 
-## How to use (`/manage`):
+## How to use (`/manage`)
 
 ![](https://cdn.discordapp.com/attachments/856211013162893352/1026119789900464189/2022-10-02_15_10_48.png)
 

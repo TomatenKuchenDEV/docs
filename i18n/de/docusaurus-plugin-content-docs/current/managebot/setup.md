@@ -9,7 +9,7 @@ Mit dem Manage Bot kannst du deine Pterodactyl (https://pterodactyl.io)-Server v
 
 ![](https://cdn.discordapp.com/attachments/856211013162893352/1103019459305799821/image.png)
 
-`/setup <Panel-Haupt-URL> <API-Key> [<Alias>] [default]`
+`/setup <Panel-Haupt-URL> <API-Key> [<Alias-Name>]`
 
 Die Panel-Haupt-URL ist die URL von der Startseite des Panels, also ohne Parameter wie `server/12345678` am Ende.
 

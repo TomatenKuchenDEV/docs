@@ -13,7 +13,7 @@ All of those features are available for free! :D
 
 - Custom bots (custom branding)
 - [Integrations](/integrations)
-	- Customcommands? Tags? Boooring, integrations can do much more :D
+	- Integrations can easily replace custom commands (also known as Tags)
 - [Moderation](/category/moderation)
 	- [Many common moderation commands, like lockdown, slowmode and dehoist](/moderation/common)
 	- Auto moderation of scam links and scam invites
@@ -90,8 +90,9 @@ All of those features are available for free! :D
 	- HTTP status codes and HTTP header
 	- Cloudflare status codes
 	- Discord permissions
-	- a YouTube channel with search feature
-	- banned and muted users
+	- a YouTube channel including search
+	- a [Twitch stramer](/twitch)
+	- banned and muted users of the server
 	- movies, series and actors
 	- Discord ID/snowflake info
 	- DNS records of a domain
@@ -109,6 +110,7 @@ All of those features are available for free! :D
 - ChatGPT command
 - Text to image command
 - Image generation and modification
+- "hug" and "sus" image generation
 - Text translation
 - Calculator
 - Comparing two texts

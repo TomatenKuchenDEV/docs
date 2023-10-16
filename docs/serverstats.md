@@ -39,7 +39,7 @@ Filters are appended to the URL as query parameters: `https://tomatenkuchen.com/
 
 Those options can also be used for the `stats` command. The command also generates an URL for easier sharing.
 
-## Settings
+## General settings
 
 ### Visibility
 

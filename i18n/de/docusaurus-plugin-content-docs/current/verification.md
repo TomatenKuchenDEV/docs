@@ -18,12 +18,12 @@ Es können unbegrenzt Nachrichten pro Server erstellt werden.
 ### Verifikationsmodus
 
 Du kannst aktuell zwischen den folgenden Modi auswählen:
-- Keine
+- Keine Verifikation
 - Captcha
 - Mathe-Aufgabe
 - Website-Captcha
 
-"Keine" weißt den Nutzern beim Klicken auf den Button direkt die ausgewählten Rollen zu.
+"Keine Verifikation" weißt den Nutzern beim Klicken auf den Button direkt die ausgewählten Rollen zu.
 
 ### Verifikationsrollen
 

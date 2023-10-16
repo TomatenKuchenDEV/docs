@@ -39,7 +39,7 @@ Filter werden als Query-Parameter an die URL angehängt: `https://tomatenkuchen.
 
 Diese Optionen können auch beim `stats`-Befehl verwendet werden. Dieser generiert auch eine entsprechende URL, welche geteilt werden kann.
 
-## Einstellungen
+## Allgemeine Einstellungen
 
 ### Sichtbarkeit
 

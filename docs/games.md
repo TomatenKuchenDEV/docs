@@ -12,9 +12,9 @@ Play rock paper scissors against a user or the bot.
 
 ### TicTacToe
 
-Play tic tac toe with another user.
+Play tic tac toe with another user or an algorithm of TomatenKuchen.
 
-`game ttt <User>`
+`game ttt [<User>]`
 
 ### Hangman
 

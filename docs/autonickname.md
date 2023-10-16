@@ -6,7 +6,11 @@ image: /img/autonick.png
 
 TomatenKuchen can change the nickname of users based on their roles.
 
-## Format of the nickname
+## Settings
+
+![](/img/autonick.png)
+
+### Format of the nickname
 
 This value changes how the bot builds the nickname.
 
@@ -16,8 +20,6 @@ The following variables can be used:
 - `{username}`: Username
 - `{globalname}`: Global displayname of the user
 
-## Maximum amount of roles in the nickname
+### Maximum amount of roles in the nickname
 
 Sets the amount of roles shown in the nickname. Keep in mind that nicknames have a character limit of 32 characters.
-
-![](/img/autonick.png)

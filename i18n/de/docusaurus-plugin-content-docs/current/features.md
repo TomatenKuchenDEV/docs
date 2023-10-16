@@ -13,7 +13,7 @@ Alle diese Funktionen sind kostenlos verfügbar :D
 
 - Custom Bots (custom Branding)
 - [Integrationen](/integrations)
-	- Customcommands? Tags? Langweilig, Integrationen sind besser
+	- Integrationen ersetzen mit Leichtigkeit Customcommands (auch Tags genannt)
 - [Moderation](/category/moderation)
 	- [Viele Standardmoderationsbefehle, z. B. Lockdown, Slowmode und Dehoist](/moderation/common)
 	- Automoderation von Scamlinks und -einladungen
@@ -91,7 +91,8 @@ Alle diese Funktionen sind kostenlos verfügbar :D
 	- Cloudflare-Statuscodes
 	- Discord-Berechtigungen
 	- einen YouTube-Kanal mit Suchfunktion
-	- gebannte und gemutete Nutzer
+	- einen [Twitch-Streamer](/twitch)
+	- gebannte und gemutete Nutzer des Servers
 	- Filme, Serien und Schauspieler
 	- Discord-Snowflakes
 	- DNS einer Domain
@@ -109,6 +110,7 @@ Alle diese Funktionen sind kostenlos verfügbar :D
 - ChatGPT-Befehl
 - Text-zu-Bild-Befehl
 - Bilderstellung und -veränderung
+- "hug"- und "sus"-Bildgenerierung
 - Textübersetzung
 - Taschenrechner
 - Unterschiede zwischen/Vergleich von zwei Texten

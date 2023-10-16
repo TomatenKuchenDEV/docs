@@ -18,12 +18,12 @@ There is no limit of created messages per server.
 ### Verification mode
 
 Currently you can select one of the following modes:
-- None
+- No verification
 - Captcha
 - Math task
 - Website captcha
 
-"None" adds the selected roles directly to the user when they click the verify button.
+"No verification" adds the selected roles directly to the user when they click the verify button.
 
 ### Verification roles
 

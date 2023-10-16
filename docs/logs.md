@@ -5,6 +5,8 @@ description: TomatenKuchen is a multipurpose Discord bot with many common and in
 
 ## Settings
 
+### Log channels with categories
+
 Logs are grouped into different categories. For each category you can select a channel in which the bot should send the logs to. The categories are:
 
 - messageUpdate: Message edited
