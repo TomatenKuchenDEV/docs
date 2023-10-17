@@ -15,10 +15,12 @@ All of those features are available for free! :D
 - [Integrations](/integrations)
 	- Integrations can easily replace custom commands (also known as Tags)
 - [Moderation](/category/moderation)
-	- [Many common moderation commands, like lockdown, slowmode and dehoist](/moderation/common)
-	- Auto moderation of scam links and scam invites
-	- Disabling invite links from other servers
-	- Disabling markdown headers
+	- [Many common moderation commands, like lockdown, slowmode and dehoist](/moderation/commands)
+	- [Settings](/moderation/settings):
+		- Auto moderation of scam links and scam invites
+		- Disabling invite links from other servers
+		- Disabling markdown headers
+		- ... and more!
 - [Feeds](/feeds)
 	- RSS/Atom
 	- [YouTube videos, shorts and livestreams](/youtube)
@@ -40,9 +42,9 @@ All of those features are available for free! :D
 - [Level and leaderboard](/level)
 - [Statistics in channel names](/serverstats)
 - [Server statistics with no expiry](/serverstats)
-- [Tickets](/category/ticket)
-	- [Ticket categories](/ticket/general)
-	- [Claiming](/ticket/commands)
+- [Tickets](/category/tickets)
+	- [Ticket categories](/tickets/general)
+	- [Claiming](/tickets/commands)
 	- Supporter (staff) and moderator roles
 	- Fully customizable ticket embed and start message per category
 	- Transcripts which look very similar to Discord
@@ -102,7 +104,7 @@ All of those features are available for free! :D
 	- pinned messages
 	- all threads of a server
 - Reminders & timers, including using with other users
-- [Shorter command](/short)
+- [Shorter command](/shorter)
 	- Creation of short urls on [shorter.cf](https://shorter.cf)
 	- Displaying statistics
 	- Following redirects

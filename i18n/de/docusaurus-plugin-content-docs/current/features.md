@@ -15,10 +15,12 @@ Alle diese Funktionen sind kostenlos verfügbar :D
 - [Integrationen](/integrations)
 	- Integrationen ersetzen mit Leichtigkeit Customcommands (auch Tags genannt)
 - [Moderation](/category/moderation)
-	- [Viele Standardmoderationsbefehle, z. B. Lockdown, Slowmode und Dehoist](/moderation/common)
-	- Automoderation von Scamlinks und -einladungen
-	- Deaktivieren von Discordeinladungen anderer Server
-	- Deaktivieren von Markdown-Headern
+	- [Viele Standardmoderationsbefehle, z. B. Lockdown, Slowmode und Dehoist](/moderation/commands)
+	- [Einstellungen](/moderation/settings):
+		- Automoderation von Scamlinks und -einladungen
+		- Deaktivieren von Discordeinladungen anderer Server
+		- Deaktivieren von Markdown-Headern
+		- ... und mehr!
 - [Feeds](/feeds)
 	- RSS/Atom
 	- [YouTube-Videos, -Shorts und -Livestreams](/youtube)
@@ -40,9 +42,9 @@ Alle diese Funktionen sind kostenlos verfügbar :D
 - [Level und Leaderboard](/level)
 - [Statistiken in Kanalnamen](/serverstats)
 - [Serverstatistiken ohne zeitliches Ablaufdatum](/serverstats)
-- [Tickets](/category/ticket)
-	- [Ticketkategorien](/ticket/general)
-	- [Claimen](/ticket/commands)
+- [Tickets](/category/tickets)
+	- [Ticketkategorien](/tickets/general)
+	- [Claimen](/tickets/commands)
 	- Supporter- und Moderatorrollen
 	- Vollständig konfigurierbares Ticketembed sowie Ticketstart-Nachricht pro Kategorie
 	- Transkripte, die wie auf Discord aussehen
