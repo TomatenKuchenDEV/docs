@@ -25,7 +25,7 @@ const config = {
                 sourceBaseUrl: "https://api.tomatenkuchen.com/integration-docs/",
                 outDir: "docs/functions",
 				// From https://api.tomatenkuchen.com/integration-docs
-                documents: ["args.md","math.md","mention.md","vars.md","string.md","time.md","control.md","user.md","guild.md","stats.md","message.md","channel.md","response.md","misc.md","embed.md","components.md","managebot.md"]
+                documents: ["args.md","math.md","mention.md","vars.md","string.md","time.md","control.md","user.md","guild.md","stats.md","message.md","channel.md","response.md","misc.md","level.md","embed.md","components.md","managebot.md"]
             }
         ],
 		[
