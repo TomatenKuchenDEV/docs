@@ -21,9 +21,9 @@ All of those features are available for free! :D
 	- Disabling markdown headers
 - [Feeds](/feeds)
 	- RSS/Atom
-	- YouTube videos and livestreams
-	- Twitch livestreams
-	- New Minecraft-Vanilla- und Paper-Versionen
+	- [YouTube videos, shorts and livestreams](/youtube)
+	- [Twitch livestreams](/twitch)
+	- New Minecraft vanilla und PaperMC versions
 	- [Minecraft server status](/mcupdate)
 - [AFK](/afk)
 	- List of all AFK users on the server
@@ -39,7 +39,7 @@ All of those features are available for free! :D
 	- Configurable role and message
 - [Level and leaderboard](/level)
 - [Statistics in channel names](/serverstats)
-- [Statistiken auf der Website ohne zeitliches Ablaufdatum](/serverstats)
+- [Server statistics with no expiry](/serverstats)
 - [Tickets](/category/ticket)
 	- [Ticket categories](/ticket/general)
 	- [Claiming](/ticket/commands)
@@ -107,8 +107,8 @@ All of those features are available for free! :D
 	- Displaying statistics
 	- Following redirects
 - [Mass adding and removing roles with filters](/moderation/massactions)
-- ChatGPT command
-- Text to image command
+- [ChatGPT command](/ai/chatgpt)
+- [Text to image command](/ai/text2img)
 - Image generation and modification
 - "hug" and "sus" image generation
 - Text translation
@@ -120,17 +120,17 @@ All of those features are available for free! :D
 - Polls
 - Muting or deafening all users in a voice channel
 - [Automatic updating messages e.g. for server statistics or birth calendars](/autoupdate)
-- Creation of modals (forms) for Discord
+- Creation of modals ("forms") for Discord
 - [Adding a role to nitro users](/nitroverify)
 - Converting currencies and other measuring units
-- Purging messages with many filters
-- Kicking and banning users with many filters
+- Purging/clearing multiple messages with filters
+- Kicking and banning users with filters
 - [Sending messages with embeds and components, for example buttons](https://embed.tomatenkuchen.com)
 - Randomizer features, for example rolling a dice or selecting a random element out of a given list
 - Creating and reading QR codes
 - Cloning a category with its channels
 - [Logs of occured errors and dashboard changes](/error)
 - [Logging of pretty much everything on the Discord server](/logs)
-- [Online forms](/forms)
+- [Online forms](/forms) for e.g. ban appeals or staff applications
 - [Boost messages](/boostmessages)
 - [Customroles](/customroles)

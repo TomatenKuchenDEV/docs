@@ -1,10 +1,10 @@
 ---
 title: RSS- & Atom-Feeds
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt, wie RSS-, Atom-, Minecraft-, YouTube- und Twitch-Feeds verwendet werden können.
+description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt, wie RSS-, Atom- und Minecraft-Versionen-Feeds verwendet werden können.
 image: /img/feed_example.png
 ---
 
-Diese Seite wird dir beim Einrichten von Feeds mit dem Bot helfen.
+Diese Seite wird dir beim Einrichten von Feeds mit TomatenKuchen helfen.
 
 ![Feed vom Discord-Status](/img/feed_example.png)
 
@@ -35,14 +35,6 @@ Feed-URL: `https://{instance}/users/{user}.atom`
 
 ### Reddit
 Feed-URL: `https://www.reddit.com/r/{subreddit}/new/.rss`
-
-## YouTube
-
-YouTube-Benachrichtigungen erlauben dir, eine Nachricht zu senden, wenn ein Nutzer ein neues Video oder Short hochlädt.
-
-Die YouTube-Nutzer-ID erhältst du mit dem `youtube`-Befehl oder mit dem "Teilen"-Button auf der Kanalinfoseite eines Kanals.
-
-Der Bot sucht alle zehn Minuten nach neuen Videos, da YouTube die Feeds aber limitiert kann es manchmal auch etwas länger dauern.
 
 ## Minecraft-Versionen
 

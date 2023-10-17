@@ -1,10 +1,10 @@
 ---
-title: Feeds
-description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains how to use RSS, Atom, Minecraft, YouTube and Twitch feeds.
+title: RSS and Atom feeds
+description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains how to use RSS, Atom and Minecraft version feeds.
 image: /img/feed_example.png
 ---
 
-This page will help you to setup RSS and other feeds using the Discord bot.
+This page will help you to setup RSS and other feeds using TomatenKuchen.
 
 ![Discord status feed](/img/feed_example.png)
 
@@ -35,14 +35,6 @@ Feed url: `https://{instance}/users/{user}.atom`
 
 ### Reddit
 Feed url: `https://www.reddit.com/r/{subreddit}/new/.rss`
-
-## YouTube
-
-YouTube notificiations allow configuring a message which is sent by the bot once a new video or short is uploaded.
-
-You can get the YouTube user ID using the `youtube` command or using the "Share" button on a channels info page.
-
-The bot checks for new items every 10 minutes, due to YouTube limiting the feeds it may take a bit longer though.
 
 ## Minecraft versions
 

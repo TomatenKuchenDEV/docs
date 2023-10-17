@@ -21,8 +21,8 @@ Alle diese Funktionen sind kostenlos verfügbar :D
 	- Deaktivieren von Markdown-Headern
 - [Feeds](/feeds)
 	- RSS/Atom
-	- YouTube-Videos und -Livestreams
-	- Twitch-Livestreams
+	- [YouTube-Videos, -Shorts und -Livestreams](/youtube)
+	- [Twitch-Livestreams](/twitch)
 	- neue Minecraft-Vanilla- und Paper-Versionen
 	- [Minecraft-Serverstatus](/mcupdate)
 - [AFK](/afk)
@@ -39,7 +39,7 @@ Alle diese Funktionen sind kostenlos verfügbar :D
 	- Einstellbare Rolle und Nachricht
 - [Level und Leaderboard](/level)
 - [Statistiken in Kanalnamen](/serverstats)
-- [Statistiken auf der Website ohne zeitliches Ablaufdatum](/serverstats)
+- [Serverstatistiken ohne zeitliches Ablaufdatum](/serverstats)
 - [Tickets](/category/ticket)
 	- [Ticketkategorien](/ticket/general)
 	- [Claimen](/ticket/commands)
@@ -107,8 +107,8 @@ Alle diese Funktionen sind kostenlos verfügbar :D
 	- Anzeigen von Statistiken
 	- Folgen von Weiterleitungen
 - [Massenhinzufügen bzw. -entfernen von Rollen mit Filtern](/moderation/massactions)
-- ChatGPT-Befehl
-- Text-zu-Bild-Befehl
+- [ChatGPT-Befehl](/ai/chatgpt)
+- [Text-zu-Bild-Befehl](/ai/text2img)
 - Bilderstellung und -veränderung
 - "hug"- und "sus"-Bildgenerierung
 - Textübersetzung
@@ -120,10 +120,10 @@ Alle diese Funktionen sind kostenlos verfügbar :D
 - Umfragen
 - Alle Nutzer im Sprachkanal muten oder deafen
 - [Automatisch updatende Nachrichten für z. B. Serverstatistiken oder Geburtstagskalender](/autoupdate)
-- Modals (Forms) für Discord erstellen
+- Modals ("Forms") für Discord erstellen
 - [Nutzern mit Nitro eine Rolle zuweisen](/nitroverify)
 - Umwandlung von Währungen und Maßeinheiten
-- Löschen von Nachrichten mit vielen Filtern
+- Löschen von mehreren Nachrichten mit Filtern
 - Kicken und Bannen von Nutzern mit Filtern
 - [Senden von selbst erstellten Nachrichten mit Embeds und Komponenten, z. B. Buttons](https://embed.tomatenkuchen.com)
 - Zufallsfunktionen, z. B. Würfel und Auswahl eines bestimmten Elements einer Liste
@@ -131,6 +131,6 @@ Alle diese Funktionen sind kostenlos verfügbar :D
 - Kategorien mit darin enthaltenen Kanälen klonen
 - [Logs von aufgetretenen Fehlern und Dashboard-Änderungen](/error)
 - [Logging von allen möglichen Aktionen auf dem Discord-Server](/logs)
-- [Onlineformulare erstellen](/forms)
+- [Onlineformulare](/forms) für z. B. Entbannungsanträge oder Bewerbungsformulare
 - [Boostnachrichten](/boostmessages)
 - [Customrollen](/customroles)
