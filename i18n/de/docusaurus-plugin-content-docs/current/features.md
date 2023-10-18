@@ -23,9 +23,9 @@ Alle diese Funktionen sind kostenlos verfügbar :D
 		- ... und mehr!
 - [Feeds](/feeds)
 	- RSS/Atom
+	- neue Minecraft-Vanilla- und Paper-Versionen
 	- [YouTube-Videos, -Shorts und -Livestreams](/youtube)
 	- [Twitch-Livestreams](/twitch)
-	- neue Minecraft-Vanilla- und Paper-Versionen
 	- [Minecraft-Serverstatus](/mcupdate)
 - [AFK](/afk)
 	- Liste aller AFK-Nutzer auf dem Server
