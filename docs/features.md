@@ -93,7 +93,7 @@ All of those features are available for free! :D
 	- Cloudflare status codes
 	- Discord permissions
 	- a YouTube channel including search
-	- a [Twitch stramer](/twitch)
+	- a [Twitch streamer](/twitch#commands)
 	- banned and muted users of the server
 	- movies, series and actors
 	- Discord ID/snowflake info
@@ -116,8 +116,8 @@ All of those features are available for free! :D
 - Text translation
 - Calculator
 - Comparing two texts
-- Creating and loading backups, no other bot has a this high amount of backup features
-- Loading Discord templates (discord.new) on existing servers
+- [Creating and loading backups, no other bot has a this high amount of backup features](/backups)
+- [Loading Discord templates (discord.new) on existing servers](/backups#templates)
 - TODO list
 - Polls
 - Muting or deafening all users in a voice channel

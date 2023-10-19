@@ -19,8 +19,8 @@ Hier kann der Counting-Kanal festgelegt werden.
 ### Start
 Hier wird der Startwert festgelegt, welcher beim ersten Zählen in einem Kanal und bei einem Fehler verwendet wird. Standardmäßig 1.
 
-### Step/Schrittgröße
-Wie weit Zahlen voneinander entfernt liegen. Standardmäßig 1.
+### "step"/Schrittgröße
+Wie weit die Zahlen voneinander entfernt liegen. Standardmäßig 1.
 
 Beispiel:
 - `1`: 1, 2, 3

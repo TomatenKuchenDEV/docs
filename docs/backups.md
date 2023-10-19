@@ -1,13 +1,13 @@
 ---
 title: Backups and Templates
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Der Bot hat unter anderem die Möglichkeit, hochgeladene Videos oder Shorts von YouTube-Kanälen anzukündigen.
+description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Backups allow you to restore a griefed server fast. Using templates you can easily use from other users published server designs on an existing server.
 ---
 
 ## Backups
 
 Using backups you can in case of a server grief or the accidental deletion of e.g. a channel easily restore it.
 
-### Was zeichnet TomatenKuchen-Backups aus?
+### What are TomatenKuchen backups?
 
 - Backups are stored forever usually
 	- Due to a Discord rule the messages of backups may get deleted after 30 days.
@@ -32,7 +32,7 @@ This setting' advantage is that attachments can be restored, even if the origina
 
 The disadvantage is that storing the raw file data the backup grows in size pretty fast - for example a two Megabyte big attachment causes the backup to be also at least two Megabytes in size.
 
-## Discord templates
+## Discord templates {#templates}
 
 Using the command `template <discord.new link or code>` you can load a Discord template onto the current server.
 

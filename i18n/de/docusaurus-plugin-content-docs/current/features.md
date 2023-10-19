@@ -93,7 +93,7 @@ Alle diese Funktionen sind kostenlos verfügbar :D
 	- Cloudflare-Statuscodes
 	- Discord-Berechtigungen
 	- einen YouTube-Kanal mit Suchfunktion
-	- einen [Twitch-Streamer](/twitch)
+	- einen [Twitch-Streamer](/twitch#befehle)
 	- gebannte und gemutete Nutzer des Servers
 	- Filme, Serien und Schauspieler
 	- Discord-Snowflakes
@@ -116,8 +116,8 @@ Alle diese Funktionen sind kostenlos verfügbar :D
 - Textübersetzung
 - Taschenrechner
 - Unterschiede zwischen/Vergleich von zwei Texten
-- Backups erstellen und laden, kein Bot hat eine vergleichbare Anzahl an Backupfunktionen
-- Discord-Templates (discord.new) auf vorhandenen Servern laden
+- [Backups erstellen und laden, kein Bot hat eine vergleichbare Anzahl an Backupfunktionen](/backups)
+- [Discord-Templates (discord.new) auf vorhandenen Servern laden](/backups#templates)
 - TODO-Liste
 - Umfragen
 - Alle Nutzer im Sprachkanal muten oder deafen

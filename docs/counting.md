@@ -17,10 +17,10 @@ Using the counting system, members can count on your server. Kind of boring, but
 Select the channel in which members can count.
 
 ### Start
-The start number, used on first message in a counting channel and after reset. Default 1.
+The start number, used on first message in a counting channel and after reset. Defaults to 1.
 
 ### Step
-The steps/difference between the current and the next number. Default 1.
+The steps/difference between the current and the next number. Defaults to 1.
 
 Example:
 - `1`: 1, 2, 3
