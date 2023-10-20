@@ -43,7 +43,7 @@ Mögliche Aktionen:
 Bei "Mute" und "Wartezeit" kann zusätzlich noch eine Dauer angegeben werden, wie lange der Nutzer gemuted wird bzw. wie lange er/sie warten muss.
 
 Beachte, dass die "Wartezeit" Nutzer nicht vom Senden von PN-Nachrichten abhält.
-Nutze stattdessen "Mute", was sowohl Buttons als auch PNs deaktiviert und dem Nutzer die Wartezeit schöner anzeigt, als der Bot es kann.
+Nutze stattdessen "Mute", was mit einem Discord-Timeout sowohl Buttons als auch neue PNs deaktiviert und dem Nutzer die Wartezeit schöner anzeigt, als der Bot es kann.
 
 ### Schwierigkeitsstufe
 

@@ -27,6 +27,6 @@ Unterstützt bis zu 25 Rollen pro Nachricht.
 
 ### Selectrole
 Ähnlich wie eine Buttonrole, aber unterstützt das gleichzeitige Hinzufügen bzw. Entfernen von mehreren Rollen.
-Es werden bis zu 25 Rollen pro Nachricht unterstützt.
+Unterstützt ebenfalls bis zu 25 Rollen pro Nachricht.
 
 ![](/img/button_selectrole.png)

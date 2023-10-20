@@ -13,7 +13,7 @@ Alle diese Funktionen sind kostenlos verfügbar :D
 
 - Custom Bots (custom Branding)
 - [Integrationen](/integrations)
-	- Integrationen ersetzen mit Leichtigkeit Customcommands (auch Tags genannt)
+	- Integrationen ersetzen mit Leichtigkeit Customcommands (auch bekannt als "Tags")
 - [Moderation](/category/moderation)
 	- [Viele Standardmoderationsbefehle, z. B. Lockdown, Slowmode und Dehoist](/moderation/commands)
 	- [Einstellungen](/moderation/settings):
@@ -34,12 +34,15 @@ Alle diese Funktionen sind kostenlos verfügbar :D
 - [Autonickname beim Beitreten](/autorole)
 - [Rejoin-/Persistente Rollen, die man beim erneuten Beitreten zurückerhält](/autorole)
 - [Counting](/counting)
+	- Viele verschiedene Einstellungen
 	- Leaderboard
 - [Geburtstage](/birthday)
 	- auch fiktive Geburtstage unechter Nutzer
 	- Liste aller Geburtstage auf dem Server
 	- Einstellbare Rolle und Nachricht
 - [Level und Leaderboard](/level)
+	- Pro Level eine Rolle, eine Nachricht und die Anzahl der Levelpunkte festlegbar
+	- Leveln pro Nachricht oder pro Zeichen
 - [Statistiken in Kanalnamen](/serverstats)
 - [Serverstatistiken ohne zeitliches Ablaufdatum](/serverstats)
 - [Tickets](/category/tickets)
@@ -95,7 +98,7 @@ Alle diese Funktionen sind kostenlos verfügbar :D
 	- einen YouTube-Kanal mit Suchfunktion
 	- einen [Twitch-Streamer](/twitch#befehle)
 	- gebannte und gemutete Nutzer des Servers
-	- Filme, Serien und Schauspieler
+	- Filme, Serien und Schauspieler mit Suchfunktion
 	- Discord-Snowflakes
 	- DNS einer Domain
 	- Discord-Status
@@ -104,13 +107,15 @@ Alle diese Funktionen sind kostenlos verfügbar :D
 	- angepinnte Nachrichten
 	- alle Threads eines Servers
 - Reminder (Erinnerungen) & Timer, auch für mehrere Nutzer
-- [shorter-Befehl](/shorter)
+- [shorter.cf-Befehl](/shorter)
 	- Erstellen von Short-URLs auf [shorter.cf](https://shorter.cf)
 	- Anzeigen von Statistiken
 	- Folgen von Weiterleitungen
+- [Löschen von mehreren Nachrichten mit Filtern](/moderation/purge)
 - [Massenhinzufügen bzw. -entfernen von Rollen mit Filtern](/moderation/massactions)
+- Kicken und Bannen von Nutzern mit Filtern
 - [ChatGPT-Befehl](/ai/chatgpt)
-- [Text-zu-Bild-Befehl](/ai/text2img)
+- [KI-Text-zu-Bild-Befehl](/ai/text2img)
 - Bilderstellung und -veränderung
 - "hug"- und "sus"-Bildgenerierung
 - Textübersetzung
@@ -125,8 +130,6 @@ Alle diese Funktionen sind kostenlos verfügbar :D
 - Modals ("Forms") für Discord erstellen
 - [Nutzern mit Nitro eine Rolle zuweisen](/nitroverify)
 - Umwandlung von Währungen und Maßeinheiten
-- Löschen von mehreren Nachrichten mit Filtern
-- Kicken und Bannen von Nutzern mit Filtern
 - [Senden von selbst erstellten Nachrichten mit Embeds und Komponenten, z. B. Buttons](https://embed.tomatenkuchen.com)
 - Zufallsfunktionen, z. B. Würfel und Auswahl eines bestimmten Elements einer Liste
 - Erstellen und Lesen von QR-Codes
