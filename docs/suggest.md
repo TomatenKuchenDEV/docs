@@ -39,7 +39,7 @@ Approved and denied suggestions will be sent to these channels.
 
 Replied suggestions will be sent to this channel.
 
-:::caution
+:::warning
 
 Users cannot vote on a suggestion anymore if this channel is set and the suggestion is replied to using the `reply` command.
 

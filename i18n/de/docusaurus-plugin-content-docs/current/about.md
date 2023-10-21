@@ -36,7 +36,7 @@ Some **content** with _Markdown_ `syntax`.
 
 :::
 
-:::caution
+:::warning
 
 Some **content** with _Markdown_ `syntax`.
 

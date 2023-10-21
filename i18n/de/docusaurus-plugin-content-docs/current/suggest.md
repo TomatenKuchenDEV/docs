@@ -39,7 +39,7 @@ In diesen Kanal werden angenommene und abgelehnte Vorschläge gesendet.
 
 In diesen Kanal werden beantwortete Vorschläge gesendet.
 
-:::caution
+:::warning
 
 Nutzer können nicht mehr auf einem Vorschlag abstimmen, wenn dieser Kanal gesetzt ist und ein Vorschlag mit `reply` beantwortet wird.
 
