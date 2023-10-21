@@ -38,7 +38,7 @@ Resets the run if a user deletes their message. Members can get confused if a nu
 If the current run is reset if a user edits their message *and* changes it's number or add normal text while chatting is disabled.
 
 ### Allow chat
-Whether after the number normal text is allowed: "42 Hello :D"
+Whether after the number normal text is allowed, like `42 Hello :D`
 
 ### Use webhooks
 If webhooks should be used. Prevents message editing and deleting. Requires Manage Webhooks permission.
@@ -46,7 +46,7 @@ If webhooks should be used. Prevents message editing and deleting. Requires Mana
 ### Use reactions
 Whether the bot should react on correct counting messages. Disabled if "Use webhooks" is enabled.
 
-Reacts with "✅" and "☑" on every correct message. Reactions on special numbers, e.g. 42 and 100, can only be disabled by removing the Add Reactions permission from the bot.
+Reacts with "✅" or "☑" on every correct message. Reactions on special numbers, e.g. 42 and 100, can only be disabled by removing the Add Reactions permission from the bot.
 
 ### Role on fail
 If and if yes, which role users receive when making a mistake. Possible mistakes:

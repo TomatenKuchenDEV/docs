@@ -7,7 +7,7 @@ Beachte, dass meist t채glich Updates durchgef체hrt werden und deswegen regelm채�
 
 :::tip
 
-Alle diese Funktionen sind kostenlos verf체gbar :D
+Alle diese Funktionen sind kostenlos verf체gbar!
 
 :::
 

@@ -38,7 +38,7 @@ Stellt ein, ob der aktuelle Stand zurückgesetzt wird, wenn ein Nutzer seine Nac
 Ob der aktuelle Stand verloren geht, wenn ein Nutzer seine Nachricht bearbeitet *und* sich die Zahl dabei verändert oder die Nachricht normalen Text enthält.
 
 ### Unterhaltung erlauben
-Ob nach der Zahl noch normaler Text erlaubt ist: "42 Hallo :D"
+Ob nach der Zahl noch normaler Text erlaubt ist, z. B. `42 Hallo :D`
 
 ### Webhooks verwenden
 Ob Webhooks für Nachrichten verwendet werden sollen. Verhindert das Bearbeiten und Löschen von Nachrichten der Nutzer. Benötigt Webhooks-verwalten-Berechtigung.
@@ -46,7 +46,7 @@ Ob Webhooks für Nachrichten verwendet werden sollen. Verhindert das Bearbeiten 
 ### Reaktionen verwenden
 Ob der Bot auf Nachrichten reagieren soll. Wird ignoriert, wenn "Webhooks verwenden" aktiviert ist.
 
-Reagiert mit "✅" und "☑" auf jede zugelassene Nachricht. Reaktionen auf besondere Zahlen, z. B. 42 und 100, können nur durch das Entfernen der Reaktionen-hinzufügen-Berechtigung deaktiviert werden.
+Reagiert mit "✅" oder "☑" auf jede zugelassene Nachricht. Reaktionen auf besondere Zahlen, z. B. 42 und 100, können nur durch das Entfernen der Reaktionen-hinzufügen-Berechtigung deaktiviert werden.
 
 ### Rolle bei Fehlern
 Welche Rolle Nutzer erhalten, wenn sie einen Fehler beim Zählen machen. Als Fehler zählt:

@@ -7,7 +7,7 @@ Note that there a daily updates usually containing new features, and those might
 
 :::tip
 
-All of those features are available for free! :D
+All of those features are available for free!
 
 :::
 
