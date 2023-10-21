@@ -13,7 +13,7 @@ All of those features are available for free! :D
 
 - Custom bots (custom branding)
 - [Integrations](/integrations)
-	- Integrations can easily replace custom commands (also known as Tags)
+	- Integrations can easily replace custom commands (also known as "Tags")
 - [Moderation](/category/moderation)
 	- [Many common moderation commands, like lockdown, slowmode and dehoist](/moderation/commands)
 	- [Settings](/moderation/settings):
@@ -34,6 +34,7 @@ All of those features are available for free! :D
 - [Auto nickname on join](/autorole)
 - [Rejoin/persistent roles which users receive back when rejoining](/autorole)
 - [Counting](/counting)
+	- Many different settings
 	- Leaderboard
 - [Birthdays](/birthday)
 	- Fictive birthdays of unreal users
@@ -95,7 +96,7 @@ All of those features are available for free! :D
 	- a YouTube channel including search
 	- a [Twitch streamer](/twitch#commands)
 	- banned and muted users of the server
-	- movies, series and actors
+	- movies, series and actors including search
 	- Discord ID/snowflake info
 	- DNS records of a domain
 	- Discord status
@@ -104,13 +105,15 @@ All of those features are available for free! :D
 	- pinned messages
 	- all threads of a server
 - Reminders & timers, including using with other users
-- [Shorter command](/shorter)
+- [Shorter.cf command](/shorter)
 	- Creation of short urls on [shorter.cf](https://shorter.cf)
 	- Displaying statistics
 	- Following redirects
+- [Purging/clearing multiple messages with filters](/moderation/purge)
 - [Mass adding and removing roles with filters](/moderation/massactions)
+- Kicking and banning users with filters
 - [ChatGPT command](/ai/chatgpt)
-- [Text to image command](/ai/text2img)
+- [AI text to image command](/ai/text2img)
 - Image generation and modification
 - "hug" and "sus" image generation
 - Text translation
@@ -125,8 +128,6 @@ All of those features are available for free! :D
 - Creation of modals ("forms") for Discord
 - [Adding a role to nitro users](/nitroverify)
 - Converting currencies and other measuring units
-- Purging/clearing multiple messages with filters
-- Kicking and banning users with filters
 - [Sending messages with embeds and components, for example buttons](https://embed.tomatenkuchen.com)
 - Randomizer features, for example rolling a dice or selecting a random element out of a given list
 - Creating and reading QR codes
