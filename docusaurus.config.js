@@ -16,7 +16,7 @@ const config = {
 	},
 
 	plugins: [
-		"docusaurus-plugin-pagemove",
+		require("./plugin-pagemove/index.js"),
         [
             "docusaurus-plugin-remote-content",
             {
@@ -90,7 +90,7 @@ const config = {
 				docs: {
 					sidebarPath: require.resolve("./sidebars.js"),
 					routeBasePath: "/",
-					editUrl: "https://github.com/DEVTomatoCake/tk-docs/tree/master",
+					editUrl: "https://github.com/DEVTomatoCake/tk-docs/tree/main",
 					editLocalizedFiles: true
 				},
 				blog: false,
