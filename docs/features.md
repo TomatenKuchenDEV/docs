@@ -125,7 +125,7 @@ All of those features are available for free!
 - Polls
 - Muting or deafening all users in a voice channel
 - [Automatic updating messages e.g. for server statistics or birth calendars](/autoupdate)
-- Creation of modals ("forms") for Discord
+- Creation of [modals ("forms")](/modals) for Discord
 - [Adding a role to nitro users](/nitroverify)
 - Converting currencies and other measuring units
 - [Sending messages with embeds and components, for example buttons](https://embed.tomatenkuchen.com)
@@ -136,4 +136,4 @@ All of those features are available for free!
 - [Logging of pretty much everything on the Discord server](/logs)
 - [Online forms](/forms) for e.g. ban appeals or staff applications
 - [Boost messages](/boostmessages)
-- [Customroles](/customroles)
+- User created [customroles](/customroles)

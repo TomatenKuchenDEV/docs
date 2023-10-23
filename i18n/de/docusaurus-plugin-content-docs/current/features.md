@@ -127,7 +127,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 - Umfragen
 - Alle Nutzer im Sprachkanal muten oder deafen
 - [Automatisch updatende Nachrichten für z. B. Serverstatistiken oder Geburtstagskalender](/autoupdate)
-- Modals ("Forms") für Discord erstellen
+- [Modals ("Forms")](/modals) für Discord erstellen
 - [Nutzern mit Nitro eine Rolle zuweisen](/nitroverify)
 - Umwandlung von Währungen und Maßeinheiten
 - [Senden von selbst erstellten Nachrichten mit Embeds und Komponenten, z. B. Buttons](https://embed.tomatenkuchen.com)
@@ -138,4 +138,4 @@ Alle diese Funktionen sind kostenlos verfügbar!
 - [Logging von allen möglichen Aktionen auf dem Discord-Server](/logs)
 - [Onlineformulare](/forms) für z. B. Entbannungsanträge oder Bewerbungsformulare
 - [Boostnachrichten](/boostmessages)
-- [Customrollen](/customroles)
+- Durch Nutzer erstellbare [Customrollen](/customroles)

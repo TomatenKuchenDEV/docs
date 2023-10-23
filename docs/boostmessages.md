@@ -25,7 +25,7 @@ Setting for configuring the message which is sent once a user boosts the server 
 
 - `{usermention}`: Mention of the user
 - `{username}`: Username
-- `{displayname}`: Nickname
-- `{globalname}`: Global displayname
+- `{displayName}`: Nickname
+- `{globalName}`: Global displayname
 - `{boosts}`: Amount of boosts on the server
 - `{level}`: Current boost level

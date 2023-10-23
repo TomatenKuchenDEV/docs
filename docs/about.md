@@ -9,9 +9,9 @@ The bot is developed only by TomatoCake - though some users have helped with the
 
 ## Translating
 
-The bot is translated using [Weblate](https://translate.tomatenkuchen.com) into multiple languages.
+The bot is translated using [Weblate](https://tranweblateslate.tomatenkuchen.com) into multiple languages.
 
-[![Translation status](https://translate.tomatenkuchen.com/widgets/tomatenkuchen/-/287x66-grey.png)](https://translate.tomatenkuchen.com/engage/tomatenkuchen)
+[![Translation status](https://weblate.tomatenkuchen.com/widgets/tomatenkuchen/-/287x66-grey.png)](https://weblate.tomatenkuchen.com/engage/tomatenkuchen)
 
 ## Name
 

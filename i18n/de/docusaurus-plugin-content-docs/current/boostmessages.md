@@ -25,7 +25,7 @@ Hier kann die Nachricht, die beim Boosten bzw. Ende des Boostens gesendet wird, 
 
 - `{usermention}`: Erwähnung des Nutzers
 - `{username}`: Benutzername
-- `{displayname}`: Nickname
-- `{globalname}`: Globaler Anzeigename
+- `{displayName}`: Nickname
+- `{globalName}`: Globaler Anzeigename
 - `{boosts}`: Anzahl der Boosts auf dem Server
 - `{level}`: Aktuelles Boostlevel
