@@ -27,4 +27,4 @@ You can create up to 10 elements per server, which equals 10 different streamers
 
 ### Twitch user info
 
-Using the message command `youtube twitch <Streamer name>` you can get information about a Twitch user and a currently running livestream.
+Using the message command `twitch <Streamer name>` you can get information about a Twitch user and a currently running livestream.

@@ -11,11 +11,11 @@ Anstelle eines Grundes können Moderatoren und Admins auch einen Nutzer angeben,
 
 ## Nutzer oder Rolle zum aktuellen Ticket hinzufügen
 
-`add <Nutzer|Rolle>`
+`tickets add <Nutzer|Rolle>`
 
 ## Nutzer oder Rolle vom aktuellen Ticket entfernen
 
-`remove <Nutzer|Rolle>`
+`tickets remove <Nutzer|Rolle>`
 
 ## Ticket schließen
 
@@ -29,6 +29,17 @@ Dies wird dem Nutzer eine PN senden, wenn diese Einstellung im Dashboard aktivie
 
 Um Tickets zu löschen braucht man eine der Ticket-Manager-Rollen oder die Berechtigung "Server verwalten".
 
+## Claiming
+
+:::warning
+
+Diese Befehle bzw. dieser Button ist nur verfügbar, wenn Claimen in den [Einstellungen](/ticket/general#Claiming) aktiviert wurde.
+
+:::
+
+- `claim` oder Button auf der Ticketnachricht: Claimt das aktuelle Ticket.
+- `claim <Anderer Nutzer>`: Überträgt das aktuelle Ticket an den anderen Nutzer.
+
 ## Geschlossenes Ticket wieder öffnen
 
 Button auf der Ticket-geschlossen-Nachricht
@@ -41,7 +52,7 @@ Button auf der Ticket-geschlossen-Nachricht
 
 `tickets move <Neue Kategorie>`
 
-Dies wird die Anfangsnachricht vom Ticket erneut senden und, wenn Kanäle für die Tickets verwendet werden, ggf. die Kategorie des Kanals.
+Dies wird die Anfangsnachricht vom Ticket erneut senden und, wenn Kanäle für die Tickets verwendet werden, ggf. die Kategorie des Kanals ändern.
 
 ## Ticketembed erstellen
 

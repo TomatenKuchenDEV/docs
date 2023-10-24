@@ -11,11 +11,11 @@ Instead of a reason moderators and admins can also specify a user for whom the t
 
 ## Add a user or role to the current ticket
 
-`add <User|Role>`
+`tickets add <User|Role>`
 
 ## Remove a user or role from the current ticket
 
-`remove <User|Role>`
+`tickets remove <User|Role>`
 
 ## Close ticket
 
@@ -31,7 +31,13 @@ In order to delete a ticket you need one of the ticket manager roles or the "Man
 
 ## Claiming
 
-- `claim`: Claims the current ticket.
+:::warning
+
+This commands and button is only available when claiming has been enabled in the [settings](/ticket/general#Claiming).
+
+:::
+
+- `claim` or button on the ticket message: Claims the current ticket.
 - `claim <Other user>`: Transfers the current ticket to the other user.
 
 ## Reopening a closed ticket

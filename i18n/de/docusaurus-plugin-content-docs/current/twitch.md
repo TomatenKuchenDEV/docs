@@ -39,4 +39,4 @@ Jeder Server kann bis zu zehn verschiedene Elemente hinzufügen - das entspricht
 
 ### Twitch-Nutzer-Info
 
-Mit dem Nachrichtenbefehl `youtube twitch <Streamername>` kannst du dir Informationen über einen Twitch-Benutzer und einen möglicherweise aktuell laufenden Livestream anzeigen lassen.
+Mit dem Nachrichtenbefehl `twitch <Streamername>` kannst du dir Informationen über einen Twitch-Benutzer und einen möglicherweise aktuell laufenden Livestream anzeigen lassen.
