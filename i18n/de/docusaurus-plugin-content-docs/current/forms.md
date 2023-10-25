@@ -25,15 +25,22 @@ Bei jedem Formular können die folgenden Einstellungen individuell angepasst wer
 
 ## Feldtypen
 
-Es gibt verschiedene Feldtypen, welche beim Bearbeiten von Feldern geändert werden können. Je nach Typ gibt es zusätzliche Einstellungen.
+Es gibt verschiedene Feldtypen, welche beim Bearbeiten von Feldern geändert werden können.
 
-- Einzeiliges Textfeld
-- Mehrzeiliges Textfeld
-- Passwortfeld
-- Zahlenfeld
-- Rangeauswahl für eine Zahl
-- Auswahl aus einer Liste von Optionen
-- Eine oder mehrere Checkboxen
+Je nach Typ gibt es zusätzliche Einstellungen.
+Alle dieser Typen können einen Standardwert gesetzt haben.
+
+- Einzeiliges, mehrzeiliges Textfeld und Passwortfeld
+	- Minimallänge
+	- Maximallänge
+- Zahl & Rangeauswahl für eine Zahl
+	- Minimalwert
+	- Maximalwert
+	- Schrittgröße zwischen Zahlen
+- Auswahl oder Checkboxen
+	- Minimalauswahl
+	- Maximalauswahl
+	- Liste der Optionen
 - Datumsauswahl
 - Zeitauswahl
 - Farbauswahl

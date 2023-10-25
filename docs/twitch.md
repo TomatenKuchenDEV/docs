@@ -13,15 +13,27 @@ Note that you have to authorize yourself first in the settings to be able to use
 
 You can set the username, the channel, the trigger and the message which is sent to the selected channel once the trigger is triggered.
 
+## Possible arguments
+
+- `{username}`: The username
+- `{link}`: The channel URL
+
 ## Possible triggers
 
-- `stream.online`: Triggered when the streamer starts it's livestream
+- `stream.online`: Triggered when the streamer starts it's livestream (default)
 - `stream.offline`: When the streamer stops it's livestream
 - `channel.update`: When the user updates it's channel
 - `channel.raid`: When the channel is raided
 - `user.update`: When the user updates it's public account data
 
 You can create up to 10 elements per server, which equals 10 different streamers with a live notification each.
+
+## Example
+
+- Channel (`channel`): Select a channel into which the live message should be sent
+- Trigger (`trigger`): When a message on stream start should be sent: `stream.online`
+- Twitch username (`username`): The username of the streamer from the URL, e.g. `monstercat`
+- Message content (`content`): `🔴 The streamer {username} is live!`
 
 ## Commands
 

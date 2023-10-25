@@ -11,7 +11,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 
 :::
 
-- Custom Bots (custom Branding)
+- Custom Bots (custom Branding/White-Label)
 - [Integrationen](/integrations)
 	- Integrationen ersetzen mit Leichtigkeit Customcommands (auch bekannt als "Tags")
 - [Moderation](/category/moderation)
@@ -27,12 +27,13 @@ Alle diese Funktionen sind kostenlos verfügbar!
 	- [YouTube-Videos, -Shorts und -Livestreams](/youtube)
 	- [Twitch-Livestreams](/twitch)
 	- [Minecraft-Serverstatus](/mcupdate)
-- [AFK](/afk)
+- [AFK-Funktion](/afk)
 	- Liste aller AFK-Nutzer auf dem Server
 	- Liste aller Erwähnungen beim Beenden des AFK-Status
 - [Autorollen für Nutzer und Bots getrennt](/autorole)
 - [Autonickname beim Beitreten](/autorole)
 - [Rejoin-/Persistente Rollen, die man beim erneuten Beitreten zurückerhält](/autorole)
+- [Übersetzungen von Nutzern](/translate)
 - [Counting](/counting)
 	- Viele verschiedene Einstellungen
 	- Leaderboard
@@ -48,9 +49,9 @@ Alle diese Funktionen sind kostenlos verfügbar!
 - [Tickets](/category/tickets)
 	- [Ticketkategorien](/tickets/general)
 	- [Claimen](/tickets/commands)
-	- Supporter- und Moderatorrollen
-	- Vollständig konfigurierbares Ticketembed sowie Ticketstart-Nachricht pro Kategorie
-	- Transkripte, die wie auf Discord aussehen
+	- Supporter- und Moderatorrollen für Zugriff
+	- Konfigurierbares Ticketembed sowie Ticketstart-Nachricht pro Kategorie
+	- Transkripte, die so aussehen, als wärst du auf Discord
 - [Selbst zuweisbare Rollen/Reactionroles mit:](/reactionroles)
 	- Reaktionen
 	- Buttons

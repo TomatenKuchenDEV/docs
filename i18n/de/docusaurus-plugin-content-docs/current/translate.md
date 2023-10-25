@@ -3,13 +3,13 @@ title: Übersetzen
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. TomatenKuchen, der Manage Bot und die Website werden mithilfe von Weblate übersetzt - du kannst auch mithelfen!
 ---
 
-TomatenKuchen, der Manage Bot und die Website von TomatenKuchen werden mithilfe von Weblate auf [weblate.tomatenkuchen.com](https://weblate.tomatenkuchen.com/engage/tk) übersetzt.
+TomatenKuchen, der Manage Bot und die Website von TomatenKuchen werden mithilfe von Weblate auf [translate.tomatenkuchen.com](https://translate.tomatenkuchen.com/engage/tk) übersetzt.
 
 Jeder Nutzer kann sich dort einen Account erstellen und neue Sprachen hinzufügen oder vorhandene übersetzen bzw. Übersetzungen verbessern.
 
 Vorschläge können auch nicht angemeldete Nutzer erstellen, jedoch können diese dann keine Belohnung erhalten.
 
-[![Übersetzungsstatus](https://weblate.tomatenkuchen.com/widget/tk/multi-auto.svg)](https://weblate.tomatenkuchen.com/engage/tk/)
+[![Übersetzungsstatus](https://translate.tomatenkuchen.com/widget/tk/multi-auto.svg)](https://translate.tomatenkuchen.com/engage/tk/)
 
 ## Sprachen
 

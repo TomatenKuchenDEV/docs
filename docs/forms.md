@@ -25,15 +25,22 @@ Each form can have these settings individually configured:
 
 ## Field types
 
-There are multiple field types which can be changed when editing a field. Depending on the type there are additional settings.
+There are multiple field types which can be changed when editing a field.
 
-- Single line text field
-- Multi line text field
-- Password field
-- Number field
-- Range selection for a number
-- Selection out of a list of options
-- One or multiple checkboxes
+Depending on the type there are additional settings.
+All of them are able to have a default value set.
+
+- Single & multi line text & password field
+	- Min length
+	- Max length
+- Number & range selection for a number
+	- Min value
+	- Max value
+	- Step between values
+- Selection & checkboxes
+	- Min selections
+	- Max selections
+	- List of options
 - Date picker
 - Time picker
 - Color picker

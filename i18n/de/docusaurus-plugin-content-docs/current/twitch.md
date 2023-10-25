@@ -20,7 +20,7 @@ Hier kann der Benutzername, der Kanal, der Auslöser und die Nachricht festgeleg
 
 ## Mögliche Trigger
 
-- `stream.online`: Wird ausgelöst, wenn der Nutzer seinen Livestream startet
+- `stream.online`: Wird ausgelöst, wenn der Nutzer seinen Livestream startet (Standard)
 - `stream.offline`: Wenn der Nutzer seinen Livestream stoppt
 - `channel.update`: Wenn der Nutzer seinen Kanal aktualisiert
 - `channel.raid`: Wenn ein Kanal geraidet wird
@@ -32,7 +32,7 @@ Jeder Server kann bis zu zehn verschiedene Elemente hinzufügen - das entspricht
 
 - Kanal (`channel`): Kanal auswählen, in den die Livenachricht gesendet werden soll
 - Trigger (`trigger`): Wenn eine Nachricht bei Streamstart gesendet werden soll: `stream.online`
-- Twitch-Benutzername (`username`): Der Nutzername des Streamers aus der URL
+- Twitch-Benutzername (`username`): Der Nutzername des Streamers aus der URL, z. B. `monstercat`
 - Nachrichteninhalt (`content`): `🔴 Der Streamer {username} ist live!`
 
 ## Befehle

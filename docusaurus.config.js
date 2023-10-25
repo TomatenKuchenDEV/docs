@@ -147,7 +147,7 @@ const config = {
 							href: "https://tomatenkuchen.com/discord"
 						},{
 							label: "Translation",
-							href: "https://weblate.tomatenkuchen.com/engage/tomatenkuchen/"
+							href: "https://translate.tomatenkuchen.com/engage/tomatenkuchen/"
 						},{
 							label: "GitHub (Docs)",
 							href: "https://github.com/DEVTomatoCake/tk-docs"

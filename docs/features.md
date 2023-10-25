@@ -11,7 +11,7 @@ All of those features are available for free!
 
 :::
 
-- Custom bots (custom branding)
+- Custom bots (custom branding/white-label)
 - [Integrations](/integrations)
 	- Integrations can easily replace custom commands (also known as "Tags")
 - [Moderation](/category/moderation)
@@ -27,12 +27,13 @@ All of those features are available for free!
 	- [YouTube videos, shorts and livestreams](/youtube)
 	- [Twitch livestreams](/twitch)
 	- [Minecraft server status](/mcupdate)
-- [AFK](/afk)
+- [AFK feature](/afk)
 	- List of all AFK users on the server
 	- List of all mentions while AFK after the AFK state ends
 - [Auto roles for bots and users separately](/autorole)
 - [Auto nickname on join](/autorole)
 - [Rejoin/persistent roles which users receive back when rejoining](/autorole)
+- [Translations from users](/translate)
 - [Counting](/counting)
 	- Many different settings
 	- Leaderboard
@@ -46,9 +47,9 @@ All of those features are available for free!
 - [Tickets](/category/tickets)
 	- [Ticket categories](/tickets/general)
 	- [Claiming](/tickets/commands)
-	- Supporter (staff) and moderator roles
-	- Fully customizable ticket embed and start message per category
-	- Transcripts which look very similar to Discord
+	- Supporter (helper/staff) and moderator roles for access
+	- Customizable ticket embed and start message per category
+	- Transcripts which look like you're on Discord
 - [Self assignable roles/Reactionroles using:](/reactionroles)
 	- Reactions
 	- Buttons
@@ -104,7 +105,7 @@ All of those features are available for free!
 	- Time span until the current year is over
 	- pinned messages
 	- all threads of a server
-- Reminders & timers, including using with other users
+- Reminders & timers, including using them with other users
 - [Shorter.cf command](/shorter)
 	- Creation of short urls on [shorter.cf](https://shorter.cf)
 	- Displaying statistics
