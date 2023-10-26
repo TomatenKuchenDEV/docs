@@ -6,11 +6,11 @@ image: /img/integration_weather.png
 
 :::info Function list
 
-You can find a list of all functions on the [functions page](/category/action-functions)
+You can find a list of all functions on the [functions page](/category/action-functions).
 
 :::
 
-Integrations are pretty much customcommands 2.0 - you can still reply to message and slash commands, but you can also use many more triggers for actions.
+Integrations are pretty much customcommands 2.0 - you can still easily reply to message and slash commands, but you can also use much more triggers for actions.
 It is additionally possible to use created integrations on other servers.
 
 Integrations can be managed in the [dashboard](https://tomatenkuchen.com/dashboard/integrations).
@@ -18,7 +18,12 @@ Integrations can be managed in the [dashboard](https://tomatenkuchen.com/dashboa
 ## Possible triggers
 
 - Message and slash commands
-	- Argument: Slash command description, if empty disables slash cmd
+	- Argument: Slash command description. If this field is empty, no slash command is registered from this action.
+	- Up to 100 slash commands per server.
+- Message context menu \*
+	- Argument: Text for this context menu, at most 25 characters.
+- User context menu \*
+	- Argument: Text for this context menu, at most 25 characters.
 - Message content contains
 	- Argument: Text content to search for
 - Message content exact match
@@ -65,6 +70,8 @@ Integrations can be managed in the [dashboard](https://tomatenkuchen.com/dashboa
 - Discord system message
 	- Argument: Discord internal system message type: https://discord.com/developers/docs/resources/channel#message-object-message-types
 
+\* There can only be up to five context menus per server.
+
 ## Synchronisation modes
 
 There are different syncing modes that can be selected when importing an integration onto another server:
@@ -103,7 +110,7 @@ These integrations were created by our team or are verified by them.
 |-----------|------------------------------|---------------------------|
 | `.`       | Any character except newline | `a.b` matches "axb"       |
 | `\d`      | Digit (0-9)                  | `\d{2}` matches "42"      |
-| `\w`      | Word char (a-z, A-Z, 0-9, _) | `\w+` matches "bot_1"     |
+| `\w`      | Word char (a-z, A-Z, 0-9, _) | `\w+` matches "Bot_1"     |
 | `\s`      | Whitespace character         | `a\sb` matches "a b"      |
 | `[abc]`   | Any character in set         | `[aeiou]` matches "i"     |
 | `[^abc]`  | Any character NOT in set     | `[^aeiou]` matches "b"    |
@@ -117,3 +124,5 @@ These integrations were created by our team or are verified by them.
 | `$`       | End of string                | `xyz$` matches "abcxyz"   |
 | `\b`      | Word boundary                | `\bword\b` matches "word" |
 | `(...)`   | Capturing group              | `(abc)` matches "abc"     |
+
+RegEx capturing groups can be read using `{argsObj;groups;<Group ID>}`.

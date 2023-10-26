@@ -108,7 +108,7 @@ All of those features are available for free!
 - Reminders & timers, including using them with other users
 - [Shorter.cf command](/shorter)
 	- Creation of short urls on [shorter.cf](https://shorter.cf)
-	- Displaying statistics
+	- Displaying website statistics using `shorter stats`
 	- Following redirects
 - [Purging/clearing multiple messages with filters](/moderation/purge)
 - [Mass adding and removing roles with filters](/moderation/massactions)

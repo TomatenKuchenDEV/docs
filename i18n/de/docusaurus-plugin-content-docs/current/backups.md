@@ -7,9 +7,9 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 
 Mit Backups kannst du im Falle eines Servergriefs oder der ausversehenen Löschung z. B. eines Kanals diesen leicht wiederherstellen.
 
-### Was zeichnet TomatenKuchen-Backups aus?
+### Was sind TomatenKuchen-Backups?
 
-- Backups werden grundsätzlich für immer gespeichert
+- Backups werden standardmäßig für immer gespeichert
 	- Aufgrund einer Discord-Richtlinie werden die Nachrichten eines Backups unter Umständen nach 30 Tagen gelöscht.
 - Das Erstellen und Laden ist für alle Nutzer kostenlos
 - Es werden alle Einstellungen von Discord-Servern gespeichert, die der Bot sinnvoll wiederherstellen kann.
@@ -38,4 +38,4 @@ Mit dem Befehl `template <discord.new-Link oder -Code>` kannst du eine Discord-V
 
 Dadurch werden alle Kanäle (außer beim Argument `-ignorechannels`) und Rollen (außer beim Argument `-ignoreroles`) gelöscht und entsprechend dem Template neu erstellt.
 
-Templates kannst du von deinen Servern unter dem Einstellungstab "Server-Vorlage", von anderen Nutzern oder Websiten erhalten, die eine Liste dieser Templates bereitstellen.
+Templates kannst du von deinen Servern unter dem Einstellungstab "Server-Vorlage", von anderen Nutzern oder Websiten, die eine Liste dieser Templates bereitstellen, erhalten.

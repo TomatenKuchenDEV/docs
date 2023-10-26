@@ -6,11 +6,11 @@ image: /img/integration_weather.png
 
 :::info Funktionsliste
 
-Eine Liste aller Funktionen findest du auf der [Funktionen-Seite](/category/action-functions)
+Eine Liste aller Funktionen findest du auf der [Funktionen-Seite](/category/action-functions).
 
 :::
 
-Integrationen sind im Prinzip Customcommands 2.0 - du kannst auf Message- und Slashcommands antworten, aber du hast zusätzlich die Möglichkeit, viele weitere Auslöser für Aktionen zu nutzen.
+Integrationen sind im Prinzip Customcommands 2.0 - du kannst immer noch einfach auf Message- und Slashcommands antworten, aber du hast zusätzlich die Möglichkeit, viele weitere Auslöser für Aktionen zu nutzen.
 Außerdem ist es möglich, erstellte Integrationen auf anderen Servern zu verwenden.
 
 Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integrations) verwaltet werden.
@@ -18,7 +18,12 @@ Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integra
 ## Mögliche Auslöser
 
 - Nachrichten- und Slashcommand
-	- Argument: Slashcommand-Beschreibung, deaktiviert Slashcommand wenn leer
+	- Argument: Slashcommand-Beschreibung. Wenn leer wird kein Slashcommand von dieser Aktion registriert.
+	- Maximal 100 Slashcommands pro Server.
+- Nachrichten-Kontextmenü \*
+	- Argument: Text für das Kontextmenü, maximal 25 Zeichen.
+- Nutzer-Kontextmenü \*
+	- Argument: Text für das Kontextmenü, maximal 25 Zeichen.
 - Nachrichteninhalt enthält
 	- Argument: Nachrichteninhalt, nach dem gesucht werden soll
 - Nachrichteninhalt ist gleich
@@ -65,6 +70,8 @@ Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integra
 - Discord-Systemnachricht
 	- Argument: Interne Discord-System-Nachrichten-Typ-ID: https://discord.com/developers/docs/resources/channel#message-object-message-types
 
+\* Es kann maximal fünf Kontextmenüs pro Server geben.
+
 ## Synchronisations-Modi
 
 Es gibt verschiedene Sync-Modi, die beim Importieren einer Integration auf einen anderen Server ausgewählt werden können:
@@ -103,7 +110,7 @@ Diese Integrationen wurden von unserem Team erstellt oder von diesem verifiziert
 |-----------|--------------------------------|--------------------------|
 | `.`       | Alle Zeichen außer neue Zeilen | `a.b` matcht "axb"       |
 | `\d`      | Ziffer (0-9)                   | `\d{2}` matcht "42"      |
-| `\w`      | Wortzeichen (a-z, A-Z, 0-9, _) | `\w+` matcht "bot_1"     |
+| `\w`      | Wortzeichen (a-z, A-Z, 0-9, _) | `\w+` matcht "Bot_1"     |
 | `\s`      | Whitespace-Zeichen             | `a\sb` matcht "a b"      |
 | `[abc]`   | Irgendein dieser Zeichen       | `[aeiou]` matcht "i"     |
 | `[^abc]`  | Alle Zeichen außer diese       | `[^aeiou]` matcht "b"    |
@@ -117,3 +124,5 @@ Diese Integrationen wurden von unserem Team erstellt oder von diesem verifiziert
 | `$`       | Ende der Zeichenkette          | `xyz$` matcht "abcxyz"   |
 | `\b`      | Wortbegrenzung                 | `\bword\b` matcht "word" |
 | `(...)`   | Match-Gruppe                   | `(abc)` matcht "abc"     |
+
+Match-Gruppen können mithilfe von `{argsObj;groups;<Group ID>}` ausgelesen werden.

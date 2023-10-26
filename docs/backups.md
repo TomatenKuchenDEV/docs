@@ -9,7 +9,7 @@ Using backups you can in case of a server grief or the accidental deletion of e.
 
 ### What are TomatenKuchen backups?
 
-- Backups are stored forever usually
+- Backups are stored forever by default
 	- Due to a Discord rule the messages of backups may get deleted after 30 days.
 - Creating and loading is free for all users
 - All settings of Discord servers are stored that can be restored by the bot.

@@ -110,7 +110,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 - Reminder (Erinnerungen) & Timer, auch für mehrere Nutzer
 - [shorter.cf-Befehl](/shorter)
 	- Erstellen von Short-URLs auf [shorter.cf](https://shorter.cf)
-	- Anzeigen von Statistiken
+	- Anzeigen von Website-Statistiken mit `shorter stats`
 	- Folgen von Weiterleitungen
 - [Löschen von mehreren Nachrichten mit Filtern](/moderation/purge)
 - [Massenhinzufügen bzw. -entfernen von Rollen mit Filtern](/moderation/massactions)
