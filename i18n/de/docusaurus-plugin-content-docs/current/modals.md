@@ -11,7 +11,7 @@ Modals werden mit dem Befehl `modal` verwaltet.
 
 Die Erstellung erfolgt mit `modal create <ID> <Titel>`, wo `<ID>` eine von dir gewählte ID ist, und `<Titel>` der Modaltitel.
 
-Die ID wird verwendet, um das Modal eindeutig zu identifizieren und an anderen Stellen im Bot zu verwenden, z. B. in [Ticketkategorien](/ticket/general).
+Die ID wird verwendet, um das Modal eindeutig zu identifizieren und an anderen Stellen im Bot zu verwenden, z. B. in [Ticketkategorien](/tickets/general).
 
 Der Titel wird oberhalb des Popups angezeigt und kann nachträglich jederzeit geändert werden.
 

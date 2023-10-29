@@ -33,7 +33,7 @@ In order to delete a ticket you need one of the ticket manager roles or the "Man
 
 :::warning
 
-This commands and button is only available when claiming has been enabled in the [settings](/ticket/general#Claiming).
+This commands and button is only available when claiming has been enabled in the [settings](/tickets/general#Claiming).
 
 :::
 
