@@ -20,10 +20,12 @@ Integrations can be managed in the [dashboard](https://tomatenkuchen.com/dashboa
 - Message and slash commands
 	- Argument: Slash command description. If this field is empty, no slash command is registered from this action.
 	- Up to 100 slash commands per server.
-- Message context menu \*
+- Message context menu
 	- Argument: Text for this context menu, at most 25 characters.
-- User context menu \*
+	- Only up to five per server.
+- User context menu
 	- Argument: Text for this context menu, at most 25 characters.
+	- Only up to five per server.
 - Message content contains
 	- Argument: Text content to search for
 - Message content exact match
@@ -69,8 +71,6 @@ Integrations can be managed in the [dashboard](https://tomatenkuchen.com/dashboa
 	- Argument: `timeout`, `timeoutend` oder `all`/empty
 - Discord system message
 	- Argument: Discord internal system message type: https://discord.com/developers/docs/resources/channel#message-object-message-types
-
-\* There can only be up to five context menus per server.
 
 ## Synchronisation modes
 

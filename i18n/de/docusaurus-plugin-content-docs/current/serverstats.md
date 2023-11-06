@@ -10,16 +10,16 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 Du kannst die Kanäle, in denen Statistiken angezeigt werden, und wie sie angezeigt werden, in den [Einstellungen](https://tomatenkuchen.com/dashboard/settings) einstellen.
 Hier können die meisten [Aktions-Funktionen](/category/action-functions) verwendet werden.
 
-Die Statistiken werden automatisch alle **10 Minuten** aktualisiert.
+Die Kanalnamens-Statistiken werden automatisch alle **10 Minuten** aktualisiert.
 
-## Statistiken auf der Botwebsite und `stats`
+## Statistiken auf der Botwebsite und `stats`-Befehl
 
 Beispiel: [Vanilla Minigames Statistiken](https://tomatenkuchen.com/stats?guild=608640398595719170)
 
 Der Bot sammelt täglich Statistiken über Server. Dazu gehören:
 - Mitgliederanzahl
 - Boostanzahl
-- Nachrichten pro Tag
+- gesendete Nachrichten
 - Anzahl aktiver Chatter (wie viele Nutzer an dem Tag eine Nachricht gesendet haben)
 
 Die beiden letzten werden nur gesammelt, wenn die [Sichtbarkeit](#sichtbarkeit) auf "Public" gesetzt ist.
@@ -30,7 +30,7 @@ Filter werden als Query-Parameter an die URL angehängt: `https://tomatenkuchen.
 
 - `type`: Zeigt nur den angegebenen Typ an:
 	- `&type=members`: Mitgliederzahl
-	- `&type=messages`: Nachrichten pro Tag
+	- `&type=messages`: Nachrichten
 	- `&type=boosts`: Boostanzahl
 	- `&type=chatters`: Anzahl aktiver Chatter
 - `time`: Zeigt nur Statistiken innerhalb des angegebenen Zeitraums an:
@@ -43,9 +43,9 @@ Diese Optionen können auch beim `stats`-Befehl verwendet werden. Dieser generie
 
 ### Sichtbarkeit
 
-Du kannst die Sichtbarkeit der Statistiken ändern. Du kannst zwischen "Public" ("öffentlich"), "Only Members" ("Nur für Mitglieder des Servers") und "Disabled" ("deaktiviert") wählen.
+Du kannst die Sichtbarkeit der Statistiken ändern. Du kannst zwischen "Public" ("öffentlich"), "Only Members" ("Nur für Servermitglieder") und "Disabled" ("deaktiviert") wählen.
 
-Beachte, das "Only Members" und "Disabled" das Sammeln von Nachrichtenstatistiken (Anzahl Nachrichten pro Tag & aktiver Chatter) deaktivieren.
+Beachte, das "Only Members" und "Disabled" das Sammeln von Nachrichtenstatistiken (Anzahl Nachrichten & aktiver Chatter) deaktivieren.
 
 ### Kanäle ausschließen
 

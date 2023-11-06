@@ -20,10 +20,12 @@ Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integra
 - Nachrichten- und Slashcommand
 	- Argument: Slashcommand-Beschreibung. Wenn leer wird kein Slashcommand von dieser Aktion registriert.
 	- Maximal 100 Slashcommands pro Server.
-- Nachrichten-Kontextmenü \*
+- Nachrichten-Kontextmenü
 	- Argument: Text für das Kontextmenü, maximal 25 Zeichen.
-- Nutzer-Kontextmenü \*
+	- Maximal fünf pro Server.
+- Nutzer-Kontextmenü
 	- Argument: Text für das Kontextmenü, maximal 25 Zeichen.
+	- Maximal fünf pro Server.
 - Nachrichteninhalt enthält
 	- Argument: Nachrichteninhalt, nach dem gesucht werden soll
 - Nachrichteninhalt ist gleich
@@ -69,8 +71,6 @@ Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integra
 	- Argument: `timeout`, `timeoutend` oder `all`/leer
 - Discord-Systemnachricht
 	- Argument: Interne Discord-System-Nachrichten-Typ-ID: https://discord.com/developers/docs/resources/channel#message-object-message-types
-
-\* Es kann maximal fünf Kontextmenüs pro Server geben.
 
 ## Synchronisations-Modi
 

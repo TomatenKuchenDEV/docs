@@ -10,6 +10,8 @@ Du verstehst Deutsch? Dann verwende die [deutsche Version dieser Docs](https://d
 
 :::
 
+TomatenKuchen is a fully free multipurpose bot to be used on all kind of Discord servers.
+
 ## [Invite TomatenKuchen](https://tomatenkuchen.com/invite)
 
 You can invite the bot using [this invite link](https://tomatenkuchen.com/invite). You'll automatically be logged in into the dashboard which allows you to modify server settings. These settings include the language and prefixes in addition to slash commands.

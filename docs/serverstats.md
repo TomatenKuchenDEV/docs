@@ -10,16 +10,16 @@ description: TomatenKuchen is a multipurpose Discord bot with many common and in
 You can set the channels in which and how the statistics are displayed in the [settings](https://tomatenkuchen.com/dashboard/settings).
 Most [action functions](/category/action-functions) can be used here.
 
-The stats are automatically updated every **10 minutes**.
+The channel name stats are automatically updated every **10 minutes**.
 
-## Stats on the bot website and `stats`
+## Stats on the bot website and `stats` command
 
 Example: [Vanilla Minigames statistics](https://tomatenkuchen.com/stats?guild=608640398595719170)
 
 TomatenKuchen collects daily statistics of your server. These include:
 - Member count
 - Boost count
-- Messages per day
+- Messages sent
 - Active chatter amount (how many unique users sent a message on your server that day)
 
 The last two are only collected if the [visibility](#visibility) is set to "Public".
@@ -30,7 +30,7 @@ Filters are appended to the URL as query parameters: `https://tomatenkuchen.com/
 
 - `type`: Only shows the specified stat type.
 	- `&type=members`: Member count
-	- `&type=messages`: Messages per day
+	- `&type=messages`: Messages
 	- `&type=boosts`: Boost count
 	- `&type=chatters`: Active chatter amount
 - `time`: Only shows statistics within the given time span:
@@ -43,9 +43,9 @@ Those options can also be used for the `stats` command. The command also generat
 
 ### Visibility
 
-You change change the visibility of the statistics. You can choose from `Public`, `Only Members` and `Disabled`.
+You change change the visibility of the statistics. You can choose from "Public", "Only Members" (only server members) and "Disabled".
 
-Note that "Only Members" and "Disabled" will disable tracking of message statistics (amount of messages per day & of active chatters).
+Note that "Only Members" and "Disabled" will disable tracking of message statistics (amount of messages & of active chatters).
 
 ### Excluded channels
 
