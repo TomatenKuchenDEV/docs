@@ -105,7 +105,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 	- Discord-Status
 	- Zeitraum, bis ein bestimmter Tag erreicht ist
 	- Zeitraum, bis das aktuelle Jahr vorbei ist
-	- angepinnte Nachrichten
+	- alle angepinnten Nachrichten eines Servers
 	- alle Threads eines Servers
 - Reminder (Erinnerungen) & Timer, auch für mehrere Nutzer
 - [shorter.cf-Befehl](/shorter)

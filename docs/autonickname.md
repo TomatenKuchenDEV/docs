@@ -18,7 +18,7 @@ The following variables can be used:
 - `{roles}`: One or more role abbreviations (depending on settings)
 - `{name}`: Previous displayname
 - `{username}`: Username
-- `{globalname}`: Global displayname of the user
+- `{globalName}`: Global displayname of the user
 
 ### Maximum amount of roles in the nickname
 

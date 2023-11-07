@@ -28,10 +28,11 @@ The image background can be changed using the command `usersettings`.
 
 Sets level messages and assigns a role to them.
 
-You can also set the number of points rewarded to users with this level.
+You can also set the number of points rewarded to users with this level when sending a message.
 As levels require higher points automatically, this setting should be **left at 1**.
 
 You can set a message and a role for every level.
+
 If no setting is found for a level, TomatenKuchen uses the lowest available.
 
 Possible variables:

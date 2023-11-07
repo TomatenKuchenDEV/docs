@@ -103,7 +103,7 @@ All of those features are available for free!
 	- Discord status
 	- Time span until a specified day/month is reached
 	- Time span until the current year is over
-	- pinned messages
+	- all pinned messages of a server
 	- all threads of a server
 - Reminders & timers, including using them with other users
 - [Shorter.cf command](/shorter)

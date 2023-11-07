@@ -28,10 +28,11 @@ Der Bildhintergrund kann mithilfe des Befehls `usersettings` angepasst werden.
 
 Legt eine Levelnachricht und dazugehörige Levelrollen fest.
 
-Ebenfalls kann eine Anzahl an Punkten festgelegt werden, die Nutzer mit diesem Level erhalten.
+Ebenfalls kann eine Anzahl an Punkten festgelegt werden, die Nutzer beim Senden einer Nachricht mit diesem Level erhalten.
 Da die Level automatisch mehr Punkte erfordern, sollte dieser Wert bei **1 belassen** werden.
 
 Es kann für jedes Level eine Nachricht und eine Rolle festgelegt werden.
+
 Wenn für ein Level keine Einstellung gefunden wird, wird die nächsttiefere verwendet.
 
 Mögliche Variablen:

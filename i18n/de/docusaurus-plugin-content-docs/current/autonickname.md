@@ -18,7 +18,7 @@ Folgende Variablen können verwendet werden:
 - `{roles}`: Eine oder mehrere Rollenabkürzungen (je nach Einstellung)
 - `{name}`: Vorheriger Anzeigename
 - `{username}`: Nutzername
-- `{globalname}`: Globaler Anzeigename des Nutzers
+- `{globalName}`: Globaler Anzeigename des Nutzers
 
 ### Maximale Rollen im Nicknamen
 

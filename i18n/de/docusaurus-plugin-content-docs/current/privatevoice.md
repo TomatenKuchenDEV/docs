@@ -38,7 +38,7 @@ Gib einem bestimmten Nutzer Rechte, in deinen Sprachkanal zu gehen.
 
 `permission add <Nutzer>`
 
-Alternativ kannst du auch das Selectmenü in deinem Sprachkanal verwenden.
+Alternativ kannst du auch das Selectmenü in deinem privaten Kanal verwenden.
 
 ### Nutzer entfernen
 
@@ -46,16 +46,23 @@ Entferne und kicke den angegeben Nutzer aus deinem Sprachkanal.
 
 `permission remove <Nutzer>`
 
+Alternativ kannst du auch das Selectmenü in deinem privaten Kanal verwenden.
+
 ### Moderator hinzufügen
 
 Moderatoren können, wie der Ersteller, alle permission-Befehle verwenden.
+
 Sie haben auch Stream-Berechtigungen im privaten Kanal.
 
 `permission addmod <Nutzer>`
 
+Alternativ kannst du auch das Selectmenü in deinem privaten Kanal verwenden.
+
 ### Moderator entfernen
 
 `permission removemod <Nutzer>`
+
+Alternativ kannst du auch das Selectmenü in deinem privaten Kanal verwenden.
 
 ### Nutzerlimit festlegen
 

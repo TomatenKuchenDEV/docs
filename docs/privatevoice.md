@@ -46,16 +46,23 @@ Kicks the specified user from your voice channel and remove their permissions to
 
 `permission remove <User>`
 
+Alternatively, you can use the select menu in your private channel.
+
 ### Add a moderator
 
 Moderators can, like the owner, use all private channel commands.
+
 They also have Stream permissions.
 
 `permission addmod <User>`
 
+Alternatively, you can use the select menu in your private channel.
+
 ### Remove a moderator
 
 `permission removemod <User>`
+
+Alternatively, you can use the select menu in your private channel.
 
 ### Set the user limit
 
