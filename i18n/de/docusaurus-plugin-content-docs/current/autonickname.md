@@ -10,6 +10,12 @@ TomatenKuchen kann den Nicknamen von Nutzern basierend auf Rollen des Nutzers an
 
 ![](/img/autonick.png)
 
+### Rollenabkürzungen
+
+Jede Rolle kann hier eine Abkürzung erhalten, die im Nicknamen angezeigt wird, z. B. für die "Admin"-Rolle ein "A".
+
+Nur in diesem Feld eingegebene Rollen werden im Nicknamen angezeigt.
+
 ### Format des Nicknamens
 
 Hier kann festgelegt werden, wie der Bot den Nicknamen aufbaut.
@@ -22,4 +28,4 @@ Folgende Variablen können verwendet werden:
 
 ### Maximale Rollen im Nicknamen
 
-Stellt die maximale Anzahl der Rollen ein, die im Nicknamen angezeigt werden. Bedenke, dass maximale Nicknamenlänge 32 Zeichen beträgt.
+Stellt die maximale Anzahl der Rollen ein, die im Nicknamen angezeigt werden. Bedenke, dass die maximale Nicknamenlänge 32 Zeichen beträgt.

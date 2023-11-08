@@ -24,6 +24,10 @@ The image background can be changed using the command `usersettings`.
 
 ## Settings
 
+### Level enabled/disabled
+
+Configures whether the levelsystem is enabled or disabled.
+
 ### Level message and level roles
 
 Sets level messages and assigns a role to them.

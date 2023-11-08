@@ -10,6 +10,12 @@ TomatenKuchen can change the nickname of users based on their roles.
 
 ![](/img/autonick.png)
 
+### Role abbreviations
+
+Every role can get linked to an abbreviation here which is displayed in the nickname, for example for the "Admin" role an "A".
+
+Only in this field entered roles are displayed in the nickname.
+
 ### Format of the nickname
 
 This value changes how the bot builds the nickname.

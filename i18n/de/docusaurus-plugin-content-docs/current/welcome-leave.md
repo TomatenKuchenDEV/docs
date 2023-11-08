@@ -31,4 +31,15 @@ Folgende Variablen sind verfügbar:
 
 ### Leavenachricht
 Ändert die Nachricht, die angezeigt wird, wenn ein Nutzer den Server verlässt.
-Alle Variablen abgesehen von `{inviter...}` sind verfügbar.
+
+Es sind dieselben Variablen wie für die Willkommensnachrichten verfügbar.
+
+### Willkommensnachricht bei Verlassen löschen
+
+Hier kann die Zeit eingestellt werden, wie lange es maximal gedauert haben darf, bis der Nutzer den Server wieder verlassen hat.
+
+So können Willkommensnachrichten von Nutzern, die z. B. weniger als zehn Minuten (`10m`) auf dem Server waren, wieder aus dem Kanal gelöscht werden.
+
+### Leavenachricht bei Rejoin löschen
+
+Hier kann die Zeit eingestellt werden, wie lange es maximal gedauert haben darf, bis der Nutzer dem Server erneut beigetreten ist.

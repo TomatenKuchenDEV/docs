@@ -31,4 +31,15 @@ The following variables are available:
 
 ### Leave message
 Modify the message that is displayed when a user leaves the server.
-All variables except `{inviter...}` are available.
+
+There same variables as for welcome message can be used.
+
+### Delete welcome messages on leave
+
+Sets the maximum time the user can have taken to leave the server.
+
+This way, welcome messages from users that were less than for example ten minutes (`10m`) on the server can be deleted.
+
+### Delete leave messages on rejoin
+
+Sets the maximum time the user can have taken to join the server again.

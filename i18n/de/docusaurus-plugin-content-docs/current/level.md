@@ -24,6 +24,10 @@ Der Bildhintergrund kann mithilfe des Befehls `usersettings` angepasst werden.
 
 ## Einstellungen
 
+### Level (de)aktiviert
+
+Stellt ein, ob das Levelsystem aktiviert oder deaktiviert ist.
+
 ### Levelnachricht und Levelrollen
 
 Legt eine Levelnachricht und dazugehörige Levelrollen fest.
