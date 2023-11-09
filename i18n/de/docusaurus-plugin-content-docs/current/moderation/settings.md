@@ -23,6 +23,10 @@ Wenn ein Nutzer gebannt wird wird dieser Zeitraum an Nachrichten automatisch gel
 
 Verhindert, dass Nutzer Nachrichten senden, die mit Markdown-Überschriften (`#`, `##` und `###`) beginnen. So kann das Flooden des Kanals mit großen Überschriften verhindert werden.
 
+## AutoMod-Erklärungen
+
+Schreibt Nutzern eine PN, wenn sie gegen eine Discord-AutoMod-Regel des Servers verstoßen, in der das Wort und der vollständige Textinhalt wiedergegeben wird.
+
 ## PN-Nachrichten für Ban/Kick/Mute/Warn
 
 Hier können die Nachrichten bearbeitet werden, die Nutzer per PN erhalten, wenn ein Moderator eine der angegebenen Funktionen nutzt.

@@ -23,6 +23,10 @@ Deletes this time span of messages when a user is banned. Due to Discord limits 
 
 Prevents users from sending messages starting with markdown headers (`#`, `##` and `###`). This can prevent flooding of channels by using big text.
 
+## AutoMod explanations
+
+Writes users a DM when they violate a Discord AutoMod rule of the server which contains the violated word or RegEx and the full message content.
+
 ## DM messages on ban/kick/mute/warn
 
 Edit the message users receive by DM if a moderator uses one of the mentioned moderation actions on them.

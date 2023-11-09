@@ -45,11 +45,13 @@ Users cannot vote on a suggestion anymore if this channel is set and the suggest
 
 :::
 
-### Pending
+### Pending channel
 
-Sets a channel in which new suggestions are collected to be allowed manually.
+Sets a channel in which new suggestions are collected to be allowed or denied manually.
 
 All users which have access to the channel can accept or deny them.
+
+If no channel is selected here this feature is disabled and suggestions are sent directly to the suggestion channel.
 
 ### Buttons or reactions
 

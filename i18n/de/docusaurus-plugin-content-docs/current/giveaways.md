@@ -34,17 +34,41 @@ Diese Funktion wählt einen oder die eingestellte Anzahl an Gewinnern aus. Nutze
 ## Einstellungen
 
 ### Giveaway-Nachricht
+
 Hier kann der Text der Giveaway-Nachricht verändert werden, z. B. um eine Giveaway-Rolle zu erwähnen.
 
 ### Rolle zum Erstellen/Verwalten von Giveaways
+
 Es können Rollen ausgewählt werden, welche Giveaways erstellen und bearbeiten können.
 
 Nutzer mit einer dieser Rollen können alle [Befehle](#commands) dieser Seite ausführen.
 
 ### Rollen, welche immer an Giveaways teilnehmen dürfen
+
 Die ausgewählten Rollen können immer an Giveaways teilnehmen, unabhängig davon, welche Bedingungen für das Giveaway festgelegt sind.
 
+### Verhalten von Zusatzeinträgen
+
+#### Mehrfach
+
+Diese Einstellung sorgt dafür, dass die Standardteilnahme, also eins, mit allen Zusatzeinträgen zusammenaddiert werden.
+
+#### Höchste Rolle
+
+Mit dieser Einstellung zählen die Zusatzteilnahmen der höchsten Rolle, welche der entsprechende Nutzer hat *und* einen Wert für die Zusatzteilnahmen zugewiesen hat.
+
+#### Höchste Zusatzteilnahme
+
+Dieser Wert zählt die höchste Zusatzteilnahme, die der Nutzer über seine Rollen hat.
+
+### Zusatzeinträge pro Rolle
+
+Hier kann pro Rolle eine Anzahl eingegeben werden, die die Rolle an zusätzlichen Einträgen in Giveaways erhält.
+
+Es kann eine Zahl von 0 bis 50 verwendet werden, wobei 0 die Teilnahme dieser Rolle an Giveways effektiv unterbindet.
+
 ## Bedingungen
+
 Es können verschiedene Bedingungen für die Teilnahme an Giveaways festgelegt werden.
 
 Mögliche Bedingungen:

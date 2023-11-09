@@ -45,11 +45,13 @@ Nutzer können nicht mehr auf einem Vorschlag abstimmen, wenn dieser Kanal geset
 
 :::
 
-### Pending
+### Pending-Kanal
 
 Legt einen Kanal fest, in welchem neue Vorschläge gesammelt werden, um manuell zugelassen oder abgelehnt zu werden.
 
 Alle Nutzer, die Zugriff auf den Kanal haben, können die Vorschläge annehmen oder ablehnen.
+
+Wenn hier kein Kanal ausgewählt ist ist diese Funktion deaktiviert und Vorschläge werden direkt in den Vorschlägekanal gesendet.
 
 ### Buttons oder Reaktionen
 

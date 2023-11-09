@@ -38,17 +38,41 @@ This will pick one or the configured amount of winners again after a giveaway ha
 ## Settings
 
 ### Giveaway message
+
 Change the text of the giveaway message. Can be used for example to ping a giveaway role.
 
 ### Role for creating/managing giveaways
+
 Users with this role can create and edit and giveaways.
 
 Users with one of these roles can run all [commands](#commands) on this page.
 
 ### Roles which always can participate
+
 Users with this role can always participate in giveaways, ignoring any requirements that have been set for the giveaway.
 
+### Behavior of extra entries
+
+#### Stack
+
+This setting causes the default entry (1) to be added together with all extra entries.
+
+#### Highest role
+
+With this setting the extra entries count of the highest role the specific user has *and* which has got a value for the extra entries assigned.
+
+#### Highest extra entry
+
+This value causes the highest extra entry to count which the user has from their roles.
+
+### Extra entries per role
+
+This setting allows a value per role which specifies the amount of extra entries the role receives in giveaways.
+
+Any number from 0 to 50 can be used, in which case 0 effectively disables the participation on giveaways.
+
 ## Requirements
+
 You can add different requirements for participating in a giveaway.
 
 Possible requirements:
