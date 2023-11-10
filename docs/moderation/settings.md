@@ -31,6 +31,8 @@ Writes users a DM when they violate a Discord AutoMod rule of the server which c
 
 Edit the message users receive by DM if a moderator uses one of the mentioned moderation actions on them.
 
+Leave empty to disable.
+
 ## Only attachment channels
 
 In selected channels users can only send attachments, for example images or videos. Only text is not allowed, but messages can contain an optional text.
@@ -38,6 +40,22 @@ In selected channels users can only send attachments, for example images or vide
 ## Minimum account age
 
 Minimum account age for newly joined Discord users. If they're not old enough they will be kicked.
+
+## AutoMod caps percentage
+
+At which percentage of capital letters in percent (30-100, default 70) the bot will start deleting a message due to too many caps.
+
+## Disable DMs forever
+
+Disables sending DMs to users which have never communicated before.
+
+This uses the safety features function by Discord which is expanded automatically by the bot.
+
+## Disable server invites forever
+
+Disables server invites forever which prevents users from joining the server, even with a valid invite.
+
+This uses the safety features function by Discord which is expanded automatically by the bot.
 
 ## Enforce reason
 

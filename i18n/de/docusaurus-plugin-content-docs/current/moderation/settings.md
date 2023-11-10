@@ -15,7 +15,7 @@ In diesen Kanälen werden Einladungen nicht gelöscht, wenn die obrige Einstellu
 
 De- oder aktiviert das Antispam auf dem Server.
 
-## Standard-Nachrichten-Lösch-Zeitraum
+## Standard-Nachrichtenlöschzeitraum
 
 Wenn ein Nutzer gebannt wird wird dieser Zeitraum an Nachrichten automatisch gelöscht. Aufgrund einer Discord-Limitierung begrenzt auf maximal sieben Tage (`7d`).
 
@@ -31,6 +31,8 @@ Schreibt Nutzern eine PN, wenn sie gegen eine Discord-AutoMod-Regel des Servers 
 
 Hier können die Nachrichten bearbeitet werden, die Nutzer per PN erhalten, wenn ein Moderator eine der angegebenen Funktionen nutzt.
 
+Leer lassen zum Deaktivieren.
+
 ## Nur-Anhangs-Kanäle
 
 In diesen Kanälen können Nutzer nur Anhänge, z. B. Bilder oder Videos, senden. Nur Text ist nicht erlaubt, Nachrichten können aber einen optionalen Text beeinhalten.
@@ -38,6 +40,22 @@ In diesen Kanälen können Nutzer nur Anhänge, z. B. Bilder oder Videos, senden
 ## Mindestaccountalter
 
 Mindestalter für Discord-Nutzer, die dem Server neu beitreten. Wenn diese nicht alt genug sind, werden sie gekickt.
+
+## AutoMod-Caps-Prozentsatz
+
+Ab welchem Anteil von Großbuchstaben in Prozent (30-100, Standard 70) eine Nachricht aufgrund von zu vielen Caps gelöscht wird.
+
+## PNs für immer deaktivieren
+
+Deaktiviert das Senden von PNs an Nutzer, mit denen noch nie eine Direktnachricht geschrieben worden ist.
+
+Dafür wird die Sicherheitsmaßnahmen-Funktion von Discord verwendet, welche vom Bot automatisch verlängert wird.
+
+## Servereinladungen für immer deaktivieren
+
+Deaktiviert Servereinladungen für immer, sodass Nutzer dem Server nicht mehr beitreten können, auch mit einer gültigen Einladung nicht.
+
+Dafür wird die Sicherheitsmaßnahmen-Funktion von Discord verwendet, welche vom Bot automatisch verlängert wird.
 
 ## Grund erzwingen
 

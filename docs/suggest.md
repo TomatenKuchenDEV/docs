@@ -57,6 +57,16 @@ If no channel is selected here this feature is disabled and suggestions are sent
 
 You can select if users vote using buttons or reactions. Buttons have the advantage that users can vote only once.
 
+### Cooldown between suggestions
+
+This time sets how long users have to wait after submitting a suggestion until they're able to make another suggestion.
+
+### Inform creator via DM
+
+If this setting is enabled the creator of the suggestion receives a DM when their suggestion was accepted or denied, or received a reply.
+
+This setting is enabled by default.
+
 ### Enforce reason
 
 Enforce a reason for suggestion actions, e.g. when approving or denying. Disabled by default.

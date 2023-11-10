@@ -57,6 +57,16 @@ Wenn hier kein Kanal ausgewählt ist ist diese Funktion deaktiviert und Vorschl�
 
 Du kannst auswählen, ob man mit Buttons oder mit Reaktionen abstimmt. Buttons haben den Vorteil, dass Nutzer nur einmal abstimmen können.
 
+### Cooldown zwischen Vorschlägen
+
+Diese Zeit legt fest, wie lange Nutzer nach dem Absenden eines Vorschlags warten müssen, bis sie wieder einen neuen Vorschlag machen können.
+
+### Ersteller per PN informieren
+
+Wenn dieser Wert aktiviert ist, erhält der Ersteller eines Vorschlags eine PN, wenn deren Vorschlag angenommen oder abgelehnt wurde oder eine Antwort erhalten hat.
+
+Diese Einstellung ist standardmäßig aktiviert.
+
 ### Grund erzwingen
 
 Erzwingt einen Grund bei Vorschlagsaktionen, z. B. beim Annehmen oder Ablehnen. Standardmäßig deaktiviert.

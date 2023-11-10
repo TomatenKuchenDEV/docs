@@ -1,6 +1,6 @@
 ---
 title: Ticket features
-description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains the ticket system and the setup
+description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains the ticket system and the setup and settings of it.
 ---
 
 ## Setting up ticket categories
@@ -13,27 +13,19 @@ Open the settings page of your server and find the setting for ticket categories
 `name` is the user friendly name/ID of the ticket category. `message` should be left empty as it's deprecated.
 
 ## Claiming
-You can choose different modes for ticket claiming:
 
-### Disabled
-The default setting - you can't use the `claim` command in this mode.
-
-### Only claimer
-Only the assigned user can see and reply to the ticket. *Supporter* (not manager!) ticket roles are removed from the channel.
-
-### Claimer can reply, other staff view
-Only the assigned user can reply to the ticket. Supporter roles can view the channel, but cannot reply.
-
-### Claimer and staff can reply
-The claimer and users from the supporter roles can view and reply to the ticket.
+See [Claiming](./claiming).
 
 ## Saving of user avatars and attachments in tickets
+
 By default, attachments are saved in another Discord channel to make them still retrievable after deleting a ticket in the transcript.
 Users can change this setting by using the command `usersettings`.
 
-## Variables for ticket messages
+## Settings
 
-### Ticket created messages
+### Ticket create message
+
+You can set a default message and one for each ticket category which is sent after creating a ticket.
 
 - `{usermention}`
 - `{username}`
@@ -51,3 +43,7 @@ In addition to the variables above:
 
 - `{allmention}`: Mentions the ticket creator and all to the ticket added users
 - `{timestamp}`: A Discord timestamp which shows when the ticket will be closed automatically
+
+### Channels or threads
+
+You can select whether the bot should use channels or threads for tickets.

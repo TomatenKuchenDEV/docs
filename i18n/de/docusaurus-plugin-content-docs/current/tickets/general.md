@@ -1,6 +1,6 @@
 ---
 title: Ticketfunktionen
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt die Funktionen und Einstellungen des Ticketsystems.
+description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt die Funktionen sowie die Einrichtung und Einstellungen des Ticketsystems.
 ---
 
 ## Ticketkategorien erstellen
@@ -13,27 +13,19 @@ Du kannst die Kategorie, den Transcriptkanal und die Nachricht für jede Ticketk
 `name` ist der benutzerfreundliche Name/ID der Ticketkategorie. `message` ist veraltet und sollte leer gelassen werden.
 
 ## Claiming
-Es gibt verschiedene Modi für das Beanspruchen/Claimen von Tickets:
 
-### Disabled
-Die Standardeinstellung - Claimen ist deaktiviert und der `claim`-Befehl kann nicht verwendet werden.
-
-### Only claimer
-Nur der zugewiesene Nutzer für das Ticket kann den Kanal sehen und antworten. Andere *Supporter*- (nicht Moderator-!)Rollen können das Ticket nicht mehr sehen.
-
-### Claimer can reply, staff view
-Nur der zugewiesene Nutzer für das Ticket kann antworten. Andere Nutzer mit einer der festgelegten Supporterrollen können das Ticket nur ansehen.
-
-### Claimer and staff can reply
-Jeder, sowohl der zugewiesene Nutzer als auch die Supporterrollen, kann der Ticket sehen und darauf antworten.
+Siehe [Claiming](./claiming).
 
 ## Automatisches Speichern von Benutzeravataren und Anhängen
+
 Standardmäßig werden Anhänge in einem anderen Discord-Kanal gespeichert, um diese auch nach dem Löschen eines Tickets im Transcript noch abrufbar zu machen.
 Diese Einstellung kann jeder Nutzer individuell mithilfe von dem Befehl `usersettings` ändern.
 
-## Variablen für Ticketnachrichten
+## Einstellungen
 
-### Ticket-erstellt-Nachrichten
+### Ticket-erstellt-Nachricht
+
+Es kann eine Standard-Nachricht und eine Nachricht pro Ticketkategorie festgelegt werden, die beim Erstellen eines Tickets gesendet wird.
 
 - `{usermention}`
 - `{username}`
@@ -45,9 +37,13 @@ Diese Einstellung kann jeder Nutzer individuell mithilfe von dem Befehl `userset
 - `{supporterroles}`: Eine Erwähnung alle als Supporter markierten Rollen
 - `{managerroles}`: Eine Erwähnung alle als Moderator markierten Rollen
 
-### Erinnerung für inaktive tickets
+### Erinnerung für inaktive Tickets
 
 Zusätzlich zu den Variablen oben:
 
 - `{allmention}`: Erwähnt den Ticketersteller und alle Nutzer, die zum Ticket hinzugefügt worden sind
 - `{timestamp}`: Ein Discord-Timestamp der zeigt, wann das Ticket automatisch geschlossen wird.
+
+### Kanäle oder Threads
+
+Du kannst auswählen, ob der Bot Kanäle oder Threads für Tickets verwenden soll.
