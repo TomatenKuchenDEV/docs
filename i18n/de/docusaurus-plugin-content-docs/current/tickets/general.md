@@ -39,6 +39,8 @@ Es kann eine Standard-Nachricht und eine Nachricht pro Ticketkategorie festgeleg
 
 ### Erinnerung für inaktive Tickets
 
+Hier kann eine Zeit sowie die Nachricht festgelegt werden, die gesendet wird, wenn ein Ticket für eine bestimmte Zeit lang inaktiv ist, also keine neue Nachricht mehr gesendet wurde.
+
 Zusätzlich zu den Variablen oben:
 
 - `{allmention}`: Erwähnt den Ticketersteller und alle Nutzer, die zum Ticket hinzugefügt worden sind

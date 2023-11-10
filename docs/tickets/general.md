@@ -39,6 +39,8 @@ You can set a default message and one for each ticket category which is sent aft
 
 ### Reminder for inactive tickets
 
+Here you can set a time and a message to be sent if no message has been sent for the specified time in the ticket.
+
 In addition to the variables above:
 
 - `{allmention}`: Mentions the ticket creator and all to the ticket added users
