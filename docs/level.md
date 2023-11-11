@@ -22,6 +22,12 @@ The image background can be changed using the command `usersettings`.
 
 ![Rank command](/img/rank.png)
 
+## Number of points needed for a level
+
+The amount of points needed for a level is calculated using `(<Level> / 0.35)²`.
+
+This means the amount of points needed for a level increases exponentially.
+
 ## Settings
 
 ### Level enabled/disabled
@@ -33,7 +39,7 @@ Configures whether the levelsystem is enabled or disabled.
 Sets level messages and assigns a role to them.
 
 You can also set the number of points rewarded to users with this level when sending a message.
-As levels require higher points automatically, this setting should be **left at 1**.
+As levels require higher points automatically, this setting should be **left at 1** (or empty).
 
 You can set a message and a role for every level.
 

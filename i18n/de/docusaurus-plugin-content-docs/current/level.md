@@ -22,6 +22,12 @@ Der Bildhintergrund kann mithilfe des Befehls `usersettings` angepasst werden.
 
 ![Rank-Befehl](/img/rank.png)
 
+## Für ein Level benötigte Punkte
+
+Die Anzahl der Punkte, die für ein Level benötigt werden, wird mit `(<Level> / 0.35)²` berechnet.
+
+Das heißt, dass die Anzahl der Punkte, die für ein Level benötigt werden, exponentiell ansteigt.
+
 ## Einstellungen
 
 ### Level (de)aktiviert
@@ -33,7 +39,7 @@ Stellt ein, ob das Levelsystem aktiviert oder deaktiviert ist.
 Legt eine Levelnachricht und dazugehörige Levelrollen fest.
 
 Ebenfalls kann eine Anzahl an Punkten festgelegt werden, die Nutzer beim Senden einer Nachricht mit diesem Level erhalten.
-Da die Level automatisch mehr Punkte erfordern, sollte dieser Wert bei **1 belassen** werden.
+Da die Level automatisch mehr Punkte erfordern, sollte dieser Wert bei **1 belassen** (oder leer gelassen) werden.
 
 Es kann für jedes Level eine Nachricht und eine Rolle festgelegt werden.
 
