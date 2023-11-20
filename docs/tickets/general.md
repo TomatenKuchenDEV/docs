@@ -16,9 +16,9 @@ Open the settings page of your server and find the setting for ticket categories
 
 See [Claiming](./claiming).
 
-## Saving of user avatars and attachments in tickets
+## Saving of attachments in tickets
 
-By default, attachments are saved in another Discord channel to make them still retrievable after deleting a ticket in the transcript.
+By default, attachments are saved on the TomatenKuchen to make them retrievable in a transcript even if the original channel was deleted.
 Users can change this setting by using the command `usersettings`.
 
 ## Settings

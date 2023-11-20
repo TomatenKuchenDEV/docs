@@ -7,9 +7,9 @@ image: /img/countingleaderboard.png
 Using the counting system, members can count on your server. Kind of boring, but... why not?
 
 ## Commands
-`countingleaderboard` shows the counting leaderboard of the server. It lists the amount of successfull counts per user overall and of the current run.
+`leaderboard counting` shows the counting leaderboard of the server. It lists the amount of successfull counts per user overall and of the current run.
 
-![/countingleaderboard](/img/countingleaderboard.png)
+![/leaderboard counting](/img/countingleaderboard.png)
 
 ## Settings
 

@@ -1,6 +1,6 @@
 ---
 title: Level & Leaderboard
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt das Levelsystem und Leaderboards von TomatenKuchen
+description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt das Levelsystem und Leaderboards von TomatenKuchen.
 image: /img/leaderboard.png
 ---
 
@@ -8,9 +8,10 @@ image: /img/leaderboard.png
 
 ### Leaderboard anzeigen
 
-Mit dem Befehl `leaderboard` kann das Leaderboard des Servers angezeigt werden.
+Mit dem Befehl `leaderboard level` kann das Level-Leaderboard des Servers angezeigt werden.
 
-Dieser Befehl verlinkt auch auf die Leaderboard-Website des Servers. Die URL wird automatisch angepasst, wenn der Server eine Vanity-URL für das Leaderboard verwendet.
+Dieser Befehl verlinkt auch auf die Leaderboard-Website des Servers.
+Die URL wird automatisch angepasst, wenn der Server eine Vanity-URL für das Leaderboard verwendet.
 
 ![Leaderboard-Befehl](/img/leaderboard.png)
 
@@ -83,3 +84,15 @@ Diese gilt für `levels.cf` und `lboard.tk`.
 Beispiel:
 - https://levels.cf/tk
 - https://lboard.tk/chaoshosting
+
+### Punkte pro Zeichen
+
+Mithilfe dieser Einstellung kannst du eine Anzahl an Punkten festlegen, die pro gesendetem Zeichen hinzugefügt (oder entfernt) werden.
+
+Du kannst einen Eintrag hinzufügen und eine Punkteanzahl pro Nachrichtenlänge festlegen.
+
+Beachte, dass alle Einträge zusammenaddiert werden, wenn die festgelegte Länge der Länge der Nachricht entspricht oder länger ist -
+wenn du die Anzahl der Punkte reduzieren möchtest, setze einfach einen negativen Wert.
+
+Diese Einstellung ist standardmäßig deaktiviert und wird nur aktiviert, wenn eine oder mehr Nachrichtenlängen festgelegt worden sind.
+Im Normalfall zählt eine Nachricht einen Punkt, außer der Nutzer hat Levelrollen, welche die Standardpunkteanzahl verändern.

@@ -8,9 +8,10 @@ image: /img/leaderboard.png
 
 ### Show leaderboard
 
-The command `leaderboard` shows the leaderboard of the server.
+The command `leaderboard level` shows the level leaderboard of the server.
 
-This command also links to the leaderboard website of the server. The URL automatically changes if the server has a vanity URL set.
+This command also links to the leaderboard website of the server.
+The URL automatically changes if the server has a vanity URL set.
 
 ![Leaderboard command](/img/leaderboard.png)
 
@@ -81,5 +82,17 @@ Modifies the leaderboard vanity URL of the server.
 This applies to `levels.cf` and `lboard.tk`.
 
 Example:
-- https://levels.cf/tk
+- https://levels.cf/tk#botvote
 - https://lboard.tk/chaoshosting
+
+### Points per characters
+
+Using this setting, you can define an amount of points to be added (or removed) per sent character.
+
+You can add an entry and set a point amount per message length.
+
+Note that all entries are added together if the set length is the same or longer as the message -
+if you want to reduce the amount of points, simply set a negative value.
+
+The setting is disabled by default and is only enabled if one or more message length is set.
+By default one message counts one point, unless the user has a level role which modify the default point amount.

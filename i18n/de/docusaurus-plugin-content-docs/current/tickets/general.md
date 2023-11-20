@@ -16,10 +16,10 @@ Du kannst die Kategorie, den Transcriptkanal und die Nachricht für jede Ticketk
 
 Siehe [Claiming](./claiming).
 
-## Automatisches Speichern von Benutzeravataren und Anhängen
+## Automatisches Speichern von Anhängen in Tickets
 
-Standardmäßig werden Anhänge in einem anderen Discord-Kanal gespeichert, um diese auch nach dem Löschen eines Tickets im Transcript noch abrufbar zu machen.
-Diese Einstellung kann jeder Nutzer individuell mithilfe von dem Befehl `usersettings` ändern.
+Standardmäßig werden Avatare und Anhänge auf dem TomatenKuchen-Server gespeichert, um diese auch nach dem Löschen eines Tickets im Transcript noch abrufbar zu machen.
+Diese Einstellung kann jeder Nutzer individuell mithilfe des Befehls `usersettings` ändern.
 
 ## Einstellungen
 
@@ -49,3 +49,7 @@ Zusätzlich zu den Variablen oben:
 ### Kanäle oder Threads
 
 Du kannst auswählen, ob der Bot Kanäle oder Threads für Tickets verwenden soll.
+
+### Ticket bei Inaktivität schließen
+
+Mit dieser Einstellung kannst du ein Ticket automatisch
