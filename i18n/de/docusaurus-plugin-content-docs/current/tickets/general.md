@@ -44,12 +44,20 @@ Hier kann eine Zeit sowie die Nachricht festgelegt werden, die gesendet wird, we
 Zusätzlich zu den Variablen oben:
 
 - `{allmention}`: Erwähnt den Ticketersteller und alle Nutzer, die zum Ticket hinzugefügt worden sind
-- `{timestamp}`: Ein Discord-Timestamp der zeigt, wann das Ticket automatisch geschlossen wird.
+- `{timestamp}`: Ein Discord-Timestamp, der zeigt, wann das Ticket automatisch geschlossen wird.
+
+### Ticket bei Inaktivität schließen
+
+Mit dieser Einstellung kannst du ein Ticket automatisch vom Bot schließen lassen, wenn es für eine bestimmte Zeit lang inaktiv ist, also keine Nachricht mehr gesendet wurde.
 
 ### Kanäle oder Threads
 
 Du kannst auswählen, ob der Bot Kanäle oder Threads für Tickets verwenden soll.
 
-### Ticket bei Inaktivität schließen
+### Nachricht an Ticketersteller beim Ticket schließen
 
-Mit dieser Einstellung kannst du ein Ticket automatisch
+Wenn diese Einstellung auf "Immer" gesetzt ist sendet der Bot automatisch eine PN-Nachricht an den originalen Ticketersteller.
+
+Auf "Manuell" enthält die Ticket-geschlossen-Nachricht einen Button, mit dem eine Nachricht an den Ticketersteller gesendet werden kann.
+
+Im Modus "Deaktiviert" wird keine Nachricht beim Schließen eines Tickets an den Ersteller gesendet.

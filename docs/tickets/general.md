@@ -46,6 +46,18 @@ In addition to the variables above:
 - `{allmention}`: Mentions the ticket creator and all to the ticket added users
 - `{timestamp}`: A Discord timestamp which shows when the ticket will be closed automatically
 
+### Close ticket on inactivity
+
+Using this time setting you can let the bot close a ticket automatically if it has been inactive for a certain time, so if no message has been sent.
+
 ### Channels or threads
 
 You can select whether the bot should use channels or threads for tickets.
+
+### Message to ticket creator on ticket close
+
+If this setting is set to "Always" the bot sends a DM message to the original ticket creator.
+
+In the mode "Manual" the ticket close message contains a button which can be used to send a message to the ticket creator.
+
+In the mode "Disabled" no message is sent to the creator when a ticket is closed.
