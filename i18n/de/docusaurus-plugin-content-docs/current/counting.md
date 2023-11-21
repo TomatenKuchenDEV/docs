@@ -7,9 +7,17 @@ image: /img/countingleaderboard.png
 Mit dem Counting-System können Nutzer auf dem Server zählen. Zwar langweilig, aber... warum nicht?
 
 ## Befehle
+
+### Erfolgreiches Zählen
+
 `leaderboard counting` zeigt das Counting-Leaderboard des Servers an. Es zeigt an, wie viele Zahlen ein Nutzer insgesamt und im aktuellen Versuch gezählt hat.
 
 ![/leaderboard counting](/img/countingleaderboard.png)
+
+### Fehler beim Zählen
+
+Das beim Befehl `leaderboard countingfail` angezeigte Leaderboard zeigt an, wie oft ein Nutzer einen Fehler beim Zählen gemacht hat.
+Es zeigt an, wie viele Fehler ein Nutzer insgesamt gemacht hat.
 
 ## Einstellungen
 
