@@ -4,7 +4,7 @@ description: TomatenKuchen is a multipurpose Discord bot with many common and in
 image: /img/countingleaderboard.png
 ---
 
-Using the counting system, members can count on your server. Kind of boring, but... why not?
+Using the counting system, members can count on your server with other members.
 
 ## Commands
 
