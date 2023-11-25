@@ -16,11 +16,11 @@ Alle diese Funktionen sind kostenlos verfügbar!
 	- Integrationen ersetzen mit Leichtigkeit Customcommands (auch bekannt als "Tags")
 - [Moderation](/category/moderation)
 	- [Viele Standardmoderationsbefehle, z. B. Lockdown, Slowmode und Dehoist](/moderation/commands)
-	- [Einstellungen](/moderation/settings):
+	- Einstellungen:
 		- Automoderation von Scamlinks und -einladungen
 		- Deaktivieren von Discordeinladungen anderer Server
 		- Deaktivieren von Markdown-Headern
-		- ... und mehr!
+		- [... und mehr!](/moderation/settings)
 - [Feeds](/feeds)
 	- RSS/Atom
 	- neue Minecraft-Vanilla- und Paper-Versionen
@@ -38,7 +38,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 	- Viele verschiedene Einstellungen
 	- Leaderboard
 - [Geburtstage](/birthday)
-	- auch fiktive Geburtstage unechter Nutzer
+	- Fiktive Geburtstage
 	- Liste aller Geburtstage auf dem Server
 	- Einstellbare Rolle und Nachricht
 - [Level und Leaderboard](/level)
@@ -52,7 +52,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 	- Supporter- und Moderatorrollen für Zugriff
 	- Konfigurierbares Ticketembed sowie Ticketstart-Nachricht pro Kategorie
 	- Transkripte, die so aussehen, als wärst du auf Discord
-- [Selbst zuweisbare Rollen/Reactionroles mit:](/reactionroles)
+- [Selbst zuweisbare Rollen/Reactionroles](/reactionroles) mit:
 	- Reaktionen
 	- Buttons
 	- Selectmenüs

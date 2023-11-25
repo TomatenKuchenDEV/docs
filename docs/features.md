@@ -13,14 +13,14 @@ All of those features are available for free!
 
 - Custom bots (custom branding/white-label)
 - [Integrations](/integrations)
-	- Integrations can easily replace custom commands (also known as "Tags")
+	- Integrations can easily replace custom commands (custom bot responses, also known as "Tags")
 - [Moderation](/category/moderation)
 	- [Many common moderation commands, like lockdown, slowmode and dehoist](/moderation/commands)
-	- [Settings](/moderation/settings):
+	- Settings:
 		- Auto moderation of scam links and scam invites
 		- Disabling invite links from other servers
 		- Disabling markdown headers
-		- ... and more!
+		- [... and more!](/moderation/settings)
 - [Feeds](/feeds)
 	- RSS/Atom
 	- New Minecraft vanilla und PaperMC versions
@@ -38,7 +38,7 @@ All of those features are available for free!
 	- Many different settings
 	- Leaderboard
 - [Birthdays](/birthday)
-	- Fictive birthdays of unreal users
+	- Fictive birthdays
 	- List of all birthdays on the server
 	- Configurable role and message
 - [Level and leaderboard](/level)
@@ -50,7 +50,7 @@ All of those features are available for free!
 	- Supporter (helper/staff) and moderator roles for access
 	- Customizable ticket embed and start message per category
 	- Transcripts which look like you're on Discord
-- [Self assignable roles/Reactionroles using:](/reactionroles)
+- [Self assignable roles/Reactionroles](/reactionroles) using:
 	- Reactions
 	- Buttons
 	- Select menus
