@@ -1,5 +1,5 @@
 ---
-title: Feature list
+title: Features
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. This page lists all features currently available.
 ---
 
@@ -123,7 +123,7 @@ All of those features are available for free!
 - [Creating and loading backups, no other bot has a this high amount of backup features](/backups)
 - [Loading Discord templates (discord.new) on existing servers](/backups#templates)
 - TODO list
-- Polls
+- [Polls](/poll)
 - Muting or deafening all users in a voice channel
 - [Automatic updating messages e.g. for server statistics or birth calendars](/autoupdate)
 - Creation of [modals ("forms")](/modals) for Discord

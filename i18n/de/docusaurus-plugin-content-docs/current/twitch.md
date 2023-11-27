@@ -35,7 +35,7 @@ Jeder Server kann bis zu zehn verschiedene Elemente hinzufügen - das entspricht
 - Twitch-Benutzername (`username`): Der Nutzername des Streamers aus der URL, z. B. `monstercat`
 - Nachrichteninhalt (`content`): `🔴 Der Streamer {username} ist live!`
 
-## Befehle
+## Befehle {#commands}
 
 ### Twitch-Nutzer-Info
 

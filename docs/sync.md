@@ -1,5 +1,5 @@
 ---
-title: Log & ban sync
+title: Syncing logs & bans
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. This page helps you with the log and ban sync feature.
 ---
 

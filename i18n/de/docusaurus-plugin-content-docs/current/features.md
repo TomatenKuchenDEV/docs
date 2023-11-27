@@ -1,5 +1,5 @@
 ---
-title: Featureliste
+title: Features
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Diese Seite listet alle zum aktuellen Zeitpunkt verfügbaren Features des Bots auf.
 ---
 
@@ -97,7 +97,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 	- Cloudflare-Statuscodes
 	- Discord-Berechtigungen
 	- einen YouTube-Kanal mit Suchfunktion
-	- einen [Twitch-Streamer](/twitch#befehle)
+	- einen [Twitch-Streamer](/twitch#commands)
 	- gebannte und gemutete Nutzer des Servers
 	- Filme, Serien und Schauspieler mit Suchfunktion
 	- Discord-Snowflakes
@@ -125,7 +125,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 - [Backups erstellen und laden, kein Bot hat eine vergleichbare Anzahl an Backupfunktionen](/backups)
 - [Discord-Templates (discord.new) auf vorhandenen Servern laden](/backups#templates)
 - TODO-Liste
-- Umfragen
+- [Umfragen](/poll)
 - Alle Nutzer im Sprachkanal muten oder deafen
 - [Automatisch updatende Nachrichten für z. B. Serverstatistiken oder Geburtstagskalender](/autoupdate)
 - [Modals ("Forms")](/modals) für Discord erstellen
