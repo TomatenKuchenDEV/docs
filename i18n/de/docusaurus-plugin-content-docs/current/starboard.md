@@ -12,7 +12,7 @@ Nachrichten auf dem Starboard zeigen auch Bilder und Antworten an. Bilder werden
 
 ## Einstellungen
 
-### Kanal
+### Starboard-Kanal
 Legt den Kanal fest, in dem Starboard-Nachrichten gesendet und aktualisiert werden.
 
 ### Self-Star

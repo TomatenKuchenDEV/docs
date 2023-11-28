@@ -12,7 +12,7 @@ Messages on the starboard also show images and replies. Images are saved to anot
 
 ## Settings
 
-### Channel
+### Starboard channel
 Sets the channel in which the starboard messages are sent and updated.
 
 ### Self star

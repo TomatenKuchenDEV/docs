@@ -15,7 +15,7 @@ Jedoch wird ihre Stimme weiterhin gezählt, wenn sie davor bereits abgestimmt ha
 
 ## Erstellen einer Umfrage
 
-1. Gehe in den Kanal, im dem die Umfrage gestartet werden soll.
+1. Öffne den Kanal, im dem die Umfrage gestartet werden soll.
 2. Führe den `poll`-Slash- oder -Message-Command mit den entsprechenden Argumenten aus.
 	- `time`*: Das Zeitlimit, wie lange die Umfrage laufen soll. Wenn diese Zeit abgelaufen ist werden die Ergebnisse angezeigt.
 	- `title`*: Der Titel der Umfrage, z. B. "Was ist deine Lieblingsfarbe?"

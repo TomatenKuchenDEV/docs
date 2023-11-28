@@ -15,12 +15,12 @@ Still, their vote is counted if they've voted before.
 
 ## Creating a poll
 
-1. Gehe in den Kanal, im dem die Umfrage gestartet werden soll.
+1. Open the channel you want to start the poll in.
 2. Run the `poll` slash or message command with the arguments you want.
-	- `time`*: Das Zeitlimit, wie lange die Umfrage laufen soll. Wenn diese Zeit abgelaufen ist werden die Ergebnisse angezeigt.
+	- `time`*: The time limit on how the poll should last. Once the time runs out the results are shown.
 	- `title`*: The title of the poll, e.g. "What's your favourite color?"
-	- `options`*: Die Optionen, die die Nutzer haben sollen, getrennt mit Kommas, z. B. `Red,Yellow,Green,Blue`
-	- `max_votes`: Die Anzahl der Stimmen, die ein Nutzer hat. Standardmäßig kann jeder Nutzer nur eine Option auswählen, mit dieser Einstellung kann dies verändert werden.
+	- `options`*: The options which the users can choose from, seperated by commands, e.g. `Red,Yellow,Green,Blue`
+	- `max_votes`: The amount of votes users have. By default every user can only select one option, this can be changed using this setting.
 	- `hide_votes`: Hides the "Votes" button below the embed so users cannot find out who voted for what.
 
 \*: This argument is required.
