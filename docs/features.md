@@ -117,7 +117,7 @@ All of those features are available for free!
 - [AI text to image command](/ai/text2img)
 - Image generation and modification
 - "hug" and "sus" image generation
-- Text translation
+- [Text translation](/translate-cmd)
 - Calculator
 - Comparing two texts
 - [Creating and loading backups, no other bot has a this high amount of backup features](/backups)

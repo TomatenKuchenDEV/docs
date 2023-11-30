@@ -10,7 +10,7 @@ Du verstehst Deutsch? Dann verwende die [deutsche Version dieser Docs](https://d
 
 :::
 
-TomatenKuchen is a fully free multipurpose bot to be used on all kind of Discord servers.
+TomatenKuchen is a fully free multipurpose bot which can be used on all kind of Discord servers.
 
 ## [Invite TomatenKuchen](https://tomatenkuchen.com/invite)
 

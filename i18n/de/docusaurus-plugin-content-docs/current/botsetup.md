@@ -4,7 +4,7 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 slug: /
 ---
 
-TomatenKuchen ist ein vollständig kostenloser Bot mit verschiedensten, welcher auf jeglichem Discord-Server-Typ verwendet werden kann.
+TomatenKuchen ist ein vollständig kostenloser Bot mit verschiedensten Features, welche auf jedem Discord-Server nützlich sein können.
 
 ## [TomatenKuchen einladen](https://tomatenkuchen.com/invite)
 

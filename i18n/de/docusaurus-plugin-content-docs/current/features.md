@@ -119,7 +119,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 - [KI-Text-zu-Bild-Befehl](/ai/text2img)
 - Bilderstellung und -veränderung
 - "hug"- und "sus"-Bildgenerierung
-- Textübersetzung
+- [Textübersetzung](/translate-cmd)
 - Taschenrechner
 - Unterschiede zwischen/Vergleich von zwei Texten
 - [Backups erstellen und laden, kein Bot hat eine vergleichbare Anzahl an Backupfunktionen](/backups)
