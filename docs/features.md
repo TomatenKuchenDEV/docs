@@ -33,7 +33,7 @@ All of those features are available for free!
 - [Auto roles for bots and users separately](/autorole)
 - [Auto nickname on join](/autorole)
 - [Rejoin/persistent roles which users receive back when rejoining](/autorole)
-- [Translations from users](/translate)
+- [Translations from users](/weblate)
 - [Counting](/counting)
 	- Many different settings
 	- Leaderboard
@@ -117,7 +117,7 @@ All of those features are available for free!
 - [AI text to image command](/ai/text2img)
 - Image generation and modification
 - "hug" and "sus" image generation
-- [Text translation](/translate-cmd)
+- [Text translation](/translate)
 - Calculator
 - Comparing two texts
 - [Creating and loading backups, no other bot has a this high amount of backup features](/backups)

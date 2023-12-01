@@ -18,7 +18,7 @@ Hier kann der Benutzername, der Kanal, der Auslöser und die Nachricht festgeleg
 - `{username}`: Der Benutzername
 - `{link}`: Der Kanallink
 
-## Mögliche Trigger
+## Mögliche Trigger {#triggers}
 
 - `stream.online`: Wird ausgelöst, wenn der Nutzer seinen Livestream startet (Standard)
 - `stream.offline`: Wenn der Nutzer seinen Livestream stoppt

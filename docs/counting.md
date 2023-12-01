@@ -16,8 +16,7 @@ Using the counting system, members can count on your server with other members.
 
 ### Failed counts
 
-The leaderboard displayed when using the command `leaderboard countingfail` lists all users that have failed a count.
-It displays how many times a user failed in total.
+The leaderboard shown when using `leaderboard countingfail` displays how many times in total a user made a mistake while counting.
 
 ## Settings
 
@@ -25,7 +24,7 @@ It displays how many times a user failed in total.
 Select the channel in which members can count.
 
 ### Start
-The start number, used on first message in a counting channel and after reset. Defaults to 1.
+The start number, used on first message in a counting channel and after a reset. Defaults to 1.
 
 ### Step
 The steps/difference between the current and the next number. Defaults to 1.
@@ -46,15 +45,16 @@ Resets the run if a user deletes their message. Members can get confused if a nu
 If the current run is reset if a user edits their message *and* changes it's number or add normal text while chatting is disabled.
 
 ### Allow chat
-Whether after the number normal text is allowed, like `42 Hello :D`
+Whether after the valid number normal text is allowed, like `42 I love TomatenKuchen!`
 
 ### Use webhooks
 If webhooks should be used. Prevents message editing and deleting. Requires Manage Webhooks permission.
 
 ### Use reactions
-Whether the bot should react on correct counting messages. Disabled if "Use webhooks" is enabled.
+Whether the bot should react with "✅" or "☑" on valid counting messages.
 
-Reacts with "✅" or "☑" on every correct message. Reactions on special numbers, e.g. 42 and 100, can only be disabled by removing the Add Reactions permission from the bot.
+Disabled if "Use webhooks" is enabled.
+Reactions on special numbers, e.g. 42 and 100, can only be disabled by removing the Add Reactions permission from the bot.
 
 ### Role on fail
 If and if yes, which role users receive when making a mistake. Possible mistakes:

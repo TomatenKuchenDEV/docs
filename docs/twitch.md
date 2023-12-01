@@ -18,7 +18,7 @@ You can set the username, the channel, the trigger and the message which is sent
 - `{username}`: The username
 - `{link}`: The channel URL
 
-## Possible triggers
+## Possible triggers {#triggers}
 
 - `stream.online`: Triggered when the streamer starts it's livestream (default)
 - `stream.offline`: When the streamer stops it's livestream
@@ -35,7 +35,7 @@ You can create up to 10 elements per server, which equals 10 different streamers
 - Twitch username (`username`): The username of the streamer from the URL, e.g. `monstercat`
 - Message content (`content`): `🔴 The streamer {username} is live!`
 
-## Commands
+## Commands {#commands}
 
 ### Twitch user info
 

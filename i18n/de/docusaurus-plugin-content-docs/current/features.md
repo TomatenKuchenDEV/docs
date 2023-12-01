@@ -33,7 +33,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 - [Autorollen für Nutzer und Bots getrennt](/autorole)
 - [Autonickname beim Beitreten](/autorole)
 - [Rejoin-/Persistente Rollen, die man beim erneuten Beitreten zurückerhält](/autorole)
-- [Übersetzungen von Nutzern](/translate)
+- [Übersetzungen von Nutzern](/weblate)
 - [Counting](/counting)
 	- Viele verschiedene Einstellungen
 	- Leaderboard
@@ -119,7 +119,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 - [KI-Text-zu-Bild-Befehl](/ai/text2img)
 - Bilderstellung und -veränderung
 - "hug"- und "sus"-Bildgenerierung
-- [Textübersetzung](/translate-cmd)
+- [Textübersetzung](/translate)
 - Taschenrechner
 - Unterschiede zwischen/Vergleich von zwei Texten
 - [Backups erstellen und laden, kein Bot hat eine vergleichbare Anzahl an Backupfunktionen](/backups)

@@ -1,21 +1,31 @@
 ---
-title: Translation
-description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. TomatenKuchen, the Manage Bot and the website are translated using Weblate - you can also help!
+title: Text translation
+description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. TomatenKuchen is able to translate text into over 100 languages, even automatically!
 ---
 
-TomatenKuchen, the Manage Bot and the website of TomatenKuchen are translated using Weblate on [translate.tomatenkuchen.com](https://translate.tomatenkuchen.com/engage/tk).
+TomatenKuchen is able to translate text using Google Translate into over 100 languages.
 
-Every user can create an account on there and add new languages, translate existing ones or improve translations.
+## Command
 
-Suggestions can be made by non-logged in users too, but they cannot receive a gift for translating.
+Using the command `translate` you're able to translate a word, a sentence or a whole text into the given target language.
 
-[![Translation status](https://translate.tomatenkuchen.com/widget/tk/multi-auto.svg)](https://translate.tomatenkuchen.com/engage/tk/)
+:::tip Translation quality
 
-## Languages
+The longer a sentence is, the better the translation gets.
 
-Currently, TomatenKuchen is translated into German and English manually. The translations into the languages French and Hungarian are done using DeepL.
+:::
 
-## Documentation
+## Integrations: Automatic translation
 
-The content and translation of this documention is done on [GitHub](https://github.com/DEVTomatoCake/tk-docs).
-If you want to help with that, create a GitHub account, fork the repository, edit the file and create a Pull Request.
+Using the integration [`autotranslate`](https://tomatenkuchen.com/dashboard/integrations?info=autotranslate) messages in a configured channel can be translated automatically.
+
+1. [Add the integration to your server](https://tomatenkuchen.com/dashboard/integrations?use=autotranslate)
+	1. Open the above link
+	2. Select your server
+	3. Click on "Use integration"
+2. Scroll down until you can see the field "Channel ID". Enter the channel ID there from which channel messages should be translated automatically. You can get the channel ID e.g. using the command `channelinfo`.
+3. Enter the target language.
+	- The target language is a unique, two-letter code for a language
+	- e.g. `en` for English or `de` for German
+	- You can also find the language code when using the `/translate` slashcommand
+4. Click on "Create integration" - done!

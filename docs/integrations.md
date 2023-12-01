@@ -15,7 +15,7 @@ It is additionally possible to use created integrations on other servers.
 
 Integrations can be managed in the [dashboard](https://tomatenkuchen.com/dashboard/integrations).
 
-## Possible triggers
+## Possible triggers {#triggers}
 
 - Message and slash commands
 	- Argument: Slash command description. If this field is empty, no slash command is registered from this action.

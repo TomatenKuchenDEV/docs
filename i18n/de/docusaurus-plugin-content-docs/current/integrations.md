@@ -15,7 +15,7 @@ Außerdem ist es möglich, erstellte Integrationen auf anderen Servern zu verwen
 
 Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integrations) verwaltet werden.
 
-## Mögliche Auslöser
+## Mögliche Auslöser {#triggers}
 
 - Nachrichten- und Slashcommand
 	- Argument: Slashcommand-Beschreibung. Wenn leer wird kein Slashcommand von dieser Aktion registriert.

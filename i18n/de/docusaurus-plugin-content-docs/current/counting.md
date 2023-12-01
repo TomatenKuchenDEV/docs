@@ -16,8 +16,7 @@ Mit dem Counting-System können Nutzer auf dem aktuellen Server mit anderen Mitg
 
 ### Fehler beim Zählen
 
-Das beim Befehl `leaderboard countingfail` angezeigte Leaderboard zeigt an, wie oft ein Nutzer einen Fehler beim Zählen gemacht hat.
-Es zeigt an, wie viele Fehler ein Nutzer insgesamt gemacht hat.
+Das beim Befehl `leaderboard countingfail` angezeigte Leaderboard zeigt an, wie viele Fehler ein Nutzer insgesamt beim Zählen gemacht hat.
 
 ## Einstellungen
 
@@ -46,15 +45,16 @@ Stellt ein, ob der aktuelle Stand zurückgesetzt wird, wenn ein Nutzer seine Nac
 Ob der aktuelle Stand verloren geht, wenn ein Nutzer seine Nachricht bearbeitet *und* sich die Zahl dabei verändert oder die Nachricht normalen Text enthält.
 
 ### Unterhaltung erlauben
-Ob nach der Zahl noch normaler Text erlaubt ist, z. B. `42 Hallo :D`
+Ob nach einer gültigen Zahl noch normaler Text erlaubt ist, z. B. `42 Ich mag TomatenKuchen!`
 
 ### Webhooks verwenden
 Ob Webhooks für Nachrichten verwendet werden sollen. Verhindert das Bearbeiten und Löschen von Nachrichten der Nutzer. Benötigt Webhooks-verwalten-Berechtigung.
 
 ### Reaktionen verwenden
-Ob der Bot auf Nachrichten reagieren soll. Wird ignoriert, wenn "Webhooks verwenden" aktiviert ist.
+Ob der Bot auf gültige Nachrichten mit "✅" oder "☑" reagieren soll.
 
-Reagiert mit "✅" oder "☑" auf jede zugelassene Nachricht. Reaktionen auf besondere Zahlen, z. B. 42 und 100, können nur durch das Entfernen der Reaktionen-hinzufügen-Berechtigung deaktiviert werden.
+Wird ignoriert, wenn "Webhooks verwenden" aktiviert ist.
+Reaktionen auf besondere Zahlen, z. B. 42 und 100, können nur durch das Entfernen der Reaktionen-hinzufügen-Berechtigung deaktiviert werden.
 
 ### Rolle bei Fehlern
 Welche Rolle Nutzer erhalten, wenn sie einen Fehler beim Zählen machen. Als Fehler zählt:
