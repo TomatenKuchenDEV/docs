@@ -23,5 +23,6 @@ Autoupdate ("automatically updating messages") are messages which auto update **
 - `{categories}`: Category amount
 - `{leaderboard}`: Shows the top 15 of the server leaderboard
 - `{boosters}`: Lists all boosters of the server
-- `{afk}`: List of all users marked as AFK
+- `{afk}`: List of users marked as AFK
 - `{birthday}`: List of all users with a public birthday and all fictive birthdays of the server
+- `{events}`: List of pending events

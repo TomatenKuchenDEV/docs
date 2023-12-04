@@ -14,7 +14,7 @@ Hier kannst du die Sprachkanäle hinzufügen und für jeden eine individuelle Na
 Mögliche Variablen:
 - `{username}`: Der Name des Nutzers
 - `{globalname}`: Der globale Nickname des Nutzers
-- `{usermention}`: Die Erwähnung des Nutzers
+- `{usermention}`: Die Erwähnung
 - `{useravatar}`: Die Avatar-URL des Nutzers
 - `{displayname}`: Der Anzeigename des Nutzers
 - `{channel}`: Der Kanalname des Kanals, dem der Nutzer beigetreten ist

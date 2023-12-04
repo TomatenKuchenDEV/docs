@@ -15,7 +15,7 @@ Here you can add voice channels and modify the message for each of them.
 Possible variables:
 - `{username}`: The name of the user
 - `{globalname}`: The global nickname of the user
-- `{usermention}`: The mention of the user
+- `{usermention}`: The user mention
 - `{useravatar}`: The avatar url of the user
 - `{displayname}`: The display name of the user
 - `{channel}`: The channel name of the channel which the user joined

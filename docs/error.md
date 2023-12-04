@@ -15,6 +15,8 @@ Many systems, especially interval (feeds, cronjob/interval based integrations) a
 
 The log system collects errors and other important events of the server. You can select the server in question at https://tomatenkuchen.com/dashboard/logs if, for example, no welcome message is sent and you want to know why. On the page you can search the logs and display information about them.
 
-This information includes the log ID, the error summary, the number of errors and a button to display internal additional information. Logs that occurred last three or more days ago can be deleted. If you don't understand the log message, join the support server and share the log ID with us.
+This information includes the log ID, the error summary, the number of errors and a button to display internal additional information.
+
+Logs that occurred last three or more days ago can be deleted. If you don't understand a still active log, join the support server and share the log ID in the #support forum.
 
 ![Logs overview](/img/logs_overview.png)

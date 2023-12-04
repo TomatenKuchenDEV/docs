@@ -1,6 +1,6 @@
 ---
 title: Birthdays
-description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains the birthday system.
+description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. The birthday system allows creating birthday per user and per server. You can also create birthday calendars and customized reminders.
 ---
 
 Birthdays are sent daily in the set server timezone at 0 o'clock (midnight).

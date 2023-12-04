@@ -23,5 +23,6 @@ Autoupdate ("automatisch updatende Nachrichten") steht für Nachrichten, die sic
 - `{categories}`: Anzahl der Kategorien
 - `{leaderboard}`: Zeigt die ersten 15 Leaderboard-Plätze des Servers
 - `{boosters}`: Zeigt alle Booster des Servers
-- `{afk}`: Liste aller Nutzer auf dem Server, welche als AFK markiert sind
+- `{afk}`: Liste von als AFK markierten Nutzern auf dem Server
 - `{birthday}`: Liste aller Nutzer mit einem öffentlichen Geburtstag sowie alle fiktiven Geburtstage des Servers
+- `{events}`: Liste aller anstehenden Events

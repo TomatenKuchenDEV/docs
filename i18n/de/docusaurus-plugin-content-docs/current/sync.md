@@ -1,15 +1,16 @@
 ---
 title: Log- & Bansync
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Hilft beim Setup von Log- und Bansync.
+description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Der Bot kann auch Logs und Bans sowie Unbans über mehrere Server hinweg synchronisieren.
 ---
 
 ## Setup generell
 
 Die Server-ID bekommst du entweder über den Entwicklermodus von Discord, durch den `server`-Befehl oder aus der Dashboard-URL.
 
-Wenn du den Befehl mit der Server-ID eingegeben hast erhältst du einen Code, den du dann bei `sync verify <Code>` auf dem anderen Server eingeben musst. Ab dann werden die Logs des ersten Servers auf den zweiten gesendet.
+Wenn du den Befehl mit der Server-ID eingegeben hast erhältst du einen Code, den du dann bei `sync verify <Code>` auf dem anderen Server eingeben musst.
+Ab diesem Monat werden die Logs des ersten Servers auf den zweiten gesendet.
 
-Um die Synchronisation zu beenden, verwende den Befehl `sync stop`.
+Um die Synchronisation zu beenden, verwende den Befehl `sync stop` auf dem Server, auf dem die Einrichtung der Synchronisierung erfolgt ist.
 
 ## Logsync
 
@@ -23,6 +24,6 @@ Dies betrifft alle Logtypen - beachte, dass die Logkanäle vom Zielserver übern
 
 Auch Bans bzw. Unbans lassen sich mithilfe des Bots synchronisieren. Im Gegensatz zu Logs lassen sich bei Bans mehrere Server gleichzeitig verwenden, auf die bzw. von denen synchronisiert wird.
 
-`sync bans <Server-ID> <Bans synchronisieren> <Unbans synchronisieren>`
+`sync bans <Server-ID> <Bans synchronisieren: true/false> <Unbans synchronisieren: true/false>`
 
 Bans bzw. Unbans synchronisieren stellt ein, ob Nutzer gebannt bzw. entbannt werden sollen. Wenn du z. B. nur Bans synchronisieren willst, wähle bei Unbans "False" aus.
