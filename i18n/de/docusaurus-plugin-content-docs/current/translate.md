@@ -15,7 +15,7 @@ Je länger ein Satz ist, desto besser wird die Übersetzung dessen.
 
 :::
 
-## Integrationen: Automatische Übersetzung
+## Integration: Automatische Übersetzung {#autotranslate}
 
 Mithilfe der Integration [`autotranslate`](https://tomatenkuchen.com/dashboard/integrations?info=autotranslate) können Nachrichten in einem festgelegten Kanal automatisch übersetzt werden.
 
@@ -29,3 +29,10 @@ Mithilfe der Integration [`autotranslate`](https://tomatenkuchen.com/dashboard/i
 	- z. B. `en` für Englisch oder `de` für Deutsch
 	- Den Sprachcode findest du auch bei `/translate`-Slashcommand
 4. Klicke auf "Integration erstellen" - fertig!
+
+## Integration: Übersetzung durch Reaktion mit Flagge {#flag-reaction-translate}
+
+Mithilfe der Integration [`flag-reaction-translate`](https://tomatenkuchen.com/dashboard/integrations?info=flag-reaction-translate) können Nachrichten übersetzt werden, indem man mit der Flagge der entprechenden Sprache auf eine Nachricht reagiert.
+
+1. [Füge die Integration deinem Server hinzu](https://tomatenkuchen.com/dashboard/integrations?use=flag-reaction-translate)
+2. Klicke auf "Integration erstellen" - fertig!

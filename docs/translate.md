@@ -15,7 +15,7 @@ The longer a sentence is, the better the translation gets.
 
 :::
 
-## Integrations: Automatic translation
+## Integration: Automatic translation {#autotranslate}
 
 Using the integration [`autotranslate`](https://tomatenkuchen.com/dashboard/integrations?info=autotranslate) messages in a configured channel can be translated automatically.
 
@@ -29,3 +29,10 @@ Using the integration [`autotranslate`](https://tomatenkuchen.com/dashboard/inte
 	- e.g. `en` for English or `de` for German
 	- You can also find the language code when using the `/translate` slashcommand
 4. Click on "Create integration" - done!
+
+## Integration: Translation by reacting with a flag {#flag-reaction-translate}
+
+Using the integration [`flag-reaction-translate`](https://tomatenkuchen.com/dashboard/integrations?info=flag-reaction-translate) messages can be translated by reacting to a message with the related flag.
+
+1. [Add the integration to your server](https://tomatenkuchen.com/dashboard/integrations?use=flag-reaction-translate)
+2. Click on "Create integration" - done!

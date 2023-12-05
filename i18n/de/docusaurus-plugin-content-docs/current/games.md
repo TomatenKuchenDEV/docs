@@ -1,6 +1,6 @@
 ---
 title: Spiele
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Hier findest du eine Liste aller verfügbaren Spiele.
+description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Der Bot hat viele Spiele, z. B. Snake, Uno! und Vier gewinnt.
 image: /img/game_snake.png
 ---
 
