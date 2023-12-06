@@ -89,7 +89,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 	- den aktuellen Server
 	- einen Kanal
 	- einen Emoji
-	- eine Rolle
+	- [eine Rolle](/role)
 	- einen Nutzer oder Bot
 	- ein Wort aus dem Duden
 	- die grammatikalische Korrektheit eines Textes (Duden Mentor)
@@ -134,7 +134,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 - [Senden von selbst erstellten Nachrichten mit Embeds und Komponenten, z. B. Buttons](https://embed.tomatenkuchen.com)
 - Zufallsfunktionen, z. B. Würfel und Auswahl eines bestimmten Elements einer Liste
 - Erstellen und Lesen von QR-Codes
-- Kategorien mit darin enthaltenen Kanälen klonen
+- Kategorien mit darin enthaltenen Kanälen kopieren
 - [Logs von aufgetretenen Fehlern und Dashboard-Änderungen](/error)
 - [Logging von allen möglichen Aktionen auf dem Discord-Server](/logs)
 - [Onlineformulare](/forms) für z. B. Entbannungsanträge oder Bewerbungsformulare
