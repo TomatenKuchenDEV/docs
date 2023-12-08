@@ -87,7 +87,7 @@ All of those features are available for free!
 	- the current server
 	- a channel
 	- an emoji
-	- a role
+	- [a role](/role)
 	- a user or bot
 	- a word from the German Duden site
 	- whether a German sentence is syntactically correct (Duden Mentor)
