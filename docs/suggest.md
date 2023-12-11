@@ -55,7 +55,10 @@ If no channel is selected here this feature is disabled and suggestions are sent
 
 ### Buttons or reactions
 
-You can select if users vote using buttons or reactions. Buttons have the advantage that users can vote only once.
+You can select if users vote using buttons or reactions.
+
+Buttons, the default value, have the advantage that users can vote only for one suggestion at a time.
+Also, the setting "Remove left users from giveaways and suggestion votes" requires buttons.
 
 ### Cooldown between suggestions
 

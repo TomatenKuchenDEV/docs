@@ -10,7 +10,7 @@ You can set the category, the transcript channel and the message for each ticket
 
 Open the settings page of your server and find the setting for ticket categories. Click on the "Add" button and fill in the values accordingly.
 
-`name` is the user friendly name/ID of the ticket category. `message` should be left empty as it's deprecated.
+`name` is the name and internal ID of the ticket category. The remaining fields are used for the message sent when creating a new ticket, for more information see the [Ticket create message](#ticket-create-message)
 
 ## Claiming
 
@@ -23,9 +23,11 @@ Users can change this setting by using the command `usersettings`.
 
 ## Settings
 
-### Ticket create message
+### Ticket create message {#ticket-create-message}
 
 You can set a default message and one for each ticket category which is sent after creating a ticket.
+
+This message is overrides by a category specific message if at least one message field of the ticket category is filled out.
 
 - `{usermention}`
 - `{username}`

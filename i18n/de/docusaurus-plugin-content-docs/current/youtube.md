@@ -8,13 +8,18 @@ Wenn ein Nutzer eine Premiere plant wird diese auch gesendet.
 
 Der Bot sucht alle zehn Minuten nach neuen Videos, aufgrund von Limitierungen von YouTube kann es in Einzelfällen aber auch mal etwas länger dauern.
 
-## Einstellungen
+## Befehl {#command}
 
-Die YouTube-Nutzer-ID für das `channel`-Feld erhältst du mit dem `youtube`-Befehl oder mit dem "Teilen"-Button auf der Kanalinfo-Seite eines Kanals.
+Der Befehl `youtube <Suche nach Kanalname>` zeigt dir eine Liste von Kanälen an, die mit deiner Suchanfrage übereinstimmen.
+Durch das Auswählen eines Kanals werden weitere Informationen angezeigt, z. B. die Anzahl der Videos und der Abonnenten.
+
+## Einstellungen {#settings}
+
+Die YouTube-Nutzer-ID für das `channel`-Feld erhältst du mit dem `youtube`-Befehl oder mit dem "Teilen"-Button auf der Kanalinfo-Seite eines Kanals, indem man auf die Beschreibung und dann den Teilen-Button klickt.
 
 Jeder Server kann bis zu zehn YouTube-Kanäle hinzufügen und für diese Benachrichtigungen erhalten.
 
-## Variablen
+## Variablen {#variables}
 
 Hier findest du eine Erklärung aller Variablen, die in YouTube-Nachrichten verwendet werden können.
 

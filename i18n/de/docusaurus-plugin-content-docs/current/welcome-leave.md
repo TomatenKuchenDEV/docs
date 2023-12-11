@@ -6,13 +6,16 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 ## Einstellungen
 
 ### Willkommensnachrichtenkanal
+
 Legt den Kanal fest, in dem Willkommensnachrichten gesendet werden.
 Leer lassen, um diese Nachrichten zu deaktivieren.
 
 ### Leave/Server-verlassen-Nachrichtenkanal
+
 Legt den Kanal fest, in denen eine Nachricht gesendet wird, wenn ein Nutzer den Server verlässt.
 
 ### Willkommensnachricht
+
 Ändert die Nachricht, die angezeigt wird, wenn ein Nutzer den Server betritt.
 
 Folgende Variablen sind verfügbar:
@@ -30,6 +33,7 @@ Folgende Variablen sind verfügbar:
 - `{inviteravatar}`: Avatar des einladenden Nutzers
 
 ### Leavenachricht
+
 Ändert die Nachricht, die angezeigt wird, wenn ein Nutzer den Server verlässt.
 
 Es sind dieselben Variablen wie für die Willkommensnachrichten verfügbar.

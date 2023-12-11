@@ -8,7 +8,7 @@ Mit TomatenKuchen kannst du schnell und einfach Onlineformulare für alle mögli
 
 ![Formularbeispiel](/img/forms_example.png)
 
-## Einrichtung
+## Einrichtung {#setup}
 
 Formulare werden mit dem Befehl `form` erstellt und verwaltet.
 
@@ -23,7 +23,7 @@ Bei jedem Formular können die folgenden Einstellungen individuell angepasst wer
 - Ob ein Nutzer nur eine Antwort senden kann oder mehrere
 - Wie lange ein Nutzer zwischen zwei Antworten warten muss (Standard: fünf Minuten)
 
-## Feldtypen
+## Feldtypen {#field-types}
 
 Es gibt verschiedene Feldtypen, welche beim Bearbeiten von Feldern geändert werden können.
 

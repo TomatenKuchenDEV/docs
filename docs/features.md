@@ -49,7 +49,7 @@ All of those features are available for free!
 	- [Claiming](/tickets/commands)
 	- Supporter (helper/staff) and moderator roles for access
 	- Customizable ticket embed and start message per category
-	- Transcripts which look like you're on Discord
+	- Discord like transcripts including attachments
 - [Self assignable roles/Reactionroles](/reactionroles) using:
 	- Reactions
 	- Buttons
@@ -87,14 +87,14 @@ All of those features are available for free!
 	- the current server
 	- a channel
 	- an emoji
-	- [a role](/role)
+	- a [role](/role)
 	- a user or bot
 	- a word from the German Duden site
 	- whether a German sentence is syntactically correct (Duden Mentor)
 	- HTTP status codes and HTTP header
 	- Cloudflare status codes
 	- Discord permissions
-	- a YouTube channel including search
+	- a [YouTube channel including search](/youtube#command)
 	- a [Twitch streamer](/twitch#commands)
 	- banned and muted users of the server
 	- movies, series and actors including search

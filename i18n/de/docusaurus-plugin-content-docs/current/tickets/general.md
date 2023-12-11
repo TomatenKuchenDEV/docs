@@ -10,7 +10,7 @@ Du kannst die Kategorie, den Transcriptkanal und die Nachricht für jede Ticketk
 
 Öffne die Einstellungsseite deines Servers und finde die Einstellung für Ticketkategorien. Klicke auf den Button "Hinzufügen" und fülle die Werte entsprechend aus.
 
-`name` ist der benutzerfreundliche Name/ID der Ticketkategorie. `message` ist veraltet und sollte leer gelassen werden.
+`name` ist der Name und die interne ID der Ticketkategorie. Die restlichen Felder beziehen sich auf die Nachricht, welche bei einem neuen Ticket gesendet wird, für mehr Informationen siehe [Ticket-erstellt-Nachricht](#ticket-create-message).
 
 ## Claiming
 
@@ -23,9 +23,11 @@ Diese Einstellung kann jeder Nutzer individuell mithilfe des Befehls `usersettin
 
 ## Einstellungen
 
-### Ticket-erstellt-Nachricht
+### Ticket-erstellt-Nachricht {#ticket-create-message}
 
 Es kann eine Standard-Nachricht und eine Nachricht pro Ticketkategorie festgelegt werden, die beim Erstellen eines Tickets gesendet wird.
+
+Diese Nachricht wird von einer kategoriespezifischen Nachricht überschrieben, sofern mindestens ein Nachrichtenfeld der Ticketkategorie ausgefüllt ist.
 
 - `{usermention}`
 - `{username}`

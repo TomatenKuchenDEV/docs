@@ -55,7 +55,10 @@ Wenn hier kein Kanal ausgewählt ist ist diese Funktion deaktiviert und Vorschl�
 
 ### Buttons oder Reaktionen
 
-Du kannst auswählen, ob man mit Buttons oder mit Reaktionen abstimmt. Buttons haben den Vorteil, dass Nutzer nur einmal abstimmen können.
+Du kannst auswählen, ob man mit Buttons oder mit Reaktionen abstimmt.
+
+Buttons, der Standardwert, haben den Vorteil, dass Nutzer nur einmal für einen Vorschlag abstimmen können.
+Ebenfalls benötigt die Einstellung "Nutzer, die den Server verlassen haben, aus Giveaways und Vorschlags-Votes entfernen" Buttons.
 
 ### Cooldown zwischen Vorschlägen
 

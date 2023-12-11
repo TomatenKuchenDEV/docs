@@ -51,7 +51,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 	- [Claimen](/tickets/commands)
 	- Supporter- und Moderatorrollen für Zugriff
 	- Konfigurierbares Ticketembed sowie Ticketstart-Nachricht pro Kategorie
-	- Transkripte, die so aussehen, als wärst du auf Discord
+	- Discord-Transkripte inklusive Anhängen
 - [Selbst zuweisbare Rollen/Reactionroles](/reactionroles) mit:
 	- Reaktionen
 	- Buttons
@@ -89,14 +89,14 @@ Alle diese Funktionen sind kostenlos verfügbar!
 	- den aktuellen Server
 	- einen Kanal
 	- einen Emoji
-	- [eine Rolle](/role)
+	- eine [Rolle](/role)
 	- einen Nutzer oder Bot
 	- ein Wort aus dem Duden
 	- die grammatikalische Korrektheit eines Textes (Duden Mentor)
 	- HTTP-Statuscodes und -Header
 	- Cloudflare-Statuscodes
 	- Discord-Berechtigungen
-	- einen YouTube-Kanal mit Suchfunktion
+	- einen [YouTube-Kanal mit Suchfunktion](/youtube#command)
 	- einen [Twitch-Streamer](/twitch#commands)
 	- gebannte und gemutete Nutzer des Servers
 	- Filme, Serien und Schauspieler mit Suchfunktion

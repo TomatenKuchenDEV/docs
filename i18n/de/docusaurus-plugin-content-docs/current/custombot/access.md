@@ -3,6 +3,11 @@ title: Zugriff und Verwaltung
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erfahre, wie Berechtigungen für Custom-Bots funktionieren.
 ---
 
+:::info Beta-Version
+Custom-Bots sind noch in der Beta und können daher Fehler enthalten.
+Jedoch ist jeder eingeladen, die Betaversion kostenlos durch das Beitreten des Discord-Servers zu testen.
+:::
+
 ## Bot-Team
 
 Wenn mehrere Nutzer Zugriff auf den Bot haben sollte, erstelle vor dem Hinzufügen des Bots im TomatenKuchen-Dashboard ein Team im Discord-Developer-Portal und füge den Bot dort hinzu. Dann kannst du über den Tab "Members" andere Nutzer einladen und diesen unterschiedliche Rechte vergeben, welche von TomatenKuchen auch so übernommen werden.

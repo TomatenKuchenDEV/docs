@@ -8,7 +8,7 @@ Using TomatenKuchen you can create online forms for all kind of purposes fast an
 
 ![Forms example](/img/forms_example.png)
 
-## Setup
+## Setup {#setup}
 
 Forms are created and managed using the command `form`.
 
@@ -23,7 +23,7 @@ Each form can have these settings individually configured:
 - Whether a user can send one or multiple responses
 - How long a user has to wait between responses (Default: five minutes)
 
-## Field types
+## Field types {#field-types}
 
 There are multiple field types which can be changed when editing a field.
 

@@ -8,13 +8,18 @@ If a user schedules a video or livestream, the bot will also announce it.
 
 The bot checks for new items every 10 minutes, due to YouTube limiting the feeds it rarely may take a bit longer.
 
-## Settings
+## Command {#command}
 
-You can get the YouTube user ID for the `channel` field using the `youtube` command or using the "Share" button on a channels info page.
+The command `youtube <Search by channel name>` displays a list of channels that match your search query.
+By selecting a channel, more information about is shown, e.g. the video and subscriber count.
+
+## Settings {#settings}
+
+You can get the YouTube user ID for the `channel` field using the `youtube` command or using the "Share" button on a channels info page by clicking the description and then the Share button on the right hand side.
 
 Every server can add up to ten different users and receive notifications for them.
 
-## Variables
+## Variables {#variables}
 
 This is an explanation of all variables that can be used in YouTube messages.
 
