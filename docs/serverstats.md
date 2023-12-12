@@ -19,7 +19,7 @@ Example: [Vanilla Minigames statistics](https://tomatenkuchen.com/stats?guild=60
 TomatenKuchen collects daily statistics of your server. These include:
 - Member count
 - Boost count
-- Messages sent
+- Messages sent from users
 - Active chatter amount (how many unique users sent a message on your server that day)
 
 The last two are only collected if the [visibility](#visibility) is set to "Public".
@@ -27,6 +27,7 @@ The last two are only collected if the [visibility](#visibility) is set to "Publ
 ### Possible filters
 
 Filters are appended to the URL as query parameters: `https://tomatenkuchen.com/stats?guild=608640398595719170&type=messages&time=2w`.
+This URL only displays the messages sent stats of the last two weeks.
 
 - `type`: Only shows the specified stat type.
 	- `&type=members`: Member count
@@ -39,13 +40,13 @@ Filters are appended to the URL as query parameters: `https://tomatenkuchen.com/
 
 Those options can also be used for the `stats` command. The command also generates an URL for easier sharing.
 
-## General settings
+## Settings {#settings}
 
-### Visibility
+### Visibility {#visibility}
 
-You change change the visibility of the statistics. You can choose from "Public", "Only Members" (only server members) and "Disabled".
+You can change the visibility of the statistics. You can choose from "Public", "Only Members" (only server members) and "Disabled".
 
-Note that "Only Members" and "Disabled" will disable tracking of message statistics (amount of messages & of active chatters).
+Note that "Only Members" and "Disabled" will disable tracking of message statistics (amount of messages & active chatters).
 
 ### Excluded channels
 

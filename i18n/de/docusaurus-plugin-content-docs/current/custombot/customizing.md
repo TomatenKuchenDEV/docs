@@ -5,7 +5,7 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 
 :::info Beta-Version
 Custom-Bots sind noch in der Beta und können daher Fehler enthalten.
-Jedoch ist jeder eingeladen, die Betaversion kostenlos durch das Beitreten des Discord-Servers zu testen.
+Jedoch ist jeder eingeladen, die Betaversion kostenlos durch das Beitreten des [Discord-Servers](https://tomatenkuchen.com/discord) zu testen.
 :::
 
 Bei Custom-Bots kannst die folgenden Anzeigeeinstellungen des Bots frei ändern:

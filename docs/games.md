@@ -20,6 +20,8 @@ Play tic tac toe with another user or an algorithm of TomatenKuchen.
 
 Let other members guess your text before the stickman is dead.
 
+Note that only 25 characters are allowed, which are A to X and Z. Y as well as numbers and other special characters are removed from your input.
+
 `game hangman <Text>`
 
 ### Connect Four
@@ -42,7 +44,7 @@ Play Uno with other users.
 
 ### Chemical equations
 
-Specifies a chemistry equation that must be balanced using factors.
+Gives you a chemistry equation that must be balanced using factors.
 
 `game chemie [easy|normal|hard]`
 
@@ -53,9 +55,3 @@ Specifies a chemistry equation that must be balanced using factors.
 Displays a grid of letters in which words are hidden. The words can be distributed vertically, horizontally and diagonally in all directions.
 
 `game wordsearch`
-
-### Anagram
-
-Outputs a long word from which shorter words must be formed.
-
-`game anagram`

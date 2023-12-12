@@ -3,7 +3,7 @@ title: Birthdays
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. The birthday system allows creating birthday per user and per server. You can also create birthday calendars and customized reminders.
 ---
 
-Birthdays are sent daily in the set server timezone at 0 o'clock (midnight).
+Birthday messages are sent daily in the set server timezone at 0 o'clock (midnight).
 
 ## Real users
 
@@ -18,6 +18,7 @@ This doesn't affect birthday announcements.
 - `birthday set 29 2 2000 public`
 	- Sets a public birthday which is announced every year on 02/29. If the year is not a leap year, the message will appear on 03/01.
 - `birthday set 1 4`
+	- Sets a not public birthday which is announced every year on 04/01.
 
 ### Delete birthday
 

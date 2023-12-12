@@ -20,6 +20,8 @@ Spiele TicTacToe gegen den angegebenen Nutzer oder gegen einen Algorithmus von T
 
 Lasse andere Nutzer den angegebenen Text erraten, bevor das Galgenmännchen vollständig ist.
 
+Beachte, dass nur 25 Buchstaben zugelassen sind, und zwar A bis X und Z. Y sowie einige Zahlen und Sonderzeichen werden von deiner Eingabe entfernt.
+
 `game hangman <Text>`
 
 ### Vier gewinnt
@@ -53,9 +55,3 @@ Gibt eine Chemiegleichung an, die mithilfe von Faktoren ausgeglichen werden muss
 Zeigt ein Raster an Buchstaben an, in dem Wörter versteckt sind. Die Wörter können senkrecht, waagerecht und diagonal in allen Richtungen verteilt sein.
 
 `game wordsearch`
-
-### Anagram
-
-Gibt ein langes Wort aus, aus dem kürzere (englische) Wörter gebildet werden müssen.
-
-`game anagram`

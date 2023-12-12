@@ -19,14 +19,15 @@ Beispiel: [Vanilla Minigames Statistiken](https://tomatenkuchen.com/stats?guild=
 Der Bot sammelt täglich Statistiken über Server. Dazu gehören:
 - Mitgliederanzahl
 - Boostanzahl
-- gesendete Nachrichten
+- von Nutzern gesendete Nachrichten
 - Anzahl aktiver Chatter (wie viele Nutzer an dem Tag eine Nachricht gesendet haben)
 
-Die beiden letzten werden nur gesammelt, wenn die [Sichtbarkeit](#sichtbarkeit) auf "Public" gesetzt ist.
+Die beiden letzten werden nur gesammelt, wenn die [Sichtbarkeit](#visibility) auf "Public" gesetzt ist.
 
 ### Mögliche Filter
 
 Filter werden als Query-Parameter an die URL angehängt: `https://tomatenkuchen.com/stats?guild=608640398595719170&type=messages&time=2w`.
+Diese URL zeigt die gesendete-Nachrichten-Statistik der letzten zwei Wochen an.
 
 - `type`: Zeigt nur den angegebenen Typ an:
 	- `&type=members`: Mitgliederzahl
@@ -39,13 +40,13 @@ Filter werden als Query-Parameter an die URL angehängt: `https://tomatenkuchen.
 
 Diese Optionen können auch beim `stats`-Befehl verwendet werden. Dieser generiert auch eine entsprechende URL, welche geteilt werden kann.
 
-## Allgemeine Einstellungen
+## Einstellungen {#settings}
 
-### Sichtbarkeit
+### Sichtbarkeit {#visibility}
 
 Du kannst die Sichtbarkeit der Statistiken ändern. Du kannst zwischen "Public" ("öffentlich"), "Only Members" ("Nur für Servermitglieder") und "Disabled" ("deaktiviert") wählen.
 
-Beachte, das "Only Members" und "Disabled" das Sammeln von Nachrichtenstatistiken (Anzahl Nachrichten & aktiver Chatter) deaktivieren.
+Beachte, dass "Only Members" und "Disabled" das Sammeln von Nachrichtenstatistiken (Anzahl Nachrichten & aktiver Chatter) deaktivieren.
 
 ### Kanäle ausschließen
 

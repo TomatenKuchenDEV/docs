@@ -12,8 +12,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 :::
 
 - Custom Bots (custom Branding/White-Label)
-- [Integrationen](/integrations)
-	- Integrationen ersetzen mit Leichtigkeit Customcommands (auch bekannt als "Tags")
+- [Integrationen](/integrations) - eine Weiterentwicklung von Customcommands (auch bekannt als "Tags")
 - [Moderation](/category/moderation)
 	- [Viele Standardmoderationsbefehle, z. B. Lockdown, Slowmode und Dehoist](/moderation/commands)
 	- Einstellungen:

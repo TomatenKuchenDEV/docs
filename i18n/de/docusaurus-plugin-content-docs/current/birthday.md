@@ -3,7 +3,7 @@ title: Geburtstage
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Mit dem Geburtstagssystem kann man Geburtstage pro Nutzer und pro Server erstellen. Du kannst auch Geburtstagskalender und eigene Erinnerungen erstellen.
 ---
 
-Geburtstage werden täglich um 0 Uhr (Mitternacht) in der festgelegten Serverzeitzone geprüft.
+Geburtstagsnachrichten werden täglich um 0 Uhr (Mitternacht) in der festgelegten Serverzeitzone gesendet.
 
 ## Reale Nutzer
 
@@ -19,6 +19,7 @@ Geburtstagsankündigungen sind hiervon nicht betroffen.
 - `birthday set 29 2 2000 public`
 	- Legt einen öffentlichen Geburtstag fest, der jedes Jahr am 29.02. angekündigt wird. Wenn das Jahr kein Schaltjahr ist, so erscheint die Nachricht am 01.03.
 - `birthday set 1 4`
+	- Legt einen nicht öffentlichen Geburtstag fest, der jedes Jahr am 01.04. angekündigt wird.
 
 ### Geburtstag löschen
 

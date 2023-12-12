@@ -1,15 +1,15 @@
 ---
-title: Embedbuilder
+title: Embededitor
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Der TomatenKuchen-Embededitor erlaubt dir, Nachrichteninhalte, Embeds und Komponenten auf einer Website zu bearbeiten.
 ---
 
 :::info Link
 
-[Link zum Embedbuilder](https://embed.tomatenkuchen.com)
+[Link zum Embededitor](https://embed.tomatenkuchen.com)
 
 :::
 
-Mithilfe des Embedbuilders kannst du deine eigenen Nachrichten inklusive Embeds und Komponenten, z. B. Buttons oder Selectmenüs, ganz einfach erstellen.
+Mithilfe des Embededitors kannst du deine eigenen Nachrichten inklusive Embeds und Komponenten, z. B. Buttons oder Selectmenüs, ganz einfach erstellen.
 
 Die Website wurde vom TomatenKuchen-Entwickler TomatoCake weiterentwickelt, um einige Fehler zu beheben sowie Neuerungen hinzuzufügen, dazu gehören hauptsächlich besagte Komponenten.
 

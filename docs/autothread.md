@@ -7,7 +7,7 @@ Using this feature you can let the bot automatically create threads in selected 
 
 ## Adding channels
 
-You can add channels in the related setting in the [dashboard](https://tomatenkuchen.com/dashboard/settings), in which a new thread should be created when a new message is sent.
+You can add channels in the [related setting in the dashboard](https://tomatenkuchen.com/dashboard/settings#autoThreadChannels), in which a new thread should be created when a new message is sent.
 
 You have multiple variables when choosing the name of the thread.
 

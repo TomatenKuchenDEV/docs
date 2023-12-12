@@ -7,7 +7,7 @@ Mithilfe dieser Funktion lassen sich automatisch Threads in ausgewählten Kanäl
 
 ## Kanäle hinzufügen
 
-In der dazugehörigen Einstellung im [Dashboard](https://tomatenkuchen.com/dashboard/settings) können Kanäle hinzugefügt werden, in welchen ein neuer Thread erstellt werden soll, wenn eine neue Nachricht gesendet wird.
+In der [dazugehörigen Einstellung im Dashboard](https://tomatenkuchen.com/dashboard/settings#autoThreadChannels) können Kanäle hinzugefügt werden, in welchen ein neuer Thread erstellt werden soll, wenn eine neue Nachricht gesendet wird.
 
 Du hast mehrere Variablen zur Auswahl, welche im Namen des Threads verwendet werden können.
 
