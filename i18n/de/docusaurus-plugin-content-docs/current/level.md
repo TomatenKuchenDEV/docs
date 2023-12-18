@@ -68,7 +68,7 @@ Es können einzelne oder Gruppierungen von Kanälen bzw. Rollen vom Sammeln von 
 
 ### Multiplier pro Kanal
 
-Legt einen Multiplier pro Kanal fest. Kann z. B. verwendet werden, um in Botkanälen weniger Punkte zu verteilen und in VIP-/Booster-/...-Kanälen mehr.
+Legt einen Multiplier pro Kanal fest. Kann z. B. verwendet werden, um in Botkanälen weniger Punkte zu verteilen und in VIP-/Booster-/…-Kanälen mehr.
 
 ### Cooldown
 

@@ -4,5 +4,8 @@
 	"link": {
 		"type": "generated-index",
 		"title": "A collection of explanations for TomatenKuchen Custom bots (White-label/Custom branding)"
-	}
+	},
+	"hidden": true,
+	"hide": true,
+	"show": false
 }

@@ -17,7 +17,7 @@ Integrations can be managed in the [dashboard](https://tomatenkuchen.com/dashboa
 
 ## Possible triggers {#triggers}
 
-- Message and slash commands
+- Message and/or slash command
 	- Argument: Slash command description. If this field is empty, no slash command is registered from this action.
 	- Up to 100 slash commands per server.
 - Message context menu
@@ -36,6 +36,8 @@ Integrations can be managed in the [dashboard](https://tomatenkuchen.com/dashboa
 	- Argument: Text content to search for
 - Message content matches RegEx
 	- Argument: RegEx to use for checking the content, ref. [RegEx cheatsheet](#regex-cheatsheet)
+- Message attachment
+	- Argument: File extensions or groups of them separated by commas
 - Button press
 	- Argument: Button custom ID
 - Select menu select
@@ -58,6 +60,8 @@ Integrations can be managed in the [dashboard](https://tomatenkuchen.com/dashboa
 	- Argument: `create`, `delete` oder `all`/empty
 - Thread (or post) created/deleted
 	- Argument: `create`, `delete` oder `all`/empty
+- Level up
+	- Argument: The range of levels to trigger on, e.g. `7` to trigger only when reaching level 7, or `7..10` to trigger on the levels 7, 8, 9 and 10.
 - Nickname updated
 - Server boost/boostend
 	- Argument: `boost`, `boostend` oder `all`/empty

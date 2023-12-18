@@ -68,7 +68,7 @@ Select roles, channels or groups of channels which are excluded from collecting 
 
 ### Multiplier per channel
 
-Sets a multiplier per channel. Can e.g. be used to reduce the amount given in bot channels and increase the points in VIP/Booster/... channels.
+Sets a multiplier per channel. Can e.g. be used to reduce the amount given in bot channels and increase the points in VIP/Booster/… channels.
 
 ### Cooldown
 

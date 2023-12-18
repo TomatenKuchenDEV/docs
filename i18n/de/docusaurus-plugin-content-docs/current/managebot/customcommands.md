@@ -14,7 +14,7 @@ Der Manage Bot erlaubt die Verwendung von Customcommands zur Verwaltung eines Se
 Erstellt einen Customcommand auf dem Server, verlinkt mit deinen Panel-Zugangsdaten.
 
 Den Panel-Alias findest du bei `/list`.
-Wenn keine Antwort angegeben wird antwortet der Bot mit "Der Befehl wurde im Panel ... ausgeführt: ..."
+Wenn keine Antwort angegeben wird antwortet der Bot mit "Der Befehl wurde im Panel … ausgeführt: …"
 
 ### `/customcommand delete <Name>`
 

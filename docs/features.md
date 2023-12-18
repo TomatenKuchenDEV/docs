@@ -20,7 +20,7 @@ All of those features are available for free!
 		- Auto moderation of scam links and scam invites
 		- Disabling invite links from other servers
 		- Disabling markdown headers
-		- [... and more!](/moderation/settings)
+		- [… and more!](/moderation/settings)
 - [Feeds](/feeds)
 	- RSS/Atom
 	- New Minecraft vanilla und PaperMC versions

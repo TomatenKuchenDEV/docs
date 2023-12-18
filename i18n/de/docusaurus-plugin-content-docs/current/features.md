@@ -11,7 +11,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 
 :::
 
-- Custom Bots (custom Branding/White-Label)
+- Kostenlose [Custom-Bots](/category/custombot) (custom Branding/White-Label)
 - [Integrationen](/integrations) - eine Weiterentwicklung von Customcommands (auch bekannt als "Tags")
 - [Moderation](/category/moderation)
 	- [Viele Standardmoderationsbefehle, z. B. Lockdown, Slowmode und Dehoist](/moderation/commands)
@@ -19,7 +19,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 		- Automoderation von Scamlinks und -einladungen
 		- Deaktivieren von Discordeinladungen anderer Server
 		- Deaktivieren von Markdown-Headern
-		- [... und mehr!](/moderation/settings)
+		- [… und mehr!](/moderation/settings)
 - [Feeds](/feeds)
 	- RSS/Atom
 	- neue Minecraft-Vanilla- und Paper-Versionen

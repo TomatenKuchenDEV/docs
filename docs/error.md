@@ -4,7 +4,7 @@ description: TomatenKuchen is a multipurpose Discord bot with many common and in
 image: /img/logs_overview.png
 ---
 
-You've encountered an error, e.g. a "An error occurred while executing the command `...`" message or something doesn't work as expected?
+You've encountered an error, e.g. a "An error occurred while executing the command `…`" message or something doesn't work as expected?
 Errors like "Interaction failed" shouldn't happen either - due to the high number of features, it's unfortunately not always possible to test all functions.
 
 If you found a bug, please report it on the [support server](https://tomatenkuchen.com/discord) or using the "Feedback" button from the `help` or `bot` command.

@@ -1,19 +1,18 @@
 ---
 title: Upgrades
-description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Erklärt die verschiedenen Upgrades von Custom-Bots.
-hidden: true
+description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains the different upgrades for custom bots.
 ---
 
 :::info Beta version
 Custom bots are still in beta and may contain errors.
-However, everyone may test the beta version for free by joining the [Discord server](https://tomatenkuchen.com/discord).
+However, everyone may test the beta version by joining the [Discord server](https://tomatenkuchen.com/discord).
 :::
 
 You can find the prices of upgrades on the [Custom bot info page](https://tomatenkuchen.com/custom#upgrades).
 
-Folgende Upgrades können aktiviert und im [Dashboard](https://tomatenkuchen.com/dashboard/custom) konfiguriert werden:
+The following upgrades can be enabled and configured in the [Dashboard](https://tomatenkuchen.com/dashboard/custom):
 - Status
-	- Wenn aktiviert kann der Botstatus frei geändert werden. Dazu gehört der Text, die Aktivität (Spielt/Custom/...) und der Status (Online/Abwesend/Bitte nicht stören/Offline)
-	- Wenn "Streamen" ausgewählt ist muss zusätzlich ein Twitch.tv-Kanallink im Statustext stehen. Dieser wird auf Discord nicht im Text, sondern als Link mit Streamvorschau als Status angezeigt. Wenn der Streamer nicht live ist, führt der Link nur zum Kanal des Streamers.
-- Antworten auf andere Bots
-	- Wenn aktiviert reagiert der Bot auf andere Bots. Je nachdem, wie viele Nachrichten von diesen Bots verarbeitet werden müssen, erhöht sich der tägliche Creditpreis. Bots können ggf. nicht alle Aktionen oder Befehle ausführen. Beachte auch, dass Bots einen höheren Befehlscooldown haben.
+	- If enabled, you can freely change the bot status. This includes the text, the activity (Playing/Custom/…) and the status (Online/Idle/Do not disturb/Offline).
+	- If "Streaming" is selected, the status text must include a twitch.tv streamer link. On Discord, instead of being shown in the text, it's displayed as a link with a stream preview as status. If the streamer isn't live, the link redirects to the channel of the streamer.
+- Responding to other bots
+	- If enabled, the bot reacts to other bots. Depending on the amount of messages that have to be processed by these bots, the daily credit price increases. Bots may not be able to execute all actions or commands. Also note that bots have a higher command cooldown.

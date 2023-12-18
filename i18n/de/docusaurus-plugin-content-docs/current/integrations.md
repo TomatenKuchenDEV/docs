@@ -17,7 +17,7 @@ Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integra
 
 ## Mögliche Auslöser {#triggers}
 
-- Nachrichten- und Slashcommand
+- Nachrichten- und/oder Slashcommand
 	- Argument: Slashcommand-Beschreibung. Wenn leer wird kein Slashcommand von dieser Aktion registriert.
 	- Maximal 100 Slashcommands pro Server.
 - Nachrichten-Kontextmenü
@@ -36,6 +36,8 @@ Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integra
 	- Argument: Nachrichteninhalt, nach dem gesucht werden soll
 - Nachrichteninhalt matcht RegEx
 	- Argument: RegEx, mit dem geprüft werden soll, siehe [RegEx-Cheatsheet](#regex-cheatsheet)
+- Nachrichtenanhang enthält
+	- Argument: Dateinendungen oder Gruppen dieser, getrennt mit Kommas
 - Button gedrückt
 	- Argument: Button-Custom-ID
 - Selectmenü ausgewählt
@@ -58,6 +60,8 @@ Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integra
 	- Argument: `create`, `delete` oder `all`/leer
 - Thread (oder Forumpost) erstellt/gelöscht
 	- Argument: `create`, `delete` oder `all`/leer
+- Levelup
+	- Argument: Eine Range von Level, bei denen ausgelöst werden soll, z. B. `7`, um nur beim Erreichen von Level sieben auszulösen, oder `7..10` um bei den Leveln 7, 8, 9 und 10 auszulösen.
 - Nickname geändert
 - Server geboosted/Boosts entfernt
 	- Argument: `boost`, `boostend` oder `all`/leer
