@@ -1,6 +1,6 @@
 ---
 title: Access and managing
-description:TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Learn how permissions work for custom bots.
+description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Learn how permissions work for custom bots.
 ---
 
 :::info Beta version
