@@ -49,30 +49,30 @@ Integrations can be managed in the [dashboard](https://tomatenkuchen.com/dashboa
 - Slash command uses of another bot (e.g. for `/bump` reminders)
 	- Argument: Slashcommand name of another bot
 - Member join/leave
-	- Argument: `join`, `leave` oder `all`/empty
+	- Argument: `join`, `leave` or empty to trigger on both
 - Reaction add/remove
-	- Argument: `add`, `remove` oder `all`/empty
+	- Argument: `add`, `remove` or empty to trigger on both
 - Role created/deleted
-	- Argument: `create`, `delete` oder `all`/empty
+	- Argument: `create`, `delete` or empty to trigger on both
 - Channel created/deleted
-	- Argument: `create`, `delete` oder `all`/empty
+	- Argument: `create`, `delete` or empty to trigger on both
 - Webhook created/deleted
-	- Argument: `create`, `delete` oder `all`/empty
+	- Argument: `create`, `delete` or empty to trigger on both
 - Thread (or post) created/deleted
-	- Argument: `create`, `delete` oder `all`/empty
+	- Argument: `create`, `delete` or empty to trigger on both
 - Level up
 	- Argument: The range of levels to trigger on, e.g. `7` to trigger only when reaching level 7, or `7..10` to trigger on the levels 7, 8, 9 and 10.
 - Nickname updated
 - Server boost/boostend
-	- Argument: `boost`, `boostend` oder `all`/empty
+	- Argument: `boost`, `boostend` or empty to trigger on both
 - Interval
-	- Argument: Interval time like `45m`, may have random offsets after bot restarts, min 5 mins, max 2 days
+	- Argument: Interval time like `45m`, may have random offsets after bot restarts, minimum 5 mins, maximum 2 days
 - Cronjob
-	- Argument: The cronjob, for example from https://crontab.guru, min 5 mins
+	- Argument: The cronjob, for example from https://crontab.guru, may not trigger more than 12 times per hour
 - User joins/leave voice channel
-	- Argument: `join`, `leave` oder `all`/empty
+	- Argument: `join`, `leave` or empty to trigger on both
 - User timeouted or untimeouted
-	- Argument: `timeout`, `timeoutend` oder `all`/empty
+	- Argument: `timeout`, `timeoutend` or empty to trigger on both
 - Discord system message
 	- Argument: Discord internal system message type: https://discord.com/developers/docs/resources/channel#message-object-message-types
 

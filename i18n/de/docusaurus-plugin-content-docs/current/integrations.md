@@ -49,30 +49,30 @@ Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integra
 - Slashcommand eines anderen Bots verwendet (z. B. für `/bump`-Erinnerungen)
 	- Argument: Slashcommand-Name des anderen Bots
 - Mitglied beigetreten/verlassen
-	- Argument: `join`, `leave` oder `all`/leer
+	- Argument: `join`, `leave` oder leer, um bei beiden auszulösen
 - Reaktion hinzugefügt/entfernt
-	- Argument: `add`, `remove` oder `all`/leer
+	- Argument: `add`, `remove` oder leer, um bei beiden auszulösen
 - Rolle erstellt/gelöscht
-	- Argument: `create`, `delete` oder `all`/leer
+	- Argument: `create`, `delete` oder leer, um bei beiden auszulösen
 - Kanal erstellt/gelöscht
-	- Argument: `create`, `delete` oder `all`/leer
+	- Argument: `create`, `delete` oder leer, um bei beiden auszulösen
 - Webhook erstellt/gelöscht
-	- Argument: `create`, `delete` oder `all`/leer
+	- Argument: `create`, `delete` oder leer, um bei beiden auszulösen
 - Thread (oder Forumpost) erstellt/gelöscht
-	- Argument: `create`, `delete` oder `all`/leer
+	- Argument: `create`, `delete` oder leer, um bei beiden auszulösen
 - Levelup
 	- Argument: Eine Range von Level, bei denen ausgelöst werden soll, z. B. `7`, um nur beim Erreichen von Level sieben auszulösen, oder `7..10` um bei den Leveln 7, 8, 9 und 10 auszulösen.
 - Nickname geändert
 - Server geboosted/Boosts entfernt
-	- Argument: `boost`, `boostend` oder `all`/leer
+	- Argument: `boost`, `boostend` oder leer, um bei beiden auszulösen
 - Intervall
 	- Argument: Intervall-Zeit wie z. B. `45m`, kann zufällige Verschiebungen nach Botneustarts haben, mindestens fünf Minuten, maximal zwei Tage
 - Cronjob
-	- Argument: Der Cronjob, z. B. von https://crontab.guru, maximal einmal alle fünf Minuten
+	- Argument: Der Cronjob, z. B. von https://crontab.guru, darf nicht mehr als zwölf mal pro Stunde auslösen
 - Nutzer betritt/verlässt Sprachkanal
-	- Argument: `join`, `leave` oder `all`/leer
+	- Argument: `join`, `leave` oder leer, um bei beiden auszulösen
 - Nutzer ge- oder enttimeouted
-	- Argument: `timeout`, `timeoutend` oder `all`/leer
+	- Argument: `timeout`, `timeoutend` oder leer, um bei beiden auszulösen
 - Discord-Systemnachricht
 	- Argument: Interne Discord-System-Nachrichten-Typ-ID: https://discord.com/developers/docs/resources/channel#message-object-message-types
 
