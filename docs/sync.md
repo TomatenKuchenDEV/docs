@@ -3,7 +3,7 @@ title: Syncing logs & bans
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. The bot can also sync logs and bans as well as unbans across multiple servers.
 ---
 
-## Setup general
+## Setup general {#setup}
 
 You can get the server ID either through Discord's developer mode, by using the `server` command or from the dashboard URL.
 

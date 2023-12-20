@@ -7,21 +7,21 @@ Mit dieser Funktion kann eine Nachricht gesendet werden, wenn ein Nutzer den Ser
 
 Es ist nicht möglich für den Bot, herauszufinden, wie oft ein bestimmter Nutzer den Server geboosted hat.
 
-## Einstellungen
+## Einstellungen {#settings}
 
-### Boost-Nachrichten-Kanal
+### Boost-Nachrichten-Kanal {#channel}
 
 In diesen Kanal wird eine Nachricht gesendet, wenn ein Nutzer das erste Mal den Server boosted.
 
-### Ehemalige-Booster-Nachrichten-Kanal
+### Ehemalige-Booster-Nachrichten-Kanal {#endchannel}
 
 In diesen Kanal wird eine Nachricht gesendet, wenn ein Nutzer alle seine Boosts vom Server entfernt hat.
 
-### Boost-(End-)Nachricht
+### Boost-(End-)Nachricht {#message}
 
 Hier kann die Nachricht, die beim Boosten bzw. Ende des Boostens gesendet wird, angepasst werden.
 
-## Variablen
+## Variablen {#vars}
 
 - `{usermention}`: Erwähnung des Nutzers
 - `{username}`: Benutzername

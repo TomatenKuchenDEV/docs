@@ -7,18 +7,18 @@ Das Twitchmodul bietet verschiedene Möglichkeiten zum Anzeigen von Änderungen 
 
 Beachte, dass du dich zunächst mit dem in den Einstellungen verlinkten Link authentifizieren musst, bevor du das Twitchmodul nutzen kannst.
 
-## Einstellungen
+## Einstellungen {#settings}
 
-### Twitch-Nachrichten
+### Nachrichten bei Aktualisierung, z. B. Live {#settings-update}
 
 Hier kann der Benutzername, der Kanal, der Auslöser und die Nachricht festgelegt werden, welche beim Auslösen des Triggers in den festgelegten Kanal gesendet wird.
 
-## Mögliche Variablen
+## Mögliche Variablen {#vars}
 
 - `{username}`: Der Benutzername
 - `{link}`: Der Kanallink
 
-## Mögliche Trigger {#triggers}
+## Mögliche Trigger {#trigger}
 
 - `stream.online`: Wird ausgelöst, wenn der Nutzer seinen Livestream startet (Standard)
 - `stream.offline`: Wenn der Nutzer seinen Livestream stoppt
@@ -28,7 +28,7 @@ Hier kann der Benutzername, der Kanal, der Auslöser und die Nachricht festgeleg
 
 Jeder Server kann bis zu zehn verschiedene Elemente hinzufügen - das entspricht zehn Streamern mit je einer Livenachricht.
 
-## Beispiel
+## Beispiel {#example}
 
 - Kanal (`channel`): Kanal auswählen, in den die Livenachricht gesendet werden soll
 - Trigger (`trigger`): Wenn eine Nachricht bei Streamstart gesendet werden soll: `stream.online`
@@ -37,6 +37,6 @@ Jeder Server kann bis zu zehn verschiedene Elemente hinzufügen - das entspricht
 
 ## Befehle {#commands}
 
-### Twitch-Nutzer-Info
+### Twitch-Nutzer-Info {#cmd-twitch}
 
 Mit dem Nachrichtenbefehl `twitch <Streamername>` kannst du dir Informationen über einen Twitch-Benutzer und einen möglicherweise aktuell laufenden Livestream anzeigen lassen.

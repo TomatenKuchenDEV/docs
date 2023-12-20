@@ -5,9 +5,9 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 
 Geburtstagsnachrichten werden täglich um 0 Uhr (Mitternacht) in der festgelegten Serverzeitzone gesendet.
 
-## Reale Nutzer
+## Reale Nutzer {#users}
 
-### Geburtstag setzen/bearbeiten
+### Geburtstag setzen/bearbeiten {#create}
 
 Jeder Nutzer kann seinen Geburtstag global mithilfe von dem Befehl `birthday set <Tag> <Monat> [<Jahr>] [public]` festlegen.
 
@@ -21,35 +21,36 @@ Geburtstagsankündigungen sind hiervon nicht betroffen.
 - `birthday set 1 4`
 	- Legt einen nicht öffentlichen Geburtstag fest, der jedes Jahr am 01.04. angekündigt wird.
 
-### Geburtstag löschen
+### Geburtstag löschen {#delete}
 
 Solltest du deinen Geburtstag löschen wollen, verwende den Befehl `birthday delete`.
 
-## Fiktive Geburtstage
+## Fiktive Geburtstage {#fictive}
 
 Fiktive Geburtstage sind pro Server und können von Servermoderatoren erstellt und verwaltet werden.
 
-### Erstellen oder bearbeiten
+### Erstellen oder bearbeiten {#fictive-create}
+
 `birthday setfictive <Name> <Tag> <Monat> [<Jahr>]`
 Fiktive Geburtstage müssen einen Namen haben, um sie identifizieren zu können. Mithilfe dieses Namens werden Geburtstagsnachrichten erstellt - die Argumente bleiben gleich und werden vom Bot automatisch angepasst - und `{birthday}` generiert.
 
 - `birthday setfictive Minecraft 17 5 2009`
 - `birthday setfictive 🎇Sylvester🎆 31 12`
 
-### Löschen
+### Löschen {#fictive-delete}
 
 Wenn du einen fiktiven Geburtstag löschen möchteste, verwende den Befehl `birthday deletefictive <Name>`
 
-## Einstellungen
+## Einstellungen {#settings}
 
-### Nachricht
+### Nachricht {#settings-message}
 
 Hier kann die Nachricht eingestellt werden, die gesendet wird, wenn ein realer oder fiktiver Nutzer Geburtstag hat.
 
-### Kanal
+### Kanal {#settings-channel}
 
 In den hier ausgewählten Kanal werden Geburtstagsnachrichten gesendet.
 
-### Rolle
+### Rolle {#settings-role}
 
 Es kann eine Rolle ausgewählt werden, die Nutzer am Geburtstag für 24 Stunden erhalten.

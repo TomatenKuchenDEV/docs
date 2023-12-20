@@ -18,7 +18,7 @@ You can set the username, the channel, the trigger and the message which is sent
 - `{username}`: The username
 - `{link}`: The channel URL
 
-## Possible triggers {#triggers}
+## Possible triggers {#trigger}
 
 - `stream.online`: Triggered when the streamer starts it's livestream (default)
 - `stream.offline`: When the streamer stops it's livestream

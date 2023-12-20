@@ -12,7 +12,7 @@ Mit TomatenKuchen kannst du schnell und einfach Onlineformulare für alle mögli
 
 Formulare werden mit dem Befehl `form` erstellt und verwaltet.
 
-## Einstellungen für jedes Formular
+## Einstellungen für jedes Formular {#settings}
 
 Bei jedem Formular können die folgenden Einstellungen individuell angepasst werden:
 - Titel, der über dem Formular angezeigt wird

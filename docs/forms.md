@@ -12,7 +12,7 @@ Using TomatenKuchen you can create online forms for all kind of purposes fast an
 
 Forms are created and managed using the command `form`.
 
-## Settings per form
+## Settings per form {#settings}
 
 Each form can have these settings individually configured:
 - Title which is shown above the form

@@ -10,21 +10,21 @@ Mit dem Starboard können lustige oder anderweitig interessante Nachrichten für
 
 Nachrichten auf dem Starboard zeigen auch Bilder und Antworten an. Bilder werden auf einem anderen Discord-Server gespeichert, damit Anhänge auch nach dem Löschen eines externen Bildes noch geladen werden können.
 
-## Einstellungen
+## Einstellungen {#settings}
 
-### Starboard-Kanal
+### Starboard-Kanal {#settings-channel}
 Legt den Kanal fest, in dem Starboard-Nachrichten gesendet und aktualisiert werden.
 
-### Self-Star
+### Self-Star {#settings-selfstar}
 Ob Nutzer mit dem festgelegten Emoji auf ihre eigenen Nachrichten reagieren können.
 
-### Stars
+### Stars {#settings-stars}
 Wie viele Reaktionen benötigt werden, bis die Nachricht in den Starboard-Kanal gesendet wird.
 
-### Emoji
+### Emoji {#settings-emoji}
 Welches Emoji für das Starboard verwendet wird.
 
-### Ausgeschlossene Kanäle
+### Ausgeschlossene Kanäle {#settings-exluded}
 In welchen Kanälen Nachricht nicht auf das Starboard gesendet werden können. Kann verwendet werden, um Inhalte in Teamkanälen oder Tickets geheim zu halten.
 
 Nachrichten in NSFW-Kanälen werden nur in den Starboard-Kanal gesendet, wenn dieser auch als NSFW markiert ist.

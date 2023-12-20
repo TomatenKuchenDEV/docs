@@ -75,7 +75,7 @@ All of those features are available for free!
 	- Minecraft:
 		- Players
 		- Servers
-		- Recipes (using German names)
+		- Crafting recipes (using German names)
 		- Validation of one or more commands
 	- a [npm](https://npmjs.com) package
 	- an element of the periodic table

@@ -7,33 +7,33 @@ Um Giveaways zu verwalten braucht man eine der im Dashhoard festgelegten Giveawa
 
 ## Befehle {#commands}
 
-### Erstellen
+### Erstellen {#cmd-start}
 
 Interaktives Setup eines Giveaways.
 
 `giveaway start`
 
-### Bearbeiten
+### Bearbeiten {#cmd-edit}
 
 Button unter dem Giveaway
 
-### Neue(n) Gewinner aussuchen
+### Neue(n) Gewinner aussuchen {#cmd-reroll}
 
 `giveaway reroll <Nachrichten-ID>`
 
 Diese Funktion wählt einen oder die eingestellte Anzahl an Gewinnern aus. Nutzer können auch mehrfach ausgewählt werden.
 
-### Beenden
+### Beenden {#cmd-end}
 
 `giveway end <Nachrichten-ID>`
 
-### Löschen
+### Löschen {#cmd-delete}
 
 `giveway delete <Nachrichten-ID>`
 
-## Einstellungen
+## Einstellungen {#settings}
 
-### Giveaway-Nachricht
+### Giveaway-Nachricht {#settings-message}
 
 Hier kann der Text der Giveaway-Nachricht verändert werden, z. B. um eine Giveaway-Rolle zu erwähnen.
 
@@ -47,27 +47,27 @@ Nutzer mit einer dieser Rollen können alle [Befehle](#commands) dieser Seite au
 
 Die ausgewählten Rollen können immer an Giveaways teilnehmen, unabhängig davon, welche Bedingungen für das Giveaway festgelegt sind.
 
-### Verhalten von Zusatzeinträgen
+### Verhalten von Zusatzeinträgen {#settings-additional-entries}
 
-#### Mehrfach
+#### Mehrfach {#settings-entries-multiple}
 
 Diese Einstellung sorgt dafür, dass die Standardteilnahme, also eins, mit allen Zusatzeinträgen zusammenaddiert werden.
 
-#### Höchste Rolle
+#### Höchste Rolle {#settings-entries-highest-role}
 
 Mit dieser Einstellung zählen die Zusatzteilnahmen der höchsten Rolle, welche der entsprechende Nutzer hat *und* einen Wert für die Zusatzteilnahmen zugewiesen hat.
 
-#### Höchste Zusatzteilnahme
+#### Höchste Zusatzteilnahme {#settings-entries-highest-entry}
 
 Dieser Wert zählt die höchste Zusatzteilnahme, die der Nutzer über seine Rollen hat.
 
-### Zusatzeinträge pro Rolle
+### Zusatzeinträge pro Rolle {#settings-additional-role-entries}
 
 Hier kann pro Rolle eine Anzahl eingegeben werden, die die Rolle an zusätzlichen Einträgen in Giveaways erhält.
 
 Es kann eine Zahl von 0 bis 50 verwendet werden, wobei 0 die Teilnahme dieser Rolle an Giveways effektiv unterbindet.
 
-## Bedingungen
+## Bedingungen {#settings-requirements}
 
 Es können verschiedene Bedingungen für die Teilnahme an Giveaways festgelegt werden.
 

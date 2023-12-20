@@ -76,7 +76,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 	- Minecraft:
 		- Spieler
 		- Server
-		- Rezepte
+		- Herstellungsrezepte
 		- Korrektheit eines oder mehrerer Minecraftbefehle
 	- ein [npm](https://npmjs.com)-Package
 	- ein Element aus dem Periodensystem

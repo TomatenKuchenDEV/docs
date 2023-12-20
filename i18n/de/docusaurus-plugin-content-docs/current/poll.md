@@ -7,13 +7,15 @@ Der `poll`-Befehl erlaubt dir das Erstellen von Umfragen auf deinem Server.
 
 Standardmäßig kann jeder den Befehl nutzen, jedoch kannst du die Berechtigungen des Slashcommands in den Integrationseinstellungen von Discord anpassen.
 
-## Ausgeschlossene Rollen
+## Einstellungen {#settings}
+
+### Ausgeschlossene Rollen {#create}
 
 Nutzer, die eine oder mehrere dieser Rolle haben, können nicht an Umfragen auf dem Server teilnehmen.
 
 Jedoch wird ihre Stimme weiterhin gezählt, wenn sie davor bereits abgestimmt haben.
 
-## Erstellen einer Umfrage
+## Erstellen einer Umfrage {#create}
 
 1. Öffne den Kanal, im dem die Umfrage gestartet werden soll.
 2. Führe den `poll`-Slash- oder -Message-Command mit den entsprechenden Argumenten aus.

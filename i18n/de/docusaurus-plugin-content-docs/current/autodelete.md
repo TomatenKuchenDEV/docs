@@ -7,7 +7,7 @@ Es können Kanäle festgelegt werden, in denen die Nachrichten nach der festgele
 
 Diese Funktion ist nützlich für z. B. Werbekanäle, in denen Nachrichten nach 6 Stunden o. ä. gelöscht werden sollen.
 
-## Einstellungen pro Kanal
+## Einstellungen pro Kanal {#settings}
 
 Die Zeit wird im Standard-Zeitformat des Bots angegeben:
 - `5m`: Fünf Minuten

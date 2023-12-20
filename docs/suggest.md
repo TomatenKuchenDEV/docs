@@ -3,7 +3,7 @@ title: Suggestions
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Helps with the suggestion system.
 ---
 
-## Commands
+## Commands {#commands}
 
 ### `suggest [<Text> <Image>]`
 
@@ -15,11 +15,11 @@ The command `suggest top` lists the most voted suggestions.
 
 Approves or denies a suggestion. It removes the reactions or buttons of the message, which disables changing the vote counts.
 
-### `reply <ID> [<Text>]`
+### `reply <ID> <Text>`
 
-Replies to a suggestion.
+Replies to a suggestion with the given text.
 
-### `editsuggest <ID> [<New text>]`
+### `editsuggest <ID> <New content>`
 
 Edits one of your suggestions or, if you have the permission "Manage messages", also the suggestions of other users.
 
@@ -29,7 +29,10 @@ Edits one of your suggestions or, if you have the permission "Manage messages", 
 
 #### `new`
 
-In this channel new suggestions will be sent. In most cases using this setting is what you want.
+New suggestions are sent into this channel. In most cases using only this setting is what you want.
+
+If a message is sent in this channel it's automatically converted to a suggestion (including attachments).
+This can be disabled for a message by prefixing the content of it with "[!]".
 
 #### `approved` and `denied`
 

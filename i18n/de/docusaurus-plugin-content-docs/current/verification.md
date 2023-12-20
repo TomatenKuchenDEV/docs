@@ -8,14 +8,14 @@ Die Verifikation kann verwendet werden, um potentielle Bots am Beitreten auf den
 
 ![Website-Verifikations-Beispiel](/img/verification_website.png)
 
-## Befehle
+## Befehle {#commands}
 
 Der Befehl `verify` wird zum Setup einer Verifikationsnachricht verwendet, die Einstellungen werden im [Dashboard](https://tomatenkuchen.com/dashboard/settings) durchgeführt.
 Es können unbegrenzt Nachrichten pro Server erstellt werden.
 
-## Einstellungen
+## Einstellungen {#settings}
 
-### Verifikationsmodus
+### Verifikationsmodus {#settings-mode}
 
 Du kannst aktuell zwischen den folgenden Modi auswählen:
 - Keine Verifikation
@@ -25,11 +25,11 @@ Du kannst aktuell zwischen den folgenden Modi auswählen:
 
 "Keine Verifikation" weißt den Nutzern beim Klicken auf den Button direkt die ausgewählten Rollen zu.
 
-### Verifikationsrollen
+### Verifikationsrollen {#settings-roles}
 
 Hier kannst du die Rollen auswählen, die Nutzer nach der Verifikation erhalten.
 
-### Aktionen bei falschen Verifikationsantworten
+### Aktionen bei falschen Verifikationsantworten {#settings-fail}
 
 Hier können anhand der Anzahl der fehlgeschlagenen Verifikationsversuche entsprechende Strafen festgelegt werden.
 
@@ -45,7 +45,7 @@ Bei "Mute" und "Wartezeit" kann zusätzlich noch eine Dauer angegeben werden, wi
 Beachte, dass die "Wartezeit" Nutzer nicht vom Senden von PN-Nachrichten abhält.
 Nutze stattdessen "Mute", was mit einem Discord-Timeout sowohl Buttons als auch neue PNs deaktiviert und dem Nutzer die Wartezeit schöner anzeigt, als der Bot es kann.
 
-### Schwierigkeitsstufe
+### Schwierigkeitsstufe {#settings-difficulty}
 
 Hier kann die Schwierigkeitsstufe der Modi (außer "Keine") festgelegt werden. Dadurch ändert sich die maximale Beantwortungszeit und bei:
 - Captcha die Anzahl der Zeichen

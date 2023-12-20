@@ -8,12 +8,12 @@ Mithilfe der Vote-Announcements kannst du eine Nachricht senden lassen, wenn jem
 
 ![Vote-Announcements](/img/voteannouncements.png)
 
-## Einstellungen
+## Einstellungen {#settings}
 
-### Kanal
+### Kanal {#settings-channel}
 Hier kann der Kanal festgelegt werden, in den die Votenachricht gesendet wird.
 
-### Nachrichten
+### Nachrichten {#settings-message}
 Hier kannst du die Server- und Botvotenachricht einstellen.
 
 Folgende Variablen können verwendet werden:
@@ -26,11 +26,11 @@ Folgende Variablen können verwendet werden:
 - `{url}`: URL des Bots bzw. Servers
 - `{voteurl}`: URL, auf der Nutzer voten können
 
-### Voterolle
+### Voterolle {#settings-role}
 Hier kann eine Rolle festgelegt werden und wie lange Nutzer diese behalten.
 Nutzer erhalten diese Rolle automatisch beim Voten. Nachdem die festgelegte Zeit abgelaufen ist, wird sie wieder entfernt.
 
-## Unterstützte Server- und Botlisten
+## Unterstützte Server- und Botlisten {#supported}
 
 Nutze je nach Server- bzw. Botliste die entsprechende URL als Webhook-URL und das im Dashboard erwähnte Secret als Webhook-Secret.
 

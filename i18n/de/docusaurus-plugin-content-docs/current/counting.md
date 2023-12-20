@@ -6,27 +6,27 @@ image: /img/countingleaderboard.png
 
 Mit dem Counting-System können Nutzer auf dem aktuellen Server mit anderen Mitgliedern zählen.
 
-## Befehle
+## Befehle {#commands}
 
-### Erfolgreiches Zählen
+### Erfolgreiches Zählen {#cmd-counting}
 
 `leaderboard counting` zeigt das Counting-Leaderboard des Servers an. Es zeigt an, wie viele Zahlen ein Nutzer insgesamt und im aktuellen Versuch gezählt hat.
 
 ![/leaderboard counting](/img/countingleaderboard.png)
 
-### Fehler beim Zählen
+### Fehler beim Zählen {#cmd-countingfail}
 
 Das beim Befehl `leaderboard countingfail` angezeigte Leaderboard zeigt an, wie viele Fehler ein Nutzer insgesamt beim Zählen gemacht hat.
 
-## Einstellungen
+## Einstellungen {#settings}
 
-### Kanal
+### Kanal {#settings-channel}
 Hier kann der Counting-Kanal festgelegt werden.
 
-### Start
+### Start {#settings-start}
 Hier wird der Startwert festgelegt, welcher beim ersten Zählen in einem Kanal und bei einem Fehler verwendet wird. Standardmäßig 1.
 
-### "step"/Schrittgröße
+### "step"/Schrittgröße {#settings-step}
 Wie weit die Zahlen voneinander entfernt liegen. Standardmäßig 1.
 
 Beispiel:
