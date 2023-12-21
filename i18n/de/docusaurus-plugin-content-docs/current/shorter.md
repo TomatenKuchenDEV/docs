@@ -11,17 +11,17 @@ shorter.cf ist ein einfacher URL-Shortener, erstellt vom selben Entwickler wie T
 
 :::
 
-## URL-Redirects folgen
+## URL-Redirects folgen {#follow-redirects}
 
 Der Befehl `shorter follow <URL>` folgt den Weiterleitungen der angegebenen URL und listet diese auf.
 
-## Statistiken der Domain
+## Statistiken der Domain {#shorter-stats}
 
 Mit dem Befehl `shorter stats` werden Statistiken über die shorter.cf-Domain angezeigt, z. B. die Anzahl der Aufrufe und die am meisten verwendeten Browser.
 
 Diese Statistiken werden von Cloudflare anonymisiert gesammelt, shorter.cf selbst sammelt keine Daten.
 
-## Short-URL erstellen
+## Short-URL erstellen {#create}
 
 `shorter create <URL> [<Name>]` erstellt eine Short-URL unter dem angegebenen Namen.
 

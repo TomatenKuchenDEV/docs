@@ -10,21 +10,26 @@ Using the starboard members can save funny or otherwise interesting messages for
 
 Messages on the starboard also show images and replies. Images are saved to another Discord server to allow displaying the image even if the original source was deleted.
 
-## Settings
+## Settings {#settings}
 
-### Starboard channel
+### Starboard channel {#settings-channel}
+
 Sets the channel in which the starboard messages are sent and updated.
 
-### Self star
+### Self star {#settings-selfstar}
+
 If users can react on their own messages.
 
-### Stars
+### Stars {#settings-stars}
+
 How many reactions of the set emoji are needed to send the starboard message.
 
-### Emoji
+### Emoji {#settings-emoji}
+
 Which emoji is used for the starboard.
 
-### Excluded channels
-Which channels are blacklisted from the starboard. Can be used to exclude team channels or tickets.
+### Excluded channels {#settings-excluded}
+
+Which channels are blacklisted from the starboard. Can be used to for example exclude team channels or tickets.
 
 Messages in nsfw channels are only sent to the starboard channel if the starboard channel is marked as nsfw too.

@@ -9,7 +9,7 @@ Auch Fehler wie "Interaktion fehlgeschlagen" sollten nicht vorkommen - aufgrund 
 
 Solltest du doch einen Fehler gefunden haben, melde ihn gerne auf dem [Support-Server](https://tomatenkuchen.com/discord) oder mithilfe des "Feedback"-Buttons von den Befehlen `help` oder `bot`.
 
-## Logs
+## Logs {#logs}
 
 Viele Systeme, vor allem intervallbasierte (Feeds, Cronjob-/Interval-Integrationen) und eventbasierte abgesehen von Befehlen (Willkommens-/Leavenachrichten) unterstützen Logs.
 

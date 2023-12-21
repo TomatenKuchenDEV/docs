@@ -8,7 +8,7 @@ Autoupdate ("automatisch updatende Nachrichten") steht für Nachrichten, die sic
 
 ![Autoupdate-Beispiel](/img/autoupdate_example.png)
 
-## Mögliche Parameter
+## Mögliche Parameter {#vars}
 
 - `{members}`: Zeigt die Mitgliederanzahl
 - `{members.humans}`: Nicht-Botanzahl

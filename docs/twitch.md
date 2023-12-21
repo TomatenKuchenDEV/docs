@@ -7,13 +7,13 @@ The Twitch module has several options for sending messages on changes of a strea
 
 Note that you have to authorize yourself first in the settings to be able to use the Twitch module.
 
-## Settings
+## Settings {#settings}
 
-### Twitch messages
+### Twitch messages {#settings-update}
 
 You can set the username, the channel, the trigger and the message which is sent to the selected channel once the trigger is triggered.
 
-## Possible arguments
+## Possible arguments {#vars}
 
 - `{username}`: The username
 - `{link}`: The channel URL
@@ -28,7 +28,7 @@ You can set the username, the channel, the trigger and the message which is sent
 
 You can create up to 10 elements per server, which equals 10 different streamers with a live notification each.
 
-## Example
+## Example {#example}
 
 - Channel (`channel`): Select a channel into which the live message should be sent
 - Trigger (`trigger`): When a message on stream start should be sent: `stream.online`
@@ -37,6 +37,6 @@ You can create up to 10 elements per server, which equals 10 different streamers
 
 ## Commands {#commands}
 
-### Twitch user info
+### Twitch user info {#cmd-twitch}
 
 Using the message command `twitch <Streamer name>` you can get information about a Twitch user and a currently running livestream.

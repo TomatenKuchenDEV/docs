@@ -27,18 +27,18 @@ Bearbeitet einen deiner Vorschlag oder, wenn du die Berechtigung "Nachrichten ve
 
 ### Vorschlägekanäle {#settings-channels}
 
-#### `new`
+#### `new` {#settings-channel-new}
 
 In diesen Kanal werden neue Vorschläge gesendet. In den meisten Fällen reicht diese Einstellung aus.
 
 Wenn in diesen Kanal eine Nachricht gesendet wird, wird diese (inklusive Anhängen) automatisch zu einem Vorschlag.
 Dies kann durch den Beginn einer Nachricht mit "[!]" für diese Nachricht deaktiviert werden.
 
-#### `approved` und `denied`
+#### `approved` und `denied` {#settings-channel-approved-denied}
 
 In diesen Kanal werden angenommene und abgelehnte Vorschläge gesendet.
 
-#### `replied`
+#### `replied` {#settings-channel-replied}
 
 In diesen Kanal werden beantwortete Vorschläge gesendet.
 

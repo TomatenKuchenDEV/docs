@@ -9,7 +9,7 @@ Errors like "Interaction failed" shouldn't happen either - due to the high numbe
 
 If you found a bug, please report it on the [support server](https://tomatenkuchen.com/discord) or using the "Feedback" button from the `help` or `bot` command.
 
-## Logs
+## Logs {#logs}
 
 Many systems, especially interval (feeds, cronjob/interval based integrations) and event (welcome/leave messages) based ones, support logs.
 

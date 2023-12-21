@@ -11,17 +11,17 @@ shorter.cf is a simple URL shortener made by the same developer as TomatenKuchen
 
 :::
 
-## Following URL redirects
+## Following URL redirects {#follow-redirects}
 
 The command `shorter follow <URL>` follows redirects of the given URL and lists them.
 
-## Statistics of the domain
+## Statistics of the domain {#shorter-stats}
 
 Using the command `shorter stats` you can view statistics of the shorter.cf domain, e.g. the amount of views and the most used browsers.
 
 These statistics are collected anonmously by Cloudflare, shorter.cf itself doesn't collect any data.
 
-## Create a short URL
+## Create a short URL {#create}
 
 `shorter create <URL> [<Name>]` creates a short URL with the given name.
 

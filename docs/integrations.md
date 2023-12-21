@@ -49,30 +49,31 @@ Integrations can be managed in the [dashboard](https://tomatenkuchen.com/dashboa
 - Slash command uses of another bot (e.g. for `/bump` reminders)
 	- Argument: Slashcommand name of another bot
 - Member join/leave
-	- Argument: `join`, `leave` or empty to trigger on both
+	- Argument: `join`, `leave`, or empty to trigger on both
 - Reaction add/remove
-	- Argument: `add`, `remove` or empty to trigger on both
+	- Argument: `add`, `remove`, or empty to trigger on both
 - Role created/deleted
-	- Argument: `create`, `delete` or empty to trigger on both
+	- Argument: `create`, `delete`, or empty to trigger on both
 - Channel created/deleted
-	- Argument: `create`, `delete` or empty to trigger on both
+	- Argument: `create`, `delete`, or empty to trigger on both
 - Webhook created/deleted
-	- Argument: `create`, `delete` or empty to trigger on both
+	- Argument: `create`, `delete`, or empty to trigger on both
 - Thread (or post) created/deleted
-	- Argument: `create`, `delete` or empty to trigger on both
+	- Argument: `create`, `delete`, or empty to trigger on both
 - Level up
-	- Argument: The range of levels to trigger on, e.g. `7` to trigger only when reaching level 7, or `7..10` to trigger on the levels 7, 8, 9 and 10.
+	- Argument: A level or a range of levels to trigger on, e.g. `8` to trigger only when reaching level 8, or `8..10` to trigger on the levels 8, 9 and 10.
 - Nickname updated
 - Server boost/boostend
-	- Argument: `boost`, `boostend` or empty to trigger on both
+	- Argument: `boost`, `boostend`, or empty to trigger on both
 - Interval
-	- Argument: Interval time like `45m`, may have random offsets after bot restarts, minimum 5 mins, maximum 2 days
+	- Argument: Interval time like `45m`, minimum 5 mins, maximum 2 days
+	- Note: Due to these times being measured relative to bot restarts, an action may be executed more or less often than wanted as the timer was reset. Use cronjobs instead to avoid this.
 - Cronjob
 	- Argument: The cronjob, for example from https://crontab.guru, may not trigger more than 12 times per hour
 - User joins/leave voice channel
-	- Argument: `join`, `leave` or empty to trigger on both
+	- Argument: `join`, `leave`, or empty to trigger on both
 - User timeouted or untimeouted
-	- Argument: `timeout`, `timeoutend` or empty to trigger on both
+	- Argument: `timeout`, `timeoutend`, or empty to trigger on both
 - Discord system message
 	- Argument: Discord internal system message type: https://discord.com/developers/docs/resources/channel#message-object-message-types
 

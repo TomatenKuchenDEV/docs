@@ -7,23 +7,23 @@ The `misc movie` command allows you to search for movies, series and persons (ac
 
 The command uses the public project [TMDB.org](https://themoviedb.org) to request the data.
 
-## Searching (`misc movie search`)
+## Searching (`misc movie search`) {#search}
 
 Use the search query as argument, e.g. "Minecraft movie".
 
-## Information about a movie (`misc movie movie`)
+## Information about a movie (`misc movie movie`) {#movie}
 
 Use the movie ID returned by the `movie search` command as argument.
 
 The bot then displays some information about the movie, e.g. the length and well-known actors.
 
-## Information about a series (`misc movie series`)
+## Information about a series (`misc movie series`) {#series}
 
 Use the series ID returned by the `movie search` command as argument.
 
 The bot then displays some information about the series.
 
-## Information about a person (`misc movie person`)
+## Information about a person (`misc movie person`) {#person}
 
 Use the person ID returned by the `movie search` command as argument.
 

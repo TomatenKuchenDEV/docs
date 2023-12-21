@@ -12,15 +12,16 @@ Du verstehst Deutsch? Dann verwende die [deutsche Version dieser Docs](https://d
 
 TomatenKuchen is a fully free multipurpose bot which can be used on all kind of Discord servers.
 
-## [Invite TomatenKuchen](https://tomatenkuchen.com/invite)
+## [Invite TomatenKuchen](https://tomatenkuchen.com/invite) {#invite}
 
-You can invite the bot using [this invite link](https://tomatenkuchen.com/invite). You'll automatically be logged in into the dashboard which allows you to modify server settings. These settings include the language and prefixes in addition to slash commands.
+You can invite the bot using [this invite link](https://tomatenkuchen.com/invite). You'll automatically be logged in into the dashboard which allows you to modify server settings.
+These settings include the language and prefixes in addition to slash commands.
 
-## Support server
+## Support server {#support-server}
 
 If you need help with something, let it be an error, a setting or other setup - the members on our [Support server](https://tomatenkuchen.com/discord) will be happy to help you with that.
 
-## Changing important settings
+## Changing important settings {#settings}
 
 The bot language is set to the server language by to default, but you can change it manually. You can set up to ten message prefixes, but you can also delete all of them if you want to disable message commands completely.
 
@@ -28,10 +29,10 @@ The timezone configures when birthday messages are sent. You can see your curren
 
 You can also configure whether the bot should delete message commands or not.
 
-### You have to enter an "ID"?
+### You have to enter an "ID"? {#id}
 
 To copy an ID right click the message, the user, the channel or the server. If there's no option to copy the ID, make sure you have the developer mode enabled. To do that, follow [the tutorial by Discord](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-).
 
-## Command syntax
+## Command syntax {#syntax}
 
 Commands are always displayed as `command <Required argument> [<Optional argument>] Required|argument|with|multiple|options`.

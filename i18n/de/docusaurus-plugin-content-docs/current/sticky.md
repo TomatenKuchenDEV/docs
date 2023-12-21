@@ -7,14 +7,14 @@ Mit TomatenKuchen kannst du Sticky-Nachrichten erstellen, welche vom Bot immer a
 
 Diese Funktion kann verwendet werden, wenn die Kanalbeschreibung nicht zum Erklären der Kanalregeln ausreicht oder aus einem anderen Grund eine Nachricht immer am Ende des Kanal sein sollte.
 
-## Einstellungen pro Sticky-Nachricht
+## Einstellungen pro Sticky-Nachricht {#settings}
 
 Der Inhalt und die Embeds der Nachricht können frei gewählt werden.
 
-### Kanal
+### Kanal {#settings-channel}
 
 In welchem Kanal die Sticky-Nachricht gesendet werden soll
 
-### Antworten auf Bots
+### Antworten auf Bots {#settings-reply-to-bots}
 
 Ob der Bot auf andere Bots reagieren soll, wenn diese eine Nachricht in den Kanal senden. Wenn deaktiviert reagiert TomatenKuchen nur auf Nutzer.

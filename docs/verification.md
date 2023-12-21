@@ -8,14 +8,14 @@ Verification can be used to prevent bots joining the server. You can select one 
 
 ![Website verification example](/img/verification_website.png)
 
-## Commands
+## Commands {#commands}
 
 The command `verify` can be used to send a verification message, the settings are configured using the [dashboard](https://tomatenkuchen.com/dashboard/settings).
 There is no limit of created messages per server.
 
-## Settings
+## Settings {#settings}
 
-### Verification mode
+### Verification mode {#settings-mode}
 
 Currently you can select one of the following modes:
 - No verification
@@ -25,11 +25,11 @@ Currently you can select one of the following modes:
 
 "No verification" adds the selected roles directly to the user when they click the verify button.
 
-### Verification roles
+### Verification roles {#settings-roles}
 
 You can select the roles which users will receive after verification here.
 
-### Actions on wrong verification answers
+### Actions on wrong verification answers {#settings-fail}
 
 You can set punishments depending on the amount of failed verification tries.
 
@@ -45,7 +45,7 @@ When using "mute" or "cooldown" you have to add a duration how long the user get
 Note that "cooldown" does not prevent users from sending DM messages.
 Use "mute" instead which disables buttons as well as new DMs using a Discord timeout and displays the wait time better than the bot can.
 
-### Task difficulty
+### Task difficulty {#settings-difficulty}
 
 You can change the difficulty of the modes (except "none") here. This changes the maximum reply time and for:
 - Captcha the amount of characters

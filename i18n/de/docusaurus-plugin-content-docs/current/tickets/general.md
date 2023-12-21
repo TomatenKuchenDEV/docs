@@ -3,7 +3,7 @@ title: Ticketfunktionen
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt die Funktionen sowie die Einrichtung und Einstellungen des Ticketsystems.
 ---
 
-## Ticketkategorien erstellen
+## Ticketkategorien erstellen {#create-ticket-categories}
 
 Im Dashboard lassen sich Ticketkategorien erstellen, mit denen, je nachdem welches Ticketembed für die Erstellung genutzt wurde, ein unterschiedliches Ticket erstellt wird.
 Du kannst die Kategorie, den Transcriptkanal und die Nachricht für jede Ticketkategorie einzeln einstellen.
@@ -12,16 +12,16 @@ Du kannst die Kategorie, den Transcriptkanal und die Nachricht für jede Ticketk
 
 `name` ist der Name und die interne ID der Ticketkategorie. Die restlichen Felder beziehen sich auf die Nachricht, welche bei einem neuen Ticket gesendet wird, für mehr Informationen siehe [Ticket-erstellt-Nachricht](#ticket-create-message).
 
-## Claiming
+## Claiming {#claiming}
 
 Siehe [Claiming](./claiming).
 
-## Automatisches Speichern von Anhängen in Tickets
+## Automatisches Speichern von Anhängen in Tickets {#attachment-storing}
 
 Standardmäßig werden Avatare und Anhänge auf dem TomatenKuchen-Server gespeichert, um diese auch nach dem Löschen eines Tickets im Transcript noch abrufbar zu machen.
 Diese Einstellung kann jeder Nutzer individuell mithilfe des Befehls `usersettings` ändern.
 
-## Einstellungen
+## Einstellungen {#settings}
 
 ### Ticket-erstellt-Nachricht {#ticket-create-message}
 
@@ -39,7 +39,7 @@ Diese Nachricht wird von einer kategoriespezifischen Nachricht überschrieben, s
 - `{supporterroles}`: Eine Erwähnung alle als Supporter markierten Rollen
 - `{managerroles}`: Eine Erwähnung alle als Moderator markierten Rollen
 
-### Erinnerung für inaktive Tickets
+### Erinnerung für inaktive Tickets {#settings-inactivity-remind}
 
 Hier kann eine Zeit sowie die Nachricht festgelegt werden, die gesendet wird, wenn ein Ticket für eine bestimmte Zeit lang inaktiv ist, also keine neue Nachricht mehr gesendet wurde.
 
@@ -48,15 +48,15 @@ Zusätzlich zu den Variablen oben:
 - `{allmention}`: Erwähnt den Ticketersteller und alle Nutzer, die zum Ticket hinzugefügt worden sind
 - `{timestamp}`: Ein Discord-Timestamp, der zeigt, wann das Ticket automatisch geschlossen wird.
 
-### Ticket bei Inaktivität schließen
+### Ticket bei Inaktivität schließen {#settings-inactivity-close}
 
 Mit dieser Einstellung kannst du ein Ticket automatisch vom Bot schließen lassen, wenn es für eine bestimmte Zeit lang inaktiv ist, also keine Nachricht mehr gesendet wurde.
 
-### Kanäle oder Threads
+### Kanäle oder Threads {#settings-channels-or-threads}
 
 Du kannst auswählen, ob der Bot Kanäle oder Threads für Tickets verwenden soll.
 
-### Nachricht an Ticketersteller beim Ticket schließen
+### Nachricht an Ticketersteller beim Ticket schließen {#settings-dm-author}
 
 Wenn diese Einstellung auf "Immer" gesetzt ist sendet der Bot automatisch eine PN-Nachricht an den originalen Ticketersteller.
 

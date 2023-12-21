@@ -61,12 +61,13 @@ Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integra
 - Thread (oder Forumpost) erstellt/gelöscht
 	- Argument: `create`, `delete` oder leer, um bei beiden auszulösen
 - Levelup
-	- Argument: Eine Range von Level, bei denen ausgelöst werden soll, z. B. `7`, um nur beim Erreichen von Level sieben auszulösen, oder `7..10` um bei den Leveln 7, 8, 9 und 10 auszulösen.
+	- Argument: Ein Level oder eine Range von Leveln, bei denen ausgelöst werden soll, z. B. `8`, um nur beim Erreichen von Level acht auszulösen, oder `8..10` um bei den Leveln 8, 9 und 10 auszulösen.
 - Nickname geändert
 - Server geboosted/Boosts entfernt
 	- Argument: `boost`, `boostend` oder leer, um bei beiden auszulösen
 - Intervall
-	- Argument: Intervall-Zeit wie z. B. `45m`, kann zufällige Verschiebungen nach Botneustarts haben, mindestens fünf Minuten, maximal zwei Tage
+	- Argument: Intervall-Zeit wie z. B. `45m`, mindestens fünf Minuten, maximal zwei Tage
+	- Hinweis: Da diese Zeiten relativ zu Botstarts gemessen kann es vorkommen, dass eine Aktion öfters oder seltener als gewollt ausgeführt wird, wenn der Timer zurückgesetzt wurde. Verwende stattdessen Cronjobs, wenn dir das wichtig ist.
 - Cronjob
 	- Argument: Der Cronjob, z. B. von https://crontab.guru, darf nicht mehr als zwölf mal pro Stunde auslösen
 - Nutzer betritt/verlässt Sprachkanal
