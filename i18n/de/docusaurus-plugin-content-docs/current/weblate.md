@@ -11,11 +11,11 @@ Vorschläge können auch nicht angemeldete Nutzer erstellen, jedoch können dies
 
 [![Übersetzungsstatus](https://translate.tomatenkuchen.com/widget/tk/multi-auto.svg)](https://translate.tomatenkuchen.com/engage/tk/)
 
-## Sprachen
+## Sprachen {#langs}
 
 Aktuell wird TomatenKuchen in Deutsch und Englisch manuell übersetzt. Die Übersetzungen in die Sprachen Französisch und Ungarisch erfolgen mithilfe von DeepL.
 
-## Dokumentation
+## Dokumentation {#docs}
 
 Diese Dokumentation wird auf [GitHub](https://github.com/DEVTomatoCake/tk-docs) erstellt und übersetzt.
 Wenn du dort mithelfen möchtest, erstelle einen Account, forke das Repository, führe die Änderungen durch und erstelle eine Pull Request.

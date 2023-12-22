@@ -21,12 +21,15 @@ Das beim Befehl `leaderboard countingfail` angezeigte Leaderboard zeigt an, wie 
 ## Einstellungen {#settings}
 
 ### Kanal {#settings-channel}
-Hier kann der Counting-Kanal festgelegt werden.
+
+Der Zähl-Kanal, in welchem Nutzer können.
 
 ### Start {#settings-start}
+
 Hier wird der Startwert festgelegt, welcher beim ersten Zählen in einem Kanal und bei einem Fehler verwendet wird. Standardmäßig 1.
 
 ### "step"/Schrittgröße {#settings-step}
+
 Wie weit die Zahlen voneinander entfernt liegen. Standardmäßig 1.
 
 Beispiel:
@@ -35,32 +38,40 @@ Beispiel:
 - `0.01`: 1, 1.01, 1.02
 - `-2`: 1, -1, -3
 
-### Zurücksetzen bei Fehler
+### Zurücksetzen bei Fehler {#settings-fail}
+
 Ob der aktuelle Stand zurückgesetzt wird, wenn ein Nutzer einen Fehler macht, also zählt, obwohl er nicht dran ist, oder eine falsche Zahl zählt.
 
-### Zurücksetzen bei Nachrichtenlöschnug
+### Zurücksetzen bei Nachrichtenlöschung {#settings-delete}
+
 Stellt ein, ob der aktuelle Stand zurückgesetzt wird, wenn ein Nutzer seine Nachricht löscht. Wenn eine oder mehrere Zahlen fehlen, kann das andere Nutzer im Kanal verwirren.
 
-### Zurücksetzen bei Nachrichtenbearbeitung
+### Zurücksetzen bei Nachrichtenbearbeitung {#settings-edit}
+
 Ob der aktuelle Stand verloren geht, wenn ein Nutzer seine Nachricht bearbeitet *und* sich die Zahl dabei verändert oder die Nachricht normalen Text enthält.
 
-### Unterhaltung erlauben
+### Unterhaltung erlauben {#settings-allow-chat}
+
 Ob nach einer gültigen Zahl noch normaler Text erlaubt ist, z. B. `42 Ich mag TomatenKuchen!`
 
-### Webhooks verwenden
+### Webhooks verwenden {#settings-webhooks}
+
 Ob Webhooks für Nachrichten verwendet werden sollen. Verhindert das Bearbeiten und Löschen von Nachrichten der Nutzer. Benötigt Webhooks-verwalten-Berechtigung.
 
-### Reaktionen verwenden
+### Reaktionen verwenden {#settings-reactions}
+
 Ob der Bot auf gültige Nachrichten mit "✅" oder "☑" reagieren soll.
 
 Wird ignoriert, wenn "Webhooks verwenden" aktiviert ist.
 Reaktionen auf besondere Zahlen, z. B. 42 und 100, können nur durch das Entfernen der Reaktionen-hinzufügen-Berechtigung deaktiviert werden.
 
-### Rolle bei Fehlern
+### Rolle bei Fehlern {#settings-fail-role}
+
 Welche Rolle Nutzer erhalten, wenn sie einen Fehler beim Zählen machen. Als Fehler zählt:
 - Zweimal hintereinander zählen
 - Falsche Zahl
 - Unterhaltung, obwohl Unterhaltungen nicht erlaubt sind
 
-### Fehlerrolle entfernen nach
+### Fehlerrolle entfernen nach {#settings-fail-role-time}
+
 Nach welcher Zeit die Fehlerrolle wieder entfernt wird. Standardmäßig gar nicht.

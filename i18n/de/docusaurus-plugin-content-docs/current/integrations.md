@@ -77,27 +77,27 @@ Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integra
 - Discord-Systemnachricht
 	- Argument: Interne Discord-System-Nachrichten-Typ-ID: https://discord.com/developers/docs/resources/channel#message-object-message-types
 
-## Synchronisations-Modi
+## Synchronisations-Modi {#sync-modes}
 
 Es gibt verschiedene Sync-Modi, die beim Importieren einer Integration auf einen anderen Server ausgewählt werden können:
 
-### Keine Synchronisation
+### Keine Synchronisation {#sync-none}
 
 Deaktiviert jegliche Synchronisation und entfernt den Hinweis, von welcher Integration die aktuelle ursprünglich stammt.
 
-### Manuelle Synchronisation
+### Manuelle Synchronisation {#sync-manual}
 
 Änderungen können manuell mit einem Button im Dashboard synchronisiert werden. Die Inhalte können normal bearbeitet werden, werden beim Synchronisieren aber überschrieben.
 
-### Automatische Synchronisation
+### Automatische Synchronisation {#sync-auto}
 
 Synchronisiert alle Änderungen am Original automatisch, sobald dieses bearbeitet wird. Wird empfohlen, wenn du dem Besitzer bzw. Server der Integration vertraust. Inhalte können nicht bearbeitet werden.
 
-### Sichere Synchronisation
+### Sichere Synchronisation {#sync-safe}
 
 Eine Mischung zwischen manueller und automatischer Synchronisation. Die Inhalte können nicht bearbeitet werden. Bei einer Änderung muss entweder - wie bei der manuellen Synchronisation - ein Teammitglied der Servers die Änderung annehmen, oder ein TomatenKuchen-Teamler. Durch diese Kombination können Änderungen schneller zugelassen werden.
 
-## Beispiele
+## Beispiele {#example}
 
 Diese Integrationen wurden von unserem Team erstellt oder von diesem verifiziert.
 
@@ -109,7 +109,7 @@ Diese Integrationen wurden von unserem Team erstellt oder von diesem verifiziert
 
 ![Wetter-Integration-Beispiel](/img/integration_weather.png)
 
-## RegEx-Cheatsheet
+## RegEx-Cheatsheet {#regex-cheatsheet}
 
 | Zeichen   | Beschreibung                   | Beispiel                 |
 |-----------|--------------------------------|--------------------------|

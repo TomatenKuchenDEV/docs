@@ -5,7 +5,7 @@ description: TomatenKuchen is a multipurpose Discord bot with many common and in
 
 TomatenKuchen is able to translate text using Google Translate into over 100 languages.
 
-## Command
+## Command {#commands}
 
 Using the command `translate` you're able to translate a word, a sentence or a whole text into the given target language.
 

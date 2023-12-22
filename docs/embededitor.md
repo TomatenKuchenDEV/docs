@@ -13,7 +13,7 @@ Using the embededitor you can easily create your own messages with embeds and co
 
 The website was developed further by TomatenKuchen developer TomatoCake to fix some errors and add new features, which are mainly said components.
 
-## Features
+## Features {#features}
 
 - Live preview when editing messages
 - Importing messages from Discord into the editor
@@ -22,7 +22,7 @@ The website was developed further by TomatenKuchen developer TomatoCake to fix s
 - Improved security as images aren't loaded directly from the origin anymore
 - Made using and sharing long URLs on Discord possible with a [shorter.cf](https://shorter.cf) integration
 
-## Using it with TomatenKuchen
+## Using it with TomatenKuchen {#usage}
 
 TomatenKuchen allows you on many places to paste JSON created by the embed editor, which simplifies the setup of embeds and co. on Discord.
 

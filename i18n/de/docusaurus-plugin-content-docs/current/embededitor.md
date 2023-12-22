@@ -13,7 +13,7 @@ Mithilfe des Embededitors kannst du deine eigenen Nachrichten inklusive Embeds u
 
 Die Website wurde vom TomatenKuchen-Entwickler TomatoCake weiterentwickelt, um einige Fehler zu beheben sowie Neuerungen hinzuzufügen, dazu gehören hauptsächlich besagte Komponenten.
 
-## Funktionen
+## Funktionen {#features}
 
 - Livevorschau beim Bearbeiten von Nachrichten
 - Import von Nachrichten aus Discord in den Editor
@@ -22,7 +22,7 @@ Die Website wurde vom TomatenKuchen-Entwickler TomatoCake weiterentwickelt, um e
 - Sicherheit erhöht, indem Bilder nicht mehr direkt vom Ursprung geladen werden
 - Verwenden und teilen von langen URLs auf Discord durch Integration mit [shorter.cf](https://shorter.cf) ermöglicht
 
-## Verwenden mit TomatenKuchen
+## Verwenden mit TomatenKuchen {#usage}
 
 TomatenKuchen bietet an vielen Stellen die Möglichkeit, vom Embededitor kopiertes JSON einzufügen, und somit das Einrichten von Embeds usw. auf Discord zu vereinfachen.
 

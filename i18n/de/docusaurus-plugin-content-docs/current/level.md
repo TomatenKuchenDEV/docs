@@ -58,7 +58,7 @@ Mögliche Variablen:
 
 Stellt ein, ob Nutzer vorherige Levelrollen behalten oder immer nur die höchste erhalten.
 
-### Kanal für Levelnachrichten {#settings-levelchannel}
+### Kanal für Levelnachrichten {#settings-channel}
 
 Hier kann der Kanal ausgewählt werden, in dem Level-up-Nachrichten gesendet werden. Es kann entweder ein Kanal oder "Current channel" ausgewählt werden, um die Nachricht in den aktuellen Kanal zu senden.
 
@@ -95,4 +95,4 @@ Beachte, dass alle Einträge zusammenaddiert werden, wenn die festgelegte Länge
 wenn du die Anzahl der Punkte reduzieren möchtest, setze einfach einen negativen Wert.
 
 Diese Einstellung ist standardmäßig deaktiviert und wird nur aktiviert, wenn eine oder mehr Nachrichtenlängen festgelegt worden sind.
-Im Normalfall zählt eine Nachricht einen Punkt, außer der Nutzer hat Levelrollen, welche die Standardpunkteanzahl verändern.
+Im Normalfall zählt eine Nachricht einen Punkt, außer es gibt [Multiplier](#settings-multiplier) oder der Nutzer hat eine Levelrolle, welche die Standardpunkteanzahl verändert.

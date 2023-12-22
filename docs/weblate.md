@@ -11,11 +11,11 @@ Suggestions can be made by non-logged in users too, but they cannot receive a gi
 
 [![Translation status](https://translate.tomatenkuchen.com/widget/tk/multi-auto.svg)](https://translate.tomatenkuchen.com/engage/tk/)
 
-## Languages
+## Languages {#langs}
 
 Currently, TomatenKuchen is translated into German and English manually. The translations into the languages French and Hungarian are done using DeepL.
 
-## Documentation
+## Documentation {#docs}
 
 The content and translation of this documention is done on [GitHub](https://github.com/DEVTomatoCake/tk-docs).
 If you want to help with that, create a GitHub account, fork the repository, edit the file and create a Pull Request.
