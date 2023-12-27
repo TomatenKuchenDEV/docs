@@ -18,13 +18,13 @@ const config = {
 	plugins: [
 		require("./plugin-pagemove/index.js"),
         [
-            "docusaurus-plugin-remote-content",
+            require("./plugin-integration-functions/index.js"),
             {
                 name: "integration-functions",
-                sourceBaseUrl: "https://api.tomatenkuchen.com/integration-docs/",
+                baseURL: "https://api.tomatenkuchen.com/integration-docs/",
                 outDir: "docs/functions",
 				// From https://api.tomatenkuchen.com/integration-docs
-                documents: ["args.md","math.md","mention.md","vars.md","string.md","time.md","control.md","member.md","guild.md","stats.md","message.md","moderation.md","channel.md","response.md","misc.md","level.md","embed.md","components.md","managebot.md"]
+                files: ["args.md","math.md","mention.md","vars.md","string.md","time.md","control.md","member.md","guild.md","stats.md","message.md","moderation.md","channel.md","response.md","misc.md","level.md","embed.md","components.md","managebot.md"]
             }
         ],
 		[
