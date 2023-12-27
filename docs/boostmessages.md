@@ -7,23 +7,23 @@ This feature can be used to send a message if a user boosts the server and didn'
 
 It's not possible for the bot to find out how many times a specific user has boosted the server.
 
-## Settings
+## Settings {#settings}
 
-### Boost message channel
+### Boost message channel {#channel}
 
 The bot will send a message into this message once a user boosts the server for the first time.
 
-### Former boost message channel
+### Former boost message channel {#endchannel}
 
 The bot will send a message into this channel once a user removes all it's boosts from the server.
 
-### Boost message & boost end message
+### Boost (end) message {#message}
 
 Setting for configuring the message which is sent once a user boosts the server for the first time or removes it's last boost.
 
-## Variables
+## Variables {#vars}
 
-- `{usermention}`: Mention of the user
+- `{userMention}`: Mention of the user
 - `{username}`: Username
 - `{displayName}`: Nickname
 - `{globalName}`: Global displayname

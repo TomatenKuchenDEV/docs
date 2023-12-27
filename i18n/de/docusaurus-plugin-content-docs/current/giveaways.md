@@ -31,19 +31,23 @@ Diese Funktion wählt einen oder die eingestellte Anzahl an Gewinnern aus. Nutze
 
 `giveway delete <Nachrichten-ID>`
 
+### Giveaways auflisten {#cmd-list}
+
+`giveway list`
+
 ## Einstellungen {#settings}
 
 ### Giveaway-Nachricht {#settings-message}
 
 Hier kann der Text der Giveaway-Nachricht verändert werden, z. B. um eine Giveaway-Rolle zu erwähnen.
 
-### Rolle zum Erstellen/Verwalten von Giveaways
+### Rolle zum Erstellen/Verwalten von Giveaways {#settings-manager-role}
 
 Es können Rollen ausgewählt werden, welche Giveaways erstellen und bearbeiten können.
 
 Nutzer mit einer dieser Rollen können alle [Befehle](#commands) dieser Seite ausführen.
 
-### Rollen, welche immer an Giveaways teilnehmen dürfen
+### Rollen, welche immer an Giveaways teilnehmen dürfen {#settings-no-requirements-role}
 
 Die ausgewählten Rollen können immer an Giveaways teilnehmen, unabhängig davon, welche Bedingungen für das Giveaway festgelegt sind.
 
@@ -67,7 +71,7 @@ Hier kann pro Rolle eine Anzahl eingegeben werden, die die Rolle an zusätzliche
 
 Es kann eine Zahl von 0 bis 50 verwendet werden, wobei 0 die Teilnahme dieser Rolle an Giveways effektiv unterbindet.
 
-## Bedingungen {#settings-requirements}
+## Bedingungen {#requirements}
 
 Es können verschiedene Bedingungen für die Teilnahme an Giveaways festgelegt werden.
 

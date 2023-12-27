@@ -20,6 +20,8 @@ Das beim Befehl `leaderboard countingfail` angezeigte Leaderboard zeigt an, wie 
 
 ## Einstellungen {#settings}
 
+[Einstellungen öffnen](https://tomatenkuchen.com/dashboard/settings#counting)
+
 ### Kanal {#settings-channel}
 
 Der Zähl-Kanal, in welchem Nutzer können.

@@ -12,7 +12,7 @@ From then on, the logs received of the first server will be sent to the second.
 
 To stop the synchronization use the command `sync stop` on the server the synchronization has been set up.
 
-## Logsync
+## Logsync {#logs}
 
 Using the logsync feature of the bot you can send the logs of one server to another, e.g. to send logs from a main to a team internal server.
 
@@ -20,7 +20,7 @@ This affects all log types - note that if the target server didn't select a log 
 
 `sync logs <Server ID>`
 
-## Bansync
+## Bansync {#bans}
 
 Bans and unbans can be synced using the bot as well. Unlike logs, bans can be synced to and from multiple servers at the same time.
 

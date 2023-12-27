@@ -21,7 +21,7 @@ Using the command `shorter stats` you can view statistics of the shorter.cf doma
 
 These statistics are collected anonmously by Cloudflare, shorter.cf itself doesn't collect any data.
 
-## Create a short URL {#create}
+## Creating a short URL {#create}
 
 `shorter create <URL> [<Name>]` creates a short URL with the given name.
 

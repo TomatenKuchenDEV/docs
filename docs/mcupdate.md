@@ -12,7 +12,7 @@ You can select between the following display types:
 
 Channel name and topic are only updated once every five minutes due to a Discord limit, the messages usually every two minutes - this way your players are always up to date on the current status.
 
-## Setup
+## Setup {#setup}
 
 To start the setup you have to run the command `misc mcupdate` with the required permissions.
 

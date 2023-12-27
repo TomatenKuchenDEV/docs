@@ -5,13 +5,13 @@ description: TomatenKuchen is a multipurpose Discord bot with many common and in
 
 Using this feature you can let the bot automatically create threads in selected channels when a new message is sent in them.
 
-## Adding channels
+## Adding channels {#add-channels}
 
-You can add channels in the [related setting in the dashboard](https://tomatenkuchen.com/dashboard/settings#autoThreadChannels), in which a new thread should be created when a new message is sent.
+You can add channels using the [setting in the dashboard](https://tomatenkuchen.com/dashboard/settings#autoThreadChannels), in which a new thread should be created when a new message is sent.
 
 You have multiple variables when choosing the name of the thread.
 
-## Variables for the thread name
+## Variables for the thread name {#vars}
 
 - `{username}`: The username of the user
 - `{globalName}`: The global display name
@@ -20,7 +20,7 @@ You have multiple variables when choosing the name of the thread.
 
 Note that the name must not be longer than 100 characters.
 
-## Permissions
+## Permissions {#permissions}
 
 The bot requires at least the following permissions in the channels for this feature:
 - View Channel

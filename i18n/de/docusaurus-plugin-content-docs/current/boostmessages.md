@@ -23,7 +23,7 @@ Hier kann die Nachricht, die beim Boosten bzw. Ende des Boostens gesendet wird, 
 
 ## Variablen {#vars}
 
-- `{usermention}`: Erwähnung des Nutzers
+- `{userMention}`: Erwähnung des Nutzers
 - `{username}`: Benutzername
 - `{displayName}`: Nickname
 - `{globalName}`: Globaler Anzeigename

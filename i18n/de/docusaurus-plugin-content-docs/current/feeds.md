@@ -8,12 +8,14 @@ Diese Seite wird dir beim Einrichten von Feeds mit TomatenKuchen helfen.
 
 ![Feed vom Discord-Status](/img/feed_example.png)
 
-## RSS-/Atom-Feeds
+## RSS-/Atom-Feeds {#rss}
+
 Der Bot unterstützt alle Arten von RSS- und Atom-Feeds. Du kannst einen Feed erstellen, indem du den "Add"-Button im Dashboard nutzt und die Feed-URL einfügst.
 Der Bot wird dann automatisch neue Feedinhalte in den festgelegten Kanal senden.
 Feeds werden alle zehn Minuten nach neuen Inhalten durchsucht.
 
-### Standardkonfiguration
+### Standardkonfiguration {#default}
+
 ![](/img/rss_feeds_default.png)
 Die Felder sollten für die optimale Erfahrung so ausgefüllt sein. Du kannst sie aber natürlich nach Belieben bearbeiten oder verschieben.
 
@@ -25,18 +27,21 @@ Die Felder sollten für die optimale Erfahrung so ausgefüllt sein. Du kannst si
 
 Wenn der Feed weitere Werte enthält, kannst du sie ebenfalls nutzen. Der Bot wird sie automatisch mit dem entsprechenden Wert ersetzen, z. B. `{link}` wenn der Feed `"link": "https://tomatenkuchen.com/post/42"` enthält.
 
-## Beispielfeeds
+## Beispielfeeds {#example}
 
-### Nitter (Twitter)
+### Nitter (Twitter) {#nitter}
+
 Feed-URL: `https://nitter.net/{user}/rss`
 
-### Mastodon
+### Mastodon {#mastodon}
+
 Feed-URL: `https://{instance}/users/{user}.atom`
 
-### Reddit
+### Reddit {#reddit}
+
 Feed-URL: `https://www.reddit.com/r/{subreddit}/new/.rss`
 
-## Minecraft-Versionen
+## Minecraft-Versionen {#minecraft}
 
 Es können Feeds erstellt werden, um Snapshots, Prereleases, Release Candidates und Vollversionen von Minecraft anzukündigen. Für jeden dieser Typen kann ein Kanal festgelegt werden.
 

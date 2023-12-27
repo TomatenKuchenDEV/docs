@@ -3,11 +3,11 @@ title: Backups und Vorlagen
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Backups erlauben dir, schnell einen gegrieften Server wiederherzustellen. Mit Templates kannst du einfach andere veröffentlichte Serverdesigns auf einen vorhandenen Server übernehmen.
 ---
 
-## Backups
+## Backups {#backups}
 
 Mit Backups kannst du im Falle eines Servergriefs oder der ausversehenen Löschung z. B. eines Kanals diesen leicht wiederherstellen.
 
-### Was sind TomatenKuchen-Backups?
+### Was sind TomatenKuchen-Backups? {#about-backups}
 
 - Backups werden standardmäßig für immer gespeichert
 	- Aufgrund einer Discord-Richtlinie werden die Nachrichten eines Backups unter Umständen nach 30 Tagen gelöscht.
@@ -16,7 +16,7 @@ Mit Backups kannst du im Falle eines Servergriefs oder der ausversehenen Löschu
 - Normale Nutzer können maximal vier Backups gleichzeitig besitzen
 - Backups dürfen nicht größer als einige Megabyte sein - dieses Limit wird im Normalfall nur bei der sogenannten sicheren Speicherung von Bildern erreicht.
 
-### Erstellen eines Backups
+### Erstellen eines Backups {#backup-create}
 
 Mit dem Befehl `backup create` kannst du ein Backup für den aktuellen Server erstellen.
 
@@ -24,13 +24,13 @@ Dort hast du die Möglichkeit, einzelne Bereiche vom Server auszuwählen, welche
 
 Vor allem bei der Einstellung "sicheres Speichern" von Bildern sind diese Optionen hilfreich, um die Backupgröße zu reduzieren.
 
-### "Sicheres" Speichern von Anhängen
+### "Sicheres" Speichern von Anhängen {#backup-safe-storing-attachments}
 
 Mit dieser Einstellung werden Anhänge und sonstige Bilder, z. B. Servericon und -banner, nicht als URL gespeichert, sondern als vollständige Datei.
 
 Diese Einstellung hat den Vorteil, dass Anhänge auch wiederhergestellt werden können, wenn die Originalnachricht gelöscht oder z. B. das Servericon geändert worden ist.
 
-Der Nachteil ist, dass durch die rohen Dateidaten das Backup sehr schnell sehr groß wird - z. B. ist bei einem einzigen, zwei Megabyte großen Anhang, das Backup auch mindetens zwei Megabyte groß.
+Der Nachteil ist, dass durch die rohen Dateidaten das Backup sehr schnell sehr groß wird - z. B. ist bei einem einzigen, zwei Megabyte großen Anhang das Backup auch mindetens zwei Megabyte groß.
 
 ## Discord-Vorlagen/-Templates {#templates}
 

@@ -12,7 +12,7 @@ Du kannst zwischen verschiedenen Anzeigetypen wählen:
 
 Kanalname und -thema werden aufgrund eines Discord-Limits nur alle fünf Minuten aktualisiert, die Nachricht im Normalfall alle zwei Minuten - so sind deine Spieler immer gut über den aktuellen Status informiert.
 
-## Setup
+## Einrichtung {#setup}
 
 Um die Einrichtung zu starten musst du mit entsprechenden Berechtigungen den Befehl `misc mcupdate` ausführen.
 

@@ -7,71 +7,71 @@ To manage giveaways you need one of the giveaway roles set in the dashboard or t
 
 ## Commands {#commands}
 
-### Create
+### Create {#cmd-start}
 
 Interactive giveaway setup.
 
 `giveaway start`
 
-### Edit
+### Edit {#cmd-edit}
 
 Button under the giveaway
 
-### Reroll winners
+### Reroll winners {#cmd-reroll}
 
 `giveaway reroll <Message ID>`
 
 This will pick one or the configured amount of winners again after a giveaway has ended. Users can win multiple times.
 
-### End
+### End {#cmd-end}
 
 `giveway end <Message ID>`
 
-### Delete
+### Delete {#cmd-delete}
 
 `giveway delete <Message ID>`
 
-### List giveaways
+### List giveaways {#cmd-list}
 
 `giveway list`
 
-## Settings
+## Settings {#settings}
 
-### Giveaway message
+### Giveaway message {#settings-message}
 
 Change the text of the giveaway message. Can be used for example to ping a giveaway role.
 
-### Role for creating/managing giveaways
+### Role for creating/managing giveaways {#settings-manager-role}
 
 Users with this role can create and edit and giveaways.
 
 Users with one of these roles can run all [commands](#commands) on this page.
 
-### Roles which always can participate
+### Roles which always can participate {#settings-no-requirements-role}
 
 Users with this role can always participate in giveaways, ignoring any requirements that have been set for the giveaway.
 
-### Behavior of extra entries
+### Behavior of extra entries {#settings-additional-entries}
 
-#### Stack
+#### Stack {#settings-entries-multiple}
 
 This setting causes the default entry (1) to be added together with all extra entries.
 
-#### Highest role
+#### Highest role {#settings-entries-highest-role}
 
 With this setting the extra entries count of the highest role the specific user has *and* which has got a value for the extra entries assigned.
 
-#### Highest extra entry
+#### Highest extra entry {#settings-entries-highest-entry}
 
 This value causes the highest extra entry to count which the user has from their roles.
 
-### Extra entries per role
+### Extra entries per role {#settings-additional-role-entries}
 
 This setting allows a value per role which specifies the amount of extra entries the role receives in giveaways.
 
 Any number from 0 to 50 can be used, in which case 0 effectively disables the participation on giveaways.
 
-## Requirements
+## Requirements {#requirements}
 
 You can add different requirements for participating in a giveaway.
 
