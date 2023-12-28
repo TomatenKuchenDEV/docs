@@ -11,9 +11,11 @@ Mithilfe der Vote-Announcements kannst du eine Nachricht senden lassen, wenn jem
 ## Einstellungen {#settings}
 
 ### Kanal {#settings-channel}
+
 Hier kann der Kanal festgelegt werden, in den die Votenachricht gesendet wird.
 
 ### Nachrichten {#settings-message}
+
 Hier kannst du die Server- und Botvotenachricht einstellen.
 
 Folgende Variablen können verwendet werden:
@@ -27,6 +29,7 @@ Folgende Variablen können verwendet werden:
 - `{voteurl}`: URL, auf der Nutzer voten können
 
 ### Voterolle {#settings-role}
+
 Hier kann eine Rolle festgelegt werden und wie lange Nutzer diese behalten.
 Nutzer erhalten diese Rolle automatisch beim Voten. Nachdem die festgelegte Zeit abgelaufen ist, wird sie wieder entfernt.
 

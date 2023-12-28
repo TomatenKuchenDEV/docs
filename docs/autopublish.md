@@ -5,7 +5,7 @@ description: TomatenKuchen is a multipurpose Discord bot with many common and in
 
 Using the autopublish feature you can automatically publish/crosspost messages in selected channels so they're shown on other servers.
 
-## Selected announcement channels
+## Selected announcement channels {#select-channels}
 
 Select channels in which messages are automatically published to other servers. The requires for the bot to have the permissions "View Message History", "Send Messages" and "Manage Messages".
 

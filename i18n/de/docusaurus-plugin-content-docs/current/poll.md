@@ -3,17 +3,11 @@ title: Umfragen
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Führe Umfragen auf deinem Server durch - auch als normales Mitglied.
 ---
 
+## Befehl {#commands}
+
 Der `poll`-Befehl erlaubt dir das Erstellen von Umfragen auf deinem Server.
 
 Standardmäßig kann jeder den Befehl nutzen, jedoch kannst du die Berechtigungen des Slashcommands in den Integrationseinstellungen von Discord anpassen.
-
-## Einstellungen {#settings}
-
-### Ausgeschlossene Rollen {#create}
-
-Nutzer, die eine oder mehrere dieser Rolle haben, können nicht an Umfragen auf dem Server teilnehmen.
-
-Jedoch wird ihre Stimme weiterhin gezählt, wenn sie davor bereits abgestimmt haben.
 
 ## Erstellen einer Umfrage {#create}
 
@@ -26,3 +20,29 @@ Jedoch wird ihre Stimme weiterhin gezählt, wenn sie davor bereits abgestimmt ha
 	- `hide_votes`: Versteckt den "Votes"-Button unter dem Umfragen-Embed, wodurch Nutzer nicht mehr sehen können, wer für welche Option abgestimmt hat.
 
 \*: Dieses Argument muss angegeben werden.
+
+## Ausgeschlossene Rollen {#settings-excluded-roles}
+
+Nutzer, die eine oder mehrere dieser Rolle haben, können nicht an Umfragen auf dem Server teilnehmen.
+
+Jedoch wird ihre Stimme weiterhin gezählt, wenn sie davor bereits abgestimmt haben.
+
+Der Befehl hat die folgenden Argumente:
+
+## Befehlsargumente
+
+### Zeit {#cmd-time}
+
+Gibt die Zeit an, wie lange die Umfrage laufen soll. Nach dem Ablauf dieser Zeit kann nicht mehr abgestimmt werden.
+
+Verwende `0`, um die Umfrage unbegrenzt lange laufen zu lassen.
+
+### Titel {#cmd-title}
+
+Das Thema oder die Überschrift der Umfrage.
+
+Bei der Verwendung des Messagecommands muss danach ein pipe-Symbol (` | `) verwendet werden, um Titel und die möglichen Optionen voneinander zu trennen.
+
+### Auswahlmöglichkeiten {#cmd-options}
+
+Gibt die Auswahlmöglichkeiten an, die Nutzer zum Abstimmen haben, getrennt mit einem Komma.

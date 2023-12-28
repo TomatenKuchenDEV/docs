@@ -5,21 +5,21 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 
 ## Befehle {#commands}
 
-### `suggest [<Text> <Bild>]`
+### `suggest [<Text> <Bild>]` {#cmd-suggest}
 
 Macht einen neuen Vorschlag. Dasselbe kann durch das Senden einer Nachricht im Vorschlagskanal erzielt werden.
 
 Mit dem Befehl `suggest top` können die Vorschläge mit den meisten Votes angezeigt werden.
 
-### `approve <ID> [<Grund>]` und `deny <ID> [<Grund>]`
+### `approve <ID> [<Grund>]` und `deny <ID> [<Grund>]` {#cmd-approve-deny}
 
 Akzeptiert einen Vorschlag bzw. lehnt ihn ab. Entfernt die Reaktionen bzw. Buttons der Nachricht, welches das nachträgliche Verändern der Stimmen verhindert.
 
-### `reply <ID> <Text>`
+### `reply <ID> <Text>` {#cmd-reply}
 
 Antwortet auf einen Vorschlag mit dem angegebenen Text.
 
-### `editsuggest <ID> <Neuer Inhalt>`
+### `editsuggest <ID> <Neuer Inhalt>` {#cmd-editsuggest}
 
 Bearbeitet einen deiner Vorschlag oder, wenn du die Berechtigung "Nachrichten verwalten" hast, auch die Vorschläge anderer Nutzer.
 

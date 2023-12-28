@@ -3,17 +3,13 @@ title: Polls
 description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Create polls on your server - also as normal member.
 ---
 
+## Command {#commands}
+
 The `poll` command allows you the creation of polls on your server.
 
 By default, everyone can use the command, however you can edit the slash command permissions in the integrations settings of Discord.
 
-## Excluded roles
-
-Users who have one or more of these roles cannot participate in polls on the server.
-
-Still, their vote is counted if they've voted before.
-
-## Creating a poll
+## Creating a poll {#create}
 
 1. Open the channel you want to start the poll in.
 2. Run the `poll` slash or message command with the arguments you want.
@@ -24,3 +20,9 @@ Still, their vote is counted if they've voted before.
 	- `hide_votes`: Hides the "Votes" button below the embed so users cannot find out who voted for what.
 
 \*: This argument is required.
+
+## Excluded roles {#settings-excluded-roles}
+
+Users who have one or more of these roles cannot participate in polls on the server.
+
+Still, their vote is counted if they've voted before.
