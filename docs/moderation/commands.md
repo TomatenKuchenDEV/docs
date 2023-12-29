@@ -1,6 +1,6 @@
 ---
 title: Basic moderation commands
-description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Lists moderation commands
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. Lists moderation commands
 ---
 
 If the setting "Force reason" is enabled, the argument `<Reason>` is not optional anymore.

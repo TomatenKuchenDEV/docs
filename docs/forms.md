@@ -1,6 +1,6 @@
 ---
 title: Forms
-description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Using the online forms you can create for example ban appeals or staff applications.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. Using the online forms you can create for example ban appeals or staff applications.
 image: /img/forms_example.png
 ---
 

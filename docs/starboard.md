@@ -1,6 +1,6 @@
 ---
 title: Starboard
-description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Starboard allows your server members to react with an emoji to a message and save it forever in a special channel.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. Starboard allows your server members to react with an emoji to a message and save it forever in a special channel.
 image: /img/starboard.png
 ---
 

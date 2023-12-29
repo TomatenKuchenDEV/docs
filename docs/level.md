@@ -1,6 +1,6 @@
 ---
 title: Level & Leaderboard
-description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Explains the leaderboard and the level system of the bot.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. Explains the leaderboard and the level system of the bot.
 image: /img/leaderboard.png
 ---
 

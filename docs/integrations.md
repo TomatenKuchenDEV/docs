@@ -1,6 +1,6 @@
 ---
 title: Integrations
-description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. This page explains the basic setup of integrations, the better version of customcommands.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. This page explains the basic setup of integrations, the better version of customcommands.
 image: /img/integration_weather.png
 ---
 

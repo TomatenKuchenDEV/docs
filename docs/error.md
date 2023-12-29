@@ -1,6 +1,6 @@
 ---
 title: Errors from the bot
-description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Here you can find information about errors and logs.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. Here you can find information about errors and logs.
 image: /img/logs_overview.png
 ---
 

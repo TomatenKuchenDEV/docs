@@ -1,6 +1,6 @@
 ---
 title: Shorter command
-description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. This page explains the shorter command.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. This page explains the shorter command.
 ---
 
 shorter.cf is a simple URL shortener made by the same developer as TomatenKuchen.

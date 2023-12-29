@@ -1,6 +1,6 @@
 ---
 title: Minecraft server status update
-description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Display the current status of a Minecraft server in a channel name or topic, or in a message.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. Display the current status of a Minecraft server in a channel name or topic, or in a message.
 ---
 
 Using this feature you can display your current Minecraft Java server status, as well as, if enabled, the list of players and some more information.

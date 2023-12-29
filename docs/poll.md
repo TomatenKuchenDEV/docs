@@ -1,6 +1,6 @@
 ---
 title: Polls
-description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Create polls on your server - also as normal member.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. Create polls on your server - also as normal member.
 ---
 
 ## Command {#commands}
@@ -13,8 +13,8 @@ By default, everyone can use the command, however you can edit the slash command
 
 1. Open the channel you want to start the poll in.
 2. Run the `poll` slash or message command with the arguments you want.
-	- `time`*: The time limit on how the poll should last. Once the time runs out the results are shown.
-	- `title`*: The title of the poll, e.g. "What's your favourite color?"
+	- `time`*: The time limit on how the poll should last. After that time was reached, users cannot vote anymore. Use `0` to let the poll run forever.
+	- `title`*: The title of the poll, e.g. "What's your favourite color?" If you're using the message command, you now need to insert the pipe separator (` | `) to split title and the possible options.
 	- `options`*: The options which the users can choose from, seperated by commands, e.g. `Red,Yellow,Green,Blue`
 	- `max_votes`: The amount of votes users have. By default every user can only select one option, this can be changed using this setting.
 	- `hide_votes`: Hides the "Votes" button below the embed so users cannot find out who voted for what.

@@ -1,6 +1,6 @@
 ---
 title: Movie and series info
-description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. Mit dieser Funktion kannst du einfach nach bekannten Filmen, Serien und Darstellern suchen.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. Mit dieser Funktion kannst du einfach nach bekannten Filmen, Serien und Darstellern suchen.
 ---
 
 The `misc movie` command allows you to search for movies, series and persons (actors) and display more information about them.

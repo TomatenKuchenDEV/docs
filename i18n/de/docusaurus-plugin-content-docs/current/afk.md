@@ -11,6 +11,6 @@ Wenn ein als AFK markierter Nutzer erwähnt wird, zeigt der Bot die vom Nutzer f
 
 Für [Autoupdate](/autoupdate)-Nachrichten kann der Parameter `{afk}` verwendet werden, um eine Liste der aktuellen AFK-Nutzer anzuzeigen.
 
-## AFK-Rolle
+## AFK-Rolle {#settings-afk-role}
 
-In den Servereinstellungen kann eine Rolle ausgewählt werden, die als AFK markierte Nutzer erhalten.
+In den [Servereinstellungen](https://tomatenkuchen.com/dashboard/settings#afkRole) kann eine Rolle ausgewählt werden, die als AFK markierte Nutzer erhalten.

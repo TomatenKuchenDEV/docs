@@ -1,6 +1,6 @@
 ---
 title: Logging
-description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. This page explains the logging system.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. This page explains the logging system.
 ---
 
 TomatenKuchen provides feature rich logging about most actions that bots can capture.

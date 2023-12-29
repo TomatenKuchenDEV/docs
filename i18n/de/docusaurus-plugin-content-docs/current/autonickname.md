@@ -26,6 +26,6 @@ Folgende Variablen können verwendet werden:
 - `{username}`: Nutzername
 - `{globalName}`: Globaler Anzeigename des Nutzers
 
-### Maximale Rollen im Nicknamen {#settings-maxroles}
+### Maximale Rollen im Nicknamen {#settings-max-roles}
 
 Stellt die maximale Anzahl der Rollen ein, die im Nicknamen angezeigt werden. Bedenke, dass die maximale Nicknamenlänge 32 Zeichen beträgt.

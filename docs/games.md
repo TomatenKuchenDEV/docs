@@ -1,22 +1,22 @@
 ---
 title: Games
-description: TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server. The bot has many games available to play, e.g. snake, Uno! and Connect Four.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. The bot has many games available to play, e.g. snake, Uno! and Connect Four.
 image: /img/game_snake.png
 ---
 
-### Rock paper scissors
+### Rock paper scissors {#rock-paper-scissors}
 
 Play rock paper scissors against a user or the bot.
 
 `game rps [<User>]`
 
-### TicTacToe
+### TicTacToe {#tic-tac-toe}
 
 Play tic tac toe with another user or an algorithm of TomatenKuchen.
 
 `game ttt [<User>]`
 
-### Hangman
+### Hangman {#hangman}
 
 Let other members guess your text before the stickman is dead.
 
@@ -24,34 +24,36 @@ Note that only 25 characters are allowed, which are A to X and Z. Y as well as n
 
 `game hangman <Text>`
 
-### Connect Four
+### Connect Four {#connect-four}
 
 Play Connect Four against a user.
 
 `game connect4 <User>`
 
-### Snake
+### Snake {#snake}
 
 `game snake`
 
 ![](/img/game_snake.png)
 
-### Uno
+### Uno {#uno}
 
 Play Uno with other users.
 
 `game uno`
 
-### Chemical equations
+### Chemical equations {#chemistry}
 
-Gives you a chemistry equation that must be balanced using factors.
+Gives you a random chemistry equation that must be balanced using factors.
 
 `game chemie [easy|normal|hard]`
 
 ![](/img/game_chemie.png)
 
-### Wordsearch
+### Wordsearch {#wordsearch}
 
 Displays a grid of letters in which words are hidden. The words can be distributed vertically, horizontally and diagonally in all directions.
+
+The goal is to uncover all hidden words.
 
 `game wordsearch`
