@@ -3,7 +3,7 @@ title: Features
 description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. This page lists all features currently available.
 ---
 
-Note that there a daily updates usually containing new features, and those might not be reflected here instantly.
+Note that there a daily updates usually containing new features which might not be reflected here instantly.
 
 :::tip
 
@@ -11,12 +11,15 @@ All of those features are available for free!
 
 :::
 
-- Custom bots (custom branding/white-label)
+- [Custom bots](/category/custombot) (custom branding/white-label)
 - [Integrations](/integrations)
 	- Integrations can easily replace custom commands (custom bot responses, also known as "Tags")
 - [Moderation](/category/moderation)
-	- [Many common moderation commands, like lockdown, slowmode and dehoist](/moderation/commands)
+	- [Many common moderation commands](/moderation/commands), like `lockdown`, `slowmode` and `dehoist`
+	- Integration with Discord AutoMod is possible
 	- Settings:
+		- Default ban message delete duration
+		- Mod action reason presets
 		- Auto moderation of scam links and scam invites
 		- Disabling invite links from other servers
 		- Disabling markdown headers
@@ -42,6 +45,8 @@ All of those features are available for free!
 	- List of all birthdays on the server
 	- Configurable role and message
 - [Level and leaderboard](/level)
+	- Per level you can set a role, a message and the amount of level points
+	- Leveling by message or character
 - [Statistics in channel names](/serverstats)
 - [Server statistics with no expiry](/serverstats)
 - [Tickets](/category/tickets)

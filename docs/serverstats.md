@@ -7,7 +7,7 @@ description: TomatenKuchen is a multipurpose Discord bot with a lot of features 
 
 ![](https://tomatenkuchen.com/assets/images/stats.webp)
 
-You can set the channels in which and how the statistics are displayed in the [settings](https://tomatenkuchen.com/dashboard/settings).
+You can set the channels in which and how the statistics are displayed in the [settings](https://tomatenkuchen.com/dashboard/settings#statsChannelFormat).
 Most [action functions](/category/action-functions) can be used here.
 
 The channel name stats are automatically updated every **10 minutes**.
@@ -44,7 +44,8 @@ Those options can also be used for the `stats` command. The command also generat
 
 ### Visibility {#visibility}
 
-You can change the visibility of the statistics. You can choose from "Public", "Only Members" (only server members) and "Disabled".
+You can change the visibility of the statistics [in the settings](https://tomatenkuchen.com/dashboard/settings#publicStats).
+You can choose from "Public" (accessible for everyone with the link), "Only Members" (only server members) and "Disabled" (hides the statistics for everyone).
 
 Note that "Only Members" and "Disabled" will disable tracking of message statistics (amount of messages & active chatters).
 

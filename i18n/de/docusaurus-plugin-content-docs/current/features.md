@@ -3,7 +3,7 @@ title: Features
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Diese Seite listet alle zum aktuellen Zeitpunkt verfügbaren Features des Bots auf.
 ---
 
-Beachte, dass meist täglich Updates durchgeführt werden und deswegen regelmäßig neue Features hinzukommen, die nicht sofort hier erwähnt werden.
+Beachte, dass meist täglich Updates durchgeführt werden und deswegen regelmäßig neue Features hinzukommen, die hier nicht unmittelbar erwähnt werden.
 
 :::tip
 
@@ -11,11 +11,15 @@ Alle diese Funktionen sind kostenlos verfügbar!
 
 :::
 
-- Kostenlose [Custom-Bots](/category/custombot) (custom Branding/White-Label)
-- [Integrationen](/integrations) - eine Weiterentwicklung von Customcommands (auch bekannt als "Tags")
+- [Custom-Bots](/category/custombot) (custom Branding/White-Label)
+- [Integrationen](/integrations)
+	- Problemloses Ablösen von Customcommands (eigene Antworten, auch bekannt als "Tags")
 - [Moderation](/category/moderation)
-	- [Viele Standardmoderationsbefehle, z. B. Lockdown, Slowmode und Dehoist](/moderation/commands)
+	- [Viele Standardmoderationsbefehle](/moderation/commands), z. B. `lock`, `slowmode` und `dehoist`
+	- Reagieren auf Discord-AutoMod möglich
 	- Einstellungen:
+		- Standard-Bannachrichtenlöschdauer
+		- Vordefinierte Gründe für Moderationsaktionen
 		- Automoderation von Scamlinks und -einladungen
 		- Deaktivieren von Discordeinladungen anderer Server
 		- Deaktivieren von Markdown-Headern

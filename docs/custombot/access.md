@@ -10,10 +10,10 @@ However, everyone may test the beta version by joining the [Discord server](http
 
 ## Bot team
 
-If you want to allow multiple users access to the bot, before adding the bot in the TomatenKuchen dashboard, create a team in the [Discord Developer Portal](https://discord.com/developers/applications) and add the bot to it.
+If you want to allow multiple users access to the bot, create a team in the [Discord Developer Portal](https://discord.com/developers/applications) and add the bot to it.
 Then you can invite other users using the "Members" tab and give them permission roles.
 
-Your custom bot automatically updates this list periodically.
+Your custom bot automatically updates this list periodically - note that it might take up to two hours until newly added members have access.
 
 ### Roles
 

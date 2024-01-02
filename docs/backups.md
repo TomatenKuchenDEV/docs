@@ -28,9 +28,9 @@ Those options are especially useful when using the setting "Safe storing" of ima
 
 Using this setting attachments and other images, like the server icon and banner, are not stored as URLs, but as complete file.
 
-This setting' advantage is that attachments can be restored, even if the original message was edited or e.g. the server icon changed.
+This settings advantage is that attachments can be restored, even if the original message was edited or e.g. the server icon changed.
 
-The disadvantage is that storing the raw file data the backup grows in size pretty fast - for example, a two Megabyte big attachment causes the backup to be also at least two Megabytes in size.
+The disadvantage is that storing the raw file data the backup grows in size pretty fast - for example, a two Megabyte big attachment causes the backup to be also *at least* two Megabytes in size.
 
 ## Discord templates {#templates}
 

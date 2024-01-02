@@ -30,7 +30,7 @@ Mit dieser Einstellung werden Anhänge und sonstige Bilder, z. B. Servericon und
 
 Diese Einstellung hat den Vorteil, dass Anhänge auch wiederhergestellt werden können, wenn die Originalnachricht gelöscht oder z. B. das Servericon geändert worden ist.
 
-Der Nachteil ist, dass durch die rohen Dateidaten das Backup sehr schnell sehr groß wird - z. B. ist bei einem einzigen, zwei Megabyte großen Anhang das Backup auch mindetens zwei Megabyte groß.
+Der Nachteil ist, dass durch die rohen Dateidaten das Backup sehr schnell sehr groß wird - z. B. ist bei einem einzigen, zwei Megabyte großen Anhang das Backup auch *mindestens* zwei Megabyte groß.
 
 ## Discord-Vorlagen/-Templates {#templates}
 

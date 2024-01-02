@@ -10,10 +10,10 @@ Jedoch ist jeder eingeladen, die Betaversion durch das Beitreten des [Discord-Se
 
 ## Bot-Team
 
-Wenn mehrere Nutzer Zugriff auf den Bot haben sollte, erstelle vor dem Hinzufügen des Bots im TomatenKuchen-Dashboard ein Team im [Discord-Developer-Portal](https://discord.com/developers/applications) und füge den Bot dort hinzu.
-Dann kannst du über den Tab "Members" andere Nutzer einladen und diesen unterschiedliche Rollenrechte vergeben.
+Wenn mehrere Nutzer Zugriff auf den Bot haben sollte, erstelle ein Team im [Discord-Developer-Portal](https://discord.com/developers/applications) und füge den Bot dort hinzu.
+Dann kannst du über den "Members"-Tab andere Nutzer einladen und diesen unterschiedliche Rollenrechte vergeben.
 
-Dein Custom-Bot aktualisiert diese Liste regelmäßig automatisch.
+Dein Custom-Bot aktualisiert diese Liste regelmäßig automatisch - beachte, dass es bis zu zwei Stunden dauern kann, bis neu hinzugefügt Nutzer Zugriff erhalten.
 
 ### Rollen
 

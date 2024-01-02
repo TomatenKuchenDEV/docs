@@ -7,7 +7,7 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 
 ![](https://tomatenkuchen.com/assets/images/stats.webp)
 
-Du kannst die Kanäle, in denen Statistiken angezeigt werden, und wie sie angezeigt werden, in den [Einstellungen](https://tomatenkuchen.com/dashboard/settings) einstellen.
+Du kannst die Kanäle, in denen Statistiken angezeigt werden, und wie sie angezeigt werden, in den [Einstellungen](https://tomatenkuchen.com/dashboard/settings#statsChannelFormat) einstellen.
 Hier können die meisten [Aktions-Funktionen](/category/action-functions) verwendet werden.
 
 Die Kanalnamens-Statistiken werden automatisch alle **10 Minuten** aktualisiert.
@@ -44,7 +44,8 @@ Diese Optionen können auch beim `stats`-Befehl verwendet werden. Dieser generie
 
 ### Sichtbarkeit {#visibility}
 
-Du kannst die Sichtbarkeit der Statistiken ändern. Du kannst zwischen "Public" ("öffentlich"), "Only Members" ("Nur für Servermitglieder") und "Disabled" ("deaktiviert") wählen.
+Du kannst [in den Einstellungen](https://tomatenkuchen.com/dashboard/settings#publicStats) die Sichtbarkeit der Statistiken ändern.
+Du kannst zwischen "Public" ("öffentlich", für jeden mit dem Link aufrufbar), "Only Members" ("Nur für Servermitglieder") und "Disabled" ("deaktiviert", versteckt die Statistiken für alle) wählen.
 
 Beachte, dass "Only Members" und "Disabled" das Sammeln von Nachrichtenstatistiken (Anzahl Nachrichten & aktiver Chatter) deaktivieren.
 

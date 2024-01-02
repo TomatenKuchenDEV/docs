@@ -25,4 +25,4 @@ By default, everyone can use the command, however you can edit the slash command
 
 Users who have one or more of these roles cannot participate in polls on the server.
 
-Still, their vote is counted if they've voted before.
+However, their vote is still counted if they've voted before.
