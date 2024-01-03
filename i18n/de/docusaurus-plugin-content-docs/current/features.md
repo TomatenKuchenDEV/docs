@@ -36,6 +36,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 - [Autorollen für Nutzer und Bots getrennt](/autorole)
 - [Autonickname beim Beitreten](/autorole)
 - [Rejoin-/Persistente Rollen, die man beim erneuten Beitreten zurückerhält](/autorole)
+- [Antiraid](/antiraid)
 - [Übersetzungen von Nutzern](/weblate)
 - [Counting](/counting)
 	- Viele verschiedene Einstellungen

@@ -45,11 +45,15 @@ Wenn du einen fiktiven Geburtstag löschen möchteste, verwende den Befehl `birt
 
 ### Nachricht {#settings-message}
 
-Hier kann die Nachricht eingestellt werden, die gesendet wird, wenn ein realer oder fiktiver Nutzer Geburtstag hat.
+Hier kann die Nachricht eingestellt werden, die gesendet wird, wenn ein realer oder fiktiver Nutzer am heutigen Datum Geburtstag hat.
+
+### Geburtstagsnachricht löschen nach {#settings-message-delete-after}
+
+Diese Einstellung erlaubt es dir, eine relative Zeit anzugeben, nachdem eine Geburtstagsnachricht gelöscht wird, z. B. `1d` für einen Tag.
 
 ### Kanal {#settings-channel}
 
-In den hier ausgewählten Kanal werden Geburtstagsnachrichten gesendet.
+In den [hier](https://tomatenkuchen.com/dashboard/settings#birthdayChannel) ausgewählten Kanal werden Geburtstagsnachrichten gesendet.
 
 ### Rolle {#settings-role}
 

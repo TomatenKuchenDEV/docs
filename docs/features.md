@@ -36,6 +36,7 @@ All of those features are available for free!
 - [Auto roles for bots and users separately](/autorole)
 - [Auto nickname on join](/autorole)
 - [Rejoin/persistent roles which users receive back when rejoining](/autorole)
+- [Antiraid](/antiraid)
 - [Translations from users](/weblate)
 - [Counting](/counting)
 	- Many different settings

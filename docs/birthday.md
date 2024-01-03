@@ -45,11 +45,15 @@ If you want to delete a fictive birthday, use the command `birthday deletefictiv
 
 ### Message {#settings-message}
 
-Configure the message that is sent once it's a real or a fictive users birthday.
+Configure the message that is sent once the date today is a real or a fictive user's birthday.
+
+### Delete birthday message after {#settings-message-delete-after}
+
+This setting allows you to enter a relative time to delete the birthday announcement message after, for example `1d` for one day.
 
 ### Channel {#settings-channel}
 
-Select the channel in which birthdays are announced.
+Select the channel in which birthdays are announced [here](https://tomatenkuchen.com/dashboard/settings#birthdayChannel).
 
 ### Role {#settings-role}
 
