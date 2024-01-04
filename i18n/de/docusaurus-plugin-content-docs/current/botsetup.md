@@ -15,13 +15,12 @@ Dazu gehört z. B. die Sprache und eventuelle Prefixe zusätzlich zu Slashcomman
 
 Wenn du Hilfe bei etwas brauchst, sei es bei einem Fehler, einer Einstellung oder der sonstigen Einrichtung - die Mitglieder unseres [Support-Servers](https://tomatenkuchen.com/discord) helfen dir jederzeit gerne weiter.
 
-## Wichtige Einstellungen ändern {#settings}
+## Einstellungen {#settings}
 
-Standardmäßig wird die Botsprache auf die Serversprache gesetzt, du kannst sie aber manuell ändern. Es können bis zu zehn Message-Prefixe festgelegt werden, aber auch alle gelöscht, wenn du Message-Befehle deaktivieren willst.
+Im [Dashboard](https://tomatenkuchen.com/dashboard/settings) können alle Einstellungen des Bots geändert werden.
 
-Die Zeitzone stellt ein, wann Geburtstagsnachrichten gesendet werden. Du kannst deine aktuelle Zeitzone auf [xske.github.io/tz](https://xske.github.io/tz) ansehen oder dir eine passende von der [Wikipedia-Liste](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) raussuchen.
-
-Ebenfalls kannst du einstellen, ob Nachrichtenbefehle gelöscht werden sollen oder nicht.
+Die wichtigsten Einstellungen werden auf der Seite [Generelle Einstellungen](/general-settings) erklärt.
+Andere Einstellungen haben meist eine eigene Seite in der Dokumentation.
 
 ## Du musst eine "ID" angeben? {#id}
 

@@ -80,3 +80,9 @@ Erzwingt einen Grund bei Vorschlagsaktionen, z. B. beim Annehmen oder Ablehnen. 
 ### Vorlagen für Gründe {#settings-preset}
 
 Wie auch bei [Moderationsgründen](/category/moderation) kann man Vorlage für Gründe erstellen.
+
+### Votes öffentlich? {#settings-public-votes}
+
+Diese Einstellung legt fest, ob Vorschlagsnachrichten einen "Votes"-Button haben sollen, mit welchem angezeigt werden kann, welches Mitglied wie abgestimmt hat.
+
+Beachte, dass das Aktivieren dieser Einstellung zum Schutz der Anonymität der Nutzer nicht rückwirkend gilt.

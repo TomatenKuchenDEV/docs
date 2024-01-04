@@ -21,13 +21,12 @@ These settings include the language and prefixes in addition to slash commands.
 
 If you need help with something, let it be an error, a setting or other setup - the members on our [Support server](https://tomatenkuchen.com/discord) will be happy to help you with that.
 
-## Changing important settings {#settings}
+## Settings {#settings}
 
-The bot language is set to the server language by to default, but you can change it manually. You can set up to ten message prefixes, but you can also delete all of them if you want to disable message commands completely.
+In the [Dashboard](https://tomatenkuchen.com/dashboard/settings) all settings of the bot can be changed.
 
-The timezone configures when birthday messages are sent. You can see your current timezone on [xske.github.io/tz](https://xske.github.io/tz) or select a fitting one from the [Wikipedia list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
-
-You can also configure whether the bot should delete message commands or not.
+The most important settings are explained on the page [General settings](/general-settings).
+Other settings usually have their own documentation page.
 
 ### You have to enter an "ID"? {#id}
 

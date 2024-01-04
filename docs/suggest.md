@@ -80,3 +80,9 @@ Enforce a reason for suggestion actions, e.g. when approving or denying. Disable
 ### Reason presets {#settings-preset}
 
 Like with [moderation reasons](/category/moderation) you can create preset reasons.
+
+### Public votes {#settings-public-votes}
+
+This setting changes whether suggestion message should have a "Votes" button which shows which user voted which option.
+
+Note that enabling this setting doesn't work retroactively to protect anonymity of users.
