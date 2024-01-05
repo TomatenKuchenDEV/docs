@@ -3,7 +3,7 @@ title: Generelle Einstellungen
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Mit dieser Funktion kannst du einfach nach bekannten Filmen, Serien und Darstellern suchen.
 ---
 
-Diese Seite erklärt Servereinstellungen, die für viele Server interessant sein könnten oder keiner Kategorie zuzuordnen sind.
+Diese Seite erklärt Servereinstellungen, die für viele Server nützlich sein könnten.
 
 ## Serversprache {#settings-lang}
 
@@ -20,14 +20,13 @@ Der Prefix von Slashcommands lässt sich von Discord aus nicht ändern.
 
 :::tip Slashcommands
 
-Wenn du nur die Befehle eines Bots in der Slashcommand-Auswahl angezeigt bekommen willst, erwähne einfach den Bot und schreibe dann den Namen des Befehls:
-`@TomatenKuchen help`
+Wenn du nur die Befehle eines Bots in der Slashcommand-Auswahl angezeigt bekommen willst, erwähne einfach den Bot in der Chatbox und fange dann an, den Namen des Befehls zu schreiben: `@TomatenKuchen help`
 
 :::
 
 ## Message-Commands löschen {#settings-delete-command}
 
-Stellt ein, ob bei der Verwendung von Message-Commands die Nachricht gelöscht wird, die die Ausführung des Befehls ausgelöst hat.
+Stellt ein, ob bei der Verwendung von Message-Commands die Nachricht gelöscht wird, die die Ausführung eines Befehls ausgelöst hat.
 
 :::tip Pro Befehl überschreiben
 

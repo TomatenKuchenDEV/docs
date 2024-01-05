@@ -47,3 +47,7 @@ So können Willkommensnachrichten von Nutzern, die z. B. weniger als zehn Minute
 ## Leavenachricht bei Rejoin löschen {#settings-delete-leave-on-rejoin}
 
 Hier kann die Zeit eingestellt werden, wie lange es maximal gedauert haben darf, bis der Nutzer dem Server erneut beigetreten ist.
+
+## Nutzer entfernen beim Verlassen {#settings-remove-left-users}
+
+Diese Einstellung sorgt, wenn aktiviert, dafür, dass, sobald ein Nutzer den Server verlässt, seine Votes auf Vorschlägen sowie Giveaways, denen der Nutzer beigetreten ist, entfernt wird.

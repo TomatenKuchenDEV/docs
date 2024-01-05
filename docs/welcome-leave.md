@@ -47,3 +47,7 @@ This way, welcome messages from users that were less than for example ten minute
 ## Delete leave messages on rejoin {#settings-delete-leave-on-rejoin}
 
 Sets the maximum time the user can have taken to join the server again.
+
+## Remove users on leave {#settings-remove-left-users}
+
+The setting, if enabled, causes the left user, as soon as they leave the server, to be removed from suggestions as voter and giveaways they joined.
