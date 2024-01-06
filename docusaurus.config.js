@@ -9,6 +9,7 @@ const config = {
 	trailingSlash: false,
 	tagline: "TomatenKuchen is a multipurpose Discord bot with many common and innovative features for your server.",
 	onBrokenLinks: "warn",
+	onBrokenAnchors: "warn",
 
 	i18n: {
 		defaultLocale: "en",
