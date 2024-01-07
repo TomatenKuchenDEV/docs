@@ -11,7 +11,7 @@ All of those features are available for free!
 
 :::
 
-- [Custom bots](/category/custombot) (custom branding/white-label)
+- [Custom bots](/category/custom-bot) (custom branding/white-label)
 - [Integrations](/integrations)
 	- Integrations can easily replace custom commands (custom bot responses, also known as "Tags")
 - [Moderation](/category/moderation)

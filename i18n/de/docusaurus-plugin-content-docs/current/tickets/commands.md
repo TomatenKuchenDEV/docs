@@ -33,7 +33,7 @@ Um Tickets zu löschen braucht man eine der Ticket-Manager-Rollen oder die Berec
 
 :::warning
 
-Diese Befehle bzw. dieser Button ist nur verfügbar, wenn Claimen in den [Einstellungen](/tickets/general#Claiming) aktiviert wurde.
+Diese Befehle bzw. dieser Button ist nur verfügbar, wenn Claimen in den [Einstellungen](/tickets/claiming) aktiviert wurde.
 
 :::
 

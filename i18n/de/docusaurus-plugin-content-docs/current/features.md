@@ -11,7 +11,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 
 :::
 
-- [Custom-Bots](/category/custombot) (custom Branding/White-Label)
+- [Custom-Bots](/category/custom-bot) (custom Branding/White-Label)
 - [Integrationen](/integrations)
 	- Problemloses Ablösen von Customcommands (eigene Antworten, auch bekannt als "Tags")
 - [Moderation](/category/moderation)

@@ -12,7 +12,7 @@ Du kannst die Kategorie, den Transcriptkanal und die Nachricht für jede Ticketk
 
 `name` ist der Name und die interne ID der Ticketkategorie. Die restlichen Felder beziehen sich auf die Nachricht, welche bei einem neuen Ticket gesendet wird, für mehr Informationen siehe [Ticket-erstellt-Nachricht](#ticket-create-message).
 
-## Claiming {#claiming}
+## Ticket-Claiming {#claiming}
 
 Siehe [Claiming](./claiming).
 
@@ -54,7 +54,9 @@ Mit dieser Einstellung kannst du ein Ticket automatisch vom Bot schließen lasse
 
 ### Kanäle oder Threads {#settings-channels-or-threads}
 
-Du kannst auswählen, ob der Bot Kanäle oder Threads für Tickets verwenden soll.
+Du kannst auswählen, ob der Bot Kanäle oder private Threads für Tickets verwenden soll.
+
+Bei privaten Threads wird keine Ticketkategorie verwendet, sondern alle Threads werden im aktuellen Kanal erstellt, in welchem der Befehl ausgeführt worden ist.
 
 ### Nachricht an Ticketersteller beim Ticket schließen {#settings-dm-author}
 
