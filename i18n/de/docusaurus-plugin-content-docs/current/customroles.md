@@ -6,9 +6,44 @@ image: /img/customrole_info.png
 
 Mit Customrollen kannst du deinen Mitgliedern erlauben, sich eine eigene Rolle zu erstellen. Davon können sie den Namen, die Farbe und das Rollenicon (wenn durch Boostlevel freigeschaltet) ändern.
 
+![Customrollen-Info](/img/customrole_info.png)
+
+## Befehle {#commands}
+
 Die Verwaltung einer Customrolle funktioniert mit dem Befehl `customrole`.
 
-![Customrollen-Info](/img/customrole_info.png)
+### `create` {#cmd-create}
+
+Erstellt eine Customrolle für den aktuellen Nutzer.
+
+- name*: Der Name der Customrolle
+- color: Die Farbe der Customrolle
+
+### `name` {#cmd-create}
+
+Ändert den Namen der Customrolle.
+
+- name*: Der neue Name der Customrolle
+
+### `color` {#cmd-create}
+
+Ändert die Farbe der Customrolle.
+
+- color: Die Farbe der Customrolle. Wenn keine Farbe angegeben ist, wird die Farbe entfernt.
+
+### `icon` {#cmd-create}
+
+Ändert das Rollenicon.
+
+- icon: Die Bild-URL des neuen Rollenicons. Wenn keine URL angegeben ist, wird das Rollenicon entfernt.
+
+### `delete` {#cmd-create}
+
+Löscht die aktuelle Customrolle.
+
+### `info` {#cmd-create}
+
+Zeigt Informationen über deine Customrolle an, also die von dir eingestellten Werte.
 
 ## Einstellungen {#settings}
 

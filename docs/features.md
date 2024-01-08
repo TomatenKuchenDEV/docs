@@ -49,7 +49,7 @@ All of those features are available for free!
 	- Per level you can set a role, a message and the amount of level points
 	- Leveling by message or character
 - [Statistics in channel names](/serverstats)
-- [Server statistics with no expiry](/serverstats)
+- [Server statistics with no expiration](/serverstats)
 - [Tickets](/category/tickets)
 	- [Ticket categories](/tickets/general)
 	- [Claiming](/tickets/commands)
