@@ -28,6 +28,12 @@ Den Bottoken erhältst du aus dem [Discord-Developer-Portal](https://discord.com
 
 ## Bezahlung
 
+:::info Kostenloser Custom-Bot
+
+Der erste Custom-Bot ist für jeden kostenlos, du kannst ihn so lange du willst ohne Kosten verwenden.
+
+:::
+
 Die Bezahlung funktioniert mit Credits, eine virtuelle Währung von TomatenKuchen. Credits lassen sich hauptsächlich durch Voten verdienen und in Giveaways auf dem TomatenKuchen-Discord gewinnen.
 Du kannst sie auch durch das Economy-System und Mitwirkung bei den Bots erhalten, z. B. als Übersetzer oder Vorschläge für den Bot.
 

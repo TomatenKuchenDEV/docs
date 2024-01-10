@@ -23,12 +23,10 @@ Your custom bot automatically updates this list periodically - note that it migh
 
 ## Managing
 
-You can see custom bots you own, you have access to or you are paying for in the [custom bot dashboard](https://tomatenkuchen.com/dashboard/custom).
-
-Users that are only set as paying users can only remove themselves from that position, other actions are disabled.
+You can see custom bots you own or you have access to in the [custom bot dashboard](https://tomatenkuchen.com/dashboard/custom).
 
 :::warning
 
-Note that the bot goes offline if there's no paying user left or none of the remaining ones have enough credits.
+Note that the custom bot goes offline if the balance of it reaches zero, after sending several warning messages.
 
 :::

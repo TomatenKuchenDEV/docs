@@ -23,12 +23,12 @@ Dein Custom-Bot aktualisiert diese Liste regelmäßig automatisch - beachte, das
 
 ## Verwaltung
 
-Custom-Bots, die dir gehören, auf die du Zugriff hast oder wofür du als zahlender Nutzer eingetragen bist, kannst du im [Custom-Bot-Dashboard](https://tomatenkuchen.com/dashboard/custom) einsehen.
+Custom-Bots, die dir gehören oder auf die du Zugriff hast, kannst du im [Custom-Bot-Dashboard](https://tomatenkuchen.com/dashboard/custom) einsehen.
 
 Als nur bezahlende Nutzer eingetragene Nutzer können sich nur selbst von dieser Position entfernen, andere Aktionen sind deaktiviert.
 
 :::warning
 
-Beachte, dass der Bot offline geht, wenn es keinen bezahlenden Nutzer mehr gibt oder keiner der verbleibenden ausreichend Credits hat.
+Beachte, dass der Bot offline geht, wenn der Bot nach dem Senden von einigen Warnungen immer noch nicht genug Credits hat.
 
 :::

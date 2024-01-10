@@ -28,6 +28,12 @@ You can get the bot token from the [Discord Developer Portal](https://discord.co
 
 ## Payment
 
+:::info Free custom bot
+
+The first custom bot is free for everyone, you can use it as long as you want without any costs.
+
+:::
+
 The payment works with credits, a virtual currency of TomatenKuchen. Credits can be received mostly by voting and in giveaways on the TomatenKuchen Discord.
 You can also get them by using the economy system and helping with the bot, e.g. as translator or by creating suggestions for the bot.
 
