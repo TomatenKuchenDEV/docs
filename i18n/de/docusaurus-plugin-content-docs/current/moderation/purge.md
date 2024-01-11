@@ -3,13 +3,13 @@ title: Nachrichten löschen
 description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärungen zu den Moderationsbefehlen
 ---
 
-## Syntax
+## Syntax {#syntax}
 
 `purge <Anzahl> [<Filter>] [pinned]`
 
 Wenn `pinned` angegeben wird werden auch angepinnte Nachrichten gelöscht.
 
-## Mögliche Filter
+## Mögliche Filter {#filters}
 
 `<Filter>` kann einer der folgenden sein:
 - `<Nutzer>`: Löscht nur Nachrichten von dem angegebenen Nutzer

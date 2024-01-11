@@ -1,6 +1,6 @@
 ---
 title: Events
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. Mit dem Bot kannst du Events importieren sowie in einer Nachricht als Kalender anzeigen lassen.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. Using the bot you can import events and display them in a message as a calendar.
 ---
 
 ## Commands {#commands}

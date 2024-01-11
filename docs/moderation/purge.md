@@ -3,13 +3,13 @@ title: Deleting messages (Purge)
 description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. Lists moderation commands
 ---
 
-## Syntax
+## Syntax {#syntax}
 
 `purge <Amount> [<Filter>] [pinned]`
 
 If you include `pinned`, pinned messages will be deleted too.
 
-## Filters
+## Filters {#filters}
 
 `<Filter>` can be one of the following:
 - `<User>`: Deletes all messages from a user

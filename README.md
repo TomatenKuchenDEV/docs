@@ -3,6 +3,6 @@
 Deployed using [Cloudflare Pages](https://pages.cloudflare.com) on https://docs.tomatenkuchen.com.
 
 # Todo
-- Keine Docs für Einstellung quoteDiscordLink
-- Keine Docs für Einstellung teamChannel
+- Keine Docs für Einstellung quoteDiscordLink: quoting-messages
+- Keine Docs für Einstellung teamChannel: moderation/settings
 - Keine Docs für Einstellung eventReminder: event

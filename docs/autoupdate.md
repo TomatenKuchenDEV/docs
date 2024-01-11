@@ -25,4 +25,4 @@ Autoupdate ("automatically updating messages") are messages which auto update **
 - `{boosters}`: Lists all boosters of the server
 - `{afk}`: List of users marked as AFK
 - `{birthday}`: List of all users with a public birthday and all fictive birthdays of the server
-- `{events}`: List of pending events
+- `{events}`: List of up to 15 upcoming scheduled server events

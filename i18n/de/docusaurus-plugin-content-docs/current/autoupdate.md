@@ -25,4 +25,4 @@ Autoupdate ("automatisch updatende Nachrichten") steht für Nachrichten, die sic
 - `{boosters}`: Zeigt alle Booster des Servers
 - `{afk}`: Liste von als AFK markierten Nutzern auf dem Server
 - `{birthday}`: Liste aller Nutzer mit einem öffentlichen Geburtstag sowie alle fiktiven Geburtstage des Servers
-- `{events}`: Liste aller anstehenden Events
+- `{events}`: Liste von maximal 15 der anstehenden Serverevents

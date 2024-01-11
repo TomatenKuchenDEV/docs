@@ -10,7 +10,7 @@ However, everyone may test the beta version by joining the [Discord server](http
 
 Using a custom bot, you can get your own version of TomatenKuchen on your server without it being obvious that it's TomatenKuchen.
 
-## What's that?
+## What's that? {#about}
 
 Custom bots, also known as "Custom branding" or "White-label" from other bots, means that you can use a bot created by you with the features of TomatenKuchen.
 The advantage of this is, that you can use all of the great [TomatenKuchen features](./features), but your server members can only see your bot, not TomatenKuchen.
@@ -18,7 +18,7 @@ The advantage of this is, that you can use all of the great [TomatenKuchen featu
 You also can run different bots in addition to the TomatenKuchen custom bot on the same bot by using its token multiple times.
 Do note however that we cannot provide support for this and it may cause problems with interactions, like slash commands or buttons.
 
-## Setup
+## Setup {#setup}
 
 To create a custom bot, simply open the [custom bot dashboard](https://tomatenkuchen.com/dashboard/custom) and click on "Create".
 
