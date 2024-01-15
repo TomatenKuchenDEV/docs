@@ -1,6 +1,6 @@
 ---
 title: YouTube feeds
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. The bot is for example able to send messages when a YouTube channel uploads a new video or short.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features. The bot is for example able to send messages when a YouTube channel uploads a new video or short.
 ---
 
 YouTube notificiations allow sending a message when the user uploads a new video or short to YouTube.

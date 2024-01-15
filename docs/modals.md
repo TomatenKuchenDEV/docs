@@ -1,6 +1,6 @@
 ---
 title: Modals
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. Modals ("Forms") allow you to request information from users, e.g. in tickets, using popups in Discord.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Modals ("Forms") allow you to request information from users, e.g. in tickets, using popups in Discord.
 ---
 
 ## Command {#commands}

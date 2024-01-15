@@ -1,6 +1,6 @@
 ---
 title: Voice channel mass actions
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. Using the voice command you can easily edit multiple users in a voice channel.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Using the voice command you can easily edit multiple users in a voice channel.
 ---
 
 Using these commands, actions can be executed on multiple users in a voice channel.

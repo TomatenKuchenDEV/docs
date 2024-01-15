@@ -1,6 +1,6 @@
 ---
 title: Quoting messages
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. Dies ist ein Feature, um eine gesendete Nachricht anhand eines Links zu zitieren.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Dies ist ein Feature, um eine gesendete Nachricht anhand eines Links zu zitieren.
 ---
 
 Using this [setting](https://tomatenkuchen.com/dashboard/settings#quoteDiscordLink) you can change whether and if so, how messages can be quoted from the current server:

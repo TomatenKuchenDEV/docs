@@ -1,6 +1,6 @@
 ---
 title: Automatic threads
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. Using the automatic thread creation feature, you can e.g. improve the usability of discussion or bug report channels.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Using the automatic thread creation feature, you can e.g. improve the usability of discussion or bug report channels.
 ---
 
 Using this feature you can let the bot automatically create threads in selected channels when a new message is sent in them.

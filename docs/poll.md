@@ -1,6 +1,6 @@
 ---
 title: Polls
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. Create polls on your server - also as normal member.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Create polls on your server - also as normal member.
 ---
 
 ## Command {#commands}

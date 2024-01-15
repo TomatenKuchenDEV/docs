@@ -1,6 +1,6 @@
 ---
 title: Customizing the bot
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. Lists the options for customizing your bot.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Lists the options for customizing your bot.
 ---
 
 :::info Beta version

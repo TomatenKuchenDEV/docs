@@ -1,6 +1,6 @@
 ---
 title: Twitch module for e.g. livestreams
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. Using the bot you can send a message if a Twitch streamer goes live or something else changes.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Using the bot you can send a message if a Twitch streamer goes live or something else changes.
 ---
 
 The Twitch module has several options for sending messages on changes of a streamer.

@@ -1,6 +1,6 @@
 ---
 title: Bot setup
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. This doc helps you with the general setup of the bot.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features. This doc helps you with the general setup of the bot.
 slug: /
 ---
 

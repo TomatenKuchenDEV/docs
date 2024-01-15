@@ -118,7 +118,6 @@ Alle diese Funktionen sind kostenlos verfügbar!
 	- Folgen von Weiterleitungen
 - [Löschen von mehreren Nachrichten mit Filtern](/moderation/purge)
 - [Massenhinzufügen bzw. -entfernen von Rollen mit Filtern](/moderation/massactions)
-- Kicken und Bannen von Nutzern mit Filtern
 - [ChatGPT-Befehl](/ai/chatgpt)
 - [KI-Text-zu-Bild-Befehl](/ai/text2img)
 - Bilderstellung und -veränderung
@@ -134,7 +133,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 - [Automatisch updatende Nachrichten für z. B. Serverstatistiken oder Geburtstagskalender](/autoupdate)
 - [Modals ("Forms")](/modals) für Discord erstellen
 - [Nutzern mit Nitro eine Rolle zuweisen](/nitroverify)
-- Umwandlung von Währungen und Maßeinheiten
+- [Umwandlung von Währungen und Maßeinheiten](/convert)
 - [Senden von selbst erstellten Nachrichten mit Embeds und Komponenten, z. B. Buttons](https://embed.tomatenkuchen.com)
 - Zufallsfunktionen, z. B. Würfel und Auswahl eines bestimmten Elements einer Liste
 - Erstellen und Lesen von QR-Codes

@@ -1,6 +1,6 @@
 ---
 title: Translation
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. TomatenKuchen, the Manage Bot and the website are translated using Weblate - you can also help!
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features. TomatenKuchen, the Manage Bot and the website are translated using Weblate - you can also help!
 ---
 
 TomatenKuchen, the Manage Bot and the website of TomatenKuchen are translated using Weblate on [translate.tomatenkuchen.com](https://translate.tomatenkuchen.com/engage/tk).

@@ -1,6 +1,6 @@
 ---
 title: Role command
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. The role command allows you to manage roles and their members on a server.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features. The role command allows you to manage roles and their members on a server.
 ---
 
 This page explains the subcommands of the `role` command and explains their features.

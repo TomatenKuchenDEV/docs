@@ -1,6 +1,6 @@
 ---
 title: Boost messages
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. Explains how to send a message on new or former boosters.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Explains how to send a message on new or former boosters.
 ---
 
 This feature can be used to send a message if a user boosts the server and didn't boost before, and if a user removes all it's boosts from the server.

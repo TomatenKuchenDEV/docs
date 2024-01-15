@@ -1,6 +1,6 @@
 ---
 title: AFK
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. Explains the per user AFK system and AFK roles.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Explains the per user AFK system and AFK roles.
 ---
 
 The AFK/Away-from-keyboard system can be used to indicate the absence of a user.

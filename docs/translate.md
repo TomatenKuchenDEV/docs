@@ -1,6 +1,6 @@
 ---
 title: Text translation
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. TomatenKuchen is able to translate text into over 100 languages, even automatically!
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features. TomatenKuchen is able to translate text into over 100 languages, even automatically!
 ---
 
 TomatenKuchen is able to translate text using Google Translate into over 100 languages.

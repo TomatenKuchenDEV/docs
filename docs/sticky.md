@@ -1,6 +1,6 @@
 ---
 title: Sticky messages
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. Using sticky messages you can "pin" messages to the end of the channel - this page explains how to set them up.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Using sticky messages you can "pin" messages to the end of the channel - this page explains how to set them up.
 ---
 
 Using TomatenKuchen you can create sticky message which are held at the end of the selected channel. This means that the bot deletes it's old message and sends the configured message again once someone sends a message in the channel.

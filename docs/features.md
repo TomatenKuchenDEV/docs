@@ -1,6 +1,6 @@
 ---
 title: Features
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. This page lists all features currently available.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features. This page lists all features currently available.
 ---
 
 Note that there a daily updates usually containing new features which might not be reflected here instantly.
@@ -118,7 +118,6 @@ All of those features are available for free!
 	- Following redirects
 - [Purging/clearing multiple messages with filters](/moderation/purge)
 - [Mass adding and removing roles with filters](/moderation/massactions)
-- Kicking and banning users with filters
 - [ChatGPT command](/ai/chatgpt)
 - [AI text to image command](/ai/text2img)
 - Image generation and modification
@@ -134,7 +133,7 @@ All of those features are available for free!
 - [Automatic updating messages e.g. for server statistics or birth calendars](/autoupdate)
 - Creation of [modals ("forms")](/modals) for Discord
 - [Adding a role to nitro users](/nitroverify)
-- Converting currencies and other measuring units
+- [Converting currencies and other measuring units](/convert)
 - [Sending messages with embeds and components, for example buttons](https://embed.tomatenkuchen.com)
 - Randomizer features, for example rolling a dice or selecting a random element out of a given list
 - Creating and reading QR codes

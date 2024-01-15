@@ -1,6 +1,6 @@
 ---
 title: Reaction, button and select roles
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features for your server. Reaction-, button- and selectroles, also known as selfroles, allow users to pick the roles they want themselves.
+description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Reaction-, button- and selectroles, also known as selfroles, allow users to pick the roles they want themselves.
 image: /img/button_selectrole.png
 ---
 
