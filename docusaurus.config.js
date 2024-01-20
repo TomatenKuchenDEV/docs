@@ -29,11 +29,10 @@ const config = {
             }
         ],
 		[
-		  	require.resolve("@cmfcmf/docusaurus-search-local"),
+		  	require.resolve("docusaurus-lunr-search"),
 			{
 				language: ["en", "de"],
-				indexDocSidebarParentCategories: 2,
-				indexBlog: false
+				disableVersioning: true
 			}
 		],
 		[
