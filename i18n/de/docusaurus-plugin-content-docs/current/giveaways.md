@@ -33,7 +33,7 @@ Diese Funktion wählt einen oder die eingestellte Anzahl an Gewinnern aus. Nutze
 
 ### Giveaways auflisten {#cmd-list}
 
-`giveway list`
+<Command slash="giveaway list"></Command>
 
 ## Einstellungen {#settings}
 

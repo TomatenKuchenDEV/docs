@@ -1,0 +1,16 @@
+diff --git a/node_modules/@docusaurus/core/lib/commands/start.js b/node_modules/@docusaurus/core/lib/commands/start.js
+index ad7dee0..56ac657 100644
+--- a/node_modules/@docusaurus/core/lib/commands/start.js
++++ b/node_modules/@docusaurus/core/lib/commands/start.js
+@@ -52,7 +52,10 @@ async function start(siteDirParam = '.', cliOptions = {}) {
+     const openUrl = (0, utils_1.normalizeUrl)([urls.localUrlForBrowser, baseUrl]);
+     logger_1.default.success `Docusaurus website is running at: url=${openUrl}`;
+     // Reload files processing.
+-    const reload = lodash_1.default.debounce(() => {
++    const reload = lodash_1.default.debounce(path => {
++        if (/docs\\functions\\\w+\.md$/.test(path)) return;
++        console.log("Reloading due to change of file: " + path);
++
+         loadSite()
+             .then(({ baseUrl: newBaseUrl }) => {
+             const newOpenUrl = (0, utils_1.normalizeUrl)([urls.localUrlForBrowser, newBaseUrl]);

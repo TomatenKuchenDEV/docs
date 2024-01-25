@@ -1,0 +1,54 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Custom bot": {
+    "message": "Custom-Bot",
+    "description": "The label for category Custom bot in sidebar docs"
+  },
+  "sidebar.docs.category.Custom bot.link.generated-index.title": {
+    "message": "Eine Sammlung von Erklärungen für die TomatenKuchen Custom Bots (Custom Branding/White-Label)",
+    "description": "The generated-index page title for category Custom bot in sidebar docs"
+  },
+  "sidebar.docs.category.Manage Bot": {
+    "message": "Manage Bot",
+    "description": "The label for category Manage Bot in sidebar docs"
+  },
+  "sidebar.docs.category.Manage Bot.link.generated-index.title": {
+    "message": "Manage-Bot-Hilfe",
+    "description": "The generated-index page title for category Manage Bot in sidebar docs"
+  },
+  "sidebar.docs.category.Action functions": {
+    "message": "Aktions-Funktionen",
+    "description": "The label for category Action functions in sidebar docs"
+  },
+  "sidebar.docs.category.Action functions.link.generated-index.title": {
+    "message": "Funktionen, die von Aktionen verwendet werden können",
+    "description": "The generated-index page title for category Action functions in sidebar docs"
+  },
+  "sidebar.docs.category.Moderation": {
+    "message": "Moderation",
+    "description": "The label for category Moderation in sidebar docs"
+  },
+  "sidebar.docs.category.Moderation.link.generated-index.title": {
+    "message": "Liste von Moderationsbefehlen und anderen Tools, um deinen Server sauber zu halten.",
+    "description": "The generated-index page title for category Moderation in sidebar docs"
+  },
+  "sidebar.docs.category.Tickets": {
+    "message": "Tickets",
+    "description": "The label for category Tickets in sidebar docs"
+  },
+  "sidebar.docs.category.Tickets.link.generated-index.title": {
+    "message": "Liste von Ticket-Features und -Befehlen, die dir helfen, die Anliegen von Nutzern einfach zu beantworten.",
+    "description": "The generated-index page title for category Tickets in sidebar docs"
+  },
+  "sidebar.docs.category.AI in TomatenKuchen": {
+    "message": "KI in TomatenKuchen",
+    "description": "The label for category AI in TomatenKuchen in sidebar docs"
+  },
+  "sidebar.docs.category.AI in TomatenKuchen.link.generated-index.title": {
+    "message": "Funktionen, welche Künstliche Intelligenz (KI bzw. AI) oder maschinelles Lernen verwenden",
+    "description": "The generated-index page title for category AI in TomatenKuchen in sidebar docs"
+  }
+}

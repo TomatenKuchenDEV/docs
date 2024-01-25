@@ -23,6 +23,13 @@
 	--docusaurus-highlighted-code-line-bg: #0000004d;
 }
 
-.markdown li>p {
+.markdown li > p {
 	margin-bottom: 0;
+}
+
+ul[role="tablist"] + div.margin-top--md {
+	margin-top: .7rem !important;
+}
+li[role="tab"] {
+	padding: 5px 12px;
 }
