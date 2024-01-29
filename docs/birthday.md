@@ -23,7 +23,9 @@ This doesn't affect birthday announcements.
 
 ### Delete birthday {#delete}
 
-If you want to delete your birthday, use the command `birthday delete`.
+<Command slash="birthday delete"></Command>
+
+If you want to delete your own birthday, use the command `birthday delete`.
 
 ## Fictive birthdays {#fictive}
 
@@ -31,7 +33,8 @@ Fictive birthdays are per server and can be configured by server moderators.
 
 ### Creating or updating {#fictive-create}
 
-`birthday setfictive <Name> <Day> <Month> [<Year>]`
+<Command slash="birthday setfictive name:Name day:Day month:Month [year:Year]" message="birthday setfictive <Name> <Day> <Month> [<Year>]"></Command>
+
 Fictive birthdays must have a name set to identify them. Using this name birthday messages are created - the arguments stay the same, the bot automatically changes them to fit - and `{birthday}` generated.
 
 - `birthday setfictive Minecraft 17 5 2009`

@@ -8,9 +8,13 @@ Using TomatenKuchen you can create online forms for all kind of purposes fast an
 
 ![Forms example](/img/forms_example.png)
 
-## Setup {#setup}
+## Creating a form {#create}
 
-Forms are created and managed using the command `form`.
+<Command slash="form add slug:URL slug title:Form title" message="form add <URL slug> <Form title>"></Command>
+
+## Editing a form {#edit}
+
+<Command slash="form edit id:ID or URL slug" message="form edit <ID or URL slug>"></Command>
 
 ## Settings per form {#settings}
 

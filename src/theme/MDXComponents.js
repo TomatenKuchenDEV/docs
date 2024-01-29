@@ -6,12 +6,16 @@ import TabItem from "@theme/TabItem"
 export default {
 	...MDXComponents,
 	Command: props =>
-		<Tabs groupId="commands">
-			<TabItem name="Slash" value="slash" default>
+		<Tabs groupId="command">
+			{props.message == props.slash ? console.warn("slash und message sind gleich: " + props.slash) : ""}
+			<TabItem value="Slash" default>
 				/{props.slash}
 			</TabItem>
-			<TabItem name="Message" value="message">
-				{props.message || props.slash}
+			<TabItem value="Message (default prefix)">
+				tk!{props.message || props.slash}
+			</TabItem>
+			<TabItem value="Message (custom prefix)">
+				&lt;Prefix&gt;{props.message || props.slash}
 			</TabItem>
 		</Tabs>
 }

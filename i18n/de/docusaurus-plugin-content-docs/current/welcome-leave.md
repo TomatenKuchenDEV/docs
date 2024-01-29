@@ -18,17 +18,17 @@ Legt den Kanal fest, in denen eine Nachricht gesendet wird, wenn ein Nutzer den 
 
 Ändert die Nachricht, die angezeigt wird, wenn ein Nutzer den Server betritt.
 
-Folgende Variablen sind verfügbar:
+Folgende Variablen sind verfügbar (Groß- und Kleinschreibung ist egal):
 - `{serverName}`: Servername
 - `{serverIcon}`: Servericon
 - `{memberCount}`: Mitgliederanzahl
-- `{username}`: Nutzername
+- `{username}`: Nutzername des Nutzers, welcher den Server betreten hat
 - `{globalName}`: Globaler Nickname
-- `{userid}`: Nutzer-ID
+- `{userId}`: Nutzer-ID
 - `{userMention}`: Erwähnung des Nutzers
 - `{userAvatar}`: Nutzeravatar
 - `{inviterUsername}`: Nutzername des einladenden Nutzers
-- `{inviterid}`: ID des einladenden Nutzers
+- `{inviterId}`: ID des einladenden Nutzers
 - `{inviterMention}`: Erwähnung des einladenden Nutzers
 - `{inviterAvatar}`: Avatar des einladenden Nutzers
 

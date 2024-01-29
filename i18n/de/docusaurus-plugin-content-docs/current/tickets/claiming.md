@@ -5,18 +5,18 @@ description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschieden
 
 Du kannst dir einen dieser Claim-Modi in den Einstellungen aussuchen:
 
-## Disabled
+## Deaktiviert {#disabled}
 
-Die Standardeinstellung - Claimen ist deaktiviert und der `claim`-Befehl kann nicht verwendet werden.
+Disabled: Die Standardeinstellung - Claimen ist deaktiviert und der `claim`-Befehl kann nicht verwendet werden.
 
-## Only claimer
+## Nur Claimer {#only-claimer}
 
-Nur der zugewiesene Nutzer für das Ticket kann den Kanal sehen und antworten. Andere *Supporter*- (nicht Moderator-!)Rollen können das Ticket nicht mehr sehen.
+Only claimer: Nur der zugewiesene Nutzer für das Ticket kann den Kanal sehen und antworten. Andere *Supporter*rollen können das Ticket nicht mehr sehen.
 
-## Claimer can reply, staff view
+## Claimer kann antworten, Team nur ansehen {#all-view}
 
-Nur der zugewiesene Nutzer für das Ticket kann antworten. Andere Nutzer mit einer der festgelegten Supporterrollen können das Ticket nur ansehen.
+Claimer can reply, staff view: Nur der zugewiesene Nutzer für das Ticket kann antworten. Andere Nutzer mit einer der festgelegten Supporterrollen können das Ticket nur ansehen.
 
-## Claimer and staff can reply
+## Claimer und Team können antworten {#all-reply}
 
-Jeder, sowohl der zugewiesene Nutzer als auch die Supporterrollen, kann der Ticket sehen und darauf antworten.
+Claimer and staff can reply: Jeder, sowohl der zugewiesene Nutzer als auch die Supporterrollen, kann der Ticket sehen und darauf antworten.

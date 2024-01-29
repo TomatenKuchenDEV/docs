@@ -3,33 +3,33 @@ title: Ticket commands
 description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Lists the ticket commands.
 ---
 
-## Create ticket
+## Create ticket {#cmd-create}
 
 `ticket [<Reason>]`
 
 Instead of a reason moderators and admins can also specify a user for whom the ticket should be created.
 
-## Add a user or role to the current ticket
+## Add a user or role to the current ticket {#cmd-add}
 
 `tickets add <User|Role>`
 
-## Remove a user or role from the current ticket
+## Remove a user or role from the current ticket {#cmd-remove}
 
 `tickets remove <User|Role>`
 
-## Close ticket
+## Close ticket {#cmd-close}
 
 `close [<Reason>]`
 
 This will send the user a DM if this setting is enabled in the dashboard.
 
-## Delete ticket
+## Delete ticket {#cmd-delete}
 
 `delete`
 
 In order to delete a ticket you need one of the ticket manager roles or the "Manage Guild" permission.
 
-## Claiming
+## Claiming {#cmd-claim}
 
 :::warning
 
@@ -40,21 +40,21 @@ This commands and button is only available when claiming has been enabled in the
 - `claim` or button on the ticket message: Claims the current ticket.
 - `claim <Other user>`: Transfers the current ticket to the other user.
 
-## Reopening a closed ticket
+## Reopening a closed ticket {#cmd-reopen}
 
 Button on the close ticket message
 
-## Show tickets & transcripts
+## Show tickets & transcripts {#cmd-history}
 
 `tickets list [<User>] [<Filter>]`
 
-## Moving into another ticket category
+## Moving into another ticket category {#cmd-move}
 
 `tickets move <New category>`
 
 This sends the ticket start message again and, if you're using channels for tickets, move the channel category if needed.
 
-## Create a ticketembed
+## Create a ticketembed {#cmd-embed}
 
 Prepares a ticket embed. You can add custom buttons for different ticket categories.
 
@@ -62,10 +62,10 @@ After creation you can fully edit the message content and embed using https://em
 
 `ticketembed [<Title> <Description> <Button text>]`
 
-## View statistics
+## View statistics {#cmd-stats}
 
 `stats tickets [<Time since when ticket statistics should be displayed>]`
 
-## Save transcript
+## Save transcript {#cmd-transcript}
 
 `transcript`

@@ -23,6 +23,8 @@ Geburtstagsankündigungen sind hiervon nicht betroffen.
 
 ### Geburtstag löschen {#delete}
 
+<Command slash="birthday delete"></Command>
+
 Solltest du deinen Geburtstag löschen wollen, verwende den Befehl `birthday delete`.
 
 ## Fiktive Geburtstage {#fictive}
@@ -31,7 +33,8 @@ Fiktive Geburtstage sind pro Server und können von Servermoderatoren erstellt u
 
 ### Erstellen oder bearbeiten {#fictive-create}
 
-`birthday setfictive <Name> <Tag> <Monat> [<Jahr>]`
+<Command slash="birthday setfictive name:Name day:Tag month:Monat [year:Jahr]" message="birthday setfictive <Name> <Tag> <Monat> [<Jahr>]"></Command>
+
 Fiktive Geburtstage müssen einen Namen haben, um sie identifizieren zu können. Mithilfe dieses Namens werden Geburtstagsnachrichten erstellt - die Argumente bleiben gleich und werden vom Bot automatisch angepasst - und `{birthday}` generiert.
 
 - `birthday setfictive Minecraft 17 5 2009`

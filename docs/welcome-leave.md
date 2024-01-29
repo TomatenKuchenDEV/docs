@@ -18,17 +18,17 @@ Sets the channel in which a message is sent when a user leaves the server.
 
 Modify the message which is shown when someone joins the server.
 
-The following variables are available:
+The following variables are available (casing doesn't matter):
 - `{serverName}`: Server name
 - `{serverIcon}`: Server icon
 - `{memberCount}`: Member count
-- `{username}`: Username
+- `{username}`: Username of the user who joined the server
 - `{globalName}`:  Global nickname
-- `{userid}`: User ID
+- `{userId}`: User ID
 - `{userMention}`: User mention
 - `{userAvatar}`: User avatar
 - `{inviterUsername}`: Username of the inviter
-- `{inviterid}`: ID of the inviter
+- `{inviterId}`: ID of the inviter
 - `{inviterMention}`: Mention of the inviter
 - `{inviterAvatar}`: Avatar of the inviter
 

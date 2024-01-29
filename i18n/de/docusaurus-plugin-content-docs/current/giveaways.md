@@ -11,25 +11,25 @@ Um Giveaways zu verwalten braucht man eine der im Dashhoard festgelegten Giveawa
 
 Interaktives Setup eines Giveaways.
 
-`giveaway start`
+<Command slash="giveaway start"></Command>
 
 ### Bearbeiten {#cmd-edit}
 
-Button unter dem Giveaway
+Verwende den Button unterhalb eines Giveaways, um dieses zu bearbeiten.
 
 ### Neue(n) Gewinner aussuchen {#cmd-reroll}
 
-`giveaway reroll <Nachrichten-ID>`
+<Command slash="giveaway reroll message:Nachrichten-ID" message="giveaway reroll <Nachrichten-ID>"></Command>
 
 Diese Funktion wählt einen oder die eingestellte Anzahl an Gewinnern aus. Nutzer können auch mehrfach ausgewählt werden.
 
 ### Beenden {#cmd-end}
 
-`giveway end <Nachrichten-ID>`
+<Command slash="giveaway end message:Nachrichten-ID" message="giveaway end <Nachrichten-ID>"></Command>
 
 ### Löschen {#cmd-delete}
 
-`giveway delete <Nachrichten-ID>`
+<Command slash="giveaway delete message:Nachrichten-ID" message="giveaway delete <Nachrichten-ID>"></Command>
 
 ### Giveaways auflisten {#cmd-list}
 

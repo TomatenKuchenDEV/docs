@@ -19,7 +19,7 @@ Use the button below a giveaway message to edit it.
 
 ### Reroll winners {#cmd-reroll}
 
-<Command slash="giveaway reroll <Message ID>" slash="giveaway reroll message:Message ID"></Command>
+<Command slash="giveaway reroll message:Message ID" message="giveaway reroll <Message ID>"></Command>
 
 This will pick one or the configured amount of winners again after a giveaway has ended.
 
@@ -27,11 +27,11 @@ Users can be selected multiple times.
 
 ### End {#cmd-end}
 
-<Command slash="giveaway end <Message ID>" slash="giveaway end message:Message ID"></Command>
+<Command slash="giveaway end message:Message ID" message="giveaway end <Message ID>"></Command>
 
 ### Delete {#cmd-delete}
 
-<Command slash="giveaway delete <Message ID>" slash="giveaway delete message:Message ID"></Command>
+<Command slash="giveaway delete message:Message ID" message="giveaway delete <Message ID>"></Command>
 
 ### List giveaways {#cmd-list}
 

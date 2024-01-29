@@ -8,9 +8,13 @@ Mit TomatenKuchen kannst du schnell und einfach Onlineformulare für alle mögli
 
 ![Formularbeispiel](/img/forms_example.png)
 
-## Einrichtung {#setup}
+## Formular erstellen {#create}
 
-Formulare werden mit dem Befehl `form` erstellt und verwaltet.
+<Command slash="form add slug:URL-slug title:Formtitel" message="form add <URL-Slug> <Formtitel>"></Command>
+
+## Formular bearbeiten {#edit}
+
+<Command slash="form edit id:ID oder URL-slug" message="form edit <ID oder URL-Slug>"></Command>
 
 ## Einstellungen für jedes Formular {#settings}
 
