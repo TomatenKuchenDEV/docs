@@ -28,11 +28,11 @@ Note that only 25 characters are allowed, which are A to X and Z. Y as well as n
 
 Play Connect Four against a user.
 
-`game connect4 <User>`
+<Command slash="game connectfour user:Opponent [fieldsize:Field size]" message="game c4 <Opponent> [<Field size>]"></Command>
 
 ### Snake {#snake}
 
-`game snake`
+<Command slash="game snake"></Command>
 
 ![](/img/game_snake.png)
 
@@ -40,7 +40,7 @@ Play Connect Four against a user.
 
 Play Uno with other users.
 
-`game uno`
+<Command slash="game uno"></Command>
 
 ### Chemical equations {#chemistry}
 
@@ -56,4 +56,4 @@ Displays a grid of letters in which words are hidden. The words can be distribut
 
 The goal is to uncover all hidden words.
 
-`game wordsearch`
+<Command slash="game wordsearch"></Command>

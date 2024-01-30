@@ -17,26 +17,26 @@ The name can be configured too using the user- or nickname and/or an incrementin
 
 Allow everyone to join and speak in your private channel.
 
-`permission open`
+<Command slash="permission open"></Command>
 
 ### Close {#cmd-close}
 
 Remove private channel permissions from everyone but you.
 Users who joined before can stay and still speak in the voice channel, but cannot rejoin.
 
-`permission close`
+<Command slash="permission close"></Command>
 
 ### Kick all users {#cmd-reset}
 
 Kick everyone out of your voice channel except you.
 
-`permission reset`
+<Command slash="permission reset"></Command>
 
 ### Add user {#cmd-add}
 
 Allow the specified user to join your voice channel.
 
-`permission add <User>`
+<Command slash="permission add user:User" message="permission add <User>"></Command>
 
 Alternatively, you can use the select menu in your private channel.
 
@@ -44,7 +44,7 @@ Alternatively, you can use the select menu in your private channel.
 
 Kicks the specified user from your voice channel and remove their permissions to rejoin.
 
-`permission remove <User>`
+<Command slash="permission remove user:User" message="permission remove <User>"></Command>
 
 Alternatively, you can use the select menu in your private channel.
 
@@ -54,13 +54,13 @@ Moderators can, like the owner, use all private channel commands.
 
 They also have Stream permissions.
 
-`permission addmod <User>`
+<Command slash="permission addmod user:User" message="permission addmod <User>"></Command>
 
 Alternatively, you can use the select menu in your private channel.
 
 ### Remove a moderator {#cmd-removemod}
 
-`permission removemod <User>`
+<Command slash="permission removemod user:User" message="permission removemod <User>"></Command>
 
 Alternatively, you can use the select menu in your private channel.
 
@@ -68,4 +68,4 @@ Alternatively, you can use the select menu in your private channel.
 
 Limit how many users can join your voice channel.
 
-`permission setlimit <Limit>`
+<Command slash="permission setlimit limit:User limit" message="permission setlimit <User limit>"></Command>

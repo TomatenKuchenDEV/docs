@@ -39,4 +39,6 @@ You can create up to 10 elements per server, which equals 10 different streamers
 
 ### Twitch user info {#cmd-twitch}
 
-Using the message command `twitch <Streamer name>` you can get information about a Twitch user and a currently running livestream.
+<Command slash="twitch channel:Streamer name" message="twitch <Streamer name>"></Command>
+
+Using the Twitch command you can get information about a Twitch user and a currently running livestream.

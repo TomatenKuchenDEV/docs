@@ -25,8 +25,6 @@ Geburtstagsankündigungen sind hiervon nicht betroffen.
 
 <Command slash="birthday delete"></Command>
 
-Solltest du deinen Geburtstag löschen wollen, verwende den Befehl `birthday delete`.
-
 ## Fiktive Geburtstage {#fictive}
 
 Fiktive Geburtstage sind pro Server und können von Servermoderatoren erstellt und verwaltet werden.
@@ -42,7 +40,7 @@ Fiktive Geburtstage müssen einen Namen haben, um sie identifizieren zu können.
 
 ### Löschen {#fictive-delete}
 
-Wenn du einen fiktiven Geburtstag löschen möchteste, verwende den Befehl `birthday deletefictive <Name>`
+<Command slash="birthday delete name:Name" message="birthday delete <Name>"></Command>
 
 ## Einstellungen {#settings}
 
@@ -50,13 +48,13 @@ Wenn du einen fiktiven Geburtstag löschen möchteste, verwende den Befehl `birt
 
 Hier kann die Nachricht eingestellt werden, die gesendet wird, wenn ein realer oder fiktiver Nutzer am heutigen Datum Geburtstag hat.
 
-### Geburtstagsnachricht löschen nach {#settings-message-delete-after}
+### Geburtstagsnachricht löschen nach {#settings-delete-after}
 
 Diese Einstellung erlaubt es dir, eine relative Zeit anzugeben, nachdem eine Geburtstagsnachricht gelöscht wird, z. B. `1d` für einen Tag.
 
 ### Kanal {#settings-channel}
 
-In den [hier](https://tomatenkuchen.com/dashboard/settings#birthdayChannel) ausgewählten Kanal werden Geburtstagsnachrichten gesendet.
+Geburtstagsnachrichten werden in den [ausgewählten Kanal](https://tomatenkuchen.com/dashboard/settings#birthdayChannel) gesendet.
 
 ### Rolle {#settings-role}
 

@@ -28,11 +28,11 @@ Beachte, dass nur 25 Buchstaben zugelassen sind, und zwar A bis X und Z. Y sowie
 
 Spiele Vier gewinnt gegen einen anderen Spieler.
 
-`game connect4 <Nutzer>`
+<Command slash="game connectfour user:Gegner [fieldsize:Feldgröße]" message="game c4 <Gegner> [<Feldgröße>]"></Command>
 
 ### Snake {#snake}
 
-`game snake`
+<Command slash="game snake"></Command>
 
 ![](/img/game_snake.png)
 
@@ -40,7 +40,7 @@ Spiele Vier gewinnt gegen einen anderen Spieler.
 
 Spielt Uno mit anderen Nutzern.
 
-`game uno`
+<Command slash="game uno"></Command>
 
 ### Chemiegleichungen {#chemistry}
 
@@ -56,4 +56,4 @@ Zeigt ein Raster an Buchstaben an, in dem Wörter versteckt sind. Die Wörter k�
 
 Das Ziel ist es, alle versteckten Wörter aufzudecken.
 
-`game wordsearch`
+<Command slash="game wordsearch"></Command>

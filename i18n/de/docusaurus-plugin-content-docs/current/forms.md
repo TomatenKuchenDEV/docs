@@ -10,11 +10,11 @@ Mit TomatenKuchen kannst du schnell und einfach Onlineformulare für alle mögli
 
 ## Formular erstellen {#create}
 
-<Command slash="form add slug:URL-slug title:Formtitel" message="form add <URL-Slug> <Formtitel>"></Command>
+<Command slash="form add slug:URL-Slug title:Formtitel" message="form add <URL-Slug> <Formtitel>"></Command>
 
 ## Formular bearbeiten {#edit}
 
-<Command slash="form edit id:ID oder URL-slug" message="form edit <ID oder URL-Slug>"></Command>
+<Command slash="form edit id:ID oder URL-Slug" message="form edit <ID oder URL-Slug>"></Command>
 
 ## Einstellungen für jedes Formular {#settings}
 

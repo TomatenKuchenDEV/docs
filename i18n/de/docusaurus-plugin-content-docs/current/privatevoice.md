@@ -17,26 +17,26 @@ Der Name kann anhand der Nutzer- oder Nicknamens und/oder einer sich erhöhenden
 
 Gib jedem die Berechtigung, deinen Sprachkanal zu betreten.
 
-`permission open`
+<Command slash="permission open"></Command>
 
 ### Schließen {#cmd-close}
 
 Entferne jedem außer dir die Rechte für den Sprachkanal.
 Die Nutzer bleiben noch im Sprachkanal und können weiterhin sprechen, aber nicht erneut beitreten.
 
-`permission close`
+<Command slash="permission close"></Command>
 
 ### Alle Nutzer im Sprachkanal kicken {#cmd-reset}
 
 Kicke jeden außer dich aus deinem Sprachkanal.
 
-`permission reset`
+<Command slash="permission reset"></Command>
 
 ### Nutzer hinzufügen {#cmd-add}
 
 Gib einem bestimmten Nutzer Rechte, in deinen Sprachkanal zu gehen.
 
-`permission add <Nutzer>`
+<Command slash="permission add user:Nutzer" message="permission add <Nutzer>"></Command>
 
 Alternativ kannst du auch das Selectmenü in deinem privaten Kanal verwenden.
 
@@ -44,7 +44,7 @@ Alternativ kannst du auch das Selectmenü in deinem privaten Kanal verwenden.
 
 Entferne und kicke den angegeben Nutzer aus deinem Sprachkanal.
 
-`permission remove <Nutzer>`
+<Command slash="permission remove user:Nutzer" message="permission remove <Nutzer>"></Command>
 
 Alternativ kannst du auch das Selectmenü in deinem privaten Kanal verwenden.
 
@@ -54,13 +54,13 @@ Moderatoren können, wie der Ersteller, alle permission-Befehle verwenden.
 
 Sie haben auch Stream-Berechtigungen im privaten Kanal.
 
-`permission addmod <Nutzer>`
+<Command slash="permission addmod user:Nutzer" message="permission addmod <Nutzer>"></Command>
 
 Alternativ kannst du auch das Selectmenü in deinem privaten Kanal verwenden.
 
 ### Moderator entfernen {#cmd-removemod}
 
-`permission removemod <Nutzer>`
+<Command slash="permission removemod user:Nutzer" message="permission removemod <Nutzer>"></Command>
 
 Alternativ kannst du auch das Selectmenü in deinem privaten Kanal verwenden.
 
@@ -68,4 +68,4 @@ Alternativ kannst du auch das Selectmenü in deinem privaten Kanal verwenden.
 
 Setzt ein Limit, wie viele Nutzer dem Sprachkanal beitreten können.
 
-`permission setlimit <Limit>`
+<Command slash="permission setlimit limit:Nutzerlimit" message="permission setlimit <Nutzerlimit>"></Command>

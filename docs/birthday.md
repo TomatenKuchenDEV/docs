@@ -25,8 +25,6 @@ This doesn't affect birthday announcements.
 
 <Command slash="birthday delete"></Command>
 
-If you want to delete your own birthday, use the command `birthday delete`.
-
 ## Fictive birthdays {#fictive}
 
 Fictive birthdays are per server and can be configured by server moderators.
@@ -42,7 +40,7 @@ Fictive birthdays must have a name set to identify them. Using this name birthda
 
 ### Delete {#fictive-delete}
 
-If you want to delete a fictive birthday, use the command `birthday deletefictive <Name>`.
+<Command slash="birthday delete name:Name" message="birthday delete <Name>"></Command>
 
 ## Settings {#settings}
 
@@ -50,13 +48,13 @@ If you want to delete a fictive birthday, use the command `birthday deletefictiv
 
 Configure the message that is sent once the date today is a real or a fictive user's birthday.
 
-### Delete birthday message after {#settings-message-delete-after}
+### Delete birthday message after {#settings-delete-after}
 
 This setting allows you to enter a relative time to delete the birthday announcement message after, for example `1d` for one day.
 
 ### Channel {#settings-channel}
 
-Select the channel in which birthdays are announced [here](https://tomatenkuchen.com/dashboard/settings#birthdayChannel).
+Birthdays are announced in the [selected channel](https://tomatenkuchen.com/dashboard/settings#birthdayChannel).
 
 ### Role {#settings-role}
 

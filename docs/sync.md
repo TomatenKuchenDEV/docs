@@ -18,12 +18,14 @@ Using the logsync feature of the bot you can send the logs of one server to anot
 
 This affects all log types - note that if the target server didn't select a log channel on their settings, that log type won't get logged there.
 
-`sync logs <Server ID>`
+<Command slash="sync logs guild:Server ID" message="sync logs <Server ID>"></Command>
 
 ## Bansync {#bans}
 
 Bans and unbans can be synced using the bot as well. Unlike logs, bans can be synced to and from multiple servers at the same time.
 
-`sync bans <Server ID> <Sync bans: true/false> <Sync unbans: true/false>`
+<Command slash="sync bans guild:Server ID bans:true/false unbans:true/false" message="sync bans <Server ID> <Sync bans: true/false> <Sync unbans: true/false>"></Command>
 
-Sync bans and sync unbans toggle whether users should be banned and unbanned. If you only want to sync bans, choose "False" for unbans.
+Sync bans and sync unbans toggle whether users should be banned and unbanned.
+
+For example, if you only want to sync new bans, choose "False" for unbans.
