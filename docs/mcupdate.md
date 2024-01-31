@@ -14,7 +14,13 @@ Channel name and topic are only updated once every five minutes due to a Discord
 
 ## Setup {#setup}
 
-To start the setup you have to run the command `misc mcupdate` with the required permissions.
+:::warn Permissions
+
+For the setup the bot requires enough permissions for editing and deleting messages in the current channel.
+
+:::
+
+To start the setup you have to run the command `minecraft update` with the required permissions.
 
 It first asks you what the server domain/hostname is, which can be for example `vanillaminigames.net`.
 

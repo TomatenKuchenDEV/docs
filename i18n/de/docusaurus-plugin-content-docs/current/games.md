@@ -8,21 +8,21 @@ image: /img/game_snake.png
 
 Spielt Schere Stein Papier gegen den Bot oder andere Spieler.
 
-`game ssp [<Nutzer>]`
+<Command slash="game scheresteinpapier [user:Gegner]" message="game ssp [<Gegner>]"></Command>
 
 ### TicTacToe {#tic-tac-toe}
 
 Spiele TicTacToe gegen den angegebenen Nutzer oder gegen einen Algorithmus von TomatenKuchen.
 
-`game ttt [<Nutzer>]`
+<Command slash="game tictactoe [user:Gegner]" message="game ttt [<Gegner>]"></Command>
 
 ### Hangman {#hangman}
 
 Lasse andere Nutzer den angegebenen Text erraten, bevor das Galgenmännchen vollständig ist.
 
-Beachte, dass nur 25 Buchstaben zugelassen sind, und zwar A bis X und Z. Y sowie einige Zahlen und Sonderzeichen werden von deiner Eingabe entfernt.
+Beachte, dass es nur mögliche 25 Buchstaben gibt ("A" bis "X" sowie "Z"). "Y" sowie Zahlen und Sonderzeichen werden aus der Eingabe entfernt.
 
-`game hangman <Text>`
+<Command slash="game hangman text:Text" message="game hangman <Text>"></Command>
 
 ### Vier gewinnt {#connect-four}
 
@@ -46,7 +46,7 @@ Spielt Uno mit anderen Nutzern.
 
 Gibt dir eine zufällige Chemiegleichung, die mithilfe von Faktoren ausgeglichen werden muss.
 
-`game chemie [leicht|mittel|schwer]`
+<Command slash="game chemie [difficulty:leicht|mittel|schwer]" message="game chemie [leicht|mittel|schwer]"></Command>
 
 ![](/img/game_chemie.png)
 

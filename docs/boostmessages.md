@@ -23,6 +23,12 @@ Setting for configuring the message which is sent once a user boosts the server 
 
 ## Variables {#vars}
 
+:::tip Casing
+
+The casing of how the variables are written doesn't matter.
+
+:::
+
 - `{userMention}`: Mention of the user
 - `{username}`: Username
 - `{displayName}`: Nickname

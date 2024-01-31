@@ -14,7 +14,13 @@ Kanalname und -thema werden aufgrund eines Discord-Limits nur alle fünf Minuten
 
 ## Einrichtung {#setup}
 
-Um die Einrichtung zu starten musst du mit entsprechenden Berechtigungen den Befehl `misc mcupdate` ausführen.
+:::warn Berechtigungen
+
+Für die Einrichtung benötigt der Bot ausreichende Berechtigungen zum Bearbeiten sowie Löschen von Nachrichten im aktuellen Kanal.
+
+:::
+
+Um die Einrichtung zu starten musst du mit entsprechenden Berechtigungen den Befehl `minecraft update` ausführen.
 
 Dort wirst du zunächst nach der Serverdomain gefragt, z. B. `vanillaminigames.net`.
 

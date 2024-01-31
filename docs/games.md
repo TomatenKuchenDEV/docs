@@ -8,21 +8,21 @@ image: /img/game_snake.png
 
 Play rock paper scissors against a user or the bot.
 
-`game rps [<User>]`
+<Command slash="game scheresteinpapier [user:Opponent]" message="game rps [<Opponent>]"></Command>
 
 ### TicTacToe {#tic-tac-toe}
 
 Play tic tac toe with another user or an algorithm of TomatenKuchen.
 
-`game ttt [<User>]`
+<Command slash="game tictactoe [user:Opponent]" message="game ttt [<Opponent>]"></Command>
 
 ### Hangman {#hangman}
 
 Let other members guess your text before the stickman is dead.
 
-Note that only 25 characters are allowed, which are A to X and Z. Y as well as numbers and other special characters are removed from your input.
+Note that only 25 characters are possible ("A" to "X" and "Z"). Y as well as numbers and other special characters are removed from the input.
 
-`game hangman <Text>`
+<Command slash="game hangman text:Text" message="game hangman <Text>"></Command>
 
 ### Connect Four {#connect-four}
 
@@ -46,7 +46,7 @@ Play Uno with other users.
 
 Gives you a random chemistry equation that must be balanced using factors.
 
-`game chemie [easy|normal|hard]`
+<Command slash="game chemie [difficulty:easy|normal|hard]" message="game chemie [easy|normal|hard]"></Command>
 
 ![](/img/game_chemie.png)
 

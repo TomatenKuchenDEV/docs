@@ -23,6 +23,12 @@ Hier kann die Nachricht, die beim Boosten bzw. Ende des Boostens gesendet wird, 
 
 ## Variablen {#vars}
 
+:::tip Groß- und Kleinschreibung
+
+Die Groß- und Kleinschreibung von Variablen ist egal.
+
+:::
+
 - `{userMention}`: Erwähnung des Nutzers
 - `{username}`: Benutzername
 - `{displayName}`: Nickname
