@@ -1,6 +1,6 @@
 ---
 title: Vorschläge
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt das Vorschlagssystem vom Bot.
+description: Erklärt das Vorschlagssystem vom Bot.
 ---
 
 ## Befehle {#commands}

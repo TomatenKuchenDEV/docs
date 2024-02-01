@@ -1,6 +1,6 @@
 ---
 title: Reaction-, Button- und Selectroles
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Reaction-, Button- und Selectroles, auch bekannt als Selfroles, erlauben Nutzern, sich Rollen selbst zuzuweisen.
+description: Reaction-, Button- und Selectroles, auch bekannt als Selfroles, erlauben Nutzern, sich Rollen selbst zuzuweisen.
 image: /img/button_selectrole.png
 ---
 

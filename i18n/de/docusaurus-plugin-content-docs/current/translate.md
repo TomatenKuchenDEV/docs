@@ -1,6 +1,6 @@
 ---
 title: Textübersetzung
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. TomatenKuchen kann Texte in über 100 Sprachen übersetzen, auch automatisch!
+description: TomatenKuchen kann Texte in über 100 Sprachen übersetzen, auch automatisch!
 ---
 
 TomatenKuchen hat die Möglichkeit, mithilfe von Google Translate Texte in über 100 verschiedene Sprachen zu übersetzen.

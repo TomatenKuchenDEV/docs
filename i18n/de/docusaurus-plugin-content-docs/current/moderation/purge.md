@@ -1,6 +1,6 @@
 ---
 title: Nachrichten löschen
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärungen zu den Moderationsbefehlen
+description: Erklärungen zu den Moderationsbefehlen
 ---
 
 ## Syntax {#syntax}

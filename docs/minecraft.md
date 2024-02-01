@@ -1,6 +1,6 @@
 ---
 title: Minecraft commands
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. There are many commands related to the game Minecraft that allow you quick information access.
+description: There are many commands related to the game Minecraft that allow you quick information access.
 ---
 
 This page lists all commands that are related to the game "Minecraft", and explains their features.

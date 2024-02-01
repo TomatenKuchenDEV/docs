@@ -1,6 +1,6 @@
 ---
 title: Suggestions
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Helps with the suggestion system.
+description: Helps with the suggestion system.
 ---
 
 ## Commands {#commands}

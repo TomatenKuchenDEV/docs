@@ -1,6 +1,6 @@
 ---
 title: Giveaways
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Explains giveaways and possible requirements for them.
+description: Explains giveaways and possible requirements for them.
 ---
 
 To manage giveaways you need one of the [giveaway roles](https://tomatenkuchen.com/dashboard/settings#giveawayManageRoles) selected in the dashboard, or the "Manage Guild" permission.

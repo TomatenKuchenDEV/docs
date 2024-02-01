@@ -1,6 +1,6 @@
 ---
 title: Twitchmodul für z. B. Livestreams
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Mit dem Bot kannst du eine Nachricht senden lassen, wenn ein Twitch-Streamer livestreamt oder sich etwas anderes ändert.
+description: Mit dem Bot kannst du eine Nachricht senden lassen, wenn ein Twitch-Streamer livestreamt oder sich etwas anderes ändert.
 ---
 
 Das Twitchmodul bietet verschiedene Möglichkeiten zum Anzeigen von Änderungen eines Streamers.

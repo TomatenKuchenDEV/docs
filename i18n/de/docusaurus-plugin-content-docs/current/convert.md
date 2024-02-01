@@ -1,6 +1,6 @@
 ---
 title: Umwandlung von Währungen und Maßeinheiten
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Mithilfe des convert-Befehls können Währungen und Maßeinheiten umgewandelt werden.
+description: Mithilfe des convert-Befehls können Währungen und Maßeinheiten umgewandelt werden.
 ---
 
 ## Befehl {#commands}

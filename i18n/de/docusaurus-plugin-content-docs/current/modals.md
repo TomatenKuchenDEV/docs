@@ -1,6 +1,6 @@
 ---
 title: Modals
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Modals ("Forms") erlauben dir das Abfragen von Informationen, z. B. in Tickets, durch Popups in Discord.
+description: Modals ("Forms") erlauben dir das Abfragen von Informationen, z. B. in Tickets, durch Popups in Discord.
 ---
 
 ## Befehl {#commands}

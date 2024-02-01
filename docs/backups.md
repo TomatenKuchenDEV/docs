@@ -1,6 +1,6 @@
 ---
 title: Backups and Templates
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Backups allow you to restore a griefed server fast. Using templates you can easily use from other users published server designs on an existing server.
+description: Backups allow you to restore a griefed server fast. Using templates you can easily use from other users published server designs on an existing server.
 ---
 
 ## Backups {#backups}

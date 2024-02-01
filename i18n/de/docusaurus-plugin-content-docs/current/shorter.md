@@ -1,6 +1,6 @@
 ---
 title: Shorter-Befehl
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Diese Seite erklärt den Shorter-Befehl.
+description: Diese Seite erklärt den Shorter-Befehl.
 ---
 
 shorter.cf ist ein einfacher URL-Shortener, erstellt vom selben Entwickler wie TomatenKuchen.

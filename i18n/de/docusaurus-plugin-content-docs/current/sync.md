@@ -1,6 +1,6 @@
 ---
 title: Log- & Bansync
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Der Bot kann auch Logs und Bans sowie Unbans über mehrere Server hinweg synchronisieren.
+description: Der Bot kann auch Logs und Bans sowie Unbans über mehrere Server hinweg synchronisieren.
 ---
 
 ## Einrichtung allgemein {#setup}

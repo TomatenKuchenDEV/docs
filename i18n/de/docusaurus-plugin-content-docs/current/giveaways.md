@@ -1,6 +1,6 @@
 ---
 title: Giveaways
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt die Funktionen des Giveawayssystems.
+description: Erklärt die Funktionen des Giveawayssystems.
 ---
 
 Um Giveaways zu verwalten braucht man eine der im Dashhoard festgelegten Giveaway-Rollen oder die Berechtigung "Server verwalten".

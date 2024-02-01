@@ -1,6 +1,6 @@
 ---
 title: Nitro-Verifikation
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Gib deinen Mitgliedern mit Discord Nitro mit diesem Feature eine eigene Rolle.
+description: Gib deinen Mitgliedern mit Discord Nitro mit diesem Feature eine eigene Rolle.
 ---
 
 Mit dieser Funktion können Nutzer eine Rolle erhalten, wenn sie zum Zeitpunkt der Befehlsausführung Discord Nitro (bzw. Basic) haben.

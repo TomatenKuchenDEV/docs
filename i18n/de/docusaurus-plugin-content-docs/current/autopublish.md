@@ -1,6 +1,6 @@
 ---
 title: Autopublish
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Mit Autopublish können Nachrichten in Ankündigungskanälen automatisch veröffentlicht werden.
+description: Mit Autopublish können Nachrichten in Ankündigungskanälen automatisch veröffentlicht werden.
 ---
 
 Mit der Autopublish-Funktion können in ausgewählten Kanälen Nachrichten automatisch veröffentlicht/gecrossposted werden, sodass sie auf anderen Servern erscheinen.

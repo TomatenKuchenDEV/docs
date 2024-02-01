@@ -1,6 +1,6 @@
 ---
 title: Nitro verification
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Grant your members with Discord Nitro a special role.
+description: Grant your members with Discord Nitro a special role.
 ---
 
 Using this feature members can be assigned a role if they have Discord Nitro (including basic) when running the command.

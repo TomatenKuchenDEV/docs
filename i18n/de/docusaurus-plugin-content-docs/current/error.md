@@ -1,6 +1,6 @@
 ---
 title: Fehler des Bots
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt, was bei einem Fehler zu tun ist.
+description: Erklärt, was bei einem Fehler zu tun ist.
 image: /img/logs_overview.png
 ---
 

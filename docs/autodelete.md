@@ -1,6 +1,6 @@
 ---
 title: Autodelete
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Explains the setup of the autodelete feature to automatically delete messages after a set time.
+description: Explains the setup of the autodelete feature to automatically delete messages after a set time.
 ---
 
 You can select channels in which the messages will be deleted after the given time (± one minute).

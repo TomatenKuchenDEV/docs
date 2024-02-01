@@ -1,6 +1,6 @@
 ---
 title: Über den Bot
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Diese Seite erzählt allgemeine Informationen über den Bot.
+description: Diese Seite erzählt allgemeine Informationen über den Bot.
 ---
 
 Der Discord-Bot wurde im März 2020 von TomatoCake erstellt und wird seitdem stetig weiterentwickelt. Fast täglich werden ~~Fehler~~ Features behoben und neue Funktionen hinzugefügt oder vorhandene ergänzt.

@@ -1,6 +1,6 @@
 ---
 title: Willkommens- und Leavenachrichten
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Hilft bei der Einrichtung von Mitgliederwillkommens- und -leavenachrichten.
+description: Hilft bei der Einrichtung von Mitgliederwillkommens- und -leavenachrichten.
 ---
 
 Hier findest du alle Einstellungen, die du im [Dashboard](https://tomatenkuchen.com/dashboard/settings#welcomeChannel) für Willkommens- und Leavenachrichten anpassen kannst.

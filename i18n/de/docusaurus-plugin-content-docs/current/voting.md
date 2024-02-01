@@ -1,6 +1,6 @@
 ---
 title: Vote-Announcements
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt das Setup der Vote-Announcements.
+description: Erklärt das Setup der Vote-Announcements.
 image: /img/voteannouncements.png
 ---
 

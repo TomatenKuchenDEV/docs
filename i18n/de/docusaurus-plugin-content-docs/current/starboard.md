@@ -1,6 +1,6 @@
 ---
 title: Starboard
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Das Starboard erlaubt deinen Mitgliedern, Nachrichten durch eine Reaktion mit einem einstellbaren Emoji in einen einzigartigen Kanal für immer aufheben zu lassen.
+description: Das Starboard erlaubt deinen Mitgliedern, Nachrichten durch eine Reaktion mit einem einstellbaren Emoji in einen einzigartigen Kanal für immer aufheben zu lassen.
 image: /img/starboard.png
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Claiming/Beanspruchen von Tickets
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt die Funktionen und Einstellungen des Claimingsystems.
+description: Erklärt die Funktionen und Einstellungen des Claimingsystems.
 ---
 
 Du kannst dir einen dieser Claim-Modi in den Einstellungen aussuchen:

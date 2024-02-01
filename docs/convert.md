@@ -1,6 +1,6 @@
 ---
 title: Converting currencies and units of measurement
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Using the convert command currencies and units of measurement can be converted.
+description: Using the convert command currencies and units of measurement can be converted.
 ---
 
 ## Command {#commands}

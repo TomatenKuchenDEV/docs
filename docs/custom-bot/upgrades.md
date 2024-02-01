@@ -1,6 +1,6 @@
 ---
 title: Upgrades
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Explains the different upgrades for custom bots.
+description: Explains the different upgrades for custom bots.
 ---
 
 :::info Beta version

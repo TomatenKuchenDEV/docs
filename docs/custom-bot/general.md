@@ -1,6 +1,6 @@
 ---
 title: Custom bots
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Explaining the free custom bot feature of the multipurpose bot.
+description: Explaining the free custom bot feature of the multipurpose bot.
 ---
 
 :::info Beta version

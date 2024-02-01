@@ -1,6 +1,6 @@
 ---
 title: Text-zu-Bild
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Generiere mehr oder weniger schöne Bilder mit dem Text2Image-Befehl.
+description: Generiere mehr oder weniger schöne Bilder mit dem Text2Image-Befehl.
 ---
 
 :::tip

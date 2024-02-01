@@ -1,6 +1,6 @@
 ---
 title: Custom-Bots
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt die kostenlose Custom-Bots-Funktion des Multipurpose-Bots.
+description: Erklärt die kostenlose Custom-Bots-Funktion des Multipurpose-Bots.
 ---
 
 :::info Beta-Version

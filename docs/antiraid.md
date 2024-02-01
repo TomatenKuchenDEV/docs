@@ -1,6 +1,6 @@
 ---
 title: Antiraid
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. The antiraid system can easily detect and prevent most join raids.
+description: The antiraid system can easily detect and prevent most join raids.
 ---
 
 Using the antiraid system of TomatenKuchen the bot will handle most server joins raids problemlessly.

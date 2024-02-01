@@ -1,6 +1,6 @@
 ---
 title: Features
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Diese Seite listet alle zum aktuellen Zeitpunkt verfügbaren Features des Bots auf.
+description: Diese Seite listet alle zum aktuellen Zeitpunkt verfügbaren Features des Bots auf.
 ---
 
 Beachte, dass meist täglich Updates durchgeführt werden und deswegen regelmäßig neue Features hinzukommen, die hier nicht unmittelbar erwähnt werden.
@@ -143,3 +143,4 @@ Alle diese Funktionen sind kostenlos verfügbar!
 - [Onlineformulare](/forms) für z. B. Entbannungsanträge oder Bewerbungsformulare
 - [Boostnachrichten](/boostmessages)
 - Durch Nutzer erstellbare [Customrollen](/customroles)
+- Sofortiger [Datenexport](/dataexport) deiner Daten

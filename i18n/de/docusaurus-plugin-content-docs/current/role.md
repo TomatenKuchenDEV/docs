@@ -1,6 +1,6 @@
 ---
 title: Rollenbefehl
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Der role-Befehl erlaubt die Verwaltung von Rollen und deren Nutzer auf einem Server.
+description: Der role-Befehl erlaubt die Verwaltung von Rollen und deren Nutzer auf einem Server.
 ---
 
 Diese Seite listet die Unterbefehle des `role`-Befehls auf und erklärt deren Funktionen.

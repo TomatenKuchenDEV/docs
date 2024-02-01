@@ -1,6 +1,6 @@
 ---
 title: Voice notify
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Explains how to send a message once a user joins a voice channel.
+description: Explains how to send a message once a user joins a voice channel.
 ---
 
 By using the voice notify settings, you can send a message once someone joins selected voice channels.

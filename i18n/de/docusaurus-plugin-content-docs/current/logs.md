@@ -1,6 +1,6 @@
 ---
 title: Logs
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Diese Seite erklärt das Logsystem.
+description: Diese Seite erklärt das Logsystem.
 ---
 
 TomatenKuchen hat ein sehr funktionsreiches Logsystem, was die meisten aller Aktionen loggt, die Bots feststellen können.

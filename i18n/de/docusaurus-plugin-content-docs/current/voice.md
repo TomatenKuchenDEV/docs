@@ -1,6 +1,6 @@
 ---
 title: Sprachkanal-Massenaktionen
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Mit dem Voice-Befehl kannst du schnell mehrere Nutzer im Sprachkanal bearbeiten.
+description: Mit dem Voice-Befehl kannst du schnell mehrere Nutzer im Sprachkanal bearbeiten.
 ---
 
 Mit diesen Befehlen können Aktionen auf mehrere Nutzer im Sprachkanal angewendet werden.

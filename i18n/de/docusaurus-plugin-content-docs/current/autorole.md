@@ -1,6 +1,6 @@
 ---
 title: Auto- & Rejoinrollen sowie Autonickname
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt, wie man Auto- und Rejoinrollen verwendet
+description: Erklärt, wie man Auto- und Rejoinrollen verwendet
 ---
 
 ## Autorollen {#autorole}

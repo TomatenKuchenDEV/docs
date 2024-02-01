@@ -1,6 +1,6 @@
 ---
 title: Automatic nickname based on roles
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Get help for setting up the automated role based nicknames.
+description: Get help for setting up the automated role based nicknames.
 image: /img/autonick.png
 ---
 

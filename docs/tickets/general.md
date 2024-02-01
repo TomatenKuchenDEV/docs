@@ -1,6 +1,6 @@
 ---
 title: Ticket features
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Explains the ticket system and the setup and settings of it.
+description: Explains the ticket system and the setup and settings of it.
 ---
 
 ## Setting up ticket categories {#create-ticket-categories}

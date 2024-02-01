@@ -1,6 +1,6 @@
 ---
 title: Features
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. This page lists all features currently available.
+description: This page lists all features currently available.
 ---
 
 Note that there a daily updates usually containing new features which might not be reflected here instantly.
@@ -143,3 +143,4 @@ All of those features are available for free!
 - [Online forms](/forms) for e.g. ban appeals or staff applications
 - [Boost messages](/boostmessages)
 - User created [customroles](/customroles)
+- Instant [dataexport](/dataexport) of your data

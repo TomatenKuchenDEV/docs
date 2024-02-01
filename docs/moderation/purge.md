@@ -1,6 +1,6 @@
 ---
 title: Deleting messages (Purge)
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Lists moderation commands
+description: Lists moderation commands
 ---
 
 ## Syntax {#syntax}

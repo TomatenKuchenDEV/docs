@@ -1,6 +1,6 @@
 ---
 title: Ticket commands
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Lists the ticket commands.
+description: Lists the ticket commands.
 ---
 
 ## Create ticket {#cmd-create}

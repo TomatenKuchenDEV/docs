@@ -1,6 +1,6 @@
 ---
 title: Counting
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Explains the counting system
+description: Explains the counting system
 image: /img/countingleaderboard.png
 ---
 

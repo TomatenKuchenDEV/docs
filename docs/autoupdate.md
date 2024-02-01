@@ -1,6 +1,6 @@
 ---
 title: Autoupdate
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Explains autoupdating message and lists possible variables
+description: Explains autoupdating message and lists possible variables
 image: /img/autoupdate_example.png
 ---
 

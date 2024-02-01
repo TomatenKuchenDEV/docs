@@ -1,6 +1,6 @@
 ---
 title: ChatGPT
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. This docs page explains the ChatGPT commands.
+description: This docs page explains the ChatGPT commands.
 ---
 
 :::tip

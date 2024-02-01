@@ -1,6 +1,6 @@
 ---
 title: Minecraft-Serverstatus-Update
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Zeige den aktuellen Status eines Minecraft-Servers in einem Kanalnamen oder -thema, oder in einer eigenen Nachricht an.
+description: Zeige den aktuellen Status eines Minecraft-Servers in einem Kanalnamen oder -thema, oder in einer eigenen Nachricht an.
 ---
 
 Mit dieser Funktion kannst du jederzeit den aktuellen Minecraft-Java-Serverstatus sowie, sofern aktiviert, die Liste aller Spieler sowie einige weitere Informationen anzeigen lassen.

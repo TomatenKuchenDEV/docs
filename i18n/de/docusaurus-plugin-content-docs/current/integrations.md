@@ -1,6 +1,6 @@
 ---
 title: Integrationen
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Diese Seite erklärt die Verwendung von Integrationen, die nächste Version von Customcommands.
+description: Diese Seite erklärt die Verwendung von Integrationen, die nächste Version von Customcommands.
 image: /img/integration_weather.png
 ---
 

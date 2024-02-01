@@ -1,6 +1,6 @@
 ---
 title: ChatGPT
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Diese Docs-Seite erklärt die vielfältigen ChatGPT-Funktionen.
+description: Diese Docs-Seite erklärt die vielfältigen ChatGPT-Funktionen.
 ---
 
 :::tip

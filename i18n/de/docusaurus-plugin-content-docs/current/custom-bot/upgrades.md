@@ -1,6 +1,6 @@
 ---
 title: Upgrades
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt die verschiedenen Upgrades von Custom-Bots.
+description: Erklärt die verschiedenen Upgrades von Custom-Bots.
 ---
 
 :::info Beta-Version

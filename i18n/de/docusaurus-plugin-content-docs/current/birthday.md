@@ -1,6 +1,6 @@
 ---
 title: Geburtstage
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Mit dem Geburtstagssystem kann man Geburtstage pro Nutzer und pro Server erstellen. Du kannst auch Geburtstagskalender und eigene Erinnerungen erstellen.
+description: Mit dem Geburtstagssystem kann man Geburtstage pro Nutzer und pro Server erstellen. Du kannst auch Geburtstagskalender und eigene Erinnerungen erstellen.
 ---
 
 Geburtstagsnachrichten werden täglich um 0 Uhr (Mitternacht) in der festgelegten Serverzeitzone gesendet.

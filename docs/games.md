@@ -1,6 +1,6 @@
 ---
 title: Games
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. The bot has many games available to play, e.g. snake, Uno! and Connect Four.
+description: The bot has many games available to play, e.g. snake, Uno! and Connect Four.
 image: /img/game_snake.png
 ---
 

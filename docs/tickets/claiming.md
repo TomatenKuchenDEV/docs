@@ -1,6 +1,6 @@
 ---
 title: Claiming tickets
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Explains the ticket system and the claiming system.
+description: Explains the ticket system and the claiming system.
 ---
 
 You can select from different modes for ticket claiming in the settings:

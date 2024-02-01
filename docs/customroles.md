@@ -1,6 +1,6 @@
 ---
 title: Customroles
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Customroles allow users to created their own customized role on the server.
+description: Customroles allow users to created their own customized role on the server.
 image: /img/customrole_info.png
 ---
 

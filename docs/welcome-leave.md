@@ -1,6 +1,6 @@
 ---
 title: Welcome and leave messages
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Explains on how to set up member welcome and leave messages.
+description: Explains on how to set up member welcome and leave messages.
 ---
 
 Hier findest du alle Einstellungen, die du im [Dashboard](https://tomatenkuchen.com/dashboard/settings#welcomeChannel) für Willkommens- und Leavenachrichten anpassen kannst.

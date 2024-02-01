@@ -1,6 +1,6 @@
 ---
 title: Automatische Threads
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Mit der automatischen Erstellung von Threads können z. B. Diskussionskanäle oder Bugreport-Kanäle übersichtlicher gestaltet werden.
+description: Mit der automatischen Erstellung von Threads können z. B. Diskussionskanäle oder Bugreport-Kanäle übersichtlicher gestaltet werden.
 ---
 
 Mithilfe dieser Funktion lassen sich automatisch Threads in ausgewählten Kanälen erstellen, wenn eine neue Nachricht in diesen gesendet wird.

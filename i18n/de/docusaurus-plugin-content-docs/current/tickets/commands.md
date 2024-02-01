@@ -1,6 +1,6 @@
 ---
 title: Ticketbefehle
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Listet alle Ticketbefehle auf.
+description: Listet alle Ticketbefehle auf.
 ---
 
 ## Ticket erstellen {#cmd-create}

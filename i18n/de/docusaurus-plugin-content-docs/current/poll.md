@@ -1,6 +1,6 @@
 ---
 title: Umfragen
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Führe Umfragen auf deinem Server durch - auch als normales Mitglied.
+description: Führe Umfragen auf deinem Server durch - auch als normales Mitglied.
 ---
 
 ## Befehl {#commands}

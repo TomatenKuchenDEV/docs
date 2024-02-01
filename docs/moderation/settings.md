@@ -1,6 +1,6 @@
 ---
 title: Settings
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Explains all AutoMod settings.
+description: Explains all AutoMod settings.
 ---
 
 ## Delete invites {#settings-delete-invites}

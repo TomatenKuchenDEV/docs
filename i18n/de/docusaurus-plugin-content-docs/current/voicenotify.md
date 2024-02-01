@@ -1,6 +1,6 @@
 ---
 title: Voicenotify
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt, wie man Nachrichten senden kann, sobald Nutzer einen Sprachkanal betreten.
+description: Erklärt, wie man Nachrichten senden kann, sobald Nutzer einen Sprachkanal betreten.
 ---
 
 Mithilfe der Voicenotify-Einstellungen kannst du eine Nachricht senden lassen, sobald ein Nutzer einen festgelegten Sprachkanal betritt.

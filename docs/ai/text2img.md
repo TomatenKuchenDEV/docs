@@ -1,6 +1,6 @@
 ---
 title: Text-to-image
-description: TomatenKuchen is a multipurpose Discord bot with a lot of features. Generate more or less good looking images using the text-to-image command.
+description: Generate more or less good looking images using the text-to-image command.
 ---
 
 :::tip

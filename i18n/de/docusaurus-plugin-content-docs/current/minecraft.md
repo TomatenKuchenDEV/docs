@@ -1,6 +1,6 @@
 ---
 title: Minecraft-Befehle
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Es gibt viele Befehle für das Spiel Minecraft, welche dir schnellen Zugriff auf Informationen ermöglichen.
+description: Es gibt viele Befehle für das Spiel Minecraft, welche dir schnellen Zugriff auf Informationen ermöglichen.
 ---
 
 Diese Seite listet die Befehle auf, die mit dem Spiel "Minecraft" zu tun haben, und erklärt deren Funktionen.

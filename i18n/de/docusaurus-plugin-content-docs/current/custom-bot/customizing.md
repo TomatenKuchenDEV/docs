@@ -1,6 +1,6 @@
 ---
 title: Bot anpassen
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Listet die Möglichkeiten zur Anpassung deines Custom-Bots auf.
+description: Listet die Möglichkeiten zur Anpassung deines Custom-Bots auf.
 ---
 
 :::info Beta-Version

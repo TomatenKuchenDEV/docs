@@ -1,6 +1,6 @@
 ---
 title: Backups und Vorlagen
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Backups erlauben dir, schnell einen gegrieften Server wiederherzustellen. Mit Templates kannst du einfach andere veröffentlichte Serverdesigns auf einen vorhandenen Server übernehmen.
+description: Backups erlauben dir, schnell einen gegrieften Server wiederherzustellen. Mit Templates kannst du einfach andere veröffentlichte Serverdesigns auf einen vorhandenen Server übernehmen.
 ---
 
 ## Backups {#backups}

@@ -1,6 +1,6 @@
 ---
 title: Zugriff und Verwaltung
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erfahre, wie Berechtigungen für Custom-Bots funktionieren.
+description: Erfahre, wie Berechtigungen für Custom-Bots funktionieren.
 ---
 
 :::info Beta-Version

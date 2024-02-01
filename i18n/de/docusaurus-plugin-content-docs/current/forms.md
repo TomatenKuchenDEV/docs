@@ -1,6 +1,6 @@
 ---
 title: Formulare
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Mit den Onlineformularen kannst du z. B. Entbannungsanträge oder Bewerbungsformulare erstellen.
+description: Mit den Onlineformularen kannst du z. B. Entbannungsanträge oder Bewerbungsformulare erstellen.
 image: /img/forms_example.png
 ---
 

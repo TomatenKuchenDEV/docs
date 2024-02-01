@@ -1,6 +1,6 @@
 ---
 title: Grundsätzliche Moderationsbefehle
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärungen zu den Moderationsbefehlen
+description: Erklärungen zu den Moderationsbefehlen
 ---
 
 Wenn die [Einstellung](./settings) "Grund erzwingen" aktiviert ist, ist das Argument `<Grund>` nicht mehr optional.

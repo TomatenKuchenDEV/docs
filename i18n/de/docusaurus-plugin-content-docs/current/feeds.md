@@ -1,6 +1,6 @@
 ---
 title: RSS- & Atom-Feeds
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt, wie RSS-, Atom- und Minecraft-Versionen-Feeds verwendet werden können.
+description: Erklärt, wie RSS-, Atom- und Minecraft-Versionen-Feeds verwendet werden können.
 image: /img/feed_example.png
 ---
 

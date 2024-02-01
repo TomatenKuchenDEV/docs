@@ -1,6 +1,6 @@
 ---
 title: Generelle Einstellungen
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Mit dieser Funktion kannst du einfach nach bekannten Filmen, Serien und Darstellern suchen.
+description: Mit dieser Funktion kannst du einfach nach bekannten Filmen, Serien und Darstellern suchen.
 ---
 
 Diese Seite erklärt Servereinstellungen, die für viele Server nützlich sein könnten.

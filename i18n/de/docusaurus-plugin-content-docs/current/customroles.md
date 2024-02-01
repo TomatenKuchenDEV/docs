@@ -1,6 +1,6 @@
 ---
 title: Customrollen
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Customrollen erlauben Nutzern auf dem Server, eine eigene Rolle zu erstellen.
+description: Customrollen erlauben Nutzern auf dem Server, eine eigene Rolle zu erstellen.
 image: /img/customrole_info.png
 ---
 

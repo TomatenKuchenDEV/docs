@@ -1,6 +1,6 @@
 ---
 title: Antiraid
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Das Antiraid-System kann die meisten Join-Raids ganz einfach erkennen und verhindern.
+description: Das Antiraid-System kann die meisten Join-Raids ganz einfach erkennen und verhindern.
 ---
 
 Mit dem Antiraid-System von TomatenKuchen kannst du problemlos die meisten Server-Join-Raids dem Bot überlassen.

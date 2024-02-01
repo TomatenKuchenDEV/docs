@@ -1,6 +1,6 @@
 ---
 title: Boost-Nachrichten
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Erklärt, wie man Nachrichten bei neuen Boostern oder ehemaligen Boostern senden kann.
+description: Erklärt, wie man Nachrichten bei neuen Boostern oder ehemaligen Boostern senden kann.
 ---
 
 Mit dieser Funktion kann eine Nachricht gesendet werden, wenn ein Nutzer den Server boosted und davor noch nicht geboosted hat, und wenn ein Nutzer alle seine Boosts vom Server entfernt.

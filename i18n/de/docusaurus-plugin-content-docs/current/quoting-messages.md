@@ -1,6 +1,6 @@
 ---
 title: Zitieren von Nachrichten
-description: TomatenKuchen ist ein All-in-One-Discord-Bot mit vielen verschiedenen Funktionen. Dies ist ein Feature, um eine gesendete Nachricht anhand eines Links zu zitieren.
+description: Dies ist ein Feature, um eine gesendete Nachricht anhand eines Links zu zitieren.
 ---
 
 Mit dieser [Einstellung](https://tomatenkuchen.com/dashboard/settings#quoteDiscordLink) kannst du verändern, ob und wenn ja, inwiefern Nachrichten vom aktuellen Server zitiert werden können:
