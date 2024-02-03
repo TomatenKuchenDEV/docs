@@ -27,12 +27,12 @@ You can also use the parameters `-after=<Message ID>` and `-before=<Message ID>`
 
 :::info Not all messages were deleted?
 
-If TomatenKuchen didn't delete the amount of messages you specified, it can have the following reasons:
+If TomatenKuchen didn't delete the amount of messages you specified, it could be due to one of the following reasons:
 - The messages are older than two weeks
 - The messages are pinned and `pinned` wasn't specified as an argument
 - The messages don't match the filter
 
-Also note that the given amount of messages only changed how many messages are loaded -
+Also note that the specified amount of messages only changes how many messages are loaded,
 not how many messages are deleted.
 
 :::

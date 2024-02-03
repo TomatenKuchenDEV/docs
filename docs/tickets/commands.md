@@ -27,13 +27,13 @@ This will send the user a DM if this setting is enabled in the dashboard.
 
 `delete`
 
-In order to delete a ticket you need one of the ticket manager roles or the "Manage Guild" permission.
+To delete a ticket, you need one of the ticket manager roles or the "Manage Guild" permission.
 
 ## Claiming {#cmd-claim}
 
 :::warning
 
-This commands and button is only available when claiming has been enabled in the [settings](/tickets/claiming).
+This command and button are only available when claiming has been enabled in the [settings](/tickets/claiming).
 
 :::
 
@@ -52,13 +52,13 @@ Button on the close ticket message
 
 `tickets move <New category>`
 
-This sends the ticket start message again and, if you're using channels for tickets, move the channel category if needed.
+This will send the ticket start message again and, if you're using channels for tickets, move the channel category if needed.
 
 ## Create a ticketembed {#cmd-embed}
 
 Prepares a ticket embed. You can add custom buttons for different ticket categories.
 
-After creation you can fully edit the message content and embed using https://embed.tomatenkuchen.com .
+After creation, you can fully edit the message content and embed using https://embed.tomatenkuchen.com .
 
 `ticketembed [<Title> <Description> <Button text>]`
 

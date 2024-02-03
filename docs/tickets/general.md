@@ -8,7 +8,7 @@ description: Explains the ticket system and the setup and settings of it.
 In the dashboard you can create ticket categories, with which, depending on which ticketembed was used for the creation, a different ticket is created.
 You can set the category, the transcript channel and the message for each ticket category individually.
 
-Open the settings page of your server and find the setting for ticket categories. Click on the "Add" button and fill in the values accordingly.
+To create a ticket category, open the settings page of your server and find the setting for ticket categories. Click on the "Add" button and fill in the values accordingly.
 
 `name` is the name and internal ID of the ticket category. The remaining fields are used for the message sent when creating a new ticket, for more information see the [Ticket create message](#ticket-create-message)
 
@@ -25,9 +25,11 @@ Users can change this setting by using the command `usersettings`.
 
 ### Ticket create message {#ticket-create-message}
 
-You can set a default message and one for each ticket category which is sent after creating a ticket.
+You can set a default message and also customize one for each ticket category. These messages will be sent after creating a ticket.
 
-This message is overrides by a category specific message if at least one message field of the ticket category is filled out.
+If at least one message field of the ticket category is filled out, it will override the default message.
+
+The following variables can be used in the message:
 
 - `{usermention}`
 - `{username}`
@@ -36,32 +38,32 @@ This message is overrides by a category specific message if at least one message
 - `{id}`: The ticket ID
 - `{servername}`
 - `{servericon}`
-- `{supporterroles}`: A mention of all as supporter marked roles
-- `{managerroles}`: A mention of all as moderator marked roles
+- `{supporterroles}`: Mentions all roles marked as supporters
+- `{managerroles}`: Mentions all roles marked as moderators
 
 ### Reminder for inactive tickets {#settings-inactivity-remind}
 
 Here you can set a time and a message to be sent if no message has been sent for the specified time in the ticket.
 
-In addition to the variables above:
+In addition to the variables mentioned above, the following variables are available:
 
-- `{allmention}`: Mentions the ticket creator and all to the ticket added users
-- `{timestamp}`: A Discord timestamp which shows when the ticket will be closed automatically
+- `{allmention}`: Mentions the ticket creator and all the users added to the ticket
+- `{timestamp}`: A Discord timestamp that shows when the ticket will be automatically closed
 
 ### Close ticket on inactivity {#settings-inactivity-close}
 
-Using this time setting you can let the bot close a ticket automatically if it has been inactive for a certain time, so if no message has been sent.
+By using this time setting, you can have the bot automatically close a ticket if it has been inactive for a certain period of time, i.e., if no messages have been sent.
 
 ### Channels or threads {#settings-channels-or-threads}
 
 You can select whether the bot should use channels or private threads for tickets.
 
-In private threads no ticket category is used, but all threads are created in the current channel in which the command was executed.
+In private threads, no ticket category is used. Instead, all the threads are created in the current channel where the command was executed.
 
 ### Message to ticket creator on ticket close {#settings-dm-author}
 
 If this setting is set to "Always" the bot sends a DM message to the original ticket creator.
 
-In the mode "Manual" the ticket close message contains a button which can be used to send a message to the ticket creator.
+In the "Manual" mode, the ticket close message contains a button that can be used to send a message to the ticket creator.
 
-In the mode "Disabled" no message is sent to the creator when a ticket is closed.
+In the "Disabled" mode, no message is sent to the creator when a ticket is closed.

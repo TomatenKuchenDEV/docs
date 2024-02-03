@@ -1,6 +1,6 @@
 ---
 title: Setup
-description: The Manage Bot allows you to control Pterodactyl servers using Discord. This page explains on how to setup and use the bot.
+description: The Manage Bot allows you to control Pterodactyl servers using Discord. This page explains how to set up and use the bot.
 ---
 
 With this bot, you can manage your Pterodactyl (https://pterodactyl.io) panel servers from Discord.
@@ -9,12 +9,13 @@ With this bot, you can manage your Pterodactyl (https://pterodactyl.io) panel se
 
 ![](/img/managebot_setup.png)
 
+To set up the bot, use the following command:
+
 `/setup <Panel url> <API key> [<Alias name>]`
 
-The bot supports HTTP as well as HTTPS panels - just make sure that the panels require a valid certificate when using HTTPS. If you don't have that, use HTTP without SSL.
+The bot supports both HTTP and HTTPS panels. Just make sure that panels using HTTPS require a valid certificate. If you don't have a valid certificate, use HTTP without SSL.
 
-An "alias" refers to a single panel. With aliases you can use multiple Pterodactyl panels at the same time.
-If you don't use an alias, the bot will auto generate one for you.
+An "alias" refers to a single panel. With aliases, you can use multiple Pterodactyl panels at the same time. If you don't provide an alias, the bot will auto-generate one for you.
 
 ## How to use (`/manage`)
 
@@ -22,11 +23,10 @@ If you don't use an alias, the bot will auto generate one for you.
 
 ![](/img/managebot_manage.png)
 
-
-The bot can also run quick actions on the server:
+The bot also supports running quick actions on the server:
 
 ![](/img/managebot_quickactions.png)
 
 ## `/console` and `/command`
 
-Those commands can be used to view the server console of a server and running commands on them. Note that a server has to be online to be able to execute commands on it.
+These commands can be used to view the server console and run commands on a server. Note that the server must be online in order to execute commands on it.

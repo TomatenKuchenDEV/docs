@@ -1,5 +1,5 @@
 ---
-title: Customizing the bot
+title: Customizing the Bot
 description: Lists the options for customizing your bot.
 ---
 
@@ -9,10 +9,11 @@ However, everyone may test the beta version by joining the [Discord server](http
 :::
 
 For custom bots, you can freely change the following display settings of the bot:
+
 - Name
 - Avatar
 - About me
 
-You can make those changes either in the [Discord Developer Portal](https://discord.com/developers/applications) or in the [custom bot dashboard](https://tomatenkuchen.com/dashboard/custom).
+You can make these changes either in the [Discord Developer Portal](https://discord.com/developers/applications) or in the [custom bot dashboard](https://tomatenkuchen.com/dashboard/custom).
 
-The status can be changed with an [upgrade](./upgrades) - this way, you can set all kind of activities and an interval in which the status should get changed. If you don't have this upgrade, the status contains a TomatenKuchen advertisement.
+The status can be changed with an [upgrade](./upgrades). This allows you to set various activities and an interval in which the status should be changed. If you don't have this upgrade, the status will display a TomatenKuchen advertisement.

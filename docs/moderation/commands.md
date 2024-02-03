@@ -36,7 +36,7 @@ If `forceban` is used, the bot won't check if the user is already banned.
 `say <Message>`
 `embed [<Content> <Channel>]`
 
-You can also use attachments, e.g. images.
+You can also use attachments, such as images.
 
 ## Change the slowmode of a channel {#cmd-slowmode}
 

@@ -1,6 +1,6 @@
 ---
 title: Customcommands
-description: The Manage Bot allows you to control Pterodactyl servers using Discord. This page explains on how to create and use customcommands.
+description: The Manage Bot allows you to control Pterodactyl servers using Discord. This page explains how to create and use custom commands.
 ---
 
 The Manage Bot allows you to create customcommands to manage a server.
@@ -14,7 +14,7 @@ The Manage Bot allows you to create customcommands to manage a server.
 Creates a customcommand on the server, linked to your panel access data.
 
 You can find the panel alias using `/list`.
-If no response it set the bot will reply with "The command was run in panel …: …"
+If no response is set the bot will reply with "The command was run in panel …: …"
 
 ### `/customcommand delete <Name>`
 
@@ -37,7 +37,7 @@ Lists all customcommands of the server.
 - `command`: `start`
 - `response`: `The server is being started!`
 
-You can also use `stop`, `restart` and `kill`.
+You can also use `stop`, `restart`, and `kill`.
 
 ### Minecraft whitelist
 

@@ -7,7 +7,7 @@ You can select from different modes for ticket claiming in the settings:
 
 ## Disabled {#disabled}
 
-The default setting - you can't use the `claim` command in this mode.
+This is the default setting - you can't use the `claim` command in this mode.
 
 ## Only claimer {#only-claimer}
 

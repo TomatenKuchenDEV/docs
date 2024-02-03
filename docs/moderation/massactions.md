@@ -1,6 +1,6 @@
 ---
 title: Mass actions
-description: Explains how to use mass actions like mass kicking and banning as well as adding and removing roles from many users.
+description: Learn how to perform mass actions such as mass banning and kicking, as well as adding and removing roles from multiple users.
 ---
 
 ## Commands {#commands}
@@ -32,4 +32,4 @@ If the setting for automatic dehoisting is enabled, the bot will automatically r
 - `bot`: Only affects bots
 - `nobot`: Affects everyone except bots
 
-If no filter is selected, all server member are affected.
+If no filter is selected, all server members are affected.

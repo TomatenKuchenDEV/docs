@@ -3,7 +3,7 @@ title: Statusupdate
 description: The Manage Bot allows you to control Pterodactyl servers using Discord. This page explains how to set up automatic node and server stats.
 ---
 
-The Manage Bot can display the status, the configuration or the resource usage of one or multiple servers or nodes using the statusupdate feature.
+The Manage Bot can display the status, configuration, or resource usage of one or multiple servers or nodes using the statusupdate feature.
 
 1. `/statusupdate`
 
@@ -21,5 +21,5 @@ The Manage Bot can display the status, the configuration or the resource usage o
 Make sure the bot has all needed permissions in the channel and in the panel. Once it loses them the statusupdate message will be deleted out of the system and has to be recrated.
 
 Some information about TomatenKuchen actions:
-- Function names are incasesentitive
-- The most important function are likely `{formatBytes;<Bytes>[;<Decimals, default 2>]}` and the mathimatical functions `{*}` `{/}`
+- Function names are case insensitive.
+- The most important functions are likely `{formatBytes;<Bytes>[;<Decimals, default 2>]}` and the mathematical functions `{*}` and `{/}`.

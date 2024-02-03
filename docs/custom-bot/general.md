@@ -24,20 +24,20 @@ To create a custom bot, simply open the [custom bot dashboard](https://tomatenku
 
 The page then guides you step-by-step through the setup process.
 
-You can get the bot token from the [Discord Developer Portal](https://discord.com/developers/applications), you can either create a new bot only for the custom bot (recommended to prevent conflicts) or use an existing one.
+You can obtain the bot token from the [Discord Developer Portal](https://discord.com/developers/applications). You can either create a new bot specifically for the custom bot (recommended to prevent conflicts), or use an existing one.
 
 ## Payment
 
 :::info Free custom bot
 
-The first custom bot is free for everyone, you can use it as long as you want without any costs.
+The first custom bot is free for everyone. You can use it for as long as you want without any costs.
 
 :::
 
 The payment works with credits, a virtual currency of TomatenKuchen. Credits can be received mostly by voting and in giveaways on the TomatenKuchen Discord.
 You can also get them by using the economy system and helping with the bot, e.g. as translator or by creating suggestions for the bot.
 
-The price depends on the total member count of all servers you add the bot to. This means you are able to use your bot **on multiple servers at the same time** - most other custom bot providers don't allow that.
+The price depends on the total member count of all the servers you add the bot to. This means you can use your bot **on multiple servers simultaneously** - something that most other custom bot providers do not allow.
 
 If your bot is online, once a day the current value is deducted from your account. Therefore, your bot should be set to "Private" in the Discord Developer Portal to prevent other users from inviting it and causing you high costs.
 
