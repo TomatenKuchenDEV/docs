@@ -1,6 +1,6 @@
 ---
 title: Generelle Einstellungen
-description: Mit dieser Funktion kannst du einfach nach bekannten Filmen, Serien und Darstellern suchen.
+description: Diese Seite erklärt die wichtigsten Einstellungen, um das Verhalten des Discord-Bots anzupassen.
 ---
 
 Diese Seite erklärt Servereinstellungen, die für viele Server nützlich sein könnten.

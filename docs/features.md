@@ -1,13 +1,13 @@
 ---
 title: Features
-description: This page lists all features currently available.
+description: This page lists all the currently available features.
 ---
 
-Note that there a daily updates usually containing new features which might not be reflected here instantly.
+Note that there are daily updates that usually include new features, which may not be reflected here immediately.
 
 :::tip
 
-All of those features are available for free!
+All of these features are available for free!
 
 :::
 
@@ -15,7 +15,7 @@ All of those features are available for free!
 - [Integrations](/integrations)
 	- Integrations can easily replace custom commands (custom bot responses, also known as "Tags")
 - [Moderation](/category/moderation)
-	- [Many common moderation commands](/moderation/commands), like `lockdown`, `slowmode` and `dehoist`
+	- [Many common moderation commands](/moderation/commands), such as `lockdown`, `slowmode`, and `dehoist`
 	- Integration with Discord AutoMod is possible
 	- Settings:
 		- Default ban message delete duration
@@ -26,16 +26,16 @@ All of those features are available for free!
 		- [… and more!](/moderation/settings)
 - [Feeds](/feeds)
 	- RSS/Atom
-	- New Minecraft vanilla und PaperMC versions
-	- [YouTube videos, shorts and livestreams](/youtube)
+	- New Minecraft vanilla and PaperMC versions
+	- [YouTube videos, shorts, and livestreams](/youtube)
 	- [Twitch livestreams](/twitch)
 	- [Minecraft server status](/mcupdate)
 - [AFK feature](/afk)
 	- List of all AFK users on the server
-	- List of all mentions while AFK after the AFK state ends
+	- List of all mentions received while AFK after the AFK state ends
 - [Auto roles for bots and users separately](/autorole)
 - [Auto nickname on join](/autorole)
-- [Rejoin/persistent roles which users receive back when rejoining](/autorole)
+- [Rejoin/persistent roles that users receive upon rejoining](/autorole)
 - [Antiraid](/antiraid)
 - [Translations from users](/weblate)
 - [Counting](/counting)
@@ -46,7 +46,7 @@ All of those features are available for free!
 	- List of all birthdays on the server
 	- Configurable role and message
 - [Level and leaderboard](/level)
-	- Per level you can set a role, a message and the amount of level points
+	- For each level, you can set a role, a message, and the amount of level points
 	- Leveling by message or character
 - [Statistics in channel names](/serverstats)
 - [Server statistics with no expiration](/serverstats)
@@ -55,14 +55,12 @@ All of those features are available for free!
 	- [Claiming](/tickets/commands)
 	- Supporter (helper/staff) and moderator roles for access
 	- Customizable ticket embed and start message per category
-	- Discord like transcripts including attachments
-- [Self assignable roles/Reactionroles](/reactionroles) using:
+	- Discord-like transcripts including attachments
+- [Self-assignable roles/Reaction roles](/reactionroles) using:
 	- Reactions
 	- Buttons
 	- Select menus
-- [Syncing across servers of:](/sync)
-	- Bans & unbans
-	- Logs
+- [Syncing bans/unbans and logs across servers](/sync)
 - [Vote messages when voting for a server or bot](/voting)
 - [Welcome and leave messages](/welcome-leave)
 - [Starboard](/starboard)
@@ -70,12 +68,12 @@ All of those features are available for free!
 - [Private voice channels](/privatevoice)
 - [Giveaways](/giveaways)
 - [Many games](/games)
-- [Automatic deleting of messages in a channel](/autodelete)
+- [Automatic deletion of messages in a channel](/autodelete)
 - [Suggestions](/suggest)
-	- optionally different channels depending on state
+	- Optional different channels depending on the state
 	- Reactions or buttons for voting
 	- Messages in the suggestion channel will be automatically converted into suggestions
-	- Mode which requires suggestions to be allowed by the team
+	- Mode that requires suggestions to be approved by the team
 - Economy
 - Information on:
 	- Minecraft:
@@ -83,7 +81,7 @@ All of those features are available for free!
 		- Servers
 		- Crafting recipes (using German names)
 		- Validation of one or more commands
-	- a [npm](https://npmjs.com) package
+	- an [npm](https://npmjs.com) package
 	- an element of the periodic table
 	- a [GitHub](https://github.com) user
 	- the train delay of the Deutsche Bahn per station
@@ -97,13 +95,13 @@ All of those features are available for free!
 	- a user or bot
 	- a word from the German Duden site
 	- whether a German sentence is syntactically correct (Duden Mentor)
-	- HTTP status codes and HTTP header
+	- HTTP status codes and HTTP headers
 	- Cloudflare status codes
 	- Discord permissions
 	- a [YouTube channel including search](/youtube#command)
 	- a [Twitch streamer](/twitch#commands)
 	- banned and muted users of the server
-	- movies, series and actors including search
+	- movies, series, and actors including search
 	- Discord ID/snowflake info
 	- DNS records of a domain
 	- Discord status
@@ -113,7 +111,7 @@ All of those features are available for free!
 	- all threads of a server
 - Reminders & timers, including using them with other users
 - [Shorter.cf command](/shorter)
-	- Creation of short urls on [shorter.cf](https://shorter.cf)
+	- Creation of short URLs on [shorter.cf](https://shorter.cf)
 	- Displaying website statistics using `shorter stats`
 	- Following redirects
 - [Purging/clearing multiple messages with filters](/moderation/purge)
@@ -125,22 +123,22 @@ All of those features are available for free!
 - [Text translation](/translate)
 - Calculator
 - Comparing two texts
-- [Creating and loading backups, no other bot has a this high amount of backup features](/backups)
+- [Creating and loading backups; no other bot has as many backup features](/backups)
 - [Loading Discord templates (discord.new) on existing servers](/backups#templates)
 - TODO list
 - [Polls](/poll)
 - Muting or deafening all users in a voice channel
-- [Automatic updating messages e.g. for server statistics or birth calendars](/autoupdate)
+- [Automatic updating messages, e.g. for server statistics or birth calendars](/autoupdate)
 - Creation of [modals ("forms")](/modals) for Discord
-- [Adding a role to nitro users](/nitroverify)
+- [Adding a role to Nitro users](/nitroverify)
 - [Converting currencies and other measuring units](/convert)
-- [Sending messages with embeds and components, for example buttons](https://embed.tomatenkuchen.com)
-- Randomizer features, for example rolling a dice or selecting a random element out of a given list
+- [Sending messages with embeds and components, such as buttons](https://embed.tomatenkuchen.com)
+- Randomizer features, such as rolling a dice or selecting a random element from a given list
 - Creating and reading QR codes
 - Cloning a category with its channels
-- [Logs of occured errors and dashboard changes](/error)
+- [Logs of occurred errors and dashboard changes](/error)
 - [Logging of pretty much everything on the Discord server](/logs)
 - [Online forms](/forms) for e.g. ban appeals or staff applications
 - [Boost messages](/boostmessages)
-- User created [customroles](/customroles)
-- Instant [dataexport](/dataexport) of your data
+- User-created [custom roles](/customroles)
+- Instant [data export](/dataexport) of your data

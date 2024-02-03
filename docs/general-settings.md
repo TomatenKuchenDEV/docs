@@ -1,20 +1,20 @@
 ---
-title: Generelle Einstellungen
-description: Mit dieser Funktion kannst du einfach nach bekannten Filmen, Serien und Darstellern suchen.
+title: General settings
+description: This page explains the most important settings to change the behavior of the Discord bot.
 ---
 
-This page explains server settings that could be useful for many servers.
+This page explains server settings that can be useful for many servers.
 
 ## Server language {#settings-lang}
 
-The server language changes the language as well as the formatting of numbers in bot answers.
-The setting can be changed [in the dashboard](https://tomatenkuchen.com/dashboard/settings#lang), by default it's set to the current Discord server language as long as a translation is available.
+The server language changes the language as well as the formatting of numbers in bot responses.
+You can change this setting [in the dashboard](https://tomatenkuchen.com/dashboard/settings#lang). By default, it is set to the current Discord server language as long as a translation is available.
 
-Using [Weblate](/weblate) you can easily help with translating the bot and adding new languages.
+You can easily help with translating the bot and adding new languages using [Weblate](/weblate).
 
 ## Prefix {#settings-prefix}
 
-Here multiple message command prefixes can be entered, aka the text which is used in front of commands: `tk!` -> `tk!help`.
+Here you can enter multiple message command prefixes, which are the text used before commands: `tk!` -> `tk!help`.
 
 The prefix of slashcommands cannot be changed due to Discord.
 
@@ -26,7 +26,7 @@ If you only want to show the commands of a single bot in the slashcommands selec
 
 ## Deleting message commands {#settings-delete-command}
 
-Changes whether the message that triggered a command is deleted when using message commands.
+This option determines whether the message that triggered a command is deleted when using message commands.
 
 :::tip Override per command
 
@@ -36,10 +36,10 @@ Using [integrations](/integrations) and the action functions `run` and `delete` 
 
 ## Timezone {#settings-timezone}
 
-The server timezone which determines the send time of birthday messages.
+This option determines the server timezone, which affects the send time of birthday messages.
 
 To see your current timezone, use a website like https://xske.github.io/tz.
-The input must be a valid value of this [Wikipedia list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
+The input must be a valid value from this [Wikipedia list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
 
 ## Dashboard access {#settings-dashboard-access}
 
@@ -49,6 +49,6 @@ Note that the server owner and members with the "Administrator" permission alway
 
 :::warning Manage Server permission
 
-As soon as you select one or more roles here, all server members who only have the permission "Manage Server" and none of the selected roles will lose access.
+As soon as you select one or more roles here, all server members who only have the "Manage Server" permission and none of the selected roles will lose access.
 
 :::

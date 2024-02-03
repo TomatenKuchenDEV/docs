@@ -34,8 +34,8 @@ Alle diese Funktionen sind kostenlos verfügbar!
 	- Liste aller AFK-Nutzer auf dem Server
 	- Liste aller Erwähnungen beim Beenden des AFK-Status
 - [Autorollen für Nutzer und Bots getrennt](/autorole)
-- [Autonickname beim Beitreten](/autorole)
-- [Rejoin-/Persistente Rollen, die man beim erneuten Beitreten zurückerhält](/autorole)
+- [Autonickname beim Beitritt](/autorole)
+- [Rejoin-/Persistente Rollen, die beim erneuten Beitritt wiederhergestellt werden](/autorole)
 - [Antiraid](/antiraid)
 - [Übersetzungen von Nutzern](/weblate)
 - [Counting](/counting)
@@ -46,7 +46,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 	- Liste aller Geburtstage auf dem Server
 	- Einstellbare Rolle und Nachricht
 - [Level und Leaderboard](/level)
-	- Pro Level eine Rolle, eine Nachricht und die Anzahl der Levelpunkte festlegbar
+	- Festlegung einer Rolle, einer Nachricht und der Anzahl der Levelpunkte pro Level möglich
 	- Leveln pro Nachricht oder pro Zeichen
 - [Statistiken in Kanalnamen](/serverstats)
 - [Serverstatistiken ohne zeitliches Ablaufdatum](/serverstats)
@@ -60,9 +60,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 	- Reaktionen
 	- Buttons
 	- Selectmenüs
-- [Synchronisieren über Server hinweg von:](/sync)
-	- Bans/Unbans
-	- Logs
+- [Synchronisierung von Bans/Unbans und Logs über Server hinweg](/sync)
 - [Votenachrichten für Server und Bots](/voting)
 - [Willkommens- und Leavenachrichten](/welcome-leave)
 - [Starboard](/starboard)
@@ -75,14 +73,13 @@ Alle diese Funktionen sind kostenlos verfügbar!
 	- optional verschiedene Kanäle je nach aktuellem Vorschlagsstatus
 	- Reaktionen oder Buttons zum Abstimmen
 	- Nachrichten im Vorschlägekanal werden automatisch zu Vorschlägen
-	- Modus, in dem Vorschläge erst vom Team zugelassen werden müssen
+	- Modus, in dem Vorschläge zuerst vom Team zugelassen werden müssen
 - Economy
 - Informationen über:
 	- Minecraft:
 		- Spieler
 		- Server
 		- Herstellungsrezepte
-		- Korrektheit eines oder mehrerer Minecraftbefehle
 	- ein [npm](https://npmjs.com)-Package
 	- ein Element aus dem Periodensystem
 	- einen [GitHub](https://github.com)-Nutzer
@@ -97,6 +94,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 	- einen Nutzer oder Bot
 	- ein Wort aus dem Duden
 	- die grammatikalische Korrektheit eines Textes (Duden Mentor)
+		- Korrektheit eines oder mehrerer Minecraft-Befehle
 	- HTTP-Statuscodes und -Header
 	- Cloudflare-Statuscodes
 	- Discord-Berechtigungen
@@ -125,22 +123,22 @@ Alle diese Funktionen sind kostenlos verfügbar!
 - [Textübersetzung](/translate)
 - Taschenrechner
 - Unterschiede zwischen/Vergleich von zwei Texten
-- [Backups erstellen und laden, kein Bot hat eine vergleichbare Anzahl an Backupfunktionen](/backups)
-- [Discord-Templates (discord.new) auf vorhandenen Servern laden](/backups#templates)
+- [Backups erstellen und laden, kein anderer Bot hat eine vergleichbare Anzahl an Backupfunktionen](/backups)
+- [Discord-Templates (discord.new) auf bestehenden Servern laden](/backups#templates)
 - TODO-Liste
 - [Umfragen](/poll)
-- Alle Nutzer im Sprachkanal muten oder deafen
 - [Automatisch updatende Nachrichten für z. B. Serverstatistiken oder Geburtstagskalender](/autoupdate)
+- Alle Nutzer in einem Sprachkanal stumm schalten oder taub stellen
 - [Modals ("Forms")](/modals) für Discord erstellen
 - [Nutzern mit Nitro eine Rolle zuweisen](/nitroverify)
 - [Umwandlung von Währungen und Maßeinheiten](/convert)
 - [Senden von selbst erstellten Nachrichten mit Embeds und Komponenten, z. B. Buttons](https://embed.tomatenkuchen.com)
 - Zufallsfunktionen, z. B. Würfel und Auswahl eines bestimmten Elements einer Liste
 - Erstellen und Lesen von QR-Codes
-- Kategorien mit darin enthaltenen Kanälen kopieren
+- Kopieren von Kategorien mit den darin enthaltenen Kanälen
 - [Logs von aufgetretenen Fehlern und Dashboard-Änderungen](/error)
 - [Logging von allen möglichen Aktionen auf dem Discord-Server](/logs)
 - [Onlineformulare](/forms) für z. B. Entbannungsanträge oder Bewerbungsformulare
 - [Boostnachrichten](/boostmessages)
-- Durch Nutzer erstellbare [Customrollen](/customroles)
+- Von Benutzern erstellbare [Customrollen](/customroles)
 - Sofortiger [Datenexport](/dataexport) deiner Daten
