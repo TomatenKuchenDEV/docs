@@ -22,7 +22,7 @@ By using the command `backup create`, you can create a backup of the current ser
 
 You can choose which parts of the server you want to store.
 
-Those options are especially useful when using the setting "Safe storing" of images to be able to reduce the backup size.
+These options are particularly useful when using the "safe storing" setting for images, as it helps reduce backup size.
 
 ### "Safe" storing of attachments {#backup-safe-storing-attachments}
 
@@ -30,7 +30,7 @@ When this setting is enabled, attachments and other images such as the server ic
 
 This settings advantage is that attachments can be restored, even if the original message was edited or e.g. the server icon changed.
 
-The disadvantage is that storing the raw file data the backup grows in size pretty fast - for example, a two Megabyte big attachment causes the backup to be also *at least* two Megabytes in size.
+However, the disadvantage is that storing the raw file data increases the backup size significantly. For example, a two Megabyte attachment will cause the backup size to be at least two Megabytes.
 
 ## Discord templates {#templates}
 
