@@ -41,7 +41,7 @@ Leave empty to disable.
 
 ## Only attachment channels {#setting-attachment-only-channels}
 
-In selected channels users can only send attachments, for example images or videos. Only text is not allowed, but messages can contain an optional text.
+In selected channels, users can only send attachments, such as images or videos. Only text is not allowed, but messages can contain optional text.
 
 ## Minimum account age {#setting-min-age}
 

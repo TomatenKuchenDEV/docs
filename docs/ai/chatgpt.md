@@ -11,7 +11,7 @@ All AI commands can be used for free!
 
 ## Command {#commands}
 
-Using the command `gpt` (as slash or message command) you can start a conversation. Within a conversation ChatGPT remembers the context and can react accordingly.
+Using the command `gpt` (as slash or message command) you can start a conversation. Within a conversation ChatGPT remembers the context and responds accordingly.
 
 Once OpenAI, the developer of the large language model, and ChatGPT have responded successfully, the answer will be displayed along with your message. Below the message, you will find two buttons: one for sending another message and one for configuring settings.
 

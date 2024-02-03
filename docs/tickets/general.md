@@ -6,7 +6,7 @@ description: Explains the ticket system and the setup and settings of it.
 ## Setting up ticket categories {#create-ticket-categories}
 
 In the dashboard you can create ticket categories, with which, depending on which ticketembed was used for the creation, a different ticket is created.
-You can set the category, the transcript channel and the message for each ticket category individually.
+You can customize the category, transcript channel, and message for each ticket category individually.
 
 To create a ticket category, open the settings page of your server and find the setting for ticket categories. Click on the "Add" button and fill in the values accordingly.
 
@@ -14,12 +14,12 @@ To create a ticket category, open the settings page of your server and find the 
 
 ## Ticket claiming {#claiming}
 
-See [Claiming](./claiming).
+Please refer to [Claiming](./claiming).
 
 ## Saving of attachments in tickets {#attachment-storing}
 
-By default, attachments are saved on the TomatenKuchen to make them retrievable in a transcript even if the original channel was deleted.
-Users can change this setting by using the command `usersettings`.
+By default, attachments are stored by TomatenKuchen to make them retrievable in a transcript even if the original channel gets deleted.
+Users can change this setting by using the `usersettings` command.
 
 ## Settings {#settings}
 
@@ -43,7 +43,7 @@ The following variables can be used in the message:
 
 ### Reminder for inactive tickets {#settings-inactivity-remind}
 
-Here you can set a time and a message to be sent if no message has been sent for the specified time in the ticket.
+Here, you can set a specific time and a message to be sent if no message has been sent in the ticket for the specified time.
 
 In addition to the variables mentioned above, the following variables are available:
 

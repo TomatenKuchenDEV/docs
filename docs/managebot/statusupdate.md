@@ -18,7 +18,7 @@ The Manage Bot can display the status, configuration, or resource usage of one o
 3. Send message
 4. Done!
 
-Make sure the bot has all needed permissions in the channel and in the panel. Once it loses them the statusupdate message will be deleted out of the system and has to be recrated.
+Make sure the bot has all the necessary permissions in the channel and in the panel. Once it loses them, the statusupdate message will be deleted from the system and has to be recreated.
 
 Some information about TomatenKuchen actions:
 - Function names are case insensitive.

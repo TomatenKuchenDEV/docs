@@ -7,7 +7,7 @@ description: Lists the ticket commands.
 
 `ticket [<Reason>]`
 
-Instead of a reason moderators and admins can also specify a user for whom the ticket should be created.
+Moderators and admins can also specify a user for whom the ticket should be created instead of a reason.
 
 ## Add a user or role to the current ticket {#cmd-add}
 

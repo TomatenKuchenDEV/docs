@@ -12,10 +12,10 @@ Using a custom bot, you can get your own version of TomatenKuchen on your server
 
 ## What's that? {#about}
 
-Custom bots, also known as "Custom branding" or "White-label" from other bots, means that you can use a bot created by you with the features of TomatenKuchen.
-The advantage of this is, that you can use all of the great [TomatenKuchen features](/features), but your server members can only see your bot, not TomatenKuchen.
+Custom bots, also known as "Custom branding" or "White-label" from other bots, allow you to use a bot created by you with the features of TomatenKuchen.
+The advantage of this is that you can enjoy all the great [TomatenKuchen features](/features), but your server members can only see your bot, not TomatenKuchen.
 
-You also can run different bots in addition to the TomatenKuchen custom bot on the same bot by using its token multiple times.
+You can also run different bots alongside the TomatenKuchen custom bot by using its token multiple times.
 Do note however that we cannot provide support for this and it may cause problems with interactions, like slash commands or buttons.
 
 ## Setup {#setup}
@@ -34,12 +34,12 @@ The first custom bot is free for everyone. You can use it for as long as you wan
 
 :::
 
-The payment works with credits, a virtual currency of TomatenKuchen. Credits can be received mostly by voting and in giveaways on the TomatenKuchen Discord.
-You can also get them by using the economy system and helping with the bot, e.g. as translator or by creating suggestions for the bot.
+The payment works with credits, a virtual currency of TomatenKuchen. Credits can be earned mostly by voting and participating in giveaways on the TomatenKuchen Discord.
+You can also earn them by using the economy system and contributing to the bot, for example, as a translator or by providing suggestions.
 
 The price depends on the total member count of all the servers you add the bot to. This means you can use your bot **on multiple servers simultaneously** - something that most other custom bot providers do not allow.
 
 If your bot is online, once a day the current value is deducted from your account. Therefore, your bot should be set to "Private" in the Discord Developer Portal to prevent other users from inviting it and causing you high costs.
 
-The current credit prices are, including an automatic calculator, listed on the [custom bot info page](https://tomatenkuchen.com/custom).
-The price is always rounded down to the next integer.
+The current credit prices, along with an automatic calculator, are listed on the [custom bot info page](https://tomatenkuchen.com/custom).
+The price is always rounded down to the nearest integer.
