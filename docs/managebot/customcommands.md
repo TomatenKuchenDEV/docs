@@ -5,7 +5,7 @@ description: The Manage Bot allows you to control Pterodactyl servers using Disc
 
 The Manage Bot allows you to create customcommands to manage a server.
 
-![Note: The command has been renamed in the meantime.](https://cdn.discordapp.com/attachments/856211013162893352/1026124675576766524/2022-10-02_15_28_48.png)
+![Note: The command has been renamed in the meantime.](/img/managebot_ccadd.png)
 
 ## Commands
 

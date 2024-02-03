@@ -7,16 +7,9 @@ With this bot, you can manage your Pterodactyl (https://pterodactyl.io) panel se
 
 ## Setup
 
-![](https://cdn.discordapp.com/attachments/856211013162893352/1103019459305799821/image.png)
+![](/img/managebot_setup.png)
 
-`/setup <Panel URL main/server list url> <API key> [<Alias name>]`
-
-The panel main URL is the URL of the homepage of the panel, as such without parameters like `server/12345678` at the end.
-
-### URL example
-
-URL of a server: https://panel.ptero/server/12345678
-URL you have to enter: https://panel.ptero/
+`/setup <Panel url> <API key> [<Alias name>]`
 
 The bot supports HTTP as well as HTTPS panels - just make sure that the panels require a valid certificate when using HTTPS. If you don't have that, use HTTP without SSL.
 
@@ -25,14 +18,14 @@ If you don't use an alias, the bot will auto generate one for you.
 
 ## How to use (`/manage`)
 
-![](https://cdn.discordapp.com/attachments/856211013162893352/1026119789900464189/2022-10-02_15_10_48.png)
+![](/img/managebot_manageautocomplete.png)
 
-![](https://cdn.discordapp.com/attachments/856211013162893352/1026119790215053433/2022-10-02_15_11_09.png)
+![](/img/managebot_manage.png)
 
 
 The bot can also run quick actions on the server:
 
-![](https://cdn.discordapp.com/attachments/856211013162893352/1026119790563176488/2022-10-02_15_11_53.png)
+![](/img/managebot_quickactions.png)
 
 ## `/console` and `/command`
 
