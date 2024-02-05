@@ -47,6 +47,10 @@ In diesen Kanälen können Nutzer nur Anhänge, z. B. Bilder oder Videos, senden
 
 Mindestalter für Discord-Nutzer, die dem Server neu beitreten. Wenn diese nicht alt genug sind, werden sie gekickt.
 
+## Mindestaccountalter-Warnung {#setting-min-age-warning}
+
+Ähnlich wie die obrige Einstellung, aber sendet nur eine Warnung in den [Teamkanal](#setting-team-channel), anstatt den Nutzer zu kicken.
+
 ## AutoMod-Caps-Prozentsatz {#setting-automod-caps}
 
 Ab welchem Anteil von Großbuchstaben in Prozent (30-100, Standard 70) eine Nachricht aufgrund von zu vielen Caps gelöscht wird.
@@ -73,10 +77,12 @@ Es können Vorlagen für Moderationsgründe erstellt werden, um mit einem Shortc
 
 ### Beispiel {#setting-reason-presets-examples}
 
-- `name`: "r1"
-- `value`: "Du hast gegen Regel 1 verstoßen: Werbung ist verboten!"
+- `name`: "werbung"
+- `value`: "Du hast gegen unsere Regeln verstoßen: Werbung ist verboten!"
 
-## Auto-Dehoist {#setting-auto-dehoist}
+<Command slash="mute user:Nutzer reason:werbung" message="mute <Nutzer> werbung"></Command>
+
+## Automatisches dehoisten {#setting-auto-dehoist}
 
 Stellt ein, ob der Bot automatisch einmal täglich den `dehoist`-Befehl ausführen soll.
 

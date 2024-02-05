@@ -9,7 +9,6 @@ However, everyone may test the beta version by joining the [Discord server](http
 :::
 
 For custom bots, you can freely change the following display settings of the bot:
-
 - Name
 - Avatar
 - About me

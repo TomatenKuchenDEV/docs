@@ -1,6 +1,6 @@
 ---
 title: Minecraft commands
-description: There are many commands related to the game Minecraft that allow you quick information access.
+description: Explains commands related to the video game Minecraft. They allow you to quickly get player or server status information.
 ---
 
 This page lists all commands that are related to the game "Minecraft", and explains their features.
@@ -13,7 +13,7 @@ Displays information about the given player.
 
 ## minecraft recipe {#cmd-recipe}
 
-<Command slash="minecraft recipe item:German Minecraft item name" message="minecraft recipe <German Minecraft item name>"></Command>
+<Command slash="minecraft recipe item:Minecraft item ID" message="minecraft recipe <Minecraft item ID>"></Command>
 
 Displays the crafting recipe of the given item.
 
@@ -25,11 +25,13 @@ Displays a live status of a Minecraft server somewhere on your server.
 
 See [Minecraft server status update](/mcupdate).
 
+<!--
 ## minecraft lint {#cmd-lint}
 
 <Command slash="minecraft lint command:Minecraft commands" message="minecraft lint <Minecraft commands>"></Command>
 
 Validates the given Minecraft commands.
+-->
 
 ## mcserver {#cmd-mcserver}
 

@@ -4,7 +4,9 @@ description: Das Starboard erlaubt deinen Mitgliedern, Nachrichten durch eine Re
 image: /img/starboard.png
 ---
 
-Mit dem Starboard können lustige oder anderweitig interessante Nachrichten für die Ewigkeit gespeichert werden: Jeder Nutzer auf dem Server kann auf eine Nachricht mit dem festgelegten Emoji reagieren und wenn die festgelegte Mindestanzahl überschritten wurde, wird die Nachricht in den Starboard-Kanal gesendet.
+Mit dem Starboard können lustige oder anderweitig interessante Nachrichten für die Ewigkeit gespeichert werden: Jeder Nutzer auf dem Server kann auf eine Nachricht mit dem festgelegten Emoji reagieren.
+
+Sobald die festgelegte Mindestanzahl an "Sternen" überschritten wurde, wird die Nachricht in den Starboard-Kanal gesendet.
 
 ![Starboard-Nachricht](/img/starboard.png)
 
@@ -26,7 +28,9 @@ Wie viele Reaktionen benötigt werden, bis die Nachricht in den Starboard-Kanal 
 
 ### Emoji {#settings-emoji}
 
-Welches Emoji für das Starboard verwendet wird.
+Welches Emoji beim Reagieren für das Starboard verwendet wird.
+
+Standardwert: `⭐`
 
 ### Ausgeschlossene Kanäle {#settings-excluded}
 

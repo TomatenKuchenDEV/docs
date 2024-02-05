@@ -47,6 +47,10 @@ In selected channels, users can only send attachments, such as images or videos.
 
 Minimum account age for newly joined Discord users. If they are not old enough, they will be kicked.
 
+## Minimum account age warning {#setting-min-age-warning}
+
+Similar to the above setting, but only sends a warning into the [team channel](#setting-team-channel) instead of kicking the user.
+
 ## AutoMod caps percentage {#setting-automod-caps}
 
 At what percentage of capital letters in a message (30-100, default 70) the bot will start deleting it due to too many caps.
@@ -73,8 +77,10 @@ You can create presets for moderation reasons to create a shortcut for longer mo
 
 ### Example {#setting-reason-presets-examples}
 
-- `name`: "r1"
-- `value`: "You violated rule 1: Advertising is forbidden!"
+- `name`: "ads"
+- `value`: "You violated our rules: Advertising not allowed!"
+
+<Command slash="mute user:User reason:ads" message="mute <User> ads"></Command>
 
 ## Auto dehoist {#setting-auto-dehoist}
 

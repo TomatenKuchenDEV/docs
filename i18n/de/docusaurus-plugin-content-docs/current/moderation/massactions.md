@@ -7,25 +7,25 @@ description: Erklärt die Verwendung von Massenaktionen, z. B. das Kicken oder B
 
 ### Nutzer bannen {#cmd-mass-ban}
 
-`mass ban <Grund> <Liste von Nutzern, getrennt mit " ", "," oder ";">`
+<Command slash="mass ban reason:Grund users:Liste von Nutzern, getrennt mit \" \", \",\" oder \";\"" message="mass ban <Grund> <Liste von Nutzern, getrennt mit \" \", \",\" oder \";\">"></Command>
 
 ### Nutzer kicken {#cmd-mass-kick}
 
-`mass kick <Grund> <Liste von Nutzern, getrennt mit " ", "," oder ";">`
+<Command slash="mass kick reason:Grund users:Liste von Nutzern, getrennt mit \" \", \",\" oder \";\"" message="mass kick <Grund> <Liste von Nutzern, getrennt mit \" \", \",\" oder \";\">"></Command>
 
 ### Dehoist {#cmd-dehoist}
 
-Das Dehoisten, also das Entfernen von unnormalen Zeichen am Anfang von Nutzernamen, kann entweder mit dem Befehl `dehoist`
-oder automatisch über die entsprechende Einstellung erfolgen.
-Wenn die Einstellung aktiviert ist, führt der Bot den Befehl automatisch einmal täglich aus.
+Das Dehoisten, also das Entfernen von unnormalen Zeichen am Anfang von Nutzernamen, kann entweder mit dem Befehl `dehoist` oder automatisch über die entsprechende Einstellung erfolgen.
+
+Wenn die [Einstellung für automatisches Dehoisten](./settings#setting-auto-dehoist) aktiviert ist, führt der Bot den Befehl automatisch einmal täglich aus.
 
 ### Rolle zu vielen Nutzern hinzufügen {#cmd-role-massadd}
 
-`role massadd <Rolle> [<Filter>]`
+<Command slash="role massadd role:Rolle [filter:Filter]" message="role massadd <Rolle> [<Filter>]"></Command>
 
 ### Rolle von vielen Nutzern entfernen {#cmd-role-massremove}
 
-`role massremove <Rolle> [<Filter>]`
+<Command slash="role massremove role:Rolle [filter:Filter]" message="role massremove <Rolle> [<Filter>]"></Command>
 
 ## Mögliche Filter für Rollenmassenaktionen {#role-filters}
 

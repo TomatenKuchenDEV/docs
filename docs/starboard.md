@@ -4,7 +4,9 @@ description: Starboard allows your server members to react with an emoji to a me
 image: /img/starboard.png
 ---
 
-Using the starboard members can save funny or otherwise interesting messages forever: Every user on the server can react with the set emoji onto a message, and if the set star amount is reached the message is sent to the starboard channel.
+Using the starboard members can save funny or otherwise interesting messages forever: Every user on the server can react with the set emoji onto a message.
+
+Once the set amount of "stars" is reached, the message is sent to the starboard channel.
 
 ![Starboard message](/img/starboard.png)
 
@@ -26,7 +28,9 @@ How many reactions of the set emoji are needed to send the starboard message.
 
 ### Emoji {#settings-emoji}
 
-Which emoji is used for the starboard.
+Which emoji is used when reacting for the starboard.
+
+Default value: `⭐`
 
 ### Excluded channels {#settings-excluded}
 

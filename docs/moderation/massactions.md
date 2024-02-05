@@ -7,25 +7,25 @@ description: Learn how to perform mass actions such as mass banning and kicking,
 
 ### Ban users {#cmd-mass-ban}
 
-`mass ban <Reason> <List of users, separated by " ", "," or ";">`
+<Command slash="mass ban reason:Reason users:List of users, separated by \" \", \",\" or \";\"" message="mass ban <Reason> <List of users, separated by \" \", \",\" or \";\">"></Command>
 
 ### Kick users {#cmd-mass-kick}
 
-`mass kick <Reason> <List of users, separated by " ", "," or ";">`
+<Command slash="mass kick reason:Reason users:List of users, separated by \" \", \",\" or \";\"" message="mass kick <Reason> <List of users, separated by \" \", \",\" or \";\">"></Command>
 
 ### Dehoist {#cmd-dehoist}
 
-Dehoisting, which means the removal of unnormal characters at the beginning of usernames, can either be started using the `dehoist`
-command or by enabling the related setting.
-If the setting for automatic dehoisting is enabled, the bot will automatically run the command once a day.
+Dehoisting, which means the removal of unnormal characters at the beginning of usernames, can either be started using the `dehoist` command or by enabling the related setting.
+
+If the [setting for automatic dehoisting](./settings#setting-auto-dehoist) is enabled, the bot will automatically dehoist all members once a day.
 
 ### Add role to many users {#cmd-role-massadd}
 
-`role massadd <Role> [<Filter>]`
+<Command slash="role massadd role:Role [filter:Filter]" message="role massadd <Role> [<Filter>]"></Command>
 
 ### Remove role from many users {#cmd-role-massremove}
 
-`role massremove <Role> [<Filter>]`
+<Command slash="role massremove role:Role [filter:Filter]" message="role massremove <Role> [<Filter>]"></Command>
 
 ## Possible filters for role mass actions {#role-filters}
 
