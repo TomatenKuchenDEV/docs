@@ -7,11 +7,11 @@ description: Learn how to perform mass actions such as mass banning and kicking,
 
 ### Ban users {#cmd-mass-ban}
 
-<Command slash="mass ban reason:Reason users:List of users, separated by \" \", \",\" or \";\"" message="mass ban <Reason> <List of users, separated by \" \", \",\" or \";\">"></Command>
+<Command slash="mass ban reason:Reason users:List of users, separated by &quot; &quot;, &quot;,&quot; or &quot;;&quot;" message="mass ban <Reason> <List of users, separated by &quot; &quot;, &quot;,&quot; or &quot;;&quot;>"></Command>
 
 ### Kick users {#cmd-mass-kick}
 
-<Command slash="mass kick reason:Reason users:List of users, separated by \" \", \",\" or \";\"" message="mass kick <Reason> <List of users, separated by \" \", \",\" or \";\">"></Command>
+<Command slash="mass kick reason:Reason users:List of users, separated by &quot; &quot;, &quot;,&quot; or &quot;;&quot;" message="mass kick <Reason> <List of users, separated by &quot; &quot;, &quot;,&quot; or &quot;;&quot;>"></Command>
 
 ### Dehoist {#cmd-dehoist}
 

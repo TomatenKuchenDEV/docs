@@ -7,11 +7,11 @@ description: Erklärt die Verwendung von Massenaktionen, z. B. das Kicken oder B
 
 ### Nutzer bannen {#cmd-mass-ban}
 
-<Command slash="mass ban reason:Grund users:Liste von Nutzern, getrennt mit \" \", \",\" oder \";\"" message="mass ban <Grund> <Liste von Nutzern, getrennt mit \" \", \",\" oder \";\">"></Command>
+<Command slash="mass ban reason:Grund users:Liste von Nutzern, getrennt mit &quot; &quot;, &quot;,&quot; oder &quot;;&quot;" message="mass ban <Grund> <Liste von Nutzern, getrennt mit &quot; &quot;, &quot;,&quot; oder &quot;;&quot;>"></Command>
 
 ### Nutzer kicken {#cmd-mass-kick}
 
-<Command slash="mass kick reason:Grund users:Liste von Nutzern, getrennt mit \" \", \",\" oder \";\"" message="mass kick <Grund> <Liste von Nutzern, getrennt mit \" \", \",\" oder \";\">"></Command>
+<Command slash="mass kick reason:Grund users:Liste von Nutzern, getrennt mit &quot; &quot;, &quot;,&quot; oder &quot;;&quot;" message="mass kick <Grund> <Liste von Nutzern, getrennt mit &quot; &quot;, &quot;,&quot; oder &quot;;&quot;>"></Command>
 
 ### Dehoist {#cmd-dehoist}
 
