@@ -26,7 +26,7 @@ The page then guides you step-by-step through the setup process.
 
 You can obtain the bot token from the [Discord Developer Portal](https://discord.com/developers/applications). You can either create a new bot specifically for the custom bot (recommended to prevent conflicts), or use an existing one.
 
-## Payment
+## Payment {#payment}
 
 :::info Free custom bot
 
@@ -43,3 +43,15 @@ If your bot is online, once a day the current value is deducted from your accoun
 
 The current credit prices, along with an automatic calculator, are listed on the [custom bot info page](https://tomatenkuchen.com/custom).
 The price is always rounded down to the nearest integer.
+
+## Settings {#settings}
+
+### Selected custom bot {#settings-custom-bot}
+
+Every server can choose the bot which is primarily used for responding.
+
+All other TomatenKuchen bots, including TomatenKuchen itself, then ignore all commands and events, and can be removed from the server-
+
+To do that, find out the user ID of the bot, e.g. in the Discord Developer Portal on your bot -> Bot -> "Client ID". This ID is inserted into the field.
+
+To disable this feature and let the main TomatenKuchen respond, leave the field empty.

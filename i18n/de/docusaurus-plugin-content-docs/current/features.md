@@ -40,7 +40,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 - [Übersetzungen von Nutzern](/weblate)
 - [Counting](/counting)
 	- Viele verschiedene Einstellungen
-	- Leaderboard
+	- Leaderboard für erfolgreiches und nicht erfolgreiches Zählen
 - [Geburtstage](/birthday)
 	- Fiktive Geburtstage
 	- Liste aller Geburtstage auf dem Server

@@ -22,7 +22,7 @@ Note that the name must not be longer than 100 characters.
 
 ## Permissions {#permissions}
 
-The bot requires at least the following permissions in the channels for this feature:
+The bot requires at least the following permissions in the selected channels for this feature:
 - View Channel
 - Send Messages
 - Read Message History

@@ -18,11 +18,11 @@ Du hast mehrere Variablen zur Auswahl, welche im Namen des Threads verwendet wer
 - `{nickname}`: Der Nickname des Nutzers auf dem Server
 - `{content}`: Der Inhalt der Nachricht
 
-Beachte, dass der Name maximal 100 Zeichen lang sein kann.
+Beachte, dass der Name maximal 100 Zeichen lang sein darf.
 
 ## Berechtigungen {#permissions}
 
-Der Bot benötigt für diese Funktion mindestens die folgenden Berechtigungen in den Kanälen:
+Der Bot benötigt für diese Funktion mindestens die folgenden Berechtigungen in den ausgewählten Kanälen:
 - Kanal ansehen
 - Nachrichten senden
 - Nachrichtenverlauf lesen

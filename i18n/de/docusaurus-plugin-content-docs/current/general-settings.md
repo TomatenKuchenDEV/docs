@@ -16,9 +16,9 @@ Mithilfe von [Weblate](/weblate) kannst du sehr einfach beim Übersetzen des Bot
 
 Hier können mehrere Message-Command-Prefixe festgelegt werden, also der Text, der vor Befehlen eingegeben wird: `tk!` -> `tk!help`.
 
-Der Prefix von Slashcommands lässt sich von Discord aus nicht ändern.
+Der Prefix von Slashcommands lässt sich nicht ändern, da Discord diese Funktion nicht hinzufügen will.
 
-:::tip Slashcommands
+:::tip Mehrere Bots mit Slashcommands
 
 Wenn du nur die Befehle eines Bots in der Slashcommand-Auswahl angezeigt bekommen willst, erwähne einfach den Bot in der Chatbox und fange dann an, den Namen des Befehls zu schreiben: `@TomatenKuchen help`
 

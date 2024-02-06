@@ -8,8 +8,9 @@ TomatenKuchen ist ein vollständig kostenloser Bot mit verschiedensten Features,
 
 ## [TomatenKuchen einladen](https://tomatenkuchen.com/invite) {#invite}
 
-Den Bot kannst du mit [diesem Invite-Link](https://tomatenkuchen.com/invite) einladen. Du wirst dann automatisch im Dashboard angemeldet, wo du allgemeine Servereinstellungen ändern kannst.
-Dazu gehört z. B. die Sprache und eventuelle Prefixe zusätzlich zu Slashcommands.
+Den Bot kannst du mit [diesem Invite-Link](https://tomatenkuchen.com/invite) einladen.
+
+Du wirst dann automatisch im Dashboard angemeldet, wo du [allgemeine Servereinstellungen](/general-settings) ändern kannst.
 
 ## Support-Server {#support-server}
 

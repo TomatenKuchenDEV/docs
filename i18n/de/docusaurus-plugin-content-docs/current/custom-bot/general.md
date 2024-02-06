@@ -26,7 +26,7 @@ Die Seite führt dich dann mit einer Schritt-für-Schritt-Anleitung durch den Ei
 
 Den Bottoken erhältst du aus dem [Discord-Developer-Portal](https://discord.com/developers/applications), du kannst dort wahlweise einen neuen Bot extra für den Custom Bot erstellen (empfohlen, um Konflikte zu verhindern) oder einen vorhandenen verwenden.
 
-## Bezahlung
+## Bezahlung {#payment}
 
 :::info Kostenloser Custom-Bot
 
@@ -43,3 +43,15 @@ Wenn dein Bot online ist wird einmal täglich der aktuell berechnete Betrag abge
 
 Die aktuellen Credit-Preise sind, inklusive einem automatischen Rechner, auf der [Custom-Bot-Infoseite](https://tomatenkuchen.com/custom) einsehbar.
 Der Preis wird immer auf die nächste Ganzzahl abgerundet.
+
+## Einstellungen {#settings}
+
+### Ausgewählter Custom-Bot {#settings-custom-bot}
+
+Auf jedem Server kann der Bot ausgewählt werden, welcher primär für Antworten verwendet wird.
+
+Alle anderen TomatenKuchen-Bots, auch TomatenKuchen selbst, ignorieren dann jegliche Befehle und Events, und können vom Server entfernt werden.
+
+Finde dazu die Nutzer-ID des Bots heraus, z. B. im Discord-Developer-Discord auf deinem Bot -> Bot -> "Client ID". Diese ID wird im Feld eingetragen.
+
+Um diese Funktion zu deaktivieren und den Haupt-TomatenKuchen antworten zu lassen, lasse das Feld leer.

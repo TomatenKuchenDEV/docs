@@ -16,9 +16,9 @@ You can easily help with translating the bot and adding new languages using [Web
 
 Here you can enter multiple message command prefixes, which are the text used before commands: `tk!` -> `tk!help`.
 
-The prefix of slashcommands cannot be changed due to Discord.
+The prefix of slashcommands cannot be changed as Discord doesn't want to support it.
 
-:::tip Slashcommands
+:::tip Multiple bots with slashcommands
 
 If you only want to show the commands of a single bot in the slashcommands select, simply mention the bot in the chat box and start writing the name of the command: `@TomatenKuchen help`
 
