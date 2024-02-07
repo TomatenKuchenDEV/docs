@@ -8,13 +8,13 @@ image: /img/game_snake.png
 
 Play rock paper scissors against a user or the bot.
 
-<Command slash="game scheresteinpapier [user:Opponent]" message="game rps [<Opponent>]"></Command>
+<Command name="game" slash="scheresteinpapier [user:Opponent]" message="rps [<Opponent>]"></Command>
 
 ### TicTacToe {#tic-tac-toe}
 
 Play tic tac toe with another user or an algorithm of TomatenKuchen.
 
-<Command slash="game tictactoe [user:Opponent]" message="game ttt [<Opponent>]"></Command>
+<Command name="game" slash="tictactoe [user:Opponent]" message="ttt [<Opponent>]"></Command>
 
 ### Hangman {#hangman}
 
@@ -22,17 +22,17 @@ Let other members guess your text before the stickman is dead.
 
 Note that only 25 characters are possible ("A" to "X" and "Z"). Y as well as numbers and other special characters are removed from the input.
 
-<Command slash="game hangman text:Text" message="game hangman <Text>"></Command>
+<Command name="game hangman" slash="text:Text" message="<Text>"></Command>
 
 ### Connect Four {#connect-four}
 
 Play Connect Four against a user.
 
-<Command slash="game connectfour user:Opponent [fieldsize:Field size]" message="game c4 <Opponent> [<Field size>]"></Command>
+<Command name="game" slash="connectfour user:Opponent [fieldsize:Field size]" message="c4 <Opponent> [<Field size>]"></Command>
 
 ### Snake {#snake}
 
-<Command slash="game snake"></Command>
+<Command name="game snake"></Command>
 
 ![](/img/game_snake.png)
 
@@ -40,13 +40,13 @@ Play Connect Four against a user.
 
 Play Uno with other users.
 
-<Command slash="game uno"></Command>
+<Command name="game uno"></Command>
 
 ### Chemical equations {#chemistry}
 
 Gives you a random chemistry equation that must be balanced using factors.
 
-<Command slash="game chemie [difficulty:easy|normal|hard]" message="game chemie [easy|normal|hard]"></Command>
+<Command name="game chemie" slash="[difficulty:easy|normal|hard]" message="[easy|normal|hard]"></Command>
 
 ![](/img/game_chemie.png)
 
@@ -56,4 +56,4 @@ Displays a grid of letters in which words are hidden. The words can be distribut
 
 The goal is to uncover all hidden words.
 
-<Command slash="game wordsearch"></Command>
+<Command name="game wordsearch"></Command>

@@ -10,11 +10,11 @@ Using TomatenKuchen you can create online forms for all kind of purposes fast an
 
 ## Creating a form {#create}
 
-<Command slash="form add slug:URL slug title:Form title" message="form add <URL slug> <Form title>"></Command>
+<Command name="form add" slash="slug:URL slug title:Form title" message="<URL slug> <Form title>"></Command>
 
 ## Editing a form {#edit}
 
-<Command slash="form edit id:ID or URL slug" message="form edit <ID or URL slug>"></Command>
+<Command name="form edit" slash="id:ID or URL slug" message="<ID or URL slug>"></Command>
 
 ## Settings per form {#settings}
 

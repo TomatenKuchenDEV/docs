@@ -7,11 +7,11 @@ description: Erklärt die Verwendung von Massenaktionen, z. B. das Kicken oder B
 
 ### Nutzer bannen {#cmd-mass-ban}
 
-<Command slash="mass ban reason:Grund users:Liste von Nutzern, getrennt mit &quot; &quot;, &quot;,&quot; oder &quot;;&quot;" message="mass ban <Grund> <Liste von Nutzern, getrennt mit &quot; &quot;, &quot;,&quot; oder &quot;;&quot;>"></Command>
+<Command name="mass ban" slash="reason:Grund users:Liste von Nutzern, getrennt mit &quot; &quot;, &quot;,&quot; oder &quot;;&quot;" message="<Grund> <Liste von Nutzern, getrennt mit &quot; &quot;, &quot;,&quot; oder &quot;;&quot;>"></Command>
 
 ### Nutzer kicken {#cmd-mass-kick}
 
-<Command slash="mass kick reason:Grund users:Liste von Nutzern, getrennt mit &quot; &quot;, &quot;,&quot; oder &quot;;&quot;" message="mass kick <Grund> <Liste von Nutzern, getrennt mit &quot; &quot;, &quot;,&quot; oder &quot;;&quot;>"></Command>
+<Command name="mass kick" slash="reason:Grund users:Liste von Nutzern, getrennt mit &quot; &quot;, &quot;,&quot; oder &quot;;&quot;" message="<Grund> <Liste von Nutzern, getrennt mit &quot; &quot;, &quot;,&quot; oder &quot;;&quot;>"></Command>
 
 ### Dehoist {#cmd-dehoist}
 
@@ -21,11 +21,11 @@ Wenn die [Einstellung für automatisches Dehoisten](./settings#setting-auto-deho
 
 ### Rolle zu vielen Nutzern hinzufügen {#cmd-role-massadd}
 
-<Command slash="role massadd role:Rolle [filter:Filter]" message="role massadd <Rolle> [<Filter>]"></Command>
+<Command name="role massadd" slash="role:Rolle [filter:Filter]" message="<Rolle> [<Filter>]"></Command>
 
 ### Rolle von vielen Nutzern entfernen {#cmd-role-massremove}
 
-<Command slash="role massremove role:Rolle [filter:Filter]" message="role massremove <Rolle> [<Filter>]"></Command>
+<Command name="role massremove" slash="role:Rolle [filter:Filter]" message="<Rolle> [<Filter>]"></Command>
 
 ## Mögliche Filter für Rollenmassenaktionen {#role-filters}
 

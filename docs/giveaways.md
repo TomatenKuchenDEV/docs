@@ -11,7 +11,7 @@ To manage giveaways you need one of the [giveaway roles](https://tomatenkuchen.c
 
 Interactive giveaway setup.
 
-<Command slash="giveaway start"></Command>
+<Command name="giveaway start"></Command>
 
 ### Edit {#cmd-edit}
 
@@ -19,7 +19,7 @@ Use the button below a giveaway message to edit it.
 
 ### Reroll winners {#cmd-reroll}
 
-<Command slash="giveaway reroll message:Message ID" message="giveaway reroll <Message ID>"></Command>
+<Command name="giveaway reroll" slash="message:Message ID" message="<Message ID>"></Command>
 
 This will pick one or the configured amount of winners again after a giveaway has ended.
 
@@ -27,15 +27,14 @@ Users can be selected multiple times.
 
 ### End {#cmd-end}
 
-<Command slash="giveaway end message:Message ID" message="giveaway end <Message ID>"></Command>
-
+<Command name="giveaway end" slash="message:Message ID" message="<Message ID>"></Command>
 ### Delete {#cmd-delete}
 
-<Command slash="giveaway delete message:Message ID" message="giveaway delete <Message ID>"></Command>
+<Command name="giveaway delete" slash="message:Message ID" message="<Message ID>"></Command>
 
 ### List giveaways {#cmd-list}
 
-<Command slash="giveaway list"></Command>
+<Command name="giveaway list"></Command>
 
 ## Settings {#settings}
 

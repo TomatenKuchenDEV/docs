@@ -18,13 +18,13 @@ Mithilfe der Logsync-Funktion des Bots kannst du die Logs eines Servers auf eine
 
 Dies betrifft alle Logtypen - beachte, dass die Logkanäle vom Zielserver übernommen werden, wenn der Zielserver also keinen Kanal für einen Logtyp ausgewählt hat, werden keine Logs dafür gesendet.
 
-<Command slash="sync logs guild:Server-ID" message="sync logs <Server-ID>"></Command>
+<Command name="sync logs" slash="guild:Server-ID" message="<Server-ID>"></Command>
 
 ## Bansync {#bans}
 
 Auch Bans bzw. Unbans lassen sich mithilfe des Bots synchronisieren. Im Gegensatz zu Logs lassen sich bei Bans mehrere Server gleichzeitig verwenden, auf die bzw. von denen synchronisiert wird.
 
-<Command slash="sync bans guild:Server-ID bans:true/false unbans:true/false" message="sync bans <Server-ID> <Bans synchronisieren: true/false> <Unbans synchronisieren: true/false>"></Command>
+<Command name="sync bans" slash="guild:Server-ID bans:true/false unbans:true/false" message="<Server-ID> <Bans synchronisieren: true/false> <Unbans synchronisieren: true/false>"></Command>
 
 Bans bzw. Unbans synchronisieren stellt ein, ob Nutzer gebannt bzw. entbannt werden sollen.
 

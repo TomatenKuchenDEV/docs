@@ -80,7 +80,7 @@ You can create presets for moderation reasons to create a shortcut for longer mo
 - `name`: "ads"
 - `value`: "You violated our rules: Advertising not allowed!"
 
-<Command slash="mute user:User reason:ads" message="mute <User> ads"></Command>
+<Command name="mute" slash="user:User reason:ads" message="<User> ads"></Command>
 
 ## Auto dehoist {#setting-auto-dehoist}
 

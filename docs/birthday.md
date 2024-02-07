@@ -23,7 +23,7 @@ This doesn't affect birthday announcements.
 
 ### Delete birthday {#delete}
 
-<Command slash="birthday delete"></Command>
+<Command name="birthday delete"></Command>
 
 ## Fictive birthdays {#fictive}
 
@@ -31,7 +31,7 @@ Fictive birthdays are per server and can be configured by server moderators.
 
 ### Creating or updating {#fictive-create}
 
-<Command slash="birthday setfictive name:Name day:Day month:Month [year:Year]" message="birthday setfictive <Name> <Day> <Month> [<Year>]"></Command>
+<Command name="birthday setfictive" slash="name:Name day:Day month:Month [year:Year]" message="<Name> <Day> <Month> [<Year>]"></Command>
 
 Fictive birthdays must have a name set to identify them. Using this name birthday messages are created - the arguments stay the same, the bot automatically changes them to fit - and `{birthday}` generated.
 
@@ -40,7 +40,7 @@ Fictive birthdays must have a name set to identify them. Using this name birthda
 
 ### Delete {#fictive-delete}
 
-<Command slash="birthday delete name:Name" message="birthday delete <Name>"></Command>
+<Command name="birthday delete" slash="name:Name" message="<Name>"></Command>
 
 ## Settings {#settings}
 

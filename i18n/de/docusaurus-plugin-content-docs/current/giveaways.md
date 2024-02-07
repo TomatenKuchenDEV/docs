@@ -11,7 +11,7 @@ Um Giveaways zu verwalten braucht man eine der im Dashhoard festgelegten Giveawa
 
 Interaktives Setup eines Giveaways.
 
-<Command slash="giveaway start"></Command>
+<Command name="giveaway start"></Command>
 
 ### Bearbeiten {#cmd-edit}
 
@@ -33,7 +33,7 @@ Diese Funktion wählt einen oder die eingestellte Anzahl an Gewinnern aus. Nutze
 
 ### Giveaways auflisten {#cmd-list}
 
-<Command slash="giveaway list"></Command>
+<Command name="giveaway list"></Command>
 
 ## Einstellungen {#settings}
 

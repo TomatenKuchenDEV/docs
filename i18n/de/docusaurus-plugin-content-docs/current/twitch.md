@@ -39,6 +39,6 @@ Jeder Server kann bis zu zehn verschiedene Elemente hinzufügen - das entspricht
 
 ### Twitch-Nutzer-Info {#cmd-twitch}
 
-<Command slash="twitch channel:Streamername" message="twitch <Streamername>"></Command>
+<Command name="twitch" slash="channel:Streamername" message="<Streamername>"></Command>
 
 Mit dem Twitch-Befehl kannst du dir Informationen über einen Twitch-Benutzer und einen möglicherweise aktuell laufenden Livestream anzeigen lassen.

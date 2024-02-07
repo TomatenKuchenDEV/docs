@@ -10,7 +10,7 @@ The bot checks for new items every 10 minutes, due to YouTube limiting the feeds
 
 ## Command {#command}
 
-<Command slash="youtube channel:Channel name" message="youtube <Channel name>"></Command>
+<Command name="youtube" slash="channel:Channel name" message="<Channel name>"></Command>
 
 The command displays a list of channels that match your search query.
 By selecting a channel, more information about is shown, e.g. the video and subscriber count.

@@ -23,7 +23,7 @@ Geburtstagsankündigungen sind hiervon nicht betroffen.
 
 ### Geburtstag löschen {#delete}
 
-<Command slash="birthday delete"></Command>
+<Command name="birthday delete"></Command>
 
 ## Fiktive Geburtstage {#fictive}
 
@@ -31,7 +31,7 @@ Fiktive Geburtstage sind pro Server und können von Servermoderatoren erstellt u
 
 ### Erstellen oder bearbeiten {#fictive-create}
 
-<Command slash="birthday setfictive name:Name day:Tag month:Monat [year:Jahr]" message="birthday setfictive <Name> <Tag> <Monat> [<Jahr>]"></Command>
+<Command name="birthday setfictive" slash="name:Name day:Tag month:Monat [year:Jahr]" message="<Name> <Tag> <Monat> [<Jahr>]"></Command>
 
 Fiktive Geburtstage müssen einen Namen haben, um sie identifizieren zu können. Mithilfe dieses Namens werden Geburtstagsnachrichten erstellt - die Argumente bleiben gleich und werden vom Bot automatisch angepasst - und `{birthday}` generiert.
 
@@ -40,7 +40,7 @@ Fiktive Geburtstage müssen einen Namen haben, um sie identifizieren zu können.
 
 ### Löschen {#fictive-delete}
 
-<Command slash="birthday delete name:Name" message="birthday delete <Name>"></Command>
+<Command name="birthday delete" slash="name:Name" message="<Name>"></Command>
 
 ## Einstellungen {#settings}
 

@@ -10,7 +10,7 @@ Der Bot sucht alle zehn Minuten nach neuen Videos, aufgrund von Limitierungen vo
 
 ## Befehl {#command}
 
-<Command slash="youtube channel:Kanalname" message="youtube <Kanalname>"></Command>
+<Command name="youtube" slash="channel:Kanalname" message="<Kanalname>"></Command>
 
 Der Befehl zeigt dir eine Liste von Kanälen an, die mit deiner Suchanfrage übereinstimmen.
 Durch das Auswählen eines Kanals werden weitere Informationen angezeigt, z. B. die Anzahl der Videos und der Abonnenten.

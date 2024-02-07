@@ -18,13 +18,13 @@ With the bot's logsync feature, you can send the logs from one server to another
 
 This affects all types of logs. Note that if the target server hasn't selected a log channel in their settings, that specific log type won't be recorded there.
 
-<Command slash="sync logs guild:Server ID" message="sync logs <Server ID>"></Command>
+<Command name="sync logs" slash="guild:Server ID" message="<Server ID>"></Command>
 
 ## Bansync {#bans}
 
 Bans and unbans can also be synced using the bot. Unlike logs, bans can be synced to and from multiple servers simultaneously.
 
-<Command slash="sync bans guild:Server ID bans:true/false unbans:true/false" message="sync bans <Server ID> <Sync bans: true/false> <Sync unbans: true/false>"></Command>
+<Command name="sync bans" slash="guild:Server ID bans:true/false unbans:true/false" message="<Server ID> <Sync bans: true/false> <Sync unbans: true/false>"></Command>
 
 The `sync bans` and `sync unbans` options control whether users should be banned and unbanned, respectively.
 

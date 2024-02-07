@@ -9,13 +9,13 @@ export default {
 		<Tabs groupId="command">
 			{props.message == props.slash ? console.warn("slash und message sind gleich: " + props.slash) : ""}
 			<TabItem value="Slash" default>
-				/{props.slash}
+				/{props.name} {props.slash || ""}
 			</TabItem>
 			<TabItem value="Message (default prefix)">
-				tk!{props.message || props.slash}
+				tk!{props.name} {props.message || props.slash || ""}
 			</TabItem>
 			<TabItem value="Message (custom prefix)">
-				&lt;Prefix&gt;{props.message || props.slash}
+				&lt;Prefix&gt;{props.name} {props.message || props.slash || ""}
 			</TabItem>
 		</Tabs>
 }

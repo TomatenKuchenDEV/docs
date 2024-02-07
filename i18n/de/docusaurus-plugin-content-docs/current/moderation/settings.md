@@ -80,7 +80,7 @@ Es können Vorlagen für Moderationsgründe erstellt werden, um mit einem Shortc
 - `name`: "werbung"
 - `value`: "Du hast gegen unsere Regeln verstoßen: Werbung ist verboten!"
 
-<Command slash="mute user:Nutzer reason:werbung" message="mute <Nutzer> werbung"></Command>
+<Command name="mute" slash="user:Nutzer reason:werbung" message="<Nutzer> werbung"></Command>
 
 ## Automatisches dehoisten {#setting-auto-dehoist}
 

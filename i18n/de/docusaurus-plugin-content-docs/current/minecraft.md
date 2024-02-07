@@ -19,7 +19,7 @@ Zeigt das Herstellungsrezept des angegebenen Gegenstandes.
 
 ## minecraft update {#cmd-update}
 
-<Command slash="minecraft update"></Command>
+<Command name="minecraft update"></Command>
 
 Zeigt den Livestatus eines Minecraft-Servers irgendwo auf deinem Server an.
 
