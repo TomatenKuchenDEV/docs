@@ -8,6 +8,10 @@ Mithilfe der Vote-Announcements kannst du eine Nachricht senden lassen, wenn jem
 
 ![Vote-Announcements](/img/voteannouncements.png)
 
+## Befehle {#commands}
+
+Mit dem Befehl `leaderboard servervote` bzw. `leaderboard botvote` lässt sich ein Leaderboard anzeigen, auf welchem angezeigt wird, welcher Nutzer am häufigsten gevoted hat.
+
 ## Einstellungen {#settings}
 
 ### Kanal {#settings-channel}
@@ -38,7 +42,6 @@ Nutzer erhalten diese Rolle automatisch beim Voten. Nachdem die festgelegte Zeit
 Nutze je nach Server- bzw. Botliste die entsprechende URL als Webhook-URL und das im Dashboard erwähnte Secret als Webhook-Secret.
 
 - Top.gg: `topgg`
-  - Server: `https://api.tomatenkuchen.com/servervote/<Server-ID>/topgg`
   - Bots: `https://api.tomatenkuchen.com/botvote/<Server-ID>/topgg`
 - Discordbotlist.com: `dbl`
   - Bots: `https://api.tomatenkuchen.com/botvote/<Server-ID>/dbl/<Bot-ID>`

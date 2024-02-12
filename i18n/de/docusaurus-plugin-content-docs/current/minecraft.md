@@ -7,13 +7,13 @@ Diese Seite listet die Befehle auf, die mit dem Spiel "Minecraft" zu tun haben, 
 
 ## minecraft player {#cmd-player}
 
-<Command slash="minecraft player name:Spielername" message="minecraft player <Spielername>"></Command>
+<Command name="minecraft player" slash="name:Spielername" message="<Spielername>"></Command>
 
 Zeigt Informationen über den angegebenen Spielernamen.
 
 ## minecraft recipe {#cmd-recipe}
 
-<Command slash="minecraft recipe item:Minecraft-Gegenstands-ID" message="minecraft recipe <Minecraft-Gegenstands-ID>"></Command>
+<Command name="minecraft recipe" slash="item:Minecraft-Gegenstands-ID" message="<Minecraft-Gegenstands-ID>"></Command>
 
 Zeigt das Herstellungsrezept des angegebenen Gegenstandes.
 
@@ -25,17 +25,9 @@ Zeigt den Livestatus eines Minecraft-Servers irgendwo auf deinem Server an.
 
 Siehe [Minecraft-Serverstatus-Update](/mcupdate).
 
-<!--
-## minecraft lint {#cmd-lint}
-
-<Command slash="minecraft lint command:Minecraft-Befehle" message="minecraft lint <Minecraft-Befehle>"></Command>
-
-Validiert die eingegebenen Minecraft-Befehle.
--->
-
 ## mcserver {#cmd-mcserver}
 
-<Command slash="mcserver ip:Server-IP [port:Serverport]" message="mcserver <Server-IP> [<Serverport>]"></Command>
+<Command name="mcserver" slash="ip:Server-IP [port:Serverport]" message="<Server-IP> [<Serverport>]"></Command>
 
 Zeigt Informationen über den angegebenen Minecraft-Server.
 

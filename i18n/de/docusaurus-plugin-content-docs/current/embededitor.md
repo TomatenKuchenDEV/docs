@@ -20,7 +20,7 @@ Die Website wurde vom TomatenKuchen-Entwickler TomatoCake weiterentwickelt, um e
 - Export von Nachrichten nach Discord aus dem Editor
 - Einfügen, bearbeiten und kopieren als JSON
 - Sicherheit erhöht, indem Bilder nicht mehr direkt vom Ursprung geladen werden
-- Verwenden und teilen von langen URLs auf Discord durch Integration mit [shorter.cf](https://shorter.cf) ermöglicht
+- Verwenden und teilen von langen URLs auf Discord durch Integration mit [sh0rt.zip](https://sh0rt.zip) ermöglicht
 
 ## Verwenden mit TomatenKuchen {#usage}
 

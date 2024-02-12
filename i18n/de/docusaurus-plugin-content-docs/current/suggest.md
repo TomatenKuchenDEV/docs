@@ -5,9 +5,11 @@ description: Erklärt das Vorschlagssystem vom Bot.
 
 ## Befehle {#commands}
 
-### `suggest [<Text> <Bild>]` {#cmd-suggest}
+### Vorschlag erstellen {#cmd-suggest}
 
-Macht einen neuen Vorschlag. Dasselbe kann durch das Senden einer Nachricht im Vorschlagskanal erzielt werden.
+<Command name="suggest" slash="text:Vorschlags-Inhalt [image:Bild als Anhang]" message="<Vorschlags-Inhalt> [<Bild als Anhang>]"></Command>
+
+Erstellt einen neuen Vorschlag. Dasselbe kann durch das Senden einer Nachricht im Vorschlagskanal erzielt werden.
 
 Mit dem Befehl `suggest top` können die Vorschläge mit den meisten Votes angezeigt werden.
 
@@ -15,11 +17,15 @@ Mit dem Befehl `suggest top` können die Vorschläge mit den meisten Votes angez
 
 Akzeptiert einen Vorschlag bzw. lehnt ihn ab. Entfernt die Reaktionen bzw. Buttons der Nachricht, welches das nachträgliche Verändern der Stimmen verhindert.
 
-### `reply <ID> <Text>` {#cmd-reply}
+### Antworten auf einen Vorschlag {#cmd-reply}
+
+<Command name="reply" slash="id:Vorschlags-ID text:Kommentar" message="<ID> <Kommentar>"></Command>
 
 Antwortet auf einen Vorschlag mit dem angegebenen Text.
 
-### `editsuggest <ID> <Neuer Inhalt>` {#cmd-editsuggest}
+### Vorschlag bearbeiten {#cmd-editsuggest}
+
+<Command name="reply" slash="id:Vorschlags-ID text:Neuer Inhalt" message="<ID> <Neuer Inhalt>"></Command>
 
 Bearbeitet einen deiner Vorschlag oder, wenn du die Berechtigung "Nachrichten verwalten" hast, auch die Vorschläge anderer Nutzer.
 

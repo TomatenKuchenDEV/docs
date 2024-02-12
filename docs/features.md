@@ -110,8 +110,8 @@ All of these features are available for free!
 	- all pinned messages of a server
 	- all threads of a server
 - Reminders & timers, including using them with other users
-- [Shorter.cf command](/shorter)
-	- Creation of short URLs on [shorter.cf](https://shorter.cf)
+- [Short link command](/shorter)
+	- Creation of short URLs on [sh0rt.zip](https://sh0rt.zip)
 	- Displaying website statistics using `shorter stats`
 	- Following redirects
 - [Purging/clearing multiple messages with filters](/moderation/purge)

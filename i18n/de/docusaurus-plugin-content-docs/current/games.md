@@ -8,13 +8,13 @@ image: /img/game_snake.png
 
 Spielt Schere Stein Papier gegen den Bot oder andere Spieler.
 
-<Command slash="game scheresteinpapier [user:Gegner]" message="game ssp [<Gegner>]"></Command>
+<Command name="game" slash="scheresteinpapier [user:Gegner]" message="ssp [<Gegner>]"></Command>
 
 ### TicTacToe {#tic-tac-toe}
 
 Spiele TicTacToe gegen den angegebenen Nutzer oder gegen einen Algorithmus von TomatenKuchen.
 
-<Command slash="game tictactoe [user:Gegner]" message="game ttt [<Gegner>]"></Command>
+<Command name="game" slash="tictactoe [user:Gegner]" message="ttt [<Gegner>]"></Command>
 
 ### Hangman {#hangman}
 
@@ -22,17 +22,17 @@ Lasse andere Nutzer den angegebenen Text erraten, bevor das Galgenmännchen voll
 
 Beachte, dass es nur mögliche 25 Buchstaben gibt ("A" bis "X" sowie "Z"). "Y" sowie Zahlen und Sonderzeichen werden aus der Eingabe entfernt.
 
-<Command slash="game hangman text:Text" message="game hangman <Text>"></Command>
+<Command name="game hangman" slash="text:Text" message="<Text>"></Command>
 
 ### Vier gewinnt {#connect-four}
 
 Spiele Vier gewinnt gegen einen anderen Spieler.
 
-<Command slash="game connectfour user:Gegner [fieldsize:Feldgröße]" message="game c4 <Gegner> [<Feldgröße>]"></Command>
+<Command name="game" slash="connectfour user:Gegner [fieldsize:Feldgröße]" message="c4 <Gegner> [<Feldgröße>]"></Command>
 
 ### Snake {#snake}
 
-<Command slash="game snake"></Command>
+<Command name="game snake"></Command>
 
 ![](/img/game_snake.png)
 
@@ -40,13 +40,13 @@ Spiele Vier gewinnt gegen einen anderen Spieler.
 
 Spielt Uno mit anderen Nutzern.
 
-<Command slash="game uno"></Command>
+<Command name="game uno"></Command>
 
 ### Chemiegleichungen {#chemistry}
 
 Gibt dir eine zufällige Chemiegleichung, die mithilfe von Faktoren ausgeglichen werden muss.
 
-<Command slash="game chemie [difficulty:leicht|mittel|schwer]" message="game chemie [leicht|mittel|schwer]"></Command>
+<Command name="game chemie" slash="[difficulty:leicht|mittel|schwer]" message="[leicht|mittel|schwer]"></Command>
 
 ![](/img/game_chemie.png)
 
@@ -56,4 +56,4 @@ Zeigt ein Raster an Buchstaben an, in dem Wörter versteckt sind. Die Wörter k�
 
 Das Ziel ist es, alle versteckten Wörter aufzudecken.
 
-<Command slash="game wordsearch"></Command>
+<Command name="game wordsearch"></Command>

@@ -5,7 +5,9 @@ description: Helps with the suggestion system.
 
 ## Commands {#commands}
 
-### `suggest [<Text> <Image>]` {#cmd-suggest}
+### Creating suggestions {#cmd-suggest}
+
+<Command name="suggest" slash="text:Suggestion content [image:Image as attachment]" message="<Suggestion content> [<Image as attachment>]"></Command>
 
 Makes a new suggestion. The same can be achieved by sending a message in the suggestion channel.
 
@@ -15,11 +17,15 @@ The command `suggest top` lists the most voted suggestions.
 
 Approves or denies a suggestion. It removes the reactions or buttons of the message, which disables changing the vote counts.
 
-### `reply <ID> <Text>` {#cmd-reply}
+### Replying to suggestions {#cmd-reply}
+
+<Command name="reply" slash="id:Suggestion ID text:Comment" message="<ID> <Comment>"></Command>
 
 Replies to a suggestion with the given text.
 
-### `editsuggest <ID> <New content>` {#cmd-editsuggest}
+### Editing suggestions {#cmd-editsuggest}
+
+<Command name="reply" slash="id:Suggestion ID text:New content" message="<ID> <New content>"></Command>
 
 Edits one of your suggestions or, if you have the permission "Manage messages", also the suggestions of other users.
 

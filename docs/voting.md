@@ -8,6 +8,10 @@ By using the vote announcements you can send a custom message once someone votes
 
 ![Vote announcements](/img/voteannouncements.png)
 
+## Commands {#commands}
+
+Use the commands `leaderboard servervote` or `leaderboard botvote` to get a leaderboard which shows which user voted the most often.
+
 ## Settings {#settings}
 
 ### Channel {#settings-channel}
@@ -37,7 +41,6 @@ Here you can select a role users will receive after voting. It will be automatic
 Depending on the server or bot list used, insert the url as webhook url and the in the dashboard mentioned secret as webhook secret.
 
 - Top.gg: `topgg`
-  - Server: `https://api.tomatenkuchen.com/servervote/<Server-ID>/topgg`
   - Bots: `https://api.tomatenkuchen.com/botvote/<Server-ID>/topgg`
 - Discordbotlist.com: `dbl`
   - Bots: `https://api.tomatenkuchen.com/botvote/<Server-ID>/dbl/<Bot-ID>`

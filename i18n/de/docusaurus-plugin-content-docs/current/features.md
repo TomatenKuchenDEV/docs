@@ -110,8 +110,8 @@ Alle diese Funktionen sind kostenlos verfügbar!
 	- alle angepinnten Nachrichten eines Servers
 	- alle Threads eines Servers
 - Reminder (Erinnerungen) & Timer, auch für mehrere Nutzer
-- [shorter.cf-Befehl](/shorter)
-	- Erstellen von Short-URLs auf [shorter.cf](https://shorter.cf)
+- [Short-Link-Befehl](/shorter)
+	- Erstellen von Short-URLs auf [sh0rt.zip](https://sh0rt.zip)
 	- Anzeigen von Website-Statistiken mit `shorter stats`
 	- Folgen von Weiterleitungen
 - [Löschen von mehreren Nachrichten mit Filtern](/moderation/purge)

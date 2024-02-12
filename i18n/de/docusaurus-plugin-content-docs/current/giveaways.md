@@ -19,17 +19,17 @@ Verwende den Button unterhalb eines Giveaways, um dieses zu bearbeiten.
 
 ### Neue(n) Gewinner aussuchen {#cmd-reroll}
 
-<Command slash="giveaway reroll message:Nachrichten-ID" message="giveaway reroll <Nachrichten-ID>"></Command>
+<Command name="giveaway reroll" slash="message:Nachrichten-ID" message="<Nachrichten-ID>"></Command>
 
 Diese Funktion wählt einen oder die eingestellte Anzahl an Gewinnern aus. Nutzer können auch mehrfach ausgewählt werden.
 
 ### Beenden {#cmd-end}
 
-<Command slash="giveaway end message:Nachrichten-ID" message="giveaway end <Nachrichten-ID>"></Command>
+<Command name="giveaway end" slash="message:Nachrichten-ID" message="<Nachrichten-ID>"></Command>
 
 ### Löschen {#cmd-delete}
 
-<Command slash="giveaway delete message:Nachrichten-ID" message="giveaway delete <Nachrichten-ID>"></Command>
+<Command name="giveaway delete" slash="message:Nachrichten-ID" message="<Nachrichten-ID>"></Command>
 
 ### Giveaways auflisten {#cmd-list}
 

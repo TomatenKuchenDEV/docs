@@ -20,7 +20,7 @@ The leaderboard shown when using `leaderboard countingfail` displays how many ti
 
 ## Settings {#settings}
 
-[Open settings](https://tomatenkuchen.com/dashboard/settings#counting)
+[Open counting settings](https://tomatenkuchen.com/dashboard/settings#counting)
 
 ### Channel {#settings-channel}
 

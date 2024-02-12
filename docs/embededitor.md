@@ -20,7 +20,7 @@ The website was developed further by TomatenKuchen developer TomatoCake to fix s
 - Exporting messages from the editor to Discord
 - Pasting, editing and copying as JSON
 - Improved security as images aren't loaded directly from the origin anymore
-- Made using and sharing long URLs on Discord possible with a [shorter.cf](https://shorter.cf) integration
+- Made using and sharing long URLs on Discord possible with a [sh0rt.zip](https://sh0rt.zip) integration
 
 ## Using it with TomatenKuchen {#usage}
 
