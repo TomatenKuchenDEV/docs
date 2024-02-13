@@ -18,4 +18,5 @@ Currently, TomatenKuchen is translated into German and English manually. The tra
 ## Documentation {#docs}
 
 The content and translation of this documention is done on [GitHub](https://github.com/DEVTomatoCake/tk-docs).
-If you want to help with that, create a GitHub account, fork the repository, edit the file and create a Pull Request.
+
+If you want to help with the docs, create a GitHub account, fork the repository, edit the file and create a Pull Request with your changes.

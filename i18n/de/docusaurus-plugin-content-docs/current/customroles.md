@@ -19,11 +19,11 @@ Erstellt eine Customrolle für den aktuellen Nutzer.
 - name*: Der Name der Customrolle
 - color: Die Farbe der Customrolle
 
-### `name` {#cmd-create}
+### Name ändern {#cmd-create}
 
-Ändert den Namen der Customrolle.
+<Command name="customrole name" slash="name:Neuer Name" message="<Neuer Name>"></Command>
 
-- name*: Der neue Name der Customrolle
+Ändert den Namen deiner Customrolle.
 
 ### `color` {#cmd-create}
 
@@ -37,13 +37,17 @@ Erstellt eine Customrolle für den aktuellen Nutzer.
 
 - icon: Die Bild-URL des neuen Rollenicons. Wenn keine URL angegeben ist, wird das Rollenicon entfernt.
 
-### `delete` {#cmd-create}
+### Löschen {#cmd-create}
+
+<Command name="customrole delete"></Command>
 
 Löscht die aktuelle Customrolle.
 
-### `info` {#cmd-create}
+### Info {#cmd-create}
 
-Zeigt Informationen über deine Customrolle an, also die von dir eingestellten Werte.
+<Command name="customrole info"></Command>
+
+Zeigt Informationen über deine Customrolle an.
 
 ## Einstellungen {#settings}
 

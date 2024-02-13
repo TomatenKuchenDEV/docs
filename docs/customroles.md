@@ -19,11 +19,11 @@ Creates a customrole for the current user.
 - name*: The name of the customrole
 - color: The color of the customrole
 
-### `name` {#cmd-create}
+### Name editing {#cmd-create}
 
-Changes the name of the customrole.
+<Command name="customrole name" slash="name:New name" message="<New name>"></Command>
 
-- name*: The name of the customrole
+Changes the name of your customrole.
 
 ### `color` {#cmd-create}
 
@@ -37,13 +37,17 @@ Changes the role icon.
 
 - icon: The image URL of the new role icon. If no URL is specified, the role icon is removed.
 
-### `delete` {#cmd-create}
+### Deleting {#cmd-create}
+
+<Command name="customrole delete"></Command>
 
 Deletes the current customrole.
 
-### `info` {#cmd-create}
+### Info {#cmd-create}
 
-Displays the information about your customrole, so the values you set.
+<Command name="customrole info"></Command>
+
+Displays the information about your customrole.
 
 ## Settings {#settings}
 

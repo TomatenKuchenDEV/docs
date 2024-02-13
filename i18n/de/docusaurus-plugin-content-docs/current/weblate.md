@@ -18,4 +18,5 @@ Aktuell wird TomatenKuchen in Deutsch und Englisch manuell übersetzt. Die Über
 ## Dokumentation {#docs}
 
 Diese Dokumentation wird auf [GitHub](https://github.com/DEVTomatoCake/tk-docs) erstellt und übersetzt.
-Wenn du dort mithelfen möchtest, erstelle einen Account, forke das Repository, führe die Änderungen durch und erstelle eine Pull Request.
+
+Wenn du bei den Docs mithelfen möchtest, erstelle einen Account, forke das Repository, bearbeite die Datei durch und erstelle eine Pull Request mit deinen Änderungen.
