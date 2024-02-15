@@ -105,29 +105,37 @@ These integrations were created by our team or are verified by them.
 - [Display weather info](https://tomatenkuchen.com/dashboard/integrations?info=weather), shows the usage of `{jsonAPI}` and arguments
 - [Vote reminder for TomatenKuchen](https://tomatenkuchen.com/dashboard/integrations?info=vote-reminder)
 - [Display a random comic from xkcd.com](https://tomatenkuchen.com/dashboard/integrations?info=xkcd)
-- [Automatic translation of messages in a channel](https://tomatenkuchen.com/dashboard/integrations?info=autotranslate), shows the usage of several functions for limiting the action execution
+- [Automatic translation of messages in a channel](https://tomatenkuchen.com/dashboard/integrations?info=autotranslate), shows the usage of several [functions for limiting the action execution](/functions/control)
+- [Translation of messages on reaction](https://tomatenkuchen.com/dashboard/integrations?info=flag-reaction-translate)
 
 ![Weather integration example](/img/integration_weather.png)
 
+You can find a list of all public integrations in the [dashboard](https://tomatenkuchen.com/dashboard/integrations).
+
 ## RegEx cheatsheet {#regex-cheatsheet}
 
-| Character | Description                  | Example                   |
-|-----------|------------------------------|---------------------------|
-| `.`       | Any character except newline | `a.b` matches "axb"       |
-| `\d`      | Digit (0-9)                  | `\d{2}` matches "42"      |
-| `\w`      | Word char (a-z, A-Z, 0-9, _) | `\w+` matches "Bot_1"     |
-| `\s`      | Whitespace character         | `a\sb` matches "a b"      |
-| `[abc]`   | Any character in set         | `[aeiou]` matches "i"     |
-| `[^abc]`  | Any character NOT in set     | `[^aeiou]` matches "b"    |
-| `a*`      | 0 or more occurrences of a   | `a*` matches "aaa"        |
-| `a+`      | 1 or more occurrences of a   | `a+` matches "aa"         |
-| `a?`      | 0 or 1 occurrence of a       | `a?` matches "a"          |
-| `a{3}`    | Exactly 3 occurrences of a   | `a{3}` matches "aaa"      |
-| `a{3,}`   | 3 or more occurrences of a   | `a{3,}` matches "aaaa"    |
-| `a{3,5}`  | 3 to 5 occurrences of a      | `a{3,5}` matches "aaa"    |
-| `^`       | Start of string              | `^abc` matches "abcxyz"   |
-| `$`       | End of string                | `xyz$` matches "abcxyz"   |
-| `\b`      | Word boundary                | `\bword\b` matches "word" |
-| `(...)`   | Capturing group              | `(abc)` matches "abc"     |
+| Character | Description                  | Example                        |
+|-----------|------------------------------|--------------------------------|
+| `.`       | Any character except newline | `a.b` matches "axb"            |
+| `\d`      | Digit (0-9)                  | `\d{2}` matches "42"           |
+| `\w`      | Word char (a-z, A-Z, 0-9, _) | `\w+` matches "Bot_1"          |
+| `\s`      | Whitespace character         | `a\sb` matches "a b" or "a\nb" |
+| `[abc]`   | Any character in set         | `[aeiou]` matches "i"          |
+| `[^abc]`  | Any character NOT in set     | `[^aeiou]` matches "b"         |
+| `a*`      | 0 or more occurrences of a   | `a*` matches "aaa"             |
+| `a+`      | 1 or more occurrences of a   | `a+` matches "aa"              |
+| `a?`      | 0 or 1 occurrence of a       | `a?` matches "a"               |
+| `a{3}`    | Exactly 3 occurrences of a   | `a{3}` matches "aaa"           |
+| `a{3,}`   | 3 or more occurrences of a   | `a{3,}` matches "aaaa"         |
+| `a{3,5}`  | 3 to 5 occurrences of a      | `a{3,5}` matches "aaa"         |
+| `^`       | Start of string              | `^abc` matches "abcxyz"        |
+| `$`       | End of string                | `xyz$` matches "abcxyz"        |
+| `\b`      | Word boundary                | `\bword\b` matches "word"      |
+| `|`       | Or                           | `a|b` matches "a" or "b"       |
+| `\n`      | New line                     | `\n` matches a line break      |
+| `(...)`   | Capturing group              | `(abc)` matches "abc"          |
 
-RegEx capturing groups can be read using `{argsObj;groups;<Group ID>}`.
+RegEx capturing groups can be read using `{argsObj;match.<Group number starting at 1>}`.
+`{argsObj;match.0}` equals the whole match.
+
+It's easiest to create RegEx using an online editor, for example using [regexr.com](https://regexr.com).

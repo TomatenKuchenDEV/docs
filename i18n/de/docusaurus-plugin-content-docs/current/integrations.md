@@ -105,29 +105,37 @@ Diese Integrationen wurden von unserem Team erstellt oder von diesem verifiziert
 - [Wetterinfo eines Ortes anzeigen](https://tomatenkuchen.com/dashboard/integrations?info=weather), zeigt die Verwendung von `{jsonAPI}` und Argumenten
 - [Vote-Reminder für TomatenKuchen](https://tomatenkuchen.com/dashboard/integrations?info=vote-reminder)
 - [Zufälligen Comic von xkcd.com anzeigen](https://tomatenkuchen.com/dashboard/integrations?info=xkcd)
-- [Automatische Übersetzung von Nachrichten in einem Kanal](https://tomatenkuchen.com/dashboard/integrations?info=autotranslate), zeigt die Verwendung verschiedener Funktionen zur Aktionseinschränkung
+- [Automatische Übersetzung von Nachrichten in einem Kanal](https://tomatenkuchen.com/dashboard/integrations?info=autotranslate), zeigt die Verwendung verschiedener [Funktionen zur Aktionseinschränkung](/functions/control)
+- [Übersetzung von Nachrichten bei Reaktion](https://tomatenkuchen.com/dashboard/integrations?info=flag-reaction-translate)
 
 ![Wetter-Integration-Beispiel](/img/integration_weather.png)
 
+Du findest eine Liste aller öffentlichen Integrationen im [Dashboard](https://tomatenkuchen.com/dashboard/integrations).
+
 ## RegEx-Cheatsheet {#regex-cheatsheet}
 
-| Zeichen   | Beschreibung                   | Beispiel                 |
-|-----------|--------------------------------|--------------------------|
-| `.`       | Alle Zeichen außer neue Zeilen | `a.b` matcht "axb"       |
-| `\d`      | Ziffer (0-9)                   | `\d{2}` matcht "42"      |
-| `\w`      | Wortzeichen (a-z, A-Z, 0-9, _) | `\w+` matcht "Bot_1"     |
-| `\s`      | Whitespace-Zeichen             | `a\sb` matcht "a b"      |
-| `[abc]`   | Irgendein dieser Zeichen       | `[aeiou]` matcht "i"     |
-| `[^abc]`  | Alle Zeichen außer diese       | `[^aeiou]` matcht "b"    |
-| `a*`      | 0 oder mehr Vorkommnisse von a | `a*` matcht "aaa"        |
-| `a+`      | 1 oder mehr Vorkommnisse von a | `a+` matcht "aa"         |
-| `a?`      | 0 oder 1 Vorkommnisse von a    | `a?` matcht "a"          |
-| `a{3}`    | Genau 3 Vorkommnisse von a     | `a{3}` matcht "aaa"      |
-| `a{3,}`   | 3 oder mehr Vorkommnisse von a | `a{3,}` matcht "aaaa"    |
-| `a{3,5}`  | 3 bis 5 Vorkommnisse von a     | `a{3,5}` matcht "aaa"    |
-| `^`       | Anfang der Zeichenkette        | `^abc` matcht "abcxyz"   |
-| `$`       | Ende der Zeichenkette          | `xyz$` matcht "abcxyz"   |
-| `\b`      | Wortbegrenzung                 | `\bword\b` matcht "word" |
-| `(...)`   | Match-Gruppe                   | `(abc)` matcht "abc"     |
+| Zeichen   | Beschreibung                   | Beispiel                        |
+|-----------|--------------------------------|---------------------------------|
+| `.`       | Alle Zeichen außer neue Zeilen | `a.b` matcht "axb"              |
+| `\d`      | Ziffer (0-9)                   | `\d{2}` matcht "42"             |
+| `\w`      | Wortzeichen (a-z, A-Z, 0-9, _) | `\w+` matcht "Bot_1"            |
+| `\s`      | Whitespace-Zeichen             | `a\sb` matcht "a b" oder "a\nb" |
+| `[abc]`   | Irgendeines dieser Zeichen     | `[aeiou]` matcht "i"            |
+| `[^abc]`  | Alle Zeichen außer diese       | `[^aeiou]` matcht "b"           |
+| `a*`      | 0 oder mehr Vorkommnisse von a | `a*` matcht "aaa"               |
+| `a+`      | 1 oder mehr Vorkommnisse von a | `a+` matcht "aa"                |
+| `a?`      | 0 oder 1 Vorkommnisse von a    | `a?` matcht "a"                 |
+| `a{3}`    | Genau 3 Vorkommnisse von a     | `a{3}` matcht "aaa"             |
+| `a{3,}`   | 3 oder mehr Vorkommnisse von a | `a{3,}` matcht "aaaa"           |
+| `a{3,5}`  | 3 bis 5 Vorkommnisse von a     | `a{3,5}` matcht "aaa"           |
+| `^`       | Anfang der Zeichenkette        | `^abc` matcht "abcxyz"          |
+| `$`       | Ende der Zeichenkette          | `xyz$` matcht "abcxyz"          |
+| `\b`      | Wortbegrenzung                 | `\bword\b` matcht "word"        |
+| `|`       | Oder                           | `a|b` matcht "a" oder "b"       |
+| `\n`      | Neue Zeile                     | `\n` matcht einen Zeilenumbruch |
+| `(...)`   | Match-Gruppe                   | `(abc)` matcht "abc"            |
 
-Match-Gruppen können mithilfe von `{argsObj;groups;<Group ID>}` ausgelesen werden.
+Match-Gruppen können im Aktions-Code mithilfe von `{argsObj;match.<Gruppen-Nummer gezählt ab 1>}` ausgelesen werden.
+`{argsObj;match.0}` entspricht dem gesamten Match.
+
+Am einfachsten ist das Erstellen von RegEx mit einem Onlineeditor, z. B. mit [regexr.com](https://regexr.com).
