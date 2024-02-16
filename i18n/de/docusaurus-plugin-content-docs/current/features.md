@@ -36,7 +36,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 - [Autorollen für Nutzer und Bots getrennt](/autorole)
 - [Autonickname beim Beitritt](/autorole)
 - [Rejoin-/Persistente Rollen, die beim erneuten Beitritt wiederhergestellt werden](/autorole)
-- [Antiraid](/antiraid)
+- [Antiraid](/moderation/antiraid)
 - [Übersetzungen von Nutzern](/weblate)
 - [Counting](/counting)
 	- Viele verschiedene Einstellungen
@@ -80,7 +80,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 		- Spieler
 		- Server
 		- Herstellungsrezepte
-	- ein [npm](https://npmjs.com)-Package
+	- ein [npm](https://npmjs.com) oder [PyPi](https://pypi.org)-Package
 	- ein Element aus dem Periodensystem
 	- einen [GitHub](https://github.com)-Nutzer
 	- die Verspätung der Deutschen Bahn

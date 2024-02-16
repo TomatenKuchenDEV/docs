@@ -8,7 +8,7 @@ export default {
 	Command: props =>
 		<Tabs groupId="command">
 			{props.message == props.slash ? console.warn("slash und message sind gleich: " + props.slash) : ""}
-			<TabItem value="Slash" default>
+			<TabItem value="Slashcommand" default>
 				/{props.name} {props.slash || ""}
 			</TabItem>
 			<TabItem value="Message (default prefix)">

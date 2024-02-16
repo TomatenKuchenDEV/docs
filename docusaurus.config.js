@@ -118,7 +118,16 @@ const config = {
 					"aria-label": "Bot website"
 				},{
 					type: "localeDropdown",
-					position: "right"
+					position: "right",
+					dropdownItemsAfter: [
+						{
+							href: "https://translate.tomatenkuchen.com/engage/tomatenkuchen",
+							label: "Help us translate the bot"
+						},{
+							href: "https://github.com/DEVTomatoCake/tk-docs",
+							label: "Help us translate the docs"
+						}
+					]
 				}
 			]
 		},
@@ -147,10 +156,7 @@ const config = {
 							href: "https://tomatenkuchen.com/discord"
 						},{
 							label: "Translation",
-							href: "https://translate.tomatenkuchen.com/engage/tomatenkuchen/"
-						},{
-							label: "GitHub (Docs)",
-							href: "https://github.com/DEVTomatoCake/tk-docs"
+							href: "https://translate.tomatenkuchen.com/engage/tomatenkuchen"
 						}
 					]
 				}

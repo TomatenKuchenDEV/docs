@@ -36,7 +36,7 @@ All of these features are available for free!
 - [Auto roles for bots and users separately](/autorole)
 - [Auto nickname on join](/autorole)
 - [Rejoin/persistent roles that users receive upon rejoining](/autorole)
-- [Antiraid](/antiraid)
+- [Antiraid](/moderation/antiraid)
 - [Translations from users](/weblate)
 - [Counting](/counting)
 	- Many different settings
@@ -81,7 +81,7 @@ All of these features are available for free!
 		- Servers
 		- Crafting recipes (using German names)
 		- Validation of one or more commands
-	- an [npm](https://npmjs.com) package
+	- a [npm](https://npmjs.com) or [PyPi](https://pypi.org) package
 	- an element of the periodic table
 	- a [GitHub](https://github.com) user
 	- the train delay of the Deutsche Bahn per station

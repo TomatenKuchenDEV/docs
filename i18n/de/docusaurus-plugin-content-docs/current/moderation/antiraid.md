@@ -6,7 +6,7 @@ description: Das Antiraid-System kann die meisten Join-Raids ganz einfach erkenn
 Mit dem Antiraid-System von TomatenKuchen kannst du problemlos die meisten Server-Join-Raids dem Bot überlassen.
 
 Das System merkt sich, sofern aktiviert, alle neu gejointen Nutzer.
-Wenn zu viele im festgelegten Zeitraum beitreten, werden die kürzlich gejointen Nutzer sowie alle neuen gekickt, bis das Limit nicht mehr überschritten wird.
+Wenn zu viele Mitglieder im festgelegten Zeitraum beitreten, werden die kürzlich gejointen Nutzer sowie alle neuen gekickt, bis das Limit nicht mehr überschritten wird.
 
 ## Einstellungen {#settings}
 
@@ -36,10 +36,20 @@ Wenn du denkst, dass ein Raid bereits vorbei ist, aktiviere die Einladungen einf
 ## Nutzerlimit {#settings-limit}
 
 Diese Einstellung legt fest, wie viele Nutzer maximal in der festgelegten Zeit in Sekunden dem Server beitreten dürfen.
-Wird diese Zahl überschritten, erkennt der Bot einen Raid und aktiviert das Antiraid.
+
+Wird diese Anzahl an Beitritten im unten festgelegten Zeitfenster überschritten, erkennt der Bot einen Raid und aktiviert das Antiraid.
 
 ## Zeitfenster {#settings-seconds}
 
 Das Zeitfenster in Sekunden bietet, neben der Anpassung des Nutzerlimits, eine weitere Möglichkeit, die Sensitivität des Antiraids zu konfigurieren.
 
 Je höher diese Zahl ist, desto weniger kurze Raids werden erkannt.
+
+## Erhöhung des Verifikationslevels {#settings-verification-level}
+
+Wenn diese Einstellung auf etwas anderes als "None" gestellt ist wird bei einem erkannten Raid das Discord-Server-Verifikationslevel auf das festgelegte Level erhöht.
+
+Nachdem der Raid beendet ist wird automatisch wieder der vorherige Wert eingestellt.
+Dies gilt nur, wenn das Verifikationslevel in der Zwischenzeit nicht bearbeitet wurde, um nicht in manuelle Moderationsaktionen einzugreifen.
+
+Ebenfalls wird das Verifikationslevel durch die Erhöhung bei einem Raid nie auf eine niedrigere Stufe eingestellt, sondern nur auf eine höhere.
