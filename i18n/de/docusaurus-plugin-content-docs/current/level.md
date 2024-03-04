@@ -44,15 +44,16 @@ Da die Level automatisch mehr Punkte erfordern, sollte dieser Wert bei **1 belas
 
 Es kann für jedes Level eine Nachricht und eine Rolle festgelegt werden.
 
-Wenn für ein Level keine Einstellung gefunden wird, wird die nächsttiefere verwendet.
+Wenn für ein Level kein Eintrag gefunden wird, wird der nächsttiefere verwendet.
+Wenn du dieses Verhalten deaktivieren möchtest, [aktiviere die Einstellung unten](#settings-announce-reward-only).
 
 Mögliche Variablen:
-- `{usermention}`: Erwähnung des Nutzers
+- `{userMention}`: Erwähnung des Nutzers
 - `{username}`: Nutzername
 - `{globalName}`: Globaler Anzeigename
 - `{displayName}`: Nickname
-- `{oldlevel}`: Altes Level
-- `{newlevel}`: Neues/aktuelles Level
+- `{oldLevel}`: Altes Level
+- `{newLevel}`: Neues/aktuelles Level
 
 ### Levelrollen stackbar {#settings-stackable}
 
@@ -61,6 +62,10 @@ Stellt ein, ob Nutzer vorherige Levelrollen behalten oder immer nur die höchste
 ### Kanal für Levelnachrichten {#settings-channel}
 
 Hier kann der Kanal ausgewählt werden, in dem Level-up-Nachrichten gesendet werden. Es kann entweder ein Kanal oder "Current channel" ausgewählt werden, um die Nachricht in den aktuellen Kanal zu senden.
+
+### Nur Level-up-Nachrichten mit Belohnung {#settings-announce-reward-only}
+
+[Diese Einstellung](https://tomatenkuchen.com/dashboard/settings#levelAnnounceRewardOnly) stellt ein, ob der Bot jedes mal, wenn jemand ein Level aufsteigt, eine Nachricht sendet, oder nur, wenn ein Leveleintrag für das bestimmte Level existiert.
 
 ### Kanäle und Rollen ausschließen {#settings-excluded}
 
@@ -79,11 +84,10 @@ Wenn alle Nachrichten der Nutzer gezählt werden sollen, setze diesen Wert auf `
 ### Vanity-URL {#settings-vanity}
 
 Hier kann die Vanity-URL für die Leaderboardwebsite angepasst werden.
-Diese gilt für `levels.cf` und `lboard.tk`.
 
 Beispiel:
-- https://levels.cf/tk
-- https://lboard.tk/chaoshosting
+- https://tomatenkuchen.com/lb/tk#botvote
+- https://tomatenkuchen.com/lb/chaoshosting
 
 ### Punkte pro Zeichen {#settings-points-per-char}
 

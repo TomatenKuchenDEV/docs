@@ -30,6 +30,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 	- [YouTube-Videos, -Shorts und -Livestreams](/youtube)
 	- [Twitch-Livestreams](/twitch)
 	- [Minecraft-Serverstatus](/mcupdate)
+	- Bluesky-Posts
 - [AFK-Funktion](/afk)
 	- Liste aller AFK-Nutzer auf dem Server
 	- Liste aller Erwähnungen beim Beenden des AFK-Status

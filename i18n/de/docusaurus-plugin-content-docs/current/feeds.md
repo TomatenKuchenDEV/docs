@@ -41,10 +41,18 @@ Feed-URL: `https://{instance}/users/{user}.atom`
 
 Feed-URL: `https://www.reddit.com/r/{subreddit}/new/.rss`
 
-## Minecraft-Versionen {#minecraft}
+## Neue Minecraft-Versionen {#minecraft}
 
 Es können Feeds erstellt werden, um Snapshots, Prereleases, Release Candidates und Vollversionen von Minecraft anzukündigen. Für jeden dieser Typen kann ein Kanal festgelegt werden.
 
 Die Nachricht erscheint meist innerhalb einer Minute nach der Veröffentlichung und ist damit deutlich schneller als die Minecraft-Blogposts oder Changelogs auf Discord.
 
 Auch kann eine Nachricht angezeigt werden, wenn für eine neue Vollversion der erste [PaperMC-Server-Software](https://papermc.io)-Build veröffentlicht wird.
+
+## Bluesky {#bluesky}
+
+Mit den Bluesky-Feeds kann eine Nachricht gesendet werden, sobald ein Nutzer etwas auf einem Bluesky-Account postet.
+
+Dafür muss der Handle des Accounts eingegeben werden: `nutzername`
+
+Wenn der Nutzer nicht auf dem bsky.app-Server registriert ist muss zusätzlich die Serverdomain angegeben werden: `nutzername@example.com`

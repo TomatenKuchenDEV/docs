@@ -18,16 +18,16 @@ const config = {
 
 	plugins: [
 		require("./plugin-pagemove/index.js"),
-        [
-            require("./plugin-integration-functions/index.js"),
-            {
-                name: "integration-functions",
-                baseURL: "https://api.tomatenkuchen.com/integration-docs/",
-                outDir: "docs/functions",
+		[
+			require("./plugin-integration-functions/index.js"),
+			{
+				name: "integration-functions",
+				baseURL: "https://api.tomatenkuchen.com/integration-docs/",
+				outDir: "docs/functions",
 				// From https://api.tomatenkuchen.com/integration-docs
-                files: ["args.md","math.md","mention.md","vars.md","string.md","time.md","condition.md","control.md","member.md","guild.md","stats.md","message.md","misc.md","moderation.md","channel.md","response.md","level.md","embed.md","components.md","managebot.md"]
-            }
-        ],
+				files: ["args.md","math.md","mention.md","vars.md","string.md","time.md","condition.md","control.md","member.md","guild.md","stats.md","message.md","misc.md","moderation.md","channel.md","response.md","level.md","embed.md","components.md","managebot.md"]
+			}
+		],
 		[
 		  	require.resolve("docusaurus-lunr-search"),
 			{

@@ -45,14 +45,15 @@ As levels require higher points automatically, this setting should be **left at 
 You can set a message and a role for every level.
 
 If no setting is found for a level, TomatenKuchen uses the lowest available.
+If you want to disable this, [enable the reward-only setting below](#settings-announce-reward-only).
 
 Possible variables:
-- `{usermention}`: Mention of the user
+- `{userMention}`: Mention of the user
 - `{username}`: Username
 - `{globalName}`: Global display name
 - `{displayName}`: Display name
-- `{oldlevel}`: Old level
-- `{newlevel}`: New/current level
+- `{oldLevel}`: Old level
+- `{newLevel}`: New/current level
 
 ### Stackable level roles {#settings-stackable}
 
@@ -61,6 +62,10 @@ Toggles if user keep level roles they had before or if they only keep the highes
 ### Channel for level messages {#settings-channel}
 
 Selects the channel in which level up messages are send. You can either select a channel or "Current channel" to send the message in the current channel.
+
+### Level up messages with reward only {#settings-announce-reward-only}
+
+[This setting](https://tomatenkuchen.com/dashboard/settings#levelAnnounceRewardOnly) toggles whether the bot sends a level up message every time someone levels up, or only if a level message for the exact level.
 
 ### Exclude channels and roles {#settings-excluded}
 
@@ -79,11 +84,10 @@ If all messages from users should be counted set the value to `0`.
 ### Vanity URL {#settings-vanity}
 
 Modifies the leaderboard vanity URL of the server.
-This applies to `levels.cf` and `lboard.tk`.
 
 Example:
-- https://levels.cf/tk#botvote
-- https://lboard.tk/chaoshosting
+- https://tomatenkuchen.com/lb/tk#botvote
+- https://tomatenkuchen.com/lb/chaoshosting
 
 ### Points per characters {#settings-points-per-char}
 

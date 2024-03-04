@@ -8,6 +8,10 @@ description: Explains auto join and rejoin roles.
 Autoroles are roles which are given to joining users and bots automatically.
 You can select different roles for users and bots.
 
+### Delayed autoroles {#delayed-autoroles}
+
+Using the [delayed user autoroles setting](https://tomatenkuchen.com/dashboard/settings#autoroleUserDelay), you can set a delay of up to one year to delay giving the auto roles to the newly joined user.
+
 ## Rejoinroles {#rejoinrole}
 
 Rejoinroles are selectable roles which users receive when they rejoin the server and had them before they left.

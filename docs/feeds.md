@@ -41,10 +41,18 @@ Feed url: `https://{instance}/users/{user}.atom`
 
 Feed url: `https://www.reddit.com/r/{subreddit}/new/.rss`
 
-## Minecraft versions {#minecraft}
+## New Minecraft versions {#minecraft}
 
 You create feeds to announce new Minecraft snapshots, pre-releases, release candicates and full releases. You can select a channel for each type.
 
 The message is usually shown within a minute of publication which means it's much faster than Minecraft blog posts or changelogs on Discord.
 
 You can also let the bot send a message once the first [PaperMC server software](https://papermc.io) build for a new full release is published.
+
+## Bluesky {#bluesky}
+
+Using the Bluesky feeds you can let the bot send a message once a user posts something on a Bluesky account.
+
+To do that, you have to enter the handle of the account: `username`
+
+If the user isn't registered on the bsky.app server, you additionally have to enter the server domain: `username@example.com`
