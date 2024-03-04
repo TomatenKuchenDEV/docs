@@ -7,7 +7,7 @@ export default {
 	...MDXComponents,
 	Command: props =>
 		<Tabs groupId="command">
-			{props.message == props.slash ? console.warn("slash und message sind gleich: " + props.slash) : ""}
+			{props.slash && props.slash == props.message ? console.warn("slash und message sind gleich: " + props.slash) : ""}
 			<TabItem value="Slashcommand" default>
 				/{props.name} {props.slash || ""}
 			</TabItem>
