@@ -1,5 +1,5 @@
 ---
-title: Events
+title: Events and Calendar
 description: Using the bot you can import events and display them in a message as a calendar.
 ---
 
@@ -24,5 +24,5 @@ By default, this setting is disabled.
 
 If enabled, users can add the in the settings description used link to e.g. Google Calendar or any other calendar program.
 
-The advantage to exporting the `.ics` file in Discord is, that events can be accessed fast and easy, and that changes on the original events don't require another import of the file:
-Calendar apps update imported calendars usually everything few minutes up to a few hours.
+The advantage to exporting the `.ics` file in Discord is that events can be accessed fast and easy, and that changes on the original events don't require another import of the file:
+Calendar apps update imported calendars usually every few minutes up to a few hours.

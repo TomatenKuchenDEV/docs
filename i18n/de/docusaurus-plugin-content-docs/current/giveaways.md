@@ -9,7 +9,7 @@ Um Giveaways zu verwalten braucht man eine der im Dashhoard festgelegten Giveawa
 
 ### Erstellen {#cmd-start}
 
-Interaktives Setup eines Giveaways.
+Startet das interaktive Setup eines Giveaways.
 
 <Command name="giveaway start"></Command>
 

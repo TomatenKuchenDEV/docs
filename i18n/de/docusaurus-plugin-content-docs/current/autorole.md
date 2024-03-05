@@ -10,7 +10,7 @@ Du kannst verschiedene Rollen für Nutzer und Bots auswählen.
 
 ### Verzögerte Autorollen {#delayed-autoroles}
 
-Mit der [Verzögerte-Nutzer-Autorollen-Einstellung](https://tomatenkuchen.com/dashboard/settings#autoroleUserDelay) kannst du eine Verzögerung von bis zu einem Jahr festlegen, um das Verteilen der Autorollen an den neu beigetretenen Nutzer zu verzögern.
+Mit der [Verzögerte-Nutzer-Autorollen-Einstellung](https://tomatenkuchen.com/dashboard/settings#autoroleUserDelay) kannst du eine Verzögerung von bis zu einem halben Jahr festlegen, um das Verteilen der Autorollen an den neu beigetretenen Nutzer zu verzögern.
 
 ## Rejoinrollen {#rejoinrole}
 
@@ -19,5 +19,5 @@ Rejoinrollen sind auswählbare Rollen, welche Nutzern erneut zugewiesen werden, 
 ## Nicknamen beim Beitreten {#join-nick}
 
 Es kann ein Nickname festgelegt werden, den Mitglieder beim Beitreten erhalten sollen. Das folgende Argument kann verwendet werden:
-- `{username}`: Der aktuelle Benutzername des Nutzers
+- `{username}`: Der Benutzername des Nutzers
 - `{globalName}`: Der globale Anzeigename des Nutzers

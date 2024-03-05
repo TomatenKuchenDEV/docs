@@ -9,7 +9,7 @@ To manage giveaways you need one of the [giveaway roles](https://tomatenkuchen.c
 
 ### Create {#cmd-start}
 
-Interactive giveaway setup.
+Start the interactive giveaway setup.
 
 <Command name="giveaway start"></Command>
 

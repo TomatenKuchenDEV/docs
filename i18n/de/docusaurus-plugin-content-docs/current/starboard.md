@@ -10,7 +10,8 @@ Sobald die festgelegte Mindestanzahl an "Sternen" überschritten wurde, wird die
 
 ![Starboard-Nachricht](/img/starboard.png)
 
-Nachrichten auf dem Starboard zeigen auch Bilder und Antworten an. Bilder werden auf einem anderen Discord-Server gespeichert, damit Anhänge auch nach dem Löschen eines externen Bildes noch geladen werden können.
+Nachrichten auf dem Starboard zeigen auch Bilder und Antworten an.
+Bilder werden abseits von Discord gespeichert, um diese auch nach dem Löschen von einer externen Quelle noch laden zu können.
 
 ## Einstellungen {#settings}
 

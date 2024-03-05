@@ -35,4 +35,5 @@ Mithilfe der Integration [`autotranslate`](https://tomatenkuchen.com/dashboard/i
 Mithilfe der Integration [`flag-reaction-translate`](https://tomatenkuchen.com/dashboard/integrations?info=flag-reaction-translate) können Nachrichten übersetzt werden, indem man mit der Flagge der entprechenden Sprache auf eine Nachricht reagiert.
 
 1. [Füge die Integration deinem Server hinzu](https://tomatenkuchen.com/dashboard/integrations?use=flag-reaction-translate)
-2. Klicke auf "Integration erstellen" - fertig!
+2. Stelle sicher, dass der Bot ausreichend Berechtigungen in dem Kanal hat, indem du ihn verwenden möchtest.
+3. Klicke auf "Integration erstellen" - fertig!

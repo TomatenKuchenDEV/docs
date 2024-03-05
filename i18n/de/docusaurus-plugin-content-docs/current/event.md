@@ -1,5 +1,5 @@
 ---
-title: Events
+title: Events und Kalender
 description: Mit dem Bot kannst du Events importieren sowie in einer Nachricht als Kalender anzeigen lassen.
 ---
 

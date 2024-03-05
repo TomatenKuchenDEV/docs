@@ -10,7 +10,8 @@ Once the set amount of "stars" is reached, the message is sent to the starboard 
 
 ![Starboard message](/img/starboard.png)
 
-Messages on the starboard also show images and replies. Images are saved to another Discord server to allow displaying the image even if the original source was deleted.
+Messages on the starboard also show images and replies.
+Images are stored outside of Discord to allow displaying them even if the original source image was deleted.
 
 ## Settings {#settings}
 

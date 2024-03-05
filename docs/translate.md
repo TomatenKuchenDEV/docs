@@ -35,4 +35,5 @@ Using the integration [`autotranslate`](https://tomatenkuchen.com/dashboard/inte
 Using the integration [`flag-reaction-translate`](https://tomatenkuchen.com/dashboard/integrations?info=flag-reaction-translate) messages can be translated by reacting to a message with the related flag.
 
 1. [Add the integration to your server](https://tomatenkuchen.com/dashboard/integrations?use=flag-reaction-translate)
-2. Click on "Create integration" - done!
+2. Ensre the bot has all required permissions in the channel you want to use it in.
+3. Click on "Create integration" - done!
