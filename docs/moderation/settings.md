@@ -3,11 +3,11 @@ title: Settings
 description: Explains all AutoMod settings.
 ---
 
-## Delete invites {#settings-delete-invites}
+## Delete invites {#delete-invites}
 
 Deletes Discord invites that are not for the current server, if enabled.
 
-## Channels in which invites are allowed {#settings-invites-allowed}
+## Channels in which invites are allowed {#invites-allowed}
 
 Invites in these channels are not deleted if the above setting is enabled.
 

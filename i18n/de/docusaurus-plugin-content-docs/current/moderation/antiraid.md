@@ -10,7 +10,7 @@ Wenn zu viele Mitglieder im festgelegten Zeitraum beitreten, werden die kürzlic
 
 ## Einstellungen {#settings}
 
-### Antiraid-Modus {#settings-mode}
+### Antiraid-Modus {#mode}
 
 [Diese Einstellung](https://tomatenkuchen.com/dashboard/settings#antiraidMode) legt fest, ob das Antiraid aktiviert ist und wenn ja, was bei einem Raid passieren soll.
 
@@ -18,7 +18,7 @@ Die Option "Disabled" deaktiviert das Antiraid vollständig.
 
 Die Option "Kick members" kickt bei einem Raid dauerhaft alle neu beigetretenen Nutzer.
 
-#### "Disable invites" {#settings-disable-invites}
+#### "Disable invites" {#disable-invites}
 
 :::warning Nur Community
 
@@ -33,19 +33,19 @@ Nach Ablauf dieser Zeit können Nutzer wieder beitreten - sollte der Raid weiter
 
 Wenn du denkst, dass ein Raid bereits vorbei ist, aktiviere die Einladungen einfach wieder über die Discord-Servereinstellungen -> Einladungen.
 
-## Nutzerlimit {#settings-limit}
+## Nutzerlimit {#limit}
 
 Diese Einstellung legt fest, wie viele Nutzer maximal in der festgelegten Zeit in Sekunden dem Server beitreten dürfen.
 
 Wird diese Anzahl an Beitritten im unten festgelegten Zeitfenster überschritten, erkennt der Bot einen Raid und aktiviert das Antiraid.
 
-## Zeitfenster {#settings-seconds}
+## Zeitfenster {#seconds}
 
 Das Zeitfenster in Sekunden bietet, neben der Anpassung des Nutzerlimits, eine weitere Möglichkeit, die Sensitivität des Antiraids zu konfigurieren.
 
 Je höher diese Zahl ist, desto weniger kurze Raids werden erkannt.
 
-## Erhöhung des Verifikationslevels {#settings-verification-level}
+## Erhöhung des Verifikationslevels {#verification-level}
 
 Wenn diese Einstellung auf etwas anderes als "None" gestellt ist wird bei einem erkannten Raid das Discord-Server-Verifikationslevel auf das festgelegte Level erhöht.
 

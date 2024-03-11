@@ -10,13 +10,13 @@ TomatenKuchen can change the nicknames of users based on their roles.
 
 ![](/img/autonick.png)
 
-### Role abbreviations {#settings-abb}
+### Role abbreviations {#abb}
 
 You can link each role to an abbreviation that will be displayed in the nickname. For example, you can use "A" as the abbreviation for the "Admin" role.
 
 Only the roles entered in this field will be displayed in the nickname.
 
-### Format of the nickname {#settings-format}
+### Format of the nickname {#format}
 
 This value determines how the bot constructs the nickname.
 
@@ -26,6 +26,6 @@ The following variables can be used:
 - `{username}`: Username
 - `{globalName}`: Global display name of the user
 
-### Maximum amount of roles in the nickname {#settings-max-roles}
+### Maximum amount of roles in the nickname {#max-roles}
 
 This sets the maximum number of roles to be shown in the nickname. Please note that nicknames have a character limit of 32 characters.

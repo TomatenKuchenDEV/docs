@@ -9,7 +9,7 @@ Note that you have to authorize yourself first in the settings to be able to use
 
 ## Settings {#settings}
 
-### Twitch messages {#settings-update}
+### Twitch messages {#update}
 
 You can set the username, the channel, the trigger and the message which is sent to the selected channel once the trigger is triggered.
 

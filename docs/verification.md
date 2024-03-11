@@ -15,7 +15,7 @@ There is no limit to the number of messages that can be created per server.
 
 ## Settings {#settings}
 
-### Verification mode {#settings-mode}
+### Verification mode {#mode}
 
 Currently, you can choose one of the following modes:
 - No verification
@@ -25,11 +25,11 @@ Currently, you can choose one of the following modes:
 
 "No verification" immediately adds the selected roles to the user when they click the verify button.
 
-### Verification roles {#settings-roles}
+### Verification roles {#roles}
 
 You can select the roles that users will receive after verification here.
 
-### Actions on incorrect verification answers {#settings-fail}
+### Actions on incorrect verification answers {#fail}
 
 You can set punishments based on the number of failed verification tries.
 
@@ -45,7 +45,7 @@ When using "mute" or "cooldown", you must specify the duration for which the use
 Note that "cooldown" does not prevent users from sending DM messages.
 To prevent this, use "mute", which disables buttons as well as new DMs using a Discord timeout and displays the wait time better than the bot can.
 
-### Task difficulty {#settings-difficulty}
+### Task difficulty {#difficulty}
 
 You can change the difficulty of the modes (except "none") here. This changes the maximum reply time, and for:
 - Captcha the amount of characters

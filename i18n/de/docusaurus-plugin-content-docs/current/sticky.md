@@ -11,10 +11,10 @@ Diese Funktion kann verwendet werden, wenn die Kanalbeschreibung nicht zum Erkl�
 
 Der Inhalt und die Embeds der Nachricht können frei gewählt werden.
 
-### Kanal {#settings-channel}
+### Kanal {#channel}
 
 In welchem Kanal die Sticky-Nachricht gesendet werden soll
 
-### Antworten auf Bots {#settings-reply-to-bots}
+### Antworten auf Bots {#reply-to-bots}
 
 Ob der Bot auf andere Bots reagieren soll, wenn diese eine Nachricht in den Kanal senden. Wenn deaktiviert reagiert TomatenKuchen nur auf Nutzer.

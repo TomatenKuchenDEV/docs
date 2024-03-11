@@ -21,7 +21,7 @@ By default, everyone can use the command, however you can edit the slash command
 
 \*: This argument is required.
 
-## Excluded roles {#settings-excluded-roles}
+## Excluded roles {#excluded-roles}
 
 Users who have one or more of these roles cannot participate in polls on the server.
 

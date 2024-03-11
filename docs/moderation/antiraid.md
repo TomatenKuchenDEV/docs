@@ -10,7 +10,7 @@ If too many members join in the configured time window, the recently joined as w
 
 ## Settings {#settings}
 
-### Antiraid mode {#settings-mode}
+### Antiraid mode {#mode}
 
 [This setting](https://tomatenkuchen.com/dashboard/settings#antiraidMode) configures whether the antiraid is enabled and if yes, what to do on a raid.
 
@@ -18,7 +18,7 @@ The option "Disabled" disables the antiraid completely.
 
 The option "Kick members" kicks all newly joined users during a raid.
 
-#### "Disable invites" {#settings-disable-invites}
+#### "Disable invites" {#disable-invites}
 
 :::warning Community only
 
@@ -33,19 +33,19 @@ After that time ran out, users can join again - if the raid is still ongoing, th
 
 If you think that a raid has already ended, simply enable the invites again from Discord Server Settings -> Invites.
 
-## User limit {#settings-limit}
+## User limit {#limit}
 
 This setting configures how many users can at most join the server in the configured time in seconds.
 
 If this amount of joins is reached within the below configured time window, the bot detects a raid.
 
-## Time window {#settings-seconds}
+## Time window {#seconds}
 
 The time window in seconds allows you, as with modifying the user limit, to configure the sensitivity of the antiraid.
 
 The higher this number is, the less short raids are detected.
 
-## Higher verification level {#settings-verification-level}
+## Higher verification level {#verification-level}
 
 If this setting is set to something different as "None", the Discord server verification level is increased when a raid happens to the configured level.
 

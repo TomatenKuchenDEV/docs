@@ -31,11 +31,11 @@ This means the amount of points needed for a level increases exponentially.
 
 ## Settings {#settings}
 
-### Level enabled/disabled {#settings-active}
+### Level enabled/disabled {#active}
 
 Configures whether the levelsystem is enabled or disabled.
 
-### Level message and level roles {#settings-roles}
+### Level message and level roles {#roles}
 
 Sets level messages and assigns a role to them.
 
@@ -45,7 +45,7 @@ As levels require higher points automatically, this setting should be **left at 
 You can set a message and a role for every level.
 
 If no setting is found for a level, TomatenKuchen uses the lowest available.
-If you want to disable this, [enable the reward-only setting below](#settings-announce-reward-only).
+If you want to disable this, [enable the reward-only setting below](#announce-reward-only).
 
 Possible variables:
 - `{userMention}`: Mention of the user
@@ -55,33 +55,33 @@ Possible variables:
 - `{oldLevel}`: Old level
 - `{newLevel}`: New/current level
 
-### Stackable level roles {#settings-stackable}
+### Stackable level roles {#stackable}
 
 Toggles if user keep level roles they had before or if they only keep the highest one.
 
-### Channel for level messages {#settings-channel}
+### Channel for level messages {#channel}
 
 Selects the channel in which level up messages are send. You can either select a channel or "Current channel" to send the message in the current channel.
 
-### Level up messages with reward only {#settings-announce-reward-only}
+### Level up messages with reward only {#announce-reward-only}
 
 [This setting](https://tomatenkuchen.com/dashboard/settings#levelAnnounceRewardOnly) toggles whether the bot sends a level up message every time someone levels up, or only if a level message for the exact level.
 
-### Exclude channels and roles {#settings-excluded}
+### Exclude channels and roles {#excluded}
 
 Select roles, channels or groups of channels which are excluded from collecting level points, e.g. `bot-spam` channels.
 
-### Multiplier per channel {#settings-multiplier}
+### Multiplier per channel {#multiplier}
 
 Sets a multiplier per channel. Can e.g. be used to reduce the amount given in bot channels and increase the points in VIP/Booster/… channels.
 
-### Cooldown {#settings-cooldown}
+### Cooldown {#cooldown}
 
 Changes the cooldown in which users cannot earn points. Can be used to reduce spam.
 
 If all messages from users should be counted set the value to `0`.
 
-### Vanity URL {#settings-vanity}
+### Vanity URL {#vanity}
 
 Modifies the leaderboard vanity URL of the server.
 
@@ -89,7 +89,7 @@ Example:
 - https://tomatenkuchen.com/lb/tk#botvote
 - https://tomatenkuchen.com/lb/chaoshosting
 
-### Points per characters {#settings-points-per-char}
+### Points per characters {#points-per-char}
 
 Using this setting, you can define an amount of points to be added (or removed) per sent character.
 
@@ -99,4 +99,4 @@ Note that all entries are added together if the set length is the same or longer
 if you want to reduce the amount of points, simply set a negative value.
 
 The setting is disabled by default and is only enabled if one or more message length is set.
-By default one message counts one point, unless there are [multipliers](#settings-multiplier) or the user has a level role which modifies the default point amount.
+By default one message counts one point, unless there are [multipliers](#multiplier) or the user has a level role which modifies the default point amount.

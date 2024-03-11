@@ -49,6 +49,6 @@ You can choose from "Public" (accessible for everyone with the link), "Only Memb
 
 Note that "Only Members" and "Disabled" will disable tracking of message statistics (amount of messages & active chatters).
 
-### Excluded channels {#settings-excluded}
+### Excluded channels {#excluded}
 
 You can select channels which will be excluded from message statistic tracking, e.g. for bot spam channels.

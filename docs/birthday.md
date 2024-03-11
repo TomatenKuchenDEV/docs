@@ -44,18 +44,18 @@ Fictive birthdays must have a name set to identify them. Using this name birthda
 
 ## Settings {#settings}
 
-### Message {#settings-message}
+### Message {#message}
 
 Configure the message that is sent once the date today is a real or a fictive user's birthday.
 
-### Delete birthday message after {#settings-delete-after}
+### Delete birthday message after {#delete-after}
 
 This setting allows you to enter a relative time to delete the birthday announcement message after, for example `1d` for one day.
 
-### Channel {#settings-channel}
+### Channel {#channel}
 
 Birthdays are announced in the [selected channel](https://tomatenkuchen.com/dashboard/settings#birthdayChannel).
 
-### Role {#settings-role}
+### Role {#role}
 
 Select a role which users receive on their birthday for 24 hours.

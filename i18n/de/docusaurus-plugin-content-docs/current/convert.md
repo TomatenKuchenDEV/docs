@@ -5,7 +5,7 @@ description: Mithilfe des convert-Befehls können Währungen und Maßeinheiten u
 
 ## Befehl {#commands}
 
-Umwandlungen können mit dem Befehl `convert` durchgeführt werden:
+Umwandlungen von Maßeinheiten und Währungen können mit dem Befehl `convert` durchgeführt werden:
 
 - value*: Der Wert, der umgewandelt werden soll
 - current_unit*: Die aktuelle Einheit

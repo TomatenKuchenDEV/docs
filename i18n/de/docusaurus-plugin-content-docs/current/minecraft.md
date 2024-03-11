@@ -1,6 +1,6 @@
 ---
 title: Minecraft-Befehle
-description: Erklärt Befehle für das Videospiel Minecraft. Diese erlauben dir unter anderem, schnell Informationen über einen Spieler oder Serverstatus herauszufinden.
+description: Erklärt Befehle für das Videospiel Minecraft. Diese erlauben dir, schnell Spieler-, Serverstatus- oder Rezeptinformationen herauszufinden.
 ---
 
 Diese Seite listet die Befehle auf, die mit dem Spiel "Minecraft" zu tun haben, und erklärt deren Funktionen.

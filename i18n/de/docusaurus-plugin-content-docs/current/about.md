@@ -5,11 +5,12 @@ description: Diese Seite erzählt allgemeine Informationen über den Bot.
 
 Der Discord-Bot wurde im März 2020 von TomatoCake erstellt und wird seitdem stetig weiterentwickelt. Fast täglich werden ~~Fehler~~ Features behoben und neue Funktionen hinzugefügt oder vorhandene ergänzt.
 
-Der Bot wird alleinig von TomatoCake entwickelt - auch, wenn einige Nutzer auf Discord am Dashboard, einzelnen Befehlen und den Übersetzungen mitgeholfen haben, siehe [Credits](https://tomatenkuchen.com/credits)
+Der Bot wird alleinig von TomatoCake entwickelt - auch, wenn einige Nutzer auf Discord am Dashboard, einzelnen Befehlen und den Übersetzungen mitgeholfen haben.
+Eine Liste aller Mitwirkender findet sich auf der [Credits](https://tomatenkuchen.com/credits)-Seite.
 
 ## Name {#name}
 
-Der Name "TomatenKuchen" ist simpel die Übersetzung von "TomatoCake" - frag aber nicht, woher der kommt.
+Der Name "TomatenKuchen" ist simpel die Übersetzung von "TomatoCake".
 
 <!--
 :::note

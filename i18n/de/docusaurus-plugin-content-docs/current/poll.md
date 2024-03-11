@@ -21,7 +21,7 @@ Standardmäßig kann jeder den Befehl nutzen, jedoch kannst du die Berechtigunge
 
 \*: Dieses Argument muss angegeben werden.
 
-## Ausgeschlossene Rollen {#settings-excluded-roles}
+## Ausgeschlossene Rollen {#excluded-roles}
 
 Nutzer, die eine oder mehrere dieser Rolle haben, können nicht an Umfragen auf dem Server teilnehmen.
 

@@ -41,7 +41,7 @@ The following variables can be used in the message:
 - `{supporterroles}`: Mentions all roles marked as supporters
 - `{managerroles}`: Mentions all roles marked as moderators
 
-### Reminder for inactive tickets {#settings-inactivity-remind}
+### Reminder for inactive tickets {#inactivity-remind}
 
 Here, you can set a specific time and a message to be sent if no message has been sent in the ticket for the specified time.
 
@@ -50,17 +50,17 @@ In addition to the variables mentioned above, the following variables are availa
 - `{allmention}`: Mentions the ticket creator and all the users added to the ticket
 - `{timestamp}`: A Discord timestamp that shows when the ticket will be automatically closed
 
-### Close ticket on inactivity {#settings-inactivity-close}
+### Close ticket on inactivity {#inactivity-close}
 
 By using this time setting, you can have the bot automatically close a ticket if it has been inactive for a certain period of time, i.e., if no messages have been sent.
 
-### Channels or threads {#settings-channels-or-threads}
+### Channels or threads {#channels-or-threads}
 
 You can select whether the bot should use channels or private threads for tickets.
 
 In private threads, no ticket category is used. Instead, all the threads are created in the current channel where the command was executed.
 
-### Message to ticket creator on ticket close {#settings-dm-author}
+### Message to ticket creator on ticket close {#dm-author}
 
 If this setting is set to "Always" the bot sends a DM message to the original ticket creator.
 

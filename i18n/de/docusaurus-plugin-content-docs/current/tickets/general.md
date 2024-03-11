@@ -39,7 +39,7 @@ Diese Nachricht wird von einer kategoriespezifischen Nachricht überschrieben, s
 - `{supporterroles}`: Eine Erwähnung alle als Supporter markierten Rollen
 - `{managerroles}`: Eine Erwähnung alle als Moderator markierten Rollen
 
-### Erinnerung für inaktive Tickets {#settings-inactivity-remind}
+### Erinnerung für inaktive Tickets {#inactivity-remind}
 
 Hier kann eine Zeit sowie die Nachricht festgelegt werden, die gesendet wird, wenn ein Ticket für eine bestimmte Zeit lang inaktiv ist, also keine neue Nachricht mehr gesendet wurde.
 
@@ -48,17 +48,17 @@ Zusätzlich zu den Variablen oben:
 - `{allmention}`: Erwähnt den Ticketersteller und alle Nutzer, die zum Ticket hinzugefügt worden sind
 - `{timestamp}`: Ein Discord-Timestamp, der zeigt, wann das Ticket automatisch geschlossen wird.
 
-### Ticket bei Inaktivität schließen {#settings-inactivity-close}
+### Ticket bei Inaktivität schließen {#inactivity-close}
 
 Mit dieser Einstellung kannst du ein Ticket automatisch vom Bot schließen lassen, wenn es für eine bestimmte Zeit lang inaktiv ist, also keine Nachricht mehr gesendet wurde.
 
-### Kanäle oder Threads {#settings-channels-or-threads}
+### Kanäle oder Threads {#channels-or-threads}
 
 Du kannst auswählen, ob der Bot Kanäle oder private Threads für Tickets verwenden soll.
 
 Bei privaten Threads wird keine Ticketkategorie verwendet, sondern alle Threads werden im aktuellen Kanal erstellt, in welchem der Befehl ausgeführt worden ist.
 
-### Nachricht an Ticketersteller beim Ticket schließen {#settings-dm-author}
+### Nachricht an Ticketersteller beim Ticket schließen {#dm-author}
 
 Wenn diese Einstellung auf "Immer" gesetzt ist sendet der Bot automatisch eine PN-Nachricht an den originalen Ticketersteller.
 

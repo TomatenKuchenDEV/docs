@@ -15,6 +15,12 @@ It is additionally possible to use created integrations on other servers.
 
 Integrations can be managed in the [dashboard](https://tomatenkuchen.com/dashboard/integrations).
 
+:::tip Simple mode
+
+If the UI looks too confusing, try using our [simple mode](https://tomatenkuchen.com/dashboard/integrations?cc=1) which hides non-essential items, but also limits the functionality.
+
+:::
+
 ## Possible triggers {#trigger}
 
 - Message and/or slash command

@@ -31,20 +31,20 @@ Edits one of your suggestions or, if you have the permission "Manage messages", 
 
 ## Settings {#settings}
 
-### Suggestion channels {#settings-channels}
+### Suggestion channels {#channels}
 
-#### `new` {#settings-channel-new}
+#### `new` {#channel-new}
 
 New suggestions are sent into this channel. In most cases using only this setting is what you want.
 
 If a message is sent in this channel it's automatically converted to a suggestion (including attachments).
 This can be disabled for a message by prefixing the content of it with "[!]".
 
-#### `approved` and `denied` {#settings-channel-approved-denied}
+#### `approved` and `denied` {#channel-approved-denied}
 
 Approved and denied suggestions will be sent to these channels.
 
-#### `replied` {#settings-channel-replied}
+#### `replied` {#channel-replied}
 
 Replied suggestions will be sent to this channel.
 
@@ -54,7 +54,7 @@ Users cannot vote on a suggestion anymore if this channel is set and the suggest
 
 :::
 
-### Pending channel {#settings-pending}
+### Pending channel {#pending}
 
 Sets a channel in which new suggestions are collected to be allowed or denied manually.
 
@@ -62,32 +62,32 @@ All users which have access to the channel can accept or deny them.
 
 If no channel is selected here this feature is disabled and suggestions are sent directly to the suggestion channel.
 
-### Buttons or reactions {#settings-buttons-reactions}
+### Buttons or reactions {#buttons-reactions}
 
 You can select if users vote using buttons or reactions.
 
 Buttons, the default value, have the advantage that users can vote only for one suggestion at a time.
 Also, the setting "Remove left users from giveaways and suggestion votes" requires buttons.
 
-### Cooldown between suggestions {#settings-cooldown}
+### Cooldown between suggestions {#cooldown}
 
 This time sets how long users have to wait after submitting a suggestion until they're able to make another suggestion.
 
-### Inform creator via DM {#settings-dm-author}
+### Inform creator via DM {#dm-author}
 
 If this setting is enabled the creator of the suggestion receives a DM when their suggestion was accepted or denied, or received a reply.
 
 This setting is enabled by default.
 
-### Enforce reason {#settings-require-reason}
+### Enforce reason {#require-reason}
 
 Enforce a reason for suggestion actions, e.g. when approving or denying. Disabled by default.
 
-### Reason presets {#settings-preset}
+### Reason presets {#preset}
 
 Like with [moderation reasons](/category/moderation) you can create preset reasons.
 
-### Public votes {#settings-public-votes}
+### Public votes {#public-votes}
 
 This setting changes whether suggestion message should have a "Votes" button which shows which user voted which option.
 

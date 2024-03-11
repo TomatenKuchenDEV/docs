@@ -11,10 +11,10 @@ This feature can be used if the channel topic isn't enough for explaining the ch
 
 The content and the embeds of the message can be freely edited.
 
-### Channel {#settings-channel}
+### Channel {#channel}
 
 In which channel the sticky message should be send.
 
-### Respond to bots {#settings-reply-to-bots}
+### Respond to bots {#reply-to-bots}
 
 Whether TomatenKuchen should respond to other bots when they send a message into the channel. If disabled the bot only responds to humans.

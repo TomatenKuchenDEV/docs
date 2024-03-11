@@ -3,11 +3,11 @@ title: Einstellungen
 description: Erklärungen zu den möglichen AutoMod-Einstellungen.
 ---
 
-## Servereinladungen löschen {#settings-delete-invites}
+## Servereinladungen löschen {#delete-invites}
 
 Löscht Discord-Einladungen, die nicht für den aktuellen Server sind.
 
-## Kanäle, in denen Einladungen erlaubt sind {#settings-invites-allowed}
+## Kanäle, in denen Einladungen erlaubt sind {#invites-allowed}
 
 In diesen Kanälen werden Einladungen nicht gelöscht, wenn die obrige Einstellung aktiviert ist.
 

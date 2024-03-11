@@ -31,20 +31,20 @@ Bearbeitet einen deiner Vorschlag oder, wenn du die Berechtigung "Nachrichten ve
 
 ## Einstellungen {#settings}
 
-### Vorschlägekanäle {#settings-channels}
+### Vorschlägekanäle {#channels}
 
-#### `new` {#settings-channel-new}
+#### `new` {#channel-new}
 
 In diesen Kanal werden neue Vorschläge gesendet. In den meisten Fällen reicht diese Einstellung aus.
 
 Wenn in diesen Kanal eine Nachricht gesendet wird, wird diese (inklusive Anhängen) automatisch zu einem Vorschlag.
 Dies kann durch den Beginn einer Nachricht mit "[!]" für diese Nachricht deaktiviert werden.
 
-#### `approved` und `denied` {#settings-channel-approved-denied}
+#### `approved` und `denied` {#channel-approved-denied}
 
 In diesen Kanal werden angenommene und abgelehnte Vorschläge gesendet.
 
-#### `replied` {#settings-channel-replied}
+#### `replied` {#channel-replied}
 
 In diesen Kanal werden beantwortete Vorschläge gesendet.
 
@@ -54,7 +54,7 @@ Nutzer können nicht mehr auf einem Vorschlag abstimmen, wenn dieser Kanal geset
 
 :::
 
-### Ausstehend-Kanal {#settings-pending}
+### Ausstehend-Kanal {#pending}
 
 Legt einen Kanal fest, in welchem neue Vorschläge gesammelt werden, um manuell zugelassen oder abgelehnt zu werden.
 
@@ -62,32 +62,32 @@ Alle Nutzer, die Zugriff auf den Kanal haben, können die Vorschläge annehmen o
 
 Wenn hier kein Kanal ausgewählt ist ist diese Funktion deaktiviert und Vorschläge werden direkt in den Vorschlägekanal gesendet.
 
-### Buttons oder Reaktionen {#settings-buttons-reactions}
+### Buttons oder Reaktionen {#buttons-reactions}
 
 Du kannst auswählen, ob man mit Buttons oder mit Reaktionen abstimmt.
 
 Buttons, der Standardwert, haben den Vorteil, dass Nutzer nur einmal für einen Vorschlag abstimmen können.
 Ebenfalls benötigt die Einstellung "Nutzer, die den Server verlassen haben, aus Giveaways und Vorschlags-Votes entfernen" Buttons.
 
-### Cooldown zwischen Vorschlägen {#settings-cooldown}
+### Cooldown zwischen Vorschlägen {#cooldown}
 
 Diese Zeit legt fest, wie lange Nutzer nach dem Absenden eines Vorschlags warten müssen, bis sie wieder einen neuen Vorschlag machen können.
 
-### Ersteller per PN informieren {#settings-dm-author}
+### Ersteller per PN informieren {#dm-author}
 
 Wenn dieser Wert aktiviert ist, erhält der Ersteller eines Vorschlags eine PN, wenn deren Vorschlag angenommen oder abgelehnt wurde oder eine Antwort erhalten hat.
 
 Diese Einstellung ist standardmäßig aktiviert.
 
-### Grund erzwingen {#settings-require-reason}
+### Grund erzwingen {#require-reason}
 
 Erzwingt einen Grund bei Vorschlagsaktionen, z. B. beim Annehmen oder Ablehnen. Standardmäßig deaktiviert.
 
-### Vorlagen für Gründe {#settings-preset}
+### Vorlagen für Gründe {#preset}
 
 Wie auch bei [Moderationsgründen](/category/moderation) kann man Vorlage für Gründe erstellen.
 
-### Votes öffentlich? {#settings-public-votes}
+### Votes öffentlich? {#public-votes}
 
 Diese Einstellung legt fest, ob Vorschlagsnachrichten einen "Votes"-Button haben sollen, mit welchem angezeigt werden kann, welches Mitglied wie abgestimmt hat.
 

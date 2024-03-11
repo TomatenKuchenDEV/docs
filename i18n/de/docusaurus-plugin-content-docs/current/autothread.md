@@ -18,7 +18,7 @@ Du hast mehrere Variablen zur Auswahl, welche im Namen des Threads verwendet wer
 - `{nickname}`: Der Nickname des Nutzers auf dem Server
 - `{content}`: Der Inhalt der Nachricht
 
-Beachte, dass der Name maximal 100 Zeichen lang sein darf.
+Beachte, dass der Name maximal 100 Zeichen lang sein darf und abgeschnitten wird, sollte er länger sein (z. B. wenn der Nachrichteninhalt zu lang ist).
 
 ## Berechtigungen {#permissions}
 

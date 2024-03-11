@@ -34,7 +34,7 @@ You can obtain the bot token from the [Discord Developer Portal](https://discord
 
 ## Settings {#settings}
 
-### Selected custom bot {#settings-custom-bot}
+### Selected custom bot {#custom-bot}
 
 Every server can choose the bot which is primarily used for responding.
 

@@ -9,7 +9,7 @@ Beachte, dass du dich zunächst mit dem in den Einstellungen verlinkten Link aut
 
 ## Einstellungen {#settings}
 
-### Nachrichten bei Aktualisierung, z. B. Live {#settings-update}
+### Nachrichten bei Aktualisierung, z. B. Live {#update}
 
 Hier kann der Benutzername, der Kanal, der Auslöser und die Nachricht festgelegt werden, welche beim Auslösen des Triggers in den festgelegten Kanal gesendet wird.
 

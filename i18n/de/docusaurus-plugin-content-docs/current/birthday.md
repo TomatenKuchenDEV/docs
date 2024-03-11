@@ -44,18 +44,18 @@ Fiktive Geburtstage müssen einen Namen haben, um sie identifizieren zu können.
 
 ## Einstellungen {#settings}
 
-### Nachricht {#settings-message}
+### Nachricht {#message}
 
 Hier kann die Nachricht eingestellt werden, die gesendet wird, wenn ein realer oder fiktiver Nutzer am heutigen Datum Geburtstag hat.
 
-### Geburtstagsnachricht löschen nach {#settings-delete-after}
+### Geburtstagsnachricht löschen nach {#delete-after}
 
 Diese Einstellung erlaubt es dir, eine relative Zeit anzugeben, nachdem eine Geburtstagsnachricht gelöscht wird, z. B. `1d` für einen Tag.
 
-### Kanal {#settings-channel}
+### Kanal {#channel}
 
 Geburtstagsnachrichten werden in den [ausgewählten Kanal](https://tomatenkuchen.com/dashboard/settings#birthdayChannel) gesendet.
 
-### Rolle {#settings-role}
+### Rolle {#role}
 
 Es kann eine Rolle ausgewählt werden, die Nutzer am Geburtstag für 24 Stunden erhalten.

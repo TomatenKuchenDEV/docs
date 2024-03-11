@@ -17,6 +17,12 @@ Das Logsystem sammelt Fehler und andere wichtige Ereignisse des Servers. Du kann
 
 Zu diesen Informationen gehört die Log-ID, die Fehlerzusammenfassung auf Englisch, die Anzahl der Fehler und ein Button, um interne Zusatzinformationen anzuzeigen.
 
-Logs, welche das letzte mal vor drei oder mehr Tagen aufgetreten sind, können gelöscht werden. Wenn du aus einem noch aktiven Log nicht schlau wirst, tritt dem Support-Server bei und teile uns die Log-ID im #support-Forum mit.
+Logs, welche das letzte mal vor drei oder mehr Tagen aufgetreten sind, können gelöscht werden.
 
 ![Logübersicht](/img/logs_overview.png)
+
+:::tip Support-Server
+
+Wenn du aus einem noch aktiven Log nicht schlau wirst, tritt dem [Support-Server](https://tomatenkuchen.com/discord) bei und teile uns die Log-ID im #support-Forum mit.
+
+:::

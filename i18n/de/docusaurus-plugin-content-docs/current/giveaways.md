@@ -37,35 +37,35 @@ Diese Funktion wählt einen oder die eingestellte Anzahl an Gewinnern aus. Nutze
 
 ## Einstellungen {#settings}
 
-### Giveaway-Nachricht {#settings-message}
+### Giveaway-Nachricht {#message}
 
 Hier kann der Text der Giveaway-Nachricht verändert werden, z. B. um eine Giveaway-Rolle zu erwähnen.
 
-### Rolle zum Erstellen/Verwalten von Giveaways {#settings-manager-role}
+### Rolle zum Erstellen/Verwalten von Giveaways {#manager-role}
 
 Es können Rollen ausgewählt werden, welche Giveaways erstellen und bearbeiten können.
 
 Nutzer mit einer dieser Rollen können alle [Befehle](#commands) dieser Seite ausführen.
 
-### Rollen, welche immer an Giveaways teilnehmen dürfen {#settings-no-requirements-role}
+### Rollen, welche immer an Giveaways teilnehmen dürfen {#no-requirements-role}
 
 Die ausgewählten Rollen können immer an Giveaways teilnehmen, unabhängig davon, welche Bedingungen für das Giveaway festgelegt sind.
 
-### Verhalten von Zusatzeinträgen {#settings-additional-entries}
+### Verhalten von Zusatzeinträgen {#additional-entries}
 
-#### Mehrfach {#settings-entries-multiple}
+#### Mehrfach {#entries-multiple}
 
 Diese Einstellung sorgt dafür, dass die Standardteilnahme, also eins, mit allen Zusatzeinträgen zusammenaddiert werden.
 
-#### Höchste Rolle {#settings-entries-highest-role}
+#### Höchste Rolle {#entries-highest-role}
 
 Mit dieser Einstellung zählen die Zusatzteilnahmen der höchsten Rolle, welche der entsprechende Nutzer hat *und* einen Wert für die Zusatzteilnahmen zugewiesen hat.
 
-#### Höchste Zusatzteilnahme {#settings-entries-highest-entry}
+#### Höchste Zusatzteilnahme {#entries-highest-entry}
 
 Dieser Wert zählt die höchste Zusatzteilnahme, die der Nutzer über seine Rollen hat.
 
-### Zusatzeinträge pro Rolle {#settings-additional-role-entries}
+### Zusatzeinträge pro Rolle {#additional-role-entries}
 
 Hier kann pro Rolle eine Anzahl eingegeben werden, die die Rolle an zusätzlichen Einträgen in Giveaways erhält.
 

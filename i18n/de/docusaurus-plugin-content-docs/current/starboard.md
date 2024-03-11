@@ -11,29 +11,29 @@ Sobald die festgelegte Mindestanzahl an "Sternen" überschritten wurde, wird die
 ![Starboard-Nachricht](/img/starboard.png)
 
 Nachrichten auf dem Starboard zeigen auch Bilder und Antworten an.
-Bilder werden abseits von Discord gespeichert, um diese auch nach dem Löschen von einer externen Quelle noch laden zu können.
+Bilder werden abseits von Discord gespeichert, um diese auch nach dem Löschen von einer externen Quelle noch darstellen zu können.
 
 ## Einstellungen {#settings}
 
-### Starboard-Kanal {#settings-channel}
+### Starboard-Kanal {#channel}
 
 Legt den Kanal fest, in dem Starboard-Nachrichten gesendet und aktualisiert werden.
 
-### Self-Star {#settings-selfstar}
+### Self-Star {#self-star}
 
 Ob Nutzer mit dem festgelegten Emoji auf ihre eigenen Nachrichten reagieren können.
 
-### Stars {#settings-stars}
+### Benötigte Reaktionsanzahl {#required-reactions}
 
 Wie viele Reaktionen benötigt werden, bis die Nachricht in den Starboard-Kanal gesendet wird.
 
-### Emoji {#settings-emoji}
+### Emoji {#reaction-emoji}
 
 Welches Emoji beim Reagieren für das Starboard verwendet wird.
 
 Standardwert: `⭐`
 
-### Ausgeschlossene Kanäle {#settings-excluded}
+### Ausgeschlossene Kanäle {#excluded-channels}
 
 In welchen Kanälen Nachricht nicht auf das Starboard gesendet werden können. Kann verwendet werden, um z. B. Teamkanäle oder Tickets geheim zu halten.
 

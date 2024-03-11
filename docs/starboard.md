@@ -15,25 +15,25 @@ Images are stored outside of Discord to allow displaying them even if the origin
 
 ## Settings {#settings}
 
-### Starboard channel {#settings-channel}
+### Starboard channel {#channel}
 
 Sets the channel in which the starboard messages are sent and updated.
 
-### Self star {#settings-selfstar}
+### Self star {#self-star}
 
 If users can react on their own messages.
 
-### Stars {#settings-stars}
+### Required reaction amount {#required-reactions}
 
 How many reactions of the set emoji are needed to send the starboard message.
 
-### Emoji {#settings-emoji}
+### Emoji {#reaction-emoji}
 
 Which emoji is used when reacting for the starboard.
 
 Default value: `⭐`
 
-### Excluded channels {#settings-excluded}
+### Excluded channels {#excluded-channels}
 
 Which channels are blacklisted from the starboard. Can be used to for example exclude team channels or tickets.
 

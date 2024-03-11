@@ -1,6 +1,6 @@
 ---
 title: Minecraft commands
-description: Explains commands related to the video game Minecraft. They allow you to quickly get player or server status information.
+description: Explains commands related to the video game Minecraft. They allow you to quickly get player, server status or recipe information.
 ---
 
 This page lists all commands that are related to the game "Minecraft", and explains their features.

@@ -17,6 +17,12 @@ The log system collects errors and other important events of the server. You can
 
 This information includes the log ID, the error summary, the number of errors and a button to display internal additional information.
 
-Logs that occurred last three or more days ago can be deleted. If you don't understand a still active log, join the support server and share the log ID in the #support forum.
+Logs that occurred last three or more days ago can be deleted.
 
 ![Logs overview](/img/logs_overview.png)
+
+:::tip Support server
+
+If you don't understand a still active log, join the [support server](https://tomatenkuchen.com/discord) and share the log ID in the #support forum.
+
+:::

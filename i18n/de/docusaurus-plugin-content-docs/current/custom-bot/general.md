@@ -34,7 +34,7 @@ Den Bottoken erhältst du aus dem [Discord-Developer-Portal](https://discord.com
 
 ## Einstellungen {#settings}
 
-### Ausgewählter Custom-Bot {#settings-custom-bot}
+### Ausgewählter Custom-Bot {#custom-bot}
 
 Auf jedem Server kann der Bot ausgewählt werden, welcher primär für Antworten verwendet wird.
 

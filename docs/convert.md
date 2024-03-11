@@ -5,7 +5,7 @@ description: Using the convert command currencies and units of measurement can b
 
 ## Command {#commands}
 
-Convertions can be done using the `convert` command:
+Convertions of measurement units and currencies can be done using the `convert` command:
 
 - value*: The value to convert
 - current_unit*: The current unit

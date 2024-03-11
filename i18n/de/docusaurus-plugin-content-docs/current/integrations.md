@@ -15,6 +15,12 @@ Außerdem ist es möglich, erstellte Integrationen auf anderen Servern zu verwen
 
 Integrationen können im [Dashboard](https://tomatenkuchen.com/dashboard/integrations) verwaltet werden.
 
+:::tip Einfacher Modus
+
+Wenn dir das Dashboard zu kompliziert erscheint, probiere unseren [einfachen Modus](https://tomatenkuchen.com/dashboard/integrations?cc=1) welcher nicht zwingend notwendige Inhalte versteckt, jedoch auch die Funktionalität begrenzt.
+
+:::
+
 ## Mögliche Auslöser {#trigger}
 
 - Nachrichten- und/oder Slashcommand
