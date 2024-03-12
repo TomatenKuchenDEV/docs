@@ -9,5 +9,8 @@ Using this [setting](https://tomatenkuchen.com/dashboard/settings#quoteDiscordLi
 - Only this server: Allows the quoting of messages that link to the current server. Message links that are sent on other servers are ignored.
 - Always: Allows quoting all messages.
 
-Note that the bot needs the permissions "Send messages" and "Embed links" in the channel where the message should be quoted.
+## Permissions {#permissions}
+
+The bot requires the permissions "Send messages" and "Embed links" in the channel where the message should be quoted.
+
 In channels where a message is quoted, the permissions "View channel" and "View message history" are required.

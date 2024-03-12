@@ -1,6 +1,6 @@
 ---
 title: Logging
-description: This page explains the logging system.
+description: This page explains the Discord server action logging system.
 ---
 
 TomatenKuchen provides feature rich logging about most actions that bots can capture.

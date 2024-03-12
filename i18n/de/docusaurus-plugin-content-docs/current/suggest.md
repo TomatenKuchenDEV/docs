@@ -83,9 +83,10 @@ Diese Einstellung ist standardmäßig aktiviert.
 
 Erzwingt einen Grund bei Vorschlagsaktionen, z. B. beim Annehmen oder Ablehnen. Standardmäßig deaktiviert.
 
-### Vorlagen für Gründe {#preset}
+### Vorlagen für Gründe {#reason-presets}
 
-Wie auch bei [Moderationsgründen](/category/moderation) kann man Vorlage für Gründe erstellen.
+Ähnlich wie bei [Moderationsgrundvorlagen](/moderation/settings#reason-presets) lassen sich vordefinierte Gründe erstellen, welche sich einfacher anwenden lassen.
+Besuche die verlinkte Seite für Beispiele.
 
 ### Votes öffentlich? {#public-votes}
 

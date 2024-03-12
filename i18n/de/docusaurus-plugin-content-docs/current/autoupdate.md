@@ -1,6 +1,6 @@
 ---
 title: Autoupdate
-description: Erklärt automatisch aktualisierende Nachrichten und listet mögliche Parameter auf.
+description: Erklärt sich automatisch aktualisierende Nachrichten und listet mögliche Parameter auf.
 image: /img/autoupdate_example.png
 ---
 

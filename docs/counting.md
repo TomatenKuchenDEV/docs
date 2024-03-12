@@ -40,15 +40,15 @@ Example:
 - `0.01`: 1, 1.01, 1.02
 - `-2`: 1, -1, -3
 
-### Reset on fail {#fail}
+### Reset on fail {#reset-fail}
 
 If the current run is reset if a user makes a mistake. A mistake is counting two times in a row and counting a wrong number.
 
-### Reset on message delete {#delete}
+### Reset on message delete {#reset-delete}
 
 Resets the run if a user deletes their message. Members can get confused if a number is missing.
 
-### Reset on message edit {#edit}
+### Reset on message edit {#reset-edit}
 
 If the current run is reset if a user edits their message *and* changes it's number or add normal text while chatting is disabled.
 
@@ -62,9 +62,10 @@ If webhooks should be used. Prevents message editing and deleting. Requires Mana
 
 ### Use reactions {#reactions}
 
-Whether the bot should react with "✅" or "☑" on valid counting messages.
+Whether the bot should react randomly with either "✅" or "☑" on valid counting messages.
 
-Disabled if "Use webhooks" is enabled.
+Will be ignored if "Use webhooks" is enabled.
+
 Reactions on special numbers, e.g. 42 and 100, can only be disabled by removing the Add Reactions permission from the bot.
 
 ### Role on fail {#fail-role}

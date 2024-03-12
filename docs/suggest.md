@@ -83,9 +83,10 @@ This setting is enabled by default.
 
 Enforce a reason for suggestion actions, e.g. when approving or denying. Disabled by default.
 
-### Reason presets {#preset}
+### Reason presets {#reason-presets}
 
-Like with [moderation reasons](/category/moderation) you can create preset reasons.
+Similar to [moderation preset reasons](/moderation/settings#reason-presets) you can create predefined reasons which allow easier usage.
+Check the linked page for examples.
 
 ### Public votes {#public-votes}
 

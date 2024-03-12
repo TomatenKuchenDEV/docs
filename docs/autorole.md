@@ -14,7 +14,15 @@ Using the [delayed user autoroles setting](https://tomatenkuchen.com/dashboard/s
 
 ## Rejoinroles {#rejoinrole}
 
-Rejoinroles are selectable roles which users receive when they rejoin the server and had them before they left.
+[Rejoinroles](https://tomatenkuchen.com/dashboard/settings#rejoinRoles) allow you to assign the configured roles back to users if they left your server while this setting was active, and they rejoin the server.
+
+:::note Permissions
+
+The bot needs the "Manage Roles" permission to assign the roles.
+
+Additionally, the highest role of the bot must be above the highest role you want to reassign.
+
+:::
 
 ## Nickname on join {#join-nick}
 

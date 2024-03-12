@@ -1,6 +1,6 @@
 ---
 title: Server statistics
-description: Explains the setup and usage of server statistics.
+description: The server stats of TomatenKuchen allow you to monitor the activity of your Discord server. The bot tracks member count, boosts and activity related to messages.
 ---
 
 ## Stats in channel names {#channel-name}

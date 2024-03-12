@@ -1,6 +1,6 @@
 ---
 title: Serverstatistiken
-description: Erklärt die Einrichtung und Verwendung von Serverstatistiken.
+description: Die Serverstatistiken von TomatenKuchen erlauben dir, die Aktivität deines Discord-Servers zu beobachten. Der Bot sammelt die Mitglieder- und Boostanzahl und Aktivität bezogen auf Nachrichten.
 ---
 
 ## Statistiken in Kanalnamen {#channel-name}

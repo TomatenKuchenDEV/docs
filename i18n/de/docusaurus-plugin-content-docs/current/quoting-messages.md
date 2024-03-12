@@ -9,5 +9,8 @@ Mit dieser [Einstellung](https://tomatenkuchen.com/dashboard/settings#quoteDisco
 - Only this server: Erlaubt das Zitieren von Nachrichten, die auf diesen Server verlinken. Nachrichtenlinks, die auf anderen Servern gesendet werden, werden ignoriert.
 - Always: Erlaubt das Zitieren aller Nachrichten.
 
-Beachte, dass der Bot die Berechtigungen "Nachrichten senden" und "Embeds einbetten" im Kanal benötigt, in dem die Nachricht zitiert werden soll.
+## Berechtigungen {#permissions}
+
+Der Bot benötigt die Berechtigungen "Nachrichten senden" und "Embeds einbetten" in dem Kanal, in dem die Nachricht zitiert werden soll.
+
 In Kanälen, aus denen eine Nachricht zitiert wird, müssen die Berechtigungen "Kanal ansehen" und "Nachrichtenverlauf ansehen" aktiviert sein.

@@ -40,15 +40,15 @@ Beispiel:
 - `0.01`: 1, 1.01, 1.02
 - `-2`: 1, -1, -3
 
-### Zurücksetzen bei Fehler {#fail}
+### Zurücksetzen bei Fehler {#reset-fail}
 
 Ob der aktuelle Stand zurückgesetzt wird, wenn ein Nutzer einen Fehler macht, also zählt, obwohl er nicht dran ist, oder eine falsche Zahl zählt.
 
-### Zurücksetzen bei Nachrichtenlöschung {#delete}
+### Zurücksetzen bei Nachrichtenlöschung {#reset-delete}
 
 Stellt ein, ob der aktuelle Stand zurückgesetzt wird, wenn ein Nutzer seine Nachricht löscht. Wenn eine oder mehrere Zahlen fehlen, kann das andere Nutzer im Kanal verwirren.
 
-### Zurücksetzen bei Nachrichtenbearbeitung {#edit}
+### Zurücksetzen bei Nachrichtenbearbeitung {#reset-edit}
 
 Ob der aktuelle Stand verloren geht, wenn ein Nutzer seine Nachricht bearbeitet *und* sich die Zahl dabei verändert oder die Nachricht normalen Text enthält.
 
@@ -62,9 +62,10 @@ Ob Webhooks für Nachrichten verwendet werden sollen. Verhindert das Bearbeiten 
 
 ### Reaktionen verwenden {#reactions}
 
-Ob der Bot auf gültige Nachrichten mit "✅" oder "☑" reagieren soll.
+Ob der Bot auf gültige Nachrichten zufällig mit entweder "✅" oder "☑" reagieren soll.
 
 Wird ignoriert, wenn "Webhooks verwenden" aktiviert ist.
+
 Reaktionen auf besondere Zahlen, z. B. 42 und 100, können nur durch das Entfernen der Reaktionen-hinzufügen-Berechtigung deaktiviert werden.
 
 ### Rolle bei Fehlern {#fail-role}

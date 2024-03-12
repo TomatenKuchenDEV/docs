@@ -17,7 +17,7 @@ description: Erklärt die Verwendung von Massenaktionen, z. B. das Kicken oder B
 
 Das Dehoisten, also das Entfernen von unnormalen Zeichen am Anfang von Nutzernamen, kann entweder mit dem Befehl `dehoist` oder automatisch über die entsprechende Einstellung erfolgen.
 
-Wenn die [Einstellung für automatisches Dehoisten](./settings#setting-auto-dehoist) aktiviert ist, führt der Bot den Befehl automatisch einmal täglich aus.
+Wenn die [Einstellung für automatisches Dehoisten](./settings#auto-dehoist) aktiviert ist, führt der Bot den Befehl automatisch einmal täglich aus.
 
 ### Rolle zu vielen Nutzern hinzufügen {#cmd-role-massadd}
 

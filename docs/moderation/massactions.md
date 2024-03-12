@@ -17,7 +17,7 @@ description: Learn how to perform mass actions such as mass banning and kicking,
 
 Dehoisting, which means the removal of unnormal characters at the beginning of usernames, can either be started using the `dehoist` command or by enabling the related setting.
 
-If the [setting for automatic dehoisting](./settings#setting-auto-dehoist) is enabled, the bot will automatically dehoist all members once a day.
+If the [setting for automatic dehoisting](./settings#auto-dehoist) is enabled, the bot will automatically dehoist all members once a day.
 
 ### Add role to many users {#cmd-role-massadd}
 

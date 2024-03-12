@@ -9,9 +9,9 @@ Um Giveaways zu verwalten braucht man eine der im Dashhoard festgelegten Giveawa
 
 ### Erstellen {#cmd-start}
 
-Startet das interaktive Setup eines Giveaways.
-
 <Command name="giveaway start"></Command>
+
+Startet das interaktive Setup eines Giveaways.
 
 ### Bearbeiten {#cmd-edit}
 
@@ -34,6 +34,8 @@ Diese Funktion wählt einen oder die eingestellte Anzahl an Gewinnern aus. Nutze
 ### Giveaways auflisten {#cmd-list}
 
 <Command name="giveaway list"></Command>
+
+Listet alle Giveaways des Servers auf. Beachte, dass Giveaways, welche vor drei Monaten oder länger geendet haben, gelöscht werden.
 
 ## Einstellungen {#settings}
 

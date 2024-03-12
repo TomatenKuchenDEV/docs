@@ -14,7 +14,15 @@ Mit der [Verzögerte-Nutzer-Autorollen-Einstellung](https://tomatenkuchen.com/da
 
 ## Rejoinrollen {#rejoinrole}
 
-Rejoinrollen sind auswählbare Rollen, welche Nutzern erneut zugewiesen werden, wenn sie den Server mit diesen Rollen verlassen und ihn später wieder betreten.
+[Rejoinroles](https://tomatenkuchen.com/dashboard/settings#rejoinRoles) erlauben dir, die konfigurierten Rollen Nutzers zurückzugeben, wenn diese deinen Server verlassen haben, während diese Einstellung aktiv war, und sie dem Server erneut beitreten.
+
+:::note Berechtigungen
+
+Der Bot benötigt die Berechtigung "Rollen verwalten", um die Rollen zuzuweisen.
+
+Zusätzlich muss die höchste Rolle des Bots über der höchsten Rolle sein, die du erneut verteilen willst.
+
+:::
 
 ## Nicknamen beim Beitreten {#join-nick}
 

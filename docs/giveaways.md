@@ -9,9 +9,9 @@ To manage giveaways you need one of the [giveaway roles](https://tomatenkuchen.c
 
 ### Create {#cmd-start}
 
-Start the interactive giveaway setup.
-
 <Command name="giveaway start"></Command>
+
+Start the interactive giveaway setup.
 
 ### Edit {#cmd-edit}
 
@@ -35,6 +35,8 @@ Users can be selected multiple times.
 ### List giveaways {#cmd-list}
 
 <Command name="giveaway list"></Command>
+
+List all giveaways of the server. Note that giveaways are deleted 3 months after they've ended.
 
 ## Settings {#settings}
 

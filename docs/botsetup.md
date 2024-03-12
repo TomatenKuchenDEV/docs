@@ -35,4 +35,6 @@ To copy an ID right click the message, the user, the channel or the server. If t
 
 ## Command syntax {#syntax}
 
-Commands are always displayed as `command <Required argument> [<Optional argument>] Required|argument|with|multiple|options`.
+Commands are always displayed as `command-name <Required argument> [<Optional argument>] Required|argument|with|multiple|options`.
+
+Make sure to omit the brackets when using arguments.

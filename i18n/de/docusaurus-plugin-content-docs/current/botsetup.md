@@ -29,4 +29,6 @@ Um eine ID zu kopieren rechtsklickst du die entsprechende Nachricht, den Nutzer,
 
 ## Befehlssyntax {#syntax}
 
-Befehle werden immer mit der Syntax `befehl <Erforderliches Argument> [<Optionales Argument>] Erforderliches|Argument|mit|mehreren|Optionen` angegeben.
+Befehle werden immer mit der Syntax `Befehlsname <Erforderliches Argument> [<Optionales Argument>] Erforderliches|Argument|mit|mehreren|Optionen` angegeben.
+
+Stelle sicher, dass du die Klammern weglässt, wenn du Argumente verwendest.

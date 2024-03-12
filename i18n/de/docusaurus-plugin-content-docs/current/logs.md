@@ -1,6 +1,6 @@
 ---
 title: Logs
-description: Diese Seite erklärt das Logsystem.
+description: Diese Seite erklärt das Discord-Server-Aktions-Logsystem.
 ---
 
 TomatenKuchen hat ein sehr funktionsreiches Logsystem, was die meisten aller Aktionen loggt, die Bots feststellen können.
