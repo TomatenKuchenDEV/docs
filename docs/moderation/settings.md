@@ -77,8 +77,8 @@ You can create presets for moderation reasons to create a shortcut for longer mo
 
 ### Example {#reason-presets-examples}
 
-- `name`: "ads"
-- `value`: "You violated our rules: Advertising not allowed!"
+- `name`: `ads`
+- `value`: `You violated our rule "Advertising is forbidden!"`
 
 <Command name="mute" slash="user:User reason:ads" message="<User> ads"></Command>
 
@@ -87,3 +87,16 @@ You can create presets for moderation reasons to create a shortcut for longer mo
 Configures whether the bot should automatically run the `dehoist` command once a day.
 
 This removes characters from the display name of users, which push them to the top of the member list.
+
+## File blacklist {#file-blacklist}
+
+This setting and the command `fileblacklist` allow you to blacklist specific files from being sent on your server.
+
+To do that, you need to calculate the sha256 hash of the file. If you don't know how to do that, simply use the command:
+
+<Command name="fileblacklist add" slash="[url:A file URL or sha256 hash to blacklist] [file:The file you want to blacklist] [reason:The blacklist reason]" message="<User> [<Reason>]"></Command>
+
+Either a file hash, URL or the attachment itself must be provided.
+
+Note that while the reason is optional, it's recommended to fill in the context or reason for the blacklist, as you won't be able to see the blacklisted file using TomatenKuchen.
+The reason could be for example "nsfw" or "Used by spammers."

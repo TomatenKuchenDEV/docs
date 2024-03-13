@@ -10,7 +10,7 @@ TomatenKuchen can change the nicknames of users based on their roles.
 
 ![](/img/autonick.png)
 
-### Role abbreviations {#abb}
+### Role abbreviations {#roles}
 
 You can link each role to an abbreviation that will be displayed in the nickname. For example, you can use "A" as the abbreviation for the "Admin" role.
 

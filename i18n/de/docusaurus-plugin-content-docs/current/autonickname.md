@@ -10,7 +10,7 @@ TomatenKuchen kann den Nicknamen von Nutzern basierend auf Rollen des Nutzers an
 
 ![](/img/autonick.png)
 
-### Rollenabkürzungen {#abb}
+### Rollenabkürzungen {#roles}
 
 Jede Rolle kann hier eine Abkürzung erhalten, die im Nicknamen angezeigt wird, z. B. für die "Admin"-Rolle ein "A".
 

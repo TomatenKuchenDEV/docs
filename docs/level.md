@@ -71,7 +71,7 @@ Selects the channel in which level up messages are send. You can either select a
 
 Select roles, channels or groups of channels which are excluded from collecting level points, e.g. `bot-spam` channels.
 
-### Multiplier per channel {#multiplier}
+### Multiplier per channel {#channel-multipliers}
 
 Sets a multiplier per channel. Can e.g. be used to reduce the amount given in bot channels and increase the points in VIP/Booster/… channels.
 

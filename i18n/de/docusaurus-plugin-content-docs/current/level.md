@@ -71,7 +71,7 @@ Hier kann der Kanal ausgewählt werden, in dem Level-up-Nachrichten gesendet wer
 
 Es können einzelne oder Gruppierungen von Kanälen bzw. Rollen vom Sammeln von Levelpunkten ausgenommen werden, z. B. für einen `bot-spam`-Kanal.
 
-### Multiplier pro Kanal {#multiplier}
+### Multiplier pro Kanal {#channel-multipliers}
 
 Legt einen Multiplier pro Kanal fest. Kann z. B. verwendet werden, um in Botkanälen weniger Punkte zu verteilen und in VIP-/Booster-/…-Kanälen mehr.
 

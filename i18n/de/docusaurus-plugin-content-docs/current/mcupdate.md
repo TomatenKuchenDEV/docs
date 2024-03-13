@@ -14,7 +14,7 @@ Kanalname und -thema werden aufgrund eines Discord-Limits nur alle fünf Minuten
 
 ## Einrichtung {#setup}
 
-:::warn Berechtigungen
+:::warning Berechtigungen
 
 Für die Einrichtung benötigt der Bot ausreichende Berechtigungen zum Bearbeiten sowie Löschen von Nachrichten im aktuellen Kanal.
 

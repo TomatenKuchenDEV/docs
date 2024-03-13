@@ -14,7 +14,7 @@ Channel name and topic are only updated once every five minutes due to a Discord
 
 ## Setup {#setup}
 
-:::warn Permissions
+:::warning Permissions
 
 For the setup, the bot requires permissions for editing and deleting messages in the current channel.
 

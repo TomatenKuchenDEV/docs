@@ -13,8 +13,11 @@ Der Inhalt und die Embeds der Nachricht können frei gewählt werden.
 
 ### Kanal {#channel}
 
-In welchem Kanal die Sticky-Nachricht gesendet werden soll
+In welchem Kanal die Sticky-Nachricht dauerhaft als letzte Nachricht angezeigt werden soll.
+
+Der Bot benötigt dafür mindestens die Berechtigung "Nachrichten verwalten".
 
 ### Antworten auf Bots {#reply-to-bots}
 
-Ob der Bot auf andere Bots reagieren soll, wenn diese eine Nachricht in den Kanal senden. Wenn deaktiviert reagiert TomatenKuchen nur auf Nutzer.
+Ob der Bot auf andere Bots reagieren soll, wenn diese eine Nachricht in den Kanal senden.
+Wenn deaktiviert reagiert TK nur auf Nutzer.

@@ -49,6 +49,6 @@ Du kannst zwischen "Public" ("öffentlich", für jeden mit dem Link aufrufbar), 
 
 Beachte, dass "Only Members" und "Disabled" das Sammeln von Nachrichtenstatistiken (Anzahl Nachrichten & aktiver Chatter) deaktivieren.
 
-### Kanäle ausschließen {#excluded}
+### Kanäle ausschließen {#excluded-channels}
 
 Hier können Kanälen ausgewählt werden, in denen keine Nachrichtenstatistiken gesammelt werden, z. B. für Botspam-Kanäle.

@@ -13,8 +13,11 @@ The content and the embeds of the message can be freely edited.
 
 ### Channel {#channel}
 
-In which channel the sticky message should be send.
+In which channel the sticky message should be pinned to the bottom.
+
+The bot at least needs the permission "Manage Messages" to work.
 
 ### Respond to bots {#reply-to-bots}
 
-Whether TomatenKuchen should respond to other bots when they send a message into the channel. If disabled the bot only responds to humans.
+Whether the bot should respond to other bots when they send a message into the channel.
+If disabled TK only responds to humans.

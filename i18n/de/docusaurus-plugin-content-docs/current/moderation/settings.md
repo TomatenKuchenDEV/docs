@@ -87,3 +87,16 @@ Es können Vorlagen für Moderationsgründe erstellt werden, um mit einem Shortc
 Stellt ein, ob der Bot automatisch einmal täglich den `dehoist`-Befehl ausführen soll.
 
 Damit werden Zeichen aus dem Anzeigenamen von Nutzern entfernt, die diese in der Mitgliederliste nach oben pushen.
+
+## Dateiblacklist {#file-blacklist}
+
+Diese Einstellung und der Befehl `fileblacklist` erlauben dir, das Senden bestimmter Dateien auf deinem Server zu verhindern.
+
+Um das zu tun musst du den SHA-256-Hash der Datei berechnen. Wenn du nicht weißt, wie das geht, nutze einfach den Befehl:
+
+<Command name="fileblacklist add" slash="[url:A file URL or sha256 hash to blacklist] [file:The file you want to blacklist] [reason:The blacklist reason]" message="<URL>|<Anhang> [<Reason>]"></Command>
+
+Entweder ein Dateihash, eine URL oder der Anhang selbst muss angegeben werden.
+
+Obwohl der Grund optional ist wird empfohlen, den Kontext oder den Grund für die Blacklist dort einzutragen, weil du später nicht mehr die Möglichkeit mit TomatenKuchen hast, die Datei anzusehen.
+Der Grund könnte z. B. einfach "nsfw" oder "Verwendet von Spammern." sein.
