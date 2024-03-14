@@ -15,9 +15,9 @@ The bot checks for new items every 10 minutes, due to YouTube limiting the feeds
 The command displays a list of channels that match your search query.
 By selecting a channel, more information about is shown, e.g. the video and subscriber count.
 
-## Settings {#settings}
+## Video feeds {#feeds}
 
-You can get the YouTube user ID for the `channel` field using the `youtube` command, or by using the "Share" button on a channels info page by clicking the description and then the Share button on the right hand side.
+You can get the YouTube user ID for the `channel` field in the [YouTube feed settings](https://tomatenkuchen.com/dashboard/settings#ytChannels) using the `youtube` command, or by using the "Share" button on a channels info page by clicking the description and then the Share button on the right hand side.
 
 Every server can add up to ten YouTube channels and receive notifications for them.
 

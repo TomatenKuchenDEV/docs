@@ -9,17 +9,17 @@ It's not possible for the bot to find out how many times a specific user has boo
 
 ## Settings {#settings}
 
-### Boost message channel {#channel}
+### Boost message channel {#start-channel}
 
 The bot will send a message into this message once a user boosts the server for the first time.
 
-### Former boost message channel {#endchannel}
+### Former boost message channel {#end-channel}
 
-The bot will send a message into this channel once a user removes all it's boosts from the server.
+The bot will send a message into this channel once a user removes all its boosts from the server.
 
 ### Boost (end) message {#message}
 
-Setting for configuring the message which is sent once a user boosts the server for the first time or removes it's last boost.
+Setting for configuring the message which is sent once a user boosts the server for the first time, or removes its last boost.
 
 ## Variables {#vars}
 

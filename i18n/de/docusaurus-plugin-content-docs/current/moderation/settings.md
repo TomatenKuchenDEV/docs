@@ -33,7 +33,7 @@ Verhindert, dass Nutzer Nachrichten senden, die mit Markdown-Überschriften (`#`
 
 Schreibt Nutzern eine PN, wenn sie gegen eine Discord-AutoMod-Regel des Servers verstoßen, in der das Wort und der vollständige Textinhalt wiedergegeben wird.
 
-## PN-Nachrichten für Ban/Kick/Mute/Warn {#dm-messages-on-ban-kick-mute-warn}
+## Direktnachrichten bei Ban/Kick/Mute/Warn {#dm-messages}
 
 Hier können die Nachrichten bearbeitet werden, die Nutzer per PN erhalten, wenn ein Moderator eine der angegebenen Funktionen nutzt.
 
@@ -42,6 +42,10 @@ Leer lassen zum Deaktivieren.
 ## Nur-Anhangs-Kanäle {#attachment-only-channels}
 
 In diesen Kanälen können Nutzer nur Anhänge, z. B. Bilder oder Videos, senden. Nur Text ist nicht erlaubt, Nachrichten können aber einen optionalen Text beeinhalten.
+
+## Links-Lösch-Kanäle {#links-delete-channels}
+
+In diesen Kanälen werden alle Arten von Links bzw. URLs gelöscht und der Nutzer für kurze Zeit getimeouted.
 
 ## Mindestaccountalter {#min-age}
 

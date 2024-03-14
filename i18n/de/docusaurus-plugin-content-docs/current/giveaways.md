@@ -43,17 +43,17 @@ Listet alle Giveaways des Servers auf. Beachte, dass Giveaways, welche vor drei 
 
 Hier kann der Text der Giveaway-Nachricht verändert werden, z. B. um eine Giveaway-Rolle zu erwähnen.
 
-### Rolle zum Erstellen/Verwalten von Giveaways {#manager-role}
+### Rolle zum Erstellen/Verwalten von Giveaways {#manage-roles}
 
 Es können Rollen ausgewählt werden, welche Giveaways erstellen und bearbeiten können.
 
 Nutzer mit einer dieser Rollen können alle [Befehle](#commands) dieser Seite ausführen.
 
-### Rollen, welche immer an Giveaways teilnehmen dürfen {#no-requirements-role}
+### Rollen, welche immer an Giveaways teilnehmen dürfen {#no-requirements-roles}
 
 Die ausgewählten Rollen können immer an Giveaways teilnehmen, unabhängig davon, welche Bedingungen für das Giveaway festgelegt sind.
 
-### Verhalten von Zusatzeinträgen {#additional-entries}
+### Verhalten von Zusatzeinträgen {#extra-entries-mode}
 
 #### Mehrfach {#entries-multiple}
 
@@ -67,7 +67,7 @@ Mit dieser Einstellung zählen die Zusatzteilnahmen der höchsten Rolle, welche 
 
 Dieser Wert zählt die höchste Zusatzteilnahme, die der Nutzer über seine Rollen hat.
 
-### Zusatzeinträge pro Rolle {#additional-role-entries}
+### Zusatzeinträge pro Rolle {#extra-role-entries}
 
 Hier kann pro Rolle eine Anzahl eingegeben werden, die die Rolle an zusätzlichen Einträgen in Giveaways erhält.
 

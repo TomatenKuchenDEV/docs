@@ -15,9 +15,9 @@ Der Bot sucht alle zehn Minuten nach neuen Videos, aufgrund von Limitierungen vo
 Der Befehl zeigt dir eine Liste von Kanälen an, die mit deiner Suchanfrage übereinstimmen.
 Durch das Auswählen eines Kanals werden weitere Informationen angezeigt, z. B. die Anzahl der Videos und der Abonnenten.
 
-## Einstellungen {#settings}
+## Video-Feeds {#feeds}
 
-Die YouTube-Nutzer-ID für das `channel`-Feld erhältst du mit dem `youtube`-Befehl oder mit dem "Teilen"-Button auf der Kanalinfo-Seite eines Kanals, indem man auf die Beschreibung und dann den Teilen-Button klickt.
+Die YouTube-Nutzer-ID für das `channel`-Feld in den [YouTube-Feedeinstellungen](https://tomatenkuchen.com/dashboard/settings#ytChannels) erhältst du mit dem `youtube`-Befehl oder mit dem "Teilen"-Button auf der Kanalinfo-Seite eines Kanals, indem man auf die Beschreibung und dann den Teilen-Button klickt.
 
 Jeder Server kann bis zu zehn YouTube-Kanäle hinzufügen und für diese Benachrichtigungen erhalten.
 

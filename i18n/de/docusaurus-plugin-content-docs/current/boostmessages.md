@@ -9,11 +9,11 @@ Es ist nicht möglich für den Bot, herauszufinden, wie oft ein bestimmter Nutze
 
 ## Einstellungen {#settings}
 
-### Boost-Nachrichten-Kanal {#channel}
+### Boost-Nachrichten-Kanal {#start-channel}
 
 In diesen Kanal wird eine Nachricht gesendet, wenn ein Nutzer das erste Mal den Server boosted.
 
-### Ehemalige-Booster-Nachrichten-Kanal {#endchannel}
+### Ehemalige-Booster-Nachrichten-Kanal {#end-channel}
 
 In diesen Kanal wird eine Nachricht gesendet, wenn ein Nutzer alle seine Boosts vom Server entfernt hat.
 

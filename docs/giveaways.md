@@ -44,17 +44,17 @@ List all giveaways of the server. Note that giveaways are deleted 3 months after
 
 Change the text of the giveaway message. Can be used for example to ping a giveaway role.
 
-### Role for creating/managing giveaways {#manager-role}
+### Role for creating/managing giveaways {#manage-roles}
 
 Users with this role can create and edit and giveaways.
 
 Users with one of these roles can run all [commands](#commands) on this page.
 
-### Roles which always can participate {#no-requirements-role}
+### Roles which always can participate {#no-requirements-roles}
 
 Users with this role can always participate in giveaways, ignoring any requirements that have been set for the giveaway.
 
-### Behavior of extra entries {#additional-entries}
+### Behavior of extra entries {#extra-entries-mode}
 
 #### Stack {#entries-multiple}
 
@@ -68,7 +68,7 @@ With this setting the extra entries count of the highest role the specific user 
 
 This value causes the highest extra entry to count which the user has from their roles.
 
-### Extra entries per role {#additional-role-entries}
+### Extra entries per role {#extra-role-entries}
 
 This setting allows a value per role which specifies the amount of extra entries the role receives in giveaways.
 
