@@ -6,10 +6,19 @@ description: Informationen über die Verwendung und die Befehle privater Sprachk
 Sobald ein Nutzer den im Dashboard ausgewählten Kanal betritt, wird ein neuer privater Sprachkanal erstellt.
 Die Rechte für diesen Kanal lassen sich mit dem Befehl `permission` einstellen.
 
-## Einstellungen {#settings}
+## Private Kanäle {#setting}
 
-Du kannst verschiedene Sprachkanäle im Dashboard festlegen und für jeden dieser eine Kategorie festlegen, in dem die privaten Kanäle erstellt werden sollen.
-Der Name kann anhand der Nutzer- oder Nicknamens und/oder einer sich erhöhenden ID festgelegt werden.
+Die [Private-Sprachkanal-Einstellung](https://tomatenkuchen.com/dashboard/settings#privateVoiceChannel) erlauben dir, einen Sprachkanal auszuwählen, welcher einen privaten Kanal erstellt, sobald ein Nutzer diesem beitritt. Der Nutzer wird automatisch in seinen privaten Kanal verschoben und kann diesen mit den Befehlen unten modifizieren.
+
+You are able to change the category under which the channels are created, and the default channel name.
+Du kannst die Kategorie, unter welchem die Kanäle erstellt werden, und den Standardkanalnamen ändern
+
+## Kanalnamens-Variablen {#vars}
+
+- `{id}`: Eine temporäre, eindeutige ID, welche erneut zugewiesen werden kann sobald der vorherige Kanal gelöscht wird
+- `{username}`: Der Nutzername des Nutzers, welcher den Kanal erstellt hat
+- `{displayName}`: Der Anzeigename des Nutzers
+- `{globalName}`: Der globale Anzeigename des Nutzers
 
 ## Befehle {#commands}
 

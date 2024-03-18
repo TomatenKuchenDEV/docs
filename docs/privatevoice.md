@@ -6,10 +6,18 @@ description: Explains private channels and their commands
 As soon as a user enters the channel selected in the dashboard, a new private voice channel is created.
 The permissions for this channel can be set with the `permission` command.
 
-## Settings {#settings}
+## Private channels {#setting}
 
-You can set different voice channels in the dashboard, and select for each of them a category for the channel to be created in.
-The name can be configured too using the user- or nickname and/or an incrementing ID.
+The [private voice channel setting](https://tomatenkuchen.com/dashboard/settings#privateVoiceChannel) allows you to select voice channels which will create a new private channel for a user once they join it. The user is automatically moved to their own channel and can modify it using the commands below.
+
+You are able to change the category under which the channels are created, and the default channel name.
+
+## Channel name variables {#vars}
+
+- `{id}`: A temporary unique ID which can be re-assigned if the previous channel was deleted
+- `{username}`: The username of the user who created the channel
+- `{displayName}`: The display name of the user
+- `{globalName}`: The global display name of the user
 
 ## Commands {#commands}
 
