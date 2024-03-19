@@ -79,7 +79,7 @@ Wenn dieser Wert aktiviert ist, erhält der Ersteller eines Vorschlags eine PN, 
 
 Diese Einstellung ist standardmäßig aktiviert.
 
-### Grund erzwingen {#require-reason}
+### Grund erzwingen {#enforce-reason}
 
 Erzwingt einen Grund bei Vorschlagsaktionen, z. B. beim Annehmen oder Ablehnen. Standardmäßig deaktiviert.
 

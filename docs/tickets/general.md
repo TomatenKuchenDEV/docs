@@ -67,3 +67,13 @@ If this setting is set to "Always" the bot sends a DM message to the original ti
 In the "Manual" mode, the ticket close message contains a button that can be used to send a message to the ticket creator.
 
 In the "Disabled" mode, no message is sent to the creator when a ticket is closed.
+
+### Supporter roles {#supporter-roles}
+
+Supporter (Staff) roles are roles which habe the permission to view ticket channels.
+
+### Manage roles {#manage-roles}
+
+Users with the roles selected here have the same permissions as users who only have a [supporter role](#supporter-rollen).
+
+Zusätzlich haben sie die Möglichkeit, Tickets zu löschen, Tickets für andere Nutzer als sie selbst anzulegen, sowie beim Erstellen eines Tickets die Möglichkeit, eine Ticketkategorie auszuwählen.

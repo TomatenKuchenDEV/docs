@@ -65,3 +65,13 @@ Wenn diese Einstellung auf "Immer" gesetzt ist sendet der Bot automatisch eine P
 Auf "Manuell" enthält die Ticket-geschlossen-Nachricht einen Button, mit dem eine Nachricht an den Ticketersteller gesendet werden kann.
 
 Im Modus "Deaktiviert" wird keine Nachricht beim Schließen eines Tickets an den Ersteller gesendet.
+
+### Supporter-Rollen {#supporter-roles}
+
+Supporter-Rollen sind Rollen, welche die Berechtigung haben, Ticketkanäle anzusehen.
+
+### Manage-Rollen {#manage-roles}
+
+Nutzer mit den hier ausgewählten Rollen haben dieselben Berechtigungen wie Nutzer, die nur eine [Supporter-Rolle](#supporter-rollen) besitzen.
+
+Zusätzlich haben sie die Möglichkeit, Tickets zu löschen, Tickets für andere Nutzer als sie selbst anzulegen, sowie beim Erstellen eines Tickets die Möglichkeit, eine Ticketkategorie auszuwählen.

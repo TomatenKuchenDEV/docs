@@ -9,7 +9,9 @@ Diese Funktion kann verwendet werden, wenn die Kanalbeschreibung nicht zum Erkl�
 
 ## Einstellungen pro Sticky-Nachricht {#settings}
 
-Der Inhalt und die Embeds der Nachricht können frei gewählt werden.
+### Nachrichteninhalt {#content}
+
+Mithilfe des eingebauten [Nachrichteneditors](/messageeditor) kann die Sticky-Nachricht frei gestaltet werden.
 
 ### Kanal {#channel}
 

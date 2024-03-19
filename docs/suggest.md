@@ -79,7 +79,7 @@ If this setting is enabled the creator of the suggestion receives a DM when thei
 
 This setting is enabled by default.
 
-### Enforce reason {#require-reason}
+### Enforce reason {#enforce-reason}
 
 Enforce a reason for suggestion actions, e.g. when approving or denying. Disabled by default.
 

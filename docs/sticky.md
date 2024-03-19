@@ -9,7 +9,9 @@ This feature can be used if the channel topic isn't enough for explaining the ch
 
 ## Settings per sticky message {#settings}
 
-The content and the embeds of the message can be freely edited.
+### Message content {#content}
+
+Using the built-in [message editor](/messageeditor) the sticky message can be freely edited.
 
 ### Channel {#channel}
 
