@@ -1,6 +1,6 @@
 ---
 title: Ticketfunktionen
-description: Erklärt die Funktionen sowie die Einrichtung und Einstellungen des Ticketsystems.
+description: Erklärt die Funktionen des Ticketsystems mit all seinen Funktionen, Einrichtungshilfen und Einstellungen.
 ---
 
 ## Ticketkategorien erstellen {#create-ticket-categories}
@@ -68,10 +68,25 @@ Im Modus "Deaktiviert" wird keine Nachricht beim Schließen eines Tickets an den
 
 ### Supporter-Rollen {#supporter-roles}
 
-Supporter-Rollen sind Rollen, welche die Berechtigung haben, Ticketkanäle anzusehen.
+Supporter-Rollen sind Rollen, welche die Berechtigung haben, standardmäßig alle Ticketkanäle anzusehen.
 
 ### Manage-Rollen {#manage-roles}
 
 Nutzer mit den hier ausgewählten Rollen haben dieselben Berechtigungen wie Nutzer, die nur eine [Supporter-Rolle](#supporter-rollen) besitzen.
 
 Zusätzlich haben sie die Möglichkeit, Tickets zu löschen, Tickets für andere Nutzer als sie selbst anzulegen, sowie beim Erstellen eines Tickets die Möglichkeit, eine Ticketkategorie auszuwählen.
+
+### Ticketlimit {#limit}
+
+Das [Ticketlimit](https://tomatenkuchen.com/dashboard/settings#ticketLimit) stellt ein, wie viele Tickets ein Nutzer gleichzeitig offen haben kann.
+Geschlossene und gelöschte Tickets zählen nicht dazu, erneut geöffenete jedoch schon.
+
+Wenn ein Nutzer dieses Limit erreicht hat kann dieser keine neuen Tickets mehr erstellen.
+Stattdessen müssen offene Tickets geschlossen werden.
+Alternativ kann auch ein Nutzer mit einer [Manage-Rolle](#manage-roles) ein neues Ticket für den ursprünglichen Nutzer anlegen.
+
+### Ausgeschlossene Rollen {#excluded-roles}
+
+Mit dieser Einstellung können bestimmte Rollen vom Erstellen eines Tickets ausgeschlossen werden.
+
+Auch hier können Nutzer mit einer Manage-Rolle ein Ticket für diese erstellen.

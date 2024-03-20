@@ -1,6 +1,6 @@
 ---
 title: Ticket features
-description: Explains the ticket system and the setup and settings of it.
+description: Explains the ticket system with all of its features, setup instructions and settings of it.
 ---
 
 ## Setting up ticket categories {#create-ticket-categories}
@@ -23,7 +23,7 @@ Users can change this setting by using the `usersettings` command.
 
 ## Settings {#settings}
 
-### Ticket create message {#ticket-create-message}
+### Ticket create message {#create-message}
 
 You can set a default message and also customize one for each ticket category. These messages will be sent after creating a ticket.
 
@@ -70,10 +70,25 @@ In the "Disabled" mode, no message is sent to the creator when a ticket is close
 
 ### Supporter roles {#supporter-roles}
 
-Supporter (Staff) roles are roles which habe the permission to view ticket channels.
+Supporter (Staff) roles are roles which have the permission to view all ticket channels by default.
 
 ### Manage roles {#manage-roles}
 
 Users with the roles selected here have the same permissions as users who only have a [supporter role](#supporter-rollen).
 
 Zusätzlich haben sie die Möglichkeit, Tickets zu löschen, Tickets für andere Nutzer als sie selbst anzulegen, sowie beim Erstellen eines Tickets die Möglichkeit, eine Ticketkategorie auszuwählen.
+
+### Ticket limit {#limit}
+
+The [ticket limit](https://tomatenkuchen.com/dashboard/settings#ticketLimit) configures how many open tickets a user can have at the same time.
+Closed and deleted tickets don't count against this, but reopened ones do.
+
+If a user reached this limit, they are unable to create any new tickets.
+Instead, open tickets have to be closed.
+Alternatively a user with a [Manage role](#manage-roles) is able to create a new ticket for the original user.
+
+### Excluded roles {#excluded-roles}
+
+Using this setting, specified roles can be excluded from creating a ticket.
+
+Again, users with a manage role are able to create a ticket for them.

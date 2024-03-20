@@ -15,3 +15,9 @@ Die Zeit wird im Standard-Zeitformat des Bots angegeben:
 - `6h`: Sechs Stunden, nachdem die Nachricht gesendet worden ist.
 
 Es können Zeiten von bis zu einem Jahr angegeben werden.
+
+## Autopurge {#autopurge}
+
+In dem festgelegten Intervall in den [Autopurge-Einstellungen](https://tomatenkuchen.com/dashboard/settings#autoPurge) werden die letzten 1000 Nachrichten in dem jeweils ausgewählten Kanal gelöscht.
+
+Das Intervall muss mindestens 30 Minuten betragen und die zu löschenden Nachrichten dürfen nicht älter als 14 Tage alt sein.
