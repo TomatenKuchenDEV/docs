@@ -9,6 +9,10 @@ Es ist nicht möglich für den Bot, herauszufinden, wie oft ein bestimmter Nutze
 
 ## Einstellungen {#settings}
 
+### Booststart- und -endnachricht {#message}
+
+Hier kann die Nachricht, die beim Boosten bzw. Ende des Boostens gesendet wird, angepasst werden.
+
 ### Boost-Nachrichten-Kanal {#start-channel}
 
 In diesen Kanal wird eine Nachricht gesendet, wenn ein Nutzer das erste Mal den Server boosted.
@@ -16,10 +20,6 @@ In diesen Kanal wird eine Nachricht gesendet, wenn ein Nutzer das erste Mal den 
 ### Ehemalige-Booster-Nachrichten-Kanal {#end-channel}
 
 In diesen Kanal wird eine Nachricht gesendet, wenn ein Nutzer alle seine Boosts vom Server entfernt hat.
-
-### Boost-(End-)Nachricht {#message}
-
-Hier kann die Nachricht, die beim Boosten bzw. Ende des Boostens gesendet wird, angepasst werden.
 
 ## Variablen {#vars}
 

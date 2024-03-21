@@ -69,7 +69,9 @@ Alle diese Funktionen sind kostenlos verfügbar!
 - [Private Sprachkanäle](/privatevoice)
 - [Giveaways](/giveaways)
 - [Viele verschiedene Spiele](/games)
-- [Automatisches Löschen von Nachrichten in einem Kanal](/autodelete)
+- Automatisches Löschen von Nachrichten in einem Kanal:
+	- [Relativ zum Sendezeitpunkt](/autodelete#autodelete)
+	- [In einem festgelegten Zeitintervall](/autodelete#autopurge)
 - [Vorschläge](/suggest)
 	- optional verschiedene Kanäle je nach aktuellem Vorschlagsstatus
 	- Reaktionen oder Buttons zum Abstimmen

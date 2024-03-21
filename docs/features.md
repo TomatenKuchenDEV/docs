@@ -69,7 +69,9 @@ All of these features are available for free!
 - [Private voice channels](/privatevoice)
 - [Giveaways](/giveaways)
 - [Many games](/games)
-- [Automatic deletion of messages in a channel](/autodelete)
+- Automated deletion of messages in a channel:
+	- [Relative to the send time](/autodelete#autodelete)
+	- [In a configured interval](/autodelete#autopurge)
 - [Suggestions](/suggest)
 	- Optional different channels depending on the state
 	- Reactions or buttons for voting

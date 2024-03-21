@@ -5,27 +5,27 @@ description: Lists the ticket commands.
 
 ## Create ticket {#cmd-create}
 
-`ticket [<Reason>]`
+<Command name="ticket" slash="[reason:Reason]" message="[<Reason>]"></Command>
 
-Moderators and admins can also specify a user for whom the ticket should be created instead of a reason.
+Users with a [manage role](./general#manage-roles) can also specify a user for whom the ticket should be created instead of a reason, or a ticket category.
 
 ## Add a user or role to the current ticket {#cmd-add}
 
-`tickets add <User|Role>`
+<Command name="tickets add" slash="[user:User or role]" message="<User|Role>"></Command>
 
 ## Remove a user or role from the current ticket {#cmd-remove}
 
-`tickets remove <User|Role>`
+<Command name="tickets remove" slash="[user:User or role]" message="<User|Role>"></Command>
 
 ## Close ticket {#cmd-close}
 
-`close [<Reason>]`
+<Command name="close" slash="[reason:Reason]" message="[<Reason>]"></Command>
 
 This will send the user a DM if this setting is enabled in the dashboard.
 
 ## Delete ticket {#cmd-delete}
 
-`delete`
+<Command name="delete"></Command>
 
 To delete a ticket, you need one of the ticket manager roles or the "Manage Guild" permission.
 
@@ -44,13 +44,15 @@ This command and button are only available when claiming has been enabled in the
 
 Button on the close ticket message
 
-## Show tickets & transcripts {#cmd-history}
+## Show tickets & transcripts {#cmd-list}
 
-`tickets list [<User>] [<Filter>]`
+<Command name="tickets list" slash="[user:User state:Filter]" message="[<User>] [<Filter>]"></Command>
+
+Displays all tickets of the server, optionally filtered by user and/or status.
 
 ## Moving into another ticket category {#cmd-move}
 
-`tickets move <New category>`
+<Command name="tickets move" slash="category:New category" message="<New category>"></Command>
 
 This will send the ticket start message again and, if you're using channels for tickets, move the channel category if needed.
 

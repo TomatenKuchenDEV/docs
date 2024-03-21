@@ -29,15 +29,15 @@ Es kann eine Standard-Nachricht und eine Nachricht pro Ticketkategorie festgeleg
 
 Diese Nachricht wird von einer kategoriespezifischen Nachricht überschrieben, sofern mindestens ein Nachrichtenfeld der Ticketkategorie ausgefüllt ist.
 
-- `{usermention}`
-- `{username}`
-- `{globalname}`
-- `{displayname}`
-- `{id}`: Die Ticket-ID
-- `{servername}`
-- `{servericon}`
-- `{supporterroles}`: Eine Erwähnung alle als Supporter markierten Rollen
-- `{managerroles}`: Eine Erwähnung alle als Moderator markierten Rollen
+- `{userMention}`: Erwähnt den Ticketersteller
+- `{username}`: Der Benutzername des Ticketerstellers
+- `{globalName}`
+- `{displayName}`
+- `{id}`: Die eindeutige Ticket-ID
+- `{serverName}`: Der Servername
+- `{serverIcon}`: Das Servericon
+- `{supporterRoles}`: Eine Erwähnung aller als Supporter markierten Rollen
+- `{managerRoles}`: Eine Erwähnung aller als Moderator markierten Rollen
 
 ### Erinnerung für inaktive Tickets {#inactivity-remind}
 

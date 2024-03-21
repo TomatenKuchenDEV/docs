@@ -7,7 +7,9 @@ You can select channels in which the messages will be deleted after the given ti
 
 This setting is useful for e.g. advertising channels by deleting messages for example after six hours.
 
-## Settings per channel {#settings}
+## Autodelete {#autodelete}
+
+The following settings can be configured per channel.
 
 The time is set using the bots default time format:
 - `5m`: Five minutes
@@ -17,6 +19,8 @@ The time is set using the bots default time format:
 You can enter a time of up to one year.
 
 ## Autopurge {#autopurge}
+
+The following settings can be configured per channel.
 
 The bot will delete the last 1000 messages in the configured interval in the [autopurge settings](https://tomatenkuchen.com/dashboard/settings#autoPurge) of the selected channel.
 

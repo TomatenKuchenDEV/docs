@@ -31,15 +31,15 @@ If at least one message field of the ticket category is filled out, it will over
 
 The following variables can be used in the message:
 
-- `{usermention}`
-- `{username}`
-- `{globalname}`
-- `{displayname}`
-- `{id}`: The ticket ID
-- `{servername}`
-- `{servericon}`
-- `{supporterroles}`: Mentions all roles marked as supporters
-- `{managerroles}`: Mentions all roles marked as moderators
+- `{userMention}`: Mentions the ticket author
+- `{username}`: The username of the ticket author
+- `{globalName}`
+- `{displayName}`
+- `{id}`: The unique ticket ID
+- `{serverName}`: The server name
+- `{serverIcon}`: The server icon
+- `{supporterRoles}`: Mentions all roles marked as supporters
+- `{managerRoles}`: Mentions all roles marked as moderators
 
 ### Reminder for inactive tickets {#inactivity-remind}
 

@@ -5,27 +5,27 @@ description: Listet alle Ticketbefehle auf.
 
 ## Ticket erstellen {#cmd-create}
 
-`ticket [<Grund>]`
+<Command name="ticket" slash="[reason:Grund]" message="[<Grund>]"></Command>
 
-Anstelle eines Grundes können Moderatoren und Admins auch einen Nutzer angeben, für den das Ticket erstellt werden soll.
+Anstelle eines Grundes können Nutzer mit einer [Managerolle](./general#manage-roles) auch einen Nutzer angeben, für den das Ticket erstellt werden soll, oder eine Ticketkategorie.
 
 ## Nutzer oder Rolle zum aktuellen Ticket hinzufügen {#cmd-add}
 
-`tickets add <Nutzer|Rolle>`
+<Command name="tickets add" slash="[user:Nutzer oder Rolle]" message="<Nutzer oder Rolle>"></Command>
 
 ## Nutzer oder Rolle vom aktuellen Ticket entfernen {#cmd-remove}
 
-`tickets remove <Nutzer|Rolle>`
+<Command name="tickets remove" slash="[user:Nutzer oder Rolle]" message="<Nutzer oder Rolle>"></Command>
 
 ## Ticket schließen {#cmd-close}
 
-`close [<Grund>]`
+<Command name="close" slash="[reason:Grund]" message="[<Grund>]"></Command>
 
 Dies wird dem Nutzer eine PN senden, wenn diese Einstellung im Dashboard aktiviert ist.
 
 ## Ticket löschen {#cmd-delete}
 
-`delete`
+<Command name="delete"></Command>
 
 Um Tickets zu löschen braucht man eine der Ticket-Manager-Rollen oder die Berechtigung "Server verwalten".
 
@@ -44,13 +44,15 @@ Diese Befehle bzw. dieser Button ist nur verfügbar, wenn Claimen in den [Einste
 
 Button auf der Ticket-geschlossen-Nachricht
 
-## Tickets & Transcripte anzeigen {#cmd-history}
+## Tickets & Transcripte anzeigen {#cmd-list}
 
-`tickets list [<Nutzer>] [<Filter>]`
+<Command name="tickets list" slash="[user:Nutzer state:Filter]" message="[<Nutzer>] [<Filter>]"></Command>
+
+Zeigt alle Tickets des Servers an, optional anhand eines Nutzers oder des Status gefiltert.
 
 ## Ticket in andere Kategorie verschieben {#cmd-move}
 
-`tickets move <Neue Kategorie>`
+<Command name="tickets move" slash="category:Neue Kategorie" message="<Neue Kategorie>"></Command>
 
 Dies wird die Anfangsnachricht vom Ticket erneut senden und, wenn Kanäle für die Tickets verwendet werden, ggf. die Kategorie des Kanals ändern.
 

@@ -7,7 +7,9 @@ Es können Kanäle festgelegt werden, in denen die Nachrichten nach der festgele
 
 Diese Funktion ist nützlich für z. B. Werbekanäle, in denen Nachrichten nach 6 Stunden o. ä. gelöscht werden sollen.
 
-## Einstellungen pro Kanal {#settings}
+## Autodelete {#autodelete}
+
+Die folgenden Einstellungen können pro Kanal festgelegt werden.
 
 Die Zeit wird im Standard-Zeitformat des Bots angegeben:
 - `5m`: Fünf Minuten
@@ -17,6 +19,8 @@ Die Zeit wird im Standard-Zeitformat des Bots angegeben:
 Es können Zeiten von bis zu einem Jahr angegeben werden.
 
 ## Autopurge {#autopurge}
+
+Die folgenden Einstellungen können pro Kanal festgelegt werden.
 
 In dem festgelegten Intervall in den [Autopurge-Einstellungen](https://tomatenkuchen.com/dashboard/settings#autoPurge) werden die letzten 1000 Nachrichten in dem jeweils ausgewählten Kanal gelöscht.
 
