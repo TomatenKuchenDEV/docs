@@ -149,7 +149,15 @@ const config = {
 			theme: themes.github,
 			darkTheme: themes.dracula
 		}
-	})
+	}),
+
+	scripts: [
+		{
+			src: "https://sus.tomatenkuchen.com/latest.js",
+			async: true,
+			defer: true
+		}
+	]
 }
 
 module.exports = config

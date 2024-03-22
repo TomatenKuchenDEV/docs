@@ -11,7 +11,7 @@ You can customize the category, transcript channel, and message for each ticket 
 To create a ticket category, open the settings page of your server and find the setting for ticket categories. Click on the "Add" button and fill in the values accordingly.
 
 `name` is the internal ID of the ticket category, enter something easily recognizable there.
-The remaining fields are used for the message sent when creating a new ticket, for more information see the [Ticket create message](#ticket-create-message)
+The remaining fields are used for the message sent when creating a new ticket, for more information see the [Ticket create message](#create-message)
 
 ## Ticket claiming {#claiming}
 
@@ -70,7 +70,7 @@ The following variables can be used in the name (casing is ignored):
 - `{globalName}`
 - `{id}`
 
-For an explanation of what the variables are for, check [Ticket create message](#ticket-create-message)
+For an explanation of what the variables are for, check [Ticket create message](#create-message)
 
 The name can be changed after creation using the [rename command](./commands#cmd-rename).
 
@@ -88,7 +88,7 @@ Supporter (Staff) roles are roles which have the permission to view all ticket c
 
 ### Manage roles {#manage-roles}
 
-Users with the roles selected here have the same permissions as users who only have a [supporter role](#supporter-rollen).
+Users with the roles selected here have the same permissions as users who only have a [supporter role](#supporter-roles).
 
 Zusätzlich haben sie die Möglichkeit, Tickets zu löschen, Tickets für andere Nutzer als sie selbst anzulegen, sowie beim Erstellen eines Tickets die Möglichkeit, eine Ticketkategorie auszuwählen.
 

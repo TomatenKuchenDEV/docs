@@ -11,7 +11,7 @@ Du kannst die Kategorie, den Transcriptkanal und die Nachricht für jede Ticketk
 Öffne die Einstellungsseite deines Servers und finde die Einstellung für Ticketkategorien. Klicke auf den Button "Hinzufügen" und fülle die Werte entsprechend aus.
 
 `name` ist die interne ID der Ticketkategorie, trage dort etwas mit Wiedererkennungswert ein.
-Die restlichen Felder beziehen sich auf die Nachricht, welche bei einem neuen Ticket gesendet wird, für mehr Informationen siehe [Ticket-erstellt-Nachricht](#ticket-create-message).
+Die restlichen Felder beziehen sich auf die Nachricht, welche bei einem neuen Ticket gesendet wird, für mehr Informationen siehe [Ticket-erstellt-Nachricht](#create-message).
 
 ## Ticket-Claiming {#claiming}
 
@@ -68,7 +68,7 @@ Die folgenden Variablen können im Namen verwendet werden (Groß- und Kleinschre
 - `{globalName}`
 - `{id}`
 
-Für eine Erklärung, wofür diese Variablen stehen, siehe [Ticket-erstellt-Nachricht](#ticket-create-message)
+Für eine Erklärung, wofür diese Variablen stehen, siehe [Ticket-erstellt-Nachricht](#create-message)
 
 Der Name kann nach der Erstellung mit dem [rename-Befehl](./commands#cmd-rename) umbenannt werden.
 
@@ -86,7 +86,7 @@ Supporter-Rollen sind Rollen, welche die Berechtigung haben, standardmäßig all
 
 ### Manage-Rollen {#manage-roles}
 
-Nutzer mit den hier ausgewählten Rollen haben dieselben Berechtigungen wie Nutzer, die nur eine [Supporter-Rolle](#supporter-rollen) besitzen.
+Nutzer mit den hier ausgewählten Rollen haben dieselben Berechtigungen wie Nutzer, die nur eine [Supporter-Rolle](#supporter-roles) besitzen.
 
 Zusätzlich haben sie die Möglichkeit, Tickets zu löschen, Tickets für andere Nutzer als sie selbst anzulegen, sowie beim Erstellen eines Tickets die Möglichkeit, eine Ticketkategorie auszuwählen.
 

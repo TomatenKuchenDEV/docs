@@ -99,4 +99,5 @@ Beachte, dass alle Einträge zusammenaddiert werden, wenn die festgelegte Länge
 wenn du die Anzahl der Punkte reduzieren möchtest, setze einfach einen negativen Wert.
 
 Diese Einstellung ist standardmäßig deaktiviert und wird nur aktiviert, wenn eine oder mehr Nachrichtenlängen festgelegt worden sind.
-Im Normalfall zählt eine Nachricht einen Punkt, außer es gibt [Multiplier](#multiplier) oder der Nutzer hat eine Levelrolle, welche die Standardpunkteanzahl verändert.
+
+Im Normalfall zählt eine Nachricht einen Punkt, außer es gibt [Punkte-Multiplier](#channel-multipliers) oder der Nutzer hat eine Levelrolle, welche die Standardpunkteanzahl verändert.

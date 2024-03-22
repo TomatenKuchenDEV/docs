@@ -99,4 +99,5 @@ Note that all entries are added together if the set length is the same or longer
 if you want to reduce the amount of points, simply set a negative value.
 
 The setting is disabled by default and is only enabled if one or more message length is set.
-By default one message counts one point, unless there are [multipliers](#multiplier) or the user has a level role which modifies the default point amount.
+
+By default one message counts one point, unless there are [point multipliers](#channel-multipliers) or the user has a level role which modifies the default point amount.
