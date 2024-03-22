@@ -5,12 +5,13 @@ description: Explains the ticket system with all of its features, setup instruct
 
 ## Setting up ticket categories {#create-ticket-categories}
 
-In the dashboard you can create ticket categories, with which, depending on which ticketembed was used for the creation, a different ticket is created.
+In the dashboard you can create ticket categories, causing, depending on which ticketembed was used for the creation, a different ticket to be created.
 You can customize the category, transcript channel, and message for each ticket category individually.
 
 To create a ticket category, open the settings page of your server and find the setting for ticket categories. Click on the "Add" button and fill in the values accordingly.
 
-`name` is the name and internal ID of the ticket category. The remaining fields are used for the message sent when creating a new ticket, for more information see the [Ticket create message](#ticket-create-message)
+`name` is the internal ID of the ticket category, enter something easily recognizable there.
+The remaining fields are used for the message sent when creating a new ticket, for more information see the [Ticket create message](#ticket-create-message)
 
 ## Ticket claiming {#claiming}
 
@@ -35,7 +36,7 @@ The following variables can be used in the message:
 - `{username}`: The username of the ticket author
 - `{globalName}`
 - `{displayName}`
-- `{id}`: The unique ticket ID
+- `{id}`: The (per server) unique ticket ID
 - `{serverName}`: The server name
 - `{serverIcon}`: The server icon
 - `{supporterRoles}`: Mentions all roles marked as supporters
@@ -59,6 +60,19 @@ By using this time setting, you can have the bot automatically close a ticket if
 You can select whether the bot should use channels or private threads for tickets.
 
 In private threads, no ticket category is used. Instead, all the threads are created in the current channel where the command was executed.
+
+### Ticket name {#ticket-name}
+
+This [setting](https://tomatenkuchen.com/dashboard/settings#ticketName) allows you to modify the default name of a ticket.
+
+The following variables can be used in the name (casing is ignored):
+- `{username}`
+- `{globalName}`
+- `{id}`
+
+For an explanation of what the variables are for, check [Ticket create message](#ticket-create-message)
+
+The name can be changed after creation using the [rename command](./commands#cmd-rename).
 
 ### Message to ticket creator on ticket close {#dm-author}
 

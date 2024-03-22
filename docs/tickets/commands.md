@@ -60,7 +60,7 @@ This will send the ticket start message again and, if you're using channels for 
 
 Prepares a ticket embed. You can add custom buttons for different ticket categories.
 
-After creation, you can fully edit the message content and embed using https://embed.tomatenkuchen.com .
+After creation, you can fully edit the message using our [message editor](/messageeditor).
 
 `ticketembed [<Title> <Description> <Button text>]`
 
@@ -70,4 +70,12 @@ After creation, you can fully edit the message content and embed using https://e
 
 ## Save transcript {#cmd-transcript}
 
-`transcript`
+<Command name="transcript"></Command>
+
+If you want to prevent the transcript being sent into the channel (or the bot responding at all), use the following command:
+
+<Command name="transcript" message="--noreply"></Command>
+
+## Rename ticket {#cmd-rename}
+
+<Command name="tickets name" slash="name:New ticket name" message="<New ticket name>"></Command>

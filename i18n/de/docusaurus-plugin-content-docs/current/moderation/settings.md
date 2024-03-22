@@ -39,11 +39,11 @@ Hier können die Nachrichten bearbeitet werden, die Nutzer per PN erhalten, wenn
 
 Leer lassen zum Deaktivieren.
 
-## Nur-Anhangs-Kanäle {#attachment-only-channels}
+## Nur-Anhangs-Kanäle {#only-attachment-channels}
 
 In diesen Kanälen können Nutzer nur Anhänge, z. B. Bilder oder Videos, senden. Nur Text ist nicht erlaubt, Nachrichten können aber einen optionalen Text beeinhalten.
 
-## Links-Lösch-Kanäle {#links-delete-channels}
+## Links-Lösch-Kanäle {#delete-links-channels}
 
 In diesen Kanälen werden alle Arten von Links bzw. URLs gelöscht und der Nutzer für kurze Zeit getimeouted.
 

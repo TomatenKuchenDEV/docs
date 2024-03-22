@@ -15,6 +15,6 @@ The website was developed further by the [TomatenKuchen](/about) developer Tomat
 
 ## Using it with TomatenKuchen {#usage}
 
-TomatenKuchen allows you on many places to paste JSON created by the embed editor, which simplifies the setup of embeds and co. on Discord.
+TomatenKuchen and the Manage Bot allow you to paste JSON created by the message editor on many occurences, which simplifies the setup of embeds and co. on Discord.
 
 You can also import messages from a channel, export to a channel and export as JSON. As the JSON is used the same in most bots you can also export messages from other embed editors and websites and use it with TomatenKuchen.

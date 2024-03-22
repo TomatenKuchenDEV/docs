@@ -114,8 +114,14 @@ const config = {
 			hideOnScroll: true,
 			items: [
 				{
-					href: "https://tomatenkuchen.com",
-					"aria-label": "Bot website"
+					label: "Bot website",
+					href: "https://tomatenkuchen.com"
+				},{
+					label: "Invite",
+					href: "https://tomatenkuchen.com/invite"
+				},{
+					label: "Support server",
+					href: "https://tomatenkuchen.com/discord"
 				},{
 					type: "localeDropdown",
 					position: "right",
@@ -136,31 +142,6 @@ const config = {
 		},
 		footer: {
 			style: "dark",
-			links: [
-				{
-					title: "Bot",
-					items: [
-						{
-							label: "Website",
-							href: "https://tomatenkuchen.com"
-						},{
-							label: "Invite",
-							href: "https://tomatenkuchen.com/invite"
-						}
-					]
-				},{
-					title: "Community",
-					items: [
-						{
-							label: "Support server",
-							href: "https://tomatenkuchen.com/discord"
-						},{
-							label: "Translation",
-							href: "https://translate.tomatenkuchen.com/engage/tomatenkuchen"
-						}
-					]
-				}
-			],
 			copyright: "Copyright © " + new Date().getFullYear() + " TomatoCake. Built with Docusaurus."
 		},
 		prism: {

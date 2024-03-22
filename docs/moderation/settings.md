@@ -39,11 +39,11 @@ Edit the message users receive by DM if a moderator uses one of the mentioned mo
 
 Leave empty to disable.
 
-## Only attachment channels {#attachment-only-channels}
+## Only attachment channels {#only-attachment-channels}
 
 In selected channels, users can only send attachments, such as images or videos. Only text is not allowed, but messages can contain optional text.
 
-## Links delete channels {#links-delete-channels}
+## Links delete channels {#delete-links-channels}
 
 In selected channels, all kind of links/URLs users send will be deleted, and the user timeouted for a short time.
 

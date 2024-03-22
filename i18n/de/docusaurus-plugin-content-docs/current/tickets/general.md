@@ -10,7 +10,8 @@ Du kannst die Kategorie, den Transcriptkanal und die Nachricht für jede Ticketk
 
 Öffne die Einstellungsseite deines Servers und finde die Einstellung für Ticketkategorien. Klicke auf den Button "Hinzufügen" und fülle die Werte entsprechend aus.
 
-`name` ist der Name und die interne ID der Ticketkategorie. Die restlichen Felder beziehen sich auf die Nachricht, welche bei einem neuen Ticket gesendet wird, für mehr Informationen siehe [Ticket-erstellt-Nachricht](#ticket-create-message).
+`name` ist die interne ID der Ticketkategorie, trage dort etwas mit Wiedererkennungswert ein.
+Die restlichen Felder beziehen sich auf die Nachricht, welche bei einem neuen Ticket gesendet wird, für mehr Informationen siehe [Ticket-erstellt-Nachricht](#ticket-create-message).
 
 ## Ticket-Claiming {#claiming}
 
@@ -23,7 +24,7 @@ Diese Einstellung kann jeder Nutzer individuell mithilfe des Befehls `usersettin
 
 ## Einstellungen {#settings}
 
-### Ticket-erstellt-Nachricht {#ticket-create-message}
+### Ticket-erstellt-Nachricht {#create-message}
 
 Es kann eine Standard-Nachricht und eine Nachricht pro Ticketkategorie festgelegt werden, die beim Erstellen eines Tickets gesendet wird.
 
@@ -33,7 +34,7 @@ Diese Nachricht wird von einer kategoriespezifischen Nachricht überschrieben, s
 - `{username}`: Der Benutzername des Ticketerstellers
 - `{globalName}`
 - `{displayName}`
-- `{id}`: Die eindeutige Ticket-ID
+- `{id}`: Die (pro Server) eindeutige Ticket-ID
 - `{serverName}`: Der Servername
 - `{serverIcon}`: Das Servericon
 - `{supporterRoles}`: Eine Erwähnung aller als Supporter markierten Rollen
@@ -57,6 +58,19 @@ Mit dieser Einstellung kannst du ein Ticket automatisch vom Bot schließen lasse
 Du kannst auswählen, ob der Bot Kanäle oder private Threads für Tickets verwenden soll.
 
 Bei privaten Threads wird keine Ticketkategorie verwendet, sondern alle Threads werden im aktuellen Kanal erstellt, in welchem der Befehl ausgeführt worden ist.
+
+### Ticketname {#ticket-name}
+
+Diese [Einstellung](https://tomatenkuchen.com/dashboard/settings#ticketName) erlaubt dir, den Standardnamen eines Tickets anzupassen.
+
+Die folgenden Variablen können im Namen verwendet werden (Groß- und Kleinschreibung wird ignoriert):
+- `{username}`
+- `{globalName}`
+- `{id}`
+
+Für eine Erklärung, wofür diese Variablen stehen, siehe [Ticket-erstellt-Nachricht](#ticket-create-message)
+
+Der Name kann nach der Erstellung mit dem [rename-Befehl](./commands#cmd-rename) umbenannt werden.
 
 ### Nachricht an Ticketersteller beim Ticket schließen {#dm-author}
 

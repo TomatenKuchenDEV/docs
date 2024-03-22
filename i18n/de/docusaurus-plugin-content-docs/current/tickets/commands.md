@@ -60,7 +60,7 @@ Dies wird die Anfangsnachricht vom Ticket erneut senden und, wenn Kanäle für d
 
 Bereitet ein Ticketembed vor. Es können weitere, benutzerdefinierte Buttons für verschiedene Ticketkategorien hinzugefügt werden.
 
-Nach der Erstellung kannst du den Nachrichteninhalt und die Embeds mithilfe von https://embed.tomatenkuchen.com anpassen.
+Nach der Erstellung kannst du die Nachricht mit unserem [Nachrichteneditor](/messageeditor) anpassen.
 
 `ticketembed [<Titel> <Beschreibung> <Buttontext>]`
 
@@ -70,4 +70,12 @@ Nach der Erstellung kannst du den Nachrichteninhalt und die Embeds mithilfe von 
 
 ## Transcript speichern {#cmd-transcript}
 
-`transcript`
+<Command name="transcript"></Command>
+
+Wenn du verhindern möchtest, dass das Transcript in den Kanal gesendet wird (bzw. der Bot überhaupt antwortet), verwende den folgenden Befehl:
+
+<Command name="transcript" message="--noreply"></Command>
+
+## Ticket umbenennen {#cmd-rename}
+
+<Command name="tickets name" slash="name:Neuer Ticketname" message="<Neuer Ticketname>"></Command>
