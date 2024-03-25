@@ -44,15 +44,23 @@ Du kannst auch Anhänge, z. B. Bilder, verwenden.
 
 ## Mute einen Nutzer {#cmd-mute}
 
-`mute <Nutzer> <Zeit> <Grund>`
+`mute <Nutzer> <Zeit> [<Grund>]`
+
+Dieser Befehl verwendet das Discord-Timeout-Feature, um das Senden von PN-Nachrichten, das Verwenden von Buttons und das Reagieren, zusätzlich zu den normalen Rollen-Mute-Funktionen, zu verhindern.
 
 ## Entmute einen Nutzer {#cmd-unmute}
 
 `unmute <Nutzer> [<Grund>]`
 
+## Mute einen Nutzer {#cmd-voicemute}
+
+`voicemute <Nutzer> <Zeit> <Typ> [<Kanäle>] [<Grund>]`
+
+Muted oder stummt einen Nutzer in allen Sprachkanälen oder nur in den ausgewählten.
+
 ## Verwarne einen Nutzer {#cmd-warn}
 
-`warn <Nutzer> <Grund>`
+`warn <Nutzer> [<Grund>]`
 
 ## Statistiken ansehen {#cmd-mod-stats}
 

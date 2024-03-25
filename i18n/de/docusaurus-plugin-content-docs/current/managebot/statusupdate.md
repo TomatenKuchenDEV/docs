@@ -19,6 +19,6 @@ Der Manage Bot kann mithilfe der Statusupdate-Funktion den Status, die Konfigura
 
 Stelle sicher, dass der Bot alle benötigten Berechtigungen in dem Kanal und im Panel behält, sobald er diese verliert wird die Statusupdate-Nachricht aus dem System gelöscht und muss neu erstellt werden.
 
-Einige Informationen zu TomatenKuchen-Actions:
-- Groß- und Kleinschreibung wird bei Namen von Actions nicht beachtet
-- Am wichtigsten dürfte die Funktion `{formatBytes;<Bytes>[;<Nachkommastellen, Standard 2>]}` und die mathematischen Funktionen für Mal- und Geteiltrechnung `{*}` `{/}` sein
+Einige Informationen zu TomatenKuchen-Aktionsfunktionen:
+- Groß- und Kleinschreibung wird bei Namen von Funktionen ignoriert
+- Am wichtigsten dürfte die Funktion `{formatBytes;<Bytes>[;<Nachkommastellen, Standard 2>]}` zum Formatieren von Speichereinheiten sowie die mathematischen Funktionen für Multiplikation `{*;<Erster Wert>;<Zweiter Wert>}` und Division `{/;<Erster Wert>;<Zweiter Wert>}` sein

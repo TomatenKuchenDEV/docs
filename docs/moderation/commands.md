@@ -44,15 +44,23 @@ You can also use attachments, such as images.
 
 ## Mute a user {#cmd-mute}
 
-`mute <User> <Time> <Reason>`
+`mute <User> <Time> [<Reason>]`
+
+This uses the Discord timeout feature to prevent users from sending DMs, pressing buttons and adding reactions in addition to the normal role-mute behavior.
 
 ## Unmute a user {#cmd-unmute}
 
 `unmute <User> [<Reason>]`
 
+## Voice mute a user {#cmd-voicemute}
+
+`voicemute <User> <Time> <Type> [<Channels>] [<Reason>]`
+
+Mutes or deafs a user in all or only the selected voice channels.
+
 ## Warn a user {#cmd-warn}
 
-`warn <User> <Reason>`
+`warn <User> [<Reason>]`
 
 ## View statistics {#cmd-mod-stats}
 

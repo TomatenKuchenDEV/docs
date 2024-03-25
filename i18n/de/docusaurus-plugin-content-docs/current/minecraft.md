@@ -17,6 +17,8 @@ Zeigt Informationen über den angegebenen Spielernamen.
 
 Zeigt das Herstellungsrezept des angegebenen Gegenstandes.
 
+Der Befehl verwendet Rezeptdaten des neuesten Minecraft-Snapshots.
+
 ## minecraft update {#cmd-update}
 
 <Command name="minecraft update"></Command>

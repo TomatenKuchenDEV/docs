@@ -17,6 +17,8 @@ Displays information about the given player.
 
 Displays the crafting recipe of the given item.
 
+The command uses recipe data from the latest Minecraft snapshot.
+
 ## minecraft update {#cmd-update}
 
 <Command name="minecraft update"></Command>
@@ -24,14 +26,6 @@ Displays the crafting recipe of the given item.
 Displays a live status of a Minecraft server somewhere on your server.
 
 See [Minecraft server status update](/mcupdate).
-
-<!--
-## minecraft lint {#cmd-lint}
-
-<Command name="minecraft lint" slash="command:Minecraft commands" message="<Minecraft commands>"></Command>
-
-Validates the given Minecraft commands.
--->
 
 ## mcserver {#cmd-mcserver}
 

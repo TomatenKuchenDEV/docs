@@ -20,6 +20,6 @@ The Manage Bot can display the status, configuration, or resource usage of one o
 
 Make sure the bot has all the necessary permissions in the channel and in the panel. Once it loses them, the statusupdate message will be deleted from the system and has to be recreated.
 
-Some information about TomatenKuchen actions:
+Some information about TomatenKuchen action functions:
 - Function names are case insensitive.
-- The most important functions are likely `{formatBytes;<Bytes>[;<Decimals, default 2>]}` and the mathematical functions `{*}` and `{/}`.
+- The most important functions are probably `{formatBytes;<Bytes>[;<Decimals, default 2>]}` to format storage units and the mathematical functions for multiplying `{*;<First value>;<Second value>}` and division `{/;<First value>;<Second value>}`.
