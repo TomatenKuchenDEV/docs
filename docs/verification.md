@@ -37,7 +37,7 @@ Possible actions:
 - Ban
 - Kick
 - Mute
-- Cooldown until the user can start verification again
+- Cooldown until the user can attempt verification again
 - Reset of fail counter
 
 When using "mute" or "cooldown", you must specify the duration for which the user will be muted or how long they have to wait.

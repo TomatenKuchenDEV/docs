@@ -21,7 +21,9 @@ Wenn du Hilfe bei etwas brauchst, sei es bei einem Fehler, einer Einstellung ode
 Im [Dashboard](https://tomatenkuchen.com/dashboard/settings) können alle Einstellungen des Bots geändert werden.
 
 Die wichtigsten Einstellungen werden auf der Seite [Generelle Einstellungen](/general-settings) erklärt.
-Andere Einstellungen haben meist eine eigene Seite in der Dokumentation.
+
+Du findest bei jeder Einstellung einen Direktlink zu der entsprechenden Dokumentation.
+Wenn dir diese nicht weiterhilft, frage gerne auf unserem Support-Server!
 
 ## Du musst eine "ID" angeben? {#id}
 
@@ -29,6 +31,12 @@ Um eine ID zu kopieren rechtsklickst du die entsprechende Nachricht, den Nutzer,
 
 ## Befehlssyntax {#syntax}
 
-Befehle werden immer mit der Syntax `Befehlsname <Erforderliches Argument> [<Optionales Argument>] Erforderliches|Argument|mit|mehreren|Optionen` angegeben.
+Prefixbasierte Befehle werden immer mit der Syntax `Befehlsname <Erforderliches Argument> Erforderliches|Argument|mit|Auswahlmöglichkeiten [<Optionales Argument>] <...Argument, welches Leerzeichen zulässt>` angegeben.
 
-Stelle sicher, dass du die Klammern weglässt, wenn du Argumente verwendest.
+:::warning Klammern
+
+Stelle sicher, dass du die Klammern weglässt, wenn du Argumente verwendest, sie werden nur zur Hervorhebung verwendet.
+
+:::
+
+Slashcommands verwenden eine andere Syntax, jedoch sind die Optionen, welche in Discord dargestellt werden, meist aussagekräftig genug.

@@ -5,7 +5,9 @@ description: Mit dem Bot kannst du Events importieren sowie in einer Nachricht a
 
 ## Befehle {#commands}
 
-Der Befehl `eventimport` erlaubt dir, ein oder mehrere Events aus einer `.ics`-Datei zu importieren.
+<Command name="eventimport" slash="file:.ics-Datei" message="<.ics-Datei als Anhang oder URL>"></Command>
+
+Der eventimport-Befehl erlaubt dir, ein oder mehrere Events aus einer `.ics`-Datei zu importieren.
 Du kannst dabei entweder die Datei als Anhang hochladen oder eine URL einfügen.
 
 ## Einstellungen {#settings}

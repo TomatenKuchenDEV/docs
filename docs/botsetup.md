@@ -27,7 +27,9 @@ If you need help with something, let it be an error, a setting or other setup - 
 In the [Dashboard](https://tomatenkuchen.com/dashboard/settings) all settings of the bot can be changed.
 
 The most important settings are explained on the page [General settings](/general-settings).
-Other settings usually have their own documentation page.
+
+Every setting has a direct link to its documentation.
+If you still need help, please ask on our support server!
 
 ### You have to enter an "ID"? {#id}
 
@@ -35,6 +37,12 @@ To copy an ID right click the message, the user, the channel or the server. If t
 
 ## Command syntax {#syntax}
 
-Commands are always displayed as `command-name <Required argument> [<Optional argument>] Required|argument|with|multiple|options`.
+Commands are always displayed as `command-name <Required argument> Required|argument|with|options [<Optional argument>] <...Argument which allows spaces>`.
 
-Make sure to omit the brackets when using arguments.
+:::warning Brackets
+
+Make sure to omit the brackets when using arguments, they are only used for highlighting.
+
+:::
+
+Slash commands use a different syntax, however to options displayed on Discord are usually self-explanatory.

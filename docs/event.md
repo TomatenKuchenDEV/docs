@@ -5,7 +5,9 @@ description: Using the bot you can import events and display them in a message a
 
 ## Commands {#commands}
 
-The command `eventimport` allows you to import one or more events from an `.ics` file.
+<Command name="eventimport" slash="file:.ics file" message="<.ics file as attachment or URL>"></Command>
+
+The eventimport command allows you to import one or more events from an `.ics` file.
 You can either upload the file as an attachment or insert a URL.
 
 ## Settings {#settings}

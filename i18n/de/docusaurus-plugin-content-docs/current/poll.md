@@ -15,7 +15,7 @@ Standardmäßig kann jeder den Befehl nutzen, jedoch kannst du die Berechtigunge
 2. Führe den `poll`-Slash- oder -Message-Command mit den entsprechenden Argumenten aus.
 	- `time`*: Das Zeitlimit, wie lange die Umfrage laufen soll. Nach dem Ablauf dieser Zeit kann nicht mehr abgestimmt werden. Verwende `0`, um die Umfrage unbegrenzt lange laufen zu lassen.
 	- `title`*: Der Titel der Umfrage, z. B. "Was ist deine Lieblingsfarbe?" Bei der Verwendung des Message-Commands muss danach ein pipe-Symbol (` | `) verwendet werden, um Titel und die möglichen Optionen voneinander zu trennen.
-	- `options`*: Die Optionen, die die Nutzer haben sollen, getrennt durch Kommas, z. B. `Rot,Gelb,Grün,Blau`
+	- `options`*: Die Optionen, die zur Auswahl stehen sollen, getrennt durch Kommas, z. B. `Rot,Gelb,Grün,Blau`
 	- `max_votes`: Die Anzahl der Stimmen, die ein Nutzer hat. Standardmäßig kann jeder Nutzer nur eine Option auswählen, mit dieser Einstellung kann dies verändert werden.
 	- `hide_votes`: Versteckt den "Votes"-Button unter dem Umfragen-Embed, wodurch Nutzer nicht mehr sehen können, wer für welche Option abgestimmt hat.
 
@@ -23,6 +23,6 @@ Standardmäßig kann jeder den Befehl nutzen, jedoch kannst du die Berechtigunge
 
 ## Ausgeschlossene Rollen {#excluded-roles}
 
-Nutzer, die eine oder mehrere dieser Rolle haben, können nicht an Umfragen auf dem Server teilnehmen.
+Nutzer, die eine oder mehrere dieser Rollen haben, können nicht an Umfragen auf dem Server teilnehmen.
 
-Jedoch wird ihre Stimme weiterhin gezählt, wenn sie davor bereits abgestimmt haben.
+Ihre Stimme wird jedoch weiterhin gezählt, wenn sie davor bereits abgestimmt haben.

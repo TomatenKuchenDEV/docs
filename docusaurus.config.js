@@ -1,5 +1,3 @@
-import { themes } from "prism-react-renderer"
-
 /** @type {import("@docusaurus/types").Config} */
 const config = {
 	title: "TomatenKuchen Docs",
@@ -143,11 +141,6 @@ const config = {
 		footer: {
 			style: "dark",
 			copyright: "Copyright © " + new Date().getFullYear() + " TomatoCake. Built with Docusaurus."
-		},
-		prism: {
-			defaultLanguage: "javascript",
-			theme: themes.github,
-			darkTheme: themes.dracula
 		}
 	}),
 

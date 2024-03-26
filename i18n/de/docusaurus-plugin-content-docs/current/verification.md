@@ -37,7 +37,7 @@ Mögliche Aktionen:
 - Ban
 - Kick
 - Mute
-- Wartezeit, bis der Nutzer erneut die Verifizierung beginnen kann
+- Wartezeit, bis der Nutzer die Verifizierung erneut versuchen kann
 - Zurücksetzen des fehlgeschlagenen Verifikationszählers
 
 Bei "Mute" und "Wartezeit" kann zusätzlich noch eine Dauer angegeben werden, wie lange der Nutzer gemuted wird bzw. wie lange er/sie warten muss.
