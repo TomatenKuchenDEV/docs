@@ -8,9 +8,11 @@ Die Verifikation kann verwendet werden, um potentielle Bots am Beitreten auf den
 
 ![Website-Verifikations-Beispiel](/img/verification_website.png)
 
-## Befehle {#commands}
+## Verifikationsnachrichtenbefehl {#commands}
 
-Der Befehl `verification` wird zum Setup einer Verifikationsnachricht verwendet, die Einstellungen werden im [Dashboard](https://tomatenkuchen.com/dashboard/settings#verificationRole) durchgeführt.
+Der Befehl `verification` wird zum Setup einer Verifikationsnachricht verwendet.
+Einstellungen können im [Dashboard](https://tomatenkuchen.com/dashboard/settings#verificationRole) geändert werden.
+
 Es können unbegrenzt Nachrichten pro Server erstellt werden.
 
 ## Einstellungen {#settings}

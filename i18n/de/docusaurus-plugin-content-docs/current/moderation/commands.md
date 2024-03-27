@@ -1,5 +1,5 @@
 ---
-title: Grundsätzliche Moderationsbefehle
+title: Befehle
 description: Erklärungen zu den Moderationsbefehlen
 ---
 

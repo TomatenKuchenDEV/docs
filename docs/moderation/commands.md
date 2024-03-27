@@ -1,5 +1,5 @@
 ---
-title: Basic moderation commands
+title: Commands
 description: Lists moderation commands
 ---
 

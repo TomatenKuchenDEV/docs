@@ -8,9 +8,11 @@ Verification can be used to prevent bots from joining the server. You can choose
 
 ![Website verification example](/img/verification_website.png)
 
-## Commands {#commands}
+## Verification message command {#commands}
 
-The command `verification` can be used to send a verification message. The settings can be configured using the [dashboard](https://tomatenkuchen.com/dashboard/settings#verificationRole).
+The command `verification` can be used to send a verification message.
+The settings can be configured using the [dashboard](https://tomatenkuchen.com/dashboard/settings#verificationRole).
+
 There is no limit to the number of messages that can be created per server.
 
 ## Settings {#settings}

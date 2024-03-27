@@ -29,12 +29,22 @@
 
 ul[role="tablist"] + div.margin-top--md {
 	margin-top: .5rem !important;
-    padding-left: 6px;
+	padding-left: 6px;
 }
+
 li[role="tab"] {
 	padding: 5px 12px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+li[role="tab"]:not(.tabs__item--active) {
+	border-bottom-color: #dbdbdb;
 }
 
 nav.menu {
 	padding-bottom: 25px;
+}
+
+footer {
+	padding: 12px;
 }
