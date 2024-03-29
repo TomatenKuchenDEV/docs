@@ -36,10 +36,10 @@ ul[role="tablist"] + div.margin-top--md {
 	padding: 5px 12px;
 	border-bottom-left-radius: 0;
 	border-bottom-right-radius: 0;
-    border-bottom: 2px solid #0000;
+    border-bottom: 2px solid #dbdbdb;
 }
-.tabs__item:not(.tabs__item--active) {
-	border-bottom-color: #dbdbdb;
+.tabs__item.tabs__item--active {
+	border-bottom-color: var(--ifm-tabs-color-active-border);
 }
 
 nav.menu {
