@@ -1,32 +1,4 @@
 {
-  "link.title.Bot": {
-    "message": "Bot",
-    "description": "The title of the footer links column with title=Bot in the footer"
-  },
-  "link.title.Community": {
-    "message": "Community",
-    "description": "The title of the footer links column with title=Community in the footer"
-  },
-  "link.item.label.Website": {
-    "message": "Website",
-    "description": "The label of footer link with label=Website linking to https://tomatenkuchen.com"
-  },
-  "link.item.label.Invite": {
-    "message": "Bot einladen",
-    "description": "The label of footer link with label=Invite linking to https://tomatenkuchen.com/invite"
-  },
-  "link.item.label.Support server": {
-    "message": "Supportserver",
-    "description": "The label of footer link with label=Support server linking to https://tomatenkuchen.com/discord"
-  },
-  "link.item.label.Translation": {
-    "message": "Übersetzung",
-    "description": "The label of footer link with label=Translation linking to https://translate.tomatenkuchen.com/engage/tomatenkuchen/"
-  },
-  "link.item.label.GitHub (Docs)": {
-    "message": "GitHub (Docs)",
-    "description": "The label of footer link with label=GitHub (Docs) linking to https://github.com/DEVTomatoCake/tk-docs"
-  },
   "copyright": {
     "message": "Copyright © 2024 TomatoCake. Erstellt mit Docusaurus.",
     "description": "The footer copyright"
