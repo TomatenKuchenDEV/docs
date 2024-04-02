@@ -1,6 +1,6 @@
 ---
 title: Customrollen
-description: Customrollen erlauben Nutzern auf dem Server, eine eigene Rolle zu erstellen.
+description: Customrollen erlauben Servermitgliedern, sich eine eigene Rolle zu erstellen und diese nach Belieben zu verwalten.
 image: /img/customrole_info.png
 ---
 

@@ -20,7 +20,7 @@ The prefix of slashcommands cannot be changed as Discord doesn't want to support
 
 :::tip Multiple bots with slashcommands
 
-If you only want to show the commands of a single bot in the slashcommands select, simply mention the bot in the chat box and start writing the name of the command: `@TomatenKuchen help`
+If you only want to show the commands of a single bot in the slashcommands select, simply mention the bot in the chat box and start writing the name of a command, e.g.: `@TomatenKuchen help`
 
 :::
 

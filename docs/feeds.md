@@ -17,7 +17,6 @@ Feeds are checked for new content every 10 minutes.
 ### Default configuration {#default}
 
 ![](/img/rss_feeds_default.png)
-The fields should be set to this for an optimal experience, but you can of course edit or move them to your liking.
 
 - `{author}`: The author of the post, if any
 - `{title}`: The title of the post

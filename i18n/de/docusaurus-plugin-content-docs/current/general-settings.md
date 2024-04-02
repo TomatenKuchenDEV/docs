@@ -20,7 +20,7 @@ Der Prefix von Slashcommands lässt sich nicht ändern, da Discord diese Funktio
 
 :::tip Mehrere Bots mit Slashcommands
 
-Wenn du nur die Befehle eines Bots in der Slashcommand-Auswahl angezeigt bekommen willst, erwähne einfach den Bot in der Chatbox und fange dann an, den Namen des Befehls zu schreiben: `@TomatenKuchen help`
+Wenn du nur die Befehle eines Bots in der Slashcommand-Auswahl sehen willst, erwähne einfach den Bot in der Chatbox und fange dann an, den Namen eines Befehls zu schreiben, z. B.: `@TomatenKuchen help`
 
 :::
 

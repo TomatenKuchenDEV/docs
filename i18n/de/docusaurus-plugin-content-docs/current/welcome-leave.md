@@ -18,7 +18,7 @@ Legt den Kanal fest, in denen eine Nachricht gesendet wird, wenn ein Nutzer den 
 
 Ändert die Nachricht, die angezeigt wird, wenn ein Nutzer den Server betritt.
 
-Folgende Variablen sind verfügbar (Groß- und Kleinschreibung ist egal):
+Folgende Variablen sind verfügbar (Groß- und Kleinschreibung wird ignoriert):
 - `{serverName}`: Servername
 - `{serverIcon}`: Servericon
 - `{memberCount}`: Mitgliederanzahl

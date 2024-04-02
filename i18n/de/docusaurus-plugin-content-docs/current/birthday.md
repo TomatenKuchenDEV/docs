@@ -17,13 +17,15 @@ Mit der Option `public` wird festgelegt, ob der Geburtstag beim `user`-Befehl un
 Geburtstagsankündigungen sind hiervon nicht betroffen.
 
 - `birthday set 29 2 2000 public`
-	- Legt einen öffentlichen Geburtstag fest, der jedes Jahr am 29.02. angekündigt wird. Wenn das Jahr kein Schaltjahr ist, so erscheint die Nachricht am 01.03.
+	- Legt einen öffentlichen Geburtstag fest, der jährlich am 29.02. angekündigt wird. Wenn das Jahr kein Schaltjahr ist erscheint die Nachricht am 01.03.
 - `birthday set 1 4`
-	- Legt einen nicht öffentlichen Geburtstag fest, der jedes Jahr am 01.04. angekündigt wird.
+	- Legt einen nicht öffentlichen Geburtstag fest, der jährlich am 01.04. angekündigt wird.
 
 ### Geburtstag löschen {#delete}
 
 <Command name="birthday delete"></Command>
+
+Dieser Befehl löscht deinen aktuellen Geburtstag.
 
 ## Fiktive Geburtstage {#fictive}
 

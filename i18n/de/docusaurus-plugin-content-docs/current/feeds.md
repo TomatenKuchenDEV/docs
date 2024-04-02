@@ -17,7 +17,6 @@ Feeds werden alle zehn Minuten nach neuen Inhalten durchsucht.
 ### Standardkonfiguration {#default}
 
 ![](/img/rss_feeds_default.png)
-Die Felder sollten für die optimale Erfahrung so ausgefüllt sein. Du kannst sie aber natürlich nach Belieben bearbeiten oder verschieben.
 
 - `{author}`: Der Autor des Posts, wenn vorhanden
 - `{title}`: Der Titel des Posts, wenn vorhanden
@@ -29,7 +28,7 @@ Wenn der Feed weitere Werte enthält, kannst du sie ebenfalls nutzen. Der Bot wi
 
 ## Beispielfeeds {#example}
 
-### Nitter (Twitter) {#nitter}
+### Nitter (Twitter/"X") {#nitter}
 
 Feed-URL: `https://nitter.net/{user}/rss`
 

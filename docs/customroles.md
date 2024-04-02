@@ -1,6 +1,6 @@
 ---
 title: Customroles
-description: Customroles allow users to created their own customized role on the server.
+description: Customroles allow server members to create their own role and modify it to their liking.
 image: /img/customrole_info.png
 ---
 

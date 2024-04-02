@@ -25,6 +25,8 @@ This doesn't affect birthday announcements.
 
 <Command name="birthday delete"></Command>
 
+This command deletes your current birthday.
+
 ## Fictive birthdays {#fictive}
 
 Fictive birthdays are per server and can be configured by server moderators.
