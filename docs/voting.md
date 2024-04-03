@@ -10,7 +10,7 @@ By using the vote announcements you can send a custom message once someone votes
 
 ## Commands {#commands}
 
-Use the commands `leaderboard servervote` or `leaderboard botvote` to get a leaderboard which shows which users voted the most often.
+Use the commands `leaderboard servervote` or `leaderboard botvote` to get a ranking showing which users voted the most often.
 
 ## Settings {#settings}
 
@@ -22,16 +22,19 @@ Select the channel in which the vote messages will be sent.
 
 You can customize the server and bot vote message here.
 
-You can use the following variables:
-- `{usermention}`: Mention of the user who voted
-- `{userid}`: ID of the voting user
+You can use the following variables (casing is ignored):
+- `{userMention}`: Mention of the user who voted
+- `{userId}`: ID of the voting user
 - `{username}`: Username of the voting user
-- `{globalname}`: Global nickname of the voting user
-- `{useravatar}`: Avatar URL of the voting user
-- `{domain}`: The domain the user voted on
-- `{url}`: URL of the bot or server
-- `{voteurl}`: Vote URL of the bot or server
+- `{globalName}`: Global nickname of the voting user
+- `{userAvatar}`: Avatar URL of the voting user
+- `{domain}`: The name of the server (the domain) the user voted on
+- `{url}`: URL of the bot or server page
+- `{voteUrl}`: Direct vote link of the bot or server
 
 ### Vote role {#role}
 
-Here you can select a role users will receive after voting. It will be automatically removed after the set time.
+Here you can select a role users will receive after voting, and how long they'll keep it.
+
+Users receive this role automatically after voting on a page.
+It will be automatically removed after the set time.

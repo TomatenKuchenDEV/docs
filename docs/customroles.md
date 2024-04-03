@@ -27,9 +27,9 @@ Changes the name of your customrole.
 
 ### `color` {#cmd-color}
 
-Changes the color of the customrole.
+<Command name="customrole color" slash="color:New color" message="<New color>"></Command>
 
-- color: The color of the customrole. If no color is specified, the color is removed.
+Changes the color of the customrole. If no color is specified, the color is removed.
 
 ### `icon` {#cmd-icon}
 

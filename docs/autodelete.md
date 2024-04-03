@@ -9,12 +9,12 @@ This setting is useful for e.g. advertising channels by deleting messages for ex
 
 ## Autodelete {#autodelete}
 
-The following settings can be configured per channel.
+The following setting can be configured per channel.
 
-The time is set using the bots default time format:
+The time is set using the bots default time format, e.g.:
 - `5m`: Five minutes
 - `1h30m`: One hour and 30 minutes
-- `6h`: Six hours after the message was sent
+- `6h`: Six hours after the message was sent.
 
 You can enter a time of up to one year.
 

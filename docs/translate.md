@@ -30,6 +30,14 @@ Using the integration [`autotranslate`](https://tomatenkuchen.com/dashboard/inte
 	- You can also find the language code when using the `/translate` slashcommand
 4. Click on "Create integration" - done!
 
+:::tip Two-way translation
+
+It's also possible to detect the language of a text and depending on that, translate the text into a different language.
+
+This can be used to have e.g. an English and a Spanish channel combined, with the bot translating Spanish messages into English, and English messages into Spanish.
+
+:::
+
 ## Integration: Translation by reacting with a flag {#flag-reaction-translate}
 
 Using the integration [`flag-reaction-translate`](https://tomatenkuchen.com/dashboard/integrations?info=flag-reaction-translate) messages can be translated by reacting to a message with the related flag.

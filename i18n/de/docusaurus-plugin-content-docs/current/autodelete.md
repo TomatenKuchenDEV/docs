@@ -9,9 +9,9 @@ Diese Funktion ist nützlich für z. B. Werbekanäle, in denen Nachrichten nach 
 
 ## Autodelete {#autodelete}
 
-Die folgenden Einstellungen können pro Kanal festgelegt werden.
+Die folgende Einstellung kann pro Kanal festgelegt werden.
 
-Die Zeit wird im Standard-Zeitformat des Bots angegeben:
+Die Zeit wird im Standard-Zeitformat des Bots angegeben, z. B.:
 - `5m`: Fünf Minuten
 - `1h30m`: Eine Stunde und 30 Minuten
 - `6h`: Sechs Stunden, nachdem die Nachricht gesendet worden ist.

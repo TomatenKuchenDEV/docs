@@ -30,4 +30,4 @@ In the ticket the answers are shown using embed fields.
 
 ### Integrations {#integrations}
 
-Modals can also be used with [integrations](/integrations): For this purpose the [action function](/functions/misc) `{modal;<Modal ID>}` exists for opening a modal, and the function `{modalField;<Modal ID>;<Label name>}` for getting the response to a field.
+Modals can also be used with [integrations](/integrations): For this purpose the [action function](/functions/misc) `{modal;<Modal ID>}` exists for opening a modal, and the function `{modalField;<Modal ID>;<Label name>}` for getting the user response to a field.

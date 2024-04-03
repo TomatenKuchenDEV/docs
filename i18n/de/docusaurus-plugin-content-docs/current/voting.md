@@ -10,7 +10,7 @@ Mithilfe der Vote-Announcements kannst du eine Nachricht senden lassen, wenn jem
 
 ## Befehle {#commands}
 
-Mit dem Befehl `leaderboard servervote` bzw. `leaderboard botvote` lässt sich ein Leaderboard anzeigen, auf welchem angezeigt wird, welche Nutzer am häufigsten gevoted haben.
+Mit dem Befehl `leaderboard servervote` bzw. `leaderboard botvote` lässt sich ein Ranking der Nutzer anzeigen, welche am meisten gevoted haben.
 
 ## Einstellungen {#settings}
 
@@ -22,17 +22,19 @@ Hier kann der Kanal festgelegt werden, in den die Votenachricht gesendet wird.
 
 Hier kannst du die Server- und Botvotenachricht einstellen.
 
-Folgende Variablen können verwendet werden:
-- `{usermention}`: Erwähnung des Nutzers, welcher gevoted hat
-- `{userid}`: ID des votenden Nutzers
+Folgende Variablen können verwendet werden (Groß- und Kleinschreibung wird ignoriert):
+- `{userMention}`: Erwähnung des Nutzers, welcher gevoted hat
+- `{userId}`: ID des votenden Nutzers
 - `{username}`: Nutzername des votenden Nutzers
-- `{globalname}`: Globaler Nickname des votenden Nutzers
-- `{useravatar}`: Avatar-URL des votenden Nutzers
-- `{domain}`: Die Domain, auf der gevoted wurde
+- `{globalName}`: Globaler Nickname des votenden Nutzers
+- `{userAvatar}`: Avatar-URL des votenden Nutzers
+- `{domain}`: Der Name des Dienstes (die Domain), auf der gevoted wurde
 - `{url}`: URL des Bots bzw. Servers
-- `{voteurl}`: URL, auf der Nutzer voten können
+- `{voteUrl}`: URL, auf der Nutzer voten können
 
 ### Voterolle {#role}
 
 Hier kann eine Rolle festgelegt werden und wie lange Nutzer diese behalten.
-Nutzer erhalten diese Rolle automatisch beim Voten. Nachdem die festgelegte Zeit abgelaufen ist, wird sie wieder entfernt.
+
+Nutzer erhalten diese Rolle automatisch, nachdem sie auf einer Seite gevoted haben.
+Nachdem die festgelegte Zeit abgelaufen ist wird die Rolle wieder entfernt.

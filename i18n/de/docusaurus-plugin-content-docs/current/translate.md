@@ -30,6 +30,14 @@ Mithilfe der Integration [`autotranslate`](https://tomatenkuchen.com/dashboard/i
 	- Den Sprachcode findest du auch bei `/translate`-Slashcommand
 4. Klicke auf "Integration erstellen" - fertig!
 
+:::tip Zwei-Wege-Übersetzung
+
+Es ist auch möglich, die Sprache eines Textes zu erkennen und anhand dessen den Text in eine andere Sprache zu übersetzen.
+
+Dies kann verwendet werden, um z. B. einen englischen und einen deutschen Kanal zu kombinieren, indem der Bot deutsche Nachrichten auf Englisch und englische Nachrichten auf Deutsch übersetzt.
+
+:::
+
 ## Integration: Übersetzung durch Reaktion mit Flagge {#flag-reaction-translate}
 
 Mithilfe der Integration [`flag-reaction-translate`](https://tomatenkuchen.com/dashboard/integrations?info=flag-reaction-translate) können Nachrichten übersetzt werden, indem man mit der Flagge der entprechenden Sprache auf eine Nachricht reagiert.

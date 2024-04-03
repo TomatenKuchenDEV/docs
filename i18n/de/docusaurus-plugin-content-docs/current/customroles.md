@@ -27,9 +27,9 @@ Erstellt eine Customrolle für den aktuellen Nutzer.
 
 ### `color` {#cmd-color}
 
-Ändert die Farbe der Customrolle.
+<Command name="customrole color" slash="color:Neuer Farbe" message="<Neue Farbe>"></Command>
 
-- color: Die Farbe der Customrolle. Wenn keine Farbe angegeben ist, wird die Farbe entfernt.
+Ändert die Farbe der Customrolle. Wenn keine Farbe angegeben wird, wird die Farbe entfernt.
 
 ### `icon` {#cmd-icon}
 

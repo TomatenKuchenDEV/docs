@@ -30,4 +30,4 @@ Im Ticket wird dann mithilfe von Embedfeldern angezeigt, wie der Nutzer geantwor
 
 ### Integrationen {#integrations}
 
-Modals können auch mit [Integrationen](/integrations) verwendet werden: Dafür gibt es die [Aktions-Funktion](/functions/misc) `{modal;<Modal-ID>}`, um ein Modal zu öffnen, und die Funktion `{modalField;<Modal-ID>;<Labelname>}`, um die Antwort auf ein Feld abzufragen.
+Modals können auch mit [Integrationen](/integrations) verwendet werden: Dafür gibt es die [Aktions-Funktion](/functions/misc) `{modal;<Modal-ID>}`, um ein Modal zu öffnen, und die Funktion `{modalField;<Modal-ID>;<Labelname>}`, um die Nutzerantwort auf ein Feld abzufragen.

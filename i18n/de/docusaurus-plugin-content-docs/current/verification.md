@@ -25,7 +25,7 @@ Du kannst aktuell zwischen den folgenden Modi auswählen:
 - Mathe-Aufgabe
 - Website-Captcha
 
-"Keine Verifikation" weißt den Nutzern beim Klicken auf den Button direkt die ausgewählten Rollen zu.
+"Keine Verifikation" weist den Nutzern beim Klicken auf den Button direkt die ausgewählten Rollen zu.
 
 ### Verifikationsrollen {#roles}
 
