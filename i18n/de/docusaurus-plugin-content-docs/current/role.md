@@ -5,11 +5,21 @@ description: Der role-Befehl erlaubt die Verwaltung von Rollen und deren Nutzer 
 
 Diese Seite listet die Unterbefehle des `role`-Befehls auf und erklärt deren Funktionen.
 
+## list {#cmd-info}
+
+Listet Rollen des Servers und filtert diese optionalerweise.
+
+- filter: Filter, welche auf alle Rollen angewendet werden sollen:
+	`-managed`/`-unmanaged`: Ob die Rolle manuell erstellt wurde und vollständig bearbeitbar ist, oder ob sie von einer Discord-Integration, z. B. einem Bot, verwaltet wird.
+	`-withmembers`/`-withoutmembers`: Ob es auf dem Server mindestens ein (gecachtes) Mitglied mit dieser Rolle gibt.
+	`-hoisted`/`-unhoisted`: Ob die Rolle in der Mitgliederliste separat dargestellt wird.
+	`-mentionable`/`-unmentionable`: Ob die Rolle standardmäßig erwähnbar ist.
+	`-startswith=<Name>`/`-endswith=<Name>`: Ob der Rollenname mit diesem Text beginnt bzw. endet.
+	`-includes=<Name>`/`-notincludes=<Name>`: Ob der Rollenname diesen Text enthält (Groß- und Kleinschreibung wird ignoriert).
+
 ## info {#cmd-info}
 
 Zeigt Informationen über die angegebene Rolle.
-
-Wenn keine Rolle angegeben worden ist (oder bei Messagecommands überhaupt kein Argument angegeben worden ist) wird eine Liste aller Rollen des Servers angezeigt.
 
 - role: Die Rolle, worüber Infos angezeigt werden sollen
 

@@ -40,7 +40,7 @@ This can be used to have e.g. an English and a Spanish channel combined, with th
 
 ## Integration: Translation by reacting with a flag {#flag-reaction-translate}
 
-Using the integration [`flag-reaction-translate`](https://tomatenkuchen.com/dashboard/integrations?info=flag-reaction-translate) messages can be translated by reacting to a message with the related flag.
+Using the integration [`flag-reaction-translate`](https://tomatenkuchen.com/dashboard/integrations?info=flag-reaction-translate) messages can be translated by reacting to a message with the flag of a country mainly speaking the target language.
 
 1. [Add the integration to your server](https://tomatenkuchen.com/dashboard/integrations?use=flag-reaction-translate)
 2. Ensre the bot has all required permissions in the channel you want to use it in.

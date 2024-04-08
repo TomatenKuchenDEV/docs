@@ -5,11 +5,21 @@ description: The role command allows you to manage roles and their members on a 
 
 This page explains the subcommands of the `role` command and explains their features.
 
+## list {#cmd-info}
+
+Lists all roles on the server and optionally filters them.
+
+- filter: The filter(s) to apply on all roles:
+	`-managed`/`-unmanaged`: Whether the role has been created manually and is fully editable, or is managed by a Discord integration, e.g. a bot.
+	`-withmembers`/`-withoutmembers`: Whether there's at least one (cached) member on the server with the role.
+	`-hoisted`/`-unhoisted`: Whether the role is displayed separately in the member list.
+	`-mentionable`/`-unmentionable`: Whether the role is mentionable by default.
+	`-startswith=<Name>`/`-endswith=<Name>`: Whether the role name starts or ends with this text.
+	`-includes=<Name>`/`-notincludes=<Name>`: Whether the role name includes this text (casing is ignored).
+
 ## info {#cmd-info}
 
 Displays information about the given role.
-
-Wenn keine Rolle angegeben worden ist (oder bei Messagecommands überhaupt kein Argument angegeben worden ist) wird eine Liste aller Rollen des Servers angezeigt.
 
 - role: The role to show information about.
 
@@ -36,11 +46,11 @@ Entfernt alle Berechtigungen einer Rolle. Kanalüberschreibungen werden nicht en
 
 Adds a role to a member.
 
-If no time was given the user keeps the role forever.
+If no time is given, the user keeps the role forever.
 
 - role*: The role to add
 - user*: The user to add the role to
-- time: Für wie lange der Nutzer die Rolle haben soll
+- time: The time how long the user should keep the role
 
 ## remove {#cmd-remove}
 

@@ -54,7 +54,7 @@ Nutzer können nicht mehr auf einem Vorschlag abstimmen, wenn dieser Kanal geset
 
 :::
 
-### Ausstehend-Kanal {#pending}
+### Kanal für ausstehende Vorschläge {#pending}
 
 Legt einen Kanal fest, in welchem neue Vorschläge gesammelt werden, um manuell zugelassen oder abgelehnt zu werden.
 
@@ -88,8 +88,15 @@ Erzwingt einen Grund bei Vorschlagsaktionen, z. B. beim Annehmen oder Ablehnen. 
 Ähnlich wie bei [Moderationsgrundvorlagen](/moderation/settings#reason-presets) lassen sich vordefinierte Gründe erstellen, welche sich einfacher anwenden lassen.
 Besuche die verlinkte Seite für Beispiele.
 
-### Votes öffentlich? {#public-votes}
+### Sichtbarkeit der Votes {#public-votes}
 
 Diese Einstellung legt fest, ob Vorschlagsnachrichten einen "Votes"-Button haben sollen, mit welchem angezeigt werden kann, welches Mitglied wie abgestimmt hat.
+Die Anzahl der Votes wird immer angezeigt, unabhängig von dieser Einstellung.
 
 Beachte, dass das Aktivieren dieser Einstellung zum Schutz der Anonymität der Nutzer nicht rückwirkend gilt.
+
+### Vom Voten ausgeschlossene Rollen {#vote-excluded-roles}
+
+Die Mitglieder mit in der [Einstellung](https://tomatenkuchen.com/dashboard/settings#suggestVoteExcludedRoles) ausgewählten Rollen haben keine Möglichkeit mehr, auf Vorschlägen abzustimmen.
+
+Beachte, dass obwohl sowohl [Buttons als auch Reaktionen](#buttons-reactions) diese Einstellung anwenden, Reaktionen aufgrund von Limits beim Entfernen von Reaktionen nicht zu empfehlen sind.

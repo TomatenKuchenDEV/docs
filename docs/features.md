@@ -32,7 +32,7 @@ All of these features are available for free!
 	- [Minecraft server status](/mcupdate)
 	- Bluesky posts
 - [AFK feature](/afk)
-	- List of all AFK users on the server
+	- List of all AFK members on the server
 	- List of all mentions received while AFK after the AFK state ends
 - [Auto roles for bots and users separately](/autorole)
 - [Auto nickname on join](/autorole)
@@ -43,7 +43,7 @@ All of these features are available for free!
 	- Many different settings
 	- Leaderboard for successful and failed countings
 - [Birthdays](/birthday)
-	- Fictive birthdays
+	- Fictive (servers) and global (users) birthdays
 	- List of all birthdays on the server
 	- Configurable role and message
 - [Level and leaderboard](/level)

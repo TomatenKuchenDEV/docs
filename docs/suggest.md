@@ -54,7 +54,7 @@ Users cannot vote on a suggestion anymore if this channel is set and the suggest
 
 :::
 
-### Pending channel {#pending}
+### Pending suggestions channel {#pending}
 
 Sets a channel in which new suggestions are collected to be allowed or denied manually.
 
@@ -88,8 +88,15 @@ Enforce a reason for suggestion actions, e.g. when approving or denying. Disable
 Similar to [moderation preset reasons](/moderation/settings#reason-presets) you can create predefined reasons which allow easier usage.
 Check the linked page for examples.
 
-### Public votes {#public-votes}
+### Visibility of votes {#public-votes}
 
-This setting changes whether suggestion message should have a "Votes" button which shows which user voted which option.
+This setting changes whether suggestion messages should have a "Votes" button which shows which user voted which option.
+The amount of votes is displayed always, regardless of this setting.
 
 Note that enabling this setting doesn't work retroactively to protect anonymity of users.
+
+### Vote excluded roles {#vote-excluded-roles}
+
+Members with roles selected in the [setting](https://tomatenkuchen.com/dashboard/settings#suggestVoteExcludedRoles) are unable to vote on suggestions.
+
+Note that while both [buttons and reactions](#buttons-reactions) support this setting, it is not recommended to use reactions due to limits when removing a user reaction.
