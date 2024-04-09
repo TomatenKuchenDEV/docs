@@ -4,19 +4,21 @@ description: Erklärt die Einrichtung und die Verwendung vom Counting-System.
 image: /img/countingleaderboard.png
 ---
 
-Mit dem Counting-System können Nutzer auf dem aktuellen Server mit anderen Mitgliedern zählen.
+Mit dem Counting-System können Mitglieder auf einem Server zusammen mit anderen zählen.
 
 ## Befehle {#commands}
 
 ### Erfolgreiches Zählen {#cmd-counting}
 
-`leaderboard counting` zeigt das Counting-Leaderboard des Servers an. Es zeigt an, wie viele Zahlen ein Nutzer insgesamt und im aktuellen Versuch gezählt hat.
+`leaderboard counting` zeigt das Counting-Leaderboard des Servers an. Es zeigt an, wie viele Zahlen ein Mitglied insgesamt und im aktuellen Versuch gezählt hat.
 
 ![/leaderboard counting](/img/countingleaderboard.png)
 
+Du kannst auch den Link öffnen, um das vollständige Leaderboard als Website zu sehen.
+
 ### Fehler beim Zählen {#cmd-countingfail}
 
-Das beim Befehl `leaderboard countingfail` angezeigte Leaderboard zeigt an, wie viele Fehler ein Nutzer insgesamt beim Zählen gemacht hat.
+Das beim Befehl `leaderboard countingfail` angezeigte Leaderboard zeigt an, wie viele Fehler ein Mitglied insgesamt beim Zählen gemacht hat.
 
 ## Einstellungen {#settings}
 
@@ -24,7 +26,7 @@ Das beim Befehl `leaderboard countingfail` angezeigte Leaderboard zeigt an, wie 
 
 ### Kanal {#channel}
 
-Der Zähl-Kanal, in welchem Nutzer können.
+Der Zähl-Kanal, in welchem Mitglieder gemeinsam zählen können.
 
 ### Start {#start}
 
@@ -42,15 +44,15 @@ Beispiel:
 
 ### Zurücksetzen bei Fehler {#reset-fail}
 
-Ob der aktuelle Stand zurückgesetzt wird, wenn ein Nutzer einen Fehler macht, also zählt, obwohl er nicht dran ist, oder eine falsche Zahl zählt.
+Ob der aktuelle Stand zurückgesetzt wird, wenn ein Mitglied einen Fehler macht, also zählt, obwohl er nicht dran ist, oder eine falsche Zahl zählt.
 
 ### Zurücksetzen bei Nachrichtenlöschung {#reset-delete}
 
-Stellt ein, ob der aktuelle Stand zurückgesetzt wird, wenn ein Nutzer seine Nachricht löscht. Wenn eine oder mehrere Zahlen fehlen, kann das andere Nutzer im Kanal verwirren.
+Stellt ein, ob der aktuelle Stand zurückgesetzt wird, wenn ein Mitglied seine Nachricht löscht. Wenn eine oder mehrere Zahlen fehlen, kann das andere Mitglieder im Kanal verwirren.
 
 ### Zurücksetzen bei Nachrichtenbearbeitung {#reset-edit}
 
-Ob der aktuelle Stand verloren geht, wenn ein Nutzer seine Nachricht bearbeitet *und* sich die Zahl dabei verändert oder die Nachricht normalen Text enthält.
+Ob der aktuelle Stand verloren geht, wenn ein Mitglied seine Nachricht bearbeitet *und* sich die Zahl dabei verändert oder die Nachricht normalen Text enthält.
 
 ### Unterhaltung erlauben {#allow-chat}
 
@@ -58,7 +60,7 @@ Ob nach einer gültigen Zahl noch normaler Text erlaubt ist, z. B. `42 Ich mag T
 
 ### Webhooks verwenden {#webhooks}
 
-Ob Webhooks für Nachrichten verwendet werden sollen. Verhindert das Bearbeiten und Löschen von Nachrichten der Nutzer. Benötigt Webhooks-verwalten-Berechtigung.
+Ob Webhooks für Nachrichten verwendet werden sollen. Verhindert das Bearbeiten und Löschen von Nachrichten der Mitglieder. Benötigt Webhooks-verwalten-Berechtigung.
 
 ### Reaktionen verwenden {#reactions}
 
@@ -70,7 +72,7 @@ Reaktionen auf besondere Zahlen, z. B. 42 und 100, können nur durch das Entfern
 
 ### Rolle bei Fehlern {#fail-role}
 
-Welche Rolle Nutzer erhalten, wenn sie einen Fehler beim Zählen machen. Als Fehler zählt:
+Welche Rolle Mitglieder erhalten, wenn sie einen Fehler beim Zählen machen. Als Fehler zählt:
 - Zweimal hintereinander zählen
 - Falsche Zahl
 - Unterhaltung, obwohl Unterhaltungen nicht erlaubt sind

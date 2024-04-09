@@ -73,7 +73,9 @@ Es können einzelne oder Gruppierungen von Kanälen bzw. Rollen vom Sammeln von 
 
 ### Multiplier pro Kanal {#channel-multipliers}
 
-Legt einen Multiplier pro Kanal fest. Kann z. B. verwendet werden, um in Botkanälen weniger Punkte zu verteilen und in VIP-/Booster-/…-Kanälen mehr.
+Legt einen Multiplier pro Kanal fest.
+
+Kann z. B. verwendet werden, um in Botkanälen weniger Punkte zu verteilen und in VIP-/Booster-/…-Kanälen mehr.
 
 ### Cooldown {#cooldown}
 
@@ -86,8 +88,8 @@ Wenn alle Nachrichten der Nutzer gezählt werden sollen, setze diesen Wert auf `
 Hier kann die Vanity-URL für die Leaderboardwebsite angepasst werden.
 
 Beispiel:
-- https://tomatenkuchen.com/lb/tk#botvote
 - https://tomatenkuchen.com/lb/chaoshosting
+- https://tomatenkuchen.com/lb/tk#botvote (öffnet direkt den Botvote-Tab)
 
 ### Punkte pro Zeichen {#points-per-char}
 

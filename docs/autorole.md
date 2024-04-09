@@ -26,6 +26,10 @@ Additionally, the highest role of the bot must be above the highest role you wan
 
 ## Nickname on join {#join-nick}
 
-You can set a nickname which is set on newly joined users. The following variable can be used:
+You can set a nickname which members receive when joining as default.
+
+The following variables can be used:
 - `{username}`: The username of the user
 - `{globalName}`: The global display name of the user
+
+If you're looking for configurable nicknames using roles, check [auto nickname](/autonickname).

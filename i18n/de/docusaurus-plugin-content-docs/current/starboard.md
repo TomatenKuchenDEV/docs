@@ -29,7 +29,7 @@ Wie viele Reaktionen benötigt werden, bis die Nachricht in den Starboard-Kanal 
 
 ### Emoji {#reaction-emoji}
 
-Welches Emoji beim Reagieren für das Starboard verwendet wird.
+Welches Emoji für das Starboard verwendet wird. Es wird für das Zählen von Reaktionen verwendet und im Nachrichtenfooter angezeigt.
 
 Standardwert: `⭐`
 

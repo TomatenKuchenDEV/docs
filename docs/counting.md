@@ -4,19 +4,21 @@ description: Explains the counting system
 image: /img/countingleaderboard.png
 ---
 
-Using the counting system, members can count on your server with other members.
+Using the counting system, members can count together on your server with others.
 
 ## Commands {#commands}
 
 ### Successful counts {#cmd-counting}
 
-`leaderboard counting` shows the counting leaderboard of the server. It lists the amount of successful counts per user overall and of the current run.
+`leaderboard counting` shows the counting leaderboard of the server. It lists the amount of successful counts per member overall and of the current run.
 
 ![/leaderboard counting](/img/countingleaderboard.png)
 
+You can also open the link to view the full leaderboard on a website.
+
 ### Failed counts {#cmd-countingfail}
 
-The leaderboard shown when using `leaderboard countingfail` displays how many times in total a user made a mistake while counting.
+The leaderboard shown when using `leaderboard countingfail` displays how many times in total a member made a mistake while counting.
 
 ## Settings {#settings}
 
@@ -42,15 +44,15 @@ Example:
 
 ### Reset on fail {#reset-fail}
 
-If the current run is reset if a user makes a mistake. A mistake is counting two times in a row and counting a wrong number.
+Whether the current run is reset if a member makes a mistake. A mistake is counting two times in a row and counting a wrong number.
 
 ### Reset on message delete {#reset-delete}
 
-Resets the run if a user deletes their message. Members can get confused if a number is missing.
+Resets the run if a member deletes their message. Members can get confused if a number is missing.
 
 ### Reset on message edit {#reset-edit}
 
-If the current run is reset if a user edits their message *and* changes it's number or add normal text while chatting is disabled.
+If the current run is reset when a member edits their message *and* changes its number or add normal text while chatting is disabled.
 
 ### Allow chat {#allow-chat}
 
@@ -70,7 +72,7 @@ Reactions on special numbers, e.g. 42 and 100, can only be disabled by removing 
 
 ### Role on fail {#fail-role}
 
-If and if yes, which role users receive when making a mistake. Possible mistakes:
+If and if yes, which role members receive when making a mistake. Possible mistakes:
 - Counting two times in a row
 - Wrong number
 - Chatting while chatting is disabled

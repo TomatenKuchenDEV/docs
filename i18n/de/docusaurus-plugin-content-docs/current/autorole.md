@@ -26,6 +26,10 @@ Zusätzlich muss die höchste Rolle des Bots über der höchsten Rolle sein, die
 
 ## Nicknamen beim Beitreten {#join-nick}
 
-Es kann ein Nickname festgelegt werden, den Mitglieder beim Beitreten erhalten sollen. Das folgende Argument kann verwendet werden:
+Es kann ein Nickname festgelegt werden, den Mitglieder beim Beitreten als Standard erhalten.
+
+Die folgenden Variablen können verwendet werden:
 - `{username}`: Der Benutzername des Nutzers
 - `{globalName}`: Der globale Anzeigename des Nutzers
+
+Wenn du nach einem konfigurierbaren Nicknamen anhand von Rollen suchst, siehe [Autonickname](/autonickname).

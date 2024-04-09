@@ -73,7 +73,9 @@ Select roles, channels or groups of channels which are excluded from collecting 
 
 ### Multiplier per channel {#channel-multipliers}
 
-Sets a multiplier per channel. Can e.g. be used to reduce the amount given in bot channels and increase the points in VIP/Booster/… channels.
+Sets a multiplier per channel.
+
+Can e.g. be used to reduce the amount given in bot channels and increase the points in VIP/Booster/… channels.
 
 ### Cooldown {#cooldown}
 
@@ -86,8 +88,8 @@ If all messages from users should be counted set the value to `0`.
 Modifies the leaderboard vanity URL of the server.
 
 Example:
-- https://tomatenkuchen.com/lb/tk#botvote
 - https://tomatenkuchen.com/lb/chaoshosting
+- https://tomatenkuchen.com/lb/tk#botvote (directly opens the bot vote tab)
 
 ### Points per characters {#points-per-char}
 

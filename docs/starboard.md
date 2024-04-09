@@ -29,7 +29,7 @@ How many reactions of the set emoji are needed to send the starboard message.
 
 ### Emoji {#reaction-emoji}
 
-Which emoji is used when reacting for the starboard.
+Which emoji is used for the starboard. It's used for counting the reactions and displayed in the message footer.
 
 Default value: `⭐`
 
