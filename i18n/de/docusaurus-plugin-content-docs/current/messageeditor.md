@@ -17,4 +17,5 @@ Die Website wurde vom [TomatenKuchen](/about)-Entwickler TomatoCake weiterentwic
 
 TomatenKuchen und der Manage Bot bieten an vielen Stellen die Möglichkeit, vom Nachrichteneditor kopiertes JSON einzufügen, und somit das Einrichten von Embeds usw. auf Discord zu vereinfachen.
 
-Auch können Nachrichten aus einem Kanal importiert, in einen Kanal exportiert oder nur als JSON exportiert werden. Da das JSON in den meisten Bots gleich verwendet wird, kannst du auch Nachrichten von anderen Embededitoren bzw. Websiten exportieren und bei TomatenKuchen verwenden - andersherum natürlich auch.
+Auch können Nachrichten aus einem Kanal importiert, in einen Kanal exportiert oder als JSON exportiert werden.
+Da das JSON-Format von Discord vorgegeben wird, kannst du auch Nachrichten von anderen Embededitoren bzw. Websiten im- und exportieren und bei TomatenKuchen verwenden.

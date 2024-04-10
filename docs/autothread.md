@@ -18,7 +18,7 @@ You have multiple variables when choosing the name of the thread.
 - `{nickname}`: The nickname of the user on the server
 - `{content}`: The content of the message
 
-Note that the name must not be longer than 100 characters, and will be cut off if it is (e.g. if the message content is too long).
+Note that the name cannot be longer than 100 characters, and will be cut off if it is (e.g. if the message content is too long).
 
 ## Permissions {#permissions}
 

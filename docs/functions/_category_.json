@@ -3,6 +3,6 @@
 	"label": "Action functions",
 	"link": {
 		"type": "generated-index",
-		"title": "Functions that can be used by actions"
+		"title": "Functions that can be used by actions, e.g. in integrations"
 	}
 }

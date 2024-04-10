@@ -40,13 +40,13 @@ Play Connect Four against a user.
 
 Play Uno with other users.
 
-<Command name="game uno"></Command>
+<Command name="game uno" message="[-punish-cards=<Punishment cards on forgotten Uno>]"></Command>
 
 ### Chemical equations {#chemistry}
 
 Gives you a random chemistry equation that must be balanced using factors.
 
-<Command name="game chemie" slash="[difficulty:easy|normal|hard]" message="[easy|normal|hard]"></Command>
+<Command name="game chemistry" slash="[difficulty:easy|normal|hard]" message="[easy|normal|hard]"></Command>
 
 ![](/img/game_chemie.png)
 

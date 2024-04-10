@@ -27,7 +27,12 @@ Wenn dir diese nicht weiterhilft, frage gerne auf unserem Support-Server!
 
 ## Du musst eine "ID" angeben? {#id}
 
-Um eine ID zu kopieren rechtsklickst du die entsprechende Nachricht, den Nutzer, den Kanal oder den Server. Wenn es keine Option zum Kopieren der ID gibt, stelle sicher, dass du den Entwicklermodus von Discord aktiviert hast. Folge dazu [dem Tutorial von Discord](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-).
+Um eine ID zu kopieren rechtsklickst du die entsprechende Nachricht, den Nutzer, den Kanal oder den Server.
+
+Wenn es keine Option zum Kopieren der ID gibt, stelle sicher, dass du den Entwicklermodus von Discord aktiviert hast.
+Folge dazu [dem Tutorial von Discord](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-).
+
+Wenn es einen entsprechenden Botbefehl gibt kannst du auch diesen nutzen, um die ID zu erhalten, z. B. `message id`, `user`, `emoji info`, `channel info`, `role info` und `server`.
 
 ## Befehlssyntax {#syntax}
 
@@ -35,8 +40,8 @@ Prefixbasierte Befehle werden immer mit der Syntax `Befehlsname <Erforderliches 
 
 :::warning Klammern
 
-Stelle sicher, dass du die Klammern weglässt, wenn du Argumente verwendest, sie werden nur zur Hervorhebung verwendet.
+Stelle sicher, dass du die spitzen sowie eckigen Klammern weglässt, wenn du Argumente verwendest, sie werden nur zur Hervorhebung verwendet.
 
 :::
 
-Slashcommands verwenden eine andere Syntax, jedoch sind die Optionen, welche in Discord dargestellt werden, meist aussagekräftig genug.
+Slashcommands verwenden eine andere Syntax, jedoch sind die Optionen mit der in Discord angezeigten zusätzlichen Beschreibung meist aussagekräftig genug.

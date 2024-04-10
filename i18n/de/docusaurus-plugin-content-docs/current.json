@@ -24,7 +24,7 @@
     "description": "The label for category Action functions in sidebar docs"
   },
   "sidebar.docs.category.Action functions.link.generated-index.title": {
-    "message": "Funktionen, die von Aktionen verwendet werden können",
+    "message": "Funktionen, die von Aktionen verwendet werden können, z. B. in Integrationen",
     "description": "The generated-index page title for category Action functions in sidebar docs"
   },
   "sidebar.docs.category.Moderation": {

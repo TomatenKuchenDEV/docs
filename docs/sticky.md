@@ -22,4 +22,5 @@ The bot at least needs the permission "Manage Messages" to work.
 ### Respond to bots {#reply-to-bots}
 
 Whether the bot should respond to other bots when they send a message into the channel.
-If disabled TK only responds to humans.
+
+If disabled the bot only responds to humans.

@@ -22,4 +22,5 @@ Der Bot benötigt dafür mindestens die Berechtigung "Nachrichten verwalten".
 ### Antworten auf Bots {#reply-to-bots}
 
 Ob der Bot auf andere Bots reagieren soll, wenn diese eine Nachricht in den Kanal senden.
-Wenn deaktiviert reagiert TK nur auf Nutzer.
+
+Wenn deaktiviert reagiert der Bot nur auf Nutzer.

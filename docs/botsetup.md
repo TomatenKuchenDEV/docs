@@ -24,7 +24,7 @@ If you need help with something, let it be an error, a setting or other setup - 
 
 ## Settings {#settings}
 
-In the [Dashboard](https://tomatenkuchen.com/dashboard/settings) all settings of the bot can be changed.
+In the [dashboard](https://tomatenkuchen.com/dashboard/settings) all settings of the bot can be changed.
 
 The most important settings are explained on the page [General settings](/general-settings).
 
@@ -33,7 +33,12 @@ If you still need help, please ask on our support server!
 
 ### You have to enter an "ID"? {#id}
 
-To copy an ID right click the message, the user, the channel or the server. If there's no option to copy the ID, make sure you have the developer mode enabled. To do that, follow [the tutorial by Discord](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-).
+To copy an ID right click the message, user, emoji, channel, role, or server.
+
+If there's no option to copy the ID, make sure you have the developer mode enabled.
+To do that, follow [the tutorial by Discord](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-).
+
+If there's a respective bot command, you can also use it to get the ID, e.g. `message id`, `user`, `emoji info`, `channel info`, `role info`, and `server`.
 
 ## Command syntax {#syntax}
 

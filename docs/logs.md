@@ -5,7 +5,7 @@ description: This page explains the Discord server action logging system.
 
 TomatenKuchen provides feature rich logging about most actions that bots can capture.
 
-Note that for most logs, the "View Audit Log" permission is required.
+Note that for most logs, the bot needs the "View Audit Log" permission.
 
 ## Log channels with categories {#categories}
 
@@ -27,3 +27,5 @@ Logs are grouped into different categories. For each category you can select a c
 ## Channels from which logs are ignored {#excluded-channels}
 
 You can select channels here of which logs won't be shown.
+
+This also applies to children of channels, e.g. a channel within a selected category or a thread within a selected channel.

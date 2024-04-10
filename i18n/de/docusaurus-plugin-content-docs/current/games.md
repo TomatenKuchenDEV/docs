@@ -40,13 +40,13 @@ Spiele Vier gewinnt gegen einen anderen Spieler.
 
 Spielt Uno mit anderen Nutzern.
 
-<Command name="game uno"></Command>
+<Command name="game uno" message="[-punish-cards=<Strafkarten bei vergessenem Uno>]"></Command>
 
 ### Chemiegleichungen {#chemistry}
 
 Gibt dir eine zufällige Chemiegleichung, die mithilfe von Faktoren ausgeglichen werden muss.
 
-<Command name="game chemie" slash="[difficulty:leicht|mittel|schwer]" message="[leicht|mittel|schwer]"></Command>
+<Command name="game chemistry" slash="[difficulty:leicht|mittel|schwer]" message="[leicht|mittel|schwer]"></Command>
 
 ![](/img/game_chemie.png)
 

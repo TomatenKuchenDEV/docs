@@ -5,7 +5,7 @@ description: Diese Seite erklärt das Discord-Server-Aktions-Logsystem.
 
 TomatenKuchen hat ein sehr funktionsreiches Logsystem, was die meisten aller Aktionen loggt, die Bots feststellen können.
 
-Beachte, dass für die meisten Logs die Berechtigung "Auditlog ansehen" benötigt wird.
+Beachte, dass der Bot für die meisten Logs die Berechtigung "Auditlog ansehen" benötigt.
 
 ## Logkanäle mit Kategorien {#categories}
 
@@ -27,3 +27,5 @@ Logs sind in verschiedene Kategorien zusammengefasst. Für jede Kategorie kann e
 ## Von Logs ignorierte Kanäle {#excluded-channels}
 
 Hier können Kanäle festgelegt werden, von denen keine Logs gesendet werden.
+
+Dies trifft auch auf untergeordnete Kanäle zu, also z. B. ein Kanal in einer ausgewählten Kategorie oder ein Thread in einem ausgewählten Kanal.

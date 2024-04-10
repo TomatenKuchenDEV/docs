@@ -27,4 +27,8 @@ Diese Statistiken werden von [Cloudflare](https://cloudflare.com) anonymisiert g
 
 Wenn du keinen Namen angegeben hast generiert der Bot einige zufällige Zeichen und verwendet diese für den Namen.
 
-Wenn die Short-URL erfolgreich erstellt wurde antwortet der Bot mit der Short-URL, z. B. https://sh0rt.zip/bundbot, und einem QR-Code, um den Link einfacher teilen zu können.
+Wenn die Short-URL erfolgreich erstellt wurde antwortet der Bot mit der generierten Short-URL, z. B. https://sh0rt.zip/bundbot, und einem QR-Code, um den Link einfacher teilen zu können.
+
+Um den QR-Code als Bildlink zu teilen kannst du "qr/" im Link hinzufügen, also z. B. https://sh0rt.zip/qr/bundbot:
+
+![Bundbot-Shorter-QR-Code](https://sh0rt.zip/qr/bundbot)
