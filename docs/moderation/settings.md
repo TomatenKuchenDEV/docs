@@ -27,7 +27,9 @@ Deletes this time span of messages when a user is banned. Due to Discord limits,
 
 ## Block markdown headers {#block-markdown-headers}
 
-Prevents users from sending messages starting with markdown headers (`#`, `##`, and `###`). This can prevent flooding of channels by using large text.
+Prevents users from sending messages starting with markdown headers (`#`, `##`, and `###`).
+
+This can prevent channel flooding use large text walls.
 
 ## AutoMod explanations {#automod-explain}
 

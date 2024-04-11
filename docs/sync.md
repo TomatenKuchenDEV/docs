@@ -24,8 +24,8 @@ This affects all types of logs. Note that if the target server hasn't selected a
 
 Bans and unbans can also be synced using the bot. Unlike logs, bans can be synced to and from multiple servers simultaneously.
 
-<Command name="sync bans" slash="guild:Server ID bans:true/false unbans:true/false" message="<Server ID> <Sync bans: true/false> <Sync unbans: true/false>"></Command>
+<Command name="sync bans" slash="guild:Server ID bans:True|False unbans:True|False" message="<Server ID> <Sync bans: true|false> <Sync unbans: true|false>"></Command>
 
-The `sync bans` and `sync unbans` options control whether users should be banned and unbanned, respectively.
+The `bans` and `unbans` options control whether users should be banned and unbanned, respectively.
 
 For example, if you only want to sync new bans, choose "False" for unbans.

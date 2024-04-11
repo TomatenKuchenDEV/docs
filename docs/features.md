@@ -24,11 +24,11 @@ All of these features are available for free!
 		- Disabling invite links from other servers
 		- Disabling markdown headers
 		- [… and more!](/moderation/settings)
-- [Feeds](/feeds)
+- [Feeds](/feed/feeds)
 	- RSS/Atom
 	- New Minecraft vanilla and PaperMC versions
-	- [YouTube videos, shorts, and livestreams](/youtube)
-	- [Twitch livestreams](/twitch)
+	- [YouTube videos, shorts, and livestreams](/feed/youtube)
+	- [Twitch livestreams](/feed/twitch)
 	- [Minecraft server status](/mcupdate)
 	- Bluesky posts
 - [AFK feature](/afk)

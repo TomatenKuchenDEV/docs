@@ -12,7 +12,7 @@ Wenn zu viele Mitglieder im festgelegten Zeitraum beitreten, werden die kürzlic
 
 ### Antiraid-Modus {#mode}
 
-[Diese Einstellung](https://tomatenkuchen.com/dashboard/settings#antiraidMode) legt fest, ob das Antiraid aktiviert ist und wenn ja, was bei einem Raid passieren soll.
+Diese [Einstellung](https://tomatenkuchen.com/dashboard/settings#antiraidMode) legt fest, ob das Antiraid aktiviert ist und wenn ja, was bei einem Raid passieren soll.
 
 Die Option "Disabled" deaktiviert das Antiraid vollständig.
 
@@ -20,7 +20,7 @@ Die Option "Kick members" kickt bei einem Raid dauerhaft alle neu beigetretenen 
 
 #### "Disable invites" {#disable-invites}
 
-:::warning Nur Community
+:::warning Nur Communityserver
 
 Nur auf Discord-Communityservern verfügbar, da Discord "Einladungen pausieren" auf anderen Servern nicht für Bots zugänglich macht.
 

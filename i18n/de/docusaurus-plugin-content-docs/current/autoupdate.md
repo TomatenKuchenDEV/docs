@@ -18,8 +18,8 @@ Autoupdate ("automatisch updatende Nachrichten") steht für Nachrichten, die sic
 - `{roles}`: Rollenanzahl
 - `{boosts}`: Anzahl der Serverboosts
 - `{channels}`: Kanalanzahl
-- `{voicechannels}`: Anzahl der Sprachkanäle
-- `{textchannels}`: Anzahl der textbasierten Kanäle
+- `{voiceChannels}`: Anzahl der Sprachkanäle
+- `{textChannels}`: Anzahl der textbasierten Kanäle
 - `{categories}`: Anzahl der Kategorien
 - `{leaderboard}`: Zeigt die ersten 15 Leaderboard-Plätze des Servers
 - `{boosters}`: Zeigt alle Booster des Servers

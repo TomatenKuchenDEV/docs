@@ -24,11 +24,11 @@ Alle diese Funktionen sind kostenlos verfügbar!
 		- Deaktivieren von Discordeinladungen anderer Server
 		- Deaktivieren von Markdown-Headern
 		- [… und mehr!](/moderation/settings)
-- [Feeds](/feeds)
+- [Feeds](/feed/feeds)
 	- RSS/Atom
 	- neue Minecraft-Vanilla- und Paper-Versionen
-	- [YouTube-Videos, -Shorts und -Livestreams](/youtube)
-	- [Twitch-Livestreams](/twitch)
+	- [YouTube-Videos, -Shorts und -Livestreams](/feed/youtube)
+	- [Twitch-Livestreams](/feed/twitch)
 	- [Minecraft-Serverstatus](/mcupdate)
 	- Bluesky-Posts
 - [AFK-Funktion](/afk)

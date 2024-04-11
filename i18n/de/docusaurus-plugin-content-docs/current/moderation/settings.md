@@ -27,7 +27,9 @@ Wenn ein Nutzer gebannt wird wird dieser Zeitraum an Nachrichten automatisch gel
 
 ## Markdown-Header blockieren {#block-markdown-headers}
 
-Verhindert, dass Nutzer Nachrichten senden, die mit Markdown-Überschriften (`#`, `##` und `###`) beginnen. So kann das Flooden des Kanals mit großen Überschriften verhindert werden.
+Verhindert, dass Nutzer Nachrichten senden, die mit Markdown-Überschriften (`#`, `##` und `###`) beginnen.
+
+So kann das "Flooden" von Kanälen mit langen Textwänden verhindert werden.
 
 ## AutoMod-Erklärungen {#automod-explain}
 

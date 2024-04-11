@@ -1,0 +1,8 @@
+{
+	"position": 5,
+	"label": "Feeds",
+	"link": {
+		"type": "generated-index",
+		"title": "Feeds allow you to send a message to a channel if something you listen to changes"
+	}
+}

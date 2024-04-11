@@ -18,8 +18,8 @@ Autoupdate ("automatically updating messages") are messages which auto update **
 - `{roles}`: Role amount
 - `{boosts}`: Server boost amount
 - `{channels}`: Channel amount
-- `{voicechannels}`: Voice channel amount
-- `{textchannels}`: Amount of text based channels
+- `{voiceChannels}`: Voice channel amount
+- `{textChannels}`: Amount of text based channels
 - `{categories}`: Category amount
 - `{leaderboard}`: Shows the top 15 of the server leaderboard
 - `{boosters}`: Lists all boosters of the server

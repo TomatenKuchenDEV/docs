@@ -11,6 +11,8 @@ Hier kannst du die Sprachkanäle hinzufügen und für jeden eine individuelle Na
 
 ### Nachricht {#message}
 
+Diese Nachricht wird gesendet, wenn ein Nutzer den ausgewählten Sprachkanal betritt.
+
 Mögliche Variablen (ignoriert Groß- bzw. Kleinschreibung):
 - `{username}`: Der Name des Nutzers
 - `{globalName}`: Der globale Nickname des Nutzers
@@ -19,10 +21,10 @@ Mögliche Variablen (ignoriert Groß- bzw. Kleinschreibung):
 - `{displayName}`: Der Anzeigename des Nutzers
 - `{channel}`: Der Kanalname des Kanals, dem der Nutzer beigetreten ist
 - `{channelMention}`: Die Kanalerwähnung
-- `{serverSame}`: Der Servername
+- `{serverName}`: Der Servername
 - `{serverIcon}`: Das Servericon
 
-### Nachrichtenkanal {#channel}
+### Nachrichtenkanal {#send-channel}
 
 In diesen Kanal wird die festgelegte Nachricht gesendet.
 
@@ -32,9 +34,10 @@ Es kann eine Zeit festgelegt werden, nach welcher die Notify-Nachricht gelöscht
 
 ### Cooldown {#cooldown}
 
-Hier kann der Cooldown, in dem keine Nachricht gesendet wird, festgelegt werden.
+Hier kann der Cooldown, in dem keine Beitrittsbenachrichtigung gesendet wird, festgelegt werden.
 Diese Einstellung kann verwendet werden, um Ping-Spam zu reduzieren.
-Der Mindestwert für beide Einstellungen beträgt 15 Sekunden.
 
 - `user` regelt den Cooldown pro Nutzer: Wenn ein Nutzer eine Nachricht auslöst wird keine Nachricht mehr gesendet, wenn er innerhalb dieser Zeitspanne den Kanal nochmal oder einen anderen betritt. Standard: Drei Minuten (`3m`)
 - `channel` regelt den Cooldown pro Kanal: Wenn eine Nachricht in dem Kanal ausgelöst worden ist, wird innerhalb dieser Zeit keine Nachricht mehr gesendet, wenn derselbe oder ein anderer Nutzer den Kanal betritt. Standard: Eine Minute (`1m`)
+
+Der Mindestwert für beide Einstellungen beträgt 15 Sekunden.

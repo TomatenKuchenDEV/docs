@@ -12,7 +12,7 @@ If too many members join in the configured time window, the recently joined as w
 
 ### Antiraid mode {#mode}
 
-[This setting](https://tomatenkuchen.com/dashboard/settings#antiraidMode) configures whether the antiraid is enabled and if yes, what to do on a raid.
+This [setting](https://tomatenkuchen.com/dashboard/settings#antiraidMode) configures whether the antiraid is enabled and if yes, what to do on a raid.
 
 The option "Disabled" disables the antiraid completely.
 
@@ -20,7 +20,7 @@ The option "Kick members" kicks all newly joined users during a raid.
 
 #### "Disable invites" {#disable-invites}
 
-:::warning Community only
+:::warning Community servers only
 
 Only available on Discord community servers due to Discord not enabling "Pause invites" for bots on other servers.
 

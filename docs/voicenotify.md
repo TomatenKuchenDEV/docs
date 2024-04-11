@@ -11,6 +11,8 @@ Here you can add voice channels and modify the message for each of them.
 
 ### Message {#message}
 
+This message is sent once a member joins the configured voice channel.
+
 Possible variables (case-insensitive):
 - `{username}`: The name of the user
 - `{globalName}`: The global nickname of the user
@@ -22,7 +24,7 @@ Possible variables (case-insensitive):
 - `{serverName}`: The server name
 - `{serverIcon}`: The server icon
 
-### Message channel {#channel}
+### Message channel {#send-channel}
 
 The set message above will be send to this channel.
 
@@ -32,9 +34,10 @@ You can set a time after which the notify message should get deleted automatical
 
 ### Cooldown {#cooldown}
 
-This setting changes the cooldown in which no message is sent.
+This setting changes the cooldown in which no join notification is sent.
 It can be used to reduce ping spam.
-The minimum value for both settings is 15 seconds.
 
 - `user` changes the cooldown per user: Once a user triggers a message, they won't trigger another message until the cooldown is over, regardless of which voice channel they join. Default: three minutes (`3m`)
 - `channel` changes the cooldown per channel: Once a user triggers a message in a channel, the channel won't send another message until the cooldown runs out - regardless of which user joins. Default: one minute (`1m`)
+
+The minimum value for both settings is 15 seconds.

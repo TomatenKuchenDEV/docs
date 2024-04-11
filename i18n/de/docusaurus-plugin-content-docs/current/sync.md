@@ -24,7 +24,7 @@ Dies betrifft alle Logtypen - beachte, dass die Logkanäle vom Zielserver übern
 
 Auch Bans bzw. Unbans lassen sich mithilfe des Bots synchronisieren. Im Gegensatz zu Logs lassen sich bei Bans mehrere Server gleichzeitig verwenden, auf die bzw. von denen synchronisiert wird.
 
-<Command name="sync bans" slash="guild:Server-ID bans:true/false unbans:true/false" message="<Server-ID> <Bans synchronisieren: true/false> <Unbans synchronisieren: true/false>"></Command>
+<Command name="sync bans" slash="guild:Server-ID bans:True|False unbans:True|False" message="<Server-ID> <Bans synchronisieren: true|false> <Unbans synchronisieren: true|false>"></Command>
 
 Bans bzw. Unbans synchronisieren stellt ein, ob Nutzer gebannt bzw. entbannt werden sollen.
 
