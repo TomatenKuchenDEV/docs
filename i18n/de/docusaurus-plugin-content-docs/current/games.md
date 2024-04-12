@@ -1,6 +1,6 @@
 ---
 title: Spiele
-description: Der Bot hat viele Spiele, z. B. Snake, Uno! und Vier gewinnt.
+description: Der Bot hat viele Spiele für Einzel- und Mehrspieler, z. B. Snake, Uno! und Vier gewinnt.
 image: /img/game_snake.png
 ---
 

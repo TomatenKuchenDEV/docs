@@ -31,16 +31,19 @@ Lists all roles with a specific permission.
 
 ## clone {#cmd-clone}
 
-Copies the given role.
-Die Rolle wird mitsamt ihrer Berechtigungen kopiert, Kanalüberschreibungen der Originalrolle werden aber nicht kopiert.
+<Command name="role clone" slash="role:Role" message="<Role>"></Command>
 
-- role*: The role
+Copies the given role including its permissions.
+
+Permission overwrites of the role aren't copied.
 
 ## clearpermissions {#cmd-clearpermissions}
 
-Entfernt alle Berechtigungen einer Rolle. Kanalüberschreibungen werden nicht entfernt, daher entspricht dieser Befehl dem Button "Berechtigungen löschen" in der Discord-Server-Rollenliste.
+<Command name="role clearpermissions" slash="role:Role" message="<Role>"></Command>
 
-- role*: The role to remove the permissions from
+Removes all permissions of a role.
+
+Permission overwrites aren't removed, therefore this command's feature mostly equals the button "Reset permissions" in the Discord server role list.
 
 ## add {#cmd-add}
 
@@ -66,23 +69,17 @@ If no time was given the user loses the role forever.
 
 Adds a role to all members.
 
-You can choose whether only bots, only humans or all members should receive the role.
-
-- role*: The role to add to everyone
-- filter: The filter
+See the [mass action](/moderation/massactions#cmd-role-massadd) docs page for more information.
 
 ## massremove {#cmd-massremove}
 
 Removes a role from all members.
 
-You can choose whether only bots, only humans or all members should get the role removed.
-
-- role*: The role to remove from everyone
-- filter: The filter
+See the [mass action](/moderation/massactions#cmd-role-massremove) docs page for more information.
 
 ## randomuser {#cmd-randomuser}
 
-Wählt zufällig die angegebene Anzahl an Nutzern mit der angegebenen Rolle aus.
+Randomly selects the given amount of users which have the given role.
 
 - role*: The role
-- amount: The amount of users to return
+- amount: The amount of users to return, one by default

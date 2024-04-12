@@ -31,16 +31,19 @@ Listet alle Rollen mit einer bestimmten Berechtigung auf.
 
 ## clone {#cmd-clone}
 
-Kopiert die angegebene Rolle.
-Die Rolle wird mitsamt ihrer Berechtigungen kopiert, Kanalüberschreibungen der Originalrolle werden aber nicht kopiert.
+<Command name="role clone" slash="role:Rolle" message="<Rolle>"></Command>
 
-- role*: Die Rolle
+Kopiert die angegebene Rolle mitsamt ihrer Berechtigungen.
+
+Kanalüberschreibungen der Rolle werden nicht kopiert.
 
 ## clearpermissions {#cmd-clearpermissions}
 
-Entfernt alle Berechtigungen einer Rolle. Kanalüberschreibungen werden nicht entfernt, daher entspricht dieser Befehl dem Button "Berechtigungen löschen" in der Discord-Server-Rollenliste.
+<Command name="role clearpermissions" slash="role:Rolle" message="<Rolle>"></Command>
 
-- role*: Die Rolle, von der alle Berechtigungen entfernt werden sollen
+Entfernt alle Berechtigungen einer Rolle.
+
+Kanalüberschreibungen werden nicht entfernt, daher entspricht dieser Befehl von der Funktion her dem Button "Berechtigungen löschen" in der Discord-Server-Rollenliste.
 
 ## add {#cmd-add}
 
@@ -66,23 +69,17 @@ Wenn keine Zeit angegeben wurde wird die Rolle vom Nutzer für immer entfernt.
 
 Fügt allen Mitgliedern eine Rolle hinzu.
 
-Du kannst auswählen, ob nur Bots, nur Nutzer oder alle Mitglieder die Rolle erhalten sollen.
-
-- role*: Die Rolle, welche allen hinzugefügt werden soll
-- filter: Der Filter
+Siehe die [Massenaktionen](/moderation/massactions#cmd-role-massadd)-Dokumentation für mehr Informationen.
 
 ## massremove {#cmd-massremove}
 
 Entfernt eine Rolle von allen Mitgliedern.
 
-Du kannst auswählen, ob nur Bots, nur Nutzer oder alle Mitglieder die Rolle entfernt bekommen sollen.
-
-- role*: Die Rolle, welche allen entfernt werden soll
-- filter: Der Filter
+Siehe die [Massenaktionen](/moderation/massactions#cmd-role-massremove)-Dokumentation für mehr Informationen.
 
 ## randomuser {#cmd-randomuser}
 
 Wählt zufällig die angegebene Anzahl an Nutzern mit der angegebenen Rolle aus.
 
 - role*: Die Rolle
-- amount: Die Anzahl der Nutzer, welche zurückgegeben werden soll
+- amount: Die Anzahl der Nutzer, welche zurückgegeben werden soll, standardmäßig 1

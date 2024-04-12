@@ -1,6 +1,6 @@
 ---
 title: Games
-description: The bot has many games available to play, e.g. snake, Uno! and Connect Four.
+description: The bot has many games available for both single and multi player to play, e.g. snake, Uno! and Connect Four.
 image: /img/game_snake.png
 ---
 

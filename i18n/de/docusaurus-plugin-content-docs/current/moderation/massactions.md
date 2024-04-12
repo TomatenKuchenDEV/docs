@@ -35,13 +35,15 @@ Wenn die [Einstellung für automatisches Dehoisten](./settings#auto-dehoist) akt
 
 Fügt eine Rolle zu allen Servermitgliedern hinzu.
 
+Die möglichen Filter sind unten zu finden.
+
 ### Rolle von mehreren Mitgliedern entfernen {#cmd-role-massremove}
 
 <Command name="role massremove" slash="role:Rolle [filter:Filter]" message="<Rolle> [<Filter>]"></Command>
 
 Entfernt eine Rolle von allen Servermitgliedern.
 
-Die möglichen Filter sind dieselben wie beim [Role-Massadd-Befehl](#cmd-role-massadd).
+Die möglichen Filter sind unten zu finden.
 
 ## Mögliche Filter für Rollenmassenaktionen {#role-filters}
 
@@ -50,5 +52,17 @@ Mit der `filter`-Option kannst du anpassen, welche Mitglieder eine Rolle erhalte
 - Nur Bots (`bot`)
 - Nur Nutzer (`nobot`)
 - Nur Mitglieder, welche aktuell eine Rolle haben (gibt nur die Rollen-ID als Filter an)
+- `-joined=<Relative Zeit>`
+- `-created=<Relative Zeit>`
+- `-role=<Rollen-ID>`
+- `-notrole=<Rollen-ID>`
+- `-username=<Text>`
+- `-username-ignorecase=<Text>`
+- `-usernameincludes=<Text>`
+- `-usernameincludes-ignorecase=<Text>`
+- `-nickname=<Text>`
+- `-nickname-ignorecase=<Text>`
+- `-nicknameincludes=<Text>`
+- `-nicknameincludes-ignorecase=<Text>`
 
 Wird kein Filter angegeben sind alle Servermitglieder betroffen.

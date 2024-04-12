@@ -28,8 +28,8 @@ Additionally, the highest role of the bot must be above the highest role you wan
 
 You can set a nickname which members receive when joining as default.
 
-The following variables can be used:
+The following case-insensitive variables can be used:
 - `{username}`: The username of the user
-- `{globalName}`: The global display name of the user
+- `{globalName}`: The global display name
 
 If you're looking for configurable nicknames using roles, check [auto nickname](/autonickname).

@@ -1,6 +1,6 @@
 ---
 title: Giveaways
-description: Erklärt die Funktionen des Giveawayssystems.
+description: Der Bot erlaubt dir, Giveaways mit vielen Funktionen zu erstellen, mit mehreren verfügbaren Einstellungen und Bedingungen.
 ---
 
 Um Giveaways zu verwalten braucht man eine der im Dashhoard festgelegten Giveaway-Rollen oder die Berechtigung "Server verwalten".
@@ -21,7 +21,9 @@ Verwende den Button unterhalb eines Giveaways, um dieses zu bearbeiten.
 
 <Command name="giveaway reroll" slash="message:Nachrichten-ID" message="<Nachrichten-ID>"></Command>
 
-Diese Funktion wählt einen oder die eingestellte Anzahl an Gewinnern aus. Nutzer können auch mehrfach ausgewählt werden.
+Diese Funktion wählt einen oder die eingestellte Anzahl an Gewinnern aus.
+
+Nutzer können auch mehrfach ausgewählt werden.
 
 ### Beenden {#cmd-end}
 

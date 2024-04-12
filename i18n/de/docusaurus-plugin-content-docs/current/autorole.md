@@ -28,8 +28,8 @@ Zusätzlich muss die höchste Rolle des Bots über der höchsten Rolle sein, die
 
 Es kann ein Nickname festgelegt werden, den Mitglieder beim Beitreten als Standard erhalten.
 
-Die folgenden Variablen können verwendet werden:
+Die folgenden Variablen können verwendet werden (Groß- und Kleinschreibung wird ignoriert):
 - `{username}`: Der Benutzername des Nutzers
-- `{globalName}`: Der globale Anzeigename des Nutzers
+- `{globalName}`: Der globale Anzeigename
 
 Wenn du nach einem konfigurierbaren Nicknamen anhand von Rollen suchst, siehe [Autonickname](/autonickname).

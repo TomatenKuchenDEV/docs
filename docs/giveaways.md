@@ -1,6 +1,6 @@
 ---
 title: Giveaways
-description: Explains giveaways and possible requirements for them.
+description: The bot allows you to create many feature-rich giveaways with multiple settings and requirements available.
 ---
 
 To manage giveaways you need one of the [giveaway roles](https://tomatenkuchen.com/dashboard/settings#giveawayManageRoles) selected in the dashboard, or the "Manage Guild" permission.
@@ -28,6 +28,7 @@ Users can be selected multiple times.
 ### End {#cmd-end}
 
 <Command name="giveaway end" slash="message:Message ID" message="<Message ID>"></Command>
+
 ### Delete {#cmd-delete}
 
 <Command name="giveaway delete" slash="message:Message ID" message="<Message ID>"></Command>

@@ -35,13 +35,15 @@ If the [setting for automatic dehoisting](./settings#auto-dehoist) is enabled, t
 
 Adds a role to all server members.
 
+The possible filters can be found below.
+
 ### Remove role from multiple members {#cmd-role-massremove}
 
 <Command name="role massremove" slash="role:Role [filter:Filter]" message="<Role> [<Filter>]"></Command>
 
 Removes a role from all server members.
 
-The possible filters are the same as with the [Role massadd command](#cmd-role-massadd).
+The possible filters can be found below.
 
 ## Possible filters for role mass actions {#role-filters}
 
@@ -50,5 +52,17 @@ Using the `filter` option, you can change which members will receive the role:
 - Only bots (`bot`)
 - Only humans (`nobot`)
 - Only members which currently have a role (enter the role ID only as filter)
+- `-joined=<Relative time>`
+- `-created=<Relative time>`
+- `-role=<Role ID>`
+- `-notrole=<Role ID>`
+- `-username=<Text>`
+- `-username-ignorecase=<Text>`
+- `-usernameincludes=<Text>`
+- `-usernameincludes-ignorecase=<Text>`
+- `-nickname=<Text>`
+- `-nickname-ignorecase=<Text>`
+- `-nicknameincludes=<Text>`
+- `-nicknameincludes-ignorecase=<Text>`
 
 If no filter is selected, all server members are affected.
