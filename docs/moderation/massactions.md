@@ -35,7 +35,7 @@ If the [setting for automatic dehoisting](./settings#auto-dehoist) is enabled, t
 
 Adds a role to all server members.
 
-The possible filters can be found below.
+The possible filters can be found [below](#role-filters).
 
 ### Remove role from multiple members {#cmd-role-massremove}
 
@@ -43,7 +43,7 @@ The possible filters can be found below.
 
 Removes a role from all server members.
 
-The possible filters can be found below.
+The possible filters can be found [below](#role-filters).
 
 ## Possible filters for role mass actions {#role-filters}
 

@@ -24,6 +24,7 @@ All of these features are available for free!
 		- Disabling invite links from other servers
 		- Disabling markdown headers
 		- [… and more!](/moderation/settings)
+- [Reporting direct messages](/dm-report)
 - [Feeds](/feed/feeds)
 	- RSS/Atom
 	- New Minecraft vanilla and PaperMC versions

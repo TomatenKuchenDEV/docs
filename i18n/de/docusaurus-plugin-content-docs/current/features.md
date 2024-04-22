@@ -24,6 +24,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 		- Deaktivieren von Discordeinladungen anderer Server
 		- Deaktivieren von Markdown-Headern
 		- [… und mehr!](/moderation/settings)
+- [Direktnachrichten melden](/dm-reports)
 - [Feeds](/feed/feeds)
 	- RSS/Atom
 	- neue Minecraft-Vanilla- und Paper-Versionen
