@@ -12,9 +12,9 @@ Most [action functions](/category/action-functions) can be used here.
 
 The channel name stats are automatically updated every **10 minutes**.
 
-## Stats on the bot website and `stats` command {#website-command}
+## Stats on the website and the `stats` command {#website-command}
 
-Example: [Vanilla Minigames statistics](https://tomatenkuchen.com/stats?guild=608640398595719170)
+Example of statistics on the bot website: [Vanilla Minigames statistics](https://tomatenkuchen.com/stats?guild=608640398595719170)
 
 TomatenKuchen collects daily statistics of your server. These include:
 - Member count

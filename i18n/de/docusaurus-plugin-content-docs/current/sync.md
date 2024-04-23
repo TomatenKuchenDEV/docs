@@ -5,7 +5,7 @@ description: Der Bot kann auch Logs und Bans sowie Unbans über mehrere Server h
 
 ## Einrichtung allgemein {#setup}
 
-Die Server-ID erhältst du entweder über den Entwicklermodus von Discord, durch den `server`-Befehl oder aus der Dashboard-URL.
+Die Server-ID erhältst du entweder über den Entwicklermodus von Discord, durch den `server`-Befehl oder aus der URL der [Servereinstellungsseite](https://tomatenkuchen.com/dashboard/settings) im Dashboard.
 
 Wenn du den Befehl mit der Server-ID eingegeben hast erhältst du einen Code, den du dann bei `sync verify <Code>` auf dem anderen Server eingeben musst.
 Ab diesem Monat werden die Logs des ersten Servers auf den zweiten gesendet.
@@ -26,6 +26,6 @@ Auch Bans bzw. Unbans lassen sich mithilfe des Bots synchronisieren. Im Gegensat
 
 <Command name="sync bans" slash="guild:Server-ID bans:True|False unbans:True|False" message="<Server-ID> <Bans synchronisieren: true|false> <Unbans synchronisieren: true|false>"></Command>
 
-Bans bzw. Unbans synchronisieren stellt ein, ob Nutzer gebannt bzw. entbannt werden sollen.
+Die Option Bans bzw. Unbans synchronisieren stellt ein, ob Nutzer gebannt bzw. entbannt werden sollen.
 
-Wenn du z. B. nur Bans synchronisieren willst, wähle bei Unbans "False" aus.
+Wenn du z. B. nur Bans synchronisieren willst, wähle bei Bans "True" und bei Unbans "False" aus.

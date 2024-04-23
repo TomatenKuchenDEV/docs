@@ -10,6 +10,8 @@ Autoupdate ("automatisch updatende Nachrichten") steht für Nachrichten, die sic
 
 ## Mögliche Parameter {#vars}
 
+Alle Variablen ignorieren die Groß- und Kleinschreibung.
+
 - `{members}`: Zeigt die Mitgliederanzahl
 - `{members.humans}`: Nicht-Botanzahl
 - `{members.bots}`: Botanzahl

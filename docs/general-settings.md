@@ -47,7 +47,7 @@ All users with these selected roles have access to all pages of the dashboard.
 
 Note that the server owner and members with the "Administrator" permission always have access.
 
-:::warning Manage Server permission
+:::warning Default access
 
 As soon as you select one or more roles here, all server members who only have the "Manage Server" permission and none of the selected roles will lose access.
 

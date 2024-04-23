@@ -12,15 +12,15 @@ Hier können die meisten [Aktions-Funktionen](/category/action-functions) verwen
 
 Die Kanalnamens-Statistiken werden automatisch alle **10 Minuten** aktualisiert.
 
-## Statistiken auf der Botwebsite und `stats`-Befehl {#website-command}
+## Statistiken auf der Website und `stats`-Befehl {#website-command}
 
-Beispiel: [Vanilla Minigames Statistiken](https://tomatenkuchen.com/stats?guild=608640398595719170)
+Beispiel von Statistiken auf der Botwebsite: [Vanilla Minigames Statistiken](https://tomatenkuchen.com/stats?guild=608640398595719170)
 
 Der Bot sammelt täglich Statistiken über Server. Dazu gehören:
 - Mitgliederanzahl
 - Boostanzahl
 - von Nutzern gesendete Nachrichten
-- Anzahl aktiver Chatter (wie viele Nutzer an dem Tag eine Nachricht gesendet haben)
+- Anzahl aktiver Chatter (wie viele verschiedene Nutzer an dem Tag eine Nachricht gesendet haben)
 
 Die beiden letzten werden nur gesammelt, wenn die [Sichtbarkeit](#visibility) auf "Public" gesetzt ist.
 

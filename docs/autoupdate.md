@@ -10,6 +10,8 @@ Autoupdate ("automatically updating messages") are messages which auto update **
 
 ## Possible arguments {#vars}
 
+All variables ignore the name casing.
+
 - `{members}`: Member count
 - `{members.humans}`: Non bot count
 - `{members.bots}`: Bot count

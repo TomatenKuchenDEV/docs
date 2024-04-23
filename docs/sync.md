@@ -5,7 +5,7 @@ description: The bot can also sync logs and bans, as well as unbans, across mult
 
 ## General setup {#setup}
 
-You can obtain the server ID either through Discord's developer mode, by using the `server` command, or from the dashboard URL.
+You can obtain the server ID either through Discord's developer mode, by using the `server` command, or from the URL on the [server settings page](https://tomatenkuchen.com/dashboard/settings) in the dashboard.
 
 Once you've used the command with the server ID, you will receive a code that you have to enter on the other server using `sync verify <Code>`.
 From that point on, the logs received from the first server will be sent to the second server.
@@ -28,4 +28,4 @@ Bans and unbans can also be synced using the bot. Unlike logs, bans can be synce
 
 The `bans` and `unbans` options control whether users should be banned and unbanned, respectively.
 
-For example, if you only want to sync new bans, choose "False" for unbans.
+For example, if you only want to sync new bans, choose "True" for bans and "False" for unbans.

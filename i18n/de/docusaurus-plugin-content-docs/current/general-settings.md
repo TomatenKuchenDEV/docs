@@ -47,7 +47,7 @@ Alle Nutzer mit den hier ausgewählten Rollen haben Zugriff auf alle Seiten des 
 
 Beachte, dass der Serverbesitzer sowie Mitglieder mit der "Administrator"-Berechtigung immer Zugriff haben.
 
-:::warning Server-verwalten-Berechtigung
+:::warning Standardmäßiger Zugriff
 
 Sobald du hier eine oder mehrere Rollen ausgewählt hast wird Servermitgliedern, welche nur die Berechtigung "Server verwalten" und keine der ausgewählten Rollen besitzen, der Zugriff entzogen.
 
