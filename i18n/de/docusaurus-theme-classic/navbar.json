@@ -18,5 +18,9 @@
   "item.label.Support server": {
     "message": "Supportserver",
     "description": "Navbar item with label Support server"
+  },
+  "item.label.Message editor": {
+    "message": "Nachrichteneditor",
+    "description": "Navbar item with label Message editor"
   }
 }

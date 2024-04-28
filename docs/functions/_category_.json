@@ -3,6 +3,7 @@
 	"label": "Action functions",
 	"link": {
 		"type": "generated-index",
-		"title": "Functions that can be used by actions, e.g. in integrations"
+		"title": "Action functions",
+		"description": "The functions are ordered into different categories. They can be used in TomatenKuchen integrations and Manage Bot statusupdate messages."
 	}
 }

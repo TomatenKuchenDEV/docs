@@ -1,6 +1,6 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Aktuell",
     "description": "The label for version current"
   },
   "sidebar.docs.category.Custom bot": {
@@ -8,8 +8,12 @@
     "description": "The label for category Custom bot in sidebar docs"
   },
   "sidebar.docs.category.Custom bot.link.generated-index.title": {
-    "message": "Eine Sammlung von Erklärungen für die TomatenKuchen Custom Bots (Custom Branding/White-Label)",
+    "message": "Custom-Bot-Informationen",
     "description": "The generated-index page title for category Custom bot in sidebar docs"
+  },
+  "sidebar.docs.category.Custom bot.link.generated-index.description": {
+    "message": "A collection of explanations for TomatenKuchen Custom bots (White-label/Custom branding)",
+    "description": "The generated-index page description for category Custom bot in sidebar docs"
   },
   "sidebar.docs.category.Manage Bot": {
     "message": "Manage Bot",
@@ -19,36 +23,68 @@
     "message": "Manage-Bot-Hilfe",
     "description": "The generated-index page title for category Manage Bot in sidebar docs"
   },
+  "sidebar.docs.category.Manage Bot.link.generated-index.description": {
+    "message": "Informationen über den Manage Bot, ein Bot, der dir die Kontrolle deines Pterodactyl-Servers von Discord aus erlaubt.",
+    "description": "The generated-index page description for category Manage Bot in sidebar docs"
+  },
   "sidebar.docs.category.Action functions": {
-    "message": "Aktions-Funktionen",
+    "message": "Aktionsfunktionen",
     "description": "The label for category Action functions in sidebar docs"
   },
   "sidebar.docs.category.Action functions.link.generated-index.title": {
-    "message": "Funktionen, die von Aktionen verwendet werden können, z. B. in Integrationen",
+    "message": "Aktionsfunktionen",
     "description": "The generated-index page title for category Action functions in sidebar docs"
+  },
+  "sidebar.docs.category.Action functions.link.generated-index.description": {
+    "message": "The functions are ordered into different categories. They can be used in TomatenKuchen integrations and Manage Bot statusupdate messages.",
+    "description": "The generated-index page description for category Action functions in sidebar docs"
   },
   "sidebar.docs.category.Moderation": {
     "message": "Moderation",
     "description": "The label for category Moderation in sidebar docs"
   },
   "sidebar.docs.category.Moderation.link.generated-index.title": {
-    "message": "Liste von Moderationsbefehlen und anderen Tools, um deinen Server sauber zu halten.",
+    "message": "Moderationsbefehle und -Tools",
     "description": "The generated-index page title for category Moderation in sidebar docs"
+  },
+  "sidebar.docs.category.Moderation.link.generated-index.description": {
+    "message": "Listet Moderationsbefehle und andere Tools, die dir beim Sauberhalten deines Servers helfen. Dieser Bereich enthält auch die AutoMod-Konfiguration und andere hilfreiche Einstellungen.",
+    "description": "The generated-index page description for category Moderation in sidebar docs"
   },
   "sidebar.docs.category.Tickets": {
     "message": "Tickets",
     "description": "The label for category Tickets in sidebar docs"
   },
   "sidebar.docs.category.Tickets.link.generated-index.title": {
-    "message": "Liste von Ticket-Features und -Befehlen, die dir helfen, die Anliegen von Nutzern einfach zu beantworten.",
+    "message": "Funktionen und Befehle des Ticketsystems",
     "description": "The generated-index page title for category Tickets in sidebar docs"
+  },
+  "sidebar.docs.category.Tickets.link.generated-index.description": {
+    "message": "Liste von Ticketfunktionen, -befehlen und -einstellungen, welche dem Serverteam erlauben, die Fragen deiner Mitglieder einfach zu beantworten.",
+    "description": "The generated-index page description for category Tickets in sidebar docs"
   },
   "sidebar.docs.category.AI in TomatenKuchen": {
     "message": "KI in TomatenKuchen",
     "description": "The label for category AI in TomatenKuchen in sidebar docs"
   },
   "sidebar.docs.category.AI in TomatenKuchen.link.generated-index.title": {
-    "message": "Funktionen, welche Künstliche Intelligenz (KI bzw. AI) oder maschinelles Lernen verwenden",
+    "message": "Funktionen, welche KI oder ML verwenden",
     "description": "The generated-index page title for category AI in TomatenKuchen in sidebar docs"
+  },
+  "sidebar.docs.category.AI in TomatenKuchen.link.generated-index.description": {
+    "message": "Get help with using features of the bot which use Artificial Intelligence (AI) or Machine Learning (ML).",
+    "description": "The generated-index page description for category AI in TomatenKuchen in sidebar docs"
+  },
+  "sidebar.docs.category.Feeds": {
+    "message": "Feeds",
+    "description": "The label for category Feeds in sidebar docs"
+  },
+  "sidebar.docs.category.Feeds.link.generated-index.title": {
+    "message": "Feeds",
+    "description": "The generated-index page title for category Feeds in sidebar docs"
+  },
+  "sidebar.docs.category.Feeds.link.generated-index.description": {
+    "message": "Feeds erlauben dir, eine vollständig konfigurierbare Nachricht in einen Discord-Kanal zu senden, wenn sich etwas von dir konfiguriertes ändert, z. B. ein neues Video auf einem YouTube-Kanal hochgeladen wird.",
+    "description": "The generated-index page description for category Feeds in sidebar docs"
   }
 }

@@ -121,15 +121,18 @@ const config = {
 					label: "Support server",
 					href: "https://tomatenkuchen.com/discord"
 				},{
+					label: "Message editor",
+					href: "https://embed.tomatenkuchen.com"
+				},{
 					type: "localeDropdown",
 					position: "right",
 					dropdownItemsAfter: [
 						{
 							href: "https://translate.tomatenkuchen.com/engage/tomatenkuchen",
-							label: "Help us translate the bot"
+							label: "Bot & website translation"
 						},{
 							href: "https://github.com/DEVTomatoCake/tk-docs",
-							label: "Help us translate the docs"
+							label: "Docs translation"
 						}
 					]
 				}
