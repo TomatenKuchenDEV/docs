@@ -1,12 +1,12 @@
 ---
 title: Customrollen
 description: Customrollen erlauben Servermitgliedern, sich eine eigene Rolle zu erstellen und diese nach Belieben zu verwalten.
-image: /img/customrole_info.png
+image: /img/customrole_info.webp
 ---
 
 Mit Customrollen kannst du deinen Mitgliedern erlauben, sich eine eigene Rolle zu erstellen. Davon können sie den Namen, die Farbe und das Rollenicon (wenn durch Boostlevel freigeschaltet) ändern.
 
-![Customrollen-Info](/img/customrole_info.png)
+![Customrollen-Info](/img/customrole_info.webp)
 
 ## Befehle {#commands}
 

@@ -1,11 +1,12 @@
 ---
 title: Customcommands
 description: The Manage Bot allows you to control Pterodactyl servers using Discord. This page explains how to create and use custom commands.
+image: /img/managebot_ccadd.webp
 ---
 
 The Manage Bot allows you to create customcommands to manage a server.
 
-![Filled in Discord slash command to create customcommands, in this case to whitelist a player on a Minecraft server](/img/managebot_ccadd.png)
+![Filled in Discord slash command to create customcommands, in this case to whitelist a player on a Minecraft server](/img/managebot_ccadd.webp)
 
 ## Commands {#commands}
 

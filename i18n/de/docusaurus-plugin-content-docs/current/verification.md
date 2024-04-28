@@ -1,12 +1,12 @@
 ---
 title: Verifikation
 description: Einrichten und Verwendung der Verifikation zur Vermeidigung von Join- und Raidbots.
-image: /img/verification_website.png
+image: /img/verification_website.webp
 ---
 
 Die Verifikation kann verwendet werden, um potentielle Bots am Beitreten auf den Server zu hindern. Du kannst zwischen verschiedenen Modi wählen, die zur Verifikation verwendet werden.
 
-![Website-Verifikations-Beispiel](/img/verification_website.png)
+![Website-Verifikations-Beispiel](/img/verification_website.webp)
 
 ## Verifikationsnachrichtenbefehl {#commands}
 

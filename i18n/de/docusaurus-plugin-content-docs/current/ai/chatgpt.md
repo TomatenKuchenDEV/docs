@@ -1,7 +1,7 @@
 ---
 title: ChatGPT
 description: Diese Docs-Seite erklärt die vielfältigen ChatGPT-Funktionen.
-image: /img/chatgpt.png
+image: /img/chatgpt.webp
 ---
 
 :::tip
@@ -10,7 +10,7 @@ Die Verwendung aller KI-Befehle ist kostenlos!
 
 :::
 
-![ChatGPT-Befehl, die KI antwortet mit einem definitiv wahren Fakt](/img/chatgpt.png)
+![ChatGPT-Befehl, die KI antwortet mit einem definitiv wahren Fakt](/img/chatgpt.webp)
 
 ## Befehl {#commands}
 

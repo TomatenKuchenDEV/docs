@@ -1,12 +1,12 @@
 ---
 title: Customroles
 description: Customroles allow server members to create their own role and modify it to their liking.
-image: /img/customrole_info.png
+image: /img/customrole_info.webp
 ---
 
 Using customroles you can allow your users to create their own role. They can change it's name, color and role icon (if unlocked through boost level).
 
-![Customrole info](/img/customrole_info.png)
+![Customrole info](/img/customrole_info.webp)
 
 ## Commands {#commands}
 

@@ -1,12 +1,12 @@
 ---
 title: Formulare
 description: Mit den Onlineformularen kannst du z. B. Entbannungsanträge oder Bewerbungsformulare erstellen.
-image: /img/forms_example.png
+image: /img/forms_de.webp
 ---
 
 Mit TomatenKuchen kannst du schnell und einfach Onlineformulare für alle möglichen Zwecke erstellen.
 
-![Formularbeispiel](/img/forms_example.png)
+![Formularbeispiel](/img/forms_de.webp)
 
 ## Formular erstellen {#create}
 

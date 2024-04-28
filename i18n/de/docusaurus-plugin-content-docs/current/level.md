@@ -1,7 +1,7 @@
 ---
 title: Level & Leaderboard
 description: Erklärt das Levelsystem und Leaderboards von TomatenKuchen.
-image: /img/leaderboard.png
+image: /img/leaderboard.webp
 ---
 
 ## Befehle {#commands}
@@ -13,7 +13,7 @@ Mit dem Befehl `leaderboard level` kann das Level-Leaderboard des Servers angeze
 Dieser Befehl verlinkt auch auf die Leaderboard-Website des Servers.
 Die URL wird automatisch angepasst, wenn der Server eine Vanity-URL für das Leaderboard verwendet.
 
-![Leaderboard-Befehl](/img/leaderboard.png)
+![Leaderboard-Befehl](/img/leaderboard.webp)
 
 ### Punkte eines Nutzers anzeigen {#cmd-points}
 
@@ -21,7 +21,7 @@ Der Befehl `rank` zeigt die aktuellen Punkte und den Level-Fortschritt eines Nut
 
 Der Bildhintergrund kann mithilfe des Befehls `usersettings` angepasst werden.
 
-![Rank-Befehl](/img/rank.png)
+![Rank-Befehl](/img/rank.webp)
 
 ## Für ein Level benötigte Punkte {#cmd-required-points}
 

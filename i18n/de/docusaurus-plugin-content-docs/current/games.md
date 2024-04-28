@@ -1,7 +1,7 @@
 ---
 title: Spiele
 description: Der Bot hat viele Spiele für Einzel- und Mehrspieler, z. B. Snake, Uno! und Vier gewinnt.
-image: /img/game_snake.png
+image: /img/game_snake.webp
 ---
 
 ### Schere Stein Papier {#rock-paper-scissors}
@@ -34,7 +34,7 @@ Spiele Vier gewinnt gegen einen anderen Spieler.
 
 <Command name="game snake"></Command>
 
-![Aktives Snake-Spiel auf Discord, mit Buttons zur Steuerung der Schlange](/img/game_snake.png)
+![Aktives Snake-Spiel auf Discord, mit Buttons zur Steuerung der Schlange](/img/game_snake.webp)
 
 ### Uno {#uno}
 
@@ -48,7 +48,7 @@ Gibt dir eine zufällige Chemiegleichung, die mithilfe von Faktoren ausgeglichen
 
 <Command name="game chemistry" slash="[difficulty:leicht|mittel|schwer]" message="[leicht|mittel|schwer]"></Command>
 
-![Der Chemie-Befehl mit einer zufälligen Gleichung](/img/game_chemie.png)
+![Der Chemie-Befehl mit einer zufälligen Gleichung](/img/game_chemistry.webp)
 
 ### Wordsearch {#wordsearch}
 

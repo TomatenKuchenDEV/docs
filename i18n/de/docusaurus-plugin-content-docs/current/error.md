@@ -1,7 +1,7 @@
 ---
 title: Fehler des Bots
 description: Erklärt, was bei einem Fehler zu tun ist.
-image: /img/logs_overview.png
+image: /img/logs_overview.webp
 ---
 
 Du hast einen Fehler entdeckt, z. B. eine "Es ist ein Fehler bei der Ausführung des Befehls `…` aufgetreten"-Nachricht erhalten oder etwas funktioniert nicht wie erwartet?
@@ -19,7 +19,7 @@ Zu diesen Informationen gehört die Log-ID, die Fehlerzusammenfassung auf Englis
 
 Logs, welche das letzte mal vor drei oder mehr Tagen aufgetreten sind, können gelöscht werden.
 
-![Logübersicht](/img/logs_overview.png)
+![Logübersicht](/img/logs_overview.webp)
 
 :::tip Support-Server
 

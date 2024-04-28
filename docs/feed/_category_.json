@@ -5,6 +5,6 @@
 		"type": "generated-index",
 		"title": "Be the first to know when something changes using e.g. RSS, YouTube or Twitch feeds",
 		"description": "Feeds allow you to send a fully customizable message to Discord channel when something you configured to changes, e.g. a new video is uploaded to a YouTube channel.",
-		"image": "/img/feed_example.png"
+		"image": "/img/feed_example.webp"
 	}
 }

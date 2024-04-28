@@ -1,12 +1,12 @@
 ---
 title: Autoupdate
 description: Erklärt sich automatisch aktualisierende Nachrichten und listet mögliche Parameter auf.
-image: /img/autoupdate_example.png
+image: /img/autoupdate.webp
 ---
 
 Autoupdate ("automatisch updatende Nachrichten") steht für Nachrichten, die sich **alle 10 Minuten** automatisch aktualisieren. Damit können z. B. Statistiken als Nachricht oder ein Geburtstagskalender realisiert werden.
 
-![Autoupdate-Beispiel](/img/autoupdate_example.png)
+![Autoupdate-Beispielnachricht, welche das Serverleaderboard, abwesende Nutzer und Geburtstage anzeigt](/img/autoupdate.webp)
 
 ## Mögliche Parameter {#vars}
 

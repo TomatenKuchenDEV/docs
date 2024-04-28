@@ -1,12 +1,12 @@
 ---
 title: RSS and Atom feeds
 description: Explains how to use RSS, Atom and Minecraft version feeds.
-image: /img/feed_example.png
+image: /img/feed_example.webp
 ---
 
 This page will help you to setup RSS and other feeds using TomatenKuchen.
 
-![Discord status feed](/img/feed_example.png)
+![Discord status feed](/img/feed_rss.webp)
 
 ## RSS/Atom feeds {#rss}
 
@@ -16,8 +16,6 @@ The bot will then automatically post new entries to the channel you selected.
 Feeds are checked for new content every 10 minutes.
 
 ### Default configuration {#default}
-
-![Default RSS feed configuration](/img/rss_feeds_default.png)
 
 - `{author}`: The author of the post, if any
 - `{title}`: The title of the post

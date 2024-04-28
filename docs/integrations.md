@@ -1,7 +1,7 @@
 ---
 title: Integrations
 description: This page explains the basic setup of integrations, the better version of customcommands.
-image: /img/integration_weather.png
+image: /img/integration_weather.webp
 ---
 
 :::info Function list
@@ -114,7 +114,7 @@ These integrations were created by our team or are verified by them.
 - [Automatic translation of messages in a channel](https://tomatenkuchen.com/dashboard/integrations?info=autotranslate), shows the usage of several [functions for limiting the action execution](/functions/control)
 - [Translation of messages on reaction](https://tomatenkuchen.com/dashboard/integrations?info=flag-reaction-translate)
 
-![Weather integration example](/img/integration_weather.png)
+![Weather integration example](/img/integration_weather.webp)
 
 You can find a list of all public integrations in the [dashboard](https://tomatenkuchen.com/dashboard/integrations).
 

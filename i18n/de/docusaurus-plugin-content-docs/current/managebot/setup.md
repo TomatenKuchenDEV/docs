@@ -1,13 +1,14 @@
 ---
 title: Einrichtung / Funktionen
 description: Der Manage Bot erlaubt die Kontrolle von Pterodactyl-Servern von Discord aus. Diese Seite erklärt, wie du den Bot einrichten und verwenden kannst.
+image: /img/managebot_manage.webp
 ---
 
 Mit dem Manage Bot kannst du deine Pterodactyl (https://pterodactyl.io)-Server von Discord aus verwalten.
 
 ## Einrichtung {#setup}
 
-![Setup-Befehl auf Discord inklusive Syntax](/img/managebot_setup.png)
+![Setup-Befehl auf Discord inklusive Syntax](/img/managebot_setup.webp)
 
 `/setup <Panel-URL> <API-Key> [<Alias-Name>]`
 
@@ -18,15 +19,15 @@ Wenn kein Alias angegeben wird generiert der Bot automatisch einen.
 
 ## `/manage` verwenden {#manage}
 
-![Autocomplete, welches beim Verwenden des manage-Befehls angezeigt wird, nachdem ein Panel erfolgreich eingerichtet wurde](/img/managebot_manageautocomplete.png)
+![Autocomplete, welches beim Verwenden des manage-Befehls angezeigt wird, nachdem ein Panel erfolgreich eingerichtet wurde](/img/managebot_autocomplete.webp)
 
-![Discord-Nachricht mit einem Embed mit Informationen über den Server, z. B. Status, RAM-Verbrauch und Uptime, und Buttons zur Steuerung](/img/managebot_manage.png)
+![Discord-Nachricht mit einem Embed mit Informationen über den Server, z. B. Status, RAM-Verbrauch und Uptime, und Buttons zur Steuerung](/img/managebot_manage.webp)
 
 ### Schnelle Aktionen {#quick-actions}
 
 Der Bot kann auch schnelle Aktionen auf dem Server ausführen:
 
-![Ausgabe, wenn die Aktion "Ein Backup erstellen" ausgeführt wird](/img/managebot_quickactions.png)
+![Ausgabe, wenn die Aktion "Ein Backup erstellen" ausgeführt wird](/img/managebot_quickaction_backup.webp)
 
 Aktuell werden folgende Aktionen unterstützt:
 - Ein Backup erstellen

@@ -1,7 +1,7 @@
 ---
 title: Errors from the bot
 description: Here you can find information about errors and logs.
-image: /img/logs_overview.png
+image: /img/logs_overview.webp
 ---
 
 You've encountered an error, e.g. a "An error occurred while executing the command `…`" message or something doesn't work as expected?
@@ -19,7 +19,7 @@ This information includes the log ID, the error summary, the number of errors an
 
 Logs that occurred last three or more days ago can be deleted.
 
-![Logs overview](/img/logs_overview.png)
+![Logs overview](/img/logs_overview.webp)
 
 :::tip Support server
 

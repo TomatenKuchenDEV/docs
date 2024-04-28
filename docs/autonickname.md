@@ -1,14 +1,14 @@
 ---
 title: Automatic role-based nicknames
 description: Get help with setting up automated role-based nicknames.
-image: /img/autonick.png
+image: /img/autonick.webp
 ---
 
 TomatenKuchen can change the nicknames of users based on their roles.
 
 ## Settings {#settings}
 
-![Example setup of the auto nick feature](/img/autonick.png)
+![Example setup of the auto nick feature](/img/autonick.webp)
 
 ### Role abbreviations {#roles}
 

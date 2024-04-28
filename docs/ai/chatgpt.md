@@ -1,7 +1,7 @@
 ---
 title: ChatGPT
 description: This docs page explains the ChatGPT commands.
-image: /img/chatgpt.png
+image: /img/chatgpt.webp
 ---
 
 :::tip
@@ -10,7 +10,7 @@ All AI commands can be used for free!
 
 :::
 
-![ChatGPT command, the AI responding with a very true fact](/img/chatgpt.png)
+![ChatGPT command, the AI responding with a very true fact](/img/chatgpt.webp)
 
 ## Command {#commands}
 

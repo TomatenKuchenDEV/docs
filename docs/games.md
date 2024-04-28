@@ -1,7 +1,7 @@
 ---
 title: Games
 description: The bot has many games available for both single and multi player to play, e.g. snake, Uno! and Connect Four.
-image: /img/game_snake.png
+image: /img/game_snake.webp
 ---
 
 ### Rock paper scissors {#rock-paper-scissors}
@@ -34,7 +34,7 @@ Play Connect Four against a user.
 
 <Command name="game snake"></Command>
 
-![Currently running snake game on Discord, with buttons to control the snake](/img/game_snake.png)
+![Currently running snake game on Discord, with buttons to control the snake](/img/game_snake.webp)
 
 ### Uno {#uno}
 
@@ -48,7 +48,7 @@ Gives you a random chemistry equation that must be balanced using factors.
 
 <Command name="game chemistry" slash="[difficulty:easy|normal|hard]" message="[easy|normal|hard]"></Command>
 
-![Chemistry command with a random equation](/img/game_chemie.png)
+![Chemistry command with a random equation](/img/game_chemistry.webp)
 
 ### Wordsearch {#wordsearch}
 

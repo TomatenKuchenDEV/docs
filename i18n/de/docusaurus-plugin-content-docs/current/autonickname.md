@@ -1,14 +1,14 @@
 ---
 title: Automatische rollenbasierte Nicknamen
 description: Hilft beim Einrichten der rollenbasierten Nicknamen.
-image: /img/autonick.png
+image: /img/autonick.webp
 ---
 
 TomatenKuchen kann den Nicknamen von Nutzern basierend auf Rollen des Nutzers anpassen.
 
 ## Einstellungen {#settings}
 
-![Beispielsetup der Autonick-Funktion](/img/autonick.png)
+![Beispielsetup der Autonick-Funktion](/img/autonick.webp)
 
 ### Rollenabkürzungen {#roles}
 

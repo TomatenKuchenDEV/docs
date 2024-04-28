@@ -1,12 +1,12 @@
 ---
 title: RSS- & Atom-Feeds
 description: Erklärt, wie RSS-, Atom- und Minecraft-Versionen-Feeds verwendet werden können.
-image: /img/feed_example.png
+image: /img/feed_rss.webp
 ---
 
 Diese Seite wird dir beim Einrichten von Feeds mit TomatenKuchen helfen.
 
-![Feed vom Discord-Status](/img/feed_example.png)
+![Feed vom Discord-Status](/img/feed_rss.webp)
 
 ## RSS-/Atom-Feeds {#rss}
 
@@ -16,8 +16,6 @@ Der Bot wird dann automatisch neue Feedinhalte in den festgelegten Kanal senden.
 Feeds werden alle zehn Minuten nach neuen Inhalten durchsucht.
 
 ### Standardkonfiguration {#default}
-
-![Standard-RSS-Feed-Konfiguration](/img/rss_feeds_default.png)
 
 - `{author}`: Der Autor des Posts, wenn vorhanden
 - `{title}`: Der Titel des Posts, wenn vorhanden

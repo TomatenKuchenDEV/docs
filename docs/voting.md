@@ -1,12 +1,12 @@
 ---
 title: Vote announcements
 description: Vote announcements allow you to track votes for your Discord server or bot - easily send a fully customizable message or add a role to the user for a custom time.
-image: /img/voteannouncements.png
+image: /img/voteannouncements.webp
 ---
 
 By using the vote announcements you can send a custom message once someone votes for your server or bot.
 
-![Vote announcements](/img/voteannouncements.png)
+![Vote announcements](/img/voteannouncements.webp)
 
 ## Commands {#commands}
 

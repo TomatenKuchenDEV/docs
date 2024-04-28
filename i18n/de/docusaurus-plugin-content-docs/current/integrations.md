@@ -1,7 +1,7 @@
 ---
 title: Integrationen
 description: Diese Seite erklärt die Verwendung von Integrationen, die nächste Version von Customcommands.
-image: /img/integration_weather.png
+image: /img/integration_weather.webp
 ---
 
 :::info Funktionsliste
@@ -114,7 +114,7 @@ Diese Integrationen wurden von unserem Team erstellt oder von diesem verifiziert
 - [Automatische Übersetzung von Nachrichten in einem Kanal](https://tomatenkuchen.com/dashboard/integrations?info=autotranslate), zeigt die Verwendung verschiedener [Funktionen zur Aktionseinschränkung](/functions/control)
 - [Übersetzung von Nachrichten bei Reaktion](https://tomatenkuchen.com/dashboard/integrations?info=flag-reaction-translate)
 
-![Wetter-Integration-Beispiel](/img/integration_weather.png)
+![Wetter-Integration-Beispiel](/img/integration_weather.webp)
 
 Du findest eine Liste aller öffentlichen Integrationen im [Dashboard](https://tomatenkuchen.com/dashboard/integrations).
 

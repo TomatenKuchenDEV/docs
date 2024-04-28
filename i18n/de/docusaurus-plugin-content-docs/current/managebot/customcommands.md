@@ -5,7 +5,7 @@ description: Der Manage Bot erlaubt die Kontrolle von Pterodactyl-Servern von Di
 
 Der Manage Bot erlaubt die Verwendung von Customcommands zur Verwaltung eines Servers.
 
-![Ausgefüllter Discord-Slashcommand zum Erstellen von Customcommands, in diesem Fall zum Whitelisten eines Spielers auf einem Minecraft-Server](/img/managebot_ccadd.png)
+![Ausgefüllter Discord-Slashcommand zum Erstellen von Customcommands, in diesem Fall zum Whitelisten eines Spielers auf einem Minecraft-Server](/img/managebot_ccadd.webp)
 
 ## Befehle {#commands}
 

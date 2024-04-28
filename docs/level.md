@@ -1,7 +1,7 @@
 ---
 title: Level & Leaderboard
 description: Explains the leaderboard and the level system of the bot.
-image: /img/leaderboard.png
+image: /img/leaderboard.webp
 ---
 
 ## Commands {#commands}
@@ -13,7 +13,7 @@ The command `leaderboard level` shows the level leaderboard of the server.
 This command also links to the leaderboard website of the server.
 The URL automatically changes if the server has a vanity URL set.
 
-![Leaderboard command](/img/leaderboard.png)
+![Leaderboard command](/img/leaderboard.webp)
 
 ### Displays points of a user {#cmd-points}
 
@@ -21,7 +21,7 @@ The command `rank` shows the current points and the level progress of a user.
 
 The image background can be changed using the command `usersettings`.
 
-![Rank command](/img/rank.png)
+![Rank command](/img/rank.webp)
 
 ## Number of points needed for a level {#cmd-required-points}
 

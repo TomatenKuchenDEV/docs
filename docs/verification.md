@@ -1,12 +1,12 @@
 ---
 title: Verification
 description: Setup and usage of verification to prevent bots from joining and raiding your Discord server.
-image: /img/verification_website.png
+image: /img/verification_website.webp
 ---
 
 Verification can be used to prevent bots from joining the server. You can choose from multiple verification modes to use.
 
-![Website verification example](/img/verification_website.png)
+![Website verification example](/img/verification_website.webp)
 
 ## Verification message command {#commands}
 

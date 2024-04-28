@@ -1,7 +1,7 @@
 ---
 title: DM reporting/Message verification
 description: By using the DM reporting feature you are able to easily verify the existence and the exact content of a message sent in a DM, which is mainly useful when reporting DM advertisers.
-image: /img/dm-report.png
+image: /img/dmreport.webp
 ---
 
 The DM reporting feature allows you to easily verify the existence and the content of a message which was sent in a direct/private message (DM) or a group DM channel (GDM).
@@ -10,7 +10,7 @@ This feature doesn't need any setup from server staff, instead, it works right o
 
 The main idea is being able to verifiably report real messages from scammers or DM advertisers.
 
-![A reported message using the DM report command](/img/dm-report.png)
+![A reported message using the DM report command](/img/dmreport.webp)
 
 ## Usage {#usage}
 

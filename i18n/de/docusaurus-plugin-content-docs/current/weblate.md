@@ -9,7 +9,7 @@ Jeder Nutzer kann sich dort einen Account erstellen und neue Sprachen hinzufüge
 
 Vorschläge können auch nicht angemeldete Nutzer erstellen, jedoch können diese dann keine Belohnung erhalten.
 
-[![Übersetzungsstatus](https://translate.tomatenkuchen.com/widget/tk/multi-auto.svg)](https://translate.tomatenkuchen.com/engage/tk/)
+[![Übersetzungsstatus von Weblate](https://translate.tomatenkuchen.com/widget/tk/multi-auto.svg)](https://translate.tomatenkuchen.com/engage/tk/)
 
 ## Sprachen {#langs}
 

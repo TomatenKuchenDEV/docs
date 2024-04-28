@@ -1,14 +1,14 @@
 ---
 title: Starboard
 description: Starboard allows your server members to react with an emoji to a message and save it forever in a special channel.
-image: /img/starboard.png
+image: /img/starboard.webp
 ---
 
 Using the starboard members can save funny or otherwise interesting messages forever: Every user on the server can react with the set emoji onto a message.
 
 Once the set amount of "stars" is reached, the message is sent to the starboard channel.
 
-![Starboard message](/img/starboard.png)
+![Starboard message](/img/starboard.webp)
 
 Messages on the starboard also show images and replies.
 Images are stored outside of Discord to allow displaying them even if the original source image was deleted.

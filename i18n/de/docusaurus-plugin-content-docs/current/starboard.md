@@ -1,14 +1,14 @@
 ---
 title: Starboard
 description: Das Starboard erlaubt deinen Mitgliedern, Nachrichten durch eine Reaktion mit einem einstellbaren Emoji in einen einzigartigen Kanal für immer aufheben zu lassen.
-image: /img/starboard.png
+image: /img/starboard.webp
 ---
 
 Mit dem Starboard können lustige oder anderweitig interessante Nachrichten für die Ewigkeit gespeichert werden: Jeder Nutzer auf dem Server kann auf eine Nachricht mit dem festgelegten Emoji reagieren.
 
 Sobald die festgelegte Mindestanzahl an "Sternen" überschritten wurde, wird die Nachricht in den Starboard-Kanal gesendet.
 
-![Starboard-Nachricht](/img/starboard.png)
+![Starboard-Nachricht](/img/starboard.webp)
 
 Nachrichten auf dem Starboard zeigen auch Bilder und Antworten an.
 Bilder werden abseits von Discord gespeichert, um diese auch nach dem Löschen von einer externen Quelle noch darstellen zu können.

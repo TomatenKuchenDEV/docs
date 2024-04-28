@@ -9,7 +9,7 @@ Every user can create an account on there and add new languages, translate exist
 
 Suggestions can be made by non-logged in users too, but they cannot receive a gift for translating.
 
-[![Translation status](https://translate.tomatenkuchen.com/widget/tk/multi-auto.svg)](https://translate.tomatenkuchen.com/engage/tk/)
+[![Translation status from Weblate](https://translate.tomatenkuchen.com/widget/tk/multi-auto.svg)](https://translate.tomatenkuchen.com/engage/tk/)
 
 ## Languages {#langs}
 

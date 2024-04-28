@@ -1,13 +1,14 @@
 ---
 title: Setup / Features
 description: The Manage Bot allows you to control Pterodactyl servers using Discord. This page explains how to set up and use the bot.
+image: /img/managebot_manage.webp
 ---
 
 With this bot, you can manage your Pterodactyl (https://pterodactyl.io) panel servers from Discord.
 
 ## Setup {#setup}
 
-![Setup command on Discord including the syntax](/img/managebot_setup.png)
+![Setup command on Discord including the syntax](/img/managebot_setup.webp)
 
 `/setup <Panel url> <API key> [<Alias name>]`
 
@@ -18,15 +19,15 @@ If you don't provide an alias, the bot will auto-generate one for you.
 
 ## How to use (`/manage`) {#manage}
 
-![Autocomplete shown when using the manage command after setting up a panel](/img/managebot_manageautocomplete.png)
+![Autocomplete shown when using the manage command after setting up a panel](/img/managebot_autocomplete.webp)
 
-![Discord message with an embed including information about the server, e.g. its status, memory usage and uptime, and buttons to control it](/img/managebot_manage.png)
+![Discord message with an embed including information about the server, e.g. its status, memory usage and uptime, and buttons to control it](/img/managebot_manage.webp)
 
 ### Quick actions {#quick-actions}
 
 The bot also supports running quick actions on the server:
 
-![Output when using the "Create a backup" action](/img/managebot_quickactions.png)
+![Output when using the "Create a backup" action](/img/managebot_quickaction_backup.webp)
 
 Currently, the following actions are supported:
 - Create a backup

@@ -1,12 +1,12 @@
 ---
 title: Forms
 description: Using the online forms you can create for example ban appeals or staff applications.
-image: /img/forms_example.png
+image: /img/forms_de.webp
 ---
 
 Using TomatenKuchen you can create online forms for all kind of purposes fast and easy.
 
-![Forms example](/img/forms_example.png)
+![Forms example](/img/forms_de.webp)
 
 ## Creating a form {#create}
 
