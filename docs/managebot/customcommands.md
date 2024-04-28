@@ -5,41 +5,41 @@ description: The Manage Bot allows you to control Pterodactyl servers using Disc
 
 The Manage Bot allows you to create customcommands to manage a server.
 
-![Note: The command has been renamed in the meantime.](/img/managebot_ccadd.png)
+![Filled in Discord slash command to create customcommands, in this case to whitelist a player on a Minecraft server](/img/managebot_ccadd.png)
 
-## Commands
+## Commands {#commands}
 
-### `/customcommand add <Name> <Panel alias> <Server ID> <Command> [<Response>]`
+### `/customcommand add <Name> <Panel alias> <Server ID> <Command> [<Response>]` {#cc-add}
 
 Creates a customcommand on the server, linked to your panel access data.
 
 You can find the panel alias using `/list`.
 If no response is set the bot will reply with "The command was run in panel …: …"
 
-### `/customcommand delete <Name>`
+### `/customcommand delete <Name>` {#cc-delete}
 
 Deletes a customcommand.
 
-### `/customcommand list`
+### `/customcommand list` {#cc-list}
 
 Lists all customcommands of the server.
 
-## Variables
+## Variables {#vars}
 
 - `{args}`: A list of all arguments
 - `{1}` `{2}` `{3}`: The first three arguments, optional
 - `{!1}` `{!2}` `{!3}`: The first three arguments, required
 
-## Examples
+## Examples {#examples}
 
-### Start a server
+### Start a server {#server-start}
 
 - `command`: `start`
 - `response`: `The server is being started!`
 
 You can also use `stop`, `restart`, and `kill`.
 
-### Minecraft whitelist
+### Minecraft whitelist {#minecraft-whitelist}
 
 - `command`: `whitelist add {!1}`
 - `response`: `The player **{1}** has been whitelisted!`

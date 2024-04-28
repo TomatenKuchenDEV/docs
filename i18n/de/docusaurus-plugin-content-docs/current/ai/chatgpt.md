@@ -1,6 +1,7 @@
 ---
 title: ChatGPT
 description: Diese Docs-Seite erklärt die vielfältigen ChatGPT-Funktionen.
+image: /img/chatgpt.png
 ---
 
 :::tip
@@ -8,6 +9,8 @@ description: Diese Docs-Seite erklärt die vielfältigen ChatGPT-Funktionen.
 Die Verwendung aller KI-Befehle ist kostenlos!
 
 :::
+
+![ChatGPT-Befehl, die KI antwortet mit einem definitiv wahren Fakt](/img/chatgpt.png)
 
 ## Befehl {#commands}
 

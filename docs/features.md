@@ -28,7 +28,7 @@ All of these features are available for free!
 - [Feeds](/feed/feeds)
 	- RSS/Atom
 	- New Minecraft vanilla and PaperMC versions
-	- [YouTube videos, shorts, and livestreams](/feed/youtube)
+	- [YouTube videos, shorts, and livestreams](/feed/youtube#feeds)
 	- [Twitch livestreams](/feed/twitch)
 	- [Minecraft server status](/mcupdate)
 	- Bluesky posts
@@ -102,8 +102,8 @@ All of these features are available for free!
 	- HTTP status codes and HTTP headers
 	- Cloudflare status codes
 	- Discord permissions
-	- a [YouTube channel including search](/youtube#command)
-	- a [Twitch streamer](/twitch#commands)
+	- a [YouTube channel including search](/feed/youtube#command)
+	- a [Twitch streamer](/feed/twitch#commands)
 	- banned and muted users of the server
 	- movies, series, and actors including search
 	- Discord ID/snowflake info

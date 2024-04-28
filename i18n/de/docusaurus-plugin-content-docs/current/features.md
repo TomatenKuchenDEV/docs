@@ -24,11 +24,11 @@ Alle diese Funktionen sind kostenlos verfügbar!
 		- Deaktivieren von Discordeinladungen anderer Server
 		- Deaktivieren von Markdown-Headern
 		- [… und mehr!](/moderation/settings)
-- [Direktnachrichten melden](/dm-reports)
+- [Direktnachrichten melden](/dm-report)
 - [Feeds](/feed/feeds)
 	- RSS/Atom
 	- neue Minecraft-Vanilla- und Paper-Versionen
-	- [YouTube-Videos, -Shorts und -Livestreams](/feed/youtube)
+	- [YouTube-Videos, -Shorts und -Livestreams](/feed/youtube#feeds)
 	- [Twitch-Livestreams](/feed/twitch)
 	- [Minecraft-Serverstatus](/mcupdate)
 	- Bluesky-Posts
@@ -102,8 +102,8 @@ Alle diese Funktionen sind kostenlos verfügbar!
 	- HTTP-Statuscodes und -Header
 	- Cloudflare-Statuscodes
 	- Discord-Berechtigungen
-	- einen [YouTube-Kanal mit Suchfunktion](/youtube#command)
-	- einen [Twitch-Streamer](/twitch#commands)
+	- einen [YouTube-Kanal mit Suchfunktion](/feed/youtube#command)
+	- einen [Twitch-Streamer](/feed/twitch#commands)
 	- gebannte und gemutete Nutzer des Servers
 	- Filme, Serien und Schauspieler mit Suchfunktion
 	- Discord-Snowflakes

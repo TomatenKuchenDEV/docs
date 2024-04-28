@@ -3,6 +3,7 @@
 	"label": "Moderation",
 	"link": {
 		"type": "generated-index",
-		"title": "Lists moderation commands and other tools for keeping your server clean."
+		"title": "Moderation commands and tools",
+		"description": "Lists moderation commands and other tools for keeping your server clean. This also includes the AutoMod configuration and other helpful settings."
 	}
 }

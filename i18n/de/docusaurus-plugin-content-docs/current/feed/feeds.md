@@ -12,11 +12,12 @@ Diese Seite wird dir beim Einrichten von Feeds mit TomatenKuchen helfen.
 
 Der Bot unterstützt alle Arten von RSS- und Atom-Feeds. Du kannst einen Feed erstellen, indem du den "Add"-Button im Dashboard nutzt und die Feed-URL einfügst.
 Der Bot wird dann automatisch neue Feedinhalte in den festgelegten Kanal senden.
+
 Feeds werden alle zehn Minuten nach neuen Inhalten durchsucht.
 
 ### Standardkonfiguration {#default}
 
-![](/img/rss_feeds_default.png)
+![Standard-RSS-Feed-Konfiguration](/img/rss_feeds_default.png)
 
 - `{author}`: Der Autor des Posts, wenn vorhanden
 - `{title}`: Der Titel des Posts, wenn vorhanden

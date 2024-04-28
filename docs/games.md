@@ -34,11 +34,11 @@ Play Connect Four against a user.
 
 <Command name="game snake"></Command>
 
-![](/img/game_snake.png)
+![Currently running snake game on Discord, with buttons to control the snake](/img/game_snake.png)
 
 ### Uno {#uno}
 
-Play Uno with other users.
+Play the quite popular card game with other users.
 
 <Command name="game uno" message="[-punish-cards=<Punishment cards on forgotten Uno>]"></Command>
 
@@ -48,7 +48,7 @@ Gives you a random chemistry equation that must be balanced using factors.
 
 <Command name="game chemistry" slash="[difficulty:easy|normal|hard]" message="[easy|normal|hard]"></Command>
 
-![](/img/game_chemie.png)
+![Chemistry command with a random equation](/img/game_chemie.png)
 
 ### Wordsearch {#wordsearch}
 

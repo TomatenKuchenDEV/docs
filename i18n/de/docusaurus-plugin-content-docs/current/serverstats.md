@@ -5,7 +5,7 @@ description: Die Serverstatistiken von TomatenKuchen erlauben dir, die Aktivitä
 
 ## Statistiken in Kanalnamen {#channel-name}
 
-![](https://tomatenkuchen.com/assets/images/stats.webp)
+![Discord-Sprachkanäle, welche die konfigurierten Informationen des Servers im Namen anzeigen](https://tomatenkuchen.com/assets/images/stats.webp)
 
 Du kannst die Kanäle, in denen Statistiken angezeigt werden, und wie sie angezeigt werden, in den [Einstellungen](https://tomatenkuchen.com/dashboard/settings#statsChannelFormat) einstellen.
 Hier können die meisten [Aktions-Funktionen](/category/action-functions) verwendet werden.

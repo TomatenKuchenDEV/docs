@@ -12,11 +12,12 @@ This page will help you to setup RSS and other feeds using TomatenKuchen.
 
 The bot supports all types of RSS and atom feeds. You can add a new feed by creating the "Add" button in the dashboard and filling in the feed url.
 The bot will then automatically post new entries to the channel you selected.
+
 Feeds are checked for new content every 10 minutes.
 
 ### Default configuration {#default}
 
-![](/img/rss_feeds_default.png)
+![Default RSS feed configuration](/img/rss_feeds_default.png)
 
 - `{author}`: The author of the post, if any
 - `{title}`: The title of the post

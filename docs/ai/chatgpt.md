@@ -1,6 +1,7 @@
 ---
 title: ChatGPT
 description: This docs page explains the ChatGPT commands.
+image: /img/chatgpt.png
 ---
 
 :::tip
@@ -8,6 +9,8 @@ description: This docs page explains the ChatGPT commands.
 All AI commands can be used for free!
 
 :::
+
+![ChatGPT command, the AI responding with a very true fact](/img/chatgpt.png)
 
 ## Command {#commands}
 

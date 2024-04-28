@@ -4,6 +4,11 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+      day: "saturday"
+      time: "05:00"
+      timezone: "Europe/Berlin"
+    assignees:
+      - "DEVTomatoCake"
     groups:
       docusaurus:
         patterns:

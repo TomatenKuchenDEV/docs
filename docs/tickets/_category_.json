@@ -3,6 +3,7 @@
 	"label": "Tickets",
 	"link": {
 		"type": "generated-index",
-		"title": "List of ticket features and commands that allow you to answer your members questions easily."
+		"title": "Features and commands of the ticket system",
+		"description": "List of ticket features, commands and settings that allow server staff to answer your members questions easily."
 	}
 }

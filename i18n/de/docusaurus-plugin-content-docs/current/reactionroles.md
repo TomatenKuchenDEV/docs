@@ -4,7 +4,7 @@ description: Reaction-, Button- und Selectroles, auch bekannt als Selfroles, erl
 image: /img/button_selectrole.png
 ---
 
-![](/img/de_add_reactionrole.png)
+![Setupdialog, wenn eine Reaction-, Button- oder Selectrole im Dashboard erstellt wird](/img/de_add_reactionrole.png)
 
 Um Reactionroles zu verwalten brauchst du die Berechtigung "Server verwalten".
 
@@ -12,7 +12,7 @@ Zum Erstellen, Bearbeiten und Löschen von Reaction-, Button- und Selectroles ka
 
 ## Erstellen {#create}
 
-Um eine Reactionrole zu erstellen, drücke auf den Button "Reactionrole erstellen".
+Um eine Reactionrole zu erstellen, drücke auf den Button "Reaction-, Button- oder Selectrole erstellen".
 
 Du kannst dort dann den Kanal auswählen und, ob deine neue Rolle zu einer vorhandenen Nachricht vom Bot hinzugefügt werden soll oder ob der Bot eine neue senden soll.
 
@@ -37,4 +37,4 @@ Unterstützt bis zu 25 Rollen pro Nachricht.
 
 Unterstützt bis zu 125 Rollen (25 pro Selectmenü) pro Nachricht.
 
-![](/img/button_selectrole.png)
+![Beispielanwendung von Button- und Selectroles zur Auswahl von Benachrichtungsrollen](/img/button_selectrole.png)

@@ -5,7 +5,7 @@ description: The server stats of TomatenKuchen allow you to monitor the activity
 
 ## Stats in channel names {#channel-name}
 
-![](https://tomatenkuchen.com/assets/images/stats.webp)
+![Discord voice channels displaying configured information of the server in their name](https://tomatenkuchen.com/assets/images/stats.webp)
 
 You can set the channels in which and how the statistics are displayed in the [settings](https://tomatenkuchen.com/dashboard/settings#statsChannelFormat).
 Most [action functions](/category/action-functions) can be used here.

@@ -4,7 +4,7 @@ description: Reaction-, button- and selectroles, also known as selfroles, allow 
 image: /img/button_selectrole.png
 ---
 
-![](/img/de_add_reactionrole.png)
+![Setup dialog when creating a reaction, button or select role in the dashboard](/img/de_add_reactionrole.png)
 
 To manage reactionroles, you need the permission "Manage Guild".
 
@@ -12,7 +12,7 @@ To create, edit and delete reaction, button and select roles, you can use our [r
 
 ## Create {#create}
 
-To create a reactionrole, click on the button "Create reactionrole".
+To create a reactionrole, click on the button "Create reaction, button or select roles".
 
 You can then select the channel and whether your new role should be added to an existing message from the bot or whether the bot should send a new one.
 
@@ -36,4 +36,4 @@ Similar to a buttonrole, but supports the simultaneous addition and removal of m
 
 Up to 125 roles per message (25 per select menu) are supported.
 
-![](/img/button_selectrole.png)
+![Example usage of button and select roles to choose notification roles](/img/button_selectrole.png)

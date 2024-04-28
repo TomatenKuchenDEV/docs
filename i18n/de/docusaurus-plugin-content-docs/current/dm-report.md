@@ -1,6 +1,7 @@
 ---
 title: PN melden/Nachrichtenverifikation
 description: Indem du die PN-melden-Funktion verwendest hast du die Möglichkeit, einfach die Existenz und den exakten Inhalt einer Nachricht zu verifizieren, welche in einer Direktnachricht gesendet wurde. Das ist besonders beim Melden von PN-Werbenden nützlich.
+image: /img/dm-report.png
 ---
 
 Die PN-melden-Funktion erlaubt dir, problemlos die Existenz und den Inhalt einer Nachricht zu verifizieren, welche in einer Direkt-/Privatnachricht (PN) oder einer Gruppen-PN (GDM) gesendet wurde.
@@ -8,6 +9,8 @@ Die PN-melden-Funktion erlaubt dir, problemlos die Existenz und den Inhalt einer
 Dieses Feature benötigt keinerlei Einrichtung seitens der Serveradministration, stattdessen funktioniert es einfach mit einer Einrichtungsanleitung für Nutzer.
 
 Die Hauptidee ist, dass reale Nachrichten von Scammern oder PN-Werbenden verifiziert gemeldet werden können.
+
+![Eine mit dem PN-melde-Befehl gemeldete Nachricht](/img/dm-report.png)
 
 ## Verwendung {#usage}
 

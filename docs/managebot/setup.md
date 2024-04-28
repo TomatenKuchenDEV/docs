@@ -1,32 +1,38 @@
 ---
-title: Setup
+title: Setup / Features
 description: The Manage Bot allows you to control Pterodactyl servers using Discord. This page explains how to set up and use the bot.
 ---
 
 With this bot, you can manage your Pterodactyl (https://pterodactyl.io) panel servers from Discord.
 
-## Setup
+## Setup {#setup}
 
-![](/img/managebot_setup.png)
-
-To set up the bot, use the following command:
+![Setup command on Discord including the syntax](/img/managebot_setup.png)
 
 `/setup <Panel url> <API key> [<Alias name>]`
 
 The bot supports both HTTP and HTTPS panels. Just make sure that panels using HTTPS require a valid certificate. If you don't have a valid certificate, use HTTP without SSL.
 
-An "alias" refers to a single panel. With aliases, you can use multiple Pterodactyl panels at the same time. If you don't provide an alias, the bot will auto-generate one for you.
+An "alias" refers to a single panel. With aliases, you can use multiple Pterodactyl panels at the same time.
+If you don't provide an alias, the bot will auto-generate one for you.
 
-## How to use (`/manage`)
+## How to use (`/manage`) {#manage}
 
-![](/img/managebot_manageautocomplete.png)
+![Autocomplete shown when using the manage command after setting up a panel](/img/managebot_manageautocomplete.png)
 
-![](/img/managebot_manage.png)
+![Discord message with an embed including information about the server, e.g. its status, memory usage and uptime, and buttons to control it](/img/managebot_manage.png)
+
+### Quick actions {#quick-actions}
 
 The bot also supports running quick actions on the server:
 
-![](/img/managebot_quickactions.png)
+![Output when using the "Create a backup" action](/img/managebot_quickactions.png)
 
-## `/console` and `/command`
+Currently, the following actions are supported:
+- Create a backup
+- Show all backups of the server, including a one-time download link
+- Delayed server restart (after 20 seconds)
+
+## `/console` and `/command` {#console-command}
 
 These commands can be used to view the server console and run commands on a server. Note that the server must be online in order to execute commands on it.

@@ -3,6 +3,8 @@
 	"label": "AI in TomatenKuchen",
 	"link": {
 		"type": "generated-index",
-		"title": "Features which use Artificial Intelligence (AI) or Machine Learning (ML)"
+		"title": "Features using AI or ML",
+		"description": "Get help with using features of the bot which use Artificial Intelligence (AI) or Machine Learning (ML).",
+		"image": "/img/chatgpt.png"
 	}
 }

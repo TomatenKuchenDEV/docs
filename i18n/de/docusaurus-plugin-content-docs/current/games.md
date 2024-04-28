@@ -34,11 +34,11 @@ Spiele Vier gewinnt gegen einen anderen Spieler.
 
 <Command name="game snake"></Command>
 
-![](/img/game_snake.png)
+![Aktives Snake-Spiel auf Discord, mit Buttons zur Steuerung der Schlange](/img/game_snake.png)
 
 ### Uno {#uno}
 
-Spielt Uno mit anderen Nutzern.
+Spiele das ziemlich bekannte Kartenspiel mit anderen Nutzern.
 
 <Command name="game uno" message="[-punish-cards=<Strafkarten bei vergessenem Uno>]"></Command>
 
@@ -48,7 +48,7 @@ Gibt dir eine zufällige Chemiegleichung, die mithilfe von Faktoren ausgeglichen
 
 <Command name="game chemistry" slash="[difficulty:leicht|mittel|schwer]" message="[leicht|mittel|schwer]"></Command>
 
-![](/img/game_chemie.png)
+![Der Chemie-Befehl mit einer zufälligen Gleichung](/img/game_chemie.png)
 
 ### Wordsearch {#wordsearch}
 
