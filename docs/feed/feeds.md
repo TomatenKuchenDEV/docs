@@ -53,4 +53,4 @@ Using the Bluesky feeds you can let the bot send a message once a user posts som
 
 To do that, you have to enter the handle of the account: `username`
 
-If the user isn't registered on the bsky.app server, you additionally have to enter the server domain: `<!--email_off-->username@example.com<!--/email_off-->`
+If the user isn't registered on the bsky.app server, you additionally have to enter the server domain: `username@example.com`

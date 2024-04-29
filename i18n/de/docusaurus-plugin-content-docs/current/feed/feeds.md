@@ -53,4 +53,4 @@ Mit den Bluesky-Feeds kann eine Nachricht gesendet werden, sobald ein Nutzer etw
 
 Dafür muss der Handle des Accounts eingegeben werden: `nutzername`
 
-Wenn der Nutzer nicht auf dem bsky.app-Server registriert ist muss zusätzlich die Serverdomain angegeben werden: `<!--email_off-->nutzername@example.com<!--/email_off-->`
+Wenn der Nutzer nicht auf dem bsky.app-Server registriert ist muss zusätzlich die Serverdomain angegeben werden: `nutzername@example.com`
