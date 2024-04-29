@@ -1,11 +1,12 @@
 ---
 title: Serverstatistiken
-description: Die Serverstatistiken von TomatenKuchen erlauben dir, die Aktivität deines Discord-Servers zu beobachten. Der Bot sammelt die Mitglieder- und Boostanzahl und Aktivität bezogen auf Nachrichten.
+description: TomatenKuchen-Serverstatistiken erlauben dir, die Aktivität deines Discord-Servers zu beobachten. Dazu gehört z. B. die Mitglieder- und Nachrichtenanzahl.
+image: /img/stats.webp
 ---
 
 ## Statistiken in Kanalnamen {#channel-name}
 
-![Discord-Sprachkanäle, welche die konfigurierten Informationen des Servers im Namen anzeigen](https://tomatenkuchen.com/assets/images/stats.webp)
+![Discord-Sprachkanäle, welche die konfigurierten Informationen des Servers im Namen anzeigen](/img/stats.webp)
 
 Du kannst die Kanäle, in denen Statistiken angezeigt werden, und wie sie angezeigt werden, in den [Einstellungen](https://tomatenkuchen.com/dashboard/settings#statsChannelFormat) einstellen.
 Hier können die meisten [Aktionsfunktionen](/category/action-functions) verwendet werden.

@@ -1,2 +1,5 @@
 User-agent: *
 Disallow:
+
+Sitemap: https://docs.tomatenkuchen.com/sitemap.xml
+Sitemap: https://docs.tomatenkuchen.com/de/sitemap.xml

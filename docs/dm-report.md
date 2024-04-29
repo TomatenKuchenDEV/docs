@@ -1,6 +1,6 @@
 ---
 title: DM reporting/Message verification
-description: By using the DM reporting feature you are able to easily verify the existence and the exact content of a message sent in a DM, which is mainly useful when reporting DM advertisers.
+description: The DM reporting feature allows you to easily verify the existence and the exact content of a message sent in a DM, which e.g. can be used to report DM scams.
 image: /img/dmreport.webp
 ---
 

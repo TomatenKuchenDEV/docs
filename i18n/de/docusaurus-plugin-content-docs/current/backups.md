@@ -1,6 +1,6 @@
 ---
 title: Backups und Vorlagen
-description: Backups erlauben dir, schnell einen gegrieften Server wiederherzustellen. Mit Templates kannst du einfach andere veröffentlichte Serverdesigns auf einen vorhandenen Server übernehmen.
+description: Backups erlauben dir, einen zerstörten Server wiederherzustellen. Mit Templates kannst du veröffentlichte Servervorlagen auf existierenden Servern anwenden.
 ---
 
 ## Backups {#backups}

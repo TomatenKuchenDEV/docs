@@ -1,6 +1,6 @@
 ---
 title: Statusupdate
-description: Der Manage Bot erlaubt die Kontrolle von Pterodactyl-Servern von Discord aus. Diese Seite erklärt das automatische Anzeigen von Server- und Nodestatistiken als Nachricht.
+description: Der Manage Bot erlaubt die Kontrolle von Pterodactyl-Servern von Discord aus. Mit der Statusupdate-Funktion lassen sich Serverstatus als Nachricht anzeigen.
 ---
 
 Der Manage Bot kann mithilfe der Statusupdate-Funktion den Status, die Konfiguration und den aktuellen Verbrauch eines bzw. mehrerer Server oder Nodes anzeigen.

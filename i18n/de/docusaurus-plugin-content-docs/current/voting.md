@@ -1,6 +1,6 @@
 ---
 title: Vote-Announcements
-description: Vote-Announcements erlauben dir, Votes für deinen Discord-Server oder -Bot zu sammeln - sende einfach eine vollständig konfigurierbare Nachricht oder füge dem Nutzer eine Rolle für eine benutzerdefinierte Zeit hinzu.
+description: Mit Vote-Announcements kannst du Nutzer fürs Voten für Server/Bots belohnen - sende z. B. eine eigene Nachricht und füge dem Nutzer eine temporäre Rolle hinzu.
 image: /img/voteannouncements.webp
 ---
 

@@ -1,11 +1,12 @@
 ---
 title: Server statistics
 description: The server stats of TomatenKuchen allow you to monitor the activity of your Discord server. The bot tracks member count, boosts and activity related to messages.
+image: /img/stats.webp
 ---
 
 ## Stats in channel names {#channel-name}
 
-![Discord voice channels displaying configured information of the server in their name](https://tomatenkuchen.com/assets/images/stats.webp)
+![Discord voice channels displaying configured information of the server in their name](/img/stats.webp)
 
 You can set the channels in which and how the statistics are displayed in the [settings](https://tomatenkuchen.com/dashboard/settings#statsChannelFormat).
 Most [action functions](/category/action-functions) can be used here.

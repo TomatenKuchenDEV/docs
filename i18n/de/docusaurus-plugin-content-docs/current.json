@@ -48,7 +48,7 @@
     "description": "The generated-index page title for category Moderation in sidebar docs"
   },
   "sidebar.docs.category.Moderation.link.generated-index.description": {
-    "message": "Listet Moderationsbefehle und andere Tools, die dir beim Sauberhalten deines Servers helfen. Dieser Bereich enthält auch die AutoMod-Konfiguration und andere hilfreiche Einstellungen.",
+    "message": "Listet Moderationsbefehle und Tools, die dir beim Sauberhalten deines Servers helfen. Hier findest du auch die AutoMod-Konfiguration und andere Einstellungen.",
     "description": "The generated-index page description for category Moderation in sidebar docs"
   },
   "sidebar.docs.category.Tickets": {
@@ -84,7 +84,7 @@
     "description": "The generated-index page title for category Feeds in sidebar docs"
   },
   "sidebar.docs.category.Feeds.link.generated-index.description": {
-    "message": "Feeds erlauben dir, eine vollständig konfigurierbare Nachricht in einen Discord-Kanal zu senden, wenn sich etwas von dir konfiguriertes ändert, z. B. ein neues Video auf einem YouTube-Kanal hochgeladen wird.",
+    "message": "Mit Feeds kannst du eine einstellbare Nachricht senden, wenn z. B. ein neues Video auf YouTube hochgeladen oder ein RSS-Feed aktualisiert wird.",
     "description": "The generated-index page description for category Feeds in sidebar docs"
   }
 }

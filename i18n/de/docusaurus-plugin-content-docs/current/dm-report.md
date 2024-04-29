@@ -1,6 +1,6 @@
 ---
 title: PN melden/Nachrichtenverifikation
-description: Indem du die PN-melden-Funktion verwendest hast du die Möglichkeit, einfach die Existenz und den exakten Inhalt einer Nachricht zu verifizieren, welche in einer Direktnachricht gesendet wurde. Das ist besonders beim Melden von PN-Werbenden nützlich.
+description: Mit der PN-melden-Funktion hast du die Möglichkeit, Existenz und Inhalt einer Direktnachricht zu verifizieren. Das ist z. B. beim Melden von Scams nützlich.
 image: /img/dmreport.webp
 ---
 
