@@ -111,7 +111,7 @@ Diese Integrationen wurden von unserem Team erstellt oder von diesem verifiziert
 - [Wetterinfo eines Ortes anzeigen](https://tomatenkuchen.com/dashboard/integrations?info=weather), zeigt die Verwendung von `{jsonAPI}` und Argumenten
 - [Vote-Reminder für TomatenKuchen](https://tomatenkuchen.com/dashboard/integrations?info=vote-reminder)
 - [Zufälligen Comic von xkcd.com anzeigen](https://tomatenkuchen.com/dashboard/integrations?info=xkcd)
-- [Automatische Übersetzung von Nachrichten in einem Kanal](https://tomatenkuchen.com/dashboard/integrations?info=autotranslate), zeigt die Verwendung verschiedener [Funktionen zur Aktionseinschränkung](/functions/control)
+- [Automatische Übersetzung von Nachrichten in einem Kanal](https://tomatenkuchen.com/dashboard/integrations?info=autotranslate), zeigt die Verwendung verschiedener [Funktionen zur Aktionseinschränkung](/action-functions/control)
 - [Übersetzung von Nachrichten bei Reaktion](https://tomatenkuchen.com/dashboard/integrations?info=flag-reaction-translate)
 
 ![Wetter-Integration-Beispiel](/img/integration_weather.webp)

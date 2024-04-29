@@ -21,7 +21,7 @@ const config = {
 			{
 				name: "integration-functions",
 				baseURL: "https://api.tomatenkuchen.com/integration-docs/",
-				outDir: "docs/functions",
+				outDir: "docs/action-functions",
 				// From https://api.tomatenkuchen.com/integration-docs
 				files: ["args.md","math.md","mention.md","vars.md","string.md","time.md","condition.md","control.md","member.md","guild.md","stats.md","message.md","misc.md","moderation.md","channel.md","response.md","level.md","embed.md","components.md","managebot.md"]
 			}

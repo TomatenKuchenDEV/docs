@@ -111,7 +111,7 @@ These integrations were created by our team or are verified by them.
 - [Display weather info](https://tomatenkuchen.com/dashboard/integrations?info=weather), shows the usage of `{jsonAPI}` and arguments
 - [Vote reminder for TomatenKuchen](https://tomatenkuchen.com/dashboard/integrations?info=vote-reminder)
 - [Display a random comic from xkcd.com](https://tomatenkuchen.com/dashboard/integrations?info=xkcd)
-- [Automatic translation of messages in a channel](https://tomatenkuchen.com/dashboard/integrations?info=autotranslate), shows the usage of several [functions for limiting the action execution](/functions/control)
+- [Automatic translation of messages in a channel](https://tomatenkuchen.com/dashboard/integrations?info=autotranslate), shows the usage of several [functions for limiting the action execution](/action-functions/control)
 - [Translation of messages on reaction](https://tomatenkuchen.com/dashboard/integrations?info=flag-reaction-translate)
 
 ![Weather integration example](/img/integration_weather.webp)
