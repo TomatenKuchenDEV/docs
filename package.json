@@ -6,7 +6,7 @@
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "start-de": "docusaurus start --locale=de",
-    "build": "cat build/functions/math.html && docusaurus build && cat build/functions/math.html",
+    "build": "docusaurus build && cat build/functions/math.html",
     "swizzle": "docusaurus swizzle",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations ./ --locale=de"
