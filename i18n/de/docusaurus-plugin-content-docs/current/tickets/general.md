@@ -15,7 +15,7 @@ Die restlichen Felder beziehen sich auf die Nachricht, welche bei einem neuen Ti
 
 ## Ticket-Claiming {#claiming}
 
-Siehe [Claiming](./claiming).
+Siehe die [Claiming](./claiming)-Docsseite.
 
 ## Automatisches Speichern von Anhängen in Tickets {#attachment-storing}
 
@@ -104,3 +104,7 @@ Alternativ kann auch ein Nutzer mit einer [Manage-Rolle](#manage-roles) ein neue
 Mit dieser Einstellung können bestimmte Rollen vom Erstellen eines Tickets ausgeschlossen werden.
 
 Auch hier können Nutzer mit einer Manage-Rolle ein Ticket für diese erstellen.
+
+### Bestätigung beim Schließen und Löschen {#require-close-delete-confirm}
+
+Diese [Einstellungen](https://tomatenkuchen.com/dashboard/settings#ticketRequireCloseConfirm) stellen ein, ob Nutzer das Schließen/Löschen eines Tickets durch einen Buttonklick bestätigen müssen, anders als das standardmäßige sofortige Schließen/Löschen.

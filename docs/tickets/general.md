@@ -15,7 +15,7 @@ The remaining fields are used for the message sent when creating a new ticket, f
 
 ## Ticket claiming {#claiming}
 
-Please refer to [Claiming](./claiming).
+Please refer to the [Claiming](./claiming) docs page.
 
 ## Saving of attachments in tickets {#attachment-storing}
 
@@ -106,3 +106,7 @@ Alternatively a user with a [Manage role](#manage-roles) is able to create a new
 Using this setting, specified roles can be excluded from creating a ticket.
 
 Again, users with a manage role are able to create a ticket for them.
+
+### Require confirmation on close and delete {#require-close-delete-confirm}
+
+These [settings](https://tomatenkuchen.com/dashboard/settings#ticketRequireCloseConfirm) toggle whether users have to confirm the closing/deletion of a ticket by clicking another button, opposed to closing/deleting instantly which is the default.
