@@ -25,6 +25,8 @@ All of these features are available for free!
 		- Disabling markdown headers
 		- [… and more!](/moderation/settings)
 - [Reporting direct messages](/dm-report)
+- [Partnerships](/partnerships)
+- [Thread time actions](/thread-time-action)
 - [Feeds](/feed/feeds)
 	- RSS/Atom
 	- New Minecraft vanilla and PaperMC versions

@@ -25,6 +25,8 @@ Alle diese Funktionen sind kostenlos verfügbar!
 		- Deaktivieren von Markdown-Headern
 		- [… und mehr!](/moderation/settings)
 - [Direktnachrichten melden](/dm-report)
+- [Partnerschaften](/partnerships)
+- [Thread-Zeit-Aktionen](/thread-time-action)
 - [Feeds](/feed/feeds)
 	- RSS/Atom
 	- neue Minecraft-Vanilla- und Paper-Versionen

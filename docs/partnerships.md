@@ -1,6 +1,6 @@
 ---
 title: Partnerships
-description: Verwalte Partnerschaften mit anderen Servern und Diensten problemlos, und erhalte Statistiken über Affiliate- und Partnermanager.
+description: Easily manage partnerships with other servers and services, and view statistics of affiliate and partner managers.
 ---
 
 ## Commands {#commands}
