@@ -13,5 +13,5 @@ Multiple actions can be defined for a single channel, however only one per actio
 - `lock`: Locks the thread, making non-moderators unable to e.g. send messages or add reactions.
 - `closelock`: Close and locks the thread.
 - `delete`: Deletes the thread after the configured time.
-- `addLabel:<List of labels separated by ",">`: Adds the given label(s). Only works if the channel is a forum/media channel. Note that you have to specify the [tag ID](/botsetup#id), not the name.
+- `addLabel:<List of labels separated by ",">`: Adds the given label(s). Only works if the channel is a forum/media channel. Note that you have to specify the [tag ID](/#id), not the name.
 - `removeLabel:<List of labels separated by ",">`: Removes the given label(s). See above.
