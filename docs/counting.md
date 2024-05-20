@@ -1,7 +1,7 @@
 ---
 title: Counting
 description: Explains the counting system
-image: /img/countingleaderboard.webp
+image: /img/leaderboard_counting.webp
 ---
 
 Using the counting system, members can count together on your server with others.
@@ -12,7 +12,7 @@ Using the counting system, members can count together on your server with others
 
 `leaderboard counting` shows the counting leaderboard of the server. It lists the amount of successful counts per member overall and of the current run.
 
-![/leaderboard counting](/img/countingleaderboard.webp)
+![/leaderboard counting](/img/leaderboard_counting.webp)
 
 You can also open the link to view the full leaderboard on a website.
 

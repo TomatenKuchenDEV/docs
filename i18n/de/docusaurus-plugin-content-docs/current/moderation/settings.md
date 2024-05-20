@@ -81,9 +81,11 @@ Erzwingt einen Grund bei Moderationsaktionen.
 
 Es können Vorlagen für Moderationsgründe erstellt werden, um mit einem Shortcut einen längeren Grund schnell und einfach verwenden zu können.
 
+![Zwei Beispielvorlagen für Moderationsgründe](/img/moderation_reasonpresets.webp)
+
 ### Beispiel {#reason-presets-examples}
 
-- `name`: "werbung"
+- `name`: "ads"
 - `value`: "Du hast gegen unsere Regeln verstoßen: Werbung ist verboten!"
 
 <Command name="mute" slash="user:Nutzer reason:werbung" message="<Nutzer> werbung"></Command>

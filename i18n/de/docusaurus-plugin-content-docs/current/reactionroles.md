@@ -1,10 +1,10 @@
 ---
 title: Reaction-, Button- und Selectroles
 description: Reaction-, Button- und Selectroles, auch bekannt als Selfroles, erlauben Nutzern, sich selbst bestimmte Rollen zuzuweisen.
-image: /img/button_selectrole.webp
+image: /img/reactionrole_buttonexample.webp
 ---
 
-![Setupdialog, wenn eine Reaction-, Button- oder Selectrole im Dashboard erstellt wird](/img/create_reactionrole_de.webp)
+![Setupdialog, wenn eine Reaction-, Button- oder Selectrole im Dashboard erstellt wird](/img/reactionrole_create.webp)
 
 Um Reactionroles zu verwalten brauchst du die Berechtigung "Server verwalten".
 
@@ -37,4 +37,4 @@ Unterstützt bis zu 25 Rollen pro Nachricht.
 
 Unterstützt bis zu 125 Rollen (25 pro Selectmenü) pro Nachricht.
 
-![Beispielanwendung von Button- und Selectroles zur Auswahl von Benachrichtungsrollen](/img/button_selectrole.webp)
+![Beispielanwendung von Button- und Selectroles zur Auswahl von Benachrichtungsrollen](/img/reactionrole_buttonexample.webp)

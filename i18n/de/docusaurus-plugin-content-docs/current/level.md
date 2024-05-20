@@ -1,7 +1,7 @@
 ---
 title: Level & Leaderboard
 description: Erklärt das Levelsystem und Leaderboards von TomatenKuchen.
-image: /img/leaderboard.webp
+image: /img/leaderboard_level.webp
 ---
 
 ## Befehle {#commands}
@@ -13,7 +13,7 @@ Mit dem Befehl `leaderboard level` kann das Level-Leaderboard des Servers angeze
 Dieser Befehl verlinkt auch auf die Leaderboard-Website des Servers.
 Die URL wird automatisch angepasst, wenn der Server eine Vanity-URL für das Leaderboard verwendet.
 
-![Leaderboard-Befehl](/img/leaderboard.webp)
+![Leaderboard-Befehl](/img/leaderboard_level.webp)
 
 ### Punkte eines Nutzers anzeigen {#cmd-points}
 

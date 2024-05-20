@@ -1,10 +1,10 @@
 ---
 title: Reaction, button and select roles
 description: Reaction-, button- and selectroles, also known as selfroles, allow users to pick the configured roles they want to have themselve.
-image: /img/button_selectrole.webp
+image: /img/reactionrole_buttonexample.webp
 ---
 
-![Setup dialog when creating a reaction, button or select role in the dashboard](/img/create_reactionrole_de.webp)
+![Setup dialog when creating a reaction, button or select role in the dashboard](/img/reactionrole_create.webp)
 
 To manage reactionroles, you need the permission "Manage Guild".
 
@@ -36,4 +36,4 @@ Similar to a buttonrole, but supports the simultaneous addition and removal of m
 
 Up to 125 roles per message (25 per select menu) are supported.
 
-![Example usage of button and select roles to choose notification roles](/img/button_selectrole.webp)
+![Example usage of button and select roles to choose notification roles](/img/reactionrole_buttonexample.webp)

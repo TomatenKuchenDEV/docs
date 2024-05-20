@@ -1,7 +1,7 @@
 ---
 title: Level & Leaderboard
 description: Explains the leaderboard and the level system of the bot.
-image: /img/leaderboard.webp
+image: /img/leaderboard_level.webp
 ---
 
 ## Commands {#commands}
@@ -13,7 +13,7 @@ The command `leaderboard level` shows the level leaderboard of the server.
 This command also links to the leaderboard website of the server.
 The URL automatically changes if the server has a vanity URL set.
 
-![Leaderboard command](/img/leaderboard.webp)
+![Leaderboard command](/img/leaderboard_level.webp)
 
 ### Displays points of a user {#cmd-points}
 

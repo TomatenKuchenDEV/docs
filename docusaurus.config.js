@@ -1,7 +1,7 @@
 /** @type {import("@docusaurus/types").Config} */
 const config = {
 	title: "TomatenKuchen Docs",
-	favicon: "img/favicon.ico",
+	favicon: "icon/favicon.ico",
 	url: "https://docs.tomatenkuchen.com",
 	baseUrl: "/",
 	trailingSlash: false,
@@ -40,7 +40,7 @@ const config = {
 					{
 						tagName: "link",
 						rel: "icon",
-						href: "/img/icon-192x192.png"
+						href: "/icon/192x192.png"
 					},{
 						tagName: "link",
 						rel: "manifest",
@@ -60,16 +60,16 @@ const config = {
 					},{
 						tagName: "link",
 						rel: "apple-touch-icon",
-						href: "/img/icon-152x152.png"
+						href: "/icon/152x152.png"
 					},{
 						tagName: "link",
 						rel: "mask-icon",
-						href: "/img/icon-192x192.png",
+						href: "/icon/192x192.png",
 						color: "#ED8721"
 					},{
 						tagName: "meta",
 						name: "msapplication-TileImage",
-						content: "/img/icon-192x192.png"
+						content: "/icon/192x192.png"
 					},{
 						tagName: "meta",
 						name: "msapplication-TileColor",
@@ -107,7 +107,7 @@ const config = {
 			title: "TomatenKuchen Docs",
 			logo: {
 				alt: "TomatenKuchen Logo",
-				src: "img/favicon.ico"
+				src: "icon/favicon.ico"
 			},
 			hideOnScroll: true,
 			items: [

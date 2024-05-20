@@ -116,6 +116,8 @@ These integrations were created by our team or are verified by them.
 
 ![Weather integration example](/img/integration_weather.webp)
 
+![xkcd integration example](/img/integration_xkcd.webp)
+
 You can find a list of all public integrations in the [dashboard](https://tomatenkuchen.com/dashboard/integrations).
 
 ## RegEx cheatsheet {#regex-cheatsheet}

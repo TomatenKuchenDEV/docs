@@ -81,6 +81,8 @@ Requires a reason for moderation actions.
 
 You can create presets for moderation reasons to create a shortcut for longer moderation reasons.
 
+![Two example presets for moderation reasons](/img/moderation_reasonpresets.webp)
+
 ### Example {#reason-presets-examples}
 
 - `name`: `ads`

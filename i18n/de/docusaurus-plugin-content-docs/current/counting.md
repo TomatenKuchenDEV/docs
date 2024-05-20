@@ -1,7 +1,7 @@
 ---
 title: Counting / Zählen
 description: Erklärt die Einrichtung und die Verwendung vom Counting-System.
-image: /img/countingleaderboard.webp
+image: /img/leaderboard_counting.webp
 ---
 
 Mit dem Counting-System können Mitglieder auf einem Server zusammen mit anderen zählen.
@@ -12,7 +12,7 @@ Mit dem Counting-System können Mitglieder auf einem Server zusammen mit anderen
 
 `leaderboard counting` zeigt das Counting-Leaderboard des Servers an. Es zeigt an, wie viele Zahlen ein Mitglied insgesamt und im aktuellen Versuch gezählt hat.
 
-![/leaderboard counting](/img/countingleaderboard.webp)
+![/leaderboard counting](/img/leaderboard_counting.webp)
 
 Du kannst auch den Link öffnen, um das vollständige Leaderboard als Website zu sehen.
 
