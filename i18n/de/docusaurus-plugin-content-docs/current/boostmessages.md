@@ -23,14 +23,10 @@ In diesen Kanal wird eine Nachricht gesendet, wenn ein Nutzer alle seine Boosts 
 
 ## Variablen {#vars}
 
-:::tip Groß- und Kleinschreibung
-
-Die Groß- und Kleinschreibung von Variablen macht keinen Unterschied.
-
-:::
+Wie fast überall wird die Groß- und Kleinschreibung der Variablen hier ignoriert.
 
 - `{userMention}`: Erwähnung des Nutzers
-- `{username}`: Benutzername
+- `{username}`: Globaler Benutzername
 - `{displayName}`: Nickname
 - `{globalName}`: Globaler Anzeigename
 - `{boosts}`: Anzahl der Boosts auf dem Server

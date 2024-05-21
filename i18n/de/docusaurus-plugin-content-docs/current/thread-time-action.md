@@ -13,5 +13,5 @@ Mehrere Aktionen können für einen einzelnen Kanal definiert werden, jedoch nur
 - `lock`: Sperrt den Thread, damit nicht-Moderatoren u. A. die Möglichkeit verlieren, Nachrichten zu senden und Reaktionen hinzuzufügen.
 - `closelock`: Schließt und sperrt den Thread.
 - `delete`: Löscht den Thread nach der angegebenen Zeit.
-- `addLabel:<List of labels separated by ",">`: Fügt die angegebenen Label hinzu. Funktioniert nur, wenn der Kanal ein Forum- oder Medienkanal ist. Beachte, dass du die [Tag-ID](/#id), anstelle des Namens angeben musst.
+- `addLabel:<List of labels separated by ",">`: Fügt die angegebenen Label hinzu. Funktioniert nur, wenn der Kanal ein Forum- oder Medienkanal ist. Beachte, dass du die [Label-ID](/id), anstelle des Namens angeben musst.
 - `removeLabel:<List of labels separated by ",">`: Entfernt die angegebenen Label. Siehe oben.

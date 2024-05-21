@@ -23,15 +23,11 @@ The bot will send a message into this channel once a user removes all its boosts
 
 ## Variables {#vars}
 
-:::tip Casing
-
-The casing of how the variables are written doesn't matter.
-
-:::
+As almost everywhere, the casing of the variables doesn't matter.
 
 - `{userMention}`: Mention of the user
-- `{username}`: Username
-- `{displayName}`: Nickname
-- `{globalName}`: Global displayname
+- `{username}`: Global username
+- `{displayName}`: Nickname or global display name
+- `{globalName}`: Global display name
 - `{boosts}`: Amount of boosts on the server
-- `{level}`: Current boost level
+- `{level}`: Current boost level/tier

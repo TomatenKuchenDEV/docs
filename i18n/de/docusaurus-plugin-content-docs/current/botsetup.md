@@ -25,15 +25,6 @@ Die wichtigsten Einstellungen werden auf der Seite [Generelle Einstellungen](/ge
 Du findest bei jeder Einstellung einen Direktlink zu der entsprechenden Dokumentation.
 Wenn dir diese nicht weiterhilft, frage gerne auf unserem Support-Server!
 
-## Du musst eine "ID" angeben? {#id}
-
-Um eine ID zu kopieren rechtsklickst du die entsprechende Nachricht, den Nutzer, den Kanal oder den Server.
-
-Wenn es keine Option zum Kopieren der ID gibt, stelle sicher, dass du den Entwicklermodus von Discord aktiviert hast.
-Folge dazu [dem Tutorial von Discord](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-).
-
-Wenn es einen entsprechenden Botbefehl gibt kannst du auch diesen nutzen, um die ID zu erhalten, z. B. `message id`, `user`, `emoji info`, `channel info`, `role info` und `server`.
-
 ## Befehlssyntax {#syntax}
 
 Prefixbasierte Befehle werden immer mit der Syntax `Befehlsname <Erforderliches Argument> Erforderliches|Argument|mit|Auswahlmöglichkeiten [<Optionales Argument>] <...Argument, welches Leerzeichen zulässt>` angegeben.

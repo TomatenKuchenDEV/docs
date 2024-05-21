@@ -5,12 +5,12 @@ description: Display the current status of a Minecraft server in a channel name 
 
 Using this feature you can display your current Minecraft Java server status, as well as, if enabled, the list of players and some more information.
 
-You can select between the following display types:
+You can choose from the following display types:
 - Channel name
-- Channel topic (only text based channels)
+- Channel topic (for text based channels)
 - Message
 
-Channel name and topic are only updated once every five minutes due to a Discord limit, the messages usually every two minutes - this way your players are always up to date on the current status.
+Channel name and topic are only updated once every five minutes due to a Discord limit, the messages usually every two minutes - this way your players are always up to date on the current status and the online players.
 
 ## Setup {#setup}
 

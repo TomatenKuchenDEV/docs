@@ -7,10 +7,10 @@ Mit dieser Funktion kannst du jederzeit den aktuellen Minecraft-Java-Serverstatu
 
 Du kannst zwischen verschiedenen Anzeigetypen wählen:
 - Kanalname
-- Kanalthema (nur für textbasierte Kanäle)
+- Kanalthema (für textbasierte Kanäle)
 - Nachricht
 
-Kanalname und -thema werden aufgrund eines Discord-Limits nur alle fünf Minuten aktualisiert, die Nachricht im Normalfall alle zwei Minuten - so sind deine Spieler immer gut über den aktuellen Status informiert.
+Kanalname und -thema werden aufgrund eines Discord-Limits nur alle fünf Minuten aktualisiert, die Nachricht im Normalfall alle zwei Minuten - so sind deine Spieler immer gut über den aktuellen Status und die Spieler auf dem Server informiert.
 
 ## Einrichtung {#setup}
 
