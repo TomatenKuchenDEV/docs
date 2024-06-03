@@ -5,6 +5,6 @@ description: Mithilfe der Datenexport-Funktion kannst du sehen, welche Daten der
 
 Weil uns Transparenz wichtig ist hat der Bot eine Funktion, um ganz einfach alle über den aktuell angemeldeten Nutzer gespeicherten Daten zu sehen.
 
-Besuche für den Datenexport einfach https://tomatenkuchen.com/dashboard/dataexport - dort findest du eine übersichtliche Einteilung der Daten in Kategorien.
+Besuche für den Datenexport einfach https://tomatenkuchen.com/dashboard/dataexport.
 
 Ganz am Ende der Seite findest du die unverarbeitete JSON-Datei, welche noch mehr Informationen enthält und maschinell verarbeitet werden kann.

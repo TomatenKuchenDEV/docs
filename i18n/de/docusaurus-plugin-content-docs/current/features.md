@@ -28,30 +28,30 @@ Alle diese Funktionen sind kostenlos verfügbar!
 - [Partnerschaften](/partnerships)
 - [Thread-Zeit-Aktionen](/thread-time-action)
 - [Feeds](/feed/feeds)
-	- RSS/Atom
-	- neue Minecraft-Vanilla- und Paper-Versionen
+	- RSS/Atom für z. B. X (Twitter)/Mastodon/Lemmy/Statusseiten/Newsseiten
+	- neue Minecraft-Vanilla- und [PaperMC](https://papermc.io)-Versionen
 	- [YouTube-Videos, -Shorts und -Livestreams](/feed/youtube#feeds)
 	- [Twitch-Livestreams](/feed/twitch)
 	- [Minecraft-Serverstatus](/mcupdate)
-	- Bluesky-Posts
+	- [Bluesky](https://bsky.app)-Posts
 - [AFK-Funktion](/afk)
-	- Liste aller AFK-Mitglieder auf dem Server
-	- Liste aller Erwähnungen beim Beenden des AFK-Status
+	- Liste aller AFK-Mitglieder ("Away from keyboard") auf dem Server
+	- Liste der Nutzererwähnungen, welche während des AFK-seins gesendet wurden
 - [Autorollen für Nutzer und Bots getrennt](/autorole)
 - [Autonickname beim Beitritt](/autorole)
 - [Rejoin-/Persistente Rollen, die beim erneuten Beitritt wiederhergestellt werden](/autorole)
 - [Antiraid](/moderation/antiraid)
 - [Übersetzungen von Nutzern](/weblate)
-- [Counting](/counting)
+- [Counting](/counting)/Zählen
 	- Viele verschiedene Einstellungen
-	- Leaderboard für erfolgreiches und nicht erfolgreiches Zählen
+	- Leaderboard für erfolgreiches Zählen und für Fehler
 - [Geburtstage](/birthday)
 	- "Fiktive" (Server) und globale (Nutzer) Geburtstage
 	- Liste aller Geburtstage auf dem Server
-	- Einstellbare Rolle und Nachricht
+	- Einstellbare Zeit, Rolle und Nachricht für Geburtstagsankündigungen
 - [Level und Leaderboard](/level)
 	- Festlegung einer Rolle, einer Nachricht und der Anzahl der Levelpunkte pro Level möglich
-	- Leveln pro Nachricht oder pro Zeichen
+	- Leveln pro Nachricht oder je nach Zeichenanzahl
 - [Statistiken in Kanalnamen](/serverstats)
 - [Serverstatistiken ohne zeitliches Ablaufdatum](/serverstats)
 - [Tickets](/category/tickets)
@@ -59,7 +59,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 	- [Claimen](/tickets/commands)
 	- Supporter- und Moderatorrollen für Zugriff
 	- Konfigurierbares Ticketembed sowie Ticketstart-Nachricht pro Kategorie
-	- Discord-Transkripte inklusive Anhängen
+	- Discord-Transkripte inklusive der Anhänge
 - [Selbst zuweisbare Rollen/Reactionroles](/reactionroles) mit:
 	- Reaktionen
 	- Buttons
@@ -100,7 +100,6 @@ Alle diese Funktionen sind kostenlos verfügbar!
 	- einen Nutzer oder Bot
 	- ein Wort aus dem Duden
 	- die grammatikalische Korrektheit eines Textes (Duden Mentor)
-		- Korrektheit eines oder mehrerer Minecraft-Befehle
 	- HTTP-Statuscodes und -Header
 	- Cloudflare-Statuscodes
 	- Discord-Berechtigungen
@@ -131,8 +130,8 @@ Alle diese Funktionen sind kostenlos verfügbar!
 - Unterschiede zwischen/Vergleich von zwei Texten
 - [Backups erstellen und laden, kein anderer Bot hat eine vergleichbare Anzahl an Backupfunktionen](/backups)
 - [Discord-Templates (discord.new) auf bestehenden Servern laden](/backups#templates)
-- TODO-Liste
-- [Umfragen](/poll)
+- TODO-Liste pro Nutzer
+- Benutzerdefinierte [Umfragen](/poll)
 - [Automatisch updatende Nachrichten für z. B. Serverstatistiken oder Geburtstagskalender](/autoupdate)
 - Alle Nutzer in einem Sprachkanal stumm schalten oder taub stellen
 - [Modals ("Forms")](/modals) für Discord erstellen

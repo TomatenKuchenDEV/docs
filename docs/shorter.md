@@ -1,15 +1,9 @@
 ---
 title: Shorter command
-description: This page explains the shorter command.
+description: This page explains sh0rt.zip and the related shorter command.
 ---
 
-sh0rt.zip is a simple URL shortener made by the same developer as TomatenKuchen.
-
-:::info Link
-
-[Link to sh0rt.zip](https://sh0rt.zip)
-
-:::
+[sh0rt.zip](https://sh0rt.zip) is a simple URL shortener made by the same developer as TomatenKuchen.
 
 ## Following URL redirects {#follow-redirects}
 
@@ -23,7 +17,7 @@ These statistics are collected anonmously by [Cloudflare](https://cloudflare.com
 
 ## Creating a short URL {#create}
 
-`shorter create <URL> [<Name>]` creates a short URL with the given name.
+`shorter create <Target URI> [<Name>]` creates a short URL with the given name.
 
 If you don't enter a name, it'll generate a few random characters.
 

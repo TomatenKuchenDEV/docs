@@ -1,15 +1,9 @@
 ---
 title: Shorter-Befehl
-description: Diese Seite erklärt den Shorter-Befehl.
+description: Diese Seite erklärt sh0rt.zip und den dazugehörigen Shorter-Befehl.
 ---
 
-sh0rt.zip ist ein einfacher URL-Shortener, erstellt vom selben Entwickler wie TomatenKuchen.
-
-:::info Link
-
-[Link zu sh0rt.zip](https://sh0rt.zip)
-
-:::
+[sh0rt.zip](https://sh0rt.zip) ist ein einfacher URL-Shortener, erstellt vom selben Entwickler wie TomatenKuchen.
 
 ## URL-Redirects folgen {#follow-redirects}
 
@@ -23,7 +17,7 @@ Diese Statistiken werden von [Cloudflare](https://cloudflare.com) anonymisiert g
 
 ## Short-URL erstellen {#create}
 
-`shorter create <URL> [<Name>]` erstellt eine Short-URL unter dem angegebenen Namen.
+`shorter create <Target URI> [<Name>]` erstellt eine Short-URL unter dem angegebenen Namen.
 
 Wenn du keinen Namen angegeben hast generiert der Bot einige zufällige Zeichen und verwendet diese für den Namen.
 

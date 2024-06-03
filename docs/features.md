@@ -28,15 +28,15 @@ All of these features are available for free!
 - [Partnerships](/partnerships)
 - [Thread time actions](/thread-time-action)
 - [Feeds](/feed/feeds)
-	- RSS/Atom
-	- New Minecraft vanilla and PaperMC versions
+	- RSS/Atom for e.g. X (Twitter)/Mastodon/Lemmy/Status pages/News sites
+	- New Minecraft vanilla and [PaperMC](https://papermc.io) versions
 	- [YouTube videos, shorts, and livestreams](/feed/youtube#feeds)
 	- [Twitch livestreams](/feed/twitch)
 	- [Minecraft server status](/mcupdate)
-	- Bluesky posts
+	- [Bluesky](https://bsky.app) posts
 - [AFK feature](/afk)
-	- List of all AFK members on the server
-	- List of all mentions received while AFK after the AFK state ends
+	- List of all AFK ("Away from keyboard") members on the server
+	- List of user mentions received while AFK
 - [Auto roles for bots and users separately](/autorole)
 - [Auto nickname on join](/autorole)
 - [Rejoin/persistent roles that users receive upon rejoining](/autorole)
@@ -44,14 +44,14 @@ All of these features are available for free!
 - [Translations from users](/weblate)
 - [Counting](/counting)
 	- Many different settings
-	- Leaderboard for successful and failed countings
+	- Leaderboard for successful counts and mistakes
 - [Birthdays](/birthday)
 	- Fictive (servers) and global (users) birthdays
 	- List of all birthdays on the server
-	- Configurable role and message
+	- Configurable time, role and message for birthday announcements
 - [Level and leaderboard](/level)
 	- For each level, you can set a role, a message, and the amount of level points
-	- Leveling by message or character
+	- Leveling per message or character count
 - [Statistics in channel names](/serverstats)
 - [Server statistics with no expiration](/serverstats)
 - [Tickets](/category/tickets)
@@ -131,8 +131,8 @@ All of these features are available for free!
 - Comparing two texts
 - [Creating and loading backups; no other bot has as many backup features](/backups)
 - [Loading Discord templates (discord.new) on existing servers](/backups#templates)
-- TODO list
-- [Polls](/poll)
+- TODO list per user
+- Customizable [Polls](/poll)
 - Muting or deafening all users in a voice channel
 - [Automatic updating messages, e.g. for server statistics or birth calendars](/autoupdate)
 - Creation of [modals ("forms")](/modals) for Discord
