@@ -14,6 +14,7 @@ All of these features are available for free!
 - [Custom bots](/category/custom-bot) (custom branding/white-label)
 - [Integrations](/integrations)
 	- Integrations can easily replace custom commands (custom bot responses, also known as "Tags")
+- A custom [message editor](/messageeditor)
 - [Moderation](/category/moderation)
 	- [Many common moderation commands](/moderation/commands), such as `lockdown`, `slowmode`, and `dehoist`
 	- Integration with Discord AutoMod is possible
@@ -37,10 +38,13 @@ All of these features are available for free!
 - [AFK feature](/afk)
 	- List of all AFK ("Away from keyboard") members on the server
 	- List of user mentions received while AFK
+- New member [verification](/verification) using e.g. a website or Captcha
 - [Auto roles for bots and users separately](/autorole)
-- [Auto nickname on join](/autorole)
+- [Auto nickname on join](/autonickname)
 - [Rejoin/persistent roles that users receive upon rejoining](/autorole)
 - [Antiraid](/moderation/antiraid)
+- [Publishing of messages in announcement channels](/autopublish) ("Autopublish")
+- [Quoting messages](/quoting-messages), if enabled even across servers
 - [Translations from users](/weblate)
 - [Counting](/counting)
 	- Many different settings
@@ -82,11 +86,10 @@ All of these features are available for free!
 	- Mode that requires suggestions to be approved by the team
 - Economy
 - Information on:
-	- Minecraft:
+	- [Minecraft](/minecraft):
 		- Players
 		- Servers
 		- Crafting recipes (using German names)
-		- Validation of one or more commands
 	- a [npm](https://npmjs.com) or [PyPi](https://pypi.org) package
 	- an element of the periodic table
 	- a [GitHub](https://github.com) user
@@ -107,7 +110,7 @@ All of these features are available for free!
 	- a [YouTube channel including search](/feed/youtube#command)
 	- a [Twitch streamer](/feed/twitch#commands)
 	- banned and muted users of the server
-	- movies, series, and actors including search
+	- [movies, series, and actors including search](/movie)
 	- Discord ID/snowflake info
 	- DNS records of a domain
 	- Discord status
@@ -132,10 +135,12 @@ All of these features are available for free!
 - [Creating and loading backups; no other bot has as many backup features](/backups)
 - [Loading Discord templates (discord.new) on existing servers](/backups#templates)
 - TODO list per user
-- Customizable [Polls](/poll)
+- Customizable [polls](/poll)
 - Muting or deafening all users in a voice channel
 - [Automatic updating messages, e.g. for server statistics or birth calendars](/autoupdate)
 - Creation of [modals ("forms")](/modals) for Discord
+- [Voice notify](/voicenotify) for users joining a voice channel
+- [Automatic thread creation on messages](/autothread)
 - [Adding a role to Nitro users](/nitroverify)
 - [Converting currencies and other measuring units](/convert)
 - [Sending messages with embeds and components, such as buttons](https://embed.tomatenkuchen.com)

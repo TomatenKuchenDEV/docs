@@ -14,6 +14,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 - [Custom-Bots](/category/custom-bot) (custom Branding/White-Label)
 - [Integrationen](/integrations)
 	- Problemloses Ablösen von Customcommands (eigene Antworten, auch bekannt als "Tags")
+- Ein eigener [Nachrichteneditor](/messageeditor)
 - [Moderation](/category/moderation)
 	- [Viele Standardmoderationsbefehle](/moderation/commands), z. B. `lock`, `slowmode` und `dehoist`
 	- Reagieren auf Discord-AutoMod möglich
@@ -37,10 +38,13 @@ Alle diese Funktionen sind kostenlos verfügbar!
 - [AFK-Funktion](/afk)
 	- Liste aller AFK-Mitglieder ("Away from keyboard") auf dem Server
 	- Liste der Nutzererwähnungen, welche während des AFK-seins gesendet wurden
+- [Verifikation](/verification) neuer Mitglieder, z. B. mit einer Website oder einem Captcha
 - [Autorollen für Nutzer und Bots getrennt](/autorole)
-- [Autonickname beim Beitritt](/autorole)
+- [Autonickname beim Beitritt](/autonick)
 - [Rejoin-/Persistente Rollen, die beim erneuten Beitritt wiederhergestellt werden](/autorole)
 - [Antiraid](/moderation/antiraid)
+- [Veröffentlichen von Nachrichten in Ankündigungskanälen](/autopublish) ("Autopublish")
+- [Zitieren von Nachrichten](/quoting-messages), wenn aktiviert auch über Server hinweg
 - [Übersetzungen von Nutzern](/weblate)
 - [Counting](/counting)/Zählen
 	- Viele verschiedene Einstellungen
@@ -82,7 +86,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 	- Modus, in dem Vorschläge zuerst vom Team zugelassen werden müssen
 - Economy
 - Informationen über:
-	- Minecraft:
+	- [Minecraft](/minecraft):
 		- Spieler
 		- Server
 		- Herstellungsrezepte
@@ -106,7 +110,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 	- einen [YouTube-Kanal mit Suchfunktion](/feed/youtube#command)
 	- einen [Twitch-Streamer](/feed/twitch#commands)
 	- gebannte und gemutete Nutzer des Servers
-	- Filme, Serien und Schauspieler mit Suchfunktion
+	- [Filme, Serien und Schauspieler mit Suchfunktion](/movie)
 	- Discord-Snowflakes
 	- DNS einer Domain
 	- Discord-Status
@@ -135,6 +139,8 @@ Alle diese Funktionen sind kostenlos verfügbar!
 - [Automatisch updatende Nachrichten für z. B. Serverstatistiken oder Geburtstagskalender](/autoupdate)
 - Alle Nutzer in einem Sprachkanal stumm schalten oder taub stellen
 - [Modals ("Forms")](/modals) für Discord erstellen
+- [Voicenotify](/voicenotify) für Nutzer, die einem Sprachkanal beitreten
+- [Automatische Threaderstellung auf Nachrichten](/autothread)
 - [Nutzern mit Nitro eine Rolle zuweisen](/nitroverify)
 - [Umwandlung von Währungen und Maßeinheiten](/convert)
 - [Senden von selbst erstellten Nachrichten mit Embeds und Komponenten, z. B. Buttons](https://embed.tomatenkuchen.com)

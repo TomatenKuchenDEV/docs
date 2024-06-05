@@ -111,7 +111,7 @@ const config = {
 			hideOnScroll: true,
 			items: [
 				{
-					label: "Bot website",
+					label: "Website",
 					href: "https://tomatenkuchen.com"
 				},{
 					label: "Invite",
@@ -130,7 +130,7 @@ const config = {
 							href: "https://translate.tomatenkuchen.com/engage/tomatenkuchen",
 							label: "Bot & website translation"
 						},{
-							href: "https://github.com/DEVTomatoCake/tk-docs",
+							href: "https://github.com/DEVTomatoCake/tk-docs/tree/main/i18n",
 							label: "Docs translation"
 						}
 					]
