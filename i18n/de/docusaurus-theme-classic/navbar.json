@@ -12,7 +12,7 @@
     "description": "Navbar item with label Bot website"
   },
   "item.label.Invite": {
-    "message": "Bot einladen",
+    "message": "App einladen",
     "description": "Navbar item with label Invite"
   },
   "item.label.Support server": {

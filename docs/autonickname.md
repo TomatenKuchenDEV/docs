@@ -18,7 +18,7 @@ Only the roles entered in this field will be displayed in the nickname.
 
 ### Format of the nickname {#format}
 
-This value determines how the bot constructs the nickname.
+This value determines how the nickname is constructed.
 
 The following variables can be used:
 - `{roles}`: One or more role abbreviations (depending on the settings)

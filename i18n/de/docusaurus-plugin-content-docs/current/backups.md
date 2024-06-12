@@ -12,7 +12,7 @@ Mit Backups kannst du im Falle eines Servergriefs oder der ausversehenen Löschu
 - Backups werden standardmäßig für immer gespeichert
 	- Aufgrund einer Discord-Richtlinie werden die Nachrichten eines Backups unter Umständen nach 30 Tagen gelöscht.
 - Das Erstellen und Laden ist für alle Nutzer kostenlos
-- Es werden alle Einstellungen von Discord-Servern gespeichert, die der Bot sinnvoll wiederherstellen kann.
+- Es werden alle Einstellungen von Discord-Servern gespeichert, die TomatenKuchen sinnvoll wiederherstellen kann.
 - Normale Nutzer können maximal vier Backups gleichzeitig besitzen
 - Backups dürfen nicht größer als einige Megabyte sein - dieses Limit wird im Normalfall nur bei der sogenannten sicheren Speicherung von Bildern erreicht.
 

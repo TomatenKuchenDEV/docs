@@ -9,4 +9,4 @@ If you've already enabled the developer, there's a button "Copy ID" to copy the 
 If there's no option to copy the ID, make sure you have the developer mode enabled.
 To do that, follow [the tutorial by Discord](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID).
 
-If there's a respective bot command, you can also use it to get the ID, e.g. `message id`, `user`, `emoji info`, `channel info`, `role info`, and `server`.
+If there's a respective command, you can also use it to get the ID, e.g. `message id`, `user`, `emoji info`, `channel info`, `role info`, and `server`.

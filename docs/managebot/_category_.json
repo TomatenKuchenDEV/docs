@@ -4,7 +4,7 @@
 	"link": {
 		"type": "generated-index",
 		"title": "Manage Bot Help",
-		"description": "Information about the Manage Bot, a bot allowing you to control your Pterodactyl panel servers from Discord.",
+		"description": "Information about the Manage Bot, a Discord app allowing you to control your Pterodactyl panel servers from Discord.",
 		"image": "/img/managebot_manage.webp"
 	}
 }

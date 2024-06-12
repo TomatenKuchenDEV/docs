@@ -14,7 +14,7 @@ Du kannst dabei entweder die Datei als Anhang hochladen oder eine URL einfügen.
 
 ### Event-Reminder {#reminder}
 
-Hier kann ein Kanal ausgewählt werden, in welchen der Bot eine Nachricht sendet, kurz bevor ein Event beginnt.
+Hier kann ein Kanal ausgewählt werden, in welchen die Discord-App eine Nachricht sendet, kurz bevor ein Event beginnt.
 Die Zeit, wie lange davor ein Event angekündigt wird, wird durch die "time"-Einstellung als relative Zeit festgelegt.
 
 Ebenfalls kann die gesendete Nachricht mit den angegebenen Variablen vollständig angepasst werden.

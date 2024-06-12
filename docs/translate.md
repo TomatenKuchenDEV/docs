@@ -34,7 +34,7 @@ Using the integration [`autotranslate`](https://tomatenkuchen.com/dashboard/inte
 
 It's also possible to detect the language of a text and depending on that, translate the text into a different language.
 
-This can be used to have e.g. an English and a Spanish channel combined, with the bot translating Spanish messages into English, and English messages into Spanish.
+This can be used to have e.g. an English and a Spanish channel combined, with the app translating Spanish messages into English, and English messages into Spanish.
 
 :::
 
@@ -43,5 +43,5 @@ This can be used to have e.g. an English and a Spanish channel combined, with th
 Using the integration [`flag-reaction-translate`](https://tomatenkuchen.com/dashboard/integrations?info=flag-reaction-translate) messages can be translated by reacting to a message with the flag of a country mainly speaking the target language.
 
 1. [Add the integration to your server](https://tomatenkuchen.com/dashboard/integrations?use=flag-reaction-translate)
-2. Ensre the bot has all required permissions in the channel you want to use it in.
+2. Ensre the Discord app has all required permissions in the channel you want to use it in.
 3. Click on "Create integration" - done!

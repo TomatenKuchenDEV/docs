@@ -45,7 +45,7 @@ Possible actions:
 When using "mute" or "cooldown", you must specify the duration for which the user will be muted or how long they have to wait.
 
 Note that "cooldown" does not prevent users from sending DM messages.
-To prevent this, use "mute", which disables buttons as well as new DMs using a Discord timeout and displays the wait time better than the bot can.
+To prevent this, use "mute", which disables buttons as well as new DMs using a Discord timeout and displays the wait time better than apps on Discord can.
 
 ### Task difficulty {#difficulty}
 

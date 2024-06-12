@@ -128,7 +128,7 @@ const config = {
 					dropdownItemsAfter: [
 						{
 							href: "https://translate.tomatenkuchen.com/engage/tomatenkuchen",
-							label: "Bot & website translation"
+							label: "App & website translation"
 						},{
 							href: "https://github.com/DEVTomatoCake/tk-docs/tree/main/i18n",
 							label: "Docs translation"

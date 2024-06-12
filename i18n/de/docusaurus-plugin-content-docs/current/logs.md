@@ -3,7 +3,7 @@ title: Logs
 description: Diese Seite erklärt das Discord-Server-Aktions-Logsystem.
 ---
 
-TomatenKuchen hat ein sehr funktionsreiches Logsystem, was die meisten aller Aktionen loggt, die Bots feststellen können.
+TomatenKuchen hat ein sehr funktionsreiches Logsystem, was die meisten aller Aktionen loggt, die Discord-Apps feststellen können.
 
 Beachte, dass der Bot für die meisten Logs die Berechtigung "Auditlog ansehen" benötigt.
 

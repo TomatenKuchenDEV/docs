@@ -1,12 +1,12 @@
 ---
 title: YouTube-Feeds
-description: Der Bot hat unter anderem die Möglichkeit, hochgeladene Videos oder Shorts von YouTube-Kanälen anzukündigen.
+description: TomatenKuchen hat unter anderem die Möglichkeit, hochgeladene Videos oder Shorts von YouTube-Kanälen anzukündigen.
 ---
 
 YouTube-Benachrichtigungen erlauben dir, eine Nachricht zu senden, wenn ein Nutzer ein neues Video oder Short auf YouTube hochlädt.
 Wenn ein Nutzer eine Premiere plant wird diese auch gesendet.
 
-Der Bot sucht alle zehn Minuten nach neuen Videos, aufgrund von Limitierungen von YouTube kann es in Einzelfällen aber auch mal etwas länger dauern.
+Die App sucht alle zehn Minuten nach neuen Videos.
 
 ## Befehl {#command}
 

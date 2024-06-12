@@ -1,6 +1,6 @@
 ---
 title: Twitch module for e.g. livestreams
-description: Using the bot you can send a message if a Twitch streamer goes live or something else changes.
+description: Using TomatenKuchen you can send a message if a Twitch streamer goes live or something else changes.
 ---
 
 The Twitch module has several options for sending messages on changes of a streamer.

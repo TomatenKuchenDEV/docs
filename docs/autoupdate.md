@@ -13,8 +13,8 @@ Autoupdate ("automatically updating messages") are messages which auto update **
 All variables ignore the name casing.
 
 - `{members}`: Member count
-- `{members.humans}`: Non bot count
-- `{members.bots}`: Bot count
+- `{members.humans}`: Non-app count
+- `{members.bots}`: App count
 - `{emojis}`: Emoji amount
 - `{stickers}`: Sticker amount
 - `{roles}`: Role amount

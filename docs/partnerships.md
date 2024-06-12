@@ -13,7 +13,7 @@ Adds a partner.
 
 By choosing a channel, the partner automatically receives the configured category.
 
-If all inputs are correct, the bot automatically sends the message into the partner channel.
+If all inputs are correct, the app automatically sends the message into the partner channel on Discord.
 If you don't want that, simply send the message into the channel by yourself or ask the partner manager to do so.
 
 ### `list` {#cmd-list}

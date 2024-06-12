@@ -16,7 +16,7 @@ Channel name and topic are only updated once every five minutes due to a Discord
 
 :::warning Permissions
 
-For the setup, the bot requires permissions for editing and deleting messages in the current channel.
+For the setup, the app requires permissions for editing and deleting messages in the current channel.
 
 :::
 
@@ -30,6 +30,6 @@ If you've enabled the query port, enter it **additionally** using the argument `
 Using the query port more information can be displayed, e.g. the current player names, used plugins and a few more.
 
 Next up is the type which is explained above already.
-The bot also wants to know the channel and format to know how you want the status to be formatted.
+The app also wants to know the channel and format to know how you want the status to be formatted.
 
 After you've completed the setup it may take a few minutes until the status is displayed.

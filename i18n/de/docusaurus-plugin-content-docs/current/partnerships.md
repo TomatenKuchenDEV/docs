@@ -13,7 +13,7 @@ Fügt einen Partner hinzu.
 
 Durch das Auswählen eines Kanals wird dem Partner automatisch die eingestellte Kategorie zugewiesen.
 
-Wenn alle Eingaben korrekt sind sendet der Bot die Nachricht in den Partnerkanal.
+Wenn alle Eingaben korrekt sind sendet TomatenKuchen die Nachricht in den Partnerkanal.
 Wenn du dies nicht möchtest, sende die Nachricht einfach selbst in den Kanal oder bitte den Partnermanager, dies zu tun.
 
 ### `list` {#cmd-list}

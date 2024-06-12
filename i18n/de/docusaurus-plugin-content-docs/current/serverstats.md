@@ -15,9 +15,9 @@ Die Kanalnamens-Statistiken werden automatisch alle **10 Minuten** aktualisiert.
 
 ## Statistiken auf der Website und `stats`-Befehl {#website-command}
 
-Beispiel von Statistiken auf der Botwebsite: [Vanilla Minigames Statistiken](https://tomatenkuchen.com/stats?guild=608640398595719170)
+Beispiel von Statistiken auf der Bot-Website: [Vanilla Minigames Statistiken](https://tomatenkuchen.com/stats?guild=608640398595719170)
 
-Der Bot sammelt täglich Statistiken über Server. Dazu gehören:
+TomatenKuchen sammelt täglich Statistiken über Server. Dazu gehören:
 - Mitgliederanzahl
 - Boostanzahl
 - von Nutzern gesendete Nachrichten
@@ -45,7 +45,7 @@ Diese Optionen können auch beim `stats`-Befehl verwendet werden. Dieser generie
 
 ### Sichtbarkeit {#visibility}
 
-Du kannst [in den Einstellungen](https://tomatenkuchen.com/dashboard/settings#publicStats) die Sichtbarkeit der Statistiken ändern.
+Du kannst in den [Einstellungen](https://tomatenkuchen.com/dashboard/settings#publicStats) die Sichtbarkeit der Statistiken ändern.
 Du kannst zwischen "Public" ("öffentlich", für jeden mit dem Link aufrufbar), "Only Members" ("Nur für Servermitglieder") und "Disabled" ("deaktiviert", versteckt die Statistiken für alle) wählen.
 
 Beachte, dass "Only Members" und "Disabled" das Sammeln von Nachrichtenstatistiken (Anzahl Nachrichten & aktiver Chatter) deaktivieren.

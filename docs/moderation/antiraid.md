@@ -3,7 +3,7 @@ title: Antiraid
 description: The antiraid system can easily detect and prevent most join raids.
 ---
 
-Using the antiraid system of TomatenKuchen the bot will handle most server joins raids problemlessly.
+Using the antiraid system of TomatenKuchen, it will handle most server joins raids easily without staff having to do anything.
 
 If enabled, the system remembers all newly joined users.
 If too many members join in the configured time window, the recently joined as well as any new joiníng users are kicked, until the limit is no longer hit.
@@ -22,7 +22,7 @@ The option "Kick members" kicks all newly joined users during a raid.
 
 :::warning Community servers only
 
-Only available on Discord community servers due to Discord not enabling "Pause invites" for bots on other servers.
+Only available on Discord community servers due to Discord not enabling "Pause invites" for apps on non-community servers.
 
 :::
 
@@ -37,7 +37,7 @@ If you think that a raid has already ended, simply enable the invites again from
 
 This setting configures how many users can at most join the server in the configured time in seconds.
 
-If this amount of joins is reached within the below configured time window, the bot detects a raid.
+If this amount of joins is reached within the below configured time window, TomatenKuchen will detect a raid.
 
 ## Time window {#seconds}
 

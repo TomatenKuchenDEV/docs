@@ -64,7 +64,7 @@ If webhooks should be used. Prevents message editing and deleting. Requires Mana
 
 ### Use reactions {#reactions}
 
-Whether the bot should react randomly with either "✅" or "☑" on valid counting messages.
+Whether the bot should react with either "✅" or "☑" on valid counting messages.
 
 Will be ignored if "Use webhooks" is enabled.
 

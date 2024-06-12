@@ -15,7 +15,7 @@ The Manage Bot allows you to create customcommands to manage a server.
 Creates a customcommand on the server, linked to your panel access data.
 
 You can find the panel alias using `/list`.
-If no response is set the bot will reply with "The command was run in panel …: …"
+If no response is set, the Discord app will reply with "The command was run in panel …: …"
 
 ### `/customcommand delete <Name>` {#cc-delete}
 

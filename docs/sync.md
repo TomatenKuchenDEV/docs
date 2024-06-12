@@ -1,6 +1,6 @@
 ---
 title: Syncing logs & bans
-description: The bot can also sync logs and bans, as well as unbans, across multiple servers.
+description: TomatenKuchen can sync Discord server logs and member bans, as well as unbans, across multiple servers.
 ---
 
 ## General setup {#setup}

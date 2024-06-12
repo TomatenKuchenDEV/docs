@@ -1,6 +1,6 @@
 ---
-title: Bot setup
-description: This doc helps you with the general setup of the bot.
+title: TomatenKuchen setup
+description: This doc helps you with the general setup of the feature-rich Discord app.
 slug: /
 ---
 
@@ -10,11 +10,11 @@ Du verstehst Deutsch? Dann verwende die [deutsche Version dieser Docs](https://d
 
 :::
 
-TomatenKuchen is a fully free multipurpose bot which can be used on all kind of Discord servers.
+TomatenKuchen is a fully free multipurpose Discord app which can be used on all kind of Discord servers.
 
 ## [Invite TomatenKuchen](https://tomatenkuchen.com/invite) {#invite}
 
-You can invite the bot using [this invite link](https://tomatenkuchen.com/invite).
+You can invite the app using the [invite link](https://tomatenkuchen.com/invite).
 
 You'll automatically be logged in into the dashboard which allows you to modify [server settings](/general-settings).
 
@@ -24,7 +24,7 @@ If you need help with something, let it be an error, a setting or other setup - 
 
 ## Settings {#settings}
 
-In the [dashboard](https://tomatenkuchen.com/dashboard/settings) all settings of the bot can be changed.
+In the [dashboard](https://tomatenkuchen.com/dashboard/settings) all settings can be changed.
 
 The most important settings are explained on the page [General settings](/general-settings).
 

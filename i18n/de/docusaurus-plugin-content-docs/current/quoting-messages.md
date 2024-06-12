@@ -11,6 +11,6 @@ Mit dieser [Einstellung](https://tomatenkuchen.com/dashboard/settings#quoteDisco
 
 ## Berechtigungen {#permissions}
 
-Der Bot benötigt die Berechtigungen "Nachrichten senden" und "Embeds einbetten" in dem Kanal, in dem die Nachricht zitiert werden soll.
+Die App benötigt die Berechtigungen "Nachrichten senden" und "Embeds einbetten" in dem Kanal, in dem die Nachricht zitiert werden soll.
 
 In Kanälen, aus denen eine Nachricht zitiert wird, müssen die Berechtigungen "Kanal ansehen" und "Nachrichtenverlauf ansehen" aktiviert sein.

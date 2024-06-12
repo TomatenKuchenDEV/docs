@@ -8,5 +8,5 @@ Mit dieser Funktion können Nutzer eine Rolle erhalten, wenn sie zum Zeitpunkt d
 In den [Einstellungen](https://tomatenkuchen.com/dashboard/settings#nitroVerifyRole) muss eine Rolle hierfür ausgewählt sein.
 Wenn dies getan ist können Nutzer mit dem Befehl `misc nitroverify` die Verifikation starten.
 
-Der Bot wird dir mit einer Nachricht antworten, auf die du mit einem animierten Emoji reagieren musst.
+TomatenKuchen wird dir mit einer Nachricht antworten, auf die du mit einem animierten Emoji reagieren musst.
 Wenn ein anderer Nutzer auf die Nachricht reagiert wird die Verifikation ungültig und du erhältst die Rolle nicht.

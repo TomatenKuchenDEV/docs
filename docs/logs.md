@@ -3,13 +3,13 @@ title: Logging
 description: This page explains the Discord server action logging system.
 ---
 
-TomatenKuchen provides feature rich logging about most actions that bots can capture.
+TomatenKuchen provides feature rich logging about most actions that apps on Discord can capture.
 
-Note that for most logs, the bot needs the "View Audit Log" permission.
+Note that for most logs, the app needs the "View Audit Log" permission.
 
 ## Log channels with categories {#categories}
 
-Logs are grouped into different categories. For each category you can select a channel in which the bot should send the logs to. The categories are:
+Logs are grouped into different categories. For each category you can select a channel in which the logs should be sent to. The categories are:
 
 - `messageUpdate`: Message of a user edited
 - `messageDelete`: Message of a user deleted

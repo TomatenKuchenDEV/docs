@@ -19,10 +19,10 @@ These statistics are collected anonmously by [Cloudflare](https://cloudflare.com
 
 `shorter create <Target URI> [<Name>]` creates a short URL with the given name.
 
-If you don't enter a name, it'll generate a few random characters.
+If you don't enter a name, it'll generate one automatically.
 
-If created successfully, the bot responds with the generated short URL, like https://sh0rt.zip/bundbot, and a QR code for easier sharing.
+If created successfully, you'll get the generated short URL, like https://sh0rt.zip/bundbot, and a QR code for easier sharing.
 
 To share the QR code as image link you can add "qr/" to the link, e.g. https://sh0rt.zip/qr/bundbot:
 
-![Bundbot shorter QR code](https://sh0rt.zip/qr/bundbot)
+![Shorter QR code for the Bundbot target](https://sh0rt.zip/qr/bundbot)

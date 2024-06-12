@@ -1,6 +1,6 @@
 ---
 title: Giveaways
-description: The bot allows you to create many feature-rich giveaways with multiple settings and requirements available.
+description: TomatenKuchenn allows you to create feature-rich giveaways with many settings and requirements available.
 ---
 
 To manage giveaways you need one of the [giveaway roles](https://tomatenkuchen.com/dashboard/settings#giveawayManageRoles) selected in the dashboard, or the "Manage Guild" permission.

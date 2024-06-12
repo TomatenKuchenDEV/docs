@@ -27,7 +27,7 @@ If you are interested in those modlog entries, ban the users one-by-one or ask o
 
 Dehoisting, which means the removal of unnormal characters at the beginning of usernames, can either be started using the `dehoist` command or by enabling the related setting.
 
-If the [setting for automatic dehoisting](./settings#auto-dehoist) is enabled, the bot will automatically dehoist all members once a day.
+If the [setting for automatic dehoisting](./settings#auto-dehoist) is enabled, the app will automatically dehoist all members once a day.
 
 ### Add role to multiple members {#cmd-role-massadd}
 

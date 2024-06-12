@@ -1,6 +1,6 @@
 ---
 title: Giveaways
-description: Der Bot erlaubt dir, Giveaways mit vielen Funktionen zu erstellen, mit mehreren verfügbaren Einstellungen und Bedingungen.
+description: TomatenKuchen erlaubt dir, Giveaways mit vielen Funktionen zu erstellen, mit mehreren verfügbaren Einstellungen und Bedingungen.
 ---
 
 Um Giveaways zu verwalten braucht man eine der im Dashhoard festgelegten Giveaway-Rollen oder die Berechtigung "Server verwalten".

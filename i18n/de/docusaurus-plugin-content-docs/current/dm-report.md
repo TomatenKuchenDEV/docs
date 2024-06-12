@@ -26,7 +26,7 @@ Reports werden (oder sollten) vertraulich behandelt (werden), deswegen sollte es
 
 :::
 
-Der Befehl gibt eine Nachricht zurück, auf der der Nutzer die korrekte Anwendung bestätigen muss, und den Bot als User-Application hinzufügen muss, damit der Bot die Möglichkeit zum Hinzufügen des "Nachricht melden"-Kontextmenüs hat.
+Der Befehl gibt eine Nachricht zurück, auf der der Nutzer die korrekte Anwendung bestätigen muss, und die Discord-App als User-App hinzufügen muss. Nur so hat TomatenKuchen die Möglichkeit, das "Nachricht melden"-Kontextmenü hinzuzufügen.
 Dieses Setup muss nur einmalig durchgeführt werden.
 
 Nachdem das Setup fertiggestellt wurde wird der Code, welcher beim Buttonklick zurückgegeben wird, in das Modal eingefügt, welches beim Auswählen des Kontextmenüs (Rechtsklick/lange auf die Nachricht drücken -> "Apps" -> "Nachricht melden") angezeigt wird.

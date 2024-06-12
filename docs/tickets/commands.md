@@ -72,10 +72,6 @@ After creation, you can fully edit the message using our [message editor](/messa
 
 <Command name="transcript"></Command>
 
-If you want to prevent the transcript being sent into the channel (or the bot responding at all), use the following command:
-
-<Command name="transcript" message="--noreply"></Command>
-
 ## Rename ticket {#cmd-rename}
 
 <Command name="tickets name" slash="name:New ticket name" message="<New ticket name>"></Command>

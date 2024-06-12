@@ -132,7 +132,7 @@ Alle diese Funktionen sind kostenlos verfügbar!
 - [Textübersetzung](/translate)
 - Taschenrechner
 - Unterschiede zwischen/Vergleich von zwei Texten
-- [Backups erstellen und laden, kein anderer Bot hat eine vergleichbare Anzahl an Backupfunktionen](/backups)
+- [Backups erstellen und laden](/backups), keine andere App auf Discord hat eine vergleichbare Anzahl an Backupfunktionen
 - [Discord-Templates (discord.new) auf bestehenden Servern laden](/backups#templates)
 - TODO-Liste pro Nutzer
 - Benutzerdefinierte [Umfragen](/poll)

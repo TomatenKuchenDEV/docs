@@ -64,7 +64,7 @@ Ob Webhooks für Nachrichten verwendet werden sollen. Verhindert das Bearbeiten 
 
 ### Reaktionen verwenden {#reactions}
 
-Ob der Bot auf gültige Nachrichten zufällig mit entweder "✅" oder "☑" reagieren soll.
+Ob TomatenKuchen auf gültige Nachrichten zufällig mit entweder "✅" oder "☑" reagieren soll.
 
 Wird ignoriert, wenn "Webhooks verwenden" aktiviert ist.
 

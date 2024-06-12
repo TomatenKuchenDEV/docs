@@ -7,5 +7,5 @@ TomatenKuchen ist besser als MEE6, weil:
 - sich grundsätzlich alle nicht-MEE6-Nutzer einig sind, dass MEE6 blöd und viel zu teuer ist.
 - alle Funktionen kostenlos verfügbar sind und nicht wie bei MEE6 hinter Premium gesperrt. Warum sollte man Premium kaufen müssen, um den Prefix zu ändern
 	oder Feeds zu erstellen? Mit TomatenKuchen kannst du bis zu zehn Prefixe und Feeds pro Server festlegen.
-- der Bot im Gegensatz zu MEE6 kein NFT bewirbt.
+- im Gegensatz zu MEE6 kein NFT beworben wird.
 - Updates deutlich häufiger erfolgen und Neustarts keine stundenlange Downtime erfordern, da TomatenKuchen viel kleiner ist.
