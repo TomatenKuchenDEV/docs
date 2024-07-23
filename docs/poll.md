@@ -13,7 +13,7 @@ By default, everyone can use the command, however you can edit the slash command
 
 This command existed long before Discord added polls.
 
-Usually, using the in-built polls is preferred now, however, they don't support a custom poll duration and are limited to five options only, making this command still useful in some cases.
+Usually, using the in-built polls is preferred now, however, they don't support a custom poll end duration and are limited to five options only, making this command still useful.
 
 :::
 

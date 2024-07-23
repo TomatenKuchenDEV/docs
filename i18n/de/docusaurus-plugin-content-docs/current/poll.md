@@ -11,9 +11,9 @@ Standardmäßig kann jeder den Befehl nutzen, jedoch kannst du die Berechtigunge
 
 :::note Discord-native Umfragen
 
-Diesen Befehl gibt es schon lange, bevor Discord Umfragen hinzugefügt hat.
+Diesen Befehl gab es schon lange, bevor Discord Umfragen hinzugefügt hat.
 
-Grundsätzlich bieten die eingebauten Umfragen alle notwendigen Funktionen, jedoch unterstützen sie keine benutzerdefinierte Endzeit und limitieren auf fünf mögliche Optionen, weswegen dieser Befehl in Sonderfällen weiterhin nützlich ist.
+Grundsätzlich bieten die eingebauten Umfragen alle notwendigen Funktionen, jedoch unterstützen sie keine benutzerdefinierte Endzeit und limitieren auf fünf mögliche Optionen, weswegen dieser Befehl weiterhin nützlich sein kann.
 
 :::
 
