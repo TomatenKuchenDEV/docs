@@ -88,7 +88,7 @@ const config = {
 				docs: {
 					sidebarPath: require.resolve("./sidebars.js"),
 					routeBasePath: "/",
-					editUrl: "https://github.com/DEVTomatoCake/tk-docs/tree/main",
+					editUrl: "https://github.com/TomatenKuchenDEV/docs/tree/main",
 					editLocalizedFiles: true
 				},
 				blog: false,
@@ -130,7 +130,7 @@ const config = {
 							href: "https://translate.tomatenkuchen.com/engage/tomatenkuchen",
 							label: "App & website translation"
 						},{
-							href: "https://github.com/DEVTomatoCake/tk-docs/tree/main/i18n",
+							href: "https://github.com/TomatenKuchenDEV/docs/tree/main/i18n",
 							label: "Docs translation"
 						}
 					]

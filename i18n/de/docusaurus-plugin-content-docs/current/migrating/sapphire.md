@@ -10,7 +10,7 @@ TomatenKuchen ist besser als der Sapphire-Bot, weil:
 - Updates mit neuen Funktionen meist täglich erfolgen, und nicht nur einmal alle paar Wochen bis Monate.
 - Custom-Bots kein Geld kosten, sondern nur durch Votes erhältlich sind. Dadurch kann jedes Servermitglied aktiv helfen, dem Server Custom-Branding bereitzustellen,
 	und TomatenKuchen wachsen zu lassen.
-- auch wenn das Dashboard von Sapphire zugegebenermaßen schöner aussieht, so ist das von TomatenKuchen [Open-Source](https://github.com/DEVTomatoCake/dashboard),
+- auch wenn das Dashboard von Sapphire zugegebenermaßen schöner aussieht, so ist das von TomatenKuchen [Open-Source](https://github.com/TomatenKuchenDEV/dashboard),
 	wodurch jeder die Möglichkeit hat, das Design zu verbessern.
 - Übersetzungen werden zentral verwaltet und sind so auf allen Servern sofort verfügbar und müssen nicht aktualisiert werden. Jeder kann eine neue Sprache übersetzen
 	oder sogar seine eigene hinzufügen.

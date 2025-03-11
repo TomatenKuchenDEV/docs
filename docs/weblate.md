@@ -13,10 +13,10 @@ Suggestions can be made by non-logged in users too, but they cannot receive a gi
 
 ## Languages {#langs}
 
-Currently, TomatenKuchen is translated into German and English manually. The translations into the languages French and Hungarian are done using DeepL.
+Currently, TomatenKuchen is translated into German and English manually. The translations into the languages French and Hungarian are done using the DeepL translator.
 
 ## Documentation {#docs}
 
-The content and translation of this documention is done on [GitHub](https://github.com/DEVTomatoCake/tk-docs).
+The content and translation can be edited on [GitHub](https://github.com/TomatenKuchenDEV/docs).
 
 If you want to help with the docs, create a GitHub account, fork the repository, edit the file and create a Pull Request with your changes.
