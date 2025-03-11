@@ -8,7 +8,7 @@ updates:
       time: "05:00"
       timezone: "Europe/Berlin"
     assignees:
-      - "DEVTomatoCake"
+      - "booky10"
     groups:
       docusaurus:
         patterns:
